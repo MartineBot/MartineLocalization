@@ -1,3 +1,5 @@
+project_id: 562663
+
 files:
   - source: /resources/locales-sources/*.ftl
     translation: /resources/locales/%locale%/%original_file_name%
