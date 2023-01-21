@@ -7,7 +7,6 @@ shelp-context-cmds-desc = These commands are available when right clicking/holdi
 shelp-user-cmds = User commands:
 slash-help-msg-cmds = Message commands:
 slash-help-extra-links = Extra links:
-
 # Suggestions form modal
 mart-sugg-form = Martine suggestions form
 mart-sugg-short = Short description
@@ -17,7 +16,6 @@ mart-sugg-long-placeholder = Explain in details what your suggestion consists of
 mart-sugg-fail = Oops! Failed to process your suggestion. Please try again later.
 mart-sugg-thanks = Thank you for your suggestion!
 mart-sugg-note = Note: You won't be able to send a new suggestion for 30 minutes.
-
 # serverinfo command
 si-members-field = Members:
 si-members-connected = Members connected:
@@ -57,7 +55,6 @@ si-icon = Icon
 si-banner-btn = Banner
 si-invite-bg-btn = Invite Background
 si-back-si-btn = Get back to server info
-
 # userinfo command
 ui-app-info = Application Information
 ui-app-tags = Tags
@@ -93,8 +90,6 @@ ui-user-avatar = user avatar
 ui-no-server-avatar = No server avatar set.
 ui-back-btn = Get back to user info
 ui-perms-btn = View member permissions
-
-
 # channelinfo command
 ci-created = Created on
 ci-position = Position
@@ -116,7 +111,6 @@ ci-unknown = Unknown
 ci-user-limit = User limit
 ci-details-field = Details
 ci-id = Channel ID:
-
 # roleinfo command
 ri-created = Created on
 ri-members = Members
@@ -125,7 +119,6 @@ ri-position = Position
 ri-hoisted = Hoisted
 ri-managed = Managed
 ri-mentionnable = Mentionnable
-
 # emojiinfo command
 em-react = React to this message with the emoji of your choice
 em-cancelled = Cancelled
@@ -139,7 +132,6 @@ em-server = Server
 em-roles = Roles
 em-custom = Custom emoji
 em-id = Emoji ID
-
 # stickerinfo command
 sti-nothing = There's no sticker on this message.
 sti-failed = Failed to get informations about this sticker.
@@ -152,7 +144,6 @@ sti-standard = Standard sticker
 sti-pack = Pack
 sti-tags = tags
 sti-id = Sticker ID
-
 # donate command
 donate-title = Here are the ways to support Martine development
 donate-kofi = One-time donation, unlocks you a role on Martine's server, and 10k marts (per month donated).
