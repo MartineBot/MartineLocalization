@@ -1,4 +1,4 @@
-stream-default-msg = is live!
+stream-default-msg = est en direct!
 twitch-untitled-broadcast = Diffusion sans titre
 twitch-live = En direct sur Twitch
 twitch-game-name = Jeu
