@@ -1,5 +1,9 @@
-project_id: 562663
+project_id_env: CROWDIN_PROJECT_ID
+api_token_env: CROWDIN_PERSONAL_TOKEN
+
+preserve_hierarchy: true
+base_path: ./resources/
 
 files:
-  - source: /resources/locales-sources/*.ftl
-    translation: /resources/locales/%locale%/%original_file_name%
+  - source: locales-sources/*.ftl
+    translation: locales/%locale%/%original_file_name%
