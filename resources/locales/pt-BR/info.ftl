@@ -1,7 +1,7 @@
 # /help command
 shelp-title = Martine - Lista de Comandos
 shelp-desc = Aqui está a lista dos comandos disponíveis para a Martine.
-shelp-nocategory = Categoria inexistente
+shelp-nocategory = Sem categoria
 shelp-context-cmds = Comandos do menu de contextos:
 shelp-context-cmds-desc = Esses comandos estão disponíveis ao clicar/pressionar em um usuário ou mensagem.
 shelp-user-cmds = Comandos do usuário:

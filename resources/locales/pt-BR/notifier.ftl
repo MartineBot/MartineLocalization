@@ -10,6 +10,6 @@ twitch-stream-tags = Marcadores
 twitch-stream-lang = Idioma
 twitch-stream-btn = Abrir transmissão
 twitch-streamend = transmissão encerrada!
-twitch-streamend-games-played = Games played
+twitch-streamend-games-played = Já jogados
 twitch-streamend-highest-viewers = Maior número de espectadores
 twitch-streamend-total-duration = Duração da transmissão
