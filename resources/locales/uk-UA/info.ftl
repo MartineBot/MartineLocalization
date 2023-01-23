@@ -57,7 +57,7 @@ si-invite-bg-btn = Invite Background
 si-back-si-btn = Get back to server info
 # userinfo command
 ui-app-info = Application Information
-ui-app-tags = Tags
+ui-app-tags = Теги
 ui-app-tags-empty = Empty
 ui-app-flags = Application flags
 ui-app-presence = Presence Intent
@@ -108,7 +108,7 @@ ci-parent = Parent
 ci-region = Region
 ci-region-automatic = Automatic
 ci-bitrate = Bitrate
-ci-unknown = Unknown
+ci-unknown = Невідомо
 ci-user-limit = User limit
 ci-details-field = Details
 ci-id = Channel ID:

@@ -1,38 +1,38 @@
-yes = Yes
-no = No
-max-alerts-0 = You cannot have more than 20 alerts per server.
-max-alerts-0-tip = You can get higher limits with our Premium tiers:
-max-alerts-1 = You cannot have more than 30 alerts per server with this premium tier.
-max-alerts-1-tip = You can get unlimited alerts with our Server Premium Gold tier:
-streams-settings = streams alerts settings
-streams-message = Message
-streams-autorefresh = Alerts auto-refresh
-streams-endbehavior = End behavior
-streams-count = Streams alerts in this server
-streams-none = No streams alerts has been set in this server.
-streams-disable-autorefresh = Disable alerts auto-refresh
-streams-enable-autorefresh = Enable alerts auto-refresh
-streams-edit-msg-btn = Edit message
-streams-autorefresh-btn = Auto-refresh
-streams-autorefresh-enabled = Alright! Stream alerts messages will now auto refresh after 15 minutes.
-streams-autorefresh-disabled = Alright! Stream alerts message will no longer auto refresh.
-streams-endbehavior-select = Change streams end behavior
-streams-deletealertmsg = Delete alert message
-streams-deletealertmsg-desc = This will delete the stream alert message.
-streams-editalertmsg = Edit alert message
-streams-editalertmsg-desc = This will edit the stream alert message with some informations about the stream.
-streams-newmsg = Send new message
-streams-newmsg-desc = This will send a new message with some informations about the stream.
-streams-same-endbehavior = Please select another behavior than the one currently selected.
-streams-endbehavior-changed = Successfully updated the stream end behavior.
-streams-msg-modal = Streams alerts message editor
-streams-msg-label = Set the message sent on a stream start alert.
-streams-msg-placeholder = { "{" }streamer{ "}" } = the streamer name - { "{" }everyone{ "}" } = @everyone ping - { "{" }here{ "}" } = @here ping
-streams-msg-changed = Successfully updated the stream start alert message!
-streams-twitch-notfound = Couldn't find that Twitch user.
+yes = Ja
+no = Nei
+max-alerts-0 = Du kan ikke ha mer enn 20 varsler per server.
+max-alerts-0-tip = Du kan få høyere grenser med våre Premium-nivåer:
+max-alerts-1 = Du kan ikke ha mer enn 30 varsler per server med denne premium-tieren.
+max-alerts-1-tip = Du kan få ubegrenset beskjed med vår Server Premium Gull-nivå:
+streams-settings = innstillinger for strømvarsler
+streams-message = Melding
+streams-autorefresh = Varsler auto-oppdatering
+streams-endbehavior = Slutt oppførsel
+streams-count = Strømmer varsler på denne serveren
+streams-none = Ingen strømmingsvarsler er satt på denne serveren.
+streams-disable-autorefresh = Deaktiver varsler auto-oppdatering
+streams-enable-autorefresh = Aktiver varsler auto-oppdatering
+streams-edit-msg-btn = Rediger melding
+streams-autorefresh-btn = Auto-oppdatering
+streams-autorefresh-enabled = Ok! Strømvarslingsmeldinger vil nå automatisk oppdateres etter 15 minutter.
+streams-autorefresh-disabled = Ok! Strømvarslingsmelding vil ikke lenger oppdateres automatisk.
+streams-endbehavior-select = Endre oppførselen til strømmingen
+streams-deletealertmsg = Slett varselmelding
+streams-deletealertmsg-desc = Dette vil slette strømvarslingsmeldingen.
+streams-editalertmsg = Rediger varselmelding
+streams-editalertmsg-desc = Dette vil redigere strømvarslingsmeldingen med litt informasjon om strømmen.
+streams-newmsg = Send ny melding
+streams-newmsg-desc = Dette vil sende en ny melding med litt informasjon om strømmen.
+streams-same-endbehavior = Vennligst velg en annen oppførsel enn den som er valgt for øyeblikket.
+streams-endbehavior-changed = Oppdateringen av strømsluttatferden er vellykket.
+streams-msg-modal = Strømmer varsler melding redigering
+streams-msg-label = Angi meldingen som sendes på et strømstartvarsel.
+streams-msg-placeholder = { "{" }streamer{ "}" } = Navnet på streameren - { "{" }everyone{ "}" } = @everyone ping - { "{" }here{ "}" } = @here ping
+streams-msg-changed = Vellykket Oppdaterte varselmeldingen for strømstart!
+streams-twitch-notfound = Kunne ikke finne den Twitch-brukeren.
 # $cmd_mention is the slash command mention for /alerts streams settings
-streams-twitch-added = Successfully added this Twitch stream as a alert in that channel!
+streams-twitch-added = Vellykket lagt til Twitch-strømmen til et varsel i den kanalen!
 streams-twitch-added-tip =
-    A alert will be sent during the next stream.
-    You can update the streams alerts settings using { $cmd_mention } command.
-streams-twitch-removed = Successfully removed this Twitch stream alert from this channel!
+    Et varsel vil bli sendt i løpet av neste stream.
+    Du kan oppdatere strømvarslingsinnstillingene ved å bruke kommandoen { $cmd_mention }.
+streams-twitch-removed = Vellykket Fjernet dette Twitch-strømvarselet fra denne kanalen!
