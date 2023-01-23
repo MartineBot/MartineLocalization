@@ -92,6 +92,7 @@ ui-back-btn = Get back to user info
 ui-perms-btn = View member permissions
 # channelinfo command
 ci-created = Created on
+ci-no-topic = No topic.
 ci-position = Position
 ci-members = Members
 ci-slowmode = Slowmode
@@ -119,6 +120,7 @@ ri-position = Position
 ri-hoisted = Hoisted
 ri-managed = Managed
 ri-mentionnable = Mentionnable
+ri-id = Role ID:
 # emojiinfo command
 em-react = React to this message with the emoji of your choice
 em-cancelled = Cancelled
@@ -138,7 +140,7 @@ sti-failed = Failed to get informations about this sticker.
 sti-no-desc = No description
 sti-type = Type
 sti-server = Server sticker
-si-emoji = Emoji
+sti-emoji = Emoji
 sti-created = Created at
 sti-standard = Standard sticker
 sti-pack = Pack
