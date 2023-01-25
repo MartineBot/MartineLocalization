@@ -8,7 +8,8 @@ streams-settings = innstillinger for strømvarsler
 streams-message = Melding
 streams-autorefresh = Varsler auto-oppdatering
 streams-endbehavior = Slutt oppførsel
-streams-count = Strømmer varsler på denne serveren
+# $source will be the source of the stream alert.
+streams-count = { $source } streams alerts in this server
 streams-none = Ingen strømmingsvarsler er satt på denne serveren.
 streams-disable-autorefresh = Deaktiver varsler auto-oppdatering
 streams-enable-autorefresh = Aktiver varsler auto-oppdatering
@@ -29,10 +30,15 @@ streams-msg-modal = Strømmer varsler melding redigering
 streams-msg-label = Angi meldingen som sendes på et strømstartvarsel.
 streams-msg-placeholder = { "{" }streamer{ "}" } = Navnet på streameren - { "{" }everyone{ "}" } = @everyone ping - { "{" }here{ "}" } = @here ping
 streams-msg-changed = Vellykket Oppdaterte varselmeldingen for strømstart!
-streams-twitch-notfound = Kunne ikke finne den Twitch-brukeren.
+# $source will be the source of the stream alert.
+streams-added = Successfully added this { $source } stream as a alert in that channel!
 # $cmd_mention is the slash command mention for /alerts streams settings
-streams-twitch-added = Vellykket lagt til Twitch-strømmen til et varsel i den kanalen!
-streams-twitch-added-tip =
-    Et varsel vil bli sendt i løpet av neste stream.
-    Du kan oppdatere strømvarslingsinnstillingene ved å bruke kommandoen { $cmd_mention }.
-streams-twitch-removed = Vellykket Fjernet dette Twitch-strømvarselet fra denne kanalen!
+streams-added-tip =
+    A alert will be sent during the next stream.
+    You can update the streams alerts settings using { $cmd_mention } command.
+# $source will be the source of the stream alert.
+streams-removed = Successfully removed this { $source } stream alert from this channel!
+streams-twitch-notfound = Kunne ikke finne den Twitch-brukeren.
+streams-yt-notfound =
+    Couldn't find that Youtube user.
+    Try again by pasting the channel URL at https://commentpicker.com/youtube-channel-id.php and take the "Channel ID" value.

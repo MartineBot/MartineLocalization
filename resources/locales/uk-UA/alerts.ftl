@@ -8,7 +8,8 @@ streams-settings = налаштування сповіщень трансляц�
 streams-message = Повідомлення
 streams-autorefresh = Автоматичне оновлення сповіщень
 streams-endbehavior = Поведінка завершення
-streams-count = Сповіщення трансляцій на цьому сервері
+# $source will be the source of the stream alert.
+streams-count = { $source } streams alerts in this server
 streams-none = На цьому сервері не налаштовано сповіщення про трансляції.
 streams-disable-autorefresh = Вимкнути автоматичне оновлення сповіщень
 streams-enable-autorefresh = Увімкнути автоматичне оновлення сповіщень
@@ -29,8 +30,15 @@ streams-msg-modal = Редактор повідомлень сповіщень �
 streams-msg-label = Установити повідомлення, яке надсилатиметься під час сповіщення про початок трансляції.
 streams-msg-placeholder = { "{" }streamer{ "}" } = імʼя стримера - { "{" }everyone{ "}" } = згадування @everyone - { "{" }here{ "}" } = згадування @here
 streams-msg-changed = Сповіщення про початок трансляції успішно оновлено!
-streams-twitch-notfound = Не вдалося знайти цього користувача Twitch.
+# $source will be the source of the stream alert.
+streams-added = Successfully added this { $source } stream as a alert in that channel!
 # $cmd_mention is the slash command mention for /alerts streams settings
-streams-twitch-added = Цю трансляцію Twitch успішно додано як сповіщення в цьому каналі!
-streams-twitch-added-tip = Сповіщення буде надіслано під час наступної трансляції. Ви можете оновити налаштування сповіщень про трансляції за допомогою команди { $cmd_mention }.
-streams-twitch-removed = Це сповіщення про трансляцію Twitch успішно видалено з цього каналу!
+streams-added-tip =
+    A alert will be sent during the next stream.
+    You can update the streams alerts settings using { $cmd_mention } command.
+# $source will be the source of the stream alert.
+streams-removed = Successfully removed this { $source } stream alert from this channel!
+streams-twitch-notfound = Не вдалося знайти цього користувача Twitch.
+streams-yt-notfound =
+    Couldn't find that Youtube user.
+    Try again by pasting the channel URL at https://commentpicker.com/youtube-channel-id.php and take the "Channel ID" value.

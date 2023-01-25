@@ -8,7 +8,8 @@ streams-settings = stream Benachrichtigungen Einstellungen
 streams-message = Nachricht
 streams-autorefresh = Automatische Aktualisierung der Benachrichtigungen
 streams-endbehavior = Endverhalten
-streams-count = Stream Benachrichtigungen auf diesem Server
+# $source will be the source of the stream alert.
+streams-count = { $source } streams alerts in this server
 streams-none = Es wurden keine Stream Benachrichtigungen auf diesem Server gesetzt.
 streams-disable-autorefresh = Deaktiviere die automatische Aktualisierung der Benachrichtigungen
 streams-enable-autorefresh = Aktiviere die automatische Aktualisierung der Benachrichtigungen
@@ -29,10 +30,15 @@ streams-msg-modal = Streambenachrichtigungs Editor
 streams-msg-label = Lege eine Nachricht fest, die beim Start des Streams gesendet wird.
 streams-msg-placeholder = { "{" }streamer{ "}" } = der Streamername - { "{" }everyone{ "}" } = @everyone ping - { "{" }here{ "}" } = @here ping
 streams-msg-changed = Die Startnachricht für den Stream wurde erfolgreich aktualisiert!
-streams-twitch-notfound = Konnte den Twitch Benutzer nicht finden.
+# $source will be the source of the stream alert.
+streams-added = Successfully added this { $source } stream as a alert in that channel!
 # $cmd_mention is the slash command mention for /alerts streams settings
-streams-twitch-added = Twitch Stream wurde erfolgreich als eine Benachrichtigung in diesem Kanal hinzugefügt!
-streams-twitch-added-tip =
-    Eine Benachrichtigung wird während des nächsten Streams gesendet.
-    Du kannst die Streambenachrichtigungseinstellungen mit dem Befehl { $cmd_mention } aktualisieren.
-streams-twitch-removed = Der Twitch Stream wurde erfolgreich von der Benachrichtigung in diesem Kanal entfernt!
+streams-added-tip =
+    A alert will be sent during the next stream.
+    You can update the streams alerts settings using { $cmd_mention } command.
+# $source will be the source of the stream alert.
+streams-removed = Successfully removed this { $source } stream alert from this channel!
+streams-twitch-notfound = Konnte den Twitch Benutzer nicht finden.
+streams-yt-notfound =
+    Couldn't find that Youtube user.
+    Try again by pasting the channel URL at https://commentpicker.com/youtube-channel-id.php and take the "Channel ID" value.

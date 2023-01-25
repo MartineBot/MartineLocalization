@@ -8,7 +8,8 @@ streams-settings = configurações de alerta de transmissão
 streams-message = Mensagem
 streams-autorefresh = Auto-atualização de alertas
 streams-endbehavior = End behavior
-streams-count = Alertas de transmissão neste servidor
+# $source will be the source of the stream alert.
+streams-count = { $source } streams alerts in this server
 streams-none = Não foram definidos alertas de transmissão neste servidor.
 streams-disable-autorefresh = Desabilitar auto-atualização de alertas
 streams-enable-autorefresh = Habilitar auto-atualização de alertas
@@ -29,10 +30,15 @@ streams-msg-modal = Streams alerts message editor
 streams-msg-label = Set the message sent on a stream start alert.
 streams-msg-placeholder = { "{" }streamer{ "}" } = the streamer name - { "{" }everyone{ "}" } = @everyone ping - { "{" }here{ "}" } = @here ping
 streams-msg-changed = Successfully updated the stream start alert message!
-streams-twitch-notfound = Não foi possível encontrar esse usuário da Twitch.
+# $source will be the source of the stream alert.
+streams-added = Successfully added this { $source } stream as a alert in that channel!
 # $cmd_mention is the slash command mention for /alerts streams settings
-streams-twitch-added = Successfully added this Twitch stream as a alert in that channel!
-streams-twitch-added-tip =
+streams-added-tip =
     A alert will be sent during the next stream.
     You can update the streams alerts settings using { $cmd_mention } command.
-streams-twitch-removed = Successfully removed this Twitch stream alert from this channel!
+# $source will be the source of the stream alert.
+streams-removed = Successfully removed this { $source } stream alert from this channel!
+streams-twitch-notfound = Não foi possível encontrar esse usuário da Twitch.
+streams-yt-notfound =
+    Couldn't find that Youtube user.
+    Try again by pasting the channel URL at https://commentpicker.com/youtube-channel-id.php and take the "Channel ID" value.
