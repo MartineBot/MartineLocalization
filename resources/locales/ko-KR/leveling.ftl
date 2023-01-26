@@ -1,8 +1,7 @@
 maintenance-disabled = The leveling system is disabled globally for a maintenance. Please try again later.
 disabled-msg =
     Leveler is not enabled in this server.
-    An admin or someone who can manage this server can enable it 
-    with the command { $cmd_mention }!
+    An admin or someone who can manage this server can enable it with the command { $cmd_mention }!
 profile-nobots = Sorry, but bots don't have profiles! { $emoji }
 profile-noexp-author = You haven't gained any exp yet! Continue to send more messages.
 profile-noexp-other = This member doesn't have gained any exp yet!
