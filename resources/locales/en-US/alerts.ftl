@@ -39,6 +39,6 @@ streams-added-tip = A alert will be sent during the next stream.
 # $source will be the source of the stream alert.
 streams-removed = Successfully removed this { $source } stream alert from this channel!
 streams-twitch-notfound = Couldn't find that Twitch user.
-streams-yt-notfound = Couldn't find that Youtube user.
+streams-yt-notfound = Couldn't find that YouTube user.
     Try again by pasting the channel URL at https://commentpicker.com/youtube-channel-id.php and take the "Channel ID" value.
 
