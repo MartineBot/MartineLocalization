@@ -9,7 +9,7 @@ streams-message = Nachricht
 streams-autorefresh = Automatische Aktualisierung der Benachrichtigungen
 streams-endbehavior = Endverhalten
 # $source will be the source of the stream alert.
-streams-count = { $source } streams alerts in this server
+streams-count = { $source } Benachrichtigungen auf diesem Server
 streams-none = Es wurden keine Stream Benachrichtigungen auf diesem Server gesetzt.
 streams-disable-autorefresh = Deaktiviere die automatische Aktualisierung der Benachrichtigungen
 streams-enable-autorefresh = Aktiviere die automatische Aktualisierung der Benachrichtigungen
@@ -31,14 +31,14 @@ streams-msg-label = Lege eine Nachricht fest, die beim Start des Streams gesende
 streams-msg-placeholder = { "{" }streamer{ "}" } = der Streamername - { "{" }everyone{ "}" } = @everyone ping - { "{" }here{ "}" } = @here ping
 streams-msg-changed = Die Startnachricht für den Stream wurde erfolgreich aktualisiert!
 # $source will be the source of the stream alert.
-streams-added = Successfully added this { $source } stream as a alert in that channel!
+streams-added = { $source } Stream wurde erfolgreich als eine Benachrichtigung in diesem Kanal hinzugefügt!
 # $cmd_mention is the slash command mention for /alerts streams settings
 streams-added-tip =
-    A alert will be sent during the next stream.
-    You can update the streams alerts settings using { $cmd_mention } command.
+    Eine Benachrichtigung wird während des nächsten Streams gesendet.
+    Du kannst die Stream-Benachrichtigungseinstellungen mit dem Befehl { $cmd_mention } aktualisieren.
 # $source will be the source of the stream alert.
-streams-removed = Successfully removed this { $source } stream alert from this channel!
+streams-removed = Die Benachrichtigung des { $source } Streams wurde erfolgreich von diesem Kanal entfernt!
 streams-twitch-notfound = Konnte den Twitch Benutzer nicht finden.
 streams-yt-notfound =
-    Couldn't find that Youtube user.
-    Try again by pasting the channel URL at https://commentpicker.com/youtube-channel-id.php and take the "Channel ID" value.
+    YouTube Benutzer konnte nicht gefunden werden.
+    Versuchen es erneut, indem du die Kanal-URL unter https://commentpicker.com/YouTube-channel-id.php kopierst und den Wert "Channel ID" eingibst.

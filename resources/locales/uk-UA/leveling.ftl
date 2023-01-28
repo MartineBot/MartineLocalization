@@ -1,26 +1,26 @@
-maintenance-disabled = The leveling system is disabled globally for a maintenance. Please try again later.
+maintenance-disabled = Система вирівнювання глобально вимкнена для обслуговування. Будь ласка, спробуйте пізніше.
 disabled-msg =
-    Leveler is not enabled in this server.
-    An admin or someone who can manage this server can enable it with the command { $cmd_mention }!
-profile-nobots = Sorry, but bots don't have profiles! { $emoji }
-profile-noexp-author = You haven't gained any exp yet! Continue to send more messages.
-profile-noexp-other = This member doesn't have gained any exp yet!
-profile-image-failed = Sorry, something went wrong while trying to get this profile image. Please try again later. { $emoji }
-profile-vote-btn = Upvote for 10% exp boost!
-profile-exp-boost-active = 10% upvote exp boost active! (Reason: `{ $reason }`)
-profile-card = profile card
-top-image-failed = Sorry, something went wrong while trying to get this server top image. Please try again later. { $emoji }
-lvltop-nodata = It looks like no members have gained experience with Martine for now. { $emoji }
-lvltop-lb = levels leaderboard
-top-member-rank = You are rank #{ $rank } in this server
-top-member-norank = You are not ranked yet in this server
-reptop-nodata = It looks like no members have gained rep with Martine for now. { $emoji }
-reptop-lb = rep leaderboard
-rep-no-self = You cannot give yourself reputation points. { $emoji }
-rep-nobots = Sorry, but bots cannot receive reputation points! { $emoji }
+    Вирівнювання не ввімкнено на цьому сервері.
+    Адміністратор або хтось, хто може керувати цим сервером, може ввімкнути його за допомогою команди { $cmd_mention }!
+profile-nobots = Вибачте, але в ботів немає профілів! { $emoji }
+profile-noexp-author = Ви ще не отримали жодного досвіду! Продовжуйте надсилати більше повідомлень.
+profile-noexp-other = Цей учасник ще не отримав досвіду!
+profile-image-failed = На жаль, під час спроби отримати це зображення профілю сталася помилка. Будь ласка, спробуйте пізніше. { $emoji }
+profile-vote-btn = Проголосуйте за збільшення досвіду на 10%!
+profile-exp-boost-active = 10% прискорення досвіду! (Причина: `{ $reason }`)
+profile-card = профільна картка
+top-image-failed = На жаль, сталася помилка під час спроби отримати це зображення сервера. Будь ласка, спробуйте пізніше. { $emoji }
+lvltop-nodata = Схоже, наразі жоден з учасників не набув досвіду з Martine. { $emoji }
+lvltop-lb = таблиця лідерів рівнів
+top-member-rank = Ви займаєте ранг #{ $rank } на цьому сервері
+top-member-norank = Ви ще не в рейтингу на цьому сервері
+reptop-nodata = Схоже, наразі жоден учасник не отримав репутацію Martine. { $emoji }
+reptop-lb = таблиця лідерів репутації
+rep-no-self = Ви не можете нараховувати собі бали репутації. { $emoji }
+rep-nobots = Вибачте, але боти не можуть отримувати бали репутації! { $emoji }
 rep-cooldown =
-    Oops, you are on cooldown on giving rep points! { $emoji }
-    Try again { $formatted_cooldown }
+    На жаль, у вас відновлюється час нарахування балів репутації! { $emoji }
+    Спробуйте пізніше { $formatted_cooldown }
 rep-success =
-    { $member } you have just received a reputation point from { $author }!
-    You now have { $rep_count } reputation points! { $emoji }
+    { $member }, ви щойно отримали бал репутації від { $author }!
+    Тепер у вас { $rep_count } балів репутації! { $emoji }

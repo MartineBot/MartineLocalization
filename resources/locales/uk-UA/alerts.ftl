@@ -9,7 +9,7 @@ streams-message = Повідомлення
 streams-autorefresh = Автоматичне оновлення сповіщень
 streams-endbehavior = Поведінка завершення
 # $source will be the source of the stream alert.
-streams-count = { $source } streams alerts in this server
+streams-count = Сповіщення про трансляцію { $source } на цьому сервері
 streams-none = На цьому сервері не налаштовано сповіщення про трансляції.
 streams-disable-autorefresh = Вимкнути автоматичне оновлення сповіщень
 streams-enable-autorefresh = Увімкнути автоматичне оновлення сповіщень
@@ -31,14 +31,14 @@ streams-msg-label = Установити повідомлення, яке над
 streams-msg-placeholder = { "{" }streamer{ "}" } = імʼя стримера - { "{" }everyone{ "}" } = згадування @everyone - { "{" }here{ "}" } = згадування @here
 streams-msg-changed = Сповіщення про початок трансляції успішно оновлено!
 # $source will be the source of the stream alert.
-streams-added = Successfully added this { $source } stream as a alert in that channel!
+streams-added = Трансляції { $source } успішно додано як сповіщення в цьому каналі!
 # $cmd_mention is the slash command mention for /alerts streams settings
 streams-added-tip =
-    A alert will be sent during the next stream.
-    You can update the streams alerts settings using { $cmd_mention } command.
+    Сповіщення буде надіслано під час наступної трансляції.
+    Ви можете оновити налаштування сповіщень про трансляції за допомогою команди { $cmd_mention }.
 # $source will be the source of the stream alert.
-streams-removed = Successfully removed this { $source } stream alert from this channel!
+streams-removed = Це сповіщення успішно видалено про трансляцію { $source } з цього каналу!
 streams-twitch-notfound = Не вдалося знайти цього користувача Twitch.
 streams-yt-notfound =
-    Couldn't find that Youtube user.
-    Try again by pasting the channel URL at https://commentpicker.com/youtube-channel-id.php and take the "Channel ID" value.
+    Не вдалося знайти цього користувача Youtube.
+    Спробуйте ще раз, вставивши URL-адресу каналу на https://commentpicker.com/youtube-channel-id.php і взявши значення «Channel ID».
