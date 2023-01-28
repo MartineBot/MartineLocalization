@@ -40,5 +40,5 @@ streams-added-tip =
 streams-removed = Successfully removed this { $source } stream alert from this channel!
 streams-twitch-notfound = Não foi possível encontrar esse usuário da Twitch.
 streams-yt-notfound =
-    Couldn't find that Youtube user.
+    Couldn't find that YouTube user.
     Try again by pasting the channel URL at https://commentpicker.com/youtube-channel-id.php and take the "Channel ID" value.

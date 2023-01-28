@@ -13,6 +13,6 @@ twitch-stream-tags = Tags:
 twitch-stream-lang = Language:
 twitch-streamend = stream ended!
 twitch-streamend-games-played = Games played
-youtube-live = Live on Youtube
+youtube-live = Live on YouTube
 youtube-subscribers = Subscribers:
 youtube-streamend = stream ended!

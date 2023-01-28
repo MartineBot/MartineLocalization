@@ -1,20 +1,20 @@
-yes = Yes
-no = No
-max-alerts-0 = You cannot have more than 20 alerts per server.
-max-alerts-0-tip = You can get higher limits with our Premium tiers:
-max-alerts-1 = You cannot have more than 30 alerts per server with this premium tier.
-max-alerts-1-tip = You can get unlimited alerts with our Server Premium Gold tier:
-streams-settings = streams alerts settings
-streams-message = Message
-streams-autorefresh = Alerts auto-refresh
-streams-endbehavior = End behavior
+yes = Igen
+no = Nem
+max-alerts-0 = Szerverenként nem lehet több mint 20 értesítésed.
+max-alerts-0-tip = Prémium szintjeinkkel magasabb limiteket kapsz:
+max-alerts-1 = Ezen a prémium szinten nem lehet több mint 30 értesítésed szerverenként.
+max-alerts-1-tip = Korlátlan számú értesítést kapsz a Server Premium Gold szintünkkel:
+streams-settings = közvetítésének értesítési beállításai
+streams-message = Üzenet
+streams-autorefresh = Az értesítések automatikus frissítése
+streams-endbehavior = Beállítás vége
 # $source will be the source of the stream alert.
-streams-count = { $source } streams alerts in this server
-streams-none = No streams alerts has been set in this server.
-streams-disable-autorefresh = Disable alerts auto-refresh
-streams-enable-autorefresh = Enable alerts auto-refresh
-streams-edit-msg-btn = Edit message
-streams-autorefresh-btn = Auto-refresh
+streams-count = { $source } értesítések ezen a szerveren
+streams-none = Nincs közvetítés értesítés beállítva ezen a szerveren.
+streams-disable-autorefresh = Az értesítések automatikus frissítésének kikapcsolása
+streams-enable-autorefresh = Az értesítések automatikus frissítésének bekapcsolása
+streams-edit-msg-btn = Üzenet szerkesztése
+streams-autorefresh-btn = Automatikus frissítés
 streams-autorefresh-enabled = Alright! Stream alerts messages will now auto refresh after 15 minutes.
 streams-autorefresh-disabled = Alright! Stream alerts message will no longer auto refresh.
 streams-endbehavior-select = Change streams end behavior
@@ -40,5 +40,5 @@ streams-added-tip =
 streams-removed = Successfully removed this { $source } stream alert from this channel!
 streams-twitch-notfound = Couldn't find that Twitch user.
 streams-yt-notfound =
-    Couldn't find that Youtube user.
+    Couldn't find that YouTube user.
     Try again by pasting the channel URL at https://commentpicker.com/youtube-channel-id.php and take the "Channel ID" value.

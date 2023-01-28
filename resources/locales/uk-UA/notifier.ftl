@@ -13,6 +13,6 @@ twitch-stream-tags = Теги:
 twitch-stream-lang = Мова:
 twitch-streamend = трансляцію завершено!
 twitch-streamend-games-played = Категорія
-youtube-live = Наживо на Youtube
+youtube-live = Live on YouTube
 youtube-subscribers = Підписників:
 youtube-streamend = трансляцію завершено!
