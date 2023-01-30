@@ -40,5 +40,5 @@ streams-added-tip =
 streams-removed = Це сповіщення успішно видалено про трансляцію { $source } з цього каналу!
 streams-twitch-notfound = Не вдалося знайти цього користувача Twitch.
 streams-yt-notfound =
-    Couldn't find that YouTube user.
-    Try again by pasting the channel URL at https://commentpicker.com/youtube-channel-id.php and take the "Channel ID" value.
+    Не вдалося знайти цього користувача YouTube.
+    Спробуйте ще раз, вставивши URL-адресу каналу на https://commentpicker.com/youtube-channel-id.php і взявши значення «Channel ID».

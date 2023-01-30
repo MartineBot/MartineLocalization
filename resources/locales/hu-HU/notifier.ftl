@@ -13,6 +13,6 @@ twitch-stream-tags = Címkék:
 twitch-stream-lang = Nyelv:
 twitch-streamend = közvetítése véget ért!
 twitch-streamend-games-played = Kategória
-youtube-live = Live on YouTube
+youtube-live = Közvetít YouTube-on
 youtube-subscribers = Feliratkozók:
 youtube-streamend = közvetítése véget ért!

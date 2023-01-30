@@ -1,44 +1,44 @@
-yes = Yes
+yes = Sì
 no = No
-max-alerts-0 = You cannot have more than 20 alerts per server.
-max-alerts-0-tip = You can get higher limits with our Premium tiers:
-max-alerts-1 = You cannot have more than 30 alerts per server with this premium tier.
-max-alerts-1-tip = You can get unlimited alerts with our Server Premium Gold tier:
-streams-settings = streams alerts settings
-streams-message = Message
-streams-autorefresh = Alerts auto-refresh
-streams-endbehavior = End behavior
+max-alerts-0 = Non puoi avere oltre 20 avvisi per server.
+max-alerts-0-tip = Puoi ottenere limiti superiori con i ranghi Premium:
+max-alerts-1 = Non puoi avere oltre 30 avvisi per server con questo rango Premium.
+max-alerts-1-tip = Puoi ottenere avvisi illimitati con il nostro rango Server Premium Gold:
+streams-settings = impostazioni degli avvisi degli streaming
+streams-message = Messaggio
+streams-autorefresh = Aggiornamento automatico avvisi
+streams-endbehavior = Termina comportamento
 # $source will be the source of the stream alert.
-streams-count = { $source } streams alerts in this server
-streams-none = No streams alerts has been set in this server.
-streams-disable-autorefresh = Disable alerts auto-refresh
-streams-enable-autorefresh = Enable alerts auto-refresh
-streams-edit-msg-btn = Edit message
-streams-autorefresh-btn = Auto-refresh
-streams-autorefresh-enabled = Alright! Stream alerts messages will now auto refresh after 15 minutes.
-streams-autorefresh-disabled = Alright! Stream alerts message will no longer auto refresh.
-streams-endbehavior-select = Change streams end behavior
-streams-deletealertmsg = Delete alert message
-streams-deletealertmsg-desc = This will delete the stream alert message.
-streams-editalertmsg = Edit alert message
-streams-editalertmsg-desc = This will edit the stream alert message with some informations about the stream.
-streams-newmsg = Send new message
-streams-newmsg-desc = This will send a new message with some informations about the stream.
-streams-same-endbehavior = Please select another behavior than the one currently selected.
-streams-endbehavior-changed = Successfully updated the stream end behavior.
-streams-msg-modal = Streams alerts message editor
-streams-msg-label = Set the message sent on a stream start alert.
-streams-msg-placeholder = { "{" }streamer{ "}" } = the streamer name - { "{" }everyone{ "}" } = @everyone ping - { "{" }here{ "}" } = @here ping
-streams-msg-changed = Successfully updated the stream start alert message!
+streams-count = { $source } avvisi di streaming su questo server
+streams-none = Nessun avviso di streaming impostato su questo server.
+streams-disable-autorefresh = Disabilita l'aggiornamento automatico degli avvisi
+streams-enable-autorefresh = Abilita l'aggiornamento automatico degli avvisi
+streams-edit-msg-btn = Modifica messaggio
+streams-autorefresh-btn = Aggiornamento automatico
+streams-autorefresh-enabled = Bene! I messaggi di avviso di streaming saranno ora aggiornati automaticamente ogni 15 minuti.
+streams-autorefresh-disabled = Bene! I messaggi di avviso di streaming non si aggiorneranno più automaticamente.
+streams-endbehavior-select = Modifica il comportamento di fine streaming
+streams-deletealertmsg = Elimina il messaggio di avviso
+streams-deletealertmsg-desc = Questo eliminerà il messaggio di avviso di streaming.
+streams-editalertmsg = Modifica il messaggio di avviso
+streams-editalertmsg-desc = Questo modificherà il messaggio di avviso di streaming con alcune informazioni sulla live.
+streams-newmsg = Invia nuovo messaggio
+streams-newmsg-desc = Questo invierà un nuovo messaggio con delle infformazioni sulla live.
+streams-same-endbehavior = Sei pregato di selezionare un comportamento differente da quello correntemente selezionato.
+streams-endbehavior-changed = Comportamento di fine streaming aggiornato correttamente.
+streams-msg-modal = Editor dei messaggi d'avviso di streaming
+streams-msg-label = Imposta il messaggio inviato all'avviso di inizio streaming.
+streams-msg-placeholder = { "{" }streamer{ "}" } = il nome dello streamer - { "{" }everyone{ "}" } = menzione @everyone - { "{" }here{ "}" } = menzione @here
+streams-msg-changed = Messaggio d'avviso di inizio streaming aggiornato correttamente!
 # $source will be the source of the stream alert.
-streams-added = Successfully added this { $source } stream as a alert in that channel!
+streams-added = Questa live { $source } è stata aggiunta correttamente come un avviso, in quel canale!
 # $cmd_mention is the slash command mention for /alerts streams settings
 streams-added-tip =
-    A alert will be sent during the next stream.
-    You can update the streams alerts settings using { $cmd_mention } command.
+    Sarà inviato un avviso durante la prossima live.
+    Puoi aggiornare le impostazioni degli avvisi di streaming utilizzando il comando { $cmd_mention }.
 # $source will be the source of the stream alert.
-streams-removed = Successfully removed this { $source } stream alert from this channel!
-streams-twitch-notfound = Couldn't find that Twitch user.
+streams-removed = Questo avviso di streaming { $source } è stato rimosso correttamente da questo canale!
+streams-twitch-notfound = Impossibile trovare quell'utente di Twitch.
 streams-yt-notfound =
-    Couldn't find that YouTube user.
-    Try again by pasting the channel URL at https://commentpicker.com/youtube-channel-id.php and take the "Channel ID" value.
+    Impossibile trovare quell'utente di YouTube.
+    Riprova incollando l'URL del canale su https://commentpicker.com/youtube-id-channel-id.php e utilizzando il valore "Channel ID" (ID Canale).

@@ -7,38 +7,38 @@ max-alerts-1-tip = Você pode obter alertas ilimitados com nosso nível Ouro do 
 streams-settings = configurações de alerta de transmissão
 streams-message = Mensagem
 streams-autorefresh = Auto-atualização de alertas
-streams-endbehavior = End behavior
+streams-endbehavior = Comportamento de finalização
 # $source will be the source of the stream alert.
-streams-count = { $source } streams alerts in this server
-streams-none = Não foram definidos alertas de transmissão neste servidor.
+streams-count = alertas de transmissão do(a) { $source} neste servidor
+streams-none = Não foram definidos alertas de streams neste servidor.
 streams-disable-autorefresh = Desabilitar auto-atualização de alertas
 streams-enable-autorefresh = Habilitar auto-atualização de alertas
 streams-edit-msg-btn = Editar mensagem
 streams-autorefresh-btn = Auto-atualizar
 streams-autorefresh-enabled = Certo! Os alertas de transmissão agora serão atualizados automaticamente após 15 minutos.
-streams-autorefresh-disabled = Certo! Os alertas de transmissão não irão mais atualizar automaticamente.
+streams-autorefresh-disabled = Certo! Os alertas de transmissão não serão mais atualizados automaticamente.
 streams-endbehavior-select = Alterar comportamento final das streams
 streams-deletealertmsg = Excluir mensagem de alerta
 streams-deletealertmsg-desc = Isto irá apagar a mensagem de alerta da transmissão.
 streams-editalertmsg = Editar mensagem de alerta
-streams-editalertmsg-desc = This will edit the stream alert message with some informations about the stream.
+streams-editalertmsg-desc = Isso editará a mensagem de alerta com algumas informações sobre a transmissão.
 streams-newmsg = Enviar nova mensagem
-streams-newmsg-desc = This will send a new message with some informations about the stream.
-streams-same-endbehavior = Please select another behavior than the one currently selected.
-streams-endbehavior-changed = Successfully updated the stream end behavior.
-streams-msg-modal = Streams alerts message editor
-streams-msg-label = Set the message sent on a stream start alert.
+streams-newmsg-desc = Isso enviará uma nova mensagem com algumas informações sobre a transmissão.
+streams-same-endbehavior = Por favor, selecione um comportamento diferente do atual.
+streams-endbehavior-changed = Comportamento de finalização da transmissão foi atualizado com sucesso.
+streams-msg-modal = Editor de alertas da transmissão
+streams-msg-label = Defina a mensagem de alerta enviada ao iniciar uma transmissão.
 streams-msg-placeholder = { "{" }streamer{ "}" } = the streamer name - { "{" }everyone{ "}" } = @everyone ping - { "{" }here{ "}" } = @here ping
-streams-msg-changed = Successfully updated the stream start alert message!
+streams-msg-changed = Mensagem de alerta ao iniciar uma transmissão atualizada com sucesso!
 # $source will be the source of the stream alert.
-streams-added = Successfully added this { $source } stream as a alert in that channel!
+streams-added = Alerta de transmissão do(a) { $source } foi adicionado com sucesso naquele canal!
 # $cmd_mention is the slash command mention for /alerts streams settings
 streams-added-tip =
-    A alert will be sent during the next stream.
-    You can update the streams alerts settings using { $cmd_mention } command.
+    Um alerta será enviado durante a próxima transmissão.
+    Você pode mudar as configurações de transmissão usando o comando { $cmd_mention }.
 # $source will be the source of the stream alert.
-streams-removed = Successfully removed this { $source } stream alert from this channel!
+streams-removed = Alerta de transmissão do(a) { $source } foi removido com sucesso deste canal!
 streams-twitch-notfound = Não foi possível encontrar esse usuário da Twitch.
 streams-yt-notfound =
-    Couldn't find that YouTube user.
-    Try again by pasting the channel URL at https://commentpicker.com/youtube-channel-id.php and take the "Channel ID" value.
+    Não foi possível encontrar esse usuário do Youtube.
+    Tente novamente colando a URL do canal em https://commentpicker.com/youtube-channel-id.php e copie o valor de "Channel ID".
