@@ -36,8 +36,8 @@ auto-setup-description =
     - There is a 15 seconds cooldown after enabling/disabling, and after updating categories.
     - Images are sent every 5 minutes, by default. Use the `Change delay` button to update it.
 auto-setup-current = Current settings:
-auto-setup-enabled = Enabled: { $enabled }
-auto-setup-delay = Delay: { $delay }
+auto-setup-enabled = **Enabled:** { $enabled }
+auto-setup-delay = **Delay:** { $delay }
 auto-setup-categories = Enabled categories:
 auto-setup-selected-categories = Selected categories:
 auto-setup-footer = Use the "Update categories" button after selecting the categories of your choice
