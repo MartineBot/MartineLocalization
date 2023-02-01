@@ -1,57 +1,57 @@
 yes = Yus
 no = Nyo
-max-alerts-0 = You cannot have more than 20 alerts per server.
-max-alerts-0-tip = You can get higher limits with our Premium tiers:
-max-alerts-1 = You cannot have more than 30 alerts per server with this premium tier.
-max-alerts-1-tip = You can get unlimited alerts with our Server Premium Gold tier:
-streams-settings = streams alerts settings
-streams-message = Message
-streams-autorefresh = Alerts auto-refresh
-streams-endbehavior = End behavior
+max-alerts-0 = You cannyot ^w^ have mowe than 20 awewts pew sewvew.
+max-alerts-0-tip = You c-can get highew wimits with ouw Pwemium tiers:
+max-alerts-1 = You cannyot have mowe than 30 awewts pew sewvew with this pwemium tiew.
+max-alerts-1-tip = You c-can get unwimited awewts with ouw Sewvew Pwemium Gowd tier:
+streams-settings = stweams awewts settings
+streams-message = Mewssage
+streams-autorefresh = Awewts auto-wefwesh
+streams-endbehavior = End behaviow
 # $source will be the source of the stream alert.
-streams-count = { $source } streams alerts in this server
-streams-none = No streams alerts has been set in this server.
-streams-disable-autorefresh = Disable alerts auto-refresh
-streams-enable-autorefresh = Enable alerts auto-refresh
-streams-edit-msg-btn = Edit message
-streams-autorefresh-btn = Auto-refresh
-streams-autorefresh-enabled = Alright! Stream alerts messages will now auto refresh after 15 minutes.
-streams-autorefresh-disabled = Alright! Stream alerts message will no longer auto refresh.
-streams-endbehavior-select = Change streams end behavior
-streams-deletealertmsg = Delete alert message
-streams-deletealertmsg-desc = This will delete the stream alert message.
-streams-editalertmsg = Edit alert message
-streams-editalertmsg-desc = This will edit the stream alert message with some informations about the stream.
-streams-newmsg = Send new message
-streams-newmsg-desc = This will send a new message with some informations about the stream.
-streams-same-endbehavior = Please select another behavior than the one currently selected.
-streams-endbehavior-changed = Successfully updated the stream end behavior.
-streams-msg-modal = Streams alerts message editor
-streams-msg-label = Set the message sent on a stream start alert.
-streams-msg-placeholder = { "{" }streamer{ "}" } = the streamer name - { "{" }everyone{ "}" } = @everyone ping - { "{" }here{ "}" } = @here ping
-streams-msg-changed = Successfully updated the stream start alert message!
+streams-count = { $source } stweams awewts in this sewvew
+streams-none = Nyo stweams awewts has been set in this sewvew.
+streams-disable-autorefresh = Disabwe awewts auto-wefwesh
+streams-enable-autorefresh = Enyabwe awewts auto-wefwesh
+streams-edit-msg-btn = Edit mewssage
+streams-autorefresh-btn = Auto-wefwesh
+streams-autorefresh-enabled = Awwight?!! Stweam awewts messages wiww nyow auto wefwesh a-a-aftew 15 minyutes.
+streams-autorefresh-disabled = Awwight?!! Stweam awewts message wiww nyo wongew auto wefwesh.
+streams-endbehavior-select = Change stweams end behaviow
+streams-deletealertmsg = Dewete awewt message
+streams-deletealertmsg-desc = This wiww dewete the stweam awewt message.
+streams-editalertmsg = Edit awewt message
+streams-editalertmsg-desc = This wiww edit the stweam awewt message with some infowmations about the stweam.
+streams-newmsg = Send nyew message
+streams-newmsg-desc = This wiww send a nyew message with some infowmations about the stweam.
+streams-same-endbehavior = Pwease sewect anyothew behaviow than the onye cuwwentwy sewected.
+streams-endbehavior-changed = Successfuwwy updated the stweam end behaviow.
+streams-msg-modal = Stweams awewts message editow
+streams-msg-label = Set the message sent on a stweam stawt awewt.
+streams-msg-placeholder = { "{" }streamer{ "}" } = the stweamew nyame - { "{" }everyone{ "}" } = @evewyonye ping - { "{" }here{ "}" } = @hewe ping
+streams-msg-changed = Successfuwwy updated the stweam stawt awewt message!!
 # $source will be the source of the stream alert.
-streams-added = Successfully added this { $source } stream as a alert in that channel!
+streams-added = Successfuwwy a-a-added this { $source } stweam as a awewt in that channyew!!
 # $cmd_mention is the slash command mention for /alerts streams settings
 streams-added-tip =
-    A alert will be sent during the next stream.
-    You can update the streams alerts settings using { $cmd_mention } command.
+    A awewt wiww be sent duwing the nyext stweam.
+    You c-can update the stweams awewts settings u-using { $cmd_mention } command.
 # $source will be the source of the stream alert.
-streams-removed = Successfully removed this { $source } stream alert from this channel!
-streams-twitch-notfound = Couldn't find that Twitch user.
+streams-removed = Successfuwwy wemuvd this { $source } stweam awewt fwom this channyew!!
+streams-twitch-notfound = Couwdn't find that Twitch usew.
 streams-yt-notfound =
-    Couldn't find that YouTube user.
-    Try again by pasting the channel URL at https://commentpicker.com/youtube-channel-id.php and take the "Channel ID" value.
-videos-settings = videos alerts settings
-videos-message = Message
-videos-settings-msg-btn = Edit message
-videos-msg-modal = Videos alerts message editor
-videos-msg-label = Set the message sent on videos alerts.
-videos-msg-placeholder = { "{" }name{ "}" } = the video creator name - { "{" }everyone{ "}" } = @everyone ping - { "{" }here{ "}" } = @here ping
-videos-msg-changed = Successfully updated the videos alerts message!
-videos-count = { $source } videos alerts in this server
-videos-added = Successfully added this { $source } channel as a alert in that channel!
+    Couwdn't find that YouTube usew.
+    Twy again by pasting the channyew URL at https://commentpicker.com/youtube-channel-id.php and take the "Channyew ID" vawue.
+videos-settings = videos awewts settings
+videos-message = Mewssage
+videos-settings-msg-btn = Edit mewssage
+videos-msg-modal = Videos awewts message editow
+videos-msg-label = Set the message sent on videos awewts.
+videos-msg-placeholder = { "{" }name{ "}" } = the v-v-video cweatow nyame - { "{" }everyone{ "}" } = @evewyonye ping - { "{" }here{ "}" } = @h-h-hewe ping
+videos-msg-changed = Successfuwwy updated the videos awewts message!!
+videos-count = { $source } videos awewts in this sewvew
+videos-added = Successfuwwy a-a-added this { $source } channyew as a awewt in that channyew?!!
 videos-added-tip =
-    A alert will be sent whenever the next video is posted.
-    You can update the videos alerts settings using { $cmd_mention } command.
-videos-removed = Successfully removed this { $source } channel alert from this channel!
+    A awewt wiww be sent w-whenyevew the nyext v-v-video is p-posted.
+    You c-can update the videos awewts settings u-using { $cmd_mention } command.
+videos-removed = Successfuwwy wemuvd this { $source } channyew awewt fwom this channyew?!!

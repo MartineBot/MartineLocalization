@@ -1,33 +1,33 @@
-non-nsfw-channel-title = { $emoji } You can't use this command in a non-NSFW channel!
-non-nsfw-channel-description = Use the { $cmd_mention } command if you're unsure how to setup this.
+non-nsfw-channel-title = { $emoji } Tu ne peux pas utiliser cette commande dans un salon non NSFW !
+non-nsfw-channel-description = Utilise la commande { $cmd_mention } si tu n'es pas sûr de comment configurer ceci.
 upvote-msg =
-    Please upvote me on Top.gg or DBL to use this command. { $emoji }
-    Here is the link: { $link }
-    Your vote will expire after 12 hours.
+    Merci de voter sur Top.gg ou DBL pour pouvoir utiliser cette commande. { $emoji }
+    Voici le lien : { $link }
+    Votre vote expirera dans 12 heures.
     
-    You can bypass this by [boosting Martine's server]({ $server_invite })
-upvote-msg-premium = Or by getting one of our [Premium tiers]({ $premium_url })!
-discord-server = Discord Server
-get-premium = Get Premium
-invite-me = Invite Me
+    Vous pouvez contourner ceci en [boostant le serveur de Martine]({ $server_invite })
+upvote-msg-premium = Ou en obtenant l'un de nos [Niveaux Premium]({ $premium_url }) !
+discord-server = Serveur Discord
+get-premium = Passer Premium
+invite-me = Invite moi
 yes = Oui
 no = Non
-btn-fail = Oops! Something failed with buttons on this message, please use the command again.
-command-no-images-found = Sorry, I wasn't able to pull a image for you! Please try again in a bit. { $emoji }
-command-invalid-category = Sorry but this is not a valid category! { $emoji }
-command-list-categories = Here is a list of all available categories:
-command-req-by = Requested by { $author } { $emoji }
-embed-title = Here is an { $category } image... { $emoji }
-embed-auto-footer = Use { $cmd_mention } to change delay or disable
+btn-fail = Oups ! Quelque chose s'est mal passer avec les boutons de ce message, veuillez utiliser la commande à nouveau.
+command-no-images-found = Désolé, je n'ai pas réussie à trouvée une image ! Réessaie plus tard. { $emoji }
+command-invalid-category = Désolé, mais ce n'est pas une catégorie valide ! { $emoji }
+command-list-categories = Voici une liste de toutes les catégories disponibles :
+command-req-by = Demandé par { $author } { $emoji }
+embed-title = Voici une image { $category } ... { $emoji }
+embed-auto-footer = Utilisez { $cmd_mention } pour modifier le délai ou désactiver
 embed-booru-tags = Search tags: { $tags }
 booru-too-many-tags-nopremium = Sorry, but you can search for maximum 10 tags! Or get Premium to increase that limit up to 30 tags! { $emoji }
 booru-too-many-tags = Sorry, but you cannot search for more than 30 tags! { $emoji }
 booru-blocked-tag = One of these tags contains a blocked tag. Please try again. { $emoji }
 booru-no-results = I couldn't find any results for these tags. Please try again. { $emoji }
 set-anonymous = Your name will no longer be shown as requester in nsfw commands messages.
-unset-anonymous = Your name will be shown as requester in nsfw commands messages.
-auto-no-thread = Autoporn cannot be enabled in threads.
-auto-no-nsfw = Autoporn can only be enabled in a NSFW channel.
+unset-anonymous = Votre nom d'utilisateur sera affiché dans les messages de commandes NSFW.
+auto-no-thread = L'autoporn ne peut pas être activé dans les fils.
+auto-no-nsfw = L'autoporn ne peut être activé que dans un salon NSFW.
 auto-no-perms = I need embed links permissions to be able to send autoporn messages in this channel.
 auto-setup-title = Autoporn setup for: { $channel }
 auto-setup-description =

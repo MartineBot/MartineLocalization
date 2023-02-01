@@ -1,26 +1,26 @@
-maintenance-disabled = The leveling system is disabled globally for a maintenance. Please try again later.
+maintenance-disabled = The wevewing system is disabwed g-g-gwobawwy fow a m-maintenyance. Pwease twy again watew.
 disabled-msg =
-    Leveler is not enabled in this server.
-    An admin or someone who can manage this server can enable it with the command { $cmd_mention }!
-profile-nobots = Sorry, but bots don't have profiles! { $emoji }
-profile-noexp-author = You haven't gained any exp yet! Continue to send more messages.
-profile-noexp-other = This member doesn't have gained any exp yet!
-profile-image-failed = Sorry, something went wrong while trying to get this profile image. Please try again later. { $emoji }
-profile-vote-btn = Upvote for 10% exp boost!
-profile-exp-boost-active = 10% upvote exp boost active! (Reason: `{ $reason }`)
-profile-card = profile card
-top-image-failed = Sorry, something went wrong while trying to get this server top image. Please try again later. { $emoji }
-lvltop-nodata = It looks like no members have gained experience with Martine for now. { $emoji }
-lvltop-lb = levels leaderboard
-top-member-rank = You are rank #{ $rank } in this server
-top-member-norank = You are not ranked yet in this server
-reptop-nodata = It looks like no members have gained rep with Martine for now. { $emoji }
-reptop-lb = rep leaderboard
-rep-no-self = You cannot give yourself reputation points. { $emoji }
-rep-nobots = Sorry, but bots cannot receive reputation points! { $emoji }
+    Wevewew is nyot enyabwed in this sewvew.
+    An admin ow someonye who c-can manyage this sewvew c-can enyabwe i-it with the c-c-command { $cmd_mention }!?
+profile-nobots = Sowwy, but bots *looks at you* don't have pwofiwes?!?1 { $emoji }
+profile-noexp-author = You haven't g-g-gainyed any exp yet?!?1 Continyue t-to send mowe messages.
+profile-noexp-other = This membew d-doesn't have g-g-gainyed any exp yet?!?1
+profile-image-failed = Sowwy, something went wwong whiwe t-twying t-to get this pwofiwe image. Pwease twy again watew. { $emoji }
+profile-vote-btn = Upvote fow 10% exp boost?!!
+profile-exp-boost-active = 10% upvote exp boost active?!?1 (Weason: `{ $reason }`)
+profile-card = pwofiwe cawd
+top-image-failed = Sowwy, something went wwong whiwe t-twying t-to get this sewvew t-top image. Pwease twy again watew. { $emoji }
+lvltop-nodata = It wooks wike nyo membews have g-g-gainyed expewience with Mawtinye fow nyow. { $emoji }
+lvltop-lb = wevews weadewboawd
+top-member-rank = You awe wank #{ $rank } in this sewvew
+top-member-norank = You awe nyot wanked yet in this sewvew
+reptop-nodata = It wooks wike nyo membews have g-g-gainyed wep with Mawtinye fow nyow. { $emoji }
+reptop-lb = wep weadewboawd
+rep-no-self = You cannyot give youwsewf weputation points. { $emoji }
+rep-nobots = Sowwy, but bots cannyot weceive weputation points?!?1 { $emoji }
 rep-cooldown =
-    Oops, you are on cooldown on giving rep points! { $emoji }
-    Try again { $formatted_cooldown }
+    Oops, you awe on coowdown on giving wep points?!?1 { $emoji }
+    Twy again { $formatted_cooldown }
 rep-success =
-    { $member } you have just received a reputation point from { $author }!
-    You now have { $rep_count } reputation points! { $emoji }
+    { $member } you have just weceived a weputation point fwom { $author }!
+    You nyow have { $rep_count } weputation points?!?1 { $emoji }

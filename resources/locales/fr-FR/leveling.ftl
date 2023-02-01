@@ -1,26 +1,26 @@
-maintenance-disabled = The leveling system is disabled globally for a maintenance. Please try again later.
+maintenance-disabled = Le système de niveau est désactivé globalement pour une maintenance. Veuillez réessayer plus tard.
 disabled-msg =
-    Leveler is not enabled in this server.
-    An admin or someone who can manage this server can enable it with the command { $cmd_mention }!
-profile-nobots = Sorry, but bots don't have profiles! { $emoji }
-profile-noexp-author = You haven't gained any exp yet! Continue to send more messages.
-profile-noexp-other = This member doesn't have gained any exp yet!
-profile-image-failed = Sorry, something went wrong while trying to get this profile image. Please try again later. { $emoji }
-profile-vote-btn = Upvote for 10% exp boost!
-profile-exp-boost-active = 10% upvote exp boost active! (Reason: `{ $reason }`)
-profile-card = profile card
-top-image-failed = Sorry, something went wrong while trying to get this server top image. Please try again later. { $emoji }
-lvltop-nodata = It looks like no members have gained experience with Martine for now. { $emoji }
+    Le Leveler n'est pas activé sur ce serveur.
+    Un administrateur ou quelqu'un qui peut gérer ce serveur peut l'activer avec la commande { $cmd_mention } !
+profile-nobots = Désolé, mais les bots n'ont pas de profils ! { $emoji }
+profile-noexp-author = Tu n'as pas encore gagné d'EXP ! Continuez à envoyer plus de messages.
+profile-noexp-other = Ce membre n'a pas encore gagné d'EXP !
+profile-image-failed = Désolé, une erreur s'est produite en essayant d'obtenir cette image de profil. Réessaie plus tard. { $emoji }
+profile-vote-btn = Vote pour une augmentation de 10% d'EXP !
+profile-exp-boost-active = Augmentation d'EXP de 10% actif ! (Raison : `{ $reason }`)
+profile-card = profil
+top-image-failed = Désolé, une erreur s'est produite en essayant d'obtenir l'image du classement. Réessaie plus tard. { $emoji }
+lvltop-nodata = Il semble qu'aucun membre n'ait acquis de l'expérience avec Martine pour le moment. { $emoji }
 lvltop-lb = levels leaderboard
-top-member-rank = You are rank #{ $rank } in this server
-top-member-norank = You are not ranked yet in this server
-reptop-nodata = It looks like no members have gained rep with Martine for now. { $emoji }
+top-member-rank = Tu es au rang #{ $rank } sur ce serveur
+top-member-norank = Tu n'es pas encore classé sur ce serveur
+reptop-nodata = Il semble qu'aucun membre n'ait acquis de points de réputation avec Martine pour le moment. { $emoji }
 reptop-lb = rep leaderboard
-rep-no-self = You cannot give yourself reputation points. { $emoji }
-rep-nobots = Sorry, but bots cannot receive reputation points! { $emoji }
+rep-no-self = Tu ne peux pas te donner de points de réputation à toi-même. { $emoji }
+rep-nobots = Désolé, mais les bots ne peuvent pas recevoir de points de réputation ! { $emoji }
 rep-cooldown =
     Oops, you are on cooldown on giving rep points! { $emoji }
     Try again { $formatted_cooldown }
 rep-success =
-    { $member } you have just received a reputation point from { $author }!
-    You now have { $rep_count } reputation points! { $emoji }
+    { $member } vous venez de recevoir un point de réputation de la part de { $author }!
+    Vous avez maintenant { $rep_count } points de réputation ! { $emoji }
