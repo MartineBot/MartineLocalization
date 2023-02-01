@@ -1,40 +1,40 @@
-non-nsfw-channel-title = { $emoji } You can't use this command in a non-NSFW channel!
-non-nsfw-channel-description = Use the { $cmd_mention } command if you're unsure how to setup this.
+non-nsfw-channel-title = { $emoji } Эту команду нельзя использовать вне NSFW канала!
+non-nsfw-channel-description = Используйте команду { $cmd_mention } , если не знаете, как настроить это.
 upvote-msg =
-    Please upvote me on Top.gg or DBL to use this command. { $emoji }
-    Here is the link: { $link }
-    Your vote will expire after 12 hours.
+    Пожалуйста, проголосуйте меня на Top.gg или DBL для использования этой команды. { $emoji }
+    Ссылка: { $link }
+    Ваш голос истекает через 12 часов.
     
-    You can bypass this by [boosting Martine's server]({ $server_invite })
-upvote-msg-premium = Or by getting one of our [Premium tiers]({ $premium_url })!
-discord-server = Discord Server
-get-premium = Get Premium
-invite-me = Invite Me
+    Вы можете обойти это, [ускорив сервер Мартина]({ $server_invite })
+upvote-msg-premium = Или получив один из наших [Премиум уровней]({ $premium_url })!
+discord-server = Discord Сервер
+get-premium = Получить Премиум
+invite-me = Пригласи меня
 yes = Да
 no = Нет
-btn-fail = Oops! Something failed with buttons on this message, please use the command again.
-command-no-images-found = Sorry, I wasn't able to pull a image for you! Please try again in a bit. { $emoji }
-command-invalid-category = Sorry but this is not a valid category! { $emoji }
-command-list-categories = Here is a list of all available categories:
-command-req-by = Requested by { $author } { $emoji }
-embed-title = Here is an { $category } image... { $emoji }
-embed-auto-footer = Use { $cmd_mention } to change delay or disable
-embed-booru-tags = Search tags: { $tags }
-booru-too-many-tags-nopremium = Sorry, but you can search for maximum 10 tags! Or get Premium to increase that limit up to 30 tags! { $emoji }
-booru-too-many-tags = Sorry, but you cannot search for more than 30 tags! { $emoji }
-booru-blocked-tag = One of these tags contains a blocked tag. Please try again. { $emoji }
-booru-no-results = I couldn't find any results for these tags. Please try again. { $emoji }
-set-anonymous = Your name will no longer be shown as requester in nsfw commands messages.
-unset-anonymous = Your name will be shown as requester in nsfw commands messages.
-auto-no-thread = Autoporn cannot be enabled in threads.
-auto-no-nsfw = Autoporn can only be enabled in a NSFW channel.
-auto-no-perms = I need embed links permissions to be able to send autoporn messages in this channel.
-auto-setup-title = Autoporn setup for: { $channel }
+btn-fail = Ой! Что-то поломалось с кнопками на этом сообщении, пожалуйста, используйте команду снова.
+command-no-images-found = К сожалению, я не смог получить изображение для вас! Пожалуйста, попробуйте еще раз. { $emoji }
+command-invalid-category = Извините, но это некорректная категория! { $emoji }
+command-list-categories = Вот список всех доступных категорий:
+command-req-by = Запросил { $author } { $emoji }
+embed-title = Вот это { $category } изображение... { $emoji }
+embed-auto-footer = Используйте { $cmd_mention } для изменения задержки или отключения
+embed-booru-tags = Поиск тегов: { $tags }
+booru-too-many-tags-nopremium = Извините, но вы можете найти максимум 10 тегов! Или получите Премиум для увеличения этого лимита до 30 тегов! { $emoji }
+booru-too-many-tags = Извините, но вы не можете искать более 30 тегов! { $emoji }
+booru-blocked-tag = Один из этих тегов содержит заблокированный тег. Пожалуйста, попробуйте еще раз. { $emoji }
+booru-no-results = Мне не удалось найти результаты для этих тегов. Пожалуйста, попробуйте еще раз. { $emoji }
+set-anonymous = Ваше имя больше не будет отображаться как запросивший в сообщениях команд nsfw.
+unset-anonymous = Ваше имя будет отображаться как запросивший в сообщениях команд nsfw.
+auto-no-thread = Автопорно не может быть включен в темах.
+auto-no-nsfw = Автопорно может быть включен только в NSFW канале.
+auto-no-perms = Мне нужны права на встраивание ссылок, чтобы отправлять автопорно в этом канале.
+auto-setup-title = Автопорно для: { $channel }
 auto-setup-description =
-    Notes:
-    - The category called "random" is images of *all* available categories. It is the one selected by default. If you select a specific category it will get removed.
-    - There is a 15 seconds cooldown after enabling/disabling, and after updating categories.
-    - Images are sent every 5 minutes, by default. Use the `Change delay` button to update it.
+    Примечания:
+    - Категория называемая "случайным образом" - это изображения *всех* доступных категорий. Это то, что выбрано по умолчанию. Если вы выберите конкретную категорию, она будет удалена.
+    - Заддержка 15 секунд после включения/отключения и после обновления категорий.
+    - Изображения отправляются каждые 5 минут, по умолчанию. Используйте кнопку `Изменить задержку`, чтобы изменить ее.
 auto-setup-current = Current settings:
 auto-setup-enabled = **Enabled:** { $enabled }
 auto-setup-delay = **Delay:** { $delay }

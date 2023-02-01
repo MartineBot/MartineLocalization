@@ -20,25 +20,25 @@ streams-autorefresh-disabled = Хорошо! Уведомления стримо
 streams-endbehavior-select = Выберите что делать по завершению стримов
 streams-deletealertmsg = Удалить сообщение
 streams-deletealertmsg-desc = Это удалит уведомление о стриме.
-streams-editalertmsg = Edit alert message
-streams-editalertmsg-desc = This will edit the stream alert message with some informations about the stream.
-streams-newmsg = Send new message
-streams-newmsg-desc = This will send a new message with some informations about the stream.
-streams-same-endbehavior = Please select another behavior than the one currently selected.
-streams-endbehavior-changed = Successfully updated the stream end behavior.
-streams-msg-modal = Streams alerts message editor
-streams-msg-label = Set the message sent on a stream start alert.
-streams-msg-placeholder = { "{" }streamer{ "}" } = the streamer name - { "{" }everyone{ "}" } = @everyone ping - { "{" }here{ "}" } = @here ping
-streams-msg-changed = Successfully updated the stream start alert message!
+streams-editalertmsg = Изменить уведомление
+streams-editalertmsg-desc = Это отредактирует сообщение о стриме с некоторой информацией о нем.
+streams-newmsg = Отправить новое сообщение
+streams-newmsg-desc = Это отправит новое сообщение с некоторой информацией о стриме.
+streams-same-endbehavior = Пожалуйста, выберите другое поведение, отличающейся от того что выбрано сейчас.
+streams-endbehavior-changed = Успешно обновлено поведение по завершению стрима.
+streams-msg-modal = Редактировать уведомление о стриме
+streams-msg-label = Установите сообщение, которое будет отправлено по началу стрима.
+streams-msg-placeholder = { "{" }streamer{ "}" } = имя стримера - { "{" }everyone{ "}" } = @everyone пинг - { "{" }here{ "}" } = @here пинг
+streams-msg-changed = Успешно обновлено уведомление о запуске стрима!
 # $source will be the source of the stream alert.
-streams-added = Successfully added this { $source } stream as a alert in that channel!
+streams-added = Успешно добавлено этот { $source } стрим как уведомление в канале!
 # $cmd_mention is the slash command mention for /alerts streams settings
 streams-added-tip =
-    A alert will be sent during the next stream.
-    You can update the streams alerts settings using { $cmd_mention } command.
+    Уведомление будет отправлено по началу нового стрима.
+    Вы можете обновить настройки оповещений используя команду { $cmd_mention }.
 # $source will be the source of the stream alert.
-streams-removed = Successfully removed this { $source } stream alert from this channel!
-streams-twitch-notfound = Couldn't find that Twitch user.
+streams-removed = Успешно удалено это уведомление { $source } стрима из этого канала!
+streams-twitch-notfound = Не удалось найти этого пользователя Twitch.
 streams-yt-notfound =
-    Couldn't find that YouTube user.
-    Try again by pasting the channel URL at https://commentpicker.com/youtube-channel-id.php and take the "Channel ID" value.
+    Не удалось найти этого пользователя YouTube.
+    Попробуйте еще раз, вставив URL канала на https://commentpicker.com/youtube-channel-id.php и скопировать значение "Channel ID".
