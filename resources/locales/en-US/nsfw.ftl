@@ -38,8 +38,8 @@ auto-setup-description = Notes:
     - There is a 15 seconds cooldown after enabling/disabling, and after updating categories.
     - Images are sent every 5 minutes, by default. Use the `Change delay` button to update it.
 auto-setup-current = Current settings:
-auto-setup-enabled = Enabled: { $enabled }
-auto-setup-delay = Delay: { $delay }
+auto-setup-enabled = **Enabled:** { $enabled }
+auto-setup-delay = **Delay:** { $delay }
 auto-setup-categories = Enabled categories:
 auto-setup-selected-categories = Selected categories:
 auto-setup-footer = Use the "Update categories" button after selecting the categories of your choice
@@ -61,7 +61,7 @@ auto-setup-enable-no-webhooks-perm = I need the "Manage Webhooks" permission in 
     The autoporn feature uses webhooks for a giving images in the best conditions in term of delay.
 auto-setup-disable-no-webhooks-perm = I need the "Manage Webhooks" permission to be able to completely disable autoporn in this channel.
 auto-setup-max-webhooks = Maximum amount of webhooks reached in this channel. Please delete at least one webhook so Martine can set up autoporn here.
-auto-setup-enabled = Autoporn enabled in { $channel }.
+auto-setup-enabled-success = Autoporn enabled in { $channel }.
 auto-setup-enabled-tip = Images are sent every 5 minutes by default. Use the `Change delay` button to update it.
 auto-setup-disabled = Autoporn disabled in { $channel }.
 auto-setup-delay-no-premium = Autoporn delay can only be changed for `Premium Server Silver` tier (or higher) servers! Check out our Premium tiers here: { $premium_url }
