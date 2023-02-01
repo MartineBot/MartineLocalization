@@ -46,7 +46,7 @@ videos-settings = videos alerts settings
 videos-message = Üzenet
 videos-settings-msg-btn = Üzenet szerkesztése
 videos-msg-modal = Videos alerts message editor
-videos-msg-label = Set the message sent when a new video is posted.
+videos-msg-label = Set the message sent on videos alerts.
 videos-msg-placeholder = { "{" }name{ "}" } = the video creator name - { "{" }everyone{ "}" } = @everyone ping - { "{" }here{ "}" } = @here ping
 videos-msg-changed = Successfully updated the videos alerts message!
 videos-count = { $source } videos alerts in this server
