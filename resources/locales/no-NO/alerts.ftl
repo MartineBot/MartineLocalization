@@ -9,7 +9,7 @@ streams-message = Melding
 streams-autorefresh = Varsler auto-oppdatering
 streams-endbehavior = Slutt oppførsel
 # $source will be the source of the stream alert.
-streams-count = { $source } streams alerts in this server
+streams-count = { $source } strømmevarsler i denne serveren
 streams-none = Ingen strømmingsvarsler er satt på denne serveren.
 streams-disable-autorefresh = Deaktiver varsler auto-oppdatering
 streams-enable-autorefresh = Aktiver varsler auto-oppdatering
@@ -31,27 +31,27 @@ streams-msg-label = Angi meldingen som sendes på et strømstartvarsel.
 streams-msg-placeholder = { "{" }streamer{ "}" } = Navnet på streameren - { "{" }everyone{ "}" } = @everyone ping - { "{" }here{ "}" } = @here ping
 streams-msg-changed = Vellykket Oppdaterte varselmeldingen for strømstart!
 # $source will be the source of the stream alert.
-streams-added = Successfully added this { $source } stream as a alert in that channel!
+streams-added = Vellykket lagt til { $source } strømmen til et varsel i den kanalen!
 # $cmd_mention is the slash command mention for /alerts streams settings
 streams-added-tip =
-    A alert will be sent during the next stream.
-    You can update the streams alerts settings using { $cmd_mention } command.
+    Et varsel vil bli sendt i løpet av neste strømning.
+    Du kan oppdatere strømmens varsler ved å bruke { $cmd_mention } kommando.
 # $source will be the source of the stream alert.
-streams-removed = Successfully removed this { $source } stream alert from this channel!
+streams-removed = Vellykket Fjernet dette { $source } strømvarselet fra denne kanalen!
 streams-twitch-notfound = Kunne ikke finne den Twitch-brukeren.
 streams-yt-notfound =
-    Couldn't find that YouTube user.
-    Try again by pasting the channel URL at https://commentpicker.com/youtube-channel-id.php and take the "Channel ID" value.
-videos-settings = videos alerts settings
+    Kunne ikke finne den YouTube-brukeren.
+    Prøv igjen ved å lime inn kanal-URLen på https://commentpicker.com/youtube-channel-id.php og ta "Channel ID"-verdien.
+videos-settings = innstillinger for videoer varsler
 videos-message = Melding
 videos-settings-msg-btn = Rediger melding
-videos-msg-modal = Videos alerts message editor
-videos-msg-label = Set the message sent on videos alerts.
-videos-msg-placeholder = { "{" }name{ "}" } = the video creator name - { "{" }everyone{ "}" } = @everyone ping - { "{" }here{ "}" } = @here ping
-videos-msg-changed = Successfully updated the videos alerts message!
-videos-count = { $source } videos alerts in this server
-videos-added = Successfully added this { $source } channel as a alert in that channel!
+videos-msg-modal = Meldingsredigering for videovarsler
+videos-msg-label = Angi meldingen som sendes på videovarsler.
+videos-msg-placeholder = { "{" }navn{ "}" } = navnet på videoskaperen - { "{" }everyone{ "}" } = @everyone ping - { "{" }here{ "}" } = @here ping
+videos-msg-changed = Vellykket Videovarslingsmeldingen er oppdatert!
+videos-count = { $source } videovarsler på denne serveren
+videos-added = Vellykket lagt til { $source } strømmen til et varsel i den kanalen!
 videos-added-tip =
-    A alert will be sent whenever the next video is posted.
-    You can update the videos alerts settings using { $cmd_mention } command.
-videos-removed = Successfully removed this { $source } channel alert from this channel!
+    Et varsel vil bli sendt hver gang neste video legges ut.
+    Du kan oppdatere videovarslingsinnstillingene ved å bruke { $cmd_mention } kommandoen.
+videos-removed = Vellykket Fjernet dette { $source } strømvarselet fra denne kanalen!

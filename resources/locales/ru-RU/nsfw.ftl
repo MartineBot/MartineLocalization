@@ -35,68 +35,68 @@ auto-setup-description =
     - Категория называемая "случайным образом" - это изображения *всех* доступных категорий. Это то, что выбрано по умолчанию. Если вы выберите конкретную категорию, она будет удалена.
     - Заддержка 15 секунд после включения/отключения и после обновления категорий.
     - Изображения отправляются каждые 5 минут, по умолчанию. Используйте кнопку `Изменить задержку`, чтобы изменить ее.
-auto-setup-current = Current settings:
-auto-setup-enabled = **Enabled:** { $enabled }
-auto-setup-delay = **Delay:** { $delay }
-auto-setup-categories = Enabled categories:
-auto-setup-selected-categories = Selected categories:
-auto-setup-footer = Use the "Update categories" button after selecting the categories of your choice
-auto-setup-select-placeholder-disabled = Enable to select categories
-auto-setup-categories-btn = Update categories
-auto-setup-clear-categories-btn = Clear selected categories
-auto-setup-delay-btn = Change delay
-auto-setup-status-btn = Status in this server
-auto-setup-select-placeholder = Select categories
-auto-setup-enable-btn = Enable
-auto-setup-disable-btn = Disable
-auto-setup-same-categories = Please select other categories than those currently enabled for this channel.
-auto-setup-categories-updated = Successfully updated autoporn categories for { $channel } to: { $categories }
-auto-setup-enable-fail = I couldn't setup autoporn in this channel. Please try again later.
+auto-setup-current = Текущие настройки:
+auto-setup-enabled = **Включено:** { $enabled }
+auto-setup-delay = **Задержка:** { $delay }
+auto-setup-categories = Включенные категории:
+auto-setup-selected-categories = Выбранные категории:
+auto-setup-footer = Используйте кнопку "Обновить категории" после выбора категорий по вашему выбору
+auto-setup-select-placeholder-disabled = Включить выбор категорий
+auto-setup-categories-btn = Обновить категории
+auto-setup-clear-categories-btn = Очистить выбранные категории
+auto-setup-delay-btn = Изменить задержку
+auto-setup-status-btn = Статус на этом сервере
+auto-setup-select-placeholder = Выберите категории
+auto-setup-enable-btn = Включить
+auto-setup-disable-btn = Отключить
+auto-setup-same-categories = Пожалуйста, выберите другие категории, чем те, которые сейчас включены для этого канала.
+auto-setup-categories-updated = Успешно обновлены категории автопорно для { $channel } в: { $categories }
+auto-setup-enable-fail = Я не смог настроить автопорно на этом канале. Пожалуйста, повторите попытку позже.
 auto-setup-no-premium =
-    You cannot have more than { $count } autoporn channels per server.
-    You can get higher limits with our Premium tiers: { $premium_url }
-auto-setup-no-premium-3 = 25 autoporn channels is the maximum that can be set.
+    У вас не может быть больше { $count } каналов автопорно на сервер.
+    Вы можете получить более высокие лимиты с нашими премиум-уровнями: { $premium_url }
+auto-setup-no-premium-3 = 25 каналов автопорно является максимальным числом каналом, которое можно установить.
 auto-setup-enable-no-webhooks-perm =
-    I need the "Manage Webhooks" permission in order to be able to send autoporn messages in this channel!
-    The autoporn feature uses webhooks for a giving images in the best conditions in term of delay.
-auto-setup-disable-no-webhooks-perm = I need the "Manage Webhooks" permission to be able to completely disable autoporn in this channel.
-auto-setup-max-webhooks = Maximum amount of webhooks reached in this channel. Please delete at least one webhook so Martine can set up autoporn here.
-auto-setup-enabled-success = Autoporn enabled in { $channel }.
-auto-setup-enabled-tip = Images are sent every 5 minutes by default. Use the `Change delay` button to update it.
-auto-setup-disabled = Autoporn disabled in { $channel }.
-auto-setup-delay-no-premium = Autoporn delay can only be changed for `Premium Server Silver` tier (or higher) servers! Check out our Premium tiers here: { $premium_url }
-auto-status-title = Autoporn status in { $guild }
-auto-status-title-none = Autoporn is not set anywhere in this server.
-auto-status-msg-sent = **Messages sent:** { $count }
+    Мне нужно разрешение «Управление Webhooks», чтобы иметь возможность отправлять сообщения автопорно в этом канале!
+    Функция автопорно использует вебхуки для предоставления изображений в лучших условиях задержки.
+auto-setup-disable-no-webhooks-perm = Мне нужно разрешение «Управление Webhooks», чтобы полностью отключить автопорно в этом канале.
+auto-setup-max-webhooks = Достигнуто максимальное количество вебхуков в этом канале. Пожалуйста, удалите по крайней мере один вебхук, чтобы Martine мог настроить здесь автопорно.
+auto-setup-enabled-success = Автопорно включено в { $channel }.
+auto-setup-enabled-tip = Изображения отправляются каждые 5 минут по умолчанию. Используйте кнопку «Изменить задержку», чтобы обновить его.
+auto-setup-disabled = Автопорно отключено в { $channel }.
+auto-setup-delay-no-premium = Задержка автопорно может быть изменена только на `Premium Server Silver` уровня (или выше)! Посмотрите наши премиум-уровни здесь: { $premium_url }
+auto-status-title = Статус автопорно в { $guild }
+auto-status-title-none = Автопорно нигде не установлен на этом сервере.
+auto-status-msg-sent = **Сообщений отправлено:** { $count }
 auto-status-categories =
     { $count ->
-        [one] **Category:** { $categories }
-       *[other] **Categories:** { $categories }
+        [one] **Категория:** { $categories }
+       *[other] **Категории:** { $categories }
     }
-auto-status-getback-btn = Get back to setup
-auto-delaymodal-title = Martine - Autoporn delay prompt
-auto-delaymodal-label = Delay
-auto-delaymodal-placeholder = The delay in minutes of which autoporn will send messages to this channel...
-auto-delaymodal-invalid = Looks like this is not a correct value. Example: 5 minutes
-auto-delaymodal-toolow = The value must be over than 2 minutes.
-auto-delaymodal-toohigh = The value must be less than 60 minutes.
-auto-delaymodal-success = Successfully updated autoporn delay for { $channel } to `{ $delay }`.
-auto-setup-timeout-title = Autoporn setup
-auto-setup-timeout-description = This setup message has expired!
+auto-status-getback-btn = Вернуться к настройке
+auto-delaymodal-title = Martine - Задержка автопорно
+auto-delaymodal-label = Задержка
+auto-delaymodal-placeholder = Задержка в минутах, когда автопорно будет отправлять сообщения на этот канал...
+auto-delaymodal-invalid = Похоже, это неправильное значение. Пример: 5 минут
+auto-delaymodal-toolow = Значение должно быть больше чем 2 минуты.
+auto-delaymodal-toohigh = Значение должно быть меньше 60 минут.
+auto-delaymodal-success = Задержка автопорно успешно обновлена для { $channel } до `{ $delay }`.
+auto-setup-timeout-title = Настройка автопорно
+auto-setup-timeout-description = Срок действия этого сообщения истек!
 auto-task-disabled =
-    Set this channel to NSFW back and use { $autocmd_mention } command to re-enable autoporn in this channel.
-    Use the { $tipcmd_mention } command if you're not sure how to setup this.
-auto-task-noperms-title = Autoporn feature requires Martine to have the "Manage Webhooks" and "View Channel" permissions!
+    Установите этот канал как NSFW затем используйте команду { $autocmd_mention } что бы включить автопорно в этом канале.
+    Используйте команду { $tipcmd_mention } если не знаете, как это установить.
+auto-task-noperms-title = Для использования функции автопорно у бота Martine должно быть разрешение на управление веб-хуками и просмотр канала!
 auto-task-noperms-desc =
-    Set the correct permissions and use the { $autocmd_mention } command to re-enable autoporn in this channel.
-    If you are confused about this, or not sure how to proceed, feel free to join our support server and we will help you! { $support_url }
-auto-task-maxwebhooks-title = Maximum number of webhooks reached (10) in this channel!
+    Установите правильные права доступа и используйте команду { $autocmd_mention } для повторного включения автопорно в этом канале.
+    Если вы запутались или не уверены в том, как продолжить, присоединяйтесь к нашему серверу поддержки и мы поможем вам! { $support_url }
+auto-task-maxwebhooks-title = Достигнуто максимальное количество вебхуков (10) в этом канале!
 auto-task-maxwebhooks-desc =
-    A Discord channel can have a maximum of 10 webhooks, and this channel has hit the maximum.
-    Please delete at least one webhook so Martine can set up autoporn here. Once it's done use the { $autocmd_mention } command to re-enable autoporn.
-    If you are confused about this, or not sure how to proceed, feel free to join our support server and we will help you! { $support_url }
+    Discord канал может иметь максимум 10 вебхуков, и этот канал достиг максимума.
+    Пожалуйста, удалите по крайней мере один вебхук, чтобы Martine смог настроить автопорно здесь. После этого используйте команду { $autocmd_mention } для повторного включения автопорно.
+    Если вы запутались с этим или не уверены в том, как продолжить, присоединяйтесь к нашему серверу поддержки и мы поможем вам! { $support_url }
 auto-cleanup-msg =
-    Autoporn was disabled in this channel because this server has hit the maximum channel enabled (5).
-    This happens because the server had Premium enabled in the past but no longer is.
-    Get Premium to get access to more autoporn channels again! { $emoji }
+    Автопорно было отключено в этом канале, так как на сервере было достигнуто максимальное количество каналов (5).
+    Это произошло, потому что сервер имел статус Премиум в прошлом, но сейчас его нет.
+    Получите Премиум, чтобы снова получить доступ к большему числу каналов автопорно! { $emoji }
     { $premium_url }

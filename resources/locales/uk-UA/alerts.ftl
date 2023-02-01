@@ -42,16 +42,14 @@ streams-twitch-notfound = Не вдалося знайти цього корис
 streams-yt-notfound =
     Не вдалося знайти цього користувача YouTube.
     Спробуйте ще раз, вставивши URL-адресу каналу на https://commentpicker.com/youtube-channel-id.php і взявши значення «Channel ID».
-videos-settings = videos alerts settings
+videos-settings = налаштування сповіщень про відео
 videos-message = Повідомлення
 videos-settings-msg-btn = Редагувати повідомлення
-videos-msg-modal = Videos alerts message editor
-videos-msg-label = Set the message sent on videos alerts.
-videos-msg-placeholder = { "{" }name{ "}" } = the video creator name - { "{" }everyone{ "}" } = @everyone ping - { "{" }here{ "}" } = @here ping
-videos-msg-changed = Successfully updated the videos alerts message!
-videos-count = { $source } videos alerts in this server
-videos-added = Successfully added this { $source } channel as a alert in that channel!
-videos-added-tip =
-    A alert will be sent whenever the next video is posted.
-    You can update the videos alerts settings using { $cmd_mention } command.
-videos-removed = Successfully removed this { $source } channel alert from this channel!
+videos-msg-modal = Редактор повідомлення сповіщення про відео
+videos-msg-label = Установити повідомлення, що надсилається на сповіщення про відео.
+videos-msg-placeholder = { "{" }name{ "}" } = імʼя каналу відео - { "{" }everyone{ "}" } = згадка @everyone - { "{" }here{ "}" } = згадка @here
+videos-msg-changed = Повідомлення сповіщень про відео успішно оновлено!
+videos-count = { $source } сповіщення про відео на цьому сервері
+videos-added = Цей канал { $source } успішно додано як сповіщення в цьому каналі!
+videos-added-tip = Щоразу, коли буде опубліковано наступне відео, буде надіслано сповіщення. Ви можете оновити налаштування сповіщень про відео командою { $cmd_mention }.
+videos-removed = Сповіщення каналу { $source } успішно вилучено з цього каналу!

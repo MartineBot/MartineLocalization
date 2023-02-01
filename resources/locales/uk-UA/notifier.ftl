@@ -16,4 +16,4 @@ twitch-streamend-games-played = Категорія
 youtube-live = Наживо на YouTube
 youtube-subscribers = Підписників:
 youtube-streamend = трансляцію завершено!
-videos-default-msg = has posted a new video!
+videos-default-msg = публікує нове відео!

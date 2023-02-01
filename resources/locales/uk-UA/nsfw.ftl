@@ -1,54 +1,54 @@
-non-nsfw-channel-title = { $emoji } You can't use this command in a non-NSFW channel!
-non-nsfw-channel-description = Use the { $cmd_mention } command if you're unsure how to setup this.
+non-nsfw-channel-title = { $emoji } Ви не можете використовувати цю команду в каналі не NSFW!
+non-nsfw-channel-description = Скористайтеся командою { $cmd_mention }, якщо ви не впевнені, як це налаштувати.
 upvote-msg =
-    Please upvote me on Top.gg or DBL to use this command. { $emoji }
-    Here is the link: { $link }
-    Your vote will expire after 12 hours.
+    Будь ласка, проголосуйте за мене на Top.gg або DBL, щоб використовувати цю команду. { $emoji }
+    Ось посилання: { $link }
+    Ваш голос закінчиться через 12 годин.
     
-    You can bypass this by [boosting Martine's server]({ $server_invite })
-upvote-msg-premium = Or by getting one of our [Premium tiers]({ $premium_url })!
-discord-server = Discord Server
-get-premium = Get Premium
-invite-me = Invite Me
+    Ви можете обійти це, [забустивши сервер Martine]({ $server_invite })
+upvote-msg-premium = Або отримати один із наших [преміум рівнів]({ $premium_url })!
+discord-server = Сервер Discord
+get-premium = Отримати Преміум
+invite-me = Запросити мене
 yes = Так
 no = Ні
-btn-fail = Oops! Something failed with buttons on this message, please use the command again.
-command-no-images-found = Sorry, I wasn't able to pull a image for you! Please try again in a bit. { $emoji }
-command-invalid-category = Sorry but this is not a valid category! { $emoji }
-command-list-categories = Here is a list of all available categories:
-command-req-by = Requested by { $author } { $emoji }
-embed-title = Here is an { $category } image... { $emoji }
-embed-auto-footer = Use { $cmd_mention } to change delay or disable
-embed-booru-tags = Search tags: { $tags }
-booru-too-many-tags-nopremium = Sorry, but you can search for maximum 10 tags! Or get Premium to increase that limit up to 30 tags! { $emoji }
-booru-too-many-tags = Sorry, but you cannot search for more than 30 tags! { $emoji }
-booru-blocked-tag = One of these tags contains a blocked tag. Please try again. { $emoji }
-booru-no-results = I couldn't find any results for these tags. Please try again. { $emoji }
-set-anonymous = Your name will no longer be shown as requester in nsfw commands messages.
+btn-fail = Упс! Щось не вдалося з кнопками в цьому повідомленні, скористайтеся командою ще раз.
+command-no-images-found = Вибач, я не зміг отримати для тебе зображення! Спробуй ще раз через деякий час. { $emoji }
+command-invalid-category = Вибач, але це недійсна категорія! { $emoji }
+command-list-categories = Ось список усіх доступних категорій:
+command-req-by = На запит від { $author } { $emoji }
+embed-title = Ось зображення { $category }... { $emoji }
+embed-auto-footer = Скористайтеся { $cmd_mention }, щоб змінити затримку або вимкнути її
+embed-booru-tags = Теги пошуку: { $tags }
+booru-too-many-tags-nopremium = Вибач, але ти можеш шукати максимум 10 тегів! Придбай Преміум, щоб збільшити цей ліміт до 30 тегів! { $emoji }
+booru-too-many-tags = Вибач, але ти не можеш шукати більше ніж 30 тегів! { $emoji }
+booru-blocked-tag = Один із цих тегів містить заблокований тег. Будь ласка, спробуй ще раз. { $emoji }
+booru-no-results = Я не міг знайти жодного результату для цих тегів. Будь ласка, спробуй ще раз. { $emoji }
+set-anonymous = Твоє ім’я більше не відображатиметься як запитувач у повідомленнях команд NSFW.
 unset-anonymous = Your name will be shown as requester in nsfw commands messages.
 auto-no-thread = Autoporn cannot be enabled in threads.
 auto-no-nsfw = Autoporn can only be enabled in a NSFW channel.
 auto-no-perms = I need embed links permissions to be able to send autoporn messages in this channel.
 auto-setup-title = Autoporn setup for: { $channel }
 auto-setup-description =
-    Notes:
-    - The category called "random" is images of *all* available categories. It is the one selected by default. If you select a specific category it will get removed.
-    - There is a 15 seconds cooldown after enabling/disabling, and after updating categories.
-    - Images are sent every 5 minutes, by default. Use the `Change delay` button to update it.
-auto-setup-current = Current settings:
-auto-setup-enabled = **Enabled:** { $enabled }
-auto-setup-delay = **Delay:** { $delay }
+    Примітки:
+    — Категорія під назвою «випадкова» — це зображення *всіх* доступних категорій. Це те, що вибрано за замовчуванням. Якщо вибрати певну категорію, її буде видалено.
+    — Після ввімкнення/вимкнення та оновлення категорій є 15 секунд відновлення.
+    — За замовчуванням зображення надсилаються кожні 5 хвилин. Використовуйте кнопку «Змінити затримку», щоб змінити це.
+auto-setup-current = Поточні налаштування:
+auto-setup-enabled = **Увімкнено:** { $enabled }
+auto-setup-delay = **Затримка:** { $delay }
 auto-setup-categories = Enabled categories:
-auto-setup-selected-categories = Selected categories:
-auto-setup-footer = Use the "Update categories" button after selecting the categories of your choice
-auto-setup-select-placeholder-disabled = Enable to select categories
-auto-setup-categories-btn = Update categories
-auto-setup-clear-categories-btn = Clear selected categories
-auto-setup-delay-btn = Change delay
-auto-setup-status-btn = Status in this server
-auto-setup-select-placeholder = Select categories
-auto-setup-enable-btn = Enable
-auto-setup-disable-btn = Disable
+auto-setup-selected-categories = Вибрані категорії:
+auto-setup-footer = Вибравши потрібні категорії, скористайтеся кнопкою «Оновити категорії»
+auto-setup-select-placeholder-disabled = Увімкнути для вибору категорій
+auto-setup-categories-btn = Оновити категорії
+auto-setup-clear-categories-btn = Очистити вибрані категорії
+auto-setup-delay-btn = Змінити затримку
+auto-setup-status-btn = Стан сервера
+auto-setup-select-placeholder = Виберіть категорії
+auto-setup-enable-btn = Увімкнути
+auto-setup-disable-btn = Вимкнути
 auto-setup-same-categories = Please select other categories than those currently enabled for this channel.
 auto-setup-categories-updated = Successfully updated autoporn categories for { $channel } to: { $categories }
 auto-setup-enable-fail = I couldn't setup autoporn in this channel. Please try again later.
@@ -67,15 +67,15 @@ auto-setup-disabled = Autoporn disabled in { $channel }.
 auto-setup-delay-no-premium = Autoporn delay can only be changed for `Premium Server Silver` tier (or higher) servers! Check out our Premium tiers here: { $premium_url }
 auto-status-title = Autoporn status in { $guild }
 auto-status-title-none = Autoporn is not set anywhere in this server.
-auto-status-msg-sent = **Messages sent:** { $count }
+auto-status-msg-sent = **Повідомлень надіслано:** { $count }
 auto-status-categories =
     { $count ->
-        [one] **Category:** { $categories }
-       *[other] **Categories:** { $categories }
+        [one] **Категорія:** { $categories }
+       *[other] **Категорії:** { $categories }
     }
-auto-status-getback-btn = Get back to setup
+auto-status-getback-btn = Назад до налаштування
 auto-delaymodal-title = Martine - Autoporn delay prompt
-auto-delaymodal-label = Delay
+auto-delaymodal-label = Затримка
 auto-delaymodal-placeholder = The delay in minutes of which autoporn will send messages to this channel...
 auto-delaymodal-invalid = Looks like this is not a correct value. Example: 5 minutes
 auto-delaymodal-toolow = The value must be over than 2 minutes.

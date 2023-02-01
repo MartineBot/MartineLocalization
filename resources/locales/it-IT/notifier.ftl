@@ -16,4 +16,4 @@ twitch-streamend-games-played = Gioco
 youtube-live = In diretta su YouTube
 youtube-subscribers = Iscritti:
 youtube-streamend = live terminata!
-videos-default-msg = has posted a new video!
+videos-default-msg = ha pubblicato un nuovo video!

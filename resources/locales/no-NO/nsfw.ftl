@@ -1,5 +1,5 @@
-non-nsfw-channel-title = { $emoji } You can't use this command in a non-NSFW channel!
-non-nsfw-channel-description = Use the { $cmd_mention } command if you're unsure how to setup this.
+non-nsfw-channel-title = { $emoji } Du kan ikke bruke denne kommandoen i en ikke-NSFW kanal!
+non-nsfw-channel-description = Bruk { $cmd_mention } kommandoen hvis du er usikker på hvordan du setter opp dette.
 upvote-msg =
     Please upvote me on Top.gg or DBL to use this command. { $emoji }
     Here is the link: { $link }

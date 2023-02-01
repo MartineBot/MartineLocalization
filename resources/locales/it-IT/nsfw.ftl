@@ -1,102 +1,100 @@
-non-nsfw-channel-title = { $emoji } You can't use this command in a non-NSFW channel!
-non-nsfw-channel-description = Use the { $cmd_mention } command if you're unsure how to setup this.
+non-nsfw-channel-title = { $emoji } Non puoi utilizzare questo comando in un canale non NSFW!
+non-nsfw-channel-description = Utilizza il comando { $cmd_mention } se non sei sicuro su come configurarlo.
 upvote-msg =
-    Please upvote me on Top.gg or DBL to use this command. { $emoji }
-    Here is the link: { $link }
-    Your vote will expire after 12 hours.
+    Sei pregato di votarmi positivamente su Top.gg o DBL per utilizzare questo comando. { $emoji }
+    Ecco il link: { $link }
+    Il tuo voto scadrà dopo 12 ore.
     
-    You can bypass this by [boosting Martine's server]({ $server_invite })
-upvote-msg-premium = Or by getting one of our [Premium tiers]({ $premium_url })!
-discord-server = Discord Server
-get-premium = Get Premium
-invite-me = Invite Me
+    Puoi aggirarlo [potenziando il server di Martine] ({ $server_invite })
+upvote-msg-premium = Od ottenendo uno dei nostri [ranghi Premium]({ $premium_url })!
+discord-server = Server Discord
+get-premium = Ottieni Premium
+invite-me = Invitami
 yes = Sì
 no = No
-btn-fail = Oops! Something failed with buttons on this message, please use the command again.
-command-no-images-found = Sorry, I wasn't able to pull a image for you! Please try again in a bit. { $emoji }
-command-invalid-category = Sorry but this is not a valid category! { $emoji }
-command-list-categories = Here is a list of all available categories:
-command-req-by = Requested by { $author } { $emoji }
-embed-title = Here is an { $category } image... { $emoji }
-embed-auto-footer = Use { $cmd_mention } to change delay or disable
-embed-booru-tags = Search tags: { $tags }
-booru-too-many-tags-nopremium = Sorry, but you can search for maximum 10 tags! Or get Premium to increase that limit up to 30 tags! { $emoji }
-booru-too-many-tags = Sorry, but you cannot search for more than 30 tags! { $emoji }
-booru-blocked-tag = One of these tags contains a blocked tag. Please try again. { $emoji }
-booru-no-results = I couldn't find any results for these tags. Please try again. { $emoji }
-set-anonymous = Your name will no longer be shown as requester in nsfw commands messages.
-unset-anonymous = Your name will be shown as requester in nsfw commands messages.
-auto-no-thread = Autoporn cannot be enabled in threads.
-auto-no-nsfw = Autoporn can only be enabled in a NSFW channel.
-auto-no-perms = I need embed links permissions to be able to send autoporn messages in this channel.
-auto-setup-title = Autoporn setup for: { $channel }
+btn-fail = Oops! Qualcosa è andato storto con i pulsanti su questo messaggio, sei pregato di riutilizzare il comando.
+command-no-images-found = Spiacenti, non sono riuscita a recuperare un'immagine per te! Sei pregato di riprovare tra poco. { $emoji }
+command-invalid-category = Spiacenti, questa categoria non è valida! { $emoji }
+command-list-categories = Ecco un elenco di tutte le categorie disponibili:
+command-req-by = Richiesto da { $author } { $emoji }
+embed-title = Ecco un'immagine di { $category }... { $emoji }
+embed-auto-footer = Utilizza { $cmd_mention } per modificare o disabilitare il ritardo
+embed-booru-tags = Cerca tag: { $tags }
+booru-too-many-tags-nopremium = Spiacenti, puoi cercare un massimo di 10 tag! Altrimenti, puoi ottenere Premium per aumentare il limite fino a 30 tag! { $emoji }
+booru-too-many-tags = Spiacenti, non puoi cercare più di 30 tag! { $emoji }
+booru-blocked-tag = Uno di questi tag contiene un tag bloccato. Sei pregato di riprovare. { $emoji }
+booru-no-results = Non ho potuto trovare alcun risultato per questi tag. Sei pregato di riprovare. { $emoji }
+set-anonymous = Il tuo nome non sarà più mostrato come richiedente nei messaggi dei comandi NSFW.
+unset-anonymous = Il tuo nome sarà mostrato come richiedente nei messaggi dei comandi NSFW.
+auto-no-thread = Impossibile abilitare l'auto-porn nei thread.
+auto-no-nsfw = Auto-porn può essere abilitato in un canale NSFW.
+auto-no-perms = Necessito delle autorizzazioni a inviare link incorporati, per poter inviare messaggi di auto-porn su questo canale.
+auto-setup-title = Autoporn configurato per: { $channel }
 auto-setup-description =
-    Notes:
-    - The category called "random" is images of *all* available categories. It is the one selected by default. If you select a specific category it will get removed.
-    - There is a 15 seconds cooldown after enabling/disabling, and after updating categories.
-    - Images are sent every 5 minutes, by default. Use the `Change delay` button to update it.
-auto-setup-current = Current settings:
-auto-setup-enabled = **Enabled:** { $enabled }
-auto-setup-delay = **Delay:** { $delay }
-auto-setup-categories = Enabled categories:
-auto-setup-selected-categories = Selected categories:
-auto-setup-footer = Use the "Update categories" button after selecting the categories of your choice
-auto-setup-select-placeholder-disabled = Enable to select categories
-auto-setup-categories-btn = Update categories
-auto-setup-clear-categories-btn = Clear selected categories
-auto-setup-delay-btn = Change delay
-auto-setup-status-btn = Status in this server
-auto-setup-select-placeholder = Select categories
-auto-setup-enable-btn = Enable
-auto-setup-disable-btn = Disable
-auto-setup-same-categories = Please select other categories than those currently enabled for this channel.
-auto-setup-categories-updated = Successfully updated autoporn categories for { $channel } to: { $categories }
-auto-setup-enable-fail = I couldn't setup autoporn in this channel. Please try again later.
+    Note:
+    - La categoria denominata "casuale" include immagini di *tutte* le categorie disponibili. È quella selezionata di default. Se selezioni una categoria specifica, sarà rimossa.
+    - Esiste un raffreddamento di 15 secondi dopo averla abilitata/disabilitata e in seguito all'aggiornamento delle categorie.
+    - Le immagini sono inviate ogni 5 minuti, di default. Utilizza il pulsante `Modifica ritardo` per aggiornarlo.
+auto-setup-current = Impostazioni correnti:
+auto-setup-enabled = **Abilitato:** { $enabled }
+auto-setup-delay = **Ritardo:** { $delay }
+auto-setup-categories = Categorie abilitate:
+auto-setup-selected-categories = Categorie selezionate:
+auto-setup-footer = Utilizza il pulsante "Aggiorna categorie" dopo aver selezionato quelle di tua scelta
+auto-setup-select-placeholder-disabled = Abilita per selezionare le categorie
+auto-setup-categories-btn = Aggiorna le categorie
+auto-setup-clear-categories-btn = Cancella le categorie selezionate
+auto-setup-delay-btn = Modifica ritardo
+auto-setup-status-btn = Stato su questo server
+auto-setup-select-placeholder = Seleziona le categorie
+auto-setup-enable-btn = Abilita
+auto-setup-disable-btn = Disabilita
+auto-setup-same-categories = Sei pregato di selezionare delle altre categorie, oltre a quelle correntemente abilitate per questo canale.
+auto-setup-categories-updated = Categorie dell'auto-porn aggiornate correttamente per { $channel } in: { $categories }
+auto-setup-enable-fail = Non sono riuscita a configurare l'auto-porn su questo canale. Sei pregato di riprovare più tardi.
 auto-setup-no-premium =
-    You cannot have more than { $count } autoporn channels per server.
-    You can get higher limits with our Premium tiers: { $premium_url }
-auto-setup-no-premium-3 = 25 autoporn channels is the maximum that can be set.
-auto-setup-enable-no-webhooks-perm =
-    I need the "Manage Webhooks" permission in order to be able to send autoporn messages in this channel!
-    The autoporn feature uses webhooks for a giving images in the best conditions in term of delay.
-auto-setup-disable-no-webhooks-perm = I need the "Manage Webhooks" permission to be able to completely disable autoporn in this channel.
-auto-setup-max-webhooks = Maximum amount of webhooks reached in this channel. Please delete at least one webhook so Martine can set up autoporn here.
-auto-setup-enabled-success = Autoporn enabled in { $channel }.
-auto-setup-enabled-tip = Images are sent every 5 minutes by default. Use the `Change delay` button to update it.
-auto-setup-disabled = Autoporn disabled in { $channel }.
-auto-setup-delay-no-premium = Autoporn delay can only be changed for `Premium Server Silver` tier (or higher) servers! Check out our Premium tiers here: { $premium_url }
-auto-status-title = Autoporn status in { $guild }
-auto-status-title-none = Autoporn is not set anywhere in this server.
-auto-status-msg-sent = **Messages sent:** { $count }
+    Non puoi avere oltre { $count } canali di auto-porn per server.
+    Puoi ottenere limiti superiori con i nostri ranghi Premium: { $premium_url }
+auto-setup-no-premium-3 = Puoi impostare al massimo 25 canali di auto-porn.
+auto-setup-enable-no-webhooks-perm = Necessito dell'autorizzazione "Gestisci Webhook" per poter inviare i messaggi di auto-porn su questo canale! La funzionalità di auto-porn utilizza i webhook per fornire immagini nelle migliori condizioni, in termini di ritardo.
+auto-setup-disable-no-webhooks-perm = Necessito dell'autorizzazione "Gestisci Webhook" per poter disabilitare completamente l'auto-porn su questo canale.
+auto-setup-max-webhooks = Quantità massima di webhook raggiunta su questo canale. Sei pregato di eliminarne almeno uno, così che Martine possa configurare l'auto-porn qui.
+auto-setup-enabled-success = Auto-porn abilitato in { $channel }.
+auto-setup-enabled-tip = Le immagini sono inviate ogni 5 minuti di default. Utilizza il pulsante `Modifica ritardo` per aggiornarlo.
+auto-setup-disabled = Auto-porn disabilitato in { $channel }.
+auto-setup-delay-no-premium = Il ritardo dell'auto-porn può essere modificato per i server di rango 'Premium Server Silver' (o superiori)! Dai un'occhiata ai ranghi Premium, qui: { $premium_url }
+auto-status-title = Stato dell'auto-porn su { $guild }
+auto-status-title-none = L'auto-porn non è configurato da alcuna parte, su questo server.
+auto-status-msg-sent = **Messaggi inviati:** { $count }
 auto-status-categories =
     { $count ->
-        [one] **Category:** { $categories }
-       *[other] **Categories:** { $categories }
+        [one] **Categoria:** { $categories }
+       *[other] **Categorie:** { $categories }
     }
-auto-status-getback-btn = Get back to setup
-auto-delaymodal-title = Martine - Autoporn delay prompt
-auto-delaymodal-label = Delay
-auto-delaymodal-placeholder = The delay in minutes of which autoporn will send messages to this channel...
-auto-delaymodal-invalid = Looks like this is not a correct value. Example: 5 minutes
-auto-delaymodal-toolow = The value must be over than 2 minutes.
-auto-delaymodal-toohigh = The value must be less than 60 minutes.
-auto-delaymodal-success = Successfully updated autoporn delay for { $channel } to `{ $delay }`.
-auto-setup-timeout-title = Autoporn setup
-auto-setup-timeout-description = This setup message has expired!
+auto-status-getback-btn = Torna alla configurazione
+auto-delaymodal-title = Martine - Ritardo Immediato Auto-porn
+auto-delaymodal-label = Ritardo
+auto-delaymodal-placeholder = Il ritardo in minuti, dopo cui l'auto-porn invierà i messaggi a questo canale...
+auto-delaymodal-invalid = Sembra che questo non sia un valore corretto. Esempio: 5 minuti
+auto-delaymodal-toolow = Il valore dev'essere superiore a 2 minuti.
+auto-delaymodal-toohigh = Il valore dev'essere inferiore a 60 minuti.
+auto-delaymodal-success = Ritardo dell'auto-porn aggiornato correttamente per { $channel } in `{ $delay }`.
+auto-setup-timeout-title = Configurazione auto-porn
+auto-setup-timeout-description = Questo messaggio di configurazione è scaduto!
 auto-task-disabled =
-    Set this channel to NSFW back and use { $autocmd_mention } command to re-enable autoporn in this channel.
-    Use the { $tipcmd_mention } command if you're not sure how to setup this.
-auto-task-noperms-title = Autoporn feature requires Martine to have the "Manage Webhooks" and "View Channel" permissions!
+    Reimposta questo comando a NSFW e utilizza il comando { $autocmd_mention } per riabilitare l'auto-porn su questo canale.
+    Utilizza il comando { $tipcmd_mention } se non sei sicuro su come configurarlo.
+auto-task-noperms-title = La funzionalità di auto-porn richiede a Martine di avere le autorizzazioni "Gestisci Webhook" e "Visualizza Canale"!
 auto-task-noperms-desc =
-    Set the correct permissions and use the { $autocmd_mention } command to re-enable autoporn in this channel.
-    If you are confused about this, or not sure how to proceed, feel free to join our support server and we will help you! { $support_url }
-auto-task-maxwebhooks-title = Maximum number of webhooks reached (10) in this channel!
+    Imposta le autorizzazioni corrette e utilizza il comando { $autocmd_mention } per riabilitare l'auto-porn su questo canale.
+    Se sei confuso a riguardo, o insicuro su come procedere, sentiti libero di unirti al nostro server di supporto e ti aiuteremo! { $support_url }
+auto-task-maxwebhooks-title = Numero massimo di webhook (10) raggiunto su questo canale!
 auto-task-maxwebhooks-desc =
-    A Discord channel can have a maximum of 10 webhooks, and this channel has hit the maximum.
-    Please delete at least one webhook so Martine can set up autoporn here. Once it's done use the { $autocmd_mention } command to re-enable autoporn.
-    If you are confused about this, or not sure how to proceed, feel free to join our support server and we will help you! { $support_url }
+    Un canale Discord può avere un massimo di 10 webhook e questo canale ha raggiunto il massimo.
+    Sei pregato di eliminare almeno un webhook, così che Martine possa configurare l'auto-porn qui. Una volta fatto, utilizza il comando { $autocmd_mention } per riabilitare l'auto-porn.
+    Se sei confuso a riguardo, o insicuro su come procedere, sentiti libero di unirti al server di supporto e ti aiuteremo! { $support_url }
 auto-cleanup-msg =
-    Autoporn was disabled in this channel because this server has hit the maximum channel enabled (5).
-    This happens because the server had Premium enabled in the past but no longer is.
-    Get Premium to get access to more autoporn channels again! { $emoji }
+    L'auto-porn è stato disabilitato su questo canale, poiché questo server ha raggiunto il numero massimo di canali abilitati (5).
+    Ciò si verifica perché il server aveva abilitato un rango Premium, ora non più attivo.
+    Ottieni Premium per ottenere nuovamente l'accesso a ulteriori canali di auto-porn! { $emoji }
     { $premium_url }

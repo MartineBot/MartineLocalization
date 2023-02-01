@@ -42,16 +42,16 @@ streams-twitch-notfound = Impossibile trovare quell'utente di Twitch.
 streams-yt-notfound =
     Impossibile trovare quell'utente di YouTube.
     Riprova incollando l'URL del canale su https://commentpicker.com/youtube-id-channel-id.php e utilizzando il valore "Channel ID" (ID Canale).
-videos-settings = videos alerts settings
+videos-settings = impostazioni degli avvisi dei video
 videos-message = Messaggio
 videos-settings-msg-btn = Modifica messaggio
-videos-msg-modal = Videos alerts message editor
-videos-msg-label = Set the message sent on videos alerts.
-videos-msg-placeholder = { "{" }name{ "}" } = the video creator name - { "{" }everyone{ "}" } = @everyone ping - { "{" }here{ "}" } = @here ping
-videos-msg-changed = Successfully updated the videos alerts message!
-videos-count = { $source } videos alerts in this server
-videos-added = Successfully added this { $source } channel as a alert in that channel!
+videos-msg-modal = Editor del messaggio degli avvisi dei video
+videos-msg-label = Imposta il messaggio inviato sugli avvisi dei video.
+videos-msg-placeholder = { "{" }name{ "}" } = il nome del creatore del video - { "{" }everyone{ "}" } = menzione @everyone - { "{" }here{ "}" } = menzione @here
+videos-msg-changed = Messaggio degli avvisi dei video aggiornato correttamente!
+videos-count = { $source } avvisi di video su questo server
+videos-added = Questo canale { $source } è stato aggiunto correttamente come un avviso in quel canale!
 videos-added-tip =
-    A alert will be sent whenever the next video is posted.
-    You can update the videos alerts settings using { $cmd_mention } command.
-videos-removed = Successfully removed this { $source } channel alert from this channel!
+    Sarà inviato un avviso alla pubblicazione del prossimo video.
+    Puoi aggiornare le impostazioni degli avvisi dei video utilizzando il comando { $cmd_mention }.
+videos-removed = Questo canale { $source } è stato rimosso correttamente da questo canale!

@@ -1,26 +1,26 @@
-maintenance-disabled = The leveling system is disabled globally for a maintenance. Please try again later.
+maintenance-disabled = Nivåsystemet er deaktivert globalt for vedlikehold. Vennligst prøv igjen senere.
 disabled-msg =
-    Leveler is not enabled in this server.
-    An admin or someone who can manage this server can enable it with the command { $cmd_mention }!
-profile-nobots = Sorry, but bots don't have profiles! { $emoji }
-profile-noexp-author = You haven't gained any exp yet! Continue to send more messages.
-profile-noexp-other = This member doesn't have gained any exp yet!
-profile-image-failed = Sorry, something went wrong while trying to get this profile image. Please try again later. { $emoji }
-profile-vote-btn = Upvote for 10% exp boost!
-profile-exp-boost-active = 10% upvote exp boost active! (Reason: `{ $reason }`)
-profile-card = profile card
-top-image-failed = Sorry, something went wrong while trying to get this server top image. Please try again later. { $emoji }
-lvltop-nodata = It looks like no members have gained experience with Martine for now. { $emoji }
-lvltop-lb = levels leaderboard
-top-member-rank = You are rank #{ $rank } in this server
-top-member-norank = You are not ranked yet in this server
-reptop-nodata = It looks like no members have gained rep with Martine for now. { $emoji }
-reptop-lb = rep leaderboard
-rep-no-self = You cannot give yourself reputation points. { $emoji }
-rep-nobots = Sorry, but bots cannot receive reputation points! { $emoji }
+    Nivået er ikke aktivert på denne serveren.
+    En admin eller noen som kan administrere denne serveren kan aktivere den med kommandoen { $cmd_mention }!
+profile-nobots = Beklager, men botten har ikke profiler! { $emoji }
+profile-noexp-author = Du har ikke tjent noen exp ennå! Fortsett å sende flere meldinger.
+profile-noexp-other = Dette medlemmet har ikke skaffet noen exp enda!
+profile-image-failed = Beklager, noe gikk galt under forsøket på å få profilbildet. Prøv igjen senere. { $emoji }
+profile-vote-btn = Stem opp for 10% exp boost!
+profile-exp-boost-active = 10% opp stemme exp boost aktivert! (Årsak: `{ $reason }`)
+profile-card = profilkort
+top-image-failed = Beklager, noe gikk galt under forsøket på å få dette toppbildet til serveren. Prøv igjen senere. { $emoji }
+lvltop-nodata = Det ser ut som ingen medlemmer har fått erfaring med Martine foreløpig. { $emoji }
+lvltop-lb = nivå ledertavle
+top-member-rank = Du er rank #{ $rank } i denne serveren
+top-member-norank = Du er ikke ranket enda i denne serveren
+reptop-nodata = Det ser ut til at ingen medlemmer har fått rep hos Martine foreløpig. { $emoji }
+reptop-lb = rep ledertavle
+rep-no-self = Du kan ikke gi deg selv omdømmepoeng. { $emoji }
+rep-nobots = Beklager, men botter kan ikke motta omdømmepoeng { $emoji }
 rep-cooldown =
-    Oops, you are on cooldown on giving rep points! { $emoji }
-    Try again { $formatted_cooldown }
+    Beklager, du er på nedkjøling for å gi rep poeng! { $emoji }
+    Prøv igjen { $formatted_cooldown }
 rep-success =
-    { $member } you have just received a reputation point from { $author }!
-    You now have { $rep_count } reputation points! { $emoji }
+    { $member } du nettopp motatt et omdømmepoeng fra { $author }!
+    Du har nå { $rep_count } omdømmepoeng! { $emoji }
