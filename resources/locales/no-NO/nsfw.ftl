@@ -1,102 +1,110 @@
 non-nsfw-channel-title = { $emoji } Du kan ikke bruke denne kommandoen i en ikke-NSFW kanal!
 non-nsfw-channel-description = Bruk { $cmd_mention } kommandoen hvis du er usikker på hvordan du setter opp dette.
 upvote-msg =
-    Please upvote me on Top.gg or DBL to use this command. { $emoji }
-    Here is the link: { $link }
-    Your vote will expire after 12 hours.
+    Vennligst stem meg opp på Top.gg eller DBL til å bruke denne kommandoen. { $emoji }
+    Her er linken: { $link }
+    Din stemme vil utløpe etter 12 timer.
     
-    You can bypass this by [boosting Martine's server]({ $server_invite })
-upvote-msg-premium = Or by getting one of our [Premium tiers]({ $premium_url })!
+    Du kan omgå dette ved å [booste på Martine server] ({ $server_invite })
+upvote-msg-premium = Eller du får en av våre [Premium-nivåer] ({ $premium_url })!
 discord-server = Discord Server
-get-premium = Get Premium
-invite-me = Invite Me
+get-premium = Skaff Premium
+invite-me = Inviter meg
 yes = Ja
 no = Nei
-btn-fail = Oops! Something failed with buttons on this message, please use the command again.
-command-no-images-found = Sorry, I wasn't able to pull a image for you! Please try again in a bit. { $emoji }
-command-invalid-category = Sorry but this is not a valid category! { $emoji }
-command-list-categories = Here is a list of all available categories:
-command-req-by = Requested by { $author } { $emoji }
-embed-title = Here is an { $category } image... { $emoji }
-embed-auto-footer = Use { $cmd_mention } to change delay or disable
-embed-booru-tags = Search tags: { $tags }
-booru-too-many-tags-nopremium = Sorry, but you can search for maximum 10 tags! Or get Premium to increase that limit up to 30 tags! { $emoji }
-booru-too-many-tags = Sorry, but you cannot search for more than 30 tags! { $emoji }
-booru-blocked-tag = One of these tags contains a blocked tag. Please try again. { $emoji }
-booru-no-results = I couldn't find any results for these tags. Please try again. { $emoji }
-set-anonymous = Your name will no longer be shown as requester in nsfw commands messages.
-unset-anonymous = Your name will be shown as requester in nsfw commands messages.
-auto-no-thread = Autoporn cannot be enabled in threads.
-auto-no-nsfw = Autoporn can only be enabled in a NSFW channel.
-auto-no-perms = I need embed links permissions to be able to send autoporn messages in this channel.
-auto-setup-title = Autoporn setup for: { $channel }
+btn-fail = Oops! Noe gikk galt med knappen på denne meldingen. Vennligst bruk kommandoen igjen.
+command-no-images-found = Beklager, jeg klarte ikke å hente et bilde for deg! Prøv igjen om litt. { $emoji }
+command-invalid-category = Beklager, men dette er ikke en gyldig kategori! { $emoji }
+command-list-categories = Her er en liste over alle tilgjengelige kategorier:
+command-req-by = Forespurt av { $author } { $emoji }
+embed-title = Her er et { $category } bilde... { $emoji }
+embed-auto-footer = Bruk { $cmd_mention } til å endre forsinkelse eller deaktivere
+command-category-select-placeholder = Select another image category...
+command-category-next-btn = Next page
+command-category-next-btn-desc = There's more categories that might interest you!
+command-category-prev-btn = Previous page
+command-category-prev-btn-desc = Get back to previous seen categories.
+command-open-img-btn = Open Image
+command-report-img-btn = Report Image
+command-post-url-btn = Post URL
+embed-booru-tags = Søk tagger: { $tags }
+booru-too-many-tags-nopremium = Beklager, men du kan søke etter maksimalt 10 tagger! Eller få Premium for å øke denne begrensningen til 30 tagger! { $emoji }
+booru-too-many-tags = Beklager, men du kan ikke søke etter mer enn 30 tagger! { $emoji }
+booru-blocked-tag = En av disse taggene inneholder en blokkert tag. Prøv igjen { $emoji }
+booru-no-results = Jeg kunne ikke finne noen resultater for disse tagene. Prøv igjen. { $emoji }
+set-anonymous = Navnet ditt vil ikke lenger vises som forespørsel i nsfw-kommandomeldinger.
+unset-anonymous = Navnet ditt vil vises som forespørsel i nsfw-kommandomeldinger.
+auto-no-thread = Autoporno kan ikke være aktivert i tråder.
+auto-no-nsfw = Autoporno kan kun aktiveres i en NSFW kanal.
+auto-no-perms = Jeg trenger tillatelser for bygg inn lenker for å kunne sende autopornomeldinger i denne kanalen.
+auto-setup-title = Autoporno oppsett for: { $channel }
 auto-setup-description =
-    Notes:
-    - The category called "random" is images of *all* available categories. It is the one selected by default. If you select a specific category it will get removed.
-    - There is a 15 seconds cooldown after enabling/disabling, and after updating categories.
-    - Images are sent every 5 minutes, by default. Use the `Change delay` button to update it.
-auto-setup-current = Current settings:
-auto-setup-enabled = **Enabled:** { $enabled }
-auto-setup-delay = **Delay:** { $delay }
-auto-setup-categories = Enabled categories:
-auto-setup-selected-categories = Selected categories:
-auto-setup-footer = Use the "Update categories" button after selecting the categories of your choice
-auto-setup-select-placeholder-disabled = Enable to select categories
-auto-setup-categories-btn = Update categories
-auto-setup-clear-categories-btn = Clear selected categories
-auto-setup-delay-btn = Change delay
-auto-setup-status-btn = Status in this server
-auto-setup-select-placeholder = Select categories
-auto-setup-enable-btn = Enable
-auto-setup-disable-btn = Disable
-auto-setup-same-categories = Please select other categories than those currently enabled for this channel.
-auto-setup-categories-updated = Successfully updated autoporn categories for { $channel } to: { $categories }
-auto-setup-enable-fail = I couldn't setup autoporn in this channel. Please try again later.
+    Notater:
+    - Kategorien som kalles "tilfeldig" er bilder av *alle* tilgjengelige kategorier. Det er den som er valgt som standard. Hvis du velger en bestemt kategori, blir den fjernet.
+    - Det er 15 sekunders nedkjøling etter aktivering/deaktivering, og etter oppdatering av kategorier.
+    - Bilder sendes hvert 5. minutt, som standard. Bruk knappen "Endre forsinkelse" for å oppdatere den.
+auto-setup-current = Gjeldende innstillinger:
+auto-setup-enabled = **Aktivert: ** { $enabled }
+auto-setup-delay = **forsinkelse:** { $delay }
+auto-setup-categories = Aktiverte kategorier:
+auto-setup-selected-categories = Valgte kategorier:
+auto-setup-footer = Bruk knappen "Oppdater kategorier" etter å ha valgt kategoriene du velger
+auto-setup-select-placeholder-disabled = Aktiver for å velge kategorier
+auto-setup-categories-btn = Oppdater kategorier
+auto-setup-clear-categories-btn = Fjern valgte kategorier
+auto-setup-delay-btn = Endre forsinkelse
+auto-setup-status-btn = Statusen på denne serveren
+auto-setup-select-placeholder = Velg kategorier
+auto-setup-enable-btn = Aktiver
+auto-setup-disable-btn = Deaktiver
+auto-setup-same-categories = Vær så snill Velg andre kategorier enn de som er aktivert for denne kanalen.
+auto-setup-categories-updated = Vellykket oppdatert autoporno kategorier for { $channel } til: { $categories }
+auto-setup-enable-fail = Jeg kunne ikke konfigurere autoporno i denne kanalen. Prøv igjen senere.
 auto-setup-no-premium =
-    You cannot have more than { $count } autoporn channels per server.
-    You can get higher limits with our Premium tiers: { $premium_url }
-auto-setup-no-premium-3 = 25 autoporn channels is the maximum that can be set.
+    Du kan ikke ha mer enn { $count } autoporno kanaler per server.
+    Du kan få høyere grenser med premium nivåer: { $premium_url }
+auto-setup-no-premium-3 = 25 autoporno kanaler er det maksimale som kan stilles inn.
 auto-setup-enable-no-webhooks-perm =
-    I need the "Manage Webhooks" permission in order to be able to send autoporn messages in this channel!
-    The autoporn feature uses webhooks for a giving images in the best conditions in term of delay.
-auto-setup-disable-no-webhooks-perm = I need the "Manage Webhooks" permission to be able to completely disable autoporn in this channel.
-auto-setup-max-webhooks = Maximum amount of webhooks reached in this channel. Please delete at least one webhook so Martine can set up autoporn here.
-auto-setup-enabled-success = Autoporn enabled in { $channel }.
-auto-setup-enabled-tip = Images are sent every 5 minutes by default. Use the `Change delay` button to update it.
-auto-setup-disabled = Autoporn disabled in { $channel }.
-auto-setup-delay-no-premium = Autoporn delay can only be changed for `Premium Server Silver` tier (or higher) servers! Check out our Premium tiers here: { $premium_url }
-auto-status-title = Autoporn status in { $guild }
-auto-status-title-none = Autoporn is not set anywhere in this server.
-auto-status-msg-sent = **Messages sent:** { $count }
+    Jeg trenger tillatelsen "Administrer Webhooks" for å kunne sende autoporno meldinger i denne kanalen!
+    Autoporno funksjonen bruker webhooks for å gi bilder under de beste forholdene når det gjelder forsinkelse.
+auto-setup-disable-no-webhooks-perm = Jeg trenger tillatelsen "Administrer Webhooks" for å kunne deaktivere autoporno fullstendig i denne kanalen.
+auto-setup-max-webhooks = Maksimalt antall webhooks nådd i denne kanalen. Vennligst slett minst én webhook slik at Martine kan sette opp autoporno her.
+auto-setup-enabled-success = Autoporno er aktivert i { $channel }.
+auto-setup-enabled-tip = Bilder sendes som standard hvert 5. minutt. Bruk knappen `Endre forsinkelse` for å oppdatere den.
+auto-setup-disabled = Autoporno er deaktivert i { $channel }.
+auto-setup-delay-no-premium = Forsinkelse for autoporno kan kun endres for `Premium Server Silver`-nivå (eller høyere) servere! Sjekk ut Premium-nivåer her: { $premium_url }
+auto-status-title = Autoporno status i { $guild }
+auto-status-title-none = Autoporno er ikke satt noe sted på denne serveren.
+auto-status-msg-sent = **Meldinger sendt:** { $count }
 auto-status-categories =
     { $count ->
-        [one] **Category:** { $categories }
-       *[other] **Categories:** { $categories }
+        [one] **Kategori:** { $categories }
+       *[other] **Kategorier:** { $categories }
     }
-auto-status-getback-btn = Get back to setup
-auto-delaymodal-title = Martine - Autoporn delay prompt
-auto-delaymodal-label = Delay
-auto-delaymodal-placeholder = The delay in minutes of which autoporn will send messages to this channel...
-auto-delaymodal-invalid = Looks like this is not a correct value. Example: 5 minutes
-auto-delaymodal-toolow = The value must be over than 2 minutes.
-auto-delaymodal-toohigh = The value must be less than 60 minutes.
-auto-delaymodal-success = Successfully updated autoporn delay for { $channel } to `{ $delay }`.
-auto-setup-timeout-title = Autoporn setup
-auto-setup-timeout-description = This setup message has expired!
+auto-status-getback-btn = Gå tilbake til oppsettet
+auto-delaymodal-title = Martin – Autoporno forsinkelse ledetekst
+auto-delaymodal-label = Forsinkelse
+auto-delaymodal-placeholder = Forsinkelsen i minutter som autoporno sender meldinger til denne kanalen av...
+auto-delaymodal-invalid = Ser ut til at dette ikke er en riktig verdi. Eksempel: 5 minutter
+auto-delaymodal-toolow = Verdien må være over 2 minutter.
+auto-delaymodal-toohigh = Verdien må være mindre enn 60 minutter.
+auto-delaymodal-success = Vellykket oppdatert autoporno forsinkelse for { $channel } til `{ $delay }`.
+auto-setup-timeout-title = Autoporno oppsett
+auto-setup-timeout-description = Denne oppsettmeldingen er utløpt!
 auto-task-disabled =
-    Set this channel to NSFW back and use { $autocmd_mention } command to re-enable autoporn in this channel.
-    Use the { $tipcmd_mention } command if you're not sure how to setup this.
-auto-task-noperms-title = Autoporn feature requires Martine to have the "Manage Webhooks" and "View Channel" permissions!
+    Sett denne kanalen til NSFW igjen og bruk kommandoen { $autocmd_mention } for å reaktivere autoporno i denne kanalen.
+    Bruk { $tipcmd_mention } kommandoen hvis du ikke er sikker på hvordan du setter opp dette.
+auto-task-noperms-title = Autoporno funksjonen krever at Martine har tillatelsene "Administrer webhooks" og "Vis kanal"!
 auto-task-noperms-desc =
-    Set the correct permissions and use the { $autocmd_mention } command to re-enable autoporn in this channel.
-    If you are confused about this, or not sure how to proceed, feel free to join our support server and we will help you! { $support_url }
-auto-task-maxwebhooks-title = Maximum number of webhooks reached (10) in this channel!
+    Sett de korrekte tillatelsene og bruk kommandoen { $autocmd_mention } for å reaktivere autoporn i denne kanalen.
+    Hvis du er forvirret med dette eller ikke sikker på hvordan du fortsetter, kan du gjerne bli med i vår support server og vi vil hjelpe deg. { $support_url }
+auto-task-maxwebhooks-title = Maksimalt antall webhooks nådd (10) på denne kanalen!
 auto-task-maxwebhooks-desc =
-    A Discord channel can have a maximum of 10 webhooks, and this channel has hit the maximum.
-    Please delete at least one webhook so Martine can set up autoporn here. Once it's done use the { $autocmd_mention } command to re-enable autoporn.
-    If you are confused about this, or not sure how to proceed, feel free to join our support server and we will help you! { $support_url }
+    En Discord kanal kan ha maksimalt 10 webhooks, og denne kanalen har nådd maksimum.
+    Slett minst én webhook, slik at Martine kan sette opp automatisk autoporno her. Når den er ferdig bruker du { $autocmd_mention } kommandoen for å reaktivere autoporno.
+    Hvis du er forvirret med dette eller ikke sikker på hvordan du skal fortsette, kan du gjerne bli med i vår support server og vi vil hjelpe deg! { $support_url },
 auto-cleanup-msg =
-    Autoporn was disabled in this channel because this server has hit the maximum channel enabled (5).
-    This happens because the server had Premium enabled in the past but no longer is.
-    Get Premium to get access to more autoporn channels again! { $emoji }
+    Autoporno ble deaktivert i denne kanalen fordi denne serveren har slått på den maksimale kanalen aktivert (5).
+    Dette skjer fordi serveren hadde Premium aktivert i fortiden men ikke lenger er det.
+    Få Premium for å få tilgang til flere autoporno kanaler igjen! { $emoji }
     { $premium_url }
