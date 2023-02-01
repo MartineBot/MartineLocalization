@@ -16,3 +16,4 @@ twitch-streamend-games-played = Spill spilt
 youtube-live = Live on YouTube
 youtube-subscribers = Subscribers:
 youtube-streamend = strøm avsluttet!
+videos-default-msg = has posted a new video!

@@ -16,3 +16,4 @@ twitch-streamend-games-played = Kategória
 youtube-live = Közvetít YouTube-on
 youtube-subscribers = Feliratkozók:
 youtube-streamend = közvetítése véget ért!
+videos-default-msg = has posted a new video!

@@ -16,3 +16,4 @@ twitch-streamend-games-played = Игр сыграно
 youtube-live = В прямом эфире на YouTube
 youtube-subscribers = Подписчиков:
 youtube-streamend = завершил стрим!
+videos-default-msg = has posted a new video!

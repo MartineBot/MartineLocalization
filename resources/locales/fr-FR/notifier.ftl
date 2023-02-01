@@ -16,3 +16,4 @@ twitch-streamend-games-played = Jeux joués
 youtube-live = En direct sur Youtube
 youtube-subscribers = Abonnés :
 youtube-streamend = stream terminé !
+videos-default-msg = has posted a new video!

@@ -42,3 +42,16 @@ streams-twitch-notfound = Не удалось найти этого пользо
 streams-yt-notfound =
     Не удалось найти этого пользователя YouTube.
     Попробуйте еще раз, вставив URL канала на https://commentpicker.com/youtube-channel-id.php и скопировать значение "Channel ID".
+videos-settings = videos alerts settings
+videos-message = Сообщение
+videos-settings-msg-btn = Изменить сообщение
+videos-msg-modal = Videos alerts message editor
+videos-msg-label = Set the message sent when a new video is posted.
+videos-msg-placeholder = { "{" }name{ "}" } = the video creator name - { "{" }everyone{ "}" } = @everyone ping - { "{" }here{ "}" } = @here ping
+videos-msg-changed = Successfully updated the videos alerts message!
+videos-count = { $source } videos alerts in this server
+videos-added = Successfully added this { $source } channel as a alert in that channel!
+videos-added-tip =
+    A alert will be sent whenever the next video is posted.
+    You can update the videos alerts settings using { $cmd_mention } command.
+videos-removed = Successfully removed this { $source } channel alert from this channel!
