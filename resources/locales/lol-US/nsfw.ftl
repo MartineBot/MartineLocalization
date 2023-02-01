@@ -67,11 +67,11 @@ auto-setup-disabled = Autoporn disabled in { $channel }.
 auto-setup-delay-no-premium = Autoporn delay can only be changed for `Premium Server Silver` tier (or higher) servers! Check out our Premium tiers here: { $premium_url }
 auto-status-title = Autoporn status in { $guild }
 auto-status-title-none = Autoporn is not set anywhere in this server.
-auto-status-msg-sent = Messages sent: { $count }
+auto-status-msg-sent = **Messages sent:** { $count }
 auto-status-categories =
     { $count ->
-        [one] Category: { $categories }
-       *[other] Categories: { $categories }
+        [one] **Category:** { $categories }
+       *[other] **Categories:** { $categories }
     }
 auto-status-getback-btn = Get back to setup
 auto-delaymodal-title = Martine - Autoporn delay prompt
