@@ -18,3 +18,5 @@ twitch-streamend-games-played = Games played
 youtube-live = Live on YouTube
 youtube-subscribers = Subscribers:
 youtube-streamend = stream ended!
+
+videos-default-msg = has posted a new video!
