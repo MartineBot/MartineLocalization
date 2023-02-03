@@ -42,11 +42,11 @@ streams-twitch-notfound = Konnte den Twitch Benutzer nicht finden.
 streams-yt-notfound =
     YouTube Benutzer konnte nicht gefunden werden.
     Versuchen es erneut, indem du die Kanal-URL unter https://commentpicker.com/YouTube-channel-id.php kopierst und den Wert "Channel ID" eingibst.
-videos-settings = videos alerts settings
+videos-settings = Video Benachrichtigungen Einstellungen
 videos-message = Nachricht
 videos-settings-msg-btn = Nachricht bearbeiten
-videos-msg-modal = Videos alerts message editor
-videos-msg-label = Set the message sent on videos alerts.
+videos-msg-modal = Video Benachrichtigung Editor
+videos-msg-label = Lege eine Nachricht fest, die bei der Videobenachrichtigung gesendet wird.
 videos-msg-placeholder = { "{" }name{ "}" } = the video creator name - { "{" }everyone{ "}" } = @everyone ping - { "{" }here{ "}" } = @here ping
 videos-msg-changed = Successfully updated the videos alerts message!
 videos-count = { $source } videos alerts in this server

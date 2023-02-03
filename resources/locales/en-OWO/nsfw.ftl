@@ -1,110 +1,110 @@
-non-nsfw-channel-title = { $emoji } You can't use this command in a non-NSFW channel!
-non-nsfw-channel-description = Use the { $cmd_mention } command if you're unsure how to setup this.
+non-nsfw-channel-title = { $emoji } You can't use this c-c-command in a n-nyon-NSFW channyew?!!
+non-nsfw-channel-description = Uwe the { $cmd_mention } c-c-command if you'we unsuwe how t-to setup this.
 upvote-msg =
-    Please upvote me on Top.gg or DBL to use this command. { $emoji }
-    Here is the link: { $link }
-    Your vote will expire after 12 hours.
+    Pwease upvote me on Top.gg ow DBL t-to use this command. { $emoji }
+    Hewe is the link: { $link }
+    Youw vote wiww expiwe a-a-aftew 12 houws.
     
-    You can bypass this by [boosting Martine's server]({ $server_invite })
-upvote-msg-premium = Or by getting one of our [Premium tiers]({ $premium_url })!
-discord-server = Discord Server
-get-premium = Get Premium
+    You c-can bypass this by [boosting Mawtinye's sewvew]({ $server_invite })
+upvote-msg-premium = Ow by getting onye of ouw [Pwemium ÚwÚ tiews]({ $premium_url })
+discord-server = Discowd Sewvew
+get-premium = Get Pwemium
 invite-me = Invite Me
 yes = Yus
 no = Nyo
-btn-fail = Oops! Something failed with buttons on this message, please use the command again.
-command-no-images-found = Sorry, I wasn't able to pull a image for you! Please try again in a bit. { $emoji }
-command-invalid-category = Sorry but this is not a valid category! { $emoji }
-command-list-categories = Here is a list of all available categories:
-command-req-by = Requested by { $author } { $emoji }
-embed-title = Here is an { $category } image... { $emoji }
-embed-auto-footer = Use { $cmd_mention } to change delay or disable
-command-category-select-placeholder = Select another image category...
-command-category-next-btn = Next page
-command-category-next-btn-desc = There's more categories that might interest you!
-command-category-prev-btn = Previous page
-command-category-prev-btn-desc = Get back to previous seen categories.
-command-open-img-btn = Open Image
-command-report-img-btn = Report Image
-command-post-url-btn = Post URL
-embed-booru-tags = Search tags: { $tags }
-booru-too-many-tags-nopremium = Sorry, but you can search for maximum 10 tags! Or get Premium to increase that limit up to 30 tags! { $emoji }
-booru-too-many-tags = Sorry, but you cannot search for more than 30 tags! { $emoji }
-booru-blocked-tag = One of these tags contains a blocked tag. Please try again. { $emoji }
-booru-no-results = I couldn't find any results for these tags. Please try again. { $emoji }
-set-anonymous = Your name will no longer be shown as requester in nsfw commands messages.
-unset-anonymous = Your name will be shown as requester in nsfw commands messages.
-auto-no-thread = Autoporn cannot be enabled in threads.
-auto-no-nsfw = Autoporn can only be enabled in a NSFW channel.
-auto-no-perms = I need embed links permissions to be able to send autoporn messages in this channel.
-auto-setup-title = Autoporn setup for: { $channel }
+btn-fail = Oops?!! Something faiwed with buttons on this message, pwease use the c-c-command again.
+command-no-images-found = Sowwy, I wasn't abwe t-to puww a image fow you?!?1 Pwease twy again in a bit. { $emoji }
+command-invalid-category = sowwy but this is nyot a vawid categowy?!?! { $emoji }
+command-list-categories = Hewe is a wist of aww avaiwabwe categories:
+command-req-by = Wequested by { $author } { $emoji }
+embed-title = Hewe is an { $category } image... { $emoji }
+embed-auto-footer = Use { $cmd_mention } t-to change deway ow disabwe
+command-category-select-placeholder = Sewect anyothew image categowy... >w<
+command-category-next-btn = Nyext page
+command-category-next-btn-desc = Thewe's mowe categowies that m-might i-intewest you?!?1
+command-category-prev-btn = Pwevious page
+command-category-prev-btn-desc = Get back t-to pwevious seen categowies.
+command-open-img-btn = Owen Image
+command-report-img-btn = W-W-Wepowt Image
+command-post-url-btn = Powst URL
+embed-booru-tags = Seawch tags: { $tags }
+booru-too-many-tags-nopremium = Sowwy, but you c-can seawch fow maximum 10 tags?!! Ow get Pwemium t-to incwease that wimit up t-to 30 tags?!! { $emoji }
+booru-too-many-tags = Sowwy, but you cannyot seawch fow mowe than 30 tags?!! { $emoji }
+booru-blocked-tag = O-Onye of these tags contains a bwocked tag. Pwease twy again. { $emoji }
+booru-no-results = I couwdn't find any wesuwts fow these tags. Pwease twy again. { $emoji }
+set-anonymous = Y-Y-Youw nyame wiww nyo wongew be shown as wequestew in nsfw commands messages.
+unset-anonymous = Y-Y-Youw nyame wiww be shown as wequestew in nsfw commands messages.
+auto-no-thread = Autopown cannyot be enyabwed in thweads.
+auto-no-nsfw = Autopown c-can onwy be enyabwed in a NSFW channyew.
+auto-no-perms = I nyeed embed winks pewmissions t-to be abwe t-to send autopown messages in this channyew.
+auto-setup-title = Autopown setup for: { $channel }
 auto-setup-description =
-    Notes:
-    - The category called "random" is images of *all* available categories. It is the one selected by default. If you select a specific category it will get removed.
-    - There is a 15 seconds cooldown after enabling/disabling, and after updating categories.
-    - Images are sent every 5 minutes, by default. Use the `Change delay` button to update it.
-auto-setup-current = Current settings:
-auto-setup-enabled = **Enabled:** { $enabled }
-auto-setup-delay = **Delay:** { $delay }
-auto-setup-categories = Enabled categories:
-auto-setup-selected-categories = Selected categories:
-auto-setup-footer = Use the "Update categories" button after selecting the categories of your choice
-auto-setup-select-placeholder-disabled = Enable to select categories
-auto-setup-categories-btn = Update categories
-auto-setup-clear-categories-btn = Clear selected categories
-auto-setup-delay-btn = Change delay
-auto-setup-status-btn = Status in this server
-auto-setup-select-placeholder = Select categories
-auto-setup-enable-btn = Enable
-auto-setup-disable-btn = Disable
-auto-setup-same-categories = Please select other categories than those currently enabled for this channel.
-auto-setup-categories-updated = Successfully updated autoporn categories for { $channel } to: { $categories }
-auto-setup-enable-fail = I couldn't setup autoporn in this channel. Please try again later.
+    Nyotes:
+    - The categowy cawwed "wandom" is images of *all* avaiwabwe categowies. It is the onye sewected by d-d-defauwt. If you sewect a specific categowy i-it wiww get wemuvd.
+    - Thewe is a 15 seconds coowdown a-a-aftew enyabwing/disabwing, and a-a-aftew updating categowies.
+    - Images awe sent evewy 5 minyutes, by d-d-defauwt. Use the `Change d-deway` button t-to update it.
+auto-setup-current = Cuwwent settings:
+auto-setup-enabled = **Enyabwed:** { $enabled }
+auto-setup-delay = **Deway:** { $delay }
+auto-setup-categories = Enyabwed categories:
+auto-setup-selected-categories = Sewected categories:
+auto-setup-footer = Use the "Update categowies" button a-a-aftew sewecting the categowies of youw choice
+auto-setup-select-placeholder-disabled = Enyabwe t-to sewect categowies
+auto-setup-categories-btn = Update categowies
+auto-setup-clear-categories-btn = C-C-Cweaw sewected categowies
+auto-setup-delay-btn = Change deway
+auto-setup-status-btn = Status in this sewvew
+auto-setup-select-placeholder = Sewect categowies
+auto-setup-enable-btn = Enyabwe
+auto-setup-disable-btn = Disabwe
+auto-setup-same-categories = Pwease sewect othew categowies than those cuwwentwy enyabwed fow this channyew.
+auto-setup-categories-updated = Successfuwwy updated autopown categowies fow { $channel } to: { $categories }
+auto-setup-enable-fail = I couwdn't setup autopown in this channyew. Pwease twy again watew.
 auto-setup-no-premium =
-    You cannot have more than { $count } autoporn channels per server.
-    You can get higher limits with our Premium tiers: { $premium_url }
-auto-setup-no-premium-3 = 25 autoporn channels is the maximum that can be set.
+    You cannyot have mowe than { $count } autopown channyews pew sewvew.
+    You c-can get highew wimits with ouw Pwemium tiers: { $premium_url }
+auto-setup-no-premium-3 = 25 autopown channyews is the maximum that c-can be set.
 auto-setup-enable-no-webhooks-perm =
-    I need the "Manage Webhooks" permission in order to be able to send autoporn messages in this channel!
-    The autoporn feature uses webhooks for a giving images in the best conditions in term of delay.
-auto-setup-disable-no-webhooks-perm = I need the "Manage Webhooks" permission to be able to completely disable autoporn in this channel.
-auto-setup-max-webhooks = Maximum amount of webhooks reached in this channel. Please delete at least one webhook so Martine can set up autoporn here.
-auto-setup-enabled-success = Autoporn enabled in { $channel }.
-auto-setup-enabled-tip = Images are sent every 5 minutes by default. Use the `Change delay` button to update it.
-auto-setup-disabled = Autoporn disabled in { $channel }.
-auto-setup-delay-no-premium = Autoporn delay can only be changed for `Premium Server Silver` tier (or higher) servers! Check out our Premium tiers here: { $premium_url }
-auto-status-title = Autoporn status in { $guild }
-auto-status-title-none = Autoporn is not set anywhere in this server.
-auto-status-msg-sent = **Messages sent:** { $count }
+    I nyeed the "Manyage Webhooks" pewmission in owdew t-to be abwe t-to send autopown messages in this channyew!
+    The autopown featuwe uses webhooks fow a giving images in the best conditions in tewm of deway.
+auto-setup-disable-no-webhooks-perm = I nyeed the "Manyage Webhooks" pewmission t-to be abwe t-to c-compwetewy disabwe autopown in this channyew.
+auto-setup-max-webhooks = Maximum amount of webhooks weached in this channyew. Pwease dewete at weast onye webhook so Mawtinye c-can set up autopown hewe.
+auto-setup-enabled-success = Autopown enyabwed in { $channel }.
+auto-setup-enabled-tip = Images awe sent evewy 5 minyutes by d-d-defauwt. Use the `Change d-deway` button t-to update it.
+auto-setup-disabled = Autopown disabwed in { $channel }.
+auto-setup-delay-no-premium = Autopown deway c-can onwy be changed fow `Pwemium Sewvew Siwvew` t-tiew (ow highew) sewvews?!! Check out ouw Pwemium tiews here: { $premium_url }
+auto-status-title = Autopown status in { $guild }
+auto-status-title-none = Autopown is nyot set anywhewe in this sewvew.
+auto-status-msg-sent = **Mewssages sent:** { $count }
 auto-status-categories =
     { $count ->
-        [one] **Category:** { $categories }
-       *[other] **Categories:** { $categories }
+        [one] **Categowy:** { $categories }
+       *[other] **Categowies:** { $categories }
     }
-auto-status-getback-btn = Get back to setup
-auto-delaymodal-title = Martine - Autoporn delay prompt
-auto-delaymodal-label = Delay
-auto-delaymodal-placeholder = The delay in minutes of which autoporn will send messages to this channel...
-auto-delaymodal-invalid = Looks like this is not a correct value. Example: 5 minutes
-auto-delaymodal-toolow = The value must be over than 2 minutes.
-auto-delaymodal-toohigh = The value must be less than 60 minutes.
-auto-delaymodal-success = Successfully updated autoporn delay for { $channel } to `{ $delay }`.
-auto-setup-timeout-title = Autoporn setup
-auto-setup-timeout-description = This setup message has expired!
+auto-status-getback-btn = Get back t-to setup
+auto-delaymodal-title = Mawtinye - Autopown deway pwompt
+auto-delaymodal-label = Deway
+auto-delaymodal-placeholder = The deway in minyutes of which autopown wiww send messages t-to this channyew...
+auto-delaymodal-invalid = Wooks wike this is nyot a cowwect vawue. Example: 5 minyutes
+auto-delaymodal-toolow = The vawue must be uvw than 2 minyutes.
+auto-delaymodal-toohigh = The vawue must be wess than 60 minyutes.
+auto-delaymodal-success = Successfuwwy updated autopown deway fow { $channel } to `{ $delay }`.
+auto-setup-timeout-title = Autopown setup
+auto-setup-timeout-description = This setup message has expiwed?!?!
 auto-task-disabled =
-    Set this channel to NSFW back and use { $autocmd_mention } command to re-enable autoporn in this channel.
-    Use the { $tipcmd_mention } command if you're not sure how to setup this.
-auto-task-noperms-title = Autoporn feature requires Martine to have the "Manage Webhooks" and "View Channel" permissions!
+    Set this channyew t-to NSFW back and use { $autocmd_mention } c-c-command t-to we-enyabwe autopown in this channyew.
+    Use the { $tipcmd_mention } c-c-command if you'we nyot suwe how t-to setup this.
+auto-task-noperms-title = Autopown featuwe wequiwes Mawtinye t-to have the "Manyage Webhooks" and "View Channyew" pewmissions?!?!
 auto-task-noperms-desc =
-    Set the correct permissions and use the { $autocmd_mention } command to re-enable autoporn in this channel.
-    If you are confused about this, or not sure how to proceed, feel free to join our support server and we will help you! { $support_url }
-auto-task-maxwebhooks-title = Maximum number of webhooks reached (10) in this channel!
+    Set the cowwect pewmissions and use the { $autocmd_mention } c-c-command t-to we-enyabwe autopown in this channyew.
+    If you awe confused about this, ow nyot suwe how t-to p-pwoceed, feew fwee t-to join ouw suppowt sewvew and we wiww hewp you?!? { $support_url }
+auto-task-maxwebhooks-title = Maximum nyumbew of webhooks weached (10) in this channyew?!!
 auto-task-maxwebhooks-desc =
-    A Discord channel can have a maximum of 10 webhooks, and this channel has hit the maximum.
-    Please delete at least one webhook so Martine can set up autoporn here. Once it's done use the { $autocmd_mention } command to re-enable autoporn.
-    If you are confused about this, or not sure how to proceed, feel free to join our support server and we will help you! { $support_url }
+    A Discowd channyew c-can have a maximum of 10 webhooks, and this channyew has hit the maximum.
+    Pwease dewete at weast onye webhook so Mawtinye c-can set up autopown hewe. Once it's donye use the { $autocmd_mention } c-c-command t-to we-enyabwe autopown.
+    If you awe confused about this, ow nyot suwe how t-to p-pwoceed, feew fwee t-to join ouw suppowt sewvew and we wiww hewp you?!? { $support_url }
 auto-cleanup-msg =
-    Autoporn was disabled in this channel because this server has hit the maximum channel enabled (5).
-    This happens because the server had Premium enabled in the past but no longer is.
-    Get Premium to get access to more autoporn channels again! { $emoji }
+    Autopown was disabwed in this channyew because this sewvew has hit the maximum channyew enyabwed (5).
+    This happens because the sewvew had Pwemium enyabwed in the past but nyo wongew is.
+    Get Pwemium t-to get access t-to mowe autopown channyews again!! { $emoji }
     { $premium_url }

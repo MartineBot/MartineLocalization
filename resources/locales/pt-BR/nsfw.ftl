@@ -1,37 +1,37 @@
-non-nsfw-channel-title = { $emoji } You can't use this command in a non-NSFW channel!
-non-nsfw-channel-description = Use the { $cmd_mention } command if you're unsure how to setup this.
+non-nsfw-channel-title = { $emoji } Você não pode usar esse comando em um canal que não seja NSFW!
+non-nsfw-channel-description = Use o comando { $cmd_mention } se você tiver certeza de como configurar isso.
 upvote-msg =
-    Please upvote me on Top.gg or DBL to use this command. { $emoji }
-    Here is the link: { $link }
-    Your vote will expire after 12 hours.
+    Por favor, me de um vote em top.gg ou DBL para usar este comando. { $emoji }
+    Aqui está o link: { $link }
+    Seu voto expirará depois de 12 horas.
     
-    You can bypass this by [boosting Martine's server]({ $server_invite })
-upvote-msg-premium = Or by getting one of our [Premium tiers]({ $premium_url })!
-discord-server = Discord Server
-get-premium = Get Premium
-invite-me = Invite Me
+    Você pode ignorar isso dando um boost no servidor da Martine ({ $server_invite })
+upvote-msg-premium = Ou comprando um de nossos níveis premium ({ $premium_url })!
+discord-server = Servidor de Discord
+get-premium = Obtenha o Premium
+invite-me = Me convide
 yes = Sim
 no = Não
-btn-fail = Oops! Something failed with buttons on this message, please use the command again.
-command-no-images-found = Sorry, I wasn't able to pull a image for you! Please try again in a bit. { $emoji }
-command-invalid-category = Sorry but this is not a valid category! { $emoji }
-command-list-categories = Here is a list of all available categories:
-command-req-by = Requested by { $author } { $emoji }
-embed-title = Here is an { $category } image... { $emoji }
-embed-auto-footer = Use { $cmd_mention } to change delay or disable
-command-category-select-placeholder = Select another image category...
-command-category-next-btn = Next page
-command-category-next-btn-desc = There's more categories that might interest you!
-command-category-prev-btn = Previous page
-command-category-prev-btn-desc = Get back to previous seen categories.
-command-open-img-btn = Open Image
-command-report-img-btn = Report Image
-command-post-url-btn = Post URL
-embed-booru-tags = Search tags: { $tags }
-booru-too-many-tags-nopremium = Sorry, but you can search for maximum 10 tags! Or get Premium to increase that limit up to 30 tags! { $emoji }
-booru-too-many-tags = Sorry, but you cannot search for more than 30 tags! { $emoji }
-booru-blocked-tag = One of these tags contains a blocked tag. Please try again. { $emoji }
-booru-no-results = I couldn't find any results for these tags. Please try again. { $emoji }
+btn-fail = Ops! Algo falhou com os botões desta mensagem, por favor, use o comando novamente.
+command-no-images-found = Desculpe, eu não consegui carregar uma imagem para você! Por favor, tente novamente daqui a pouco. { $emoji }
+command-invalid-category = Desculpe, mas essa categoria é inválida! { $emoji }
+command-list-categories = Aqui está uma lista com todas as categorias disponíveis:
+command-req-by = Solicitado por { $author } { $emoji }
+embed-title = Aqui está uma imagem da { $category } { $emoji }
+embed-auto-footer = Use { $cmd_mention } para mudar o atraso ou desativar
+command-category-select-placeholder = Selecione outra categoria...
+command-category-next-btn = Próxima página
+command-category-next-btn-desc = Há mais categorias que possam te interessar!
+command-category-prev-btn = Página anterior
+command-category-prev-btn-desc = Volte para as categorias anteriores.
+command-open-img-btn = Abrir a imagem
+command-report-img-btn = Denunciar imagem
+command-post-url-btn = URL da postagem
+embed-booru-tags = Pesquisar tags: { $tags }
+booru-too-many-tags-nopremium = Desculpe, mas você pode procurar por no máximo 10 tags! Obtenha Premium para aumentar esse limite para até 30 tags! { $emoji }
+booru-too-many-tags = Desculpe, mas você não pode pesquisar por mais de 30 tags! { $emoji }
+booru-blocked-tag = Uma destas tags contém uma tag bloqueada. Por favor, tente novamente. { $emoji }
+booru-no-results = Não foi possível encontrar nenhum resultado com as tags utilizadas. Por favor, tente novamente. { $emoji }
 set-anonymous = Your name will no longer be shown as requester in nsfw commands messages.
 unset-anonymous = Your name will be shown as requester in nsfw commands messages.
 auto-no-thread = Autoporn cannot be enabled in threads.
