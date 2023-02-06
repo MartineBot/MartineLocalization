@@ -47,11 +47,11 @@ videos-message = Nachricht
 videos-settings-msg-btn = Nachricht bearbeiten
 videos-msg-modal = Video Benachrichtigung Editor
 videos-msg-label = Lege eine Nachricht fest, die bei der Videobenachrichtigung gesendet wird.
-videos-msg-placeholder = { "{" }name{ "}" } = the video creator name - { "{" }everyone{ "}" } = @everyone ping - { "{" }here{ "}" } = @here ping
-videos-msg-changed = Successfully updated the videos alerts message!
-videos-count = { $source } videos alerts in this server
-videos-added = Successfully added this { $source } channel as a alert in that channel!
+videos-msg-placeholder = { "{" }name{ "}" } = der Name des Videoersteller - { "{" }everyone{ "}" } = @everyone ping - { "{" }here{ "}" } = @here ping
+videos-msg-changed = Die Nachricht für die Videobenachrichtigung wurde erfolgreich aktualisiert!
+videos-count = { $source } Videobenachrichtigungen auf diesem Server
+videos-added = { $source } wurde erfolgreich als eine Benachrichtigung in diesem Kanal hinzugefügt!
 videos-added-tip =
-    A alert will be sent whenever the next video is posted.
-    You can update the videos alerts settings using { $cmd_mention } command.
-videos-removed = Successfully removed this { $source } channel alert from this channel!
+    Eine Benachrichtigung wird das nächste Mal gesendet, wenn ein neues Video hochgeladen wurde.
+    Du kannst die Video-Benachrichtigungseinstellungen mit dem Befehl { $cmd_mention } aktualisieren.
+videos-removed = { $source } wurde erfolgreich in diesem Kanal entfernt!
