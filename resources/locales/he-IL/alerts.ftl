@@ -39,9 +39,6 @@ streams-added-tip =
 # $source will be the source of the stream alert.
 streams-removed = Successfully removed this { $source } stream alert from this channel!
 streams-twitch-notfound = Couldn't find that Twitch user.
-streams-yt-notfound =
-    Couldn't find that YouTube user.
-    Try again by pasting the channel URL at https://commentpicker.com/youtube-channel-id.php and take the "Channel ID" value.
 videos-settings = videos alerts settings
 videos-message = הודעה
 videos-settings-msg-btn = ערוך הודעה
@@ -55,3 +52,6 @@ videos-added-tip =
     A alert will be sent whenever the next video is posted.
     You can update the videos alerts settings using { $cmd_mention } command.
 videos-removed = Successfully removed this { $source } channel alert from this channel!
+yt-notfound =
+    Couldn't find that YouTube user.
+    Try again by pasting the channel URL at https://commentpicker.com/youtube-channel-id.php and take the "Channel ID" value.

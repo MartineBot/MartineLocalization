@@ -39,9 +39,6 @@ streams-added-tip =
 # $source will be the source of the stream alert.
 streams-removed = Questo avviso di streaming { $source } è stato rimosso correttamente da questo canale!
 streams-twitch-notfound = Impossibile trovare quell'utente di Twitch.
-streams-yt-notfound =
-    Impossibile trovare quell'utente di YouTube.
-    Riprova incollando l'URL del canale su https://commentpicker.com/youtube-id-channel-id.php e utilizzando il valore "Channel ID" (ID Canale).
 videos-settings = impostazioni degli avvisi dei video
 videos-message = Messaggio
 videos-settings-msg-btn = Modifica messaggio
@@ -55,3 +52,6 @@ videos-added-tip =
     Sarà inviato un avviso alla pubblicazione del prossimo video.
     Puoi aggiornare le impostazioni degli avvisi dei video utilizzando il comando { $cmd_mention }.
 videos-removed = Questo canale { $source } è stato rimosso correttamente da questo canale!
+yt-notfound =
+    Couldn't find that YouTube user.
+    Try again by pasting the channel URL at https://commentpicker.com/youtube-channel-id.php and take the "Channel ID" value.

@@ -39,9 +39,6 @@ streams-added-tip =
 # $source will be the source of the stream alert.
 streams-removed = Die Benachrichtigung des { $source } Streams wurde erfolgreich von diesem Kanal entfernt!
 streams-twitch-notfound = Konnte den Twitch Benutzer nicht finden.
-streams-yt-notfound =
-    YouTube Benutzer konnte nicht gefunden werden.
-    Versuchen es erneut, indem du die Kanal-URL unter https://commentpicker.com/YouTube-channel-id.php kopierst und den Wert "Channel ID" eingibst.
 videos-settings = Video Benachrichtigungen Einstellungen
 videos-message = Nachricht
 videos-settings-msg-btn = Nachricht bearbeiten
@@ -55,3 +52,6 @@ videos-added-tip =
     Eine Benachrichtigung wird das nächste Mal gesendet, wenn ein neues Video hochgeladen wurde.
     Du kannst die Video-Benachrichtigungseinstellungen mit dem Befehl { $cmd_mention } aktualisieren.
 videos-removed = { $source } wurde erfolgreich in diesem Kanal entfernt!
+yt-notfound =
+    Couldn't find that YouTube user.
+    Try again by pasting the channel URL at https://commentpicker.com/youtube-channel-id.php and take the "Channel ID" value.

@@ -39,9 +39,6 @@ streams-added-tip =
 # $source will be the source of the stream alert.
 streams-removed = Successfuwwy wemuvd this { $source } stweam awewt fwom this channyew!!
 streams-twitch-notfound = Couwdn't find that Twitch usew.
-streams-yt-notfound =
-    Couwdn't find that YouTube usew.
-    Twy again by pasting the channyew URL at https://commentpicker.com/youtube-channel-id.php and take the "Channyew ID" vawue.
 videos-settings = videos awewts settings
 videos-message = Mewssage
 videos-settings-msg-btn = Edit mewssage
@@ -55,3 +52,6 @@ videos-added-tip =
     A awewt wiww be sent w-whenyevew the nyext v-v-video is p-posted.
     You c-can update the videos awewts settings u-using { $cmd_mention } command.
 videos-removed = Successfuwwy wemuvd this { $source } channyew awewt fwom this channyew?!!
+yt-notfound =
+    Couldn't find that YouTube user.
+    Try again by pasting the channel URL at https://commentpicker.com/youtube-channel-id.php and take the "Channel ID" value.
