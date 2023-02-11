@@ -51,5 +51,5 @@ videos-added = Цей канал { $source } успішно додано як с
 videos-added-tip = Щоразу, коли буде опубліковано наступне відео, буде надіслано сповіщення. Ви можете оновити налаштування сповіщень про відео командою { $cmd_mention }.
 videos-removed = Сповіщення каналу { $source } успішно вилучено з цього каналу!
 yt-notfound =
-    Couldn't find that YouTube user.
-    Try again by pasting the channel URL at https://commentpicker.com/youtube-channel-id.php and take the "Channel ID" value.
+    Не вдалося знайти цього користувача YouTube.
+    Спробуйте ще раз, вставивши URL-адресу каналу на https://commentpicker.com/youtube-channel-id.php і взявши значення «Channel ID».

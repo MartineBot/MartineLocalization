@@ -53,5 +53,5 @@ videos-added-tip =
     You c-can update the videos awewts settings u-using { $cmd_mention } command.
 videos-removed = Successfuwwy wemuvd this { $source } channyew awewt fwom this channyew?!!
 yt-notfound =
-    Couldn't find that YouTube user.
-    Try again by pasting the channel URL at https://commentpicker.com/youtube-channel-id.php and take the "Channel ID" value.
+    Couwdn't find that YouTube usew.
+    Twy again by pasting the channyew URL at https://commentpicker.com/youtube-channel-id.php and take the "Channyew ID" vawue.

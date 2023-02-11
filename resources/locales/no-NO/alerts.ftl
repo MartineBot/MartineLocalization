@@ -53,5 +53,5 @@ videos-added-tip =
     Du kan oppdatere videovarslingsinnstillingene ved å bruke { $cmd_mention } kommandoen.
 videos-removed = Vellykket Fjernet dette { $source } strømvarselet fra denne kanalen!
 yt-notfound =
-    Couldn't find that YouTube user.
-    Try again by pasting the channel URL at https://commentpicker.com/youtube-channel-id.php and take the "Channel ID" value.
+    Kunne ikke finne den YouTube-brukeren.
+    Prøv igjen ved å lime inn kanal-URLen på https://commentpicker.com/youtube-channel-id.php og ta "Channel ID"-verdien.

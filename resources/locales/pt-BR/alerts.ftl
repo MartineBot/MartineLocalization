@@ -53,5 +53,5 @@ videos-added-tip =
     You can update the videos alerts settings using { $cmd_mention } command.
 videos-removed = Successfully removed this { $source } channel alert from this channel!
 yt-notfound =
-    Couldn't find that YouTube user.
-    Try again by pasting the channel URL at https://commentpicker.com/youtube-channel-id.php and take the "Channel ID" value.
+    Não foi possível encontrar esse usuário do Youtube.
+    Tente novamente colando a URL do canal em https://commentpicker.com/youtube-channel-id.php e copie o valor de "Channel ID".
