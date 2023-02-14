@@ -17,6 +17,7 @@ mart-sugg-fail = Hoppla! Dein Vorschlag konnte nicht verarbeitet werden. Bitte v
 mart-sugg-thanks = Vielen Dank für deinen Vorschlag!
 mart-sugg-note = Hinweis: Du kannst keinen neuen Vorschlag für 30 Minuten senden.
 # serverinfo command
+help-serverinfo = Shows information about the server, members badges, and assets.
 si-members-field = Mitglieder:
 si-members-connected = Mitglieder verbunden:
 si-humans = Menschen:
@@ -56,6 +57,7 @@ si-banner-btn = Banner
 si-invite-bg-btn = Servereinladung Hintergrund
 si-back-si-btn = Zurück zur Serverinfo
 # userinfo command
+help-userinfo = Shows information about a user.
 ui-app-info = Anwendungsinformation
 ui-app-tags = Tags
 ui-app-tags-empty = Leer
@@ -91,6 +93,7 @@ ui-no-server-avatar = Kein Server Avatar gesetzt.
 ui-back-btn = Zurück zur Benutzterinfo
 ui-perms-btn = Mitgliederberechtigungen anzeigen
 # channelinfo command
+help-channelinfo = Shows information about a channel. Default to current.
 ci-created = Erstellt am
 ci-no-topic = Kein Thema.
 ci-position = Position
@@ -113,6 +116,7 @@ ci-user-limit = Benutzerlimit
 ci-details-field = Details
 ci-id = Kanal ID:
 # roleinfo command
+help-roleinfo = Shows information about a role.
 ri-created = Erstellt am
 ri-members = Mitglieder
 ri-colour = Farbe
@@ -122,6 +126,7 @@ ri-managed = Verwaltet
 ri-mentionnable = Erwähnbar
 ri-id = Rollen ID:
 # emojiinfo command
+help-emojiinfo = Shows information about an emoji.
 em-react = Reagiere auf diese Nachricht mit dem Emoji deiner Wahl
 em-cancelled = Abgebrochen
 em-unicode-char = Unicode Zeichen
@@ -135,6 +140,7 @@ em-roles = Rollen
 em-custom = Benutzerdefinierter Emoji
 em-id = Emoji ID
 # stickerinfo command
+help-stickerinfo = Shows information about a sticker.
 sti-nothing = Es gibt keinen Sticker auf dieser Nachricht.
 sti-failed = Fehler beim Abrufen von Informationen über diesen Sticker.
 sti-no-desc = Keine Beschreibung
@@ -147,6 +153,7 @@ sti-pack = Bündel
 sti-tags = tags
 sti-id = Sticker ID
 # donate command
+help-donate = Shows the ways to support Martine development.
 donate-title = Hier sind paar Möglichkeiten, um die Entwicklung von Martine zu Unterstützten
 donate-kofi = Einmalige Spende, entsperrt eine Rolle auf Martine's Server und 10k marts (pro Monat gespendet).
 donate-patreon = Pro Monat Spende, werde ein Patron, um einige tolle Vorteile für dich und deinen Server zu erhalten!

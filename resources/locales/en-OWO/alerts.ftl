@@ -55,3 +55,11 @@ videos-removed = Successfuwwy wemuvd this { $source } channyew awewt fwom this c
 yt-notfound =
     Couwdn't find that YouTube usew.
     Twy again by pasting the channyew URL at https://commentpicker.com/youtube-channel-id.php and take the "Channyew ID" vawue.
+help-alerts = Manage alerts in this server.
+help-alerts_streams = Manage streams alerts in this server.
+help-alerts_streams_settings = Manage streams alerts settings.
+help-alerts_streams_twitch = Manage a stream alert for a Twitch user.
+help-alerts_streams_youtube = Manage a stream alert for a YouTube user.
+help-alerts_videos = Manage videos alerts in this server.
+help-alerts_videos_settings = Manage videos alerts settings.
+help-alerts_videos_youtube = Manage a video alert for a YouTube user.

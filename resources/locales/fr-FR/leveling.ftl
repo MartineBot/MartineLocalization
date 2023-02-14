@@ -2,6 +2,7 @@ maintenance-disabled = Le système de niveau est désactivé globalement pour un
 disabled-msg =
     Le Leveler n'est pas activé sur ce serveur.
     Un administrateur ou quelqu'un qui peut gérer ce serveur peut l'activer avec la commande { $cmd_mention } !
+help-profile = Shows your profile card or the one of another member.
 profile-nobots = Désolé, mais les bots n'ont pas de profils ! { $emoji }
 profile-noexp-author = Tu n'as pas encore gagné d'EXP ! Continuez à envoyer plus de messages.
 profile-noexp-other = Ce membre n'a pas encore gagné d'EXP !
@@ -9,6 +10,8 @@ profile-image-failed = Désolé, une erreur s'est produite en essayant d'obtenir
 profile-vote-btn = Vote pour une augmentation de 10% d'EXP !
 profile-exp-boost-active = Augmentation d'EXP de 10% actif ! (Raison : `{ $reason }`)
 profile-card = Carte de profil de { $member }
+help-lvltop = Shows top 10 of levels of this server.
+help-reptop = Shows top 10 of rep of this server.
 top-image-failed = Désolé, une erreur s'est produite en essayant d'obtenir l'image du classement. Réessaie plus tard. { $emoji }
 lvltop-nodata = Il semble qu'aucun membre n'ait acquis de l'expérience avec Martine pour le moment. { $emoji }
 lvltop-lb = Classement des niveaux de { $server }
@@ -16,6 +19,7 @@ top-member-rank = Tu es au rang #{ $rank } sur ce serveur
 top-member-norank = Tu n'es pas encore classé sur ce serveur
 reptop-nodata = Il semble qu'aucun membre n'ait acquis de points de réputation avec Martine pour le moment. { $emoji }
 reptop-lb = Classement des points de réputation de { $server }
+help-rep = Gives a reputation point to a member of this server.
 rep-no-self = Tu ne peux pas te donner de points de réputation à toi-même. { $emoji }
 rep-nobots = Désolé, mais les bots ne peuvent pas recevoir de points de réputation ! { $emoji }
 rep-cooldown =

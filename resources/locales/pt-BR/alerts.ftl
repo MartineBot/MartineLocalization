@@ -55,3 +55,11 @@ videos-removed = Successfully removed this { $source } channel alert from this c
 yt-notfound =
     Não foi possível encontrar esse usuário do Youtube.
     Tente novamente colando a URL do canal em https://commentpicker.com/youtube-channel-id.php e copie o valor de "Channel ID".
+help-alerts = Manage alerts in this server.
+help-alerts_streams = Manage streams alerts in this server.
+help-alerts_streams_settings = Manage streams alerts settings.
+help-alerts_streams_twitch = Manage a stream alert for a Twitch user.
+help-alerts_streams_youtube = Manage a stream alert for a YouTube user.
+help-alerts_videos = Manage videos alerts in this server.
+help-alerts_videos_settings = Manage videos alerts settings.
+help-alerts_videos_youtube = Manage a video alert for a YouTube user.

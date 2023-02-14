@@ -2,6 +2,7 @@ maintenance-disabled = Nivåsystemet er deaktivert globalt for vedlikehold. Venn
 disabled-msg =
     Nivået er ikke aktivert på denne serveren.
     En admin eller noen som kan administrere denne serveren kan aktivere den med kommandoen { $cmd_mention }!
+help-profile = Shows your profile card or the one of another member.
 profile-nobots = Beklager, men botten har ikke profiler! { $emoji }
 profile-noexp-author = Du har ikke tjent noen exp ennå! Fortsett å sende flere meldinger.
 profile-noexp-other = Dette medlemmet har ikke skaffet noen exp enda!
@@ -9,6 +10,8 @@ profile-image-failed = Beklager, noe gikk galt under forsøket på å få profil
 profile-vote-btn = Stem opp for 10% exp boost!
 profile-exp-boost-active = 10% opp stemme exp boost aktivert! (Årsak: `{ $reason }`)
 profile-card = { $member } profilkort
+help-lvltop = Shows top 10 of levels of this server.
+help-reptop = Shows top 10 of rep of this server.
 top-image-failed = Beklager, noe gikk galt under forsøket på å få dette toppbildet til serveren. Prøv igjen senere. { $emoji }
 lvltop-nodata = Det ser ut som ingen medlemmer har fått erfaring med Martine foreløpig. { $emoji }
 lvltop-lb = { $server } nivå ledertavle
@@ -16,6 +19,7 @@ top-member-rank = Du er rank #{ $rank } i denne serveren
 top-member-norank = Du er ikke ranket enda i denne serveren
 reptop-nodata = Det ser ut til at ingen medlemmer har fått rep hos Martine foreløpig. { $emoji }
 reptop-lb = { $server } rep ledertavle
+help-rep = Gives a reputation point to a member of this server.
 rep-no-self = Du kan ikke gi deg selv omdømmepoeng. { $emoji }
 rep-nobots = Beklager, men botter kan ikke motta omdømmepoeng { $emoji }
 rep-cooldown =

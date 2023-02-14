@@ -17,6 +17,7 @@ mart-sugg-fail = Oops! Kunne ikke behandle forslaget. Prøv igjen senere.
 mart-sugg-thanks = Takk for ditt forslag!
 mart-sugg-note = Merk: Du vil ikke kunne sende et nytt forslag for 30 minutter.
 # serverinfo command
+help-serverinfo = Shows information about the server, members badges, and assets.
 si-members-field = Medlemmer:
 si-members-connected = Medlemmer tilkoblet:
 si-humans = Mennesker:
@@ -56,6 +57,7 @@ si-banner-btn = Banner
 si-invite-bg-btn = Invitasjons bakgrunn
 si-back-si-btn = Gå tilbake til server informasjon
 # userinfo command
+help-userinfo = Shows information about a user.
 ui-app-info = Applikasjons informasjon
 ui-app-tags = Tagger
 ui-app-tags-empty = Tom
@@ -91,6 +93,7 @@ ui-no-server-avatar = Ingen server profilebilde satt.
 ui-back-btn = Gå tilbake til brukerinformasjon
 ui-perms-btn = Se medlemstillatelser
 # channelinfo command
+help-channelinfo = Shows information about a channel. Default to current.
 ci-created = Opprettet
 ci-no-topic = Ingen emne.
 ci-position = Stilling
@@ -113,6 +116,7 @@ ci-user-limit = Bruker grense
 ci-details-field = Detaljer
 ci-id = Kanal ID:
 # roleinfo command
+help-roleinfo = Shows information about a role.
 ri-created = Opprettet
 ri-members = Medlemmer
 ri-colour = Farge
@@ -122,6 +126,7 @@ ri-managed = Styrt
 ri-mentionnable = Kan nevnes
 ri-id = Rolle ID:
 # emojiinfo command
+help-emojiinfo = Shows information about an emoji.
 em-react = Reager på denne meldingen med emojien du ønsker
 em-cancelled = Kansellert
 em-unicode-char = Unicode tegn
@@ -135,6 +140,7 @@ em-roles = Roller
 em-custom = Egne emoji
 em-id = Emoji ID
 # stickerinfo command
+help-stickerinfo = Shows information about a sticker.
 sti-nothing = Det er ingen klistremerke på denne meldingen.
 sti-failed = Kunne ikke få informasjon om dette klistremerket.
 sti-no-desc = Ingen beskrivelse
@@ -147,6 +153,7 @@ sti-pack = Pakke
 sti-tags = tagger
 sti-id = Klistremerke ID
 # donate command
+help-donate = Shows the ways to support Martine development.
 donate-title = Her er måtene å støtte Martine-utviklingen på
 donate-kofi = Engangsdonasjon, låser opp en rolle på Martines server, og 10k mars (per måned donert).
 donate-patreon = Donasjon per måned, bli en Patron for å få noen fantastiske fordeler for deg og serveren din!

@@ -17,6 +17,7 @@ mart-sugg-fail = Ops! Falha em processar sua sugestão. Por favor, tente novamen
 mart-sugg-thanks = Obrigado pela sua sugestão!
 mart-sugg-note = Aviso: Você não poderá enviar uma nova sugestão durante 30 minutos.
 # serverinfo command
+help-serverinfo = Shows information about the server, members badges, and assets.
 si-members-field = Membros:
 si-members-connected = Membros conectados:
 si-humans = Humanos:
@@ -56,6 +57,7 @@ si-banner-btn = Banner
 si-invite-bg-btn = Invite Background
 si-back-si-btn = Get back to server info
 # userinfo command
+help-userinfo = Shows information about a user.
 ui-app-info = Application Information
 ui-app-tags = Marcadores
 ui-app-tags-empty = Vazio
@@ -91,6 +93,7 @@ ui-no-server-avatar = No server avatar set.
 ui-back-btn = Get back to user info
 ui-perms-btn = Visualizar permissões de membro
 # channelinfo command
+help-channelinfo = Shows information about a channel. Default to current.
 ci-created = Criado em
 ci-no-topic = Sem tópico.
 ci-position = Posição
@@ -113,6 +116,7 @@ ci-user-limit = Limite de usuários
 ci-details-field = Detalhes
 ci-id = ID do Canal:
 # roleinfo command
+help-roleinfo = Shows information about a role.
 ri-created = Criado em
 ri-members = Membros
 ri-colour = Cor
@@ -122,6 +126,7 @@ ri-managed = Managed
 ri-mentionnable = Mentionnable
 ri-id = ID do Cargo:
 # emojiinfo command
+help-emojiinfo = Shows information about an emoji.
 em-react = Reaja a esta mensagem com um emoji de sua escolha
 em-cancelled = Cancelado
 em-unicode-char = Unicode character
@@ -135,6 +140,7 @@ em-roles = Cargos
 em-custom = Emoji personalizado
 em-id = ID do Emoji
 # stickerinfo command
+help-stickerinfo = Shows information about a sticker.
 sti-nothing = Não há figurinhas nesta mensagem.
 sti-failed = Falha ao procurar informações sobre esta figurinha.
 sti-no-desc = Sem descrição
@@ -147,6 +153,7 @@ sti-pack = Pack
 sti-tags = marcadores
 sti-id = ID da Figurinha
 # donate command
+help-donate = Shows the ways to support Martine development.
 donate-title = Aqui estão as formas de ajudar no desenvolvimento da Martine
 donate-kofi = Doações únicas te desbloqueiam um cargo no servidor da Martine, e 10k marts (por cada mês doado).
 donate-patreon = Doações mensais, assine pelo Patreon para conseguir vantagens para você e seu servidor!

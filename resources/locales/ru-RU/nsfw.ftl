@@ -108,3 +108,8 @@ auto-cleanup-msg =
     Это произошло, потому что сервер имел статус Премиум в прошлом, но сейчас его нет.
     Получите Премиум, чтобы снова получить доступ к большему числу каналов автопорно! { $emoji }
     { $premium_url }
+help-autoporn =
+    Setup autoporn in this channel, and see the status of it on this server.
+    
+    Autoporn is a feature that will send images automatically to a selected channel.
+    This can be toggled only by moderators or admins and requires to upvote the bot.

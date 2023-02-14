@@ -17,6 +17,7 @@ mart-sugg-fail = Oops! Failed to process your suggestion. Please try again later
 mart-sugg-thanks = Thank you for your suggestion!
 mart-sugg-note = Note: You won't be able to send a new suggestion for 30 minutes.
 # serverinfo command
+help-serverinfo = Shows information about the server, members badges, and assets.
 si-members-field = Members:
 si-members-connected = Members connected:
 si-humans = Humans:
@@ -56,6 +57,7 @@ si-banner-btn = Banner
 si-invite-bg-btn = Invite Background
 si-back-si-btn = Get back to server info
 # userinfo command
+help-userinfo = Shows information about a user.
 ui-app-info = Application Information
 ui-app-tags = Tags
 ui-app-tags-empty = Empty
@@ -91,6 +93,7 @@ ui-no-server-avatar = No server avatar set.
 ui-back-btn = Get back to user info
 ui-perms-btn = View member permissions
 # channelinfo command
+help-channelinfo = Shows information about a channel. Default to current.
 ci-created = Created on
 ci-no-topic = No topic.
 ci-position = Position
@@ -113,6 +116,7 @@ ci-user-limit = User limit
 ci-details-field = Details
 ci-id = Channel ID:
 # roleinfo command
+help-roleinfo = Shows information about a role.
 ri-created = Created on
 ri-members = Members
 ri-colour = Colour
@@ -122,6 +126,7 @@ ri-managed = Managed
 ri-mentionnable = Mentionnable
 ri-id = Role ID:
 # emojiinfo command
+help-emojiinfo = Shows information about an emoji.
 em-react = React to this message with the emoji of your choice
 em-cancelled = Cancelled
 em-unicode-char = Unicode character
@@ -135,6 +140,7 @@ em-roles = Roles
 em-custom = Custom emoji
 em-id = Emoji ID
 # stickerinfo command
+help-stickerinfo = Shows information about a sticker.
 sti-nothing = There's no sticker on this message.
 sti-failed = Failed to get informations about this sticker.
 sti-no-desc = No description
@@ -147,6 +153,7 @@ sti-pack = Pack
 sti-tags = tags
 sti-id = Sticker ID
 # donate command
+help-donate = Shows the ways to support Martine development.
 donate-title = Here are the ways to support Martine development
 donate-kofi = One-time donation, unlocks you a role on Martine's server, and 10k marts (per month donated).
 donate-patreon = Per-month donation, become a Patron to get some awesome perks for you and your server!
