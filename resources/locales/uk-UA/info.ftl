@@ -17,7 +17,7 @@ mart-sugg-fail = Упс! Не вдалося обробити вашу проп�
 mart-sugg-thanks = Дякуємо за вашу пропозицію!
 mart-sugg-note = Важливо: Ви не зможете надіслати нову пропозицію протягом 30 хвилин.
 # serverinfo command
-help-serverinfo = Shows information about the server, members badges, and assets.
+help-serverinfo = Показує інформацію про сервер, значки учасників та активи.
 si-members-field = Учасники:
 si-members-connected = Підключених учасників:
 si-humans = Людей:
@@ -57,7 +57,7 @@ si-banner-btn = Банер
 si-invite-bg-btn = Фон запрошення
 si-back-si-btn = Повернутися до інформації про сервер
 # userinfo command
-help-userinfo = Shows information about a user.
+help-userinfo = Показує інформацію про користувача.
 ui-app-info = Інформація про програму
 ui-app-tags = Теги
 ui-app-tags-empty = Пусто
@@ -93,7 +93,7 @@ ui-no-server-avatar = Аватар сервера не встановлено.
 ui-back-btn = Назад до інформації про користувача
 ui-perms-btn = Переглянути дозволи учасників
 # channelinfo command
-help-channelinfo = Shows information about a channel. Default to current.
+help-channelinfo = Показує інформацію про канал. За замовчуванням поточний.
 ci-created = Створено
 ci-no-topic = Без теми.
 ci-position = Позиція
@@ -116,7 +116,7 @@ ci-user-limit = Ліміт користувачів
 ci-details-field = Подробиці
 ci-id = ID каналу:
 # roleinfo command
-help-roleinfo = Shows information about a role.
+help-roleinfo = Показує інформацію про роль.
 ri-created = Створено
 ri-members = Учасники
 ri-colour = Колір
@@ -126,7 +126,7 @@ ri-managed = Керований
 ri-mentionnable = Згадуваний
 ri-id = ID ролі:
 # emojiinfo command
-help-emojiinfo = Shows information about an emoji.
+help-emojiinfo = Показує інформацію про емодзі.
 em-react = Відреагувати на це повідомлення емодзі за вашим вибором
 em-cancelled = Скасовано
 em-unicode-char = Символ Unicode
@@ -140,7 +140,7 @@ em-roles = Ролі
 em-custom = Користувацькі емодзі
 em-id = ID емодзі
 # stickerinfo command
-help-stickerinfo = Shows information about a sticker.
+help-stickerinfo = Показує інформацію про стікер.
 sti-nothing = На цьому повідомленні немає стікерів.
 sti-failed = Не вдалося отримати інформацію про цей стікер.
 sti-no-desc = Без опису
@@ -153,7 +153,7 @@ sti-pack = Пакет
 sti-tags = теги
 sti-id = ID стікера
 # donate command
-help-donate = Shows the ways to support Martine development.
+help-donate = Показує шляхи підтримки розвитку Martine.
 donate-title = Ось способи підтримки розвитку Martine
 donate-kofi = Одноразова пожертва відкриває вам роль на сервері Martine та 10 тисяч ринків (пожертвуваних щомісяця).
 donate-patreon = Щомісячна пожертва, станьте патроном, щоб отримати чудові бонуси для себе та вашого сервера!

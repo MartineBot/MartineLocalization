@@ -55,11 +55,11 @@ videos-removed = Questo canale { $source } è stato rimosso correttamente da que
 yt-notfound =
     Impossibile trovare quell'utente di YouTube.
     Riprova incollando l'URL del canale su https://commentpicker.com/youtube-id-channel-id.php e utilizzando il valore "Channel ID" (ID Canale).
-help-alerts = Manage alerts in this server.
-help-alerts_streams = Manage streams alerts in this server.
-help-alerts_streams_settings = Manage streams alerts settings.
-help-alerts_streams_twitch = Manage a stream alert for a Twitch user.
-help-alerts_streams_youtube = Manage a stream alert for a YouTube user.
-help-alerts_videos = Manage videos alerts in this server.
-help-alerts_videos_settings = Manage videos alerts settings.
-help-alerts_videos_youtube = Manage a video alert for a YouTube user.
+help-alerts = Gestisci gli avvisi su questo server.
+help-alerts_streams = Gestisci gli avvisi sulle live su questo server.
+help-alerts_streams_settings = Gestisci le impostazioni degli avvisi sulle live.
+help-alerts_streams_twitch = Gestisci un avviso sulla live per un utente di Twitch.
+help-alerts_streams_youtube = Gestisci un avviso sulla live per un utente di YouTube.
+help-alerts_videos = Gestisci gli avvisi sui video su questo server.
+help-alerts_videos_settings = Gestisci le impostazioni sugli avvisi sui video.
+help-alerts_videos_youtube = Gestisci un avviso su un video per un utente di YouTube.

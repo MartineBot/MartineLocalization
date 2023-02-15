@@ -17,7 +17,7 @@ mart-sugg-fail = Oops! Impossibile elaborare il tuo suggerimento. Sei pregato di
 mart-sugg-thanks = Grazie per il tuo suggerimento!
 mart-sugg-note = Nota: Non potrai inviare un nuovo suggerimento per 30 minuti.
 # serverinfo command
-help-serverinfo = Shows information about the server, members badges, and assets.
+help-serverinfo = Mostra le informazioni sul server, i distintivi dei membri e le risorse.
 si-members-field = Membri:
 si-members-connected = Membri connessi:
 si-humans = Umani:
@@ -57,7 +57,7 @@ si-banner-btn = Banner
 si-invite-bg-btn = Sfondo di Invito
 si-back-si-btn = Torna alle info del server
 # userinfo command
-help-userinfo = Shows information about a user.
+help-userinfo = Mostra le informazioni su un utente.
 ui-app-info = Informazioni sull'Applicazione
 ui-app-tags = Tag
 ui-app-tags-empty = Vuoto
@@ -93,7 +93,7 @@ ui-no-server-avatar = Ancora nessun avatar del server impostato.
 ui-back-btn = Torna alle info dell'utente
 ui-perms-btn = Visualizza le autorizzazioni del membro
 # channelinfo command
-help-channelinfo = Shows information about a channel. Default to current.
+help-channelinfo = Mostra le informazioni su un canale. Predefinito al corrente.
 ci-created = Creato il
 ci-no-topic = Nessun argomento.
 ci-position = Posizione
@@ -116,7 +116,7 @@ ci-user-limit = Limite utente
 ci-details-field = Dettagli
 ci-id = ID Canale:
 # roleinfo command
-help-roleinfo = Shows information about a role.
+help-roleinfo = Mostra informazioni su un ruolo.
 ri-created = Creato il
 ri-members = Membri
 ri-colour = Colore
@@ -126,7 +126,7 @@ ri-managed = Gestito da
 ri-mentionnable = Menzionabile
 ri-id = ID Ruolo:
 # emojiinfo command
-help-emojiinfo = Shows information about an emoji.
+help-emojiinfo = Mostra infomazioni su un'emoji.
 em-react = Reagisci a questo messaggio con l'emoji di tua scelta
 em-cancelled = Annullato
 em-unicode-char = Carattere Unicode
@@ -140,7 +140,7 @@ em-roles = Ruoli
 em-custom = Emoji personalizzata
 em-id = ID Emoji
 # stickerinfo command
-help-stickerinfo = Shows information about a sticker.
+help-stickerinfo = Mostra infomazioni su un adesivo.
 sti-nothing = Nessun adesivo presente su questo messaggio.
 sti-failed = Impossibile ottenere le informazioni su questo adesivo.
 sti-no-desc = Nessuna descrizione
@@ -153,7 +153,7 @@ sti-pack = Pacchetto
 sti-tags = tag
 sti-id = ID Adesivo
 # donate command
-help-donate = Shows the ways to support Martine development.
+help-donate = Mostra come si può supportare lo sviluppo di Martine.
 donate-title = Ecco come puoi supportare lo sviluppo di Martine
 donate-kofi = Donazione una tantum: ti sblocca un ruolo sul server di Martine e 10k mart (per mese di donazione).
 donate-patreon = Donazione mensile, diventa un Patron per ottenere dei fantastici vantaggi per te e il tuo server!

@@ -107,7 +107,7 @@ auto-cleanup-msg =
     Ottieni Premium per ottenere nuovamente l'accesso a ulteriori canali di auto-porn! { $emoji }
     { $premium_url }
 help-autoporn =
-    Setup autoporn in this channel, and see the status of it on this server.
+    Configura l'auto-porn su questo canale e visualizzane lo stato su questo server.
     
-    Autoporn is a feature that will send images automatically to a selected channel.
-    This can be toggled only by moderators or admins and requires to upvote the bot.
+    Auto-porn è una funzionalità che invierà automaticamente delle immagini, in un canale selezionato.
+    Questa, può essere attivata/disattivata soltanto dai moderatori o dagli admin e richiede la valutazione positiva del bot.
