@@ -52,7 +52,7 @@ giveaway-btn-bypass-description = By having { $role } role you can bypass the ab
 giveaway-btn-martine-links = Martine's links:
 giveaway-btn-accepted-title = Giveaway entry accepted!
 giveaway-btn-accepted-description = Your entry for the giveaway of { $prize } in { $server } server has been processed and accepted. Good luck!
-help-giveaway = Commands to manage giveaways
+help-giveaway = Commandes pour gérer les giveaways
 help-giveaway_create =
     Create a giveaway.
     
