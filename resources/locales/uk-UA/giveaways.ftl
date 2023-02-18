@@ -1,8 +1,8 @@
-giveaway-run-notfound = Couldn't find a currently running giveaway for that message.
-giveaway-notfound = Couldn't find a giveaway for that message.
-giveaway-notstored = Couldn't find a stored giveaway for that message.
+giveaway-run-notfound = Не вдалося знайти чинну роздачу для цього повідомлення.
+giveaway-notfound = Не вдалося знайти роздачу для цього повідомлення.
+giveaway-notstored = Не вдалося знайти збережену роздачу для цього повідомлення.
 giveaway-roles = Ролів:
-giveaway-days-in-server = Days in server:
+giveaway-days-in-server = Днів на сервері:
 giveaway-details = Подробиці:
 giveaway-hosted-by = Організовано:
 giveaway-unknown = Невідомо
@@ -12,139 +12,139 @@ giveaway-bypassrole = Роль { $role } обходить ці вимоги!
 giveaway-ends = Закінчується:
 giveaway-ends-at = Закінчується о
 giveaway-winners = Переможці:
-giveaway-rolling = Rolling giveaway { $prize }...
+giveaway-rolling = Поточна роздача { $prize }...
 giveaway-roll-notfound =
-    The message of giveaway { $prize } seems to have been deleted.
-    I cannot roll out winners.
-giveaway-roll-reroll = Giveaway reroll! { $emoji }
-giveaway-roll-ended = Giveaway ended! { $emoji }
+    Здається, повідомлення про роздачу { $prize } було видалено.
+    Я не можу визначити переможців.
+giveaway-roll-reroll = Повторна роздача! { $emoji }
+giveaway-roll-ended = Роздачу завершено! { $emoji }
 giveaway-roll-description =
-    Congratulations to the **{ $num_winners } { $num_winners ->
-        [one] winner
-       *[other] winners
+    Вітаємо **{ $num_winners } { $num_winners ->
+        [one] переможця
+       *[other] переможців
     }
-    You have won { $prize }!**
+    Ви виграли { $prize }!**
 giveaway-roll-total-entries =
-    { $num_entries_fmt } total { $num_entries ->
-        [one] entry
-       *[other] entries
+    Усього { $num_entries_fmt } { $num_entries ->
+        [one] заявка
+       *[other] заявок
     }!
-giveaway-roll-gg = Congratulation { $winners }!
+giveaway-roll-gg = Вітаємо { $winners }!
 giveaway-roll-nothing =
-    But no one entered. { $emoji }
-    It was { $prize }
-giveaway-ended = Giveaway Ended
-giveaway-ended-time = Giveaway ended { $locale_formatted_time }!
-giveaway-no-winners = No one won
-giveaway-btn-label = Enter giveaway ({ $entries } entries)
-giveaway-btn-label-ended = { $entries } entries
-giveaway-btn-removed = Successfully removed your entry from this giveaway! { $emoji }
-giveaway-btn-fail-role = { $role } role
-giveaway-btn-fail-joindays = { $joindays } days in the server but you have been there for { $days } days.
+    Але ніхто не взяв участь. { $emoji }
+    Приз був { $prize }
+giveaway-ended = Роздачу завершено
+giveaway-ended-time = Роздачу завершено { $locale_formatted_time }!
+giveaway-no-winners = Ніхто не виграв
+giveaway-btn-label = Участь у розіграші (заявок: { $entries })
+giveaway-btn-label-ended = заявок: { $entries }
+giveaway-btn-removed = Вашу заявку успішно видалено з цієї роздачі! { $emoji }
+giveaway-btn-fail-role = Роль { $role }
+giveaway-btn-fail-joindays = { $joindays } днів на сервері, але ви були там { $days } днів.
 giveaway-btn-denied-title =
-    Giveaway entry denied! Missing { $count ->
-        [one] requirement
-       *[other] requirements
+    Участь у розіграші відмовлено! Відсутньо { $count ->
+    [one] вимога
+    *[other] вимоги
     }
-giveaway-btn-denied-description = Sorry but you are missing one of the requirements for { $prize } giveaway in { $server } server.
-giveaway-btn-bypass-title = Bypass role:
-giveaway-btn-bypass-description = By having { $role } role you can bypass the above requirements!
-giveaway-btn-martine-links = Martine's links:
-giveaway-btn-accepted-title = Giveaway entry accepted!
-giveaway-btn-accepted-description = Your entry for the giveaway of { $prize } in { $server } server has been processed and accepted. Good luck!
-help-giveaway = Commands to manage giveaways
+giveaway-btn-denied-description = Вибачте, але ви не виконуєте одну з вимог для розіграшу { $prize } на сервері { $server }.
+giveaway-btn-bypass-title = Обхідна роль:
+giveaway-btn-bypass-description = Маючи роль { $role }, ви можете обійти наведені вище вимоги!
+giveaway-btn-martine-links = Посилання Martine:
+giveaway-btn-accepted-title = Заявку на роздачу прийнято!
+giveaway-btn-accepted-description = Вашу заявку на роздачу { $prize } на сервері { $server } оброблено та прийнято. Удачі!
+help-giveaway = Команди для керування роздачами
 help-giveaway_create =
-    Create a giveaway.
+    Створити роздачу.
     
-    `use_config: yes|no` Whether you want to use already set config values. Default to no.
-giveaway-setup = Giveaway setup { $emoji }
+    `use_config: yes|no` Чи бажаєте ви використовувати вже встановлені значення конфігурації. За замовчуванням no.
+giveaway-setup = Налаштування роздачі { $emoji }
 giveaway-setup-optional = Додатково
 giveaway-setup-current-value = Поточне значення:
 giveaway-setup-example = Приклад:
-giveaway-setup-footer-cancel-skip = Send "cancel" to cancel the setup or send "skip" to skip that question.
-giveaway-setup-footer-cancel = Send "cancel" to cancel the setup.
-giveaway-setup-keep = Send "keep" to keep the current value.
+giveaway-setup-footer-cancel-skip = Надішліть «cancel», щоб скасувати налаштування, або надішліть «skip», щоб пропустити це запитання.
+giveaway-setup-footer-cancel = Надішліть «cancel», щоб скасувати налаштування.
+giveaway-setup-keep = Надішліть «keep», щоб зберегти поточне значення.
 giveaway-setup-error = Помилка:
-giveaway-setup-cancelled = The giveaway setup has been cancelled.
+giveaway-setup-cancelled = Налаштування роздачі скасовано.
 giveaway-setup-timeout =
     { $giveaway-setup-cancelled }
-    User took to answer.
+    Користувач відповів.
 giveaway-setup-too-many-fails =
     { $giveaway-setup-cancelled }
-    User failed to give an good answer after 5 tries.
+    Користувач не зміг дати правильну відповідь після 5 спроб.
 giveaway-setup-title =
-    __You have started the giveaway setup. You will have 5 minutes to answer each questions.__
+    __Ви розпочали налаштування роздачі. У вас буде 5 хвилин, щоб відповісти на кожне запитання.__
     
-    What prize are you giving away? (256 characters maximum)
-giveaway-setup-prize-example = A Discord Nitro.
-giveaway-setup-prize-too-long = The prize title must be less than 256 characters. Please try again with a shorter title.
-giveaway-setup-description = A brief description of your giveaway. (1024 characters maximum)
-giveaway-setup-description-example = Staff team is offering a Discord Nitro for the end of this month!
-giveaway-setup-description-too-long = The description must be less than 1024 characters. Please try again with a shorter description.
-giveaway-setup-winners = How many winners will be pulled? (Maximum 25)
-giveaway-setup-numbers-invalid = This must be a number, please try again.
-giveaway-setup-winners-too-high = The maximum number of winners is 25. Please try again with a lower number.
-giveaway-setup-host = Who is hosting that giveaway?
-giveaway-setup-host-notfound = This user was not found. Please try again.
+    Який приз ви роздаєте? (максимум 256 символів)
+giveaway-setup-prize-example = Discord Nitro.
+giveaway-setup-prize-too-long = Назва призу має містити менше ніж 256 символів. Спробуйте ще раз із коротшою назвою.
+giveaway-setup-description = Короткий опис роздачі. (максимум 1024 символи)
+giveaway-setup-description-example = Команда персоналу пропонує Discord Nitro на кінець цього місяця!
+giveaway-setup-description-too-long = Опис має бути коротшим ніж 1024 символи. Спробуйте ще раз із коротшим описом.
+giveaway-setup-winners = Скільки переможців буде визначено? (Максимум 25)
+giveaway-setup-numbers-invalid = Це має бути число, спробуйте ще раз.
+giveaway-setup-winners-too-high = Максимальна кількість переможців – 25. Повторіть спробу з меншим числом.
+giveaway-setup-host = Хто організовує цю роздачу?
+giveaway-setup-host-notfound = Цього користувача не знайдено. Будь ласка, спробуйте ще раз.
 giveaway-setup-roles =
-    Which role(s) will be allowed to enter that giveaway? In the case of multiple roles, please use commas to separate them.
-    For roles with spaces in their name, either mention them or use their ID.
-giveaway-setup-roles-invalid = { $value } is not a valid role. Please try again.
-giveaway-setup-roles-too-many = You can only specify up to 5 roles. Please try again with less roles.
-giveaway-setup-joindays = How many days members should have been in the server?
-giveaway-setup-joindays-too-low = The minimum number of days is 1. Please try again with a higher number.
-giveaway-setup-bypassrole = Do you want to set a role that will bypass requirements set before?
-giveaway-setup-bypassrole-invalid = { $value } is not a valid role. Please try again.
+    Яким ролям буде дозволено брати участь у роздачі? У разі кількох ролей розділяйте їх комами.
+    Для ролей із пробілами в назві згадайте їх або використовуйте їхні ID.
+giveaway-setup-roles-invalid = { $value } не є дійсною роллю. Будь ласка, спробуйте ще раз.
+giveaway-setup-roles-too-many = Ви можете вказати не більше 5 ролей. Спробуйте ще раз із меншою кількістю ролей.
+giveaway-setup-joindays = Скільки днів учасники повинні були бути на сервері?
+giveaway-setup-joindays-too-low = Мінімальна кількість днів – 1. Спробуйте ще раз із більшим числом.
+giveaway-setup-bypassrole = Ви хочете встановити роль, яка обійде вимоги, встановлені раніше?
+giveaway-setup-bypassrole-invalid = { $value } не є дійсною роллю. Будь ласка, спробуйте ще раз.
 giveaway-setup-emoji =
-    Which emoji do you want with the button on which people can enter?
-    Send "None" and there will be no emoji on the button.
-    By default it will use "{ $emoji }".
-giveaway-setup-emoji-invalid = { $value } is not a valid emoji. Please try again.
-giveaway-setup-channel = In which channel do you want that giveaway being hosted?
-giveaway-setup-channel-notfound = This channel was not found. Please try again.
+    Яку емодзі ви хочете мати з кнопкою, яку люди зможуть взяти участь?
+    Надішліть «Немає», і на кнопці не буде емодзі.
+    За замовчуванням використовується «{ $emoji }».
+giveaway-setup-emoji-invalid = { $value } не є дійсним емодзі. Будь ласка, спробуйте ще раз.
+giveaway-setup-channel = На якому каналі ви хочете розмістити цю роздачу?
+giveaway-setup-channel-notfound = Цей канал не знайдено. Будь ласка, спробуйте ще раз.
 giveaway-setup-channel-missing-perms =
-    Please make sure I have the following permissions in the wanted channel:
-    View Channel, Read message history, Read messages, Embed links, and External emojis.
-giveaway-setup-endtime = When will the giveaway end? The time can be any direct date in this format `YYYY-MM-DD` (UTC time) or an human readable offset.
-giveaway-setup-endtime-invalid = This is not a valid end time. Please try again.
-giveaway-setup-success = Successfully created this giveaway in { $channel }!
-giveaway-started = New Giveaway Started!
-giveaway-tip = Click on the button below to enter!
-help-giveaway_edit = Edit a currently ongoing giveaway.
-giveaway-edit-success = Successfully edited that giveaway!
-help-giveaway-end = Ends a giveaway early. Message can be a jump url, or ID of the giveaway message.
-giveaway-end-success = Successfully ended that giveaway!
+    Будь ласка, переконайтеся, що я маю наступні дозволи в потрібному каналі:
+    Дивитися канал, Читати історію повідомлень, Відправляти повідомлення, Вбудовані посилання, та Сторонні емодзі.
+giveaway-setup-endtime = Коли завершиться роздача? Час може бути будь-якою прямою датою у такому форматі `РРРР-ММ-ДД` (час UTC) або зсувом, зрозумілим людині.
+giveaway-setup-endtime-invalid = Це недійсний час завершення. Будь ласка, спробуйте ще раз.
+giveaway-setup-success = Цю роздачу успішно створено в каналі { $channel }!
+giveaway-started = Розпочато нову роздачу!
+giveaway-tip = Натисніть кнопку нижче, щоб узяти участь!
+help-giveaway_edit = Редагувати поточну роздачу.
+giveaway-edit-success = Цю роздачу успішно відредаговано!
+help-giveaway-end = Роздача завершується раніше. Повідомлення може бути URL-адресою переходу або ID повідомлення про роздачу.
+giveaway-end-success = Цю роздачу успішно завершено!
 help-giveaway_reroll =
     Re-roll a giveaway. Message can be a jump url, or ID of the giveaway message.
     And count is the number of winners you want to re-roll. Default to 1.
     
     Important note: This `count` argument will change in the future to be the Discord ID of
     the member that you want to reroll.
-giveaway-reroll-notended = That giveaway is not ended yet. You cannot reroll it.
-giveaway-reroll-too-high = You choosed a count higher than 25. Don't forget that the maximum number of winners in giveaways is 25. Please try again with a lower number.
-giveaway-reroll-count-invalid = The number of winners for that giveaway was { $value }, which is higher than what you provided. Please try again with a lower number.
+giveaway-reroll-notended = Ця роздача ще не завершилася. Ви не можете перезапустити її.
+giveaway-reroll-too-high = Ви вибрали кількість, більшу за 25. Не забувайте, що максимальна кількість переможців у роздачах становить 25. Будь ласка, спробуйте ще раз із меншим числом.
+giveaway-reroll-count-invalid = Кількість переможців цієї роздачі становила { $value }, що більше, ніж ви задали. Спробуйте ще раз із меншим числом.
 giveaway-reroll-success = Successfully rerolled that giveaway!
-help-giveaway_list = List all current and previous giveaways.
-giveaway-list-nothing = There is no giveaway currently running or stored for this server.
-giveaway-list-failed = Failed to get that giveaway { $id }.
+help-giveaway_list = Список усіх поточних та попередніх роздач.
+giveaway-list-nothing = На цьому сервері зараз не запущено та не зберігається роздача.
+giveaway-list-failed = Не вдалося отримати роздачу { $id }.
 giveaway-list-no-description = Без опису.
 giveaway-list-jump-url = Перейти до повідомлення!
 giveaway-list-page = Сторінка
 giveaway-list-ended = Завершено
 giveaway-list-ends-at = Завершується
-help-giveaway_settings = Set the default values for giveaways in this server.
-help-giveaway_settings_show = Shows the current giveaway settings of this server.
+help-giveaway_settings = Установити значення за замовчуванням для роздач на цьому сервері.
+help-giveaway_settings_show = Показує поточні налаштування роздачі цього сервера.
 giveaway-settings-not-set = Не встановлено.
-giveaway-settings-title = { $server } giveaway default settings
+giveaway-settings-title = Налаштування роздачі за замовчування { $server }
 giveaway-settings-channel = Канал:
 giveaway-settings-host = Організовано:
 giveaway-settings-emoji = Емодзі:
 giveaway-settings-winners = Кількість переможців:
 giveaway-settings-joindays = Дні приєднання:
 giveaway-settings-bypassrole = Вимоги обхідної ролі:
-help-giveaway_settings_resetall = Reset all giveaway default settings for this server.
-giveaway-settings-resetall-success = Successfully reset all giveaway settings for this server.
-help-giveaway_settings_channel = Set the default channel for giveaways in this server. Don't specify to reset.
+help-giveaway_settings_resetall = Скинути всі налаштування роздачі за замовчуванням для цього сервера.
+giveaway-settings-resetall-success = Усі налаштування роздачі успішно скинуто для цього сервера.
+help-giveaway_settings_channel = Установити канал за замовчуванням для роздач на цьому сервері. Не вказуйте скинути.
 giveaway-settings-channel-success = Successfully set the default channel for giveaways in this server to { $channel }.
 giveaway-settings-channel-reset = Successfully reset the default channel for giveaways in this server.
 help-giveaway_settings_host = Set the default host for giveaways in this server. Don't specify to reset.
@@ -154,8 +154,8 @@ help-giveaway_settings_emoji = Set the default emoji for giveaways in this serve
 giveaway-settings-emoji-success = Successfully set the default emoji for giveaways in this server to { $emoji }.
 giveaway-settings-emoji-reset = Successfully reset the default emoji for giveaways in this server.
 help-giveaway_settings_joindays =
-    Set the default requirement for number of days required to be in the server to join the giveaway.
-    Don't specify to reset.
+    Установити стандартну вимогу щодо кількості днів, необхідних для перебування на сервері, щоб приєднатися до роздачі.
+    Не вказуйте скинути.
 giveaway-settings-joindays-reset = Successfully reset the default join days for giveaways in this server.
 giveaway-settings-joindays-success = Successfully set the default join days for giveaways in this server to { $joindays }.
 help-giveaway_settings_roles = Set the default roles for giveaways in this server. Don't specify to reset.
