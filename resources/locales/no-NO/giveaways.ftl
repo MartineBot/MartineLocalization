@@ -1,29 +1,29 @@
-giveaway-run-notfound = Couldn't find a currently running giveaway for that message.
-giveaway-notfound = Couldn't find a giveaway for that message.
-giveaway-notstored = Couldn't find a stored giveaway for that message.
+giveaway-run-notfound = Kunne ikke finne en løpende giveaway for den meldingen.
+giveaway-notfound = Kunne ikke finne en giveaway for den meldingen.
+giveaway-notstored = Kunne ikke finne en lagret giveaway for den meldingen.
 giveaway-roles = Roller:
-giveaway-days-in-server = Days in server:
-giveaway-details = Details:
-giveaway-hosted-by = Hosted by:
+giveaway-days-in-server = Dager på server:
+giveaway-details = Detaljer:
+giveaway-hosted-by = Arrangert av:
 giveaway-unknown = Ukjent
-giveaway-time-remaining = Time remaining:
-giveaway-requirements = Requirements:
-giveaway-bypassrole = { $role } role bypasses those requirements!
-giveaway-ends = Ends:
-giveaway-ends-at = Ends at
-giveaway-winners = Winners:
-giveaway-rolling = Rolling giveaway { $prize }...
+giveaway-time-remaining = Gjenstående tid:
+giveaway-requirements = Krav:
+giveaway-bypassrole = { $role } rollen omgår disse kravene!
+giveaway-ends = Slutter:
+giveaway-ends-at = Slutter den
+giveaway-winners = Vinnere:
+giveaway-rolling = Rullende giveaway { $prize }...
 giveaway-roll-notfound =
-    The message of giveaway { $prize } seems to have been deleted.
-    I cannot roll out winners.
-giveaway-roll-reroll = Giveaway reroll! { $emoji }
-giveaway-roll-ended = Giveaway ended! { $emoji }
+    Meldingen om giveaway { $prize } ser ut til å ha blitt slettet.
+    Jeg kan ikke rulle ut vinnere.
+giveaway-roll-reroll = Giveaway rerull! { $emoji }
+giveaway-roll-ended = Giveaway sluttet! { $emoji }
 giveaway-roll-description =
-    Congratulations to the **{ $num_winners } { $num_winners ->
-        [one] winner
-       *[other] winners
+    Gratulerer til **{ $num_winners } { $num_winners ->
+        [one] vinner
+       *[other] vinnerne
     }
-    You have won { $prize }!**
+    Du har vunnet { $prize }!**
 giveaway-roll-total-entries =
     { $num_entries_fmt } total { $num_entries ->
         [one] entry

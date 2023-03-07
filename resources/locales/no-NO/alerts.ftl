@@ -55,11 +55,11 @@ videos-removed = Vellykket Fjernet dette { $source } strømvarselet fra denne ka
 yt-notfound =
     Kunne ikke finne den YouTube-brukeren.
     Prøv igjen ved å lime inn kanal-URLen på https://commentpicker.com/youtube-channel-id.php og ta "Channel ID"-verdien.
-help-alerts = Manage alerts in this server.
-help-alerts_streams = Manage streams alerts in this server.
-help-alerts_streams_settings = Manage streams alerts settings.
-help-alerts_streams_twitch = Manage a stream alert for a Twitch user.
-help-alerts_streams_youtube = Manage a stream alert for a YouTube user.
-help-alerts_videos = Manage videos alerts in this server.
-help-alerts_videos_settings = Manage videos alerts settings.
-help-alerts_videos_youtube = Manage a video alert for a YouTube user.
+help-alerts = Administrer varsler på denne serveren.
+help-alerts_streams = Behandle strømvarsling på denne serveren.
+help-alerts_streams_settings = Behandle innstillinger for strømminger.
+help-alerts_streams_twitch = Administrer et strømmingsvarsel for en Twitch bruker.
+help-alerts_streams_youtube = Administrer et strømmingsvarsel for en YouTube bruker.
+help-alerts_videos = Administrer video varsler på denne serveren.
+help-alerts_videos_settings = Administrere innstillinger varlser for videoer.
+help-alerts_videos_youtube = Administrer et video varsel for en YouTube bruker.
