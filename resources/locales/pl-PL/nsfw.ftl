@@ -1,18 +1,18 @@
-non-nsfw-channel-title = { $emoji } You can't use this command in a non-NSFW channel!
-non-nsfw-channel-description = Use the { $cmd_mention } command if you're unsure how to setup this.
+non-nsfw-channel-title = { $emoji } Nie możesz użyć tej komendy na kanale innym niż NSFW!
+non-nsfw-channel-description = Użyj polecenia { $cmd_mention }, jeśli nie masz pewności, jak to skonfigurować.
 upvote-msg =
-    Please upvote me on Top.gg or DBL to use this command. { $emoji }
-    Here is the link: { $link }
-    Your vote will expire after 12 hours.
+    Zagłosuj na mnie na Top.gg lub DBL, aby użyć tego polecenia. { $emoji }
+    Oto link: { $link }
+    Twój głos wygaśnie po 12 godzinach.
     
-    You can bypass this by [boosting Martine's server]({ $server_invite })
-upvote-msg-premium = Or by getting one of our [Premium tiers]({ $premium_url })!
-discord-server = Discord Server
-get-premium = Get Premium
-invite-me = Invite Me
+    Możesz to ominąć, [boostując serwer Martine]({ $server_invite })
+upvote-msg-premium = Lub przez posiadanie jednego z naszych [poziomów Premium]({ $premium_url })!
+discord-server = Serwer discord
+get-premium = Zdobądź Premium
+invite-me = Zaproś Mnie
 yes = Yes
 no = No
-btn-fail = Oops! Something failed with buttons on this message, please use the command again.
+btn-fail = Ups! Coś nie powiodło się z przyciskami w tej wiadomości, użyj polecenia ponownie.
 command-no-images-found = Sorry, I wasn't able to pull a image for you! Please try again in a bit. { $emoji }
 command-invalid-category = Sorry but this is not a valid category! { $emoji }
 command-list-categories = Here is a list of all available categories:
@@ -20,17 +20,17 @@ command-req-by = Requested by { $author } { $emoji }
 embed-title = Here is an { $category } image... { $emoji }
 embed-auto-footer = Use { $cmd_mention } to change delay or disable
 command-category-select-placeholder = Select another image category...
-command-category-next-btn = Next page
-command-category-next-btn-desc = There's more categories that might interest you!
-command-category-prev-btn = Previous page
-command-category-prev-btn-desc = Get back to previous seen categories.
-command-open-img-btn = Open Image
-command-report-img-btn = Report Image
-command-post-url-btn = Post URL
-embed-booru-tags = Search tags: { $tags }
-booru-too-many-tags-nopremium = Sorry, but you can search for maximum 10 tags! Or get Premium to increase that limit up to 30 tags! { $emoji }
-booru-too-many-tags = Sorry, but you cannot search for more than 30 tags! { $emoji }
-booru-blocked-tag = One of these tags contains a blocked tag. Please try again. { $emoji }
+command-category-next-btn = Następna strona
+command-category-next-btn-desc = Tu jest więcej kategorii, które mogą cię zainteresować!
+command-category-prev-btn = Poprzednia Strona
+command-category-prev-btn-desc = Wróć do poprzednio widzianych kategorii.
+command-open-img-btn = Otwórz obraz
+command-report-img-btn = Zgłoś Obraz
+command-post-url-btn = URL Posta
+embed-booru-tags = Wyszukaj tagi { $tags }
+booru-too-many-tags-nopremium = Przepraszamy, ale możesz wyszukać maksymalnie 10 tagów! Możesz też kupić Premium, aby zwiększyć ten limit do 30 tagów! { $emoji }
+booru-too-many-tags = Przepraszamy, ale nie możesz wyszukać więcej niż 30 tagów! { $emoji }
+booru-blocked-tag = Jeden z tych tagów zawiera zablokowany tag. Proszę spróbuj ponownie. { $emoji }
 booru-no-results = I couldn't find any results for these tags. Please try again. { $emoji }
 set-anonymous = Your name will no longer be shown as requester in nsfw commands messages.
 unset-anonymous = Your name will be shown as requester in nsfw commands messages.
@@ -46,9 +46,9 @@ auto-setup-description =
 auto-setup-current = Current settings:
 auto-setup-enabled = **Enabled:** { $enabled }
 auto-setup-delay = **Delay:** { $delay }
-auto-setup-categories = Enabled categories:
-auto-setup-selected-categories = Selected categories:
-auto-setup-footer = Use the "Update categories" button after selecting the categories of your choice
+auto-setup-categories = Aktywne kategorie:
+auto-setup-selected-categories = Zaznaczone kategorie:
+auto-setup-footer = Użyj przycisku "Zapisz kategorie" po wybraniu kategorii, aby je zatwierdzić
 auto-setup-select-placeholder-disabled = Enable to select categories
 auto-setup-categories-btn = Update categories
 auto-setup-clear-categories-btn = Clear selected categories
@@ -81,7 +81,7 @@ auto-status-categories =
         [one] **Category:** { $categories }
        *[other] **Categories:** { $categories }
     }
-auto-status-getback-btn = Get back to setup
+auto-status-getback-btn = Wróć do konfiguracji
 auto-delaymodal-title = Martine - Autoporn delay prompt
 auto-delaymodal-label = Delay
 auto-delaymodal-placeholder = The delay in minutes of which autoporn will send messages to this channel...

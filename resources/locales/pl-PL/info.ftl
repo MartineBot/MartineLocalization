@@ -1,14 +1,14 @@
 # /help command
-shelp-title = Martine - App commands list
-shelp-desc = Here is the list of the available app commands on Martine.
-shelp-nocategory = No category
+shelp-title = Martine - Lista komend bota
+shelp-desc = Tutaj znajduje się lista dostępnych komend bota Martine.
+shelp-nocategory = Bez Kategorii
 shelp-context-cmds = Context menu commands:
-shelp-context-cmds-desc = These commands are available when right clicking/holding a user or a message.
-shelp-user-cmds = User commands:
-slash-help-msg-cmds = Message commands:
-slash-help-extra-links = Extra links:
+shelp-context-cmds-desc = Te komendy są dostępne po Ppm lub przytrzymaniu użytkownika lub wiadomości.
+shelp-user-cmds = Komendy użytkownika:
+slash-help-msg-cmds = Komendy wiadomości:
+slash-help-extra-links = Dodadkowe linki:
 # Suggestions form modal
-mart-sugg-form = Martine suggestions form
+mart-sugg-form = Formularz sugestii Martine
 mart-sugg-short = Short description
 mart-sugg-short-placeholder = A brief description of your suggestion...
 mart-sugg-long = Long description

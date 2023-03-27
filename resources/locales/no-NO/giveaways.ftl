@@ -25,91 +25,91 @@ giveaway-roll-description =
     }
     Du har vunnet { $prize }!**
 giveaway-roll-total-entries =
-    { $num_entries_fmt } total { $num_entries ->
-        [one] entry
-       *[other] entries
+    { $num_entries_fmt } totalt { $num_entries ->
+        [one] deltat
+       *[other] deltate
     }!
-giveaway-roll-gg = Congratulation { $winners }!
+giveaway-roll-gg = Gratulerer! { $winners }!
 giveaway-roll-nothing =
-    But no one entered. { $emoji }
-    It was { $prize }
-giveaway-ended = Giveaway Ended
-giveaway-ended-time = Giveaway ended { $locale_formatted_time }!
-giveaway-no-winners = No one won
-giveaway-btn-label = Enter giveaway ({ $entries } entries)
-giveaway-btn-label-ended = { $entries } entries
-giveaway-btn-removed = Successfully removed your entry from this giveaway! { $emoji }
-giveaway-btn-fail-role = { $role } role
-giveaway-btn-fail-joindays = { $joindays } days in the server but you have been there for { $days } days.
+    Men ingen deltat. { $emoji }
+    Den var { $prize }
+giveaway-ended = Giveaway sluttet
+giveaway-ended-time = Giveaway sluttet! { $locale_formatted_time }!
+giveaway-no-winners = Ingen vant
+giveaway-btn-label = Delta giveaway ({ $entries } deltat)
+giveaway-btn-label-ended = { $entries } deltat
+giveaway-btn-removed = Vellykket fjernet deg fra denne giveawayen! { $emoji }
+giveaway-btn-fail-role = { $role } rolle
+giveaway-btn-fail-joindays = { $joindays } dager i serveren, men du har vært der i { $days } dager.
 giveaway-btn-denied-title =
-    Giveaway entry denied! Missing { $count ->
-        [one] requirement
-       *[other] requirements
+    Giveaway tilgang nektet! Mangler { $count ->
+        [one] krav
+       *[other] kravene
     }
-giveaway-btn-denied-description = Sorry but you are missing one of the requirements for { $prize } giveaway in { $server } server.
-giveaway-btn-bypass-title = Bypass role:
-giveaway-btn-bypass-description = By having { $role } role you can bypass the above requirements!
-giveaway-btn-martine-links = Martine's links:
-giveaway-btn-accepted-title = Giveaway entry accepted!
+giveaway-btn-denied-description = Beklager, men du mangler en av kravene i { $prize } giveaway i { $server } serveren.
+giveaway-btn-bypass-title = Omgå rolle:
+giveaway-btn-bypass-description = Ved å ha { $role } rolle kan du overstyre kravene ovenfor!
+giveaway-btn-martine-links = Martine's lenker:
+giveaway-btn-accepted-title = Giveaway tilgang akseptert!
 giveaway-btn-accepted-description = Your entry for the giveaway of { $prize } in { $server } server has been processed and accepted. Good luck!
-help-giveaway = Commands to manage giveaways
+help-giveaway = Kommandoer for å behandle giveaways
 help-giveaway_create =
-    Create a giveaway.
+    Opprett en giveaway.
     
-    `use_config: yes|no` Whether you want to use already set config values. Default to no.
-giveaway-setup = Giveaway setup { $emoji }
-giveaway-setup-optional = Optional
-giveaway-setup-current-value = Current value:
-giveaway-setup-example = Example:
-giveaway-setup-footer-cancel-skip = Send "cancel" to cancel the setup or send "skip" to skip that question.
-giveaway-setup-footer-cancel = Send "cancel" to cancel the setup.
-giveaway-setup-keep = Send "keep" to keep the current value.
-giveaway-setup-error = Error:
-giveaway-setup-cancelled = The giveaway setup has been cancelled.
+    `brukere_config: Ja|Nei` om du ønsker å bruke allerede angi konfigurasjonsverdier. Standard til nei.
+giveaway-setup = Giveaway oppsett! { $emoji }
+giveaway-setup-optional = Valgfritt
+giveaway-setup-current-value = Nåværende verdi:
+giveaway-setup-example = Eksempel:
+giveaway-setup-footer-cancel-skip = Send "avbryt" for å avbryte oppsettet eller sende "hopp" for å hoppe over det spørsmålet.
+giveaway-setup-footer-cancel = Send "Avbryt" for å avbryte oppsettet.
+giveaway-setup-keep = Send "behold " for å beholde gjeldende verdi.
+giveaway-setup-error = Feil:
+giveaway-setup-cancelled = Oppsettet med giveaway har blitt avbrutt.
 giveaway-setup-timeout =
     { $giveaway-setup-cancelled }
-    User took to answer.
+    Bruker tok til å svare.
 giveaway-setup-too-many-fails =
     { $giveaway-setup-cancelled }
-    User failed to give an good answer after 5 tries.
+    Brukeren klarte ikke å gi et godt svar etter 5 forsøk.
 giveaway-setup-title =
-    __You have started the giveaway setup. You will have 5 minutes to answer each questions.__
+    __Du har startet oppsettet med giveaway. Du vil ha 5 minutter til å svare på hvert spørsmål.__
     
-    What prize are you giving away? (256 characters maximum)
-giveaway-setup-prize-example = A Discord Nitro.
-giveaway-setup-prize-too-long = The prize title must be less than 256 characters. Please try again with a shorter title.
-giveaway-setup-description = A brief description of your giveaway. (1024 characters maximum)
-giveaway-setup-description-example = Staff team is offering a Discord Nitro for the end of this month!
-giveaway-setup-description-too-long = The description must be less than 1024 characters. Please try again with a shorter description.
-giveaway-setup-winners = How many winners will be pulled? (Maximum 25)
-giveaway-setup-numbers-invalid = This must be a number, please try again.
-giveaway-setup-winners-too-high = The maximum number of winners is 25. Please try again with a lower number.
-giveaway-setup-host = Who is hosting that giveaway?
-giveaway-setup-host-notfound = This user was not found. Please try again.
+    Hva slags premier du gir bort? (maks 256 tegn)
+giveaway-setup-prize-example = En Discord Nitro.
+giveaway-setup-prize-too-long = Tittelen på premien må være mindre enn 256 tegn. Vennligst Prøv igjen med kortere tittel.
+giveaway-setup-description = En kort beskrivelse av din giveawayen (1024 tegn maksimum)
+giveaway-setup-description-example = Ansatte tilbyr en Discord Nitro for slutten av denne måneden!
+giveaway-setup-description-too-long = Beskrivelsen må være mindre enn 1024 tegn. Vennligst prøv igjen med en kortere beskrivelse.
+giveaway-setup-winners = Hvor mange vinnere vil bli trukket fram? (maks 25)
+giveaway-setup-numbers-invalid = Dette må være et nummer, vennligst prøv igjen.
+giveaway-setup-winners-too-high = Maksimalt antall vinnere er 25. Vennligst prøv igjen med et lavere tall.
+giveaway-setup-host = Hvem er vert for den giveawayen?
+giveaway-setup-host-notfound = Denne brukeren ble ikke funnet. Vennligst prøv igjen.
 giveaway-setup-roles =
-    Which role(s) will be allowed to enter that giveaway? In the case of multiple roles, please use commas to separate them.
-    For roles with spaces in their name, either mention them or use their ID.
-giveaway-setup-roles-invalid = { $value } is not a valid role. Please try again.
-giveaway-setup-roles-too-many = You can only specify up to 5 roles. Please try again with less roles.
-giveaway-setup-joindays = How many days members should have been in the server?
-giveaway-setup-joindays-too-low = The minimum number of days is 1. Please try again with a higher number.
-giveaway-setup-bypassrole = Do you want to set a role that will bypass requirements set before?
-giveaway-setup-bypassrole-invalid = { $value } is not a valid role. Please try again.
+    Hvilken rolle(r) får lov til å delta i denne giveawayen? I tilfelle av flere roller, vennligst bruk komma for å skille dem.
+    For roller med mellomrom i navnet kan du enten nevne dem eller bruke ID-en deres.
+giveaway-setup-roles-invalid = { $value } er ikke en gyldig rolle. Vennligst prøv på nytt.
+giveaway-setup-roles-too-many = Du kan bare spesifisere opptil 5 roller. Vennligst prøv igjen med mindre roller.
+giveaway-setup-joindays = Hvor mange dager medlemmer skal ha vært på serveren?
+giveaway-setup-joindays-too-low = Minimum antall dager er 1. Vennligst prøv igjen med et høyere tall.
+giveaway-setup-bypassrole = Vil du sette en rolle som vil omgå krav som er satt før?
+giveaway-setup-bypassrole-invalid = { $value } er ikke en gyldig rolle. Vennligst prøv på nytt.
 giveaway-setup-emoji =
-    Which emoji do you want with the button on which people can enter?
-    Send "None" and there will be no emoji on the button.
-    By default it will use "{ $emoji }".
-giveaway-setup-emoji-invalid = { $value } is not a valid emoji. Please try again.
-giveaway-setup-channel = In which channel do you want that giveaway being hosted?
-giveaway-setup-channel-notfound = This channel was not found. Please try again.
+    Hvilken emoji vil du ha med knappen som folk kan trykke på?
+    Sende "Ingen" og det kommer ingen emoji på knappen.
+    Som standard vil den bruke "{ $emoji }".
+giveaway-setup-emoji-invalid = { $value } er ikke en gyldig emoji. Vennligst prøv på nytt.
+giveaway-setup-channel = I hvilken kanal vil du at giveawayen skal være vert?
+giveaway-setup-channel-notfound = Denne kanalen ble ikke funnet. Vennligst prøv igjen.
 giveaway-setup-channel-missing-perms =
-    Please make sure I have the following permissions in the wanted channel:
-    View Channel, Read message history, Read messages, Embed links, and External emojis.
-giveaway-setup-endtime = When will the giveaway end? The time can be any direct date in this format `YYYY-MM-DD` (UTC time) or an human readable offset.
-giveaway-setup-endtime-invalid = This is not a valid end time. Please try again.
-giveaway-setup-success = Successfully created this giveaway in { $channel }!
-giveaway-started = New Giveaway Started!
-giveaway-tip = Click on the button below to enter!
+    Sørg for at jeg har følgende tillatelser i ønsket kanal:
+    Vis kanal, Les meldingshistorikk, Send meldinger, Bygg inn lenker og eksterne emojier.
+giveaway-setup-endtime = Når vil giveawayen slutte? Tiden kan være en direkte dato i dette formatet `YYYY-MM-DD` (UTC-tid) eller en menneskelig lesbar offset.
+giveaway-setup-endtime-invalid = Dette er ikke en gyldig slutttid. Vennligst prøv på nytt.
+giveaway-setup-success = Vellykket opprettet denne giveawayen i { $channel }!
+giveaway-started = Ny Giveaway startet!
+giveaway-tip = Klikk på knappen nedenfor for å delta!
 help-giveaway_edit = Edit a currently ongoing giveaway.
 giveaway-edit-success = Successfully edited that giveaway!
 help-giveaway-end = Ends a giveaway early. Message can be a jump url, or ID of the giveaway message.
