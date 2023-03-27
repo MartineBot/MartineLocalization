@@ -107,7 +107,33 @@ auto-cleanup-msg = Autoporn was disabled in this channel because this server has
     Get Premium to get access to more autoporn channels again! { $emoji }
     { $premium_url }
 
+# max.length: 100
 help-autoporn = Setup autoporn in this channel, and see the status of it on this server.
 
-    Autoporn is a feature that will send images automatically to a selected channel.
-    This can be toggled only by moderators or admins and requires to upvote the bot.
+# max.length: 100
+help-nsfwbomb = Send multiple Nsfw images in one command between an interval of 2 seconds.
+# max.length: 100
+nsfwbomb-parameter-amount-description = The amount of images.
+# max.length: 100
+nsfwbomb-parameter-category-description = The images category.
+
+# max.length: 100
+help-rule34 = That famous rule yes yes.
+# max.length: 100
+rule34-parameter-search_tags-description = Keywords to search images for.
+# max.length: 100
+rule34-parameter-private-description = Set to True and the command will only be visible to you.
+
+# max.length: 100
+help-e621 = Furries porn.
+# max.length: 100
+e621-parameter-search_tags-description = Keywords to search images for.
+# max.length: 100
+e621-parameter-private-description = Set to True and the command will only be visible to you.
+
+# max.length: 100
+help-realbooru = Search for real stuff.
+# max.length: 100
+realbooru-parameter-search_tags-description = Keywords to search images for.
+# max.length: 100
+realbooru-parameter-private-description = Set to True and the command will only be visible to you.

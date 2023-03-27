@@ -49,10 +49,12 @@ giveaway-btn-martine-links = Martine's links:
 giveaway-btn-accepted-title = Giveaway entry accepted!
 giveaway-btn-accepted-description = Your entry for the giveaway of { $prize } in { $server } server has been processed and accepted. Good luck!
 
+# max.length: 100
 help-giveaway = Commands to manage giveaways
+# max.length: 100
 help-giveaway_create = Create a giveaway.
-
-    `use_config: yes|no` Whether you want to use already set config values. Default to no.
+# max.length: 100
+giveaway_create-parameter-use_config-description = Whether you want to use already set config values. Default to False.
 giveaway-setup = Giveaway setup { $emoji }
 giveaway-setup-optional = Optional
 giveaway-setup-current-value = Current value:
@@ -102,22 +104,30 @@ giveaway-setup-success = Successfully created this giveaway in { $channel }!
 giveaway-started = New Giveaway Started!
 giveaway-tip = Click on the button below to enter!
 
+# max.length: 100
 help-giveaway_edit = Edit a currently ongoing giveaway.
+# max.length: 100
+giveaway_edit-parameter-message-description = The message jump URL or ID of the giveaway.
 giveaway-edit-success = Successfully edited that giveaway!
 
-help-giveaway-end = Ends a giveaway early. Message can be a jump url, or ID of the giveaway message.
+# max.length: 100
+help-giveaway_end = Ends a giveaway early. Message can be a jump url, or ID of the giveaway message.
+# max.length: 100
+giveaway_end-parameter-message-description = The message jump URL or ID of the giveaway.
 giveaway-end-success = Successfully ended that giveaway!
 
+# max.length: 100
 help-giveaway_reroll = Re-roll a giveaway. Message can be a jump url, or ID of the giveaway message.
-    And count is the number of winners you want to re-roll. Default to 1.
-
-    Important note: This `count` argument will change in the future to be the Discord ID of
-    the member that you want to reroll.
+# max.length: 100
+giveaway_reroll-parameter-message-description = The message jump URL or ID of the giveaway.
+# max.length: 100
+giveaway_reroll-parameter-count-description = The number of winners to re-roll. Default is 1.
 giveaway-reroll-notended = That giveaway is not ended yet. You cannot reroll it.
 giveaway-reroll-too-high = You choosed a count higher than 25. Don't forget that the maximum number of winners in giveaways is 25. Please try again with a lower number.
 giveaway-reroll-count-invalid = The number of winners for that giveaway was { $value }, which is higher than what you provided. Please try again with a lower number.
 giveaway-reroll-success = Successfully rerolled that giveaway!
 
+# max.length: 100
 help-giveaway_list = List all current and previous giveaways.
 giveaway-list-nothing = There is no giveaway currently running or stored for this server.
 giveaway-list-failed = Failed to get that giveaway { $id }.
@@ -127,7 +137,9 @@ giveaway-list-page = Page
 giveaway-list-ended = Ended
 giveaway-list-ends-at = Ends
 
+# max.length: 100
 help-giveaway_settings = Set the default values for giveaways in this server.
+# max.length: 100
 help-giveaway_settings_show = Shows the current giveaway settings of this server.
 giveaway-settings-not-set = Not set.
 giveaway-settings-title = { $server } giveaway default settings
@@ -138,34 +150,54 @@ giveaway-settings-winners = Number of winners:
 giveaway-settings-joindays = Join days:
 giveaway-settings-bypassrole = Requirements bypass role:
 
+# max.length: 100
 help-giveaway_settings_resetall = Reset all giveaway default settings for this server.
 giveaway-settings-resetall-success = Successfully reset all giveaway settings for this server.
 
+# max.length: 100
 help-giveaway_settings_channel = Set the default channel for giveaways in this server. Don't specify to reset.
+# max.length: 100
+giveaway_settings_channel-parameter-channel-description = The channel where the giveaways will be sent. Don't specify to reset.
 giveaway-settings-channel-success = Successfully set the default channel for giveaways in this server to { $channel }.
 giveaway-settings-channel-reset = Successfully reset the default channel for giveaways in this server.
 
+# max.length: 100
 help-giveaway_settings_host = Set the default host for giveaways in this server. Don't specify to reset.
+# max.length: 100
+giveaway_settings_host-parameter-user-description = The user that will be default giveaway host. Don't specify to reset.
 giveaway-settings-host-success = Successfully set the default host for giveaways in this server to { $host }.
 giveaway-settings-host-reset = Successfully reset the default host for giveaways in this server.
 
+# max.length: 100
 help-giveaway_settings_emoji = Set the default emoji for giveaways in this server. Don't specify to reset.
+# max.length: 100
+giveaway_settings_emoji-parameter-emoji-description = The emoji that will be default giveaway emoji. Don't specify to reset.
 giveaway-settings-emoji-success = Successfully set the default emoji for giveaways in this server to { $emoji }.
 giveaway-settings-emoji-reset = Successfully reset the default emoji for giveaways in this server.
 
+# max.length: 100
 help-giveaway_settings_joindays = Set the default requirement for number of days required to be in the server to join the giveaway.
     Don't specify to reset.
+# max.length: 100
+giveaway_settings_joindays-parameter-days-description = The days value that will be default for giveaways. Don't specify to reset.
 giveaway-settings-joindays-reset = Successfully reset the default join days for giveaways in this server.
 giveaway-settings-joindays-success = Successfully set the default join days for giveaways in this server to { $joindays }.
 
+# max.length: 100
 help-giveaway_settings_roles = Set the default roles for giveaways in this server. Don't specify to reset.
 giveaway-settings-roles-success = Successfully set the default roles for giveaways in this server to { $roles }.
 giveaway-settings-roles-reset = Successfully reset the default roles for giveaways in this server.
 
+# max.length: 100
 help-giveaway_settings_winners = Set the default number of winners for giveaways in this server. Don't specify to reset.
+# max.length: 100
+giveaway_settings_winners-parameter-winners-description = The number of winners that will be default for giveaways. Don't specify to reset.
 giveaway-settings-winners-success = Successfully set the default number of winners for giveaways in this server to { $winners }.
 giveaway-settings-winners-reset = Successfully reset the default number of winners for giveaways in this server.
 
+# max.length: 100
 help-giveaway_settings_bypassrole = Set the default role that will bypass requirements for giveaways in this server. Don't specify to reset.
+# max.length: 100
+giveaway_settings_bypassrole-parameter-role-description = The role that will be default bypass role for giveaways.
 giveaway-settings-bypassrole-success = Successfully set the default bypass role for giveaways in this server to { $bypassrole }.
 giveaway-settings-bypassrole-reset = Successfully reset the default bypass role for giveaways in this server.
