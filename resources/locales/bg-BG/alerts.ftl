@@ -1,20 +1,20 @@
-yes = Yes
-no = No
-max-alerts-0 = You cannot have more than 20 alerts per server.
-max-alerts-0-tip = You can get higher limits with our Premium tiers:
-max-alerts-1 = You cannot have more than 30 alerts per server with this premium tier.
-max-alerts-1-tip = You can get unlimited alerts with our Server Premium Gold tier:
-streams-settings = streams alerts settings
-streams-message = Message
-streams-autorefresh = Alerts auto-refresh
-streams-endbehavior = End behavior
+yes = Да
+no = Не
+max-alerts-0 = Не можете да имате повече от 20 уведомления на сървър.
+max-alerts-0-tip = Можете да увеличите лимита с нашите премиум нива на членство:
+max-alerts-1 = Не можете да имате повече от 30 уведомления на сървър с това премиум ниво на членство.
+max-alerts-1-tip = Можете да получавате неограничени уведомления с нашето Златно сървър премиум ниво на членство:
+streams-settings = настройки на уведомленията на стриймове
+streams-message = Съобщение
+streams-autorefresh = Автоматично опресняване на уведомленията
+streams-endbehavior = Поведение в края
 # $source will be the source of the stream alert.
-streams-count = { $source } streams alerts in this server
-streams-none = No streams alerts has been set in this server.
-streams-disable-autorefresh = Disable alerts auto-refresh
-streams-enable-autorefresh = Enable alerts auto-refresh
-streams-edit-msg-btn = Edit message
-streams-autorefresh-btn = Auto-refresh
+streams-count = { $source } уведомления на поточни предавания в този сървър
+streams-none = Няма зададени уведомления за поточни предавания в този сървър.
+streams-disable-autorefresh = Изключи автоматичното опресняване на уведомления
+streams-enable-autorefresh = Включи автоматичното опресняване на уведомления
+streams-edit-msg-btn = Редактирай съобщение
+streams-autorefresh-btn = Автоматично опресняване
 streams-autorefresh-enabled = Alright! Stream alerts messages will now auto refresh after 15 minutes.
 streams-autorefresh-disabled = Alright! Stream alerts message will no longer auto refresh.
 streams-endbehavior-select = Change streams end behavior
@@ -40,8 +40,8 @@ streams-added-tip =
 streams-removed = Successfully removed this { $source } stream alert from this channel!
 streams-twitch-notfound = Couldn't find that Twitch user.
 videos-settings = videos alerts settings
-videos-message = Message
-videos-settings-msg-btn = Edit message
+videos-message = Съобщение
+videos-settings-msg-btn = Редактирай съобщение
 videos-msg-modal = Videos alerts message editor
 videos-msg-label = Set the message sent on videos alerts.
 videos-msg-placeholder = { "{" }name{ "}" } = the video creator name - { "{" }everyone{ "}" } = @everyone ping - { "{" }here{ "}" } = @here ping
@@ -55,11 +55,25 @@ videos-removed = Successfully removed this { $source } channel alert from this c
 yt-notfound =
     Couldn't find that YouTube user.
     Try again by pasting the channel URL at https://commentpicker.com/youtube-channel-id.php and take the "Channel ID" value.
+# max.length: 100
 help-alerts = Manage alerts in this server.
-help-alerts_streams = Manage streams alerts in this server.
-help-alerts_streams_settings = Manage streams alerts settings.
-help-alerts_streams_twitch = Manage a stream alert for a Twitch user.
-help-alerts_streams_youtube = Manage a stream alert for a YouTube user.
+# max.length: 100
 help-alerts_videos = Manage videos alerts in this server.
-help-alerts_videos_settings = Manage videos alerts settings.
+# max.length: 100
 help-alerts_videos_youtube = Manage a video alert for a YouTube user.
+# max.length: 100
+alerts_videos_youtube-parameter-user_name_or_id-description = The YouTube channel name or ID.
+# max.length: 100
+help-alerts_videos_settings = Manage videos alerts settings.
+# max.length: 100
+help-alerts_streams = Manage streams alerts in this server.
+# max.length: 100
+help-alerts_streams_youtube = Manage a stream alert for a YouTube user.
+# max.length: 100
+alerts_streams_youtube-parameter-user_name_or_id-description = The YouTube channel name or ID.
+# max.length: 100
+help-alerts_streams_twitch = Manage a stream alert for a Twitch user.
+# max.length: 100
+alerts_streams_twitch-parameter-user_name_or_url-description = The Twitch channel name or URL.
+# max.length: 100
+help-alerts_streams_settings = Manage streams alerts settings.

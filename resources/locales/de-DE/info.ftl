@@ -17,6 +17,7 @@ mart-sugg-fail = Hoppla! Dein Vorschlag konnte nicht verarbeitet werden. Bitte v
 mart-sugg-thanks = Vielen Dank für deinen Vorschlag!
 mart-sugg-note = Hinweis: Du kannst keinen neuen Vorschlag für 30 Minuten senden.
 # serverinfo command
+# max.length: 100
 help-serverinfo = Shows information about the server, members badges, and assets.
 si-members-field = Mitglieder:
 si-members-connected = Mitglieder verbunden:
@@ -57,6 +58,7 @@ si-banner-btn = Banner
 si-invite-bg-btn = Servereinladung Hintergrund
 si-back-si-btn = Zurück zur Serverinfo
 # userinfo command
+# max.length: 100
 help-userinfo = Shows information about a user.
 ui-app-info = Anwendungsinformation
 ui-app-tags = Tags
@@ -93,6 +95,7 @@ ui-no-server-avatar = Kein Server Avatar gesetzt.
 ui-back-btn = Zurück zur Benutzterinfo
 ui-perms-btn = Mitgliederberechtigungen anzeigen
 # channelinfo command
+# max.length: 100
 help-channelinfo = Shows information about a channel. Default to current.
 ci-created = Erstellt am
 ci-no-topic = Kein Thema.
@@ -116,6 +119,7 @@ ci-user-limit = Benutzerlimit
 ci-details-field = Details
 ci-id = Kanal ID:
 # roleinfo command
+# max.length: 100
 help-roleinfo = Shows information about a role.
 ri-created = Erstellt am
 ri-members = Mitglieder
@@ -126,6 +130,7 @@ ri-managed = Verwaltet
 ri-mentionnable = Erwähnbar
 ri-id = Rollen ID:
 # emojiinfo command
+# max.length: 100
 help-emojiinfo = Shows information about an emoji.
 em-react = Reagiere auf diese Nachricht mit dem Emoji deiner Wahl
 em-cancelled = Abgebrochen
@@ -140,6 +145,7 @@ em-roles = Rollen
 em-custom = Benutzerdefinierter Emoji
 em-id = Emoji ID
 # stickerinfo command
+# max.length: 100
 help-stickerinfo = Shows information about a sticker.
 sti-nothing = Es gibt keinen Sticker auf dieser Nachricht.
 sti-failed = Fehler beim Abrufen von Informationen über diesen Sticker.
@@ -153,7 +159,38 @@ sti-pack = Bündel
 sti-tags = tags
 sti-id = Sticker ID
 # donate command
+# max.length: 100
 help-donate = Shows the ways to support Martine development.
 donate-title = Hier sind paar Möglichkeiten, um die Entwicklung von Martine zu Unterstützten
 donate-kofi = Einmalige Spende, entsperrt eine Rolle auf Martine's Server und 10k marts (pro Monat gespendet).
 donate-patreon = Pro Monat Spende, werde ein Patron, um einige tolle Vorteile für dich und deinen Server zu erhalten!
+# max.length: 100
+help-ping = Shows the latency estimation of the bot (for the current cluster).
+# max.length: 100
+help-martine = Get all informations about Martine.
+# max.length: 100
+help-info = Get info of multiple things on Discord.
+# max.length: 100
+help-info_user = Shows information about a user.
+# max.length: 100
+info_user-parameter-user-description = The user you want information about.
+# max.length: 100
+help-info_server = Shows information about the server, members badges, and assets.
+# max.length: 100
+help-info_channel = Shows information about a channel. Default to current.
+# max.length: 100
+info_channel-parameter-channel-description = The channel you want information about.
+# max.length: 100
+help-info_role = Shows information about a role.
+# max.length: 100
+info_role-parameter-role-description = The role you want information about.
+# max.length: 100
+help-info_emoji = Shows information about a emoji.
+# max.length: 100
+info_emoji-parameter-emoji-description = The emoji you want information about.
+# max.length: 100
+help-info_bot_clusters = Shows clusters stats.
+# max.length: 100
+help-info_bot_currentcluster = Shows infos about the current cluster.
+# max.length: 100
+help-help = Get the list of commands and important links.

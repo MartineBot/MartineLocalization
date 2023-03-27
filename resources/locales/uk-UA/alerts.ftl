@@ -53,11 +53,25 @@ videos-removed = Сповіщення каналу { $source } успішно в
 yt-notfound =
     Не вдалося знайти цього користувача YouTube.
     Спробуйте ще раз, вставивши URL-адресу каналу на https://commentpicker.com/youtube-channel-id.php і взявши значення «Channel ID».
+# max.length: 100
 help-alerts = Керувати сповіщеннями на цьому сервері.
-help-alerts_streams = Керувати сповіщеннями про трансляції на цьому сервері.
-help-alerts_streams_settings = Керувати налаштуваннями сповіщень про трансляції.
-help-alerts_streams_twitch = Керувати сповіщенням про трансляцію для користувача Twitch.
-help-alerts_streams_youtube = Керувати сповіщенням про трансляцію для користувача YouTube.
+# max.length: 100
 help-alerts_videos = Керувати сповіщеннями про відео на цьому сервері.
-help-alerts_videos_settings = Керувати налаштуваннями сповіщень про відео.
+# max.length: 100
 help-alerts_videos_youtube = Керувати сповіщенням про відео для користувача YouTube.
+# max.length: 100
+alerts_videos_youtube-parameter-user_name_or_id-description = The YouTube channel name or ID.
+# max.length: 100
+help-alerts_videos_settings = Керувати налаштуваннями сповіщень про відео.
+# max.length: 100
+help-alerts_streams = Керувати сповіщеннями про трансляції на цьому сервері.
+# max.length: 100
+help-alerts_streams_youtube = Керувати сповіщенням про трансляцію для користувача YouTube.
+# max.length: 100
+alerts_streams_youtube-parameter-user_name_or_id-description = The YouTube channel name or ID.
+# max.length: 100
+help-alerts_streams_twitch = Керувати сповіщенням про трансляцію для користувача Twitch.
+# max.length: 100
+alerts_streams_twitch-parameter-user_name_or_url-description = The Twitch channel name or URL.
+# max.length: 100
+help-alerts_streams_settings = Керувати налаштуваннями сповіщень про трансляції.

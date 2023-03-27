@@ -108,7 +108,29 @@ auto-cleanup-msg =
     Це трапляється через те, що раніше на сервері був увімкнений Преміум, але тепер він не активований.
     Отримайте Преміум, щоб знову отримати доступ до більшої кількості автопорно каналів!{ $emoji }
     { $premium_url }
-help-autoporn =
-    Налаштуйте автопорно на цьому каналі та подивіться його статус на цьому сервері.
-    
-    Автопорно — це функція, яка автоматично надсилає зображення на вибраний канал. Це можуть змінювати лише модератори або адміністратори, і потрібно проголосувати за бота.
+# max.length: 100
+help-autoporn = Setup autoporn in this channel, and see the status of it on this server.
+# max.length: 100
+help-nsfwbomb = Send multiple Nsfw images in one command between an interval of 2 seconds.
+# max.length: 100
+nsfwbomb-parameter-amount-description = The amount of images.
+# max.length: 100
+nsfwbomb-parameter-category-description = The images category.
+# max.length: 100
+help-rule34 = That famous rule yes yes.
+# max.length: 100
+rule34-parameter-search_tags-description = Keywords to search images for.
+# max.length: 100
+rule34-parameter-private-description = Set to True and the command will only be visible to you.
+# max.length: 100
+help-e621 = Furries porn.
+# max.length: 100
+e621-parameter-search_tags-description = Keywords to search images for.
+# max.length: 100
+e621-parameter-private-description = Set to True and the command will only be visible to you.
+# max.length: 100
+help-realbooru = Search for real stuff.
+# max.length: 100
+realbooru-parameter-search_tags-description = Keywords to search images for.
+# max.length: 100
+realbooru-parameter-private-description = Set to True and the command will only be visible to you.

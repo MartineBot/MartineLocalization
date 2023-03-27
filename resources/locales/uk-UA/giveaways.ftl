@@ -52,11 +52,12 @@ giveaway-btn-bypass-description = Маючи роль { $role }, ви может
 giveaway-btn-martine-links = Посилання Martine:
 giveaway-btn-accepted-title = Заявку на роздачу прийнято!
 giveaway-btn-accepted-description = Вашу заявку на роздачу { $prize } на сервері { $server } оброблено та прийнято. Удачі!
+# max.length: 100
 help-giveaway = Команди для керування роздачами
-help-giveaway_create =
-    Створити роздачу.
-    
-    `use_config: yes|no` Чи бажаєте ви використовувати вже встановлені значення конфігурації. За замовчуванням no.
+# max.length: 100
+help-giveaway_create = Create a giveaway.
+# max.length: 100
+giveaway_create-parameter-use_config-description = Whether you want to use already set config values. Default to False.
 giveaway-setup = Налаштування роздачі { $emoji }
 giveaway-setup-optional = Додатково
 giveaway-setup-current-value = Поточне значення:
@@ -110,20 +111,27 @@ giveaway-setup-endtime-invalid = Це недійсний час завершен
 giveaway-setup-success = Цю роздачу успішно створено в каналі { $channel }!
 giveaway-started = Розпочато нову роздачу!
 giveaway-tip = Натисніть кнопку нижче, щоб узяти участь!
+# max.length: 100
 help-giveaway_edit = Редагувати поточну роздачу.
+# max.length: 100
+giveaway_edit-parameter-message-description = The message jump URL or ID of the giveaway.
 giveaway-edit-success = Цю роздачу успішно відредаговано!
-help-giveaway-end = Роздача завершується раніше. Повідомлення може бути URL-адресою переходу або ID повідомлення про роздачу.
+# max.length: 100
+help-giveaway_end = Ends a giveaway early. Message can be a jump url, or ID of the giveaway message.
+# max.length: 100
+giveaway_end-parameter-message-description = The message jump URL or ID of the giveaway.
 giveaway-end-success = Цю роздачу успішно завершено!
-help-giveaway_reroll =
-    Re-roll a giveaway. Message can be a jump url, or ID of the giveaway message.
-    And count is the number of winners you want to re-roll. Default to 1.
-    
-    Important note: This `count` argument will change in the future to be the Discord ID of
-    the member that you want to reroll.
+# max.length: 100
+help-giveaway_reroll = Re-roll a giveaway. Message can be a jump url, or ID of the giveaway message.
+# max.length: 100
+giveaway_reroll-parameter-message-description = The message jump URL or ID of the giveaway.
+# max.length: 100
+giveaway_reroll-parameter-count-description = The number of winners to re-roll. Default is 1.
 giveaway-reroll-notended = Ця роздача ще не завершилася. Ви не можете перезапустити її.
 giveaway-reroll-too-high = Ви вибрали кількість, більшу за 25. Не забувайте, що максимальна кількість переможців у роздачах становить 25. Будь ласка, спробуйте ще раз із меншим числом.
 giveaway-reroll-count-invalid = Кількість переможців цієї роздачі становила { $value }, що більше, ніж ви задали. Спробуйте ще раз із меншим числом.
 giveaway-reroll-success = Successfully rerolled that giveaway!
+# max.length: 100
 help-giveaway_list = Список усіх поточних та попередніх роздач.
 giveaway-list-nothing = На цьому сервері зараз не запущено та не зберігається роздача.
 giveaway-list-failed = Не вдалося отримати роздачу { $id }.
@@ -132,7 +140,9 @@ giveaway-list-jump-url = Перейти до повідомлення!
 giveaway-list-page = Сторінка
 giveaway-list-ended = Завершено
 giveaway-list-ends-at = Завершується
+# max.length: 100
 help-giveaway_settings = Установити значення за замовчуванням для роздач на цьому сервері.
+# max.length: 100
 help-giveaway_settings_show = Показує поточні налаштування роздачі цього сервера.
 giveaway-settings-not-set = Не встановлено.
 giveaway-settings-title = Налаштування роздачі за замовчування { $server }
@@ -142,28 +152,48 @@ giveaway-settings-emoji = Емодзі:
 giveaway-settings-winners = Кількість переможців:
 giveaway-settings-joindays = Дні приєднання:
 giveaway-settings-bypassrole = Вимоги обхідної ролі:
+# max.length: 100
 help-giveaway_settings_resetall = Скинути всі налаштування роздачі за замовчуванням для цього сервера.
 giveaway-settings-resetall-success = Усі налаштування роздачі успішно скинуто для цього сервера.
+# max.length: 100
 help-giveaway_settings_channel = Установити канал за замовчуванням для роздач на цьому сервері. Не вказуйте скинути.
+# max.length: 100
+giveaway_settings_channel-parameter-channel-description = The channel where the giveaways will be sent. Don't specify to reset.
 giveaway-settings-channel-success = Successfully set the default channel for giveaways in this server to { $channel }.
 giveaway-settings-channel-reset = Successfully reset the default channel for giveaways in this server.
+# max.length: 100
 help-giveaway_settings_host = Set the default host for giveaways in this server. Don't specify to reset.
+# max.length: 100
+giveaway_settings_host-parameter-user-description = The user that will be default giveaway host. Don't specify to reset.
 giveaway-settings-host-success = Successfully set the default host for giveaways in this server to { $host }.
 giveaway-settings-host-reset = Successfully reset the default host for giveaways in this server.
+# max.length: 100
 help-giveaway_settings_emoji = Set the default emoji for giveaways in this server. Don't specify to reset.
+# max.length: 100
+giveaway_settings_emoji-parameter-emoji-description = The emoji that will be default giveaway emoji. Don't specify to reset.
 giveaway-settings-emoji-success = Successfully set the default emoji for giveaways in this server to { $emoji }.
 giveaway-settings-emoji-reset = Successfully reset the default emoji for giveaways in this server.
+# max.length: 100
 help-giveaway_settings_joindays =
     Установити стандартну вимогу щодо кількості днів, необхідних для перебування на сервері, щоб приєднатися до роздачі.
     Не вказуйте скинути.
+# max.length: 100
+giveaway_settings_joindays-parameter-days-description = The days value that will be default for giveaways. Don't specify to reset.
 giveaway-settings-joindays-reset = Successfully reset the default join days for giveaways in this server.
 giveaway-settings-joindays-success = Successfully set the default join days for giveaways in this server to { $joindays }.
+# max.length: 100
 help-giveaway_settings_roles = Set the default roles for giveaways in this server. Don't specify to reset.
 giveaway-settings-roles-success = Successfully set the default roles for giveaways in this server to { $roles }.
 giveaway-settings-roles-reset = Successfully reset the default roles for giveaways in this server.
+# max.length: 100
 help-giveaway_settings_winners = Set the default number of winners for giveaways in this server. Don't specify to reset.
+# max.length: 100
+giveaway_settings_winners-parameter-winners-description = The number of winners that will be default for giveaways. Don't specify to reset.
 giveaway-settings-winners-success = Successfully set the default number of winners for giveaways in this server to { $winners }.
 giveaway-settings-winners-reset = Successfully reset the default number of winners for giveaways in this server.
+# max.length: 100
 help-giveaway_settings_bypassrole = Set the default role that will bypass requirements for giveaways in this server. Don't specify to reset.
+# max.length: 100
+giveaway_settings_bypassrole-parameter-role-description = The role that will be default bypass role for giveaways.
 giveaway-settings-bypassrole-success = Successfully set the default bypass role for giveaways in this server to { $bypassrole }.
 giveaway-settings-bypassrole-reset = Successfully reset the default bypass role for giveaways in this server.

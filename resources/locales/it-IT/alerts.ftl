@@ -55,11 +55,25 @@ videos-removed = Questo canale { $source } è stato rimosso correttamente da que
 yt-notfound =
     Impossibile trovare quell'utente di YouTube.
     Riprova incollando l'URL del canale su https://commentpicker.com/youtube-id-channel-id.php e utilizzando il valore "Channel ID" (ID Canale).
+# max.length: 100
 help-alerts = Gestisci gli avvisi su questo server.
-help-alerts_streams = Gestisci gli avvisi sulle live su questo server.
-help-alerts_streams_settings = Gestisci le impostazioni degli avvisi sulle live.
-help-alerts_streams_twitch = Gestisci un avviso sulla live per un utente di Twitch.
-help-alerts_streams_youtube = Gestisci un avviso sulla live per un utente di YouTube.
+# max.length: 100
 help-alerts_videos = Gestisci gli avvisi sui video su questo server.
-help-alerts_videos_settings = Gestisci le impostazioni sugli avvisi sui video.
+# max.length: 100
 help-alerts_videos_youtube = Gestisci un avviso su un video per un utente di YouTube.
+# max.length: 100
+alerts_videos_youtube-parameter-user_name_or_id-description = The YouTube channel name or ID.
+# max.length: 100
+help-alerts_videos_settings = Gestisci le impostazioni sugli avvisi sui video.
+# max.length: 100
+help-alerts_streams = Gestisci gli avvisi sulle live su questo server.
+# max.length: 100
+help-alerts_streams_youtube = Gestisci un avviso sulla live per un utente di YouTube.
+# max.length: 100
+alerts_streams_youtube-parameter-user_name_or_id-description = The YouTube channel name or ID.
+# max.length: 100
+help-alerts_streams_twitch = Gestisci un avviso sulla live per un utente di Twitch.
+# max.length: 100
+alerts_streams_twitch-parameter-user_name_or_url-description = The Twitch channel name or URL.
+# max.length: 100
+help-alerts_streams_settings = Gestisci le impostazioni degli avvisi sulle live.

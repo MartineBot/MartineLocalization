@@ -17,6 +17,7 @@ mart-sugg-fail = Ой! Не удалось отправить ваше пред�
 mart-sugg-thanks = Спасибо за ваше предложение!
 mart-sugg-note = Примечание: Вы не сможете отправить новое предложение в течении 30 минут.
 # serverinfo command
+# max.length: 100
 help-serverinfo = Shows information about the server, members badges, and assets.
 si-members-field = Участники:
 si-members-connected = Участников:
@@ -57,6 +58,7 @@ si-banner-btn = Баннер
 si-invite-bg-btn = Фон приглашения
 si-back-si-btn = Вернуться к информации о сервере
 # userinfo command
+# max.length: 100
 help-userinfo = Shows information about a user.
 ui-app-info = Информация о боте
 ui-app-tags = Тэги
@@ -93,6 +95,7 @@ ui-no-server-avatar = Аватар сервера не установлено.
 ui-back-btn = Вернуться к информации о пользователе
 ui-perms-btn = Просмотреть разрешения участника
 # channelinfo command
+# max.length: 100
 help-channelinfo = Shows information about a channel. Default to current.
 ci-created = Создан
 ci-no-topic = Нет темы.
@@ -116,6 +119,7 @@ ci-user-limit = Лимит пользователей
 ci-details-field = Подробности
 ci-id = ID канала:
 # roleinfo command
+# max.length: 100
 help-roleinfo = Shows information about a role.
 ri-created = Создан
 ri-members = Участников
@@ -126,6 +130,7 @@ ri-managed = Управляемые
 ri-mentionnable = Упоминаемый
 ri-id = ID роли:
 # emojiinfo command
+# max.length: 100
 help-emojiinfo = Shows information about an emoji.
 em-react = Оставьте реакцию на свой выбор на это сообщение
 em-cancelled = Отменено
@@ -140,6 +145,7 @@ em-roles = Роли
 em-custom = Пользовательские эмодзи
 em-id = ID эмодзи
 # stickerinfo command
+# max.length: 100
 help-stickerinfo = Shows information about a sticker.
 sti-nothing = В этом сообщении нет стикеров.
 sti-failed = Не удалось получить информацию об этом стикере.
@@ -153,7 +159,38 @@ sti-pack = Пак
 sti-tags = тэги
 sti-id = ID Стикера
 # donate command
+# max.length: 100
 help-donate = Shows the ways to support Martine development.
 donate-title = Тут способы как можно поддержать разработку бота Martine
 donate-kofi = Единоразовое пожертвование, разблокирует для вас роль на сервере Martine и 10к мартов(при пожертвовании каждого месяца).
 donate-patreon = Помесячное пожертвование, станьте патроном чтобы получить приятные бонусы для вас и вашего сервера!
+# max.length: 100
+help-ping = Shows the latency estimation of the bot (for the current cluster).
+# max.length: 100
+help-martine = Get all informations about Martine.
+# max.length: 100
+help-info = Get info of multiple things on Discord.
+# max.length: 100
+help-info_user = Shows information about a user.
+# max.length: 100
+info_user-parameter-user-description = The user you want information about.
+# max.length: 100
+help-info_server = Shows information about the server, members badges, and assets.
+# max.length: 100
+help-info_channel = Shows information about a channel. Default to current.
+# max.length: 100
+info_channel-parameter-channel-description = The channel you want information about.
+# max.length: 100
+help-info_role = Shows information about a role.
+# max.length: 100
+info_role-parameter-role-description = The role you want information about.
+# max.length: 100
+help-info_emoji = Shows information about a emoji.
+# max.length: 100
+info_emoji-parameter-emoji-description = The emoji you want information about.
+# max.length: 100
+help-info_bot_clusters = Shows clusters stats.
+# max.length: 100
+help-info_bot_currentcluster = Shows infos about the current cluster.
+# max.length: 100
+help-help = Get the list of commands and important links.

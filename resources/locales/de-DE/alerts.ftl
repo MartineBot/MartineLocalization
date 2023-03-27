@@ -55,11 +55,25 @@ videos-removed = { $source } wurde erfolgreich in diesem Kanal entfernt!
 yt-notfound =
     YouTube Benutzer konnte nicht gefunden werden.
     Versuchen es erneut, indem du die Kanal-URL unter https://commentpicker.com/YouTube-channel-id.php kopierst und den Wert "Channel ID" eingibst.
+# max.length: 100
 help-alerts = Manage alerts in this server.
-help-alerts_streams = Manage streams alerts in this server.
-help-alerts_streams_settings = Manage streams alerts settings.
-help-alerts_streams_twitch = Manage a stream alert for a Twitch user.
-help-alerts_streams_youtube = Manage a stream alert for a YouTube user.
+# max.length: 100
 help-alerts_videos = Manage videos alerts in this server.
-help-alerts_videos_settings = Manage videos alerts settings.
+# max.length: 100
 help-alerts_videos_youtube = Manage a video alert for a YouTube user.
+# max.length: 100
+alerts_videos_youtube-parameter-user_name_or_id-description = The YouTube channel name or ID.
+# max.length: 100
+help-alerts_videos_settings = Manage videos alerts settings.
+# max.length: 100
+help-alerts_streams = Manage streams alerts in this server.
+# max.length: 100
+help-alerts_streams_youtube = Manage a stream alert for a YouTube user.
+# max.length: 100
+alerts_streams_youtube-parameter-user_name_or_id-description = The YouTube channel name or ID.
+# max.length: 100
+help-alerts_streams_twitch = Manage a stream alert for a Twitch user.
+# max.length: 100
+alerts_streams_twitch-parameter-user_name_or_url-description = The Twitch channel name or URL.
+# max.length: 100
+help-alerts_streams_settings = Manage streams alerts settings.

@@ -17,6 +17,7 @@ mart-sugg-fail = אופס! לא הצלחתי להעביר את ההצעה שלך
 mart-sugg-thanks = תודה רבה על ההצעה!
 mart-sugg-note = שים לב: לא תוכל לשלוח הצעות נוספות ב30 דקות הקרובות.
 # serverinfo command
+# max.length: 100
 help-serverinfo = מראה מידע לגבי השרת, החברים בו, התגיות שלהם, והנכסים של השרת.
 si-members-field = חברי השרת:
 si-members-connected = חברי השרת הפעילים:
@@ -57,6 +58,7 @@ si-banner-btn = דגל
 si-invite-bg-btn = רקע ההזמנה
 si-back-si-btn = חזור למידע על השרת
 # userinfo command
+# max.length: 100
 help-userinfo = מראה מידע על אדם מסוים.
 ui-app-info = מידע על האפליקציה
 ui-app-tags = תגים
@@ -93,6 +95,7 @@ ui-no-server-avatar = אין תמונת פרופיל בשרת.
 ui-back-btn = חזור למידע
 ui-perms-btn = צפה בהרשאות
 # channelinfo command
+# max.length: 100
 help-channelinfo = מראה מידע לגבי חדר מסוים, ברירת המחדל החדר הנוכחי.
 ci-created = נוצר ב
 ci-no-topic = אין נושא.
@@ -116,6 +119,7 @@ ci-user-limit = הגבלת משתתפים
 ci-details-field = מידע נוסף
 ci-id = מזהה חדר:
 # roleinfo command
+# max.length: 100
 help-roleinfo = מראה מידע לגבי תגית.
 ri-created = נוצר ב
 ri-members = חברים
@@ -126,6 +130,7 @@ ri-managed = מנוהל
 ri-mentionnable = מתויג
 ri-id = מזהה תגית:
 # emojiinfo command
+# max.length: 100
 help-emojiinfo = מראה מידע לגבי אימוג'י.
 em-react = הגב להודעה זו עם אימוג'י לבחירתך
 em-cancelled = בוטל
@@ -140,6 +145,7 @@ em-roles = תגיות
 em-custom = אימוג'י מותאם אישית
 em-id = מזהה אימוג'י
 # stickerinfo command
+# max.length: 100
 help-stickerinfo = מראה מידע לגבי מדבקה.
 sti-nothing = אין מדבקות בהודעה זו.
 sti-failed = לא הצלחתי למצוא מידע על המדבקה הזו.
@@ -153,7 +159,38 @@ sti-pack = חבילה
 sti-tags = תגיות
 sti-id = מזהה מדבקה
 # donate command
+# max.length: 100
 help-donate = מראה איך לתמוך בפיתוח מרטין.
 donate-title = הנה הדרכים לתמוך במרטין
 donate-kofi = תרומה חד פעמית, מזכה התגית בשרת של מרטין, ו10,000 marts (לכל חודש בו נתרם).
 donate-patreon = תרומה אוטומטית בכל חודש, תצטרף לpatreon על מנת לפתוח הרשאות מיוחדות לך ולשרת שלך!
+# max.length: 100
+help-ping = Shows the latency estimation of the bot (for the current cluster).
+# max.length: 100
+help-martine = Get all informations about Martine.
+# max.length: 100
+help-info = Get info of multiple things on Discord.
+# max.length: 100
+help-info_user = מראה מידע על אדם מסוים.
+# max.length: 100
+info_user-parameter-user-description = The user you want information about.
+# max.length: 100
+help-info_server = מראה מידע לגבי השרת, החברים בו, התגיות שלהם, והנכסים של השרת.
+# max.length: 100
+help-info_channel = מראה מידע לגבי חדר מסוים, ברירת המחדל החדר הנוכחי.
+# max.length: 100
+info_channel-parameter-channel-description = The channel you want information about.
+# max.length: 100
+help-info_role = מראה מידע לגבי תגית.
+# max.length: 100
+info_role-parameter-role-description = The role you want information about.
+# max.length: 100
+help-info_emoji = Shows information about a emoji.
+# max.length: 100
+info_emoji-parameter-emoji-description = The emoji you want information about.
+# max.length: 100
+help-info_bot_clusters = Shows clusters stats.
+# max.length: 100
+help-info_bot_currentcluster = Shows infos about the current cluster.
+# max.length: 100
+help-help = Get the list of commands and important links.
