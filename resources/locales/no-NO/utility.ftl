@@ -1,22 +1,22 @@
 # max.length: 100
-help-stickeradd = Add a sticker to this server.
+help-stickeradd = Legg til en klistremerke på denne serveren.
 # max.length: 100
-stickeradd-parameter-message-description = The message containing the sticker.
+stickeradd-parameter-message-description = Meldingen som inneholder klistremerket.
 # max.length: 100
-help-stickerdelete = Remove a sticker from server.
+help-stickerdelete = Fjerne en klistremerke fra serveren.
 # max.length: 100
-help-invite = Sends the invitation link of the bot, and some other important links.
+help-invite = Sender invitasjonen til boten og noen andre viktige lenker.
 # max.length: 100
-help-language = Select which language to use on this server for Martine.
+help-language = Velg hvilket språk du vil bruke på denne serveren for Martine.
 # max.length: 100
-language-parameter-lang-description = The language of your choice.
+language-parameter-lang-description = Språket du velger selv.
 # max.length: 100
-help-nsfwchannel = Sends instructions on how to setup an NSFW channel.
+help-nsfwchannel = Sender instruksjoner om hvordan du setter opp en NSFW-kanal.
 # max.length: 100
-help-vote = Sends the links to upvote Martine on bot lists.
+help-vote = Sender linkene til å oppvote Martine på botter lister.
 # max.length: 100
-help-selfblock = Add yourself to the bot's blocklist, to opt out from data collection.
+help-selfblock = Legg deg til i botens blokkeliste, for å velge bort fra datainnsamling.
 # max.length: 100
-help-premium = Check your Premium status and the one of this server.
+help-premium = Sjekk din Premium status og den ene av denne serveren.
 # max.length: 100
-help-premiumclaim = Claim your Premium rewards.
+help-premiumclaim = Hent dine Premium belønninger.

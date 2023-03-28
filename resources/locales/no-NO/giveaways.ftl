@@ -51,7 +51,7 @@ giveaway-btn-bypass-title = Omgå rolle:
 giveaway-btn-bypass-description = Ved å ha { $role } rolle kan du overstyre kravene ovenfor!
 giveaway-btn-martine-links = Martine's lenker:
 giveaway-btn-accepted-title = Giveaway tilgang akseptert!
-giveaway-btn-accepted-description = Your entry for the giveaway of { $prize } in { $server } server has been processed and accepted. Good luck!
+giveaway-btn-accepted-description = Oppføringen din for giveaway { $prize } av { $server } serveren er behandlet og akseptert. Lykke til!
 # max.length: 100
 help-giveaway = Kommandoer for å behandle giveaways
 # max.length: 100
@@ -62,9 +62,9 @@ giveaway-setup = Giveaway oppsett! { $emoji }
 giveaway-setup-optional = Valgfritt
 giveaway-setup-current-value = Nåværende verdi:
 giveaway-setup-example = Eksempel:
-giveaway-setup-footer-cancel-skip = Send "avbryt" for å avbryte oppsettet eller sende "hopp" for å hoppe over det spørsmålet.
-giveaway-setup-footer-cancel = Send "Avbryt" for å avbryte oppsettet.
-giveaway-setup-keep = Send "behold " for å beholde gjeldende verdi.
+giveaway-setup-footer-cancel-skip = Send "cancel" for å avbryte oppsettet eller sende "skip" for å hoppe over det spørsmålet.
+giveaway-setup-footer-cancel = Send "cancel" for å avbryte oppsettet.
+giveaway-setup-keep = Send "keep" for å beholde gjeldende verdi.
 giveaway-setup-error = Feil:
 giveaway-setup-cancelled = Oppsettet med giveaway har blitt avbrutt.
 giveaway-setup-timeout =
@@ -112,22 +112,22 @@ giveaway-setup-success = Vellykket opprettet denne giveawayen i { $channel }!
 giveaway-started = Ny Giveaway startet!
 giveaway-tip = Klikk på knappen nedenfor for å delta!
 # max.length: 100
-help-giveaway_edit = Edit a currently ongoing giveaway.
+help-giveaway_edit = Rediger en nåværende giveaway.
 # max.length: 100
 giveaway_edit-parameter-message-description = The message jump URL or ID of the giveaway.
-giveaway-edit-success = Successfully edited that giveaway!
+giveaway-edit-success = Vellykket redigert denne giveawayen!
 # max.length: 100
 help-giveaway_end = Ends a giveaway early. Message can be a jump url, or ID of the giveaway message.
 # max.length: 100
 giveaway_end-parameter-message-description = The message jump URL or ID of the giveaway.
-giveaway-end-success = Successfully ended that giveaway!
+giveaway-end-success = Vellykket avsluttet denne giveawayen!
 # max.length: 100
 help-giveaway_reroll = Re-roll a giveaway. Message can be a jump url, or ID of the giveaway message.
 # max.length: 100
 giveaway_reroll-parameter-message-description = The message jump URL or ID of the giveaway.
 # max.length: 100
 giveaway_reroll-parameter-count-description = The number of winners to re-roll. Default is 1.
-giveaway-reroll-notended = That giveaway is not ended yet. You cannot reroll it.
+giveaway-reroll-notended = Den giveaway er ikke avsluttet enda. Du kan ikke rulle den på nytt.
 giveaway-reroll-too-high = You choosed a count higher than 25. Don't forget that the maximum number of winners in giveaways is 25. Please try again with a lower number.
 giveaway-reroll-count-invalid = The number of winners for that giveaway was { $value }, which is higher than what you provided. Please try again with a lower number.
 giveaway-reroll-success = Successfully rerolled that giveaway!

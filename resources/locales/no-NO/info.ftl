@@ -18,7 +18,7 @@ mart-sugg-thanks = Takk for ditt forslag!
 mart-sugg-note = Merk: Du vil ikke kunne sende et nytt forslag for 30 minutter.
 # serverinfo command
 # max.length: 100
-help-serverinfo = Shows information about the server, members badges, and assets.
+help-serverinfo = Viser informasjon om server, medlemmer merker og ressurser.
 si-members-field = Medlemmer:
 si-members-connected = Medlemmer tilkoblet:
 si-humans = Mennesker:
@@ -96,7 +96,7 @@ ui-back-btn = Gå tilbake til brukerinformasjon
 ui-perms-btn = Se medlemstillatelser
 # channelinfo command
 # max.length: 100
-help-channelinfo = Shows information about a channel. Default to current.
+help-channelinfo = Viser informasjon om en kanal. Standard til gjeldende.
 ci-created = Opprettet
 ci-no-topic = Ingen emne.
 ci-position = Stilling
@@ -120,7 +120,7 @@ ci-details-field = Detaljer
 ci-id = Kanal ID:
 # roleinfo command
 # max.length: 100
-help-roleinfo = Shows information about a role.
+help-roleinfo = Viser informasjon om en rolle.
 ri-created = Opprettet
 ri-members = Medlemmer
 ri-colour = Farge
@@ -131,7 +131,7 @@ ri-mentionnable = Kan nevnes
 ri-id = Rolle ID:
 # emojiinfo command
 # max.length: 100
-help-emojiinfo = Shows information about an emoji.
+help-emojiinfo = Viser informasjon om en emoji.
 em-react = Reager på denne meldingen med emojien du ønsker
 em-cancelled = Kansellert
 em-unicode-char = Unicode tegn
@@ -146,7 +146,7 @@ em-custom = Egne emoji
 em-id = Emoji ID
 # stickerinfo command
 # max.length: 100
-help-stickerinfo = Shows information about a sticker.
+help-stickerinfo = Viser informasjon om en klistremerke.
 sti-nothing = Det er ingen klistremerke på denne meldingen.
 sti-failed = Kunne ikke få informasjon om dette klistremerket.
 sti-no-desc = Ingen beskrivelse
@@ -160,37 +160,37 @@ sti-tags = tagger
 sti-id = Klistremerke ID
 # donate command
 # max.length: 100
-help-donate = Shows the ways to support Martine development.
+help-donate = Viser måter å støtte Martine utvikling på.
 donate-title = Her er måtene å støtte Martine-utviklingen på
 donate-kofi = Engangsdonasjon, låser opp en rolle på Martines server, og 10k mars (per måned donert).
 donate-patreon = Donasjon per måned, bli en Patron for å få noen fantastiske fordeler for deg og serveren din!
 # max.length: 100
-help-ping = Shows the latency estimation of the bot (for the current cluster).
+help-ping = Viser ventetiden for botten(for gjeldende cluster).
 # max.length: 100
-help-martine = Get all informations about Martine.
+help-martine = Få alle opplysninger om Martine.
 # max.length: 100
-help-info = Get info of multiple things on Discord.
+help-info = Få info om flere ting på Discord.
 # max.length: 100
 help-info_user = Shows information about a user.
 # max.length: 100
-info_user-parameter-user-description = The user you want information about.
+info_user-parameter-user-description = Bruker du vil ha informasjon om.
 # max.length: 100
-help-info_server = Shows information about the server, members badges, and assets.
+help-info_server = Viser informasjon om server, medlemmer merker og ressurser.
 # max.length: 100
-help-info_channel = Shows information about a channel. Default to current.
+help-info_channel = Viser informasjon om en kanal. Standard til gjeldende.
 # max.length: 100
-info_channel-parameter-channel-description = The channel you want information about.
+info_channel-parameter-channel-description = Kanalen du ønsker informasjon om.
 # max.length: 100
-help-info_role = Shows information about a role.
+help-info_role = Viser informasjon om en rolle.
 # max.length: 100
-info_role-parameter-role-description = The role you want information about.
+info_role-parameter-role-description = Rollen du ønsker informasjon om.
 # max.length: 100
-help-info_emoji = Shows information about a emoji.
+help-info_emoji = Viser informasjon om en emoji.
 # max.length: 100
-info_emoji-parameter-emoji-description = The emoji you want information about.
+info_emoji-parameter-emoji-description = Emojien du vil ha informasjon om.
 # max.length: 100
-help-info_bot_clusters = Shows clusters stats.
+help-info_bot_clusters = Vis cluster statistikken.
 # max.length: 100
-help-info_bot_currentcluster = Shows infos about the current cluster.
+help-info_bot_currentcluster = Viser informasjon om den gjeldende cluster.
 # max.length: 100
-help-help = Get the list of commands and important links.
+help-help = Få listen over kommandoer og viktige lenker.

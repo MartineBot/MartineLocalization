@@ -1,24 +1,24 @@
-support-server = Support Server
+support-server = Serveur de support
 permission =
     { $count ->
         [one] permission
        *[other] permissions
     }
-error-title = Oops! Something went wrong!
+error-title = Oups ! Une erreur s'est produite !
 error-description =
-    The command { $command } has failed.
-    This error has been forwarded to the bot developer.
-error-tip-title = Confused about this?
-error-tip-description = Join the support server by [clicking here]({ $invite_url }), someone will answer your questions.
-missing-perms-msg = I require the { $perms } { $permission } to execute this command.
-command-nodm = This command is not available in DMs.
-command-dmonly = This command is only available in DMs.
-command-nsfwonly-title = You can't use that command in a non-NSFW channel!
-command-nsfwonly-description = Use the { $cmd_mention } command if you're not sure how to setup this.
-command-boosters-only = **Sorry, but this command is only available to boosters of Martine's server.**
-    Join today by clicking on the following link: { $invite_url }
-command-premium-user-only = **Sorry, but this command is only available to premium users (Level { $premium_lvl }).**
-    Join today and get more advantages, by clicking on the following link:  { $premium_url }
+    La commande { $command } a échoué.
+    Cette erreur a été transmise au développeur du bot.
+error-tip-title = Vous n'êtes pas sûr de vous ?
+error-tip-description = Rejoignez le serveur de support en [cliquant ici]({ $invite_url }), quelqu'un répondra à vos questions.
+missing-perms-msg = J'ai besoin de { $perms } { $permission } pour exécuter cette commande.
+command-nodm = Cette commande n'est pas disponible en Messages Privés.
+command-dmonly = Cette commande est disponible seulement en Messages Privés.
+command-nsfwonly-title = Tu ne peux pas utiliser cette commande dans un salon qui n'est pas NSFW !
+command-nsfwonly-description = Utilise la commande { $cmd_mention } si tu n'es pas sûr de comment configurer ceci.
+command-boosters-only = **Désolé, mais cette commande n'est disponible que pour les boosters du serveur de Martine.**
+    Rejoignez-nous dès aujourd'hui en cliquant sur le lien suivant : { $invite_url }
+command-premium-user-only = **Désolé, mais cette commande n'est disponible que pour les utilisateurs premium (Niveau { $premium_lvl }).**
+    Rejoignez-nous aujourd'hui et bénéficiez de plus d'avantages, en cliquant sur le lien suivant :  { $premium_url }
 command-premium-server-only = **Sorry, but this command is only available to premium servers (Level { $premium_lvl }).**
     Join today and get more advantages, by clicking on the following link:  { $premium_url }
 command-cd-tryagain = Try again { $time }. { $emoji }

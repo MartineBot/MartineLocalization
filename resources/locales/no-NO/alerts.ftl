@@ -62,7 +62,7 @@ help-alerts_videos = Administrer video varsler på denne serveren.
 # max.length: 100
 help-alerts_videos_youtube = Administrer et video varsel for en YouTube bruker.
 # max.length: 100
-alerts_videos_youtube-parameter-user_name_or_id-description = The YouTube channel name or ID.
+alerts_videos_youtube-parameter-user_name_or_id-description = YouTube-kanalens navn eller ID.
 # max.length: 100
 help-alerts_videos_settings = Administrere innstillinger varlser for videoer.
 # max.length: 100
@@ -70,10 +70,10 @@ help-alerts_streams = Behandle strømvarsling på denne serveren.
 # max.length: 100
 help-alerts_streams_youtube = Administrer et strømmingsvarsel for en YouTube bruker.
 # max.length: 100
-alerts_streams_youtube-parameter-user_name_or_id-description = The YouTube channel name or ID.
+alerts_streams_youtube-parameter-user_name_or_id-description = YouTube-kanalens navn eller ID.
 # max.length: 100
 help-alerts_streams_twitch = Administrer et strømmingsvarsel for en Twitch bruker.
 # max.length: 100
-alerts_streams_twitch-parameter-user_name_or_url-description = The Twitch channel name or URL.
+alerts_streams_twitch-parameter-user_name_or_url-description = Twitch kanalnavnet eller URL-en.
 # max.length: 100
 help-alerts_streams_settings = Behandle innstillinger for strømminger.

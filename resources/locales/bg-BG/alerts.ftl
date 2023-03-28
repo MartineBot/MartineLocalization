@@ -4,76 +4,70 @@ max-alerts-0 = Не можете да имате повече от 20 уведо
 max-alerts-0-tip = Можете да увеличите лимита с нашите премиум нива на членство:
 max-alerts-1 = Не можете да имате повече от 30 уведомления на сървър с това премиум ниво на членство.
 max-alerts-1-tip = Можете да получавате неограничени уведомления с нашето Златно сървър премиум ниво на членство:
-streams-settings = настройки на уведомленията на стриймове
+streams-settings = настройки на уведомленията за излъчвания
 streams-message = Съобщение
 streams-autorefresh = Автоматично опресняване на уведомленията
 streams-endbehavior = Поведение в края
 # $source will be the source of the stream alert.
-streams-count = { $source } уведомления на поточни предавания в този сървър
-streams-none = Няма зададени уведомления за поточни предавания в този сървър.
+streams-count = { $source } уведомления за излъчвания в този сървър
+streams-none = Няма зададени уведомления за излъчвания в този сървър.
 streams-disable-autorefresh = Изключи автоматичното опресняване на уведомления
 streams-enable-autorefresh = Включи автоматичното опресняване на уведомления
 streams-edit-msg-btn = Редактирай съобщение
 streams-autorefresh-btn = Автоматично опресняване
-streams-autorefresh-enabled = Alright! Stream alerts messages will now auto refresh after 15 minutes.
-streams-autorefresh-disabled = Alright! Stream alerts message will no longer auto refresh.
-streams-endbehavior-select = Change streams end behavior
-streams-deletealertmsg = Delete alert message
-streams-deletealertmsg-desc = This will delete the stream alert message.
-streams-editalertmsg = Edit alert message
-streams-editalertmsg-desc = This will edit the stream alert message with some informations about the stream.
-streams-newmsg = Send new message
-streams-newmsg-desc = This will send a new message with some informations about the stream.
-streams-same-endbehavior = Please select another behavior than the one currently selected.
-streams-endbehavior-changed = Successfully updated the stream end behavior.
-streams-msg-modal = Streams alerts message editor
-streams-msg-label = Set the message sent on a stream start alert.
-streams-msg-placeholder = { "{" }streamer{ "}" } = the streamer name - { "{" }everyone{ "}" } = @everyone ping - { "{" }here{ "}" } = @here ping
-streams-msg-changed = Successfully updated the stream start alert message!
+streams-autorefresh-enabled = Разбрано! Съобщенията относно уведомяване за излъчване ще се опресняват на всеки 15 минути.
+streams-autorefresh-disabled = Разбрано! Съобщенията относно уведомяване за излъчвания вече няма да се опресняват автоматично.
+streams-endbehavior-select = Промяна на крайно поведение на излъчвания
+streams-deletealertmsg = Изтрий съобщение относно уведомяване
+streams-deletealertmsg-desc = Това ще изтрие съобщението относно уведомяването за излъчване.
+streams-editalertmsg = Редактирай съобщение относно уведомяване
+streams-editalertmsg-desc = Това ще редактира уведомлението с някои детайли за излъчването.
+streams-newmsg = Изпрати ново съобщение
+streams-newmsg-desc = Това ще изпрати ново съобщение с няколко детайла за излъчването.
+streams-same-endbehavior = Моля, изберете поведение, различно от избраното в момента.
+streams-endbehavior-changed = Успешна промяна на крайното поведение на излъчването.
+streams-msg-modal = Редактор на съобщение относно уведомления за излъчвания
+streams-msg-label = Задайте съобщението, изпращано при уведомления за начало на излъчвания.
+streams-msg-placeholder = {"{" }streamer{"}" } = името на излъчващия - {"{" }everyone{"}" } = @everyone таг - {"{" }here{"}" } = @here таг
+streams-msg-changed = Успешна промяна на съобщението относно уведомяване за старт на излъчване!
 # $source will be the source of the stream alert.
-streams-added = Successfully added this { $source } stream as a alert in that channel!
+streams-added = Успешно добавяне на това { $source } излъчване като уведомление в този канал!
 # $cmd_mention is the slash command mention for /alerts streams settings
-streams-added-tip =
-    A alert will be sent during the next stream.
-    You can update the streams alerts settings using { $cmd_mention } command.
+streams-added-tip = Уведомление ще бъде изпратено по време на следващото излъчване. Можете да променяте настройките на уведомления за излъчвания с командата { $cmd_mention }.
 # $source will be the source of the stream alert.
-streams-removed = Successfully removed this { $source } stream alert from this channel!
-streams-twitch-notfound = Couldn't find that Twitch user.
-videos-settings = videos alerts settings
+streams-removed = Успешно премахване на това { $source } уведомление за излъчване от този канал!
+streams-twitch-notfound = Този Twitch потребител не бе намерен.
+videos-settings = настройки на уведомления за видеа
 videos-message = Съобщение
 videos-settings-msg-btn = Редактирай съобщение
-videos-msg-modal = Videos alerts message editor
-videos-msg-label = Set the message sent on videos alerts.
-videos-msg-placeholder = { "{" }name{ "}" } = the video creator name - { "{" }everyone{ "}" } = @everyone ping - { "{" }here{ "}" } = @here ping
-videos-msg-changed = Successfully updated the videos alerts message!
-videos-count = { $source } videos alerts in this server
-videos-added = Successfully added this { $source } channel as a alert in that channel!
-videos-added-tip =
-    A alert will be sent whenever the next video is posted.
-    You can update the videos alerts settings using { $cmd_mention } command.
-videos-removed = Successfully removed this { $source } channel alert from this channel!
-yt-notfound =
-    Couldn't find that YouTube user.
-    Try again by pasting the channel URL at https://commentpicker.com/youtube-channel-id.php and take the "Channel ID" value.
+videos-msg-modal = Редактор на съобщение относно уведомление за видеа
+videos-msg-label = Задайте съобщението, изпращано при уведомления за видеа.
+videos-msg-placeholder = { "{" }name{ "}" } = създателят на видеото - { "{" }everyone{ "}" } = @everyone таг - { "{" }here{ "}" } = @here таг
+videos-msg-changed = Успешна промяна на съобщението относно уведомявания за видеа!
+videos-count = { $source } уведомления за видеа в този сървър
+videos-added = Успешно добавяне на този { $source } канал като уведомление в този канал!
+videos-added-tip = Уведомление ще бъде изпратено когато следващото видео е публикувано. Можете да променяте настройките на уведомления за видеа с командата { $cmd_mention }.
+videos-removed = Успешно премахване на това { $source } уведомление за канал от този сървър!
+yt-notfound = Не бе намерен този YouTube потребител. Опитайте отново, като поставите URL линка на канала в https://commentpicker.com/youtube-channel-id.php и вземете стойността на "Channel ID".
 # max.length: 100
-help-alerts = Manage alerts in this server.
+help-alerts = Управление на уведомления в този сървър.
 # max.length: 100
-help-alerts_videos = Manage videos alerts in this server.
+help-alerts_videos = Управление на видео уведомления в този канал.
 # max.length: 100
-help-alerts_videos_youtube = Manage a video alert for a YouTube user.
+help-alerts_videos_youtube = Управление на видео уведомление за YouTube потребител.
 # max.length: 100
-alerts_videos_youtube-parameter-user_name_or_id-description = The YouTube channel name or ID.
+alerts_videos_youtube-parameter-user_name_or_id-description = Името на YouTube канала или ID.
 # max.length: 100
-help-alerts_videos_settings = Manage videos alerts settings.
+help-alerts_videos_settings = Управление настройки на уведомления за видеа.
 # max.length: 100
-help-alerts_streams = Manage streams alerts in this server.
+help-alerts_streams = Управление настройки на уведомления за излъчвания в този сървър.
 # max.length: 100
-help-alerts_streams_youtube = Manage a stream alert for a YouTube user.
+help-alerts_streams_youtube = Управление на уведомление за излъчване за YouTube потребител.
 # max.length: 100
-alerts_streams_youtube-parameter-user_name_or_id-description = The YouTube channel name or ID.
+alerts_streams_youtube-parameter-user_name_or_id-description = Името на YouTube канала или ID.
 # max.length: 100
-help-alerts_streams_twitch = Manage a stream alert for a Twitch user.
+help-alerts_streams_twitch = Управление на уведомление за излъчване на Twitch потребител.
 # max.length: 100
-alerts_streams_twitch-parameter-user_name_or_url-description = The Twitch channel name or URL.
+alerts_streams_twitch-parameter-user_name_or_url-description = Името на Twitch канала или URL.
 # max.length: 100
-help-alerts_streams_settings = Manage streams alerts settings.
+help-alerts_streams_settings = Управление настройки на уведомления за излъчвания.

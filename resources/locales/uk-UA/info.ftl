@@ -165,31 +165,31 @@ donate-title = Ось способи підтримки розвитку Martine
 donate-kofi = Одноразова пожертва відкриває вам роль на сервері Martine та 10 тисяч ринків (пожертвуваних щомісяця).
 donate-patreon = Щомісячна пожертва, станьте патроном, щоб отримати чудові бонуси для себе та вашого сервера!
 # max.length: 100
-help-ping = Shows the latency estimation of the bot (for the current cluster).
+help-ping = Показує оцінку затримки бота (для поточного кластера).
 # max.length: 100
-help-martine = Get all informations about Martine.
+help-martine = Отримати всю інформацію про Martine.
 # max.length: 100
-help-info = Get info of multiple things on Discord.
+help-info = Отримати інформацію про різні речі в Discord.
 # max.length: 100
 help-info_user = Показує інформацію про користувача.
 # max.length: 100
-info_user-parameter-user-description = The user you want information about.
+info_user-parameter-user-description = Користувач, про якого вам потрібна інформація.
 # max.length: 100
 help-info_server = Показує інформацію про сервер, значки учасників та активи.
 # max.length: 100
 help-info_channel = Показує інформацію про канал. За замовчуванням поточний.
 # max.length: 100
-info_channel-parameter-channel-description = The channel you want information about.
+info_channel-parameter-channel-description = Канал, про який вам потрібна інформація.
 # max.length: 100
 help-info_role = Показує інформацію про роль.
 # max.length: 100
-info_role-parameter-role-description = The role you want information about.
+info_role-parameter-role-description = Роль, про яку вам потрібна інформація.
 # max.length: 100
-help-info_emoji = Shows information about a emoji.
+help-info_emoji = Показує інформацію про емодзі.
 # max.length: 100
-info_emoji-parameter-emoji-description = The emoji you want information about.
+info_emoji-parameter-emoji-description = Емодзі, про яку вам потрібна інформація.
 # max.length: 100
-help-info_bot_clusters = Shows clusters stats.
+help-info_bot_clusters = Показує показники кластерів.
 # max.length: 100
 help-info_bot_currentcluster = Shows infos about the current cluster.
 # max.length: 100

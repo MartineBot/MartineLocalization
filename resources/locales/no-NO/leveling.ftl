@@ -3,7 +3,7 @@ disabled-msg =
     Nivået er ikke aktivert på denne serveren.
     En admin eller noen som kan administrere denne serveren kan aktivere den med kommandoen { $cmd_mention }!
 # max.length: 100
-help-profile = Shows your profile card or the one of another member.
+help-profile = Viser profilkortet ditt eller et av et annet medlem.
 profile-nobots = Beklager, men botten har ikke profiler! { $emoji }
 profile-noexp-author = Du har ikke tjent noen exp ennå! Fortsett å sende flere meldinger.
 profile-noexp-other = Dette medlemmet har ikke skaffet noen exp enda!
@@ -12,9 +12,9 @@ profile-vote-btn = Stem opp for 10% exp boost!
 profile-exp-boost-active = 10% opp stemme exp boost aktivert! (Årsak: `{ $reason }`)
 profile-card = { $member } profilkort
 # max.length: 100
-help-lvltop = Shows top 10 of levels of this server.
+help-lvltop = Viser topp 10 av nivåene på denne serveren.
 # max.length: 100
-help-reptop = Shows top 10 of rep of this server.
+help-reptop = Viser topp 10 av rep av denne serveren.
 top-image-failed = Beklager, noe gikk galt under forsøket på å få dette toppbildet til serveren. Prøv igjen senere. { $emoji }
 lvltop-nodata = Det ser ut som ingen medlemmer har fått erfaring med Martine foreløpig. { $emoji }
 lvltop-lb = { $server } nivå ledertavle
@@ -23,10 +23,10 @@ top-member-norank = Du er ikke ranket enda i denne serveren
 reptop-nodata = Det ser ut til at ingen medlemmer har fått rep hos Martine foreløpig. { $emoji }
 reptop-lb = { $server } rep ledertavle
 # max.length: 100
-help-rep = Gives a reputation point to a member of this server.
+help-rep = Gir et rep poeng til et medlem av denne serveren.
 # max.length: 100
-rep-parameter-member-description = The member to give a reputation point.
-rep-no-self = Du kan ikke gi deg selv omdømmepoeng. { $emoji }
+rep-parameter-member-description = Medlemmet til å gi rep poeng.
+rep-no-self = Du kan ikke gi deg selv rep poeng. { $emoji }
 rep-nobots = Beklager, men botter kan ikke motta omdømmepoeng { $emoji }
 rep-cooldown =
     Beklager, du er på nedkjøling for å gi rep poeng! { $emoji }
@@ -35,33 +35,33 @@ rep-success =
     { $member } du nettopp motatt et omdømmepoeng fra { $author }!
     Du har nå { $rep_count } omdømmepoeng! { $emoji }
 # max.length: 100
-help-lvlset = Manage all leveler settings.
+help-lvlset = Behandle alle nivåinnstillinger.
 # max.length: 100
-help-lvlset_show = Shows the current settings of this server.
+help-lvlset_show = Viser gjeldende innstillinger for denne serveren.
 # max.length: 100
-help-lvlset_toggle = Enable/disable leveling in this server.
+help-lvlset_toggle = Aktiver/deaktiver nivået i denne serveren.
 # max.length: 100
-help-lvlset_setlvl = Set manually the level of a member.
+help-lvlset_setlvl = Still inn nivået til et medlem manuelt.
 # max.length: 100
-lvlset_setlvl-parameter-level-description = The level to give to the member.
+lvlset_setlvl-parameter-level-description = Nivået du vil gi til medlemet.
 # max.length: 100
-lvlset_setlvl-parameter-member-description = The member to update its level. (Min. 1 and max. 9999)
+lvlset_setlvl-parameter-member-description = Medlemmet for å oppdatere sitt nivå (min. 1 og maks. 9999)
 # max.length: 100
-help-lvlset_resetrep = Reset reputation points of a selected member.
+help-lvlset_resetrep = Tilbakestill rep poeng for et valgt medlem.
 # max.length: 100
-lvlset_resetrep-parameter-member-description = The member to reset levels and exp.
+lvlset_resetrep-parameter-member-description = Medlemmet for å nullstille nivåer og exp.
 # max.length: 100
-help-lvlset_resetlvl = Reset level and exp of a selected member.
+help-lvlset_resetlvl = Nullstill nivå og exp for et valgt medlem.
 # max.length: 100
-lvlset_resetlvl-parameter-member-description = The member to reset reputation points.
+lvlset_resetlvl-parameter-member-description = Medlemmet for å nullstille rep poeng.
 # max.length: 100
-help-lvlset_resetrepall = Reset reputation points of all stored members.
+help-lvlset_resetrepall = Nullstill rep poeng for et valgt medlem.
 # max.length: 100
-help-lvlset_resetlvlall = Reset level and exp of all stored members.
+help-lvlset_resetlvlall = Nullstill nivå og exp for alle lagret medlemmer.
 # max.length: 100
-help-lvlset_roles = Manage roles reward.
+help-lvlset_roles = Behandle rolle belønning.
 # max.length: 100
-help-lvlset_roles_mode = Set if members will only have the higher role reward, or if it will be cumulative.
+help-lvlset_roles_mode = Angi om medlemmer bare skal ha den høyere rolle belønningen, eller om den skal være kumulativ.
 # max.length: 100
 help-lvlset_roles_add = Adds a reward role.
 # max.length: 100

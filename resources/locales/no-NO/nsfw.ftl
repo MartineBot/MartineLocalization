@@ -109,28 +109,28 @@ auto-cleanup-msg =
     Få Premium for å få tilgang til flere autoporno kanaler igjen! { $emoji }
     { $premium_url }
 # max.length: 100
-help-autoporn = Setup autoporn in this channel, and see the status of it on this server.
+help-autoporn = Installasjons autoporno i denne kanalen, og se statusen til den på denne serveren.
 # max.length: 100
-help-nsfwbomb = Send multiple Nsfw images in one command between an interval of 2 seconds.
+help-nsfwbomb = Send flere Nsfw bilder i en kommando mellom et intervall på 2 sekunder.
 # max.length: 100
-nsfwbomb-parameter-amount-description = The amount of images.
+nsfwbomb-parameter-amount-description = Mengde på bilder.
 # max.length: 100
-nsfwbomb-parameter-category-description = The images category.
+nsfwbomb-parameter-category-description = Bilder kategori.
 # max.length: 100
-help-rule34 = That famous rule yes yes.
+help-rule34 = Den berømte regelen ja ja.
 # max.length: 100
-rule34-parameter-search_tags-description = Keywords to search images for.
+rule34-parameter-search_tags-description = Nøkkelord for søkebilder for.
 # max.length: 100
-rule34-parameter-private-description = Set to True and the command will only be visible to you.
+rule34-parameter-private-description = Sett til True og kommandoen vil bare være synlig for deg.
 # max.length: 100
-help-e621 = Furries porn.
+help-e621 = Furries porno.
 # max.length: 100
-e621-parameter-search_tags-description = Keywords to search images for.
+e621-parameter-search_tags-description = Nøkkelord for søkebilder for.
 # max.length: 100
-e621-parameter-private-description = Set to True and the command will only be visible to you.
+e621-parameter-private-description = Sett til True og kommandoen vil bare være synlig for deg.
 # max.length: 100
-help-realbooru = Search for real stuff.
+help-realbooru = Søk etter ekte ting.
 # max.length: 100
-realbooru-parameter-search_tags-description = Keywords to search images for.
+realbooru-parameter-search_tags-description = Nøkkelord for søkebilder for.
 # max.length: 100
-realbooru-parameter-private-description = Set to True and the command will only be visible to you.
+realbooru-parameter-private-description = Sett til True og kommandoen vil bare være synlig for deg.

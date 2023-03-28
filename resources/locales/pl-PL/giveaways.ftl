@@ -1,11 +1,11 @@
 giveaway-run-notfound = Couldn't find a currently running giveaway for that message.
 giveaway-notfound = Couldn't find a giveaway for that message.
 giveaway-notstored = Couldn't find a stored giveaway for that message.
-giveaway-roles = Roles:
+giveaway-roles = Role:
 giveaway-days-in-server = Days in server:
 giveaway-details = Details:
 giveaway-hosted-by = Hosted by:
-giveaway-unknown = Unknown
+giveaway-unknown = Nieznany
 giveaway-time-remaining = Time remaining:
 giveaway-requirements = Requirements:
 giveaway-bypassrole = { $role } role bypasses those requirements!

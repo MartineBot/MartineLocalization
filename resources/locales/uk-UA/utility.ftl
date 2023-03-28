@@ -7,9 +7,9 @@ help-stickerdelete = Remove a sticker from server.
 # max.length: 100
 help-invite = Sends the invitation link of the bot, and some other important links.
 # max.length: 100
-help-language = Select which language to use on this server for Martine.
+help-language = Виберіть мову, яку використовувати на цьому сервері для Martine.
 # max.length: 100
-language-parameter-lang-description = The language of your choice.
+language-parameter-lang-description = Мова на ваш вибір.
 # max.length: 100
 help-nsfwchannel = Sends instructions on how to setup an NSFW channel.
 # max.length: 100
