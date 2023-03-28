@@ -59,7 +59,7 @@ si-invite-bg-btn = Invitasjons bakgrunn
 si-back-si-btn = Gå tilbake til server informasjon
 # userinfo command
 # max.length: 100
-help-userinfo = Shows information about a user.
+help-userinfo = Viser informasjon om en bruker.
 ui-app-info = Applikasjons informasjon
 ui-app-tags = Tagger
 ui-app-tags-empty = Tom
@@ -171,7 +171,7 @@ help-martine = Få alle opplysninger om Martine.
 # max.length: 100
 help-info = Få info om flere ting på Discord.
 # max.length: 100
-help-info_user = Shows information about a user.
+help-info_user = Viser informasjon om en bruker.
 # max.length: 100
 info_user-parameter-user-description = Bruker du vil ha informasjon om.
 # max.length: 100

@@ -59,86 +59,86 @@ help-lvlset_resetrepall = Nullstill rep poeng for et valgt medlem.
 # max.length: 100
 help-lvlset_resetlvlall = Nullstill nivå og exp for alle lagret medlemmer.
 # max.length: 100
-help-lvlset_roles = Behandle rolle belønning.
+help-lvlset_roles = Administrer rolle belønning.
 # max.length: 100
 help-lvlset_roles_mode = Angi om medlemmer bare skal ha den høyere rolle belønningen, eller om den skal være kumulativ.
 # max.length: 100
-help-lvlset_roles_add = Adds a reward role.
+help-lvlset_roles_add = Legger til en belønnings rolle.
 # max.length: 100
-lvlset_roles_add-parameter-level-description = The level on which you want to bind the role.
+lvlset_roles_add-parameter-level-description = Nivået du ønsker å binde rollen på.
 # max.length: 100
-lvlset_roles_add-parameter-role-description = The role that will be added for this level.
+lvlset_roles_add-parameter-role-description = Rollen som vil bli lagt til på dette nivået.
 # max.length: 100
-help-lvlset_roles_remove = Removes a reward role.
+help-lvlset_roles_remove = Fjerner en belønnings rolle.
 # max.length: 100
-lvlset_roles_remove-parameter-level-description = The level on which the role is currently binded.
+lvlset_roles_remove-parameter-level-description = Nivået som rollen for øyeblikket er bundet på.
 # max.length: 100
-help-lvlset_lvlup = Manage level ups settings.
+help-lvlset_lvlup = Administrer alle ups nivåinnstillinger.
 # max.length: 100
-help-lvlset_lvlup_destination = Set the destination of level up messages.
+help-lvlset_lvlup_destination = Angi destinasjonen for meldinger på nivå opp.
 # max.length: 100
-lvlset_lvlup_destination-parameter-destination-description = member for member's DMs, current for current lvlup channel, or channel ID/mention.
+lvlset_lvlup_destination-parameter-destination-description = medlem for medlemmets DM-er, gjeldende for gjeldende lvlup-kanal, eller kanal-ID/omtale.
 # max.length: 100
-help-lvlset_lvlup_message = Set the level up message.
+help-lvlset_lvlup_message = Still inn nivå for opp melding.
 # max.length: 100
-lvlset_lvlup_message-parameter-message-description = You can use `[member]` for member mention, and `[lvl]` for the level the member reached.
+lvlset_lvlup_message-parameter-message-description = Du kan bruke `[member]` for medlem nevning, og `[lvl]` for nivå medlemmet er nådd.
 # max.length: 100
-help-lvlset_exp = Manage exp settings.
+help-lvlset_exp = Administrer exp innstillinger.
 # max.length: 100
-help-lvlset_exp_rate = Set the exp rate/multiplier. From 0.1 to 5.0. Default to 1.0.
+help-lvlset_exp_rate = Sett exp rate/multiplikator. Fra 0,1 til 5.0. Standard til 1.0.
 # max.length: 100
-lvlset_exp_rate-parameter-rate-description = The exp rate to set.
+lvlset_exp_rate-parameter-rate-description = Exp rate som skal angis.
 # max.length: 100
-help-lvlset_exp_message = Set how much exp will be given for a message sent.
+help-lvlset_exp_message = Angi hvor mye exp som vil bli gitt for en melding sendt.
 # max.length: 100
-lvlset_exp_message-parameter-minimum-description = The minimum exp that will be given. (Max. 200)
+lvlset_exp_message-parameter-minimum-description = Minimum exp som vil bli gitt. (Maks. 200)
 # max.length: 100
-lvlset_exp_message-parameter-maximum-description = The maximum exp that will be given. (Max. 200)
+lvlset_exp_message-parameter-maximum-description = Den største exp som vil bli gitt. (Maks. 200)
 # max.length: 100
-help-lvlset_exp_cooldown = [Server Premium Silver] Set the exp cooldown in seconds. Default is 60.
+help-lvlset_exp_cooldown = [Server Premium Silver] Still inn exp-nedkjølingen på sekunder. Standard er 60.
 # max.length: 100
-lvlset_exp_cooldown-parameter-cooldown-description = The cooldown value (in seconds) to set. Must be between 10s and 21600s. Default is 60.
+lvlset_exp_cooldown-parameter-cooldown-description = Nedkjølingsverdien (i sekunder) som skal angis. Må være mellom 10s og 21600s. Standard er 60.
 # max.length: 100
-help-lvlset_exp_msglength = [Server Premium Silver] Set minimum message length for exp gain. Default is 20.
+help-lvlset_exp_msglength = [Server Premium Silver] Angi minimum meldingslengde for exp gain. Standard er 20.
 # max.length: 100
-help-lvlset_ignore = Manage ignore settings.
+help-lvlset_ignore = Administrer ignorerings innstillinger.
 # max.length: 100
-help-lvlset_ignore_addchannel = Add a channel where members will not get exp.
+help-lvlset_ignore_addchannel = Legg til en kanal der medlemmer ikke får exp.
 # max.length: 100
-lvlset_ignore_addchannel-parameter-channel-description = The channel to add to the ignore list.
+lvlset_ignore_addchannel-parameter-channel-description = Kanalen som skal legges til i ignorerings listen.
 # max.length: 100
-help-lvlset_ignore_rmchannel = Remove an ignored channel.
+help-lvlset_ignore_rmchannel = Fjern en ignorert kanal.
 # max.length: 100
-lvlset_ignore_rmchannel-parameter-channel-description = The channel to remove from the ignore list. Must be a text channel.
+lvlset_ignore_rmchannel-parameter-channel-description = Kanalen som skal fjernes fra ignorerings listen. Må være en tekst kanal.
 # max.length: 100
-help-lvlset_ignore_addrole = Add a role where members will not get exp.
+help-lvlset_ignore_addrole = Legg til en rolle der medlemmer ikke får exp.
 # max.length: 100
-lvlset_ignore_addrole-parameter-role-description = The role to add to the ignore list.
+lvlset_ignore_addrole-parameter-role-description = Rollen som skal legges til i ignorerings listen.
 # max.length: 100
-help-lvlset_ignore_rmrole = Remove an ignored role.
+help-lvlset_ignore_rmrole = Fjern en ignorert rolle.
 # max.length: 100
-lvlset_ignore_rmrole-parameter-role-description = The role to remove from the ignore list.
+lvlset_ignore_rmrole-parameter-role-description = Rollen som skal fjernes fra ignorerings listen.
 # max.length: 100
-help-lvlset_rep = Manage rep settings.
+help-lvlset_rep = Administrer rep innstillinger.
 # max.length: 100
-help-lvlset_rep_cooldown = Set the rep cooldown in seconds. Default is 5 minutes (300s).
+help-lvlset_rep_cooldown = Still inn repskjølingen på sekunder. Standard er 5 minutter (300s).
 # max.length: 100
-lvlset_rep_cooldown-parameter-cooldown-description = The rep cooldown value. Default is 5 minutes (300s).
+lvlset_rep_cooldown-parameter-cooldown-description = Rep avkjølingsverdien. Standard er 5 minutter (300s).
 # max.length: 100
-help-lvlset_rep_mention = Set wether or not the rep member will be mentionned.
+help-lvlset_rep_mention = Set whether or not the rep member will be mentionned.
 # max.length: 100
-help-profileset = Change your leveler's profile settings.
+help-profileset = Endre innstillingene til nivåholderens profil.
 # max.length: 100
-help-profileset_show = Shows your current profile settings.
+help-profileset_show = Viser gjeldende profil innstillinger.
 # max.length: 100
-help-profileset_background = View available profile backgrounds, and change it.
+help-profileset_background = Se tilgjengelige profil bakgrunner, og endre den.
 # max.length: 100
-help-profileset_color = Set the secondary color.
+help-profileset_color = Still inn sekundær farge.
 # max.length: 100
-profileset_color-parameter-color-description = The color value.
+profileset_color-parameter-color-description = Fargeverdien.
 # max.length: 100
-help-profileset_description = Change your description. Reset by don't providing a description.
+help-profileset_description = Endre beskrivelsen din. Tilbakestill ved å ikke oppgi en beskrivelse.
 # max.length: 100
-profileset_description-parameter-description-description = The description value.
+profileset_description-parameter-description-description = Beskrivelsesverdien.
 # max.length: 100
-help-profileset_resetrep = Reset your reputation points.
+help-profileset_resetrep = Tilbakestill omdømmepoengene dine.
