@@ -153,7 +153,7 @@ help-lvlset_rep_cooldown = Set the rep cooldown in seconds. Default is 5 minutes
 lvlset_rep_cooldown-parameter-cooldown-description = The rep cooldown value. Default is 5 minutes (300s).
 
 # max.length: 100
-help-lvlset_rep_mention = Set wether or not the rep member will be mentionned.
+help-lvlset_rep_mention = Set whether or not the rep member will be mentionned.
 
 # max.length: 100
 help-profileset = Change your leveler's profile settings.
