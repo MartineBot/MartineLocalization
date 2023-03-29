@@ -125,7 +125,7 @@ help-lvlset_rep_cooldown = Still inn repskjølingen på sekunder. Standard er 5 
 # max.length: 100
 lvlset_rep_cooldown-parameter-cooldown-description = Rep avkjølingsverdien. Standard er 5 minutter (300s).
 # max.length: 100
-help-lvlset_rep_mention = Set whether or not the rep member will be mentionned.
+help-lvlset_rep_mention = Angi om representanten skal nevnes eller ikke.
 # max.length: 100
 help-profileset = Endre innstillingene til nivåholderens profil.
 # max.length: 100

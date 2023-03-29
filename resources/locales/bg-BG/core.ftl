@@ -1,71 +1,71 @@
-support-server = Support Server
+support-server = Сървър по поддръжка
 permission =
     { $count ->
-        [one] permission
-       *[other] permissions
+        [one] разрешение
+       *[other] разрешения
     }
-error-title = Oops! Something went wrong!
+error-title = Опа! Нещо се обърка!
 error-description =
-    The command { $command } has failed.
-    This error has been forwarded to the bot developer.
-error-tip-title = Confused about this?
-error-tip-description = Join the support server by [clicking here]({ $invite_url }), someone will answer your questions.
-missing-perms-msg = I require the { $perms } { $permission } to execute this command.
-command-nodm = This command is not available in DMs.
-command-dmonly = This command is only available in DMs.
-command-nsfwonly-title = You can't use that command in a non-NSFW channel!
-command-nsfwonly-description = Use the { $cmd_mention } command if you're not sure how to setup this.
-command-boosters-only = **Sorry, but this command is only available to boosters of Martine's server.**
-    Join today by clicking on the following link: { $invite_url }
-command-premium-user-only = **Sorry, but this command is only available to premium users (Level { $premium_lvl }).**
-    Join today and get more advantages, by clicking on the following link:  { $premium_url }
-command-premium-server-only = **Sorry, but this command is only available to premium servers (Level { $premium_lvl }).**
-    Join today and get more advantages, by clicking on the following link:  { $premium_url }
-command-cd-tryagain = Try again { $time }. { $emoji }
+    Командата { $command } бе неуспешна.
+    Тази грешка бе предадена на разработчика на бота.
+error-tip-title = Това Ви обърква?
+error-tip-description = Присъединете се към сървъра по поддръжка, като [кликнете тук]({ $invite_url }), и някой ще отговори на въпросите ви.
+missing-perms-msg = Нуждая се от { $perms } { $permission } за да изпълня тази команда.
+command-nodm = Тази команда не е налична в DMs.
+command-dmonly = Тази команда е налична единствено в DMs.
+command-nsfwonly-title = Не можете да ползвате тази команда в канал, който не е NSFW!
+command-nsfwonly-description = Използвайте командата { $cmd_mention }, ако не сте сигурни как да настроите това.
+command-boosters-only = **Съжалявам, но тази команда е достъпна само за поддръжници на сървъра на Мартина.**
+    Присъединете се тук: { $invite_url }
+command-premium-user-only = **Съжалявам, но тази команда е достъпна само за премиум потребители (ниво { $premium_lvl }).**
+    Присъединете се днес и получете повече предимства: { $premium_url }
+command-premium-server-only = **Съжалявам, но тази команда е достъпна само за премиум сървъри (ниво { $premium_lvl }).**
+    Присъединете се днес и получете повече предимства: { $premium_url }
+command-cd-tryagain = Опитайте отново след { $time }. { $emoji }
 command-cd-global =
-    This command is on cooldown globally.
+    Тази команда е на глобално изчакване.
     { $command-cd-tryagain }
 command-cd-userglobal =
-    This command is on cooldown for you globally.
+    Тази команда е на глобално изчакване за Вас.
     { $command-cd-tryagain }
 command-cd-server =
-    This command is on cooldown for this server.
+    Тази команда е на изчакване за този сървър.
     { $command-cd-tryagain }
 command-cd-channel =
-    This command is on cooldown for this channel.
+    Тази команда е на изчакване за този канал.
     { $command-cd-tryagain }
 command-cd-channelcat =
-    This command is on cooldown for this channel category.
+    Тази команда е на изчакване за тази категория канали.
     { $command-cd-tryagain }
 command-cd-userserver =
-    This command is on cooldown for you on this server.
+    Тази команда е на изчакване за Вас в този сървър.
     { $command-cd-tryagain }
 command-cd-role =
-    This command is on cooldown for your role.
+    Тази команда е на изчакване за Вашата роля.
     { $command-cd-tryagain }
 command-concurrent-default =
-    Too many people are using this command at the same time.
-    It can only be used { $number } time(s) at the same time.
+    Твърде много хора използват тази команда едновременно.
+    Тя може да бъде използвана само { $number } път(и) по едно и също време.
 # the $type is either "user" or "member"
 command-concurrent-other =
-    Too many people are using this command at the same time.
-    It can only be used { $number } time(s) per { $type } at the same time.
-app-command-unavailable = Looks like this command is not yet available on the bot. Please wait a moment while it gets synced.
-bot-not-ready = Martine is not yet ready to process any commands. Please wait a minute or two before trying again.
-commands-btn = Commands and FAQ
-premium-btn = Premium
-join-msg-title = Hello there! And thanks for adding Martine to your server!
-join-msg-prefixes = Prefixes
-join-msg-prefixes-description = **My default prefixes are:**
-    Principal `,`
-    Additional prefixes are `mart ` and `m!`.
-    (You can change them with the `,prefix` command)
-join-msg-commands = Commands:
+    Твърде много хора използват тази команда едновременно.
+    Тя може да бъде използвана само { $number } път(и) от { $type } по едно и също време.
+app-command-unavailable = Изглежда, че тази команда все още не е налична в бота. Моля, изчакайте, докато тя бъде синхронизирана.
+bot-not-ready = Мартина все още не е готова да обработва команди. Моля, изчакайте минутка, преди да опитате отново.
+commands-btn = Команди и ЧЗВ
+premium-btn = Премиум
+join-msg-title = Здравейте! Благодаря, че добавихте Мартина във Вашия сървър!
+join-msg-prefixes = Префикси
+join-msg-prefixes-description = **Моите префикси по подразбиране са:**
+    Главен `,`
+    Допълнителни префикси са `mart ` и `m!`.
+    (Можете да ги промените с командата `,prefix`)
+join-msg-commands = Команди:
 join-msg-commands-description =
-    Get started with `,help` command, it will send you all commands of the bot!
-    Then use the dropdown below the message for selecting the category you want.
-    Or use the `,help <category>` (Category you want instead of `<>`)
-    You can also find a list of the commands and frequently asked questions on the bot website: { $website }
-join-msg-support = Support:
-join-msg-support-description = If you need help with the bot, feel free to [join support server]({ $invite_url }), a support member will help you when they're available.
-button-no-perms = You don't have the permission to use this button.
+    Започнете с командата `,help`, която ще Ви изпрати всички команди на бота!
+    След това използвайте падащото меню под съобщението, за да изберете желаната категория.
+    Или използвайте командата `,help <category>` (желаната от вас категория вместо `<>`)
+    Списък с командите и често задавани въпроси можете да намерите и на уебсайта на бота: { $website }
+join-msg-support = Поддръжка:
+join-msg-support-description = Ако се нуждаете от помощ, можете да [се присъедините в сървъра по поддръжка] ({ $invite_url }), агент по поддръжката ще Ви помогне, когато е на разположение.
+button-no-perms = Нямате разрешението да използвате този бутон.

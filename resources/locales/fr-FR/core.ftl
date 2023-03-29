@@ -19,17 +19,17 @@ command-boosters-only = **Désolé, mais cette commande n'est disponible que pou
     Rejoignez-nous dès aujourd'hui en cliquant sur le lien suivant : { $invite_url }
 command-premium-user-only = **Désolé, mais cette commande n'est disponible que pour les utilisateurs premium (Niveau { $premium_lvl }).**
     Rejoignez-nous aujourd'hui et bénéficiez de plus d'avantages, en cliquant sur le lien suivant :  { $premium_url }
-command-premium-server-only = **Sorry, but this command is only available to premium servers (Level { $premium_lvl }).**
-    Join today and get more advantages, by clicking on the following link:  { $premium_url }
-command-cd-tryagain = Try again { $time }. { $emoji }
+command-premium-server-only = **Désolé, mais cette commande n'est disponible que pour les utilisateurs premium (Niveau { $premium_lvl }).**
+    Rejoignez-nous aujourd'hui et bénéficiez de plus d'avantages, en cliquant sur le lien suivant :  { $premium_url }
+command-cd-tryagain = Essayez à nouveau { $time }. { $emoji }
 command-cd-global =
-    This command is on cooldown globally.
+    Cette commande est en cooldown au niveau global.
     { $command-cd-tryagain }
 command-cd-userglobal =
-    This command is on cooldown for you globally.
+    Cette commande est en cooldown pour vous globalement.
     { $command-cd-tryagain }
 command-cd-server =
-    This command is on cooldown for this server.
+    Cette commande est en cooldown pour ce serveur.
     { $command-cd-tryagain }
 command-cd-channel =
     This command is on cooldown for this channel.
