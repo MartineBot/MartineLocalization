@@ -25,7 +25,7 @@ lolstats_currentgame-parameter-summoner-description = The summoner you want to s
 # max.length: 100
 help-lolrotation = Get this week's free champions rotation.
 # max.length: 100
-help-fortnite = Get infos and stats from Fornite.
+help-fortnite = Get infos and stats from Fortnite.
 # max.length: 100
 help-fortnite_stats = Get stats of a Fortnite player.
 # max.length: 100

@@ -25,7 +25,7 @@ lolstats_currentgame-parameter-summoner-description = Tilkalleren du ønsker å 
 # max.length: 100
 help-lolrotation = Få denne ukens gratis champions rotasjon.
 # max.length: 100
-help-fortnite = Få informasjon og statistikk fra Fornite.
+help-fortnite = Get infos and stats from Fortnite.
 # max.length: 100
 help-fortnite_stats = Få statistikk for en Fortnite spiller.
 # max.length: 100

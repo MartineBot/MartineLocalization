@@ -25,7 +25,7 @@ lolstats_currentgame-parameter-summoner-description = Играчът, за ко�
 # max.length: 100
 help-lolrotation = Получете ротацията на безплатните шампиони за тази седмица.
 # max.length: 100
-help-fortnite = Получете инфо и статистика от Fortnite.
+help-fortnite = Get infos and stats from Fortnite.
 # max.length: 100
 help-fortnite_stats = Получете статистика за Fortnite играч.
 # max.length: 100
