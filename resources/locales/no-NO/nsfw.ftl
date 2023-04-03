@@ -28,6 +28,14 @@ command-open-img-btn = Åpne bilde
 command-report-img-btn = Rapporter bilde
 command-post-url-btn = Innlegg URL
 embed-booru-tags = Søk tagger: { $tags }
+command-multiple-title = Here are some { $category } images... { $emoji }
+image-report-title = Martine - NSFW Image report
+image-report-label = Image number or URL
+image-report-placeholder = The image number or its URL...
+image-report-success =
+    Here is the report link:
+    { $link }
+image-report-invalid-url = Sorry, but this is not a valid image!
 booru-too-many-tags-nopremium = Beklager, men du kan søke etter maksimalt 10 tagger! Eller få Premium for å øke denne begrensningen til 30 tagger! { $emoji }
 booru-too-many-tags = Beklager, men du kan ikke søke etter mer enn 30 tagger! { $emoji }
 booru-blocked-tag = En av disse taggene inneholder en blokkert tag. Prøv igjen { $emoji }
@@ -111,6 +119,14 @@ auto-cleanup-msg =
 # max.length: 100
 help-autoporn = Installasjons autoporno i denne kanalen, og se statusen til den på denne serveren.
 # max.length: 100
+help-nsfw = Send nsfw images of many categories!
+# max.length: 100
+nsfw-parameter-category-description = The image category.
+# max.length: 100
+nsfw-parameter-amount-description = The amount of images to send.
+# max.length: 100
+nsfw-parameter-private-description = Sett til True og kommandoen vil bare være synlig for deg.
+# max.length: 100
 help-nsfwbomb = Send flere Nsfw bilder i en kommando mellom et intervall på 2 sekunder.
 # max.length: 100
 nsfwbomb-parameter-amount-description = Mengde på bilder.
@@ -121,16 +137,22 @@ help-rule34 = Den berømte regelen ja ja.
 # max.length: 100
 rule34-parameter-search_tags-description = Nøkkelord for søkebilder for.
 # max.length: 100
+rule34-parameter-amount-description = The amount of images to send.
+# max.length: 100
 rule34-parameter-private-description = Sett til True og kommandoen vil bare være synlig for deg.
 # max.length: 100
 help-e621 = Furries porno.
 # max.length: 100
 e621-parameter-search_tags-description = Nøkkelord for søkebilder for.
 # max.length: 100
+e621-parameter-amount-description = The amount of images to send.
+# max.length: 100
 e621-parameter-private-description = Sett til True og kommandoen vil bare være synlig for deg.
 # max.length: 100
 help-realbooru = Søk etter ekte ting.
 # max.length: 100
 realbooru-parameter-search_tags-description = Nøkkelord for søkebilder for.
+# max.length: 100
+realbooru-parameter-amount-description = The amount of images to send.
 # max.length: 100
 realbooru-parameter-private-description = Sett til True og kommandoen vil bare være synlig for deg.

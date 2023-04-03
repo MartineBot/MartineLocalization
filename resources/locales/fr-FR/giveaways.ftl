@@ -1,67 +1,67 @@
-giveaway-run-notfound = Couldn't find a currently running giveaway for that message.
-giveaway-notfound = Couldn't find a giveaway for that message.
-giveaway-notstored = Couldn't find a stored giveaway for that message.
+giveaway-run-notfound = Il n'a pas été possible de trouver un giveaway en cours pour ce message.
+giveaway-notfound = Je n'ai pas trouvé de giveaway pour ce message.
+giveaway-notstored = Il n'a pas été possible de trouver un giveaway stocké pour ce message.
 giveaway-roles = Roles:
-giveaway-days-in-server = Days in server:
-giveaway-details = Details:
-giveaway-hosted-by = Hosted by:
+giveaway-days-in-server = Jours dans le serveur :
+giveaway-details = Détails :
+giveaway-hosted-by = Hébergé par :
 giveaway-unknown = Inconnu
-giveaway-time-remaining = Time remaining:
-giveaway-requirements = Requirements:
-giveaway-bypassrole = { $role } role bypasses those requirements!
-giveaway-ends = Ends:
-giveaway-ends-at = Ends at
-giveaway-winners = Winners:
-giveaway-rolling = Rolling giveaway { $prize }...
+giveaway-time-remaining = Temps restant :
+giveaway-requirements = Exigences :
+giveaway-bypassrole = { $role } contournant ces exigences !
+giveaway-ends = Fin :
+giveaway-ends-at = Fin à
+giveaway-winners = Gagnants :
+giveaway-rolling = Giveaway roulants { $prize }...
 giveaway-roll-notfound =
-    The message of giveaway { $prize } seems to have been deleted.
-    I cannot roll out winners.
-giveaway-roll-reroll = Giveaway reroll! { $emoji }
-giveaway-roll-ended = Giveaway ended! { $emoji }
+    Le message du giveaway { $prize } semble avoir été supprimé.
+    Je ne peux pas annoncer les gagnants.
+giveaway-roll-reroll = Relancement du giveaway ! { $emoji }
+giveaway-roll-ended = Le giveaway est terminé ! { $emoji }
 giveaway-roll-description =
-    Congratulations to the **{ $num_winners } { $num_winners ->
-        [one] winner
-       *[other] winners
+    Félicitations aux **{ $num_winners } { $num_winners ->
+        [one] gagnant
+       *[other] gagnants
     }
-    You have won { $prize }!**
+    Vous avez gagné { $prize }!**
 giveaway-roll-total-entries =
     { $num_entries_fmt } total { $num_entries ->
-        [one] entry
-       *[other] entries
-    }!
-giveaway-roll-gg = Congratulation { $winners }!
+        [one] entrée
+       *[other] entrées
+    } !
+giveaway-roll-gg = Félicitations { $winners }!
 giveaway-roll-nothing =
-    But no one entered. { $emoji }
-    It was { $prize }
-giveaway-ended = Giveaway Ended
-giveaway-ended-time = Giveaway ended { $locale_formatted_time }!
-giveaway-no-winners = No one won
-giveaway-btn-label = Enter giveaway ({ $entries } entries)
-giveaway-btn-label-ended = { $entries } entries
-giveaway-btn-removed = Successfully removed your entry from this giveaway! { $emoji }
-giveaway-btn-fail-role = { $role } role
-giveaway-btn-fail-joindays = { $joindays } days in the server but you have been there for { $days } days.
+    Mais personne n'est entré. { $emoji }
+    Il s'agit de { $prize }
+giveaway-ended = Giveaway terminé
+giveaway-ended-time = Le giveaway s'est terminé à { $locale_formatted_time }!
+giveaway-no-winners = Personne n'a gagné
+giveaway-btn-label = Participer au giveaway ({ $entries } entrées)
+giveaway-btn-label-ended = { $entries } entrées
+giveaway-btn-removed = Nous avons réussi à supprimer votre participation à ce concours ! { $emoji }
+giveaway-btn-fail-role = { $role } rôle
+giveaway-btn-fail-joindays = { $joindays } jours dans le serveur mais vous y êtes depuis { $days } jours.
 giveaway-btn-denied-title =
-    Giveaway entry denied! Missing { $count ->
-        [one] requirement
-       *[other] requirements
+    L'inscription au giveaway est refusée ! Il manque { $count ->
+        [one] exigence
+       *[other] exigences
     }
-giveaway-btn-denied-description = Sorry but you are missing one of the requirements for { $prize } giveaway in { $server } server.
-giveaway-btn-bypass-title = Bypass role:
-giveaway-btn-bypass-description = By having { $role } role you can bypass the above requirements!
-giveaway-btn-martine-links = Martine's links:
-giveaway-btn-accepted-title = Giveaway entry accepted!
-giveaway-btn-accepted-description = Your entry for the giveaway of { $prize } in { $server } server has been processed and accepted. Good luck!
+giveaway-btn-denied-description = Désolé, mais il vous manque l'une des exigences pour giveaway { $prize } dans le serveur { $server } .
+giveaway-btn-bypass-title = Rôle de contournement :
+giveaway-btn-bypass-description = En ayant le rôle { $role } , vous pouvez contourner les exigences susmentionnées !
+giveaway-btn-martine-links = Les liens de Martine :
+giveaway-btn-accepted-title = Participation au giveaway acceptée !
+giveaway-btn-accepted-description = Votre participation au giveaway { $prize } dans le serveur { $server } a été traitée et acceptée. Bonne chance !
 # max.length: 100
 help-giveaway = Commandes pour gérer les giveaways
 # max.length: 100
-help-giveaway_create = Create a giveaway.
+help-giveaway_create = Créez un giveaway.
 # max.length: 100
-giveaway_create-parameter-use_config-description = Whether you want to use already set config values. Default to False.
-giveaway-setup = Giveaway setup { $emoji }
-giveaway-setup-optional = Optional
-giveaway-setup-current-value = Current value:
-giveaway-setup-example = Example:
+giveaway_create-parameter-use_config-description = Indique si vous souhaitez utiliser des valeurs de configuration déjà définies. La valeur par défaut est False.
+giveaway-setup = Configuration du giveaway { $emoji }
+giveaway-setup-optional = Falcultatif
+giveaway-setup-current-value = Valeur actuelle :
+giveaway-setup-example = Exemple :
 giveaway-setup-footer-cancel-skip = Send "cancel" to cancel the setup or send "skip" to skip that question.
 giveaway-setup-footer-cancel = Send "cancel" to cancel the setup.
 giveaway-setup-keep = Send "keep" to keep the current value.

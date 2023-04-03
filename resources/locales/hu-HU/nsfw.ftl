@@ -28,6 +28,14 @@ command-open-img-btn = Open Image
 command-report-img-btn = Report Image
 command-post-url-btn = Post URL
 embed-booru-tags = Search tags: { $tags }
+command-multiple-title = Here are some { $category } images... { $emoji }
+image-report-title = Martine - NSFW Image report
+image-report-label = Image number or URL
+image-report-placeholder = The image number or its URL...
+image-report-success =
+    Here is the report link:
+    { $link }
+image-report-invalid-url = Sorry, but this is not a valid image!
 booru-too-many-tags-nopremium = Sorry, but you can search for maximum 10 tags! Or get Premium to increase that limit up to 30 tags! { $emoji }
 booru-too-many-tags = Sorry, but you cannot search for more than 30 tags! { $emoji }
 booru-blocked-tag = One of these tags contains a blocked tag. Please try again. { $emoji }
@@ -111,6 +119,14 @@ auto-cleanup-msg =
 # max.length: 100
 help-autoporn = Setup autoporn in this channel, and see the status of it on this server.
 # max.length: 100
+help-nsfw = Send nsfw images of many categories!
+# max.length: 100
+nsfw-parameter-category-description = The image category.
+# max.length: 100
+nsfw-parameter-amount-description = The amount of images to send.
+# max.length: 100
+nsfw-parameter-private-description = Set to True and the command will only be visible to you.
+# max.length: 100
 help-nsfwbomb = Send multiple Nsfw images in one command between an interval of 2 seconds.
 # max.length: 100
 nsfwbomb-parameter-amount-description = The amount of images.
@@ -121,16 +137,22 @@ help-rule34 = That famous rule yes yes.
 # max.length: 100
 rule34-parameter-search_tags-description = Keywords to search images for.
 # max.length: 100
+rule34-parameter-amount-description = The amount of images to send.
+# max.length: 100
 rule34-parameter-private-description = Set to True and the command will only be visible to you.
 # max.length: 100
 help-e621 = Furries porn.
 # max.length: 100
 e621-parameter-search_tags-description = Keywords to search images for.
 # max.length: 100
+e621-parameter-amount-description = The amount of images to send.
+# max.length: 100
 e621-parameter-private-description = Set to True and the command will only be visible to you.
 # max.length: 100
 help-realbooru = Search for real stuff.
 # max.length: 100
 realbooru-parameter-search_tags-description = Keywords to search images for.
+# max.length: 100
+realbooru-parameter-amount-description = The amount of images to send.
 # max.length: 100
 realbooru-parameter-private-description = Set to True and the command will only be visible to you.

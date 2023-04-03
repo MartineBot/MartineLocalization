@@ -32,40 +32,40 @@ command-cd-server =
     Cette commande est en cooldown pour ce serveur.
     { $command-cd-tryagain }
 command-cd-channel =
-    This command is on cooldown for this channel.
+    Cette commande est en cooldown pour ce canal.
     { $command-cd-tryagain }
 command-cd-channelcat =
-    This command is on cooldown for this channel category.
+    Cette commande est en cooldown pour cette catégorie.
     { $command-cd-tryagain }
 command-cd-userserver =
-    This command is on cooldown for you on this server.
+    Cette commande est en attente pour vous sur ce serveur.
     { $command-cd-tryagain }
 command-cd-role =
-    This command is on cooldown for your role.
+    Cette commande est en attente pour votre rôle.
     { $command-cd-tryagain }
 command-concurrent-default =
-    Too many people are using this command at the same time.
-    It can only be used { $number } time(s) at the same time.
+    Trop de personnes utilisent cette commande en même temps.
+    Elle ne peut être utilisée que { $number } fois(s) en même temps.
 # the $type is either "user" or "member"
 command-concurrent-other =
-    Too many people are using this command at the same time.
-    It can only be used { $number } time(s) per { $type } at the same time.
-app-command-unavailable = Looks like this command is not yet available on the bot. Please wait a moment while it gets synced.
-bot-not-ready = Martine is not yet ready to process any commands. Please wait a minute or two before trying again.
-commands-btn = Commands and FAQ
+    Trop de personnes utilisent cette commande en même temps.
+    Elle ne peut être utilisée que { $number } fois par { $type } en même temps.
+app-command-unavailable = Il semble que cette commande ne soit pas encore disponible sur le bot. Veuillez patienter un moment pendant qu'elle est synchronisée.
+bot-not-ready = Martine n'est pas encore prête à traiter des commandes. Veuillez attendre une minute ou deux avant de réessayer.
+commands-btn = Commandes et FAQ
 premium-btn = Premium
-join-msg-title = Hello there! And thanks for adding Martine to your server!
-join-msg-prefixes = Prefixes
-join-msg-prefixes-description = **My default prefixes are:**
+join-msg-title = Bonjour à tous ! Et merci d'avoir ajouté Martine à votre serveur !
+join-msg-prefixes = Préfixes
+join-msg-prefixes-description = **Mes préfixes par défaut sont:**
     Principal `,`
-    Additional prefixes are `mart ` and `m!`.
-    (You can change them with the `,prefix` command)
-join-msg-commands = Commands:
+    Les préfixes supplémentaires sont `mart ` et `m!`.
+    (Vous pouvez les changer avec la commande `,prefix`)
+join-msg-commands = Commandes :
 join-msg-commands-description =
-    Get started with `,help` command, it will send you all commands of the bot!
-    Then use the dropdown below the message for selecting the category you want.
-    Or use the `,help <category>` (Category you want instead of `<>`)
-    You can also find a list of the commands and frequently asked questions on the bot website: { $website }
-join-msg-support = Support:
-join-msg-support-description = If you need help with the bot, feel free to [join support server]({ $invite_url }), a support member will help you when they're available.
-button-no-perms = You don't have the permission to use this button.
+    Commencez par la commande `,help`, elle vous enverra toutes les commandes du bot !
+    Utilisez ensuite le menu déroulant situé sous le message pour sélectionner la catégorie que vous souhaitez.
+    Ou utilisez la commande `,help <category>` (Catégorie que vous voulez au lieu de `<>`)
+    Vous pouvez également trouver une liste des commandes et des questions fréquemment posées sur le site web du bot : { $website }
+join-msg-support = Support :
+join-msg-support-description = Si vous avez besoin d'aide avec le bot, n'hésitez pas à [rejoindre le serveur de support]({ $invite_url }), un membre du support vous aidera quand il sera disponible.
+button-no-perms = Vous n'avez pas l'autorisation d'utiliser ce bouton.
