@@ -1,22 +1,22 @@
 # max.length: 100
-help-stickeradd = Add a sticker to this server.
+help-stickeradd = Додати стікер на цей сервер.
 # max.length: 100
-stickeradd-parameter-message-description = The message containing the sticker.
+stickeradd-parameter-message-description = Повідомлення, що містить стікер.
 # max.length: 100
-help-stickerdelete = Remove a sticker from server.
+help-stickerdelete = Видалити стікер із сервера.
 # max.length: 100
-help-invite = Sends the invitation link of the bot, and some other important links.
+help-invite = Надсилає посилання запрошення бота та деякі інші важливі посилання.
 # max.length: 100
 help-language = Виберіть мову, яку використовувати на цьому сервері для Martine.
 # max.length: 100
 language-parameter-lang-description = Мова на ваш вибір.
 # max.length: 100
-help-nsfwchannel = Sends instructions on how to setup an NSFW channel.
+help-nsfwchannel = Надсилає інструкції щодо налаштування каналу NSFW.
 # max.length: 100
-help-vote = Sends the links to upvote Martine on bot lists.
+help-vote = Надсилає посилання для голосування за Martine у списках ботів.
 # max.length: 100
-help-selfblock = Add yourself to the bot's blocklist, to opt out from data collection.
+help-selfblock = Додати себе до списку блокувань бота, щоб відмовитися від збору даних.
 # max.length: 100
-help-premium = Check your Premium status and the one of this server.
+help-premium = Перевірити свій Premium статус і статус цього сервера.
 # max.length: 100
-help-premiumclaim = Claim your Premium rewards.
+help-premiumclaim = Отримати свої нагороди Premium.

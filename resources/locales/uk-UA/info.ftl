@@ -191,6 +191,6 @@ info_emoji-parameter-emoji-description = Емодзі, про яку вам по
 # max.length: 100
 help-info_bot_clusters = Показує показники кластерів.
 # max.length: 100
-help-info_bot_currentcluster = Shows infos about the current cluster.
+help-info_bot_currentcluster = Показує інформацію про поточний кластер.
 # max.length: 100
-help-help = Get the list of commands and important links.
+help-help = Отримати список команд і важливих посилань.

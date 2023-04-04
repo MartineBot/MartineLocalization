@@ -28,14 +28,14 @@ command-open-img-btn = Відкрити зображення
 command-report-img-btn = Скарга на зображення
 command-post-url-btn = URL-адреса
 embed-booru-tags = Теги пошуку: { $tags }
-command-multiple-title = Here are some { $category } images... { $emoji }
-image-report-title = Martine - NSFW Image report
-image-report-label = Image number or URL
-image-report-placeholder = The image number or its URL...
+command-multiple-title = Ось кілька { $category } зображень... { $emoji }
+image-report-title = Martine — Звіт про зображення NSFW
+image-report-label = Номер зображення або URL
+image-report-placeholder = Номер зображення або його URL-адреса...
 image-report-success =
-    Here is the report link:
+    Ось посилання на звіт:
     { $link }
-image-report-invalid-url = Sorry, but this is not a valid image!
+image-report-invalid-url = Вибачте, але це недійсне зображення!
 booru-too-many-tags-nopremium = Вибачте, але ви можете шукати максимум 10 тегів! Придбайте Преміум, щоб збільшити цей ліміт до 30 тегів! { $emoji }
 booru-too-many-tags = Вибачте, але ви не можете шукати більше ніж 30 тегів! { $emoji }
 booru-blocked-tag = Один із цих тегів містить заблокований тег. Будь ласка, спробуйте ще раз. { $emoji }
@@ -54,6 +54,7 @@ auto-setup-description =
 auto-setup-current = Поточні налаштування:
 auto-setup-enabled = **Увімкнено:** { $enabled }
 auto-setup-delay = **Затримка:** { $delay }
+auto-setup-amount = **Amount:** { $amount }
 auto-setup-categories = Включені категорії:
 auto-setup-selected-categories = Вибрані категорії:
 auto-setup-footer = Вибравши потрібні категорії, скористайтеся кнопкою «Оновити категорії»
@@ -61,6 +62,7 @@ auto-setup-select-placeholder-disabled = Увімкнути для вибору 
 auto-setup-categories-btn = Оновити категорії
 auto-setup-clear-categories-btn = Очистити вибрані категорії
 auto-setup-delay-btn = Змінити затримку
+auto-setup-amount-btn = Change amount
 auto-setup-status-btn = Стан сервера
 auto-setup-select-placeholder = Виберіть категорії
 auto-setup-enable-btn = Увімкнути
@@ -81,6 +83,7 @@ auto-setup-enabled-success = Автопорно увімкнено в { $channel
 auto-setup-enabled-tip = За замовчуванням зображення надсилаються кожні 5 хвилин. Скористайтеся кнопкою «Змінити затримку», щоб змінити затримку.
 auto-setup-disabled = Автопорно вимкнено в { $channel }.
 auto-setup-delay-no-premium = Затримку автопорно можна змінити лише для серверів рівня `Premium Server Silver` (або вище)! Перегляньте наші Преміум рівні тут: { $premium_url }
+auto-setup-amount-no-premium = Autoporn amount can only be changed for `Premium Server Silver` tier (or higher) servers! Check out our Premium tiers here: { $premium_url }
 auto-status-title = Стан автопорно в { $guild }
 auto-status-title-none = Автопорно не встановлено ніде на цьому сервері.
 auto-status-msg-sent = **Повідомлень надіслано:** { $count }
@@ -97,6 +100,13 @@ auto-delaymodal-invalid = Схоже, це некоректне значення
 auto-delaymodal-toolow = Значення має бути більше ніж 2 хвилини.
 auto-delaymodal-toohigh = Значення має бути менше ніж 60 хвилин.
 auto-delaymodal-success = Затримку автопорно успішно оновлено для { $channel } на `{ $delay }`.
+auto-amountmodal-title = Martine - Autoporn amount prompt
+auto-amountmodal-label = Amount
+auto-amountmodal-placeholder = The amount of images a autoporn message will contain...
+auto-amountmodal-invalid = Looks like this is not a correct value. Example: 5
+auto-amountmodal-toolow = The value must be over than 1.
+auto-amountmodal-toohigh = The value must be less than 5.
+auto-amountmodal-success = Successfully updated autoporn amount for { $channel } to `{ $amount }`.
 auto-setup-timeout-title = Налаштування автопорно
 auto-setup-timeout-description = Термін дії цього повідомлення про налаштування минув!
 auto-task-disabled =
@@ -117,42 +127,42 @@ auto-cleanup-msg =
     Отримайте Преміум, щоб знову отримати доступ до більшої кількості автопорно каналів!{ $emoji }
     { $premium_url }
 # max.length: 100
-help-autoporn = Setup autoporn in this channel, and see the status of it on this server.
+help-autoporn = Налаштувати автопорно на цьому каналі та глянути його статус на цьому сервері.
 # max.length: 100
-help-nsfw = Send nsfw images of many categories!
+help-nsfw = Надсилайте nsfw зображення багатьох категорій!
 # max.length: 100
-nsfw-parameter-category-description = The image category.
+nsfw-parameter-category-description = Категорія зображення.
 # max.length: 100
-nsfw-parameter-amount-description = The amount of images to send.
+nsfw-parameter-amount-description = Кількість зображень для надсилання.
 # max.length: 100
-nsfw-parameter-private-description = Set to True and the command will only be visible to you.
+nsfw-parameter-private-description = Установіть значення True, і команда буде видна лише вам.
 # max.length: 100
-help-nsfwbomb = Send multiple Nsfw images in one command between an interval of 2 seconds.
+help-nsfwbomb = Надіслати кілька зображень Nsfw однією командою з інтервалом у 2 секунди.
 # max.length: 100
-nsfwbomb-parameter-amount-description = The amount of images.
+nsfwbomb-parameter-amount-description = Кількість зображень.
 # max.length: 100
-nsfwbomb-parameter-category-description = The images category.
+nsfwbomb-parameter-category-description = Категорія зображень.
 # max.length: 100
-help-rule34 = That famous rule yes yes.
+help-rule34 = Це знамените правило так, так.
 # max.length: 100
-rule34-parameter-search_tags-description = Keywords to search images for.
+rule34-parameter-search_tags-description = Ключові слова для пошуку зображень.
 # max.length: 100
-rule34-parameter-amount-description = The amount of images to send.
+rule34-parameter-amount-description = Кількість зображень для надсилання.
 # max.length: 100
-rule34-parameter-private-description = Set to True and the command will only be visible to you.
+rule34-parameter-private-description = Установіть значення True, і команда буде видна лише вам.
 # max.length: 100
-help-e621 = Furries porn.
+help-e621 = Фурі порно.
 # max.length: 100
-e621-parameter-search_tags-description = Keywords to search images for.
+e621-parameter-search_tags-description = Ключові слова для пошуку зображень.
 # max.length: 100
-e621-parameter-amount-description = The amount of images to send.
+e621-parameter-amount-description = Кількість зображень для надсилання.
 # max.length: 100
-e621-parameter-private-description = Set to True and the command will only be visible to you.
+e621-parameter-private-description = Установіть значення True, і команда буде видна лише вам.
 # max.length: 100
-help-realbooru = Search for real stuff.
+help-realbooru = Пошук справжніх речей.
 # max.length: 100
-realbooru-parameter-search_tags-description = Keywords to search images for.
+realbooru-parameter-search_tags-description = Ключові слова для пошуку зображень.
 # max.length: 100
-realbooru-parameter-amount-description = The amount of images to send.
+realbooru-parameter-amount-description = Кількість зображень для надсилання.
 # max.length: 100
-realbooru-parameter-private-description = Set to True and the command will only be visible to you.
+realbooru-parameter-private-description = Установіть значення True, і команда буде видна лише вам.
