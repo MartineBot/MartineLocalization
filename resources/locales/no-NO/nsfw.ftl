@@ -28,14 +28,16 @@ command-open-img-btn = Åpne bilde
 command-report-img-btn = Rapporter bilde
 command-post-url-btn = Innlegg URL
 embed-booru-tags = Søk tagger: { $tags }
-command-multiple-title = Here are some { $category } images... { $emoji }
-image-report-title = Martine - NSFW Image report
-image-report-label = Image number or URL
-image-report-placeholder = The image number or its URL...
+command-multiple-title = Her er noen { $category } bilder... { $emoji }
+image-report-title = Martine - NSFW bilde rapport
+image-report-label = Bilde tall eller URL
+image-report-placeholder = Bilde nummeret eller dets URL...
 image-report-success =
-    Here is the report link:
+    Her er rapport lenken:
     { $link }
-image-report-invalid-url = Sorry, but this is not a valid image!
+image-report-invalid-url = Beklager, men dette er ikke et gyldig bilde!
+booru-previous-img-btn = Previous image
+booru-next-img-btn = Next image
 booru-too-many-tags-nopremium = Beklager, men du kan søke etter maksimalt 10 tagger! Eller få Premium for å øke denne begrensningen til 30 tagger! { $emoji }
 booru-too-many-tags = Beklager, men du kan ikke søke etter mer enn 30 tagger! { $emoji }
 booru-blocked-tag = En av disse taggene inneholder en blokkert tag. Prøv igjen { $emoji }
@@ -54,7 +56,7 @@ auto-setup-description =
 auto-setup-current = Gjeldende innstillinger:
 auto-setup-enabled = **Aktivert: ** { $enabled }
 auto-setup-delay = **forsinkelse:** { $delay }
-auto-setup-amount = **Amount:** { $amount }
+auto-setup-amount = **Beløp:** { $amount }
 auto-setup-categories = Aktiverte kategorier:
 auto-setup-selected-categories = Valgte kategorier:
 auto-setup-footer = Bruk knappen "Oppdater kategorier" etter å ha valgt kategoriene du velger
@@ -62,7 +64,7 @@ auto-setup-select-placeholder-disabled = Aktiver for å velge kategorier
 auto-setup-categories-btn = Oppdater kategorier
 auto-setup-clear-categories-btn = Fjern valgte kategorier
 auto-setup-delay-btn = Endre forsinkelse
-auto-setup-amount-btn = Change amount
+auto-setup-amount-btn = Endre beløp
 auto-setup-status-btn = Statusen på denne serveren
 auto-setup-select-placeholder = Velg kategorier
 auto-setup-enable-btn = Aktiver
@@ -83,7 +85,7 @@ auto-setup-enabled-success = Autoporno er aktivert i { $channel }.
 auto-setup-enabled-tip = Bilder sendes som standard hvert 5. minutt. Bruk knappen `Endre forsinkelse` for å oppdatere den.
 auto-setup-disabled = Autoporno er deaktivert i { $channel }.
 auto-setup-delay-no-premium = Forsinkelse for autoporno kan kun endres for `Premium Server Silver`-nivå (eller høyere) servere! Sjekk ut Premium-nivåer her: { $premium_url }
-auto-setup-amount-no-premium = Autoporn amount can only be changed for `Premium Server Silver` tier (or higher) servers! Check out our Premium tiers here: { $premium_url }
+auto-setup-amount-no-premium = Autoporno antall automatisk benytting kan kun endres for `Premium Server Silver` tier (eller høyere) servere! Sjekk ut premium tiere våre her: { $premium_url }
 auto-status-title = Autoporno status i { $guild }
 auto-status-title-none = Autoporno er ikke satt noe sted på denne serveren.
 auto-status-msg-sent = **Meldinger sendt:** { $count }
@@ -100,13 +102,13 @@ auto-delaymodal-invalid = Ser ut til at dette ikke er en riktig verdi. Eksempel:
 auto-delaymodal-toolow = Verdien må være over 2 minutter.
 auto-delaymodal-toohigh = Verdien må være mindre enn 60 minutter.
 auto-delaymodal-success = Vellykket oppdatert autoporno forsinkelse for { $channel } til `{ $delay }`.
-auto-amountmodal-title = Martine - Autoporn amount prompt
-auto-amountmodal-label = Amount
-auto-amountmodal-placeholder = The amount of images a autoporn message will contain...
-auto-amountmodal-invalid = Looks like this is not a correct value. Example: 5
-auto-amountmodal-toolow = The value must be over than 1.
-auto-amountmodal-toohigh = The value must be less than 5.
-auto-amountmodal-success = Successfully updated autoporn amount for { $channel } to `{ $amount }`.
+auto-amountmodal-title = Martine - Spørre om autoporno beløp
+auto-amountmodal-label = Beløp
+auto-amountmodal-placeholder = Antall bilder en autoporno omelding vil inneholde...
+auto-amountmodal-invalid = Ser ut til at dette ikke er en riktig verdi. Eksempel: 5
+auto-amountmodal-toolow = Verdien må være over 1.
+auto-amountmodal-toohigh = Verdien må være mindre enn 5.
+auto-amountmodal-success = Vellykket oppdatert autoporno antallet for { $channel } til '{ $amount }`.
 auto-setup-timeout-title = Autoporno oppsett
 auto-setup-timeout-description = Denne oppsettmeldingen er utløpt!
 auto-task-disabled =
@@ -129,11 +131,11 @@ auto-cleanup-msg =
 # max.length: 100
 help-autoporn = Installasjons autoporno i denne kanalen, og se statusen til den på denne serveren.
 # max.length: 100
-help-nsfw = Send nsfw images of many categories!
+help-nsfw = Send nsfw bilder av mange kategorier!
 # max.length: 100
-nsfw-parameter-category-description = The image category.
+nsfw-parameter-category-description = Bilde kategorien.
 # max.length: 100
-nsfw-parameter-amount-description = The amount of images to send.
+nsfw-parameter-amount-description = Antall bilder som skal sende.
 # max.length: 100
 nsfw-parameter-private-description = Sett til True og kommandoen vil bare være synlig for deg.
 # max.length: 100
@@ -147,7 +149,7 @@ help-rule34 = Den berømte regelen ja ja.
 # max.length: 100
 rule34-parameter-search_tags-description = Nøkkelord for søkebilder for.
 # max.length: 100
-rule34-parameter-amount-description = The amount of images to send.
+rule34-parameter-amount-description = Antall bilder som skal sende.
 # max.length: 100
 rule34-parameter-private-description = Sett til True og kommandoen vil bare være synlig for deg.
 # max.length: 100
@@ -155,7 +157,7 @@ help-e621 = Furries porno.
 # max.length: 100
 e621-parameter-search_tags-description = Nøkkelord for søkebilder for.
 # max.length: 100
-e621-parameter-amount-description = The amount of images to send.
+e621-parameter-amount-description = Antall bilder som skal sende.
 # max.length: 100
 e621-parameter-private-description = Sett til True og kommandoen vil bare være synlig for deg.
 # max.length: 100
@@ -163,6 +165,6 @@ help-realbooru = Søk etter ekte ting.
 # max.length: 100
 realbooru-parameter-search_tags-description = Nøkkelord for søkebilder for.
 # max.length: 100
-realbooru-parameter-amount-description = The amount of images to send.
+realbooru-parameter-amount-description = Antall bilder som skal sende.
 # max.length: 100
 realbooru-parameter-private-description = Sett til True og kommandoen vil bare være synlig for deg.

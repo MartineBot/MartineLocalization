@@ -36,6 +36,8 @@ image-report-success =
     Here is the report link:
     { $link }
 image-report-invalid-url = Sorry, but this is not a valid image!
+booru-previous-img-btn = Previous image
+booru-next-img-btn = Next image
 booru-too-many-tags-nopremium = Przepraszamy, ale możesz wyszukać maksymalnie 10 tagów! Możesz też kupić Premium, aby zwiększyć ten limit do 30 tagów! { $emoji }
 booru-too-many-tags = Przepraszamy, ale nie możesz wyszukać więcej niż 30 tagów! { $emoji }
 booru-blocked-tag = Jeden z tych tagów zawiera zablokowany tag. Proszę spróbuj ponownie. { $emoji }

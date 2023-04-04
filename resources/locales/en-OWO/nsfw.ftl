@@ -36,6 +36,8 @@ image-report-success =
     Here is the report link:
     { $link }
 image-report-invalid-url = Sorry, but this is not a valid image!
+booru-previous-img-btn = Previous image
+booru-next-img-btn = Next image
 booru-too-many-tags-nopremium = Sowwy, but you c-can seawch fow maximum 10 tags?!! Ow get Pwemium t-to incwease that wimit up t-to 30 tags?!! { $emoji }
 booru-too-many-tags = Sowwy, but you cannyot seawch fow mowe than 30 tags?!! { $emoji }
 booru-blocked-tag = O-Onye of these tags contains a bwocked tag. Pwease twy again. { $emoji }

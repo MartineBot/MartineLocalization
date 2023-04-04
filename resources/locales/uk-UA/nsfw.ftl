@@ -36,6 +36,8 @@ image-report-success =
     Ось посилання на звіт:
     { $link }
 image-report-invalid-url = Вибачте, але це недійсне зображення!
+booru-previous-img-btn = Previous image
+booru-next-img-btn = Next image
 booru-too-many-tags-nopremium = Вибачте, але ви можете шукати максимум 10 тегів! Придбайте Преміум, щоб збільшити цей ліміт до 30 тегів! { $emoji }
 booru-too-many-tags = Вибачте, але ви не можете шукати більше ніж 30 тегів! { $emoji }
 booru-blocked-tag = Один із цих тегів містить заблокований тег. Будь ласка, спробуйте ще раз. { $emoji }
