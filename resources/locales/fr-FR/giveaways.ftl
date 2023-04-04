@@ -38,6 +38,7 @@ giveaway-ended-time = Le giveaway s'est terminé à { $locale_formatted_time }!
 giveaway-no-winners = Personne n'a gagné
 giveaway-btn-label = Participer au giveaway ({ $entries } entrées)
 giveaway-btn-label-ended = { $entries } entrées
+giveaway-btn-spammy = This button is on cooldow, please try again later.
 giveaway-btn-removed = Nous avons réussi à supprimer votre participation à ce concours ! { $emoji }
 giveaway-btn-fail-role = { $role } rôle
 giveaway-btn-fail-joindays = { $joindays } jours dans le serveur mais vous y êtes depuis { $days } jours.

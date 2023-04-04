@@ -38,6 +38,7 @@ giveaway-ended-time = Роздачу завершено { $locale_formatted_time
 giveaway-no-winners = Ніхто не виграв
 giveaway-btn-label = Участь у розіграші (заявок: { $entries })
 giveaway-btn-label-ended = заявок: { $entries }
+giveaway-btn-spammy = This button is on cooldow, please try again later.
 giveaway-btn-removed = Вашу заявку успішно видалено з цієї роздачі! { $emoji }
 giveaway-btn-fail-role = Роль { $role }
 giveaway-btn-fail-joindays = { $joindays } днів на сервері, але ви були там { $days } днів.
