@@ -1,8 +1,8 @@
-stream-default-msg = { $streamer_name } is live!
+stream-default-msg = { $streamer_name } er live!
 stream-btn = Åpne strømmen
 untitled-broadcast = Uten tittel sending
 viewer-count = Antall seere
-streamend-title = { $streamer_name } • stream ended!
+streamend-title = { $streamer_name } • strømmen avsluttet!
 streamend-highest-viewers = Høyeste antall seere
 streamend-total-duration = Strømmens varighet
 twitch-live = Live på Twitch
@@ -15,4 +15,4 @@ twitch-stream-lang = Språk:
 twitch-streamend-games-played = Spill spilt
 youtube-live = Direkte på YouTube
 youtube-subscribers = Abonnenter:
-videos-default-msg = { $name } has posted a new video!
+videos-default-msg = { $name } har lagt til en ny video!
