@@ -29,9 +29,9 @@ help-fortnite = Get infos and stats from Fortnite.
 # max.length: 100
 help-fortnite_stats = Get stats of a Fortnite player.
 # max.length: 100
-fortnite_stats-parameter-player-description = The player you want to see stats of.
+fortnite_stats-parameter-player-description = Гравець, статистику якого ви хочете побачити.
 # max.length: 100
-fortnite_stats-parameter-platform-description = The platform of this player.
+fortnite_stats-parameter-platform-description = Платформа цього програвача.
 # max.length: 100
 help-fortnite_news = Get latest Fortnite news.
 # max.length: 100
@@ -39,12 +39,12 @@ help-fortnite_map = Get current Fortnite map with points of interest.
 # max.length: 100
 help-osu = Get a profile card osu! containing stats of a provided player.
 # max.length: 100
-osu-parameter-player-description = The player you want to see stats of.
+osu-parameter-player-description = Гравець, статистику якого ви хочете побачити.
 # max.length: 100
 help-rlstats = Shows Rocket League stats in competitive playlists for you or given player.
 # max.length: 100
-rlstats-parameter-player_id-description = The Steam/PSN/XBL/Nintendo username or ID of the player.
+rlstats-parameter-player_id-description = Ім’я користувача Steam/PSN/XBL/Nintendo або ідентифікатор гравця.
 # max.length: 100
-help-rlsports = Shows Rocket League stats in extra modes playlists for you or given player.
+help-rlsports = Показує статистику Rocket League у списках відтворення додаткових режимів для вас або певного гравця.
 # max.length: 100
-rlsports-parameter-player_id-description = The Steam/PSN/XBL/Nintendo username or ID of the player.
+rlsports-parameter-player_id-description = Ім’я користувача Steam/PSN/XBL/Nintendo або ідентифікатор гравця.

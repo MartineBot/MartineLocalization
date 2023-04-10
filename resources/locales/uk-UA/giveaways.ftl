@@ -56,7 +56,7 @@ giveaway-btn-accepted-description = Вашу заявку на роздачу { 
 # max.length: 100
 help-giveaway = Команди для керування роздачами
 # max.length: 100
-help-giveaway_create = Create a giveaway.
+help-giveaway_create = Створити роздачу.
 # max.length: 100
 giveaway_create-parameter-use_config-description = Whether you want to use already set config values. Default to False.
 giveaway-setup = Налаштування роздачі { $emoji }
@@ -115,17 +115,17 @@ giveaway-tip = Натисніть кнопку нижче, щоб узяти у�
 # max.length: 100
 help-giveaway_edit = Редагувати поточну роздачу.
 # max.length: 100
-giveaway_edit-parameter-message-description = The message jump URL or ID of the giveaway.
+giveaway_edit-parameter-message-description = URL-адреса переходу повідомлення або ідентифікатор роздачі.
 giveaway-edit-success = Цю роздачу успішно відредаговано!
 # max.length: 100
-help-giveaway_end = Ends a giveaway early. Message can be a jump url, or ID of the giveaway message.
+help-giveaway_end = Роздача закінчується раніше. Повідомлення може бути URL-адресою переходу або ідентифікатором повідомлення про роздачу.
 # max.length: 100
-giveaway_end-parameter-message-description = The message jump URL or ID of the giveaway.
+giveaway_end-parameter-message-description = URL-адреса переходу повідомлення або ідентифікатор роздачі.
 giveaway-end-success = Цю роздачу успішно завершено!
 # max.length: 100
-help-giveaway_reroll = Re-roll a giveaway. Message can be a jump url, or ID of the giveaway message.
+help-giveaway_reroll = Повторна роздача. Повідомлення може бути URL-адресою переходу або ідентифікатором повідомлення про роздачу.
 # max.length: 100
-giveaway_reroll-parameter-message-description = The message jump URL or ID of the giveaway.
+giveaway_reroll-parameter-message-description = URL-адреса переходу повідомлення або ідентифікатор роздачі.
 # max.length: 100
 giveaway_reroll-parameter-count-description = The number of winners to re-roll. Default is 1.
 giveaway-reroll-notended = Ця роздача ще не завершилася. Ви не можете перезапустити її.

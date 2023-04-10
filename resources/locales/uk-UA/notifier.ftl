@@ -1,8 +1,8 @@
-stream-default-msg = { $streamer_name } is live!
+stream-default-msg = { $streamer_name } наживо!
 stream-btn = Відкрити трансляцію
 untitled-broadcast = Трансляція без назви
 viewer-count = Кількість глядачів
-streamend-title = { $streamer_name } • stream ended!
+streamend-title = { $streamer_name } • стрим завершено!
 streamend-highest-viewers = Найбільша кількість глядачів
 streamend-total-duration = Тривалість трансляції
 twitch-live = Наживо на Twitch
@@ -15,4 +15,4 @@ twitch-stream-lang = Мова:
 twitch-streamend-games-played = Категорія
 youtube-live = Наживо на YouTube
 youtube-subscribers = Підписників:
-videos-default-msg = { $name } has posted a new video!
+videos-default-msg = { $name } опублікував нове відео!
