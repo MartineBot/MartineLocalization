@@ -27,13 +27,13 @@ help-lolrotation = Get this week's free champions rotation.
 # max.length: 100
 help-fortnite = Get infos and stats from Fortnite.
 # max.length: 100
-help-fortnite_stats = Get stats of a Fortnite player.
+help-fortnite_stats = Отримати показники гравця Fortnite.
 # max.length: 100
 fortnite_stats-parameter-player-description = Гравець, статистику якого ви хочете побачити.
 # max.length: 100
 fortnite_stats-parameter-platform-description = Платформа цього програвача.
 # max.length: 100
-help-fortnite_news = Get latest Fortnite news.
+help-fortnite_news = Отримати останні новини Fortnite.
 # max.length: 100
 help-fortnite_map = Get current Fortnite map with points of interest.
 # max.length: 100

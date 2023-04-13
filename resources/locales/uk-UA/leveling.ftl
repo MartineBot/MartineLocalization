@@ -115,9 +115,9 @@ help-lvlset_ignore_addrole = Add a role where members will not get exp.
 # max.length: 100
 lvlset_ignore_addrole-parameter-role-description = The role to add to the ignore list.
 # max.length: 100
-help-lvlset_ignore_rmrole = Remove an ignored role.
+help-lvlset_ignore_rmrole = Вилучити проігноровану роль.
 # max.length: 100
-lvlset_ignore_rmrole-parameter-role-description = The role to remove from the ignore list.
+lvlset_ignore_rmrole-parameter-role-description = Роль, яку потрібно вилучити зі списку ігнорування.
 # max.length: 100
 help-lvlset_rep = Manage rep settings.
 # max.length: 100
@@ -129,7 +129,7 @@ help-lvlset_rep_mention = Установіть, чи буде згаданий �
 # max.length: 100
 help-profileset = Change your leveler's profile settings.
 # max.length: 100
-help-profileset_show = Shows your current profile settings.
+help-profileset_show = Показує ваші поточні налаштування профілю.
 # max.length: 100
 help-profileset_background = View available profile backgrounds, and change it.
 # max.length: 100
