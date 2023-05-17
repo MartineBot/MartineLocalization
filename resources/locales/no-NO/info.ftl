@@ -83,6 +83,7 @@ ui-member = Medlem informasjon
 ui-member-joined = Ble med:
 ui-in-channel = kanal:
 ui-booster-since = Booster siden:
+ui-member-nick = Nickname:
 ui-roles = Roller
 ui-member = Medlem
 ui-select-assets = Vis brukerens profilbilde eller banner...

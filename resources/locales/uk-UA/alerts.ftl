@@ -60,7 +60,7 @@ help-alerts_videos = Керувати сповіщеннями про відео
 # max.length: 100
 help-alerts_videos_youtube = Керувати сповіщенням про відео для користувача YouTube.
 # max.length: 100
-alerts_videos_youtube-parameter-user_name_or_id-description = The YouTube channel name or ID.
+alerts_videos_youtube-parameter-user_name_or_id-description = Назва або ідентифікатор каналу YouTube.
 # max.length: 100
 help-alerts_videos_settings = Керувати налаштуваннями сповіщень про відео.
 # max.length: 100
@@ -68,10 +68,10 @@ help-alerts_streams = Керувати сповіщеннями про тран�
 # max.length: 100
 help-alerts_streams_youtube = Керувати сповіщенням про трансляцію для користувача YouTube.
 # max.length: 100
-alerts_streams_youtube-parameter-user_name_or_id-description = The YouTube channel name or ID.
+alerts_streams_youtube-parameter-user_name_or_id-description = Назва або ідентифікатор каналу YouTube.
 # max.length: 100
 help-alerts_streams_twitch = Керувати сповіщенням про трансляцію для користувача Twitch.
 # max.length: 100
-alerts_streams_twitch-parameter-user_name_or_url-description = The Twitch channel name or URL.
+alerts_streams_twitch-parameter-user_name_or_url-description = Назва або посилання каналу Twitch.
 # max.length: 100
 help-alerts_streams_settings = Керувати налаштуваннями сповіщень про трансляції.

@@ -83,6 +83,7 @@ ui-member = מידע על החבר
 ui-member-joined = הצטרף ב:
 ui-in-channel = חדר:
 ui-booster-since = בוסטר החל מ:
+ui-member-nick = Nickname:
 ui-roles = תגיות
 ui-member = חבר
 ui-select-assets = צפה בתמונת הפרופיל או בדגל...

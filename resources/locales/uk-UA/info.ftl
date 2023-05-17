@@ -83,6 +83,7 @@ ui-member = Інформація про учасника
 ui-member-joined = Приєднується:
 ui-in-channel = канал:
 ui-booster-since = Бустер з:
+ui-member-nick = Nickname:
 ui-roles = Ролі
 ui-member = Учасник
 ui-select-assets = Огляд аватара або банера користувача...

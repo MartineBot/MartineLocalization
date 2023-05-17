@@ -83,6 +83,7 @@ ui-member = Info membro
 ui-member-joined = Aderito il:
 ui-in-channel = canale:
 ui-booster-since = Booster dal:
+ui-member-nick = Nickname:
 ui-roles = Ruoli
 ui-member = Membro
 ui-select-assets = Visualizza l'avatar o banner dell'utente...
