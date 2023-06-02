@@ -1,22 +1,22 @@
 # max.length: 100
-help-stickeradd = Add a sticker to this server.
+help-stickeradd = Ajouter un autocollant à ce serveur.
 # max.length: 100
-stickeradd-parameter-message-description = The message containing the sticker.
+stickeradd-parameter-message-description = Le message contenant l'autocollant.
 # max.length: 100
-help-stickerdelete = Remove a sticker from server.
+help-stickerdelete = Supprimer un autocollant du serveur.
 # max.length: 100
-help-invite = Sends the invitation link of the bot, and some other important links.
+help-invite = Envoie le lien d'invitation du bot, ainsi que d'autres liens importants.
 # max.length: 100
-help-language = Select which language to use on this server for Martine.
+help-language = Sélectionnez la langue à utiliser sur ce serveur pour Martine.
 # max.length: 100
-language-parameter-lang-description = The language of your choice.
+language-parameter-lang-description = La langue de votre choix.
 # max.length: 100
-help-nsfwchannel = Sends instructions on how to setup an NSFW channel.
+help-nsfwchannel = Envoie des instructions sur la configuration d'un canal NSFW.
 # max.length: 100
-help-vote = Sends the links to upvote Martine on bot lists.
+help-vote = Envoie les liens pour voter pour Martine sur les listes de bots.
 # max.length: 100
 help-selfblock = Add yourself to the bot's blocklist, to opt out from data collection.
 # max.length: 100
-help-premium = Check your Premium status and the one of this server.
+help-premium = Vérifiez le statut de votre Premium et celui de ce serveur.
 # max.length: 100
-help-premiumclaim = Claim your Premium rewards.
+help-premiumclaim = Récupérez vos récompenses Premium.

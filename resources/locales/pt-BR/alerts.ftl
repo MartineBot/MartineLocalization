@@ -39,7 +39,7 @@ streams-added-tip =
 # $source will be the source of the stream alert.
 streams-removed = Alerta de transmissão do(a) { $source } foi removido com sucesso deste canal!
 streams-twitch-notfound = Não foi possível encontrar esse usuário da Twitch.
-videos-settings = videos alerts settings
+videos-settings = configurações de alertas de vídeos
 videos-message = Mensagem
 videos-settings-msg-btn = Editar mensagem
 videos-msg-modal = Videos alerts message editor
@@ -56,13 +56,13 @@ yt-notfound =
     Não foi possível encontrar esse usuário do Youtube.
     Tente novamente colando a URL do canal em https://commentpicker.com/youtube-channel-id.php e copie o valor de "Channel ID".
 # max.length: 100
-help-alerts = Manage alerts in this server.
+help-alerts = Gerenciar alertas neste servidor.
 # max.length: 100
-help-alerts_videos = Manage videos alerts in this server.
+help-alerts_videos = Gerenciar alertas de vídeos neste servidor.
 # max.length: 100
-help-alerts_videos_youtube = Manage a video alert for a YouTube user.
+help-alerts_videos_youtube = Gerenciar um alerta de vídeo para um usuário do YouTube.
 # max.length: 100
-alerts_videos_youtube-parameter-user_name_or_id-description = The YouTube channel name or ID.
+alerts_videos_youtube-parameter-user_name_or_id-description = O nome do canal do YouTube ou ID.
 # max.length: 100
 help-alerts_videos_settings = Manage videos alerts settings.
 # max.length: 100
@@ -70,7 +70,7 @@ help-alerts_streams = Manage streams alerts in this server.
 # max.length: 100
 help-alerts_streams_youtube = Manage a stream alert for a YouTube user.
 # max.length: 100
-alerts_streams_youtube-parameter-user_name_or_id-description = The YouTube channel name or ID.
+alerts_streams_youtube-parameter-user_name_or_id-description = O nome do canal do YouTube ou ID.
 # max.length: 100
 help-alerts_streams_twitch = Manage a stream alert for a Twitch user.
 # max.length: 100

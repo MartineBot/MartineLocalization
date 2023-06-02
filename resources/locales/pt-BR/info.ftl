@@ -59,8 +59,8 @@ si-invite-bg-btn = Invite Background
 si-back-si-btn = Get back to server info
 # userinfo command
 # max.length: 100
-help-userinfo = Shows information about a user.
-ui-app-info = Application Information
+help-userinfo = Mostra informações sobre um usuário.
+ui-app-info = Informações do aplicativo
 ui-app-tags = Marcadores
 ui-app-tags-empty = Vazio
 ui-app-flags = Application flags
@@ -93,7 +93,7 @@ ui-server-avatar = Server avatar
 ui-no-banner = No banner set.
 ui-user-avatar = user avatar
 ui-no-server-avatar = No server avatar set.
-ui-back-btn = Get back to user info
+ui-back-btn = Voltar para as informações do usuário
 ui-perms-btn = Visualizar permissões de membro
 # channelinfo command
 # max.length: 100
@@ -172,7 +172,7 @@ help-martine = Get all informations about Martine.
 # max.length: 100
 help-info = Get info of multiple things on Discord.
 # max.length: 100
-help-info_user = Shows information about a user.
+help-info_user = Mostra informações sobre um usuário.
 # max.length: 100
 info_user-parameter-user-description = The user you want information about.
 # max.length: 100
@@ -186,9 +186,9 @@ help-info_role = Shows information about a role.
 # max.length: 100
 info_role-parameter-role-description = The role you want information about.
 # max.length: 100
-help-info_emoji = Shows information about a emoji.
+help-info_emoji = Mostra informações sobre um emoji.
 # max.length: 100
-info_emoji-parameter-emoji-description = The emoji you want information about.
+info_emoji-parameter-emoji-description = O emoji sobre o qual você deseja informações.
 # max.length: 100
 help-info_bot_clusters = Shows clusters stats.
 # max.length: 100
