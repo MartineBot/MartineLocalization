@@ -1,3 +1,5 @@
+yes = Yes
+no = No
 # /help command
 shelp-title = Martine - список команд
 shelp-desc = Документация доступных команд которые есть в Martine.
@@ -84,6 +86,14 @@ ui-member-joined = Присоединился:
 ui-in-channel = канал:
 ui-booster-since = Бустер с:
 ui-member-nick = Nickname:
+ui-customstatus-emojiandname = Custom status: { $emoji } { $name }
+ui-customstatus-emoji = Custom status: { $emoji }
+ui-customstatus-name = Custom status: { $name }
+ui-playing = Playing { $name }
+ui-streaming = Streaming { $name }
+ui-listening = Listening to { $name }
+ui-watching = Watching { $name }
+ui-competing = Competing in { $name }
 ui-roles = Роли
 ui-member = Участник
 ui-select-assets = Просмотреть аватар или баннер пользователя...

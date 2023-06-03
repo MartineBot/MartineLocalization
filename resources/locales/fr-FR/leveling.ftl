@@ -3,7 +3,7 @@ disabled-msg =
     Le Leveler n'est pas activé sur ce serveur.
     Un administrateur ou quelqu'un qui peut gérer ce serveur peut l'activer avec la commande { $cmd_mention } !
 # max.length: 100
-help-profile = Shows your profile card or the one of another member.
+help-profile = Affiche votre carte de profil ou celle d'un autre membre.
 profile-nobots = Désolé, mais les bots n'ont pas de profils ! { $emoji }
 profile-noexp-author = Tu n'as pas encore gagné d'EXP ! Continuez à envoyer plus de messages.
 profile-noexp-other = Ce membre n'a pas encore gagné d'EXP !
@@ -12,9 +12,9 @@ profile-vote-btn = Vote pour une augmentation de 10% d'EXP !
 profile-exp-boost-active = Augmentation d'EXP de 10% actif ! (Raison : `{ $reason }`)
 profile-card = Carte de profil de { $member }
 # max.length: 100
-help-lvltop = Shows top 10 of levels of this server.
+help-lvltop = Affiche les 10 premiers niveaux de ce serveur.
 # max.length: 100
-help-reptop = Shows top 10 of rep of this server.
+help-reptop = Affiche les 10 premiers niveaux de réputation de ce serveur.
 top-image-failed = Désolé, une erreur s'est produite en essayant d'obtenir l'image du classement. Réessaie plus tard. { $emoji }
 lvltop-nodata = Il semble qu'aucun membre n'ait acquis de l'expérience avec Martine pour le moment. { $emoji }
 lvltop-lb = Classement des niveaux de { $server }
@@ -23,14 +23,14 @@ top-member-norank = Tu n'es pas encore classé sur ce serveur
 reptop-nodata = Il semble qu'aucun membre n'ait acquis de points de réputation avec Martine pour le moment. { $emoji }
 reptop-lb = Classement des points de réputation de { $server }
 # max.length: 100
-help-rep = Gives a reputation point to a member of this server.
+help-rep = Donne un point de réputation à un membre de ce serveur.
 # max.length: 100
-rep-parameter-member-description = The member to give a reputation point.
+rep-parameter-member-description = Le membre à donner un point de réputation.
 rep-no-self = Tu ne peux pas te donner de points de réputation à toi-même. { $emoji }
 rep-nobots = Désolé, mais les bots ne peuvent pas recevoir de points de réputation ! { $emoji }
 rep-cooldown =
-    Oops, you are on cooldown on giving rep points! { $emoji }
-    Try again { $formatted_cooldown }
+    Oups, tu es en cooldown pour donner des points de réputation ! { $emoji }
+    Essayez à nouveau { $formatted_cooldown }
 rep-success =
     { $member } vous venez de recevoir un point de réputation de la part de { $author }!
     Vous avez maintenant { $rep_count } points de réputation ! { $emoji }

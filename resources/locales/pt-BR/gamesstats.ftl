@@ -1,5 +1,5 @@
 # max.length: 100
-help-valorantstats = Get Valorant stats of a provided riotid#tag.
+help-valorantstats = Obter as estatísticas de um jogador no Valorant riotid#tag.
 # max.length: 100
 valorantstats-parameter-riotid_and_tag-description = The player name followed by its #tag
 # max.length: 100

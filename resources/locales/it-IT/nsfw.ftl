@@ -75,8 +75,8 @@ auto-setup-same-categories = Sei pregato di selezionare delle altre categorie, o
 auto-setup-categories-updated = Categorie dell'auto-porn aggiornate correttamente per { $channel } in: { $categories }
 auto-setup-enable-fail = Non sono riuscita a configurare l'auto-porn su questo canale. Sei pregato di riprovare più tardi.
 auto-setup-no-premium =
-    Non puoi avere oltre { $count } canali di auto-porn per server.
-    Puoi ottenere limiti superiori con i nostri ranghi Premium: { $premium_url }
+    You cannot have more than { $count } autoporn channels per server.
+    However, you can get higher limits with our Premium tiers: { $premium_url }
 auto-setup-no-premium-3 = Puoi impostare al massimo 25 canali di auto-porn.
 auto-setup-enable-no-webhooks-perm = Necessito dell'autorizzazione "Gestisci Webhook" per poter inviare i messaggi di auto-porn su questo canale! La funzionalità di auto-porn utilizza i webhook per fornire immagini nelle migliori condizioni, in termini di ritardo.
 auto-setup-disable-no-webhooks-perm = Necessito dell'autorizzazione "Gestisci Webhook" per poter disabilitare completamente l'auto-porn su questo canale.
@@ -97,12 +97,12 @@ auto-status-categories =
 auto-status-getback-btn = Torna alla configurazione
 auto-delaymodal-title = Martine - Ritardo Immediato Auto-porn
 auto-delaymodal-label = Ritardo
-auto-delaymodal-placeholder = Il ritardo in minuti, dopo cui l'auto-porn invierà i messaggi a questo canale...
+auto-delaymodal-placeholder = The delay in minutes between each autoporn image sent in this channel...
 auto-delaymodal-invalid = Sembra che questo non sia un valore corretto. Esempio: 5 minuti
 auto-delaymodal-toolow = Il valore dev'essere superiore a 2 minuti.
 auto-delaymodal-toohigh = Il valore dev'essere inferiore a 60 minuti.
 auto-delaymodal-success = Ritardo dell'auto-porn aggiornato correttamente per { $channel } in `{ $delay }`.
-auto-amountmodal-title = Martine - Autoporn amount prompt
+auto-amountmodal-title = Martine - Autoporn amount of images prompt
 auto-amountmodal-label = Amount
 auto-amountmodal-placeholder = The amount of images a autoporn message will contain...
 auto-amountmodal-invalid = Looks like this is not a correct value. Example: 5

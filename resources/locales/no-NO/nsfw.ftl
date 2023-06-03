@@ -75,8 +75,8 @@ auto-setup-same-categories = Vær så snill Velg andre kategorier enn de som er 
 auto-setup-categories-updated = Vellykket oppdatert autoporno kategorier for { $channel } til: { $categories }
 auto-setup-enable-fail = Jeg kunne ikke konfigurere autoporno i denne kanalen. Prøv igjen senere.
 auto-setup-no-premium =
-    Du kan ikke ha mer enn { $count } autoporno kanaler per server.
-    Du kan få høyere grenser med premium nivåer: { $premium_url }
+    You cannot have more than { $count } autoporn channels per server.
+    However, you can get higher limits with our Premium tiers: { $premium_url }
 auto-setup-no-premium-3 = 25 autoporno kanaler er det maksimale som kan stilles inn.
 auto-setup-enable-no-webhooks-perm =
     Jeg trenger tillatelsen "Administrer Webhooks" for å kunne sende autoporno meldinger i denne kanalen!
@@ -99,12 +99,12 @@ auto-status-categories =
 auto-status-getback-btn = Gå tilbake til oppsettet
 auto-delaymodal-title = Martin – Autoporno forsinkelse ledetekst
 auto-delaymodal-label = Forsinkelse
-auto-delaymodal-placeholder = Forsinkelsen i minutter som autoporno sender meldinger til denne kanalen av...
+auto-delaymodal-placeholder = The delay in minutes between each autoporn image sent in this channel...
 auto-delaymodal-invalid = Ser ut til at dette ikke er en riktig verdi. Eksempel: 5 minutter
 auto-delaymodal-toolow = Verdien må være over 2 minutter.
 auto-delaymodal-toohigh = Verdien må være mindre enn 60 minutter.
 auto-delaymodal-success = Vellykket oppdatert autoporno forsinkelse for { $channel } til `{ $delay }`.
-auto-amountmodal-title = Martine - Spørre om autoporno beløp
+auto-amountmodal-title = Martine - Autoporn amount of images prompt
 auto-amountmodal-label = Beløp
 auto-amountmodal-placeholder = Antall bilder en autoporno omelding vil inneholde...
 auto-amountmodal-invalid = Ser ut til at dette ikke er en riktig verdi. Eksempel: 5

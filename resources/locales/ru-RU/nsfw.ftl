@@ -75,8 +75,8 @@ auto-setup-same-categories = Пожалуйста, выберите другие
 auto-setup-categories-updated = Успешно обновлены категории автопорно для { $channel } в: { $categories }
 auto-setup-enable-fail = Я не смог настроить автопорно на этом канале. Пожалуйста, повторите попытку позже.
 auto-setup-no-premium =
-    У вас не может быть больше { $count } каналов автопорно на сервер.
-    Вы можете получить более высокие лимиты с нашими премиум-уровнями: { $premium_url }
+    You cannot have more than { $count } autoporn channels per server.
+    However, you can get higher limits with our Premium tiers: { $premium_url }
 auto-setup-no-premium-3 = 25 каналов автопорно является максимальным числом каналом, которое можно установить.
 auto-setup-enable-no-webhooks-perm =
     Мне нужно разрешение «Управление Webhooks», чтобы иметь возможность отправлять сообщения автопорно в этом канале!
@@ -99,12 +99,12 @@ auto-status-categories =
 auto-status-getback-btn = Вернуться к настройке
 auto-delaymodal-title = Martine - Задержка автопорно
 auto-delaymodal-label = Задержка
-auto-delaymodal-placeholder = Задержка в минутах, когда автопорно будет отправлять сообщения на этот канал...
+auto-delaymodal-placeholder = The delay in minutes between each autoporn image sent in this channel...
 auto-delaymodal-invalid = Похоже, это неправильное значение. Пример: 5 минут
 auto-delaymodal-toolow = Значение должно быть больше чем 2 минуты.
 auto-delaymodal-toohigh = Значение должно быть меньше 60 минут.
 auto-delaymodal-success = Задержка автопорно успешно обновлена для { $channel } до `{ $delay }`.
-auto-amountmodal-title = Martine - Autoporn amount prompt
+auto-amountmodal-title = Martine - Autoporn amount of images prompt
 auto-amountmodal-label = Amount
 auto-amountmodal-placeholder = The amount of images a autoporn message will contain...
 auto-amountmodal-invalid = Looks like this is not a correct value. Example: 5

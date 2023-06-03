@@ -75,8 +75,8 @@ auto-setup-same-categories = Pwease sewect othew categowies than those cuwwentwy
 auto-setup-categories-updated = Successfuwwy updated autopown categowies fow { $channel } to: { $categories }
 auto-setup-enable-fail = I couwdn't setup autopown in this channyew. Pwease twy again watew.
 auto-setup-no-premium =
-    You cannyot have mowe than { $count } autopown channyews pew sewvew.
-    You c-can get highew wimits with ouw Pwemium tiers: { $premium_url }
+    You cannot have more than { $count } autoporn channels per server.
+    However, you can get higher limits with our Premium tiers: { $premium_url }
 auto-setup-no-premium-3 = 25 autopown channyews is the maximum that c-can be set.
 auto-setup-enable-no-webhooks-perm =
     I nyeed the "Manyage Webhooks" pewmission in owdew t-to be abwe t-to send autopown messages in this channyew!
@@ -99,12 +99,12 @@ auto-status-categories =
 auto-status-getback-btn = Get back t-to setup
 auto-delaymodal-title = Mawtinye - Autopown deway pwompt
 auto-delaymodal-label = Deway
-auto-delaymodal-placeholder = The deway in minyutes of which autopown wiww send messages t-to this channyew...
+auto-delaymodal-placeholder = The delay in minutes between each autoporn image sent in this channel...
 auto-delaymodal-invalid = Wooks wike this is nyot a cowwect vawue. Example: 5 minyutes
 auto-delaymodal-toolow = The vawue must be uvw than 2 minyutes.
 auto-delaymodal-toohigh = The vawue must be wess than 60 minyutes.
 auto-delaymodal-success = Successfuwwy updated autopown deway fow { $channel } to `{ $delay }`.
-auto-amountmodal-title = Martine - Autoporn amount prompt
+auto-amountmodal-title = Martine - Autoporn amount of images prompt
 auto-amountmodal-label = Amount
 auto-amountmodal-placeholder = The amount of images a autoporn message will contain...
 auto-amountmodal-invalid = Looks like this is not a correct value. Example: 5

@@ -1,3 +1,5 @@
+yes = Sim
+no = Não
 # /help command
 shelp-title = Martine - Lista de Comandos
 shelp-desc = Aqui está a lista dos comandos disponíveis para a Martine.
@@ -18,7 +20,7 @@ mart-sugg-thanks = Obrigado pela sua sugestão!
 mart-sugg-note = Aviso: Você não poderá enviar uma nova sugestão durante 30 minutos.
 # serverinfo command
 # max.length: 100
-help-serverinfo = Shows information about the server, members badges, and assets.
+help-serverinfo = Mostra informações sobre o servidor, emblemas e membros ativos.
 si-members-field = Membros:
 si-members-connected = Membros conectados:
 si-humans = Humanos:
@@ -84,6 +86,14 @@ ui-member-joined = Entrou:
 ui-in-channel = canal:
 ui-booster-since = Impulsionado desde:
 ui-member-nick = Nickname:
+ui-customstatus-emojiandname = Custom status: { $emoji } { $name }
+ui-customstatus-emoji = Custom status: { $emoji }
+ui-customstatus-name = Custom status: { $name }
+ui-playing = Playing { $name }
+ui-streaming = Streaming { $name }
+ui-listening = Listening to { $name }
+ui-watching = Watching { $name }
+ui-competing = Competing in { $name }
 ui-roles = Cargos
 ui-member = Membro
 ui-select-assets = Visualizar avatar ou banner do usuário...
@@ -176,7 +186,7 @@ help-info_user = Mostra informações sobre um usuário.
 # max.length: 100
 info_user-parameter-user-description = The user you want information about.
 # max.length: 100
-help-info_server = Shows information about the server, members badges, and assets.
+help-info_server = Mostra informações sobre o servidor, emblemas e membros ativos.
 # max.length: 100
 help-info_channel = Shows information about a channel. Default to current.
 # max.length: 100

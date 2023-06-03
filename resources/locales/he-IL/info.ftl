@@ -1,3 +1,5 @@
+yes = כן
+no = לא
 # /help command
 shelp-title = מרטין - רשימת פקודות
 shelp-desc = הנה רשימת הפקודות הזמינות של מרטין.
@@ -84,6 +86,14 @@ ui-member-joined = הצטרף ב:
 ui-in-channel = חדר:
 ui-booster-since = בוסטר החל מ:
 ui-member-nick = Nickname:
+ui-customstatus-emojiandname = Custom status: { $emoji } { $name }
+ui-customstatus-emoji = Custom status: { $emoji }
+ui-customstatus-name = Custom status: { $name }
+ui-playing = Playing { $name }
+ui-streaming = Streaming { $name }
+ui-listening = Listening to { $name }
+ui-watching = Watching { $name }
+ui-competing = Competing in { $name }
 ui-roles = תגיות
 ui-member = חבר
 ui-select-assets = צפה בתמונת הפרופיל או בדגל...

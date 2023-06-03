@@ -1,3 +1,5 @@
+yes = Ja
+no = Nein
 # /help command
 shelp-title = Martine - App Befehlsliste
 shelp-desc = Hier ist die Liste der verfügbaren App Befehle auf Martine.
@@ -84,6 +86,14 @@ ui-member-joined = Beigetreten:
 ui-in-channel = kanal:
 ui-booster-since = Booster seit:
 ui-member-nick = Nickname:
+ui-customstatus-emojiandname = Custom status: { $emoji } { $name }
+ui-customstatus-emoji = Custom status: { $emoji }
+ui-customstatus-name = Custom status: { $name }
+ui-playing = Playing { $name }
+ui-streaming = Streaming { $name }
+ui-listening = Listening to { $name }
+ui-watching = Watching { $name }
+ui-competing = Competing in { $name }
 ui-roles = Rollen
 ui-member = Mitglied
 ui-select-assets = Avatar oder Banner des Benutzers anzeigen...

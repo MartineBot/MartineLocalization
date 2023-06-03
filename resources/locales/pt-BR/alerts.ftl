@@ -42,8 +42,8 @@ streams-twitch-notfound = Não foi possível encontrar esse usuário da Twitch.
 videos-settings = configurações de alertas de vídeos
 videos-message = Mensagem
 videos-settings-msg-btn = Editar mensagem
-videos-msg-modal = Videos alerts message editor
-videos-msg-label = Set the message sent on videos alerts.
+videos-msg-modal = Editor de alertas de vídeos
+videos-msg-label = Defina a mensagem enviada em alertas de vídeos.
 videos-msg-placeholder = { "{" }name{ "}" } = the video creator name - { "{" }everyone{ "}" } = @everyone ping - { "{" }here{ "}" } = @here ping
 videos-msg-changed = Successfully updated the videos alerts message!
 videos-count = { $source } videos alerts in this server

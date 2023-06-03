@@ -70,7 +70,7 @@ giveaway-setup-error = Error:
 giveaway-setup-cancelled = The giveaway setup has been cancelled.
 giveaway-setup-timeout =
     { $giveaway-setup-cancelled }
-    User took to answer.
+    User took too much time to answer.
 giveaway-setup-too-many-fails =
     { $giveaway-setup-cancelled }
     User failed to give an good answer after 5 tries.
