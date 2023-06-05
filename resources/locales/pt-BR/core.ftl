@@ -1,71 +1,57 @@
-support-server = Support Server
+support-server = Servidor de Suporte
 permission =
     { $count ->
-        [one] permission
-       *[other] permissions
+        [one] permissão
+       *[other] permissões
     }
-error-title = Oops! Something went wrong!
+error-title = Ops! Algo deu errado!
 error-description =
-    The command { $command } has failed.
-    This error has been forwarded to the bot developer.
-error-tip-title = Confused about this?
-error-tip-description = Join the support server by [clicking here]({ $invite_url }), someone will answer your questions.
-missing-perms-msg = I require the { $perms } { $permission } to execute this command.
-command-nodm = This command is not available in DMs.
-command-dmonly = This command is only available in DMs.
-command-nsfwonly-title = You can't use that command in a non-NSFW channel!
-command-nsfwonly-description = Use the { $cmd_mention } command if you're not sure how to setup this.
-command-boosters-only = **Sorry, but this command is only available to boosters of Martine's server.**
-    Join today by clicking on the following link: { $invite_url }
-command-premium-user-only = **Sorry, but this command is only available to premium users (Level { $premium_lvl }).**
-    Join today and get more advantages, by clicking on the following link:  { $premium_url }
-command-premium-server-only = **Sorry, but this command is only available to premium servers (Level { $premium_lvl }).**
-    Join today and get more advantages, by clicking on the following link:  { $premium_url }
-command-cd-tryagain = Try again { $time }. { $emoji }
-command-cd-global =
-    This command is on cooldown globally.
-    { $command-cd-tryagain }
-command-cd-userglobal =
-    This command is on cooldown for you globally.
-    { $command-cd-tryagain }
-command-cd-server =
-    This command is on cooldown for this server.
-    { $command-cd-tryagain }
-command-cd-channel =
-    This command is on cooldown for this channel.
-    { $command-cd-tryagain }
-command-cd-channelcat =
-    This command is on cooldown for this channel category.
-    { $command-cd-tryagain }
-command-cd-userserver =
-    This command is on cooldown for you on this server.
-    { $command-cd-tryagain }
-command-cd-role =
-    This command is on cooldown for your role.
-    { $command-cd-tryagain }
+    O comando { $command } falhou.
+    Esse erro foi encaminhado para o desenvolvedor do bot.
+error-tip-title = Confuso com este erro?
+error-tip-description = Junte-se ao servidor de suporte [clicando aqui]({ $invite_url }), alguém responderá as suas perguntas.
+missing-perms-msg = Eu preciso de { $perms } { $permission } para executar esse comando.
+command-nodm = Este comando não está disponível nas DMs.
+command-dmonly = Este comando está disponível apenas nas DMs.
+command-nsfwonly-title = Você não pode usar este comando em um canal que não é NSFW!
+command-nsfwonly-description = Use o comando { $cmd_mention } se você não tem certeza de como configurar isso.
+command-boosters-only = **Desculpe, mas este comando só está disponível para boosters do servidor da Martine.**
+    Junte-se agora clicando no seguinte link: { $invite_url }
+command-premium-user-only = **Desculpe, mas esse comando só está disponível para usuários premium (Nível { $premium_lvl }).**
+    Junte-se agora e ganhe mais vantagens, clicando no seguinte link: { $premium_url }
+command-premium-server-only = **Desculpe, mas esse comando só está disponível para servidores premium (Nível { $premium_lvl }).**
+    Junte-se agora e ganhe mais vantagens, clicando no seguinte link: { $premium_url }
+command-cd-tryagain = Tente novamente { $time }. { $emoji }
+command-cd-global = Esse comando está em cooldown global. { $command-cd-tryagain }
+command-cd-userglobal = Esse comando está em cooldown globalmente para você. { $command-cd-tryagain }
+command-cd-server = Esse comando está em cooldown para este servidor. { $command-cd-tryagain }
+command-cd-channel = Esse comando está em cooldown neste canal. { $command-cd-tryagain }
+command-cd-channelcat = Este comando está em cooldown nesta categoria. { $command-cd-tryagain }
+command-cd-userserver = Esse comando está em cooldown para você neste servidor. { $command-cd-tryagain }
+command-cd-role = Esse comando está em cooldown para o seu cargo. { $command-cd-tryagain }
 command-concurrent-default =
-    Too many people are using this command at the same time.
-    It can only be used { $number } time(s) at the same time.
+    Muitas pessoas estão este comando ao mesmo tempo.
+    Ele só pode ser usado { $number } vez(es) ao mesmo tempo.
 # the $type is either "user" or "member"
 command-concurrent-other =
-    Too many people are using this command at the same time.
-    It can only be used { $number } time(s) per { $type } at the same time.
-app-command-unavailable = Looks like this command is not yet available on the bot. Please wait a moment while it gets synced.
-bot-not-ready = Martine is not yet ready to process any commands. Please wait a minute or two before trying again.
-commands-btn = Commands and FAQ
+    Muitas pessoas estão usando esse comando ao mesmo tempo.
+    Ele só pode ser usado { $number } vez(es) por { $type } ao mesmo tempo.
+app-command-unavailable = Parece que esse comando ainda não está disponível no bot. Por favor, espere um momento enquanto ele é sincronizado.
+bot-not-ready = A Martine ainda não está pronta para processar nenhum comando. Por favor, espere um momento antes de tentar novamente.
+commands-btn = Comandos e FAQ
 premium-btn = Premium
-join-msg-title = Hello there! And thanks for adding Martine to your server!
-join-msg-prefixes = Prefixes
-join-msg-prefixes-description = **My default prefixes are:**
+join-msg-title = Olá! E obrigado por adicionar a Martine no seu servidor!
+join-msg-prefixes = Prefixos
+join-msg-prefixes-description = **Meus prefixos padrão são:**
     Principal `,`
-    Additional prefixes are `mart ` and `m!`.
-    (You can change them with the `,prefix` command)
-join-msg-commands = Commands:
+    Os prefixos adicionais são `mart ` and `m!`.
+    (Você pode mudá-los com o comando `,prefix`)
+join-msg-commands = Comandos:
 join-msg-commands-description =
-    Get started with `,help` command, it will send you all commands of the bot!
-    Then use the dropdown below the message for selecting the category you want.
-    Or use the `,help <category>` (Category you want instead of `<>`)
-    You can also find a list of the commands and frequently asked questions on the bot website: { $website }
-join-msg-support = Support:
-join-msg-support-description = If you need help with the bot, feel free to [join support server]({ $invite_url }), a support member will help you when they're available.
-button-no-perms = You don't have the permission to use this button.
+    Comece com o comando `,help`, ele enviará a você todos os comandos do bot!
+    Depois use a caixa de seleção abaixo da mensagem para selecionar a categoria que você quer.
+    Ou use `,help <category>` (a categoria que você quer ao invés do `<>`)
+    Você também pode achar uma lista de comandos e perguntas frequentes no site do bot: { $website }
+join-msg-support = Suporte:
+join-msg-support-description = Se precisar de ajuda com o bot, fique à vontade para [juntar-se ao servidor de suporte]({ $invite_url }), um membro do suporte vai ajudá-lo quando estiver disponível.
+button-no-perms = Você não tem permissão para usar este botão.

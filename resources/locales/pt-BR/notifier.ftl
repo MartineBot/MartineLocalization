@@ -1,8 +1,8 @@
-stream-default-msg = { $streamer_name } is live!
+stream-default-msg = { $streamer_name } está ao vivo!
 stream-btn = Abrir transmissão
 untitled-broadcast = Transmissão sem nome
 viewer-count = Espectadores assistindo
-streamend-title = { $streamer_name } • stream ended!
+streamend-title = { $streamer_name } • A stream terminou!
 streamend-highest-viewers = Máximo de espectadores
 streamend-total-duration = Tempo de transmissão total
 twitch-live = Ao vivo na Twitch
@@ -15,4 +15,4 @@ twitch-stream-lang = Idioma:
 twitch-streamend-games-played = Já jogados
 youtube-live = Ao vivo no YouTube
 youtube-subscribers = Inscritos:
-videos-default-msg = { $name } has posted a new video!
+videos-default-msg = { $name } postou um novo vídeo!

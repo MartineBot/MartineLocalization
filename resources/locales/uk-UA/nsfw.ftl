@@ -13,8 +13,8 @@ invite-me = Запросити мене
 yes = Так
 no = Ні
 btn-fail = Упс! Щось не вдалося з кнопками в цьому повідомленні, скористайтеся командою ще раз.
-amount-too-low = Sorry, but the amount parameter must be at least 1 image! { $emoji }
-amount-too-high = Sorry, but the amount parameter must be less or equal of { $amount } images! { $emoji }
+amount-too-low = На жаль, параметр кількості повинен бути не менше 1 зображення! { $emoji }
+amount-too-high = На жаль, параметр кількості має бути меншим або рівним { $amount } зображень! { $emoji }
 command-no-images-found = Вибачте, я не зміг отримати для вас зображення! Спробуйте ще раз через деякий час. { $emoji }
 command-invalid-category = Вибачте, але це недійсна категорія! { $emoji }
 command-list-categories = Ось список усіх доступних категорій:
@@ -75,8 +75,8 @@ auto-setup-same-categories = Будь ласка, виберіть інші ка
 auto-setup-categories-updated = Категорії автопорно успішно оновлено для { $channel } на: { $categories }
 auto-setup-enable-fail = Не вдалося налаштувати автопорно на цьому каналі. Будь ласка, спробуйте пізніше.
 auto-setup-no-premium =
-    You cannot have more than { $count } autoporn channels per server.
-    However, you can get higher limits with our Premium tiers: { $premium_url }
+    На одному сервері не може бути більше каналів ({ $count }) автопорна.
+    Однак ви можете отримати вищі ліміти з нашими преміум рівнями: { $premium_url }
 auto-setup-no-premium-3 = Максимально можна встановити 25 автопорно каналів.
 auto-setup-enable-no-webhooks-perm =
     Мені потрібен дозвіл «Керувати Webhook», щоб мати змогу надсилати автопорно повідомлення в цьому каналі! 
@@ -99,12 +99,12 @@ auto-status-categories =
 auto-status-getback-btn = Назад до налаштування
 auto-delaymodal-title = Martine — Затримка автопорно
 auto-delaymodal-label = Затримка
-auto-delaymodal-placeholder = The delay in minutes between each autoporn image sent in this channel...
+auto-delaymodal-placeholder = Затримка у хвилинах між кожним зображенням автопорно, надісланим у цьому каналі...
 auto-delaymodal-invalid = Схоже, це некоректне значення. Приклад: 5 хвилин
 auto-delaymodal-toolow = Значення має бути більше ніж 2 хвилини.
 auto-delaymodal-toohigh = Значення має бути менше ніж 60 хвилин.
 auto-delaymodal-success = Затримку автопорно успішно оновлено для { $channel } на `{ $delay }`.
-auto-amountmodal-title = Martine - Autoporn amount of images prompt
+auto-amountmodal-title = Martine — Підказка про кількість зображень автопорна
 auto-amountmodal-label = Кількість
 auto-amountmodal-placeholder = Кількість зображень, які міститиме автопорно повідомлення...
 auto-amountmodal-invalid = Схоже, це некоректне значення. Приклад: 5

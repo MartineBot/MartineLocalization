@@ -75,8 +75,8 @@ auto-setup-same-categories = Sélectionne d'autres catégories que celles actuel
 auto-setup-categories-updated = Les catégories de l'autoporn ont été mises à jour avec succès pour { $channel } vers : { $categories }
 auto-setup-enable-fail = Je n'ai pas pu configurer l'autoporn dans ce salon. Veuillez réessayer plus tard.
 auto-setup-no-premium =
-    You cannot have more than { $count } autoporn channels per server.
-    However, you can get higher limits with our Premium tiers: { $premium_url }
+    Tu ne peux pas avoir plus de { $count } salons autoporn par serveur.
+    Cependant, tu peux obtenir des limites plus élevées avec nos niveaux Premium : { $premium_url }
 auto-setup-no-premium-3 = 25 autoporn channels is the maximum that can be set.
 auto-setup-enable-no-webhooks-perm =
     J'ai besoin de la permission "Gérer les Webhooks" pour pouvoir envoyer des messages autoporn dans ce salon !
@@ -99,12 +99,12 @@ auto-status-categories =
 auto-status-getback-btn = Retour à la configuration
 auto-delaymodal-title = Martine - Délai pour l'autoporn
 auto-delaymodal-label = Délai
-auto-delaymodal-placeholder = The delay in minutes between each autoporn image sent in this channel...
+auto-delaymodal-placeholder = Le délai en minutes entre chaque image envoyée dans ce salon ...
 auto-delaymodal-invalid = Il semble que cette valeur ne soit pas correcte. Exemple : 5 minutes
 auto-delaymodal-toolow = La valeur doit être supérieure à 2 minutes.
 auto-delaymodal-toohigh = La valeur doit être inférieure à 60 minutes.
 auto-delaymodal-success = Mise à jour réussie du délai de l'autoporn pour { $channel } vers `{ $delay }`.
-auto-amountmodal-title = Martine - Autoporn amount of images prompt
+auto-amountmodal-title = Martine - Quantité d'images pour l'autoporn
 auto-amountmodal-label = Quantité
 auto-amountmodal-placeholder = La quantité d'images qu'un message autoporn contiendra...
 auto-amountmodal-invalid = Il semble que cette valeur ne soit pas correcte. Exemple : 5

@@ -3,29 +3,29 @@ disabled-msg =
     O sistema de níveis não está habilitado neste servidor.
     O administrador ou alguém que possa gerenciar este servidor pode ativar com o comando { $cmd_mention }!
 # max.length: 100
-help-profile = Shows your profile card or the one of another member.
+help-profile = Mostra o seu cartão de perfil ou um de outro membro.
 profile-nobots = Desculpe, mas bots não possuem perfis! { $emoji }
 profile-noexp-author = Você ainda não ganhou nenhum ponto de experiência! Continue mandando mensagens.
 profile-noexp-other = Este membro ainda não ganhou nenhum ponto de experiência!
 profile-image-failed = Desculpe, algo deu errado enquanto tentava recuperar essa imagem de perfil. Por favor, tente mais tarde. { $emoji }
 profile-vote-btn = De um upvote para um bônus de 10% em pontos de experiência!
 profile-exp-boost-active = Bônus de 10% de experiência ativado! (Razão: `{ $reason }`)
-profile-card = { $member } profile card
+profile-card = { $member } cartão de perfil
 # max.length: 100
-help-lvltop = Shows top 10 of levels of this server.
+help-lvltop = Mostra os top 10 níveis desse servidor.
 # max.length: 100
-help-reptop = Shows top 10 of rep of this server.
+help-reptop = Mostra os top 10 de reputações nesse servidor.
 top-image-failed = Desculpe, algo deu errado enquanto tentava recuperar essa imagem do servidor. Por favor, tente mais tarde. { $emoji }
 lvltop-nodata = Parece que nenhum membro adquiriu experiência com a Martine por enquanto. { $emoji }
-lvltop-lb = { $server } levels leaderboard
+lvltop-lb = { $server } ranking de níveis
 top-member-rank = Sua posição neste servidor é #{ $rank }
 top-member-norank = Você ainda não é classificado neste servidor
 reptop-nodata = Parece que nenhum membro adquiriu reputação com a Martine por enquanto. { $emoji }
-reptop-lb = { $server } rep leaderboard
+reptop-lb = { $server } ranking de rep
 # max.length: 100
-help-rep = Gives a reputation point to a member of this server.
+help-rep = Dá um ponto de reputação a um membro deste servidor.
 # max.length: 100
-rep-parameter-member-description = The member to give a reputation point.
+rep-parameter-member-description = O membro a se dar um ponto de reputação.
 rep-no-self = Você não pode dar pontos de reputação a si mesmo. { $emoji }
 rep-nobots = Desculpe, mas bots não podem receber pontos de reputação! { $emoji }
 rep-cooldown =
@@ -35,110 +35,110 @@ rep-success =
     { $member }, você recebeu um ponto de reputação de { $author }!
     Você agora tem { $rep_count } pontos de reputação! { $emoji }
 # max.length: 100
-help-lvlset = Manage all leveler settings.
+help-lvlset = Gerenciar todas as configurações do nivelador.
 # max.length: 100
-help-lvlset_show = Shows the current settings of this server.
+help-lvlset_show = Mostra as configurações atuais deste servidor.
 # max.length: 100
-help-lvlset_toggle = Enable/disable leveling in this server.
+help-lvlset_toggle = Ativa/desativa o nivelamento neste servidor.
 # max.length: 100
-help-lvlset_setlvl = Set manually the level of a member.
+help-lvlset_setlvl = Estabeleça manualmente o nível de um membro.
 # max.length: 100
-lvlset_setlvl-parameter-level-description = The level to give to the member.
+lvlset_setlvl-parameter-level-description = O nível a ser dado ao membro.
 # max.length: 100
-lvlset_setlvl-parameter-member-description = The member to update its level. (Min. 1 and max. 9999)
+lvlset_setlvl-parameter-member-description = O membro para atualizar seu nível. (Min. 1 and max. 9999)
 # max.length: 100
-help-lvlset_resetrep = Reset reputation points of a selected member.
+help-lvlset_resetrep = Resetar os pontos de reputação de um membro selecionado.
 # max.length: 100
-lvlset_resetrep-parameter-member-description = The member to reset levels and exp.
+lvlset_resetrep-parameter-member-description = O membro para resetar níveis e exp.
 # max.length: 100
-help-lvlset_resetlvl = Reset level and exp of a selected member.
+help-lvlset_resetlvl = Resetar nível e exp de um membro selecionado.
 # max.length: 100
-lvlset_resetlvl-parameter-member-description = The member to reset reputation points.
+lvlset_resetlvl-parameter-member-description = O membro para resetar os pontos de reputação.
 # max.length: 100
-help-lvlset_resetrepall = Reset reputation points of all stored members.
+help-lvlset_resetrepall = Resetar os pontos de pontuação de todos os membros armazenados.
 # max.length: 100
-help-lvlset_resetlvlall = Reset level and exp of all stored members.
+help-lvlset_resetlvlall = Resetar nível e exp de um membro selecionado.
 # max.length: 100
-help-lvlset_roles = Manage roles reward.
+help-lvlset_roles = Gerenciar recompensas de cargo.
 # max.length: 100
-help-lvlset_roles_mode = Set if members will only have the higher role reward, or if it will be cumulative.
+help-lvlset_roles_mode = Defina se os membros terão apenas a recompensa de um cargo mais alto ou se será cumulativa.
 # max.length: 100
-help-lvlset_roles_add = Adds a reward role.
+help-lvlset_roles_add = Adicionar um cargo de recompensa.
 # max.length: 100
-lvlset_roles_add-parameter-level-description = The level on which you want to bind the role.
+lvlset_roles_add-parameter-level-description = O nível no qual você deseja vincular o cargo.
 # max.length: 100
-lvlset_roles_add-parameter-role-description = The role that will be added for this level.
+lvlset_roles_add-parameter-role-description = O cargo que será adicionado para este nível.
 # max.length: 100
-help-lvlset_roles_remove = Removes a reward role.
+help-lvlset_roles_remove = Remover um cargo de recompensa.
 # max.length: 100
-lvlset_roles_remove-parameter-level-description = The level on which the role is currently binded.
+lvlset_roles_remove-parameter-level-description = O nível no qual o cargo está vinculado no momento.
 # max.length: 100
-help-lvlset_lvlup = Manage level ups settings.
+help-lvlset_lvlup = Gerenciar configurações de subidas de nível.
 # max.length: 100
-help-lvlset_lvlup_destination = Set the destination of level up messages.
+help-lvlset_lvlup_destination = Definir o destino das mensagens de subida de nível.
 # max.length: 100
-lvlset_lvlup_destination-parameter-destination-description = member for member's DMs, current for current lvlup channel, or channel ID/mention.
+lvlset_lvlup_destination-parameter-destination-description = membro para DMs dos membros, atual do canal de lvlup ou ID/menção (channel).
 # max.length: 100
-help-lvlset_lvlup_message = Set the level up message.
+help-lvlset_lvlup_message = Defina as mensagens de subida de nível.
 # max.length: 100
-lvlset_lvlup_message-parameter-message-description = You can use `[member]` for member mention, and `[lvl]` for the level the member reached.
+lvlset_lvlup_message-parameter-message-description = Você pode usar `[member]` para menção do membro, e `[lvl]`para o nível que o membro alcançou.
 # max.length: 100
-help-lvlset_exp = Manage exp settings.
+help-lvlset_exp = Gerenciar configurações de exp.
 # max.length: 100
-help-lvlset_exp_rate = Set the exp rate/multiplier. From 0.1 to 5.0. Default to 1.0.
+help-lvlset_exp_rate = Defina a taxa/multiplicador de exp. De 0,1 a 5,0. Padrão para 1,0.
 # max.length: 100
-lvlset_exp_rate-parameter-rate-description = The exp rate to set.
+lvlset_exp_rate-parameter-rate-description = A taxa de exp a definir.
 # max.length: 100
-help-lvlset_exp_message = Set how much exp will be given for a message sent.
+help-lvlset_exp_message = Defina a quantidade de exp que será atribuída a uma mensagem enviada.
 # max.length: 100
-lvlset_exp_message-parameter-minimum-description = The minimum exp that will be given. (Max. 200)
+lvlset_exp_message-parameter-minimum-description = O exp mínimo que será dado. (Max. 200)
 # max.length: 100
-lvlset_exp_message-parameter-maximum-description = The maximum exp that will be given. (Max. 200)
+lvlset_exp_message-parameter-maximum-description = O exp máximo que será dado. (Max. 200)
 # max.length: 100
-help-lvlset_exp_cooldown = [Server Premium Silver] Set the exp cooldown in seconds. Default is 60.
+help-lvlset_exp_cooldown = [Server Premium Silver] Defina o cooldown de exp em segundos. O padrão é 60.
 # max.length: 100
-lvlset_exp_cooldown-parameter-cooldown-description = The cooldown value (in seconds) to set. Must be between 10s and 21600s. Default is 60.
+lvlset_exp_cooldown-parameter-cooldown-description = O valor do cooldown (em segundos) a ser definido. Deve estar entre 10s e 21600s. O padrão é 60.
 # max.length: 100
-help-lvlset_exp_msglength = [Server Premium Silver] Set minimum message length for exp gain. Default is 20.
+help-lvlset_exp_msglength = [Server Premium Silver] Defina o tamanho mínimo da mensagem para ganho de exp. O padrão é 20.
 # max.length: 100
-help-lvlset_ignore = Manage ignore settings.
+help-lvlset_ignore = Gerenciar configurações de ignorar.
 # max.length: 100
-help-lvlset_ignore_addchannel = Add a channel where members will not get exp.
+help-lvlset_ignore_addchannel = Adicionar um canal onde os membros não receberão exp.
 # max.length: 100
-lvlset_ignore_addchannel-parameter-channel-description = The channel to add to the ignore list.
+lvlset_ignore_addchannel-parameter-channel-description = O canal a ser adicionado à lista de ignorados.
 # max.length: 100
-help-lvlset_ignore_rmchannel = Remove an ignored channel.
+help-lvlset_ignore_rmchannel = Remove um canal ignorado.
 # max.length: 100
-lvlset_ignore_rmchannel-parameter-channel-description = The channel to remove from the ignore list. Must be a text channel.
+lvlset_ignore_rmchannel-parameter-channel-description = O canal a ser removido da lista de ignorados. Deve ser um canal de texto.
 # max.length: 100
-help-lvlset_ignore_addrole = Add a role where members will not get exp.
+help-lvlset_ignore_addrole = Adiciona um cargo cujos membros não ganharão experiência.
 # max.length: 100
-lvlset_ignore_addrole-parameter-role-description = The role to add to the ignore list.
+lvlset_ignore_addrole-parameter-role-description = O cargo a ser adicionado à lista de ignorados.
 # max.length: 100
-help-lvlset_ignore_rmrole = Remove an ignored role.
+help-lvlset_ignore_rmrole = Remove um cargo ignorado.
 # max.length: 100
-lvlset_ignore_rmrole-parameter-role-description = The role to remove from the ignore list.
+lvlset_ignore_rmrole-parameter-role-description = O cargo a ser removido da lista de ignorados.
 # max.length: 100
-help-lvlset_rep = Manage rep settings.
+help-lvlset_rep = Gerenciar configurações de rep.
 # max.length: 100
-help-lvlset_rep_cooldown = Set the rep cooldown in seconds. Default is 5 minutes (300s).
+help-lvlset_rep_cooldown = Defina o cooldown de rep em segundos. O padrão é 5 minutos (300s).
 # max.length: 100
-lvlset_rep_cooldown-parameter-cooldown-description = The rep cooldown value. Default is 5 minutes (300s).
+lvlset_rep_cooldown-parameter-cooldown-description = O valor do cooldown do rep. O padrão é 5 minutos (300s).
 # max.length: 100
-help-lvlset_rep_mention = Set whether or not the rep member will be mentionned.
+help-lvlset_rep_mention = Defina se o membro do rep será ou não mencionado.
 # max.length: 100
-help-profileset = Change your leveler's profile settings.
+help-profileset = Altere as configurações de perfil do seu nivelador.
 # max.length: 100
-help-profileset_show = Shows your current profile settings.
+help-profileset_show = Mostra suas configurações de perfil atuais.
 # max.length: 100
-help-profileset_background = View available profile backgrounds, and change it.
+help-profileset_background = Veja os fundos de perfil disponíveis e altere-os.
 # max.length: 100
-help-profileset_color = Set the secondary color.
+help-profileset_color = Define a cor secundária.
 # max.length: 100
-profileset_color-parameter-color-description = The color value.
+profileset_color-parameter-color-description = O valor da cor.
 # max.length: 100
-help-profileset_description = Change your description. Reset by don't providing a description.
+help-profileset_description = Altere sua descrição. Resete não fornecendo uma descrição.
 # max.length: 100
-profileset_description-parameter-description-description = The description value.
+profileset_description-parameter-description-description = O valor da descrição.
 # max.length: 100
-help-profileset_resetrep = Reset your reputation points.
+help-profileset_resetrep = Restaura seus pontos de reputação.

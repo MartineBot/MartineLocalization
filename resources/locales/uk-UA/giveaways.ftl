@@ -70,7 +70,7 @@ giveaway-setup-error = Помилка:
 giveaway-setup-cancelled = Налаштування роздачі скасовано.
 giveaway-setup-timeout =
     { $giveaway-setup-cancelled }
-    User took too much time to answer.
+    Користувач витратив занадто багато часу на відповідь.
 giveaway-setup-too-many-fails =
     { $giveaway-setup-cancelled }
     Користувач не зміг дати правильну відповідь після 5 спроб.

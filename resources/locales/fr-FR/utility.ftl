@@ -15,7 +15,7 @@ help-nsfwchannel = Envoie des instructions sur la configuration d'un canal NSFW.
 # max.length: 100
 help-vote = Envoie les liens pour voter pour Martine sur les listes de bots.
 # max.length: 100
-help-selfblock = Add yourself to the bot's blocklist, to opt out from data collection.
+help-selfblock = Ajoutez-vous à la liste noire du bot, pour vous retirer de la collecte de données.
 # max.length: 100
 help-premium = Vérifiez le statut de votre Premium et celui de ce serveur.
 # max.length: 100

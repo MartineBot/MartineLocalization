@@ -28,7 +28,7 @@ streams-same-endbehavior = Por favor, selecione um comportamento diferente do at
 streams-endbehavior-changed = Comportamento de finalização da transmissão foi atualizado com sucesso.
 streams-msg-modal = Editor de alertas da transmissão
 streams-msg-label = Defina a mensagem de alerta enviada ao iniciar uma transmissão.
-streams-msg-placeholder = { "{" }streamer{ "}" } = the streamer name - { "{" }everyone{ "}" } = @everyone ping - { "{" }here{ "}" } = @here ping
+streams-msg-placeholder = { "{" }streamer{ "}" } = nome do streamer - { "{" }everyone{ "}" } = menção @everyone - { "{" }here{ "}" } = menção @here
 streams-msg-changed = Mensagem de alerta ao iniciar uma transmissão atualizada com sucesso!
 # $source will be the source of the stream alert.
 streams-added = Alerta de transmissão do(a) { $source } foi adicionado com sucesso naquele canal!
@@ -44,14 +44,14 @@ videos-message = Mensagem
 videos-settings-msg-btn = Editar mensagem
 videos-msg-modal = Editor de alertas de vídeos
 videos-msg-label = Defina a mensagem enviada em alertas de vídeos.
-videos-msg-placeholder = { "{" }name{ "}" } = the video creator name - { "{" }everyone{ "}" } = @everyone ping - { "{" }here{ "}" } = @here ping
-videos-msg-changed = Successfully updated the videos alerts message!
-videos-count = { $source } videos alerts in this server
-videos-added = Successfully added this { $source } channel as a alert in that channel!
+videos-msg-placeholder = { "{" }name{ "}" } = nome do criador do vídeo - { "{" }everyone{ "}" } = menção @everyone - { "{" }here{ "}" } = menção @here
+videos-msg-changed = Atualizou com sucesso as mensagens de alertas de vídeos!
+videos-count = { $source } Alertas de vídeo neste servidor
+videos-added = Adicionou com sucesso os alertas do canal { $source } neste canal!
 videos-added-tip =
-    A alert will be sent whenever the next video is posted.
-    You can update the videos alerts settings using { $cmd_mention } command.
-videos-removed = Successfully removed this { $source } channel alert from this channel!
+    Um alerta será enviado quando o próximo vídeo for postado.
+    Você pode atualizar as configurações dos alertas de vídeos usando o comando { $cmd_mention }.
+videos-removed = Removeu com sucesso os alertas do canal { $source } deste canal!
 yt-notfound =
     Não foi possível encontrar esse usuário do Youtube.
     Tente novamente colando a URL do canal em https://commentpicker.com/youtube-channel-id.php e copie o valor de "Channel ID".
@@ -64,16 +64,16 @@ help-alerts_videos_youtube = Gerenciar um alerta de vídeo para um usuário do Y
 # max.length: 100
 alerts_videos_youtube-parameter-user_name_or_id-description = O nome do canal do YouTube ou ID.
 # max.length: 100
-help-alerts_videos_settings = Manage videos alerts settings.
+help-alerts_videos_settings = Gerencie configurações de alertas de vídeos.
 # max.length: 100
-help-alerts_streams = Manage streams alerts in this server.
+help-alerts_streams = Gerencie alertas de streams neste servidor.
 # max.length: 100
-help-alerts_streams_youtube = Manage a stream alert for a YouTube user.
+help-alerts_streams_youtube = Gerencie um alerta de stream para um usuário do YouTube.
 # max.length: 100
 alerts_streams_youtube-parameter-user_name_or_id-description = O nome do canal do YouTube ou ID.
 # max.length: 100
-help-alerts_streams_twitch = Manage a stream alert for a Twitch user.
+help-alerts_streams_twitch = Gerencie um alerta de stream para um usuário da Twitch.
 # max.length: 100
-alerts_streams_twitch-parameter-user_name_or_url-description = The Twitch channel name or URL.
+alerts_streams_twitch-parameter-user_name_or_url-description = O nome do canal da Twitch ou URL.
 # max.length: 100
-help-alerts_streams_settings = Manage streams alerts settings.
+help-alerts_streams_settings = Gerencie as configurações de alertas de streams.

@@ -83,7 +83,7 @@ help-lvlset_lvlup_message = Set the level up message.
 # max.length: 100
 lvlset_lvlup_message-parameter-message-description = You can use `[member]` for member mention, and `[lvl]` for the level the member reached.
 # max.length: 100
-help-lvlset_exp = Manage exp settings.
+help-lvlset_exp = Керування налаштуваннями досвіду.
 # max.length: 100
 help-lvlset_exp_rate = Set the exp rate/multiplier. From 0.1 to 5.0. Default to 1.0.
 # max.length: 100
@@ -107,9 +107,9 @@ help-lvlset_ignore_addchannel = Add a channel where members will not get exp.
 # max.length: 100
 lvlset_ignore_addchannel-parameter-channel-description = The channel to add to the ignore list.
 # max.length: 100
-help-lvlset_ignore_rmchannel = Remove an ignored channel.
+help-lvlset_ignore_rmchannel = Вилучити ігнорований канал.
 # max.length: 100
-lvlset_ignore_rmchannel-parameter-channel-description = The channel to remove from the ignore list. Must be a text channel.
+lvlset_ignore_rmchannel-parameter-channel-description = Канал для вилучення зі списку ігнорування. Має бути текстовий канал.
 # max.length: 100
 help-lvlset_ignore_addrole = Add a role where members will not get exp.
 # max.length: 100
@@ -119,7 +119,7 @@ help-lvlset_ignore_rmrole = Вилучити проігноровану роль
 # max.length: 100
 lvlset_ignore_rmrole-parameter-role-description = Роль, яку потрібно вилучити зі списку ігнорування.
 # max.length: 100
-help-lvlset_rep = Manage rep settings.
+help-lvlset_rep = Керування налаштуваннями репутації.
 # max.length: 100
 help-lvlset_rep_cooldown = Set the rep cooldown in seconds. Default is 5 minutes (300s).
 # max.length: 100
@@ -131,14 +131,14 @@ help-profileset = Change your leveler's profile settings.
 # max.length: 100
 help-profileset_show = Показує ваші поточні налаштування профілю.
 # max.length: 100
-help-profileset_background = View available profile backgrounds, and change it.
+help-profileset_background = Переглянути доступні фони профілю та змініти їх.
 # max.length: 100
-help-profileset_color = Set the secondary color.
+help-profileset_color = Установити додатковий колір.
 # max.length: 100
-profileset_color-parameter-color-description = The color value.
+profileset_color-parameter-color-description = Значення кольору.
 # max.length: 100
-help-profileset_description = Change your description. Reset by don't providing a description.
+help-profileset_description = Змінити опис. Скинути, не надаючи опис.
 # max.length: 100
-profileset_description-parameter-description-description = The description value.
+profileset_description-parameter-description-description = Значення опису.
 # max.length: 100
-help-profileset_resetrep = Reset your reputation points.
+help-profileset_resetrep = Скинути свої бали репутації.

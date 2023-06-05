@@ -11,7 +11,7 @@ slash-help-msg-cmds = Comandos de mensagem:
 slash-help-extra-links = Links extras:
 # Suggestions form modal
 mart-sugg-form = Formulário de sugestões para Martine
-mart-sugg-short = Curta descrição
+mart-sugg-short = Descrição curta
 mart-sugg-short-placeholder = Uma breve descrição da sua sugestão...
 mart-sugg-long = Longa descrição
 mart-sugg-long-placeholder = Explique com detalhes em que consiste sua sugestão...
@@ -51,32 +51,32 @@ si-boosts-for-next-lvl = boosts para o nível
 si-bot-join-date = entrou no servidor em
 si-server-id = ID do Servidor
 si-shard-id = Bot shard ID
-si-users-badges = Users badges in
+si-users-badges = Emblemas do usuário em
 si-si-btn = Informações do servidor
-si-badges-btn = View members badges
-si-assets-btn = View server assets
+si-badges-btn = Ver emblemas dos membros
+si-assets-btn = Ver ativos do servidor
 si-icon = Ícone
 si-banner-btn = Banner
-si-invite-bg-btn = Invite Background
-si-back-si-btn = Get back to server info
+si-invite-bg-btn = Plano de fundo do convite
+si-back-si-btn = Voltar às informações do servidor
 # userinfo command
 # max.length: 100
 help-userinfo = Mostra informações sobre um usuário.
 ui-app-info = Informações do aplicativo
-ui-app-tags = Marcadores
+ui-app-tags = Tags
 ui-app-tags-empty = Vazio
-ui-app-flags = Application flags
-ui-app-presence = Presence Intent
-ui-app-members = Server Members Intent
-ui-app-msg = Message Content Intent
-ui-app-misc = Misc
+ui-app-flags = Sinalizadores de aplicação
+ui-app-presence = Presença de interação
+ui-app-members = Interação dos membros do servidor
+ui-app-msg = Contém interação de mensagem
+ui-app-misc = Outros
 ui-app-public = Público
 ui-app-slug = Slug
 ui-app-tos = Termos de Serviço
 ui-app-privacy = Política de Privacidade
 ui-app-add = Adicionar no servidor
 ui-created-on = Criado em:
-ui-badges = Badges
+ui-badges = Emblemas
 ui-id = ID do Usuário:
 ui-userinfo-field = Informação do usuário
 ui-mention = Menção
@@ -85,30 +85,30 @@ ui-member = Dados do membro
 ui-member-joined = Entrou:
 ui-in-channel = canal:
 ui-booster-since = Impulsionado desde:
-ui-member-nick = Nickname:
-ui-customstatus-emojiandname = Custom status: { $emoji } { $name }
-ui-customstatus-emoji = Custom status: { $emoji }
-ui-customstatus-name = Custom status: { $name }
-ui-playing = Playing { $name }
-ui-streaming = Streaming { $name }
-ui-listening = Listening to { $name }
-ui-watching = Watching { $name }
-ui-competing = Competing in { $name }
+ui-member-nick = Apelido:
+ui-customstatus-emojiandname = Status personalizado: { $emoji } { $name }
+ui-customstatus-emoji = Status personalizado: { $emoji }
+ui-customstatus-name = Status personalizado: { $name }
+ui-playing = Jogando { $name }
+ui-streaming = Transmitindo { $name }
+ui-listening = Ouvindo { $name }
+ui-watching = Assistindo { $name }
+ui-competing = Competindo em { $name }
 ui-roles = Cargos
 ui-member = Membro
 ui-select-assets = Visualizar avatar ou banner do usuário...
 ui-select-banner = Banner
 ui-select-avatar = Avatar
-ui-select-server-avatar = Server avatar
-ui-no-banner = No banner set.
-ui-user-avatar = { $user } user avatar
-ui-server-avatar = { $user } server avatar
-ui-no-server-avatar = No server avatar set.
+ui-select-server-avatar = Avatar do servidor
+ui-no-banner = Sem banner.
+ui-user-avatar = { $user } avatar do usuário
+ui-server-avatar = { $user } avatar do servidor
+ui-no-server-avatar = Sem avatar do servidor.
 ui-back-btn = Voltar para as informações do usuário
 ui-perms-btn = Visualizar permissões de membro
 # channelinfo command
 # max.length: 100
-help-channelinfo = Shows information about a channel. Default to current.
+help-channelinfo = Mostra informações sobre um canal. Padrão atual.
 ci-created = Criado em
 ci-no-topic = Sem tópico.
 ci-position = Posição
@@ -117,12 +117,12 @@ ci-slowmode = Modo lento
 ci-webhooks = Webhooks
 ci-threads = Tópicos
 ci-archived = Arquivado
-ci-archived-time = Archived Time
-ci-archiver = Archiver
+ci-archived-time = Tempo arquivado
+ci-archiver = Arquivado
 ci-private = Privado
 ci-messages = Mensagens
 ci-owner = Dono
-ci-parent = Parent
+ci-parent = Principal
 ci-region = Região
 ci-region-automatic = Automático
 ci-bitrate = Bitrate
@@ -132,33 +132,33 @@ ci-details-field = Detalhes
 ci-id = ID do Canal:
 # roleinfo command
 # max.length: 100
-help-roleinfo = Shows information about a role.
+help-roleinfo = Mostra informações sobre um cargo.
 ri-created = Criado em
 ri-members = Membros
 ri-colour = Cor
 ri-position = Posição
 ri-hoisted = Hoisted
-ri-managed = Managed
-ri-mentionnable = Mentionnable
+ri-managed = Gerenciado
+ri-mentionnable = Mencionável
 ri-id = ID do Cargo:
 # emojiinfo command
 # max.length: 100
-help-emojiinfo = Shows information about an emoji.
+help-emojiinfo = Mostra informações sobre um emoji.
 em-react = Reaja a esta mensagem com um emoji de sua escolha
 em-cancelled = Cancelado
-em-unicode-char = Unicode character
-em-unicode-category = Unicode category
+em-unicode-char = Caracteres Unicode
+em-unicode-category = Categoria Unicode
 em-animated = Animados
 em-created = Criado em
 em-required = obrigatório
-em-managed = Managed
+em-managed = Gerenciado
 em-server = Servidor
 em-roles = Cargos
 em-custom = Emoji personalizado
 em-id = ID do Emoji
 # stickerinfo command
 # max.length: 100
-help-stickerinfo = Shows information about a sticker.
+help-stickerinfo = Mostra informações sobre uma figurinha.
 sti-nothing = Não há figurinhas nesta mensagem.
 sti-failed = Falha ao procurar informações sobre esta figurinha.
 sti-no-desc = Sem descrição
@@ -167,42 +167,42 @@ sti-server = Figurinha do servidor
 sti-emoji = Emoji
 sti-created = Criado em
 sti-standard = Figurinha padrão
-sti-pack = Pack
+sti-pack = Pacote
 sti-tags = marcadores
 sti-id = ID da Figurinha
 # donate command
 # max.length: 100
-help-donate = Shows the ways to support Martine development.
+help-donate = Mostra as formas de colaborar com o desenvolvimento da Martine.
 donate-title = Aqui estão as formas de ajudar no desenvolvimento da Martine
 donate-kofi = Doações únicas te desbloqueiam um cargo no servidor da Martine, e 10k marts (por cada mês doado).
 donate-patreon = Doações mensais, assine pelo Patreon para conseguir vantagens para você e seu servidor!
 # max.length: 100
-help-ping = Shows the latency estimation of the bot (for the current cluster).
+help-ping = Mostra a estimativa da latência do bot (para o cluster atual).
 # max.length: 100
-help-martine = Get all informations about Martine.
+help-martine = Mostra todas as informações sobre a Martine.
 # max.length: 100
-help-info = Get info of multiple things on Discord.
+help-info = Mostra informações de várias coisas no Discord.
 # max.length: 100
 help-info_user = Mostra informações sobre um usuário.
 # max.length: 100
-info_user-parameter-user-description = The user you want information about.
+info_user-parameter-user-description = O usuário sobre o qual você quer informações.
 # max.length: 100
 help-info_server = Mostra informações sobre o servidor, emblemas e membros ativos.
 # max.length: 100
-help-info_channel = Shows information about a channel. Default to current.
+help-info_channel = Mostra informações sobre um canal. Padrão atual.
 # max.length: 100
-info_channel-parameter-channel-description = The channel you want information about.
+info_channel-parameter-channel-description = O canal sobre o qual você quer informações.
 # max.length: 100
-help-info_role = Shows information about a role.
+help-info_role = Mostra informações sobre um cargo.
 # max.length: 100
-info_role-parameter-role-description = The role you want information about.
+info_role-parameter-role-description = O cargo sobre o qual você quer informações.
 # max.length: 100
 help-info_emoji = Mostra informações sobre um emoji.
 # max.length: 100
 info_emoji-parameter-emoji-description = O emoji sobre o qual você deseja informações.
 # max.length: 100
-help-info_bot_clusters = Shows clusters stats.
+help-info_bot_clusters = Mostra as estatísticas dos clusters.
 # max.length: 100
-help-info_bot_currentcluster = Shows infos about the current cluster.
+help-info_bot_currentcluster = Mostra informações sobre o cluster atual.
 # max.length: 100
-help-help = Get the list of commands and important links.
+help-help = Mostra uma lista de comandos e links importantes.
