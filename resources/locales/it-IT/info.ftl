@@ -86,23 +86,23 @@ ui-member-joined = Aderito il:
 ui-in-channel = canale:
 ui-booster-since = Booster dal:
 ui-member-nick = Nickname:
-ui-customstatus-emojiandname = Custom status: { $emoji } { $name }
-ui-customstatus-emoji = Custom status: { $emoji }
-ui-customstatus-name = Custom status: { $name }
-ui-playing = Playing { $name }
-ui-streaming = Streaming { $name }
-ui-listening = Listening to { $name }
-ui-watching = Watching { $name }
-ui-competing = Competing in { $name }
+ui-customstatus-emojiandname = Stato personalizzato: { $emoji } { $name }
+ui-customstatus-emoji = Stato personalizzato: { $emoji }
+ui-customstatus-name = Stato personalizzato: { $name }
+ui-playing = Giocando a { $name }
+ui-streaming = Guardando { $name } in live
+ui-listening = Ascoltando { $name }
+ui-watching = Guardando { $name }
+ui-competing = Gareggiando su { $name }
 ui-roles = Ruoli
 ui-member = Membro
 ui-select-assets = Visualizza l'avatar o banner dell'utente...
 ui-select-banner = Banner
 ui-select-avatar = Avatar
-ui-select-server-avatar = Server avatar
+ui-select-server-avatar = Avatar del server
 ui-no-banner = Nessun banner impostato.
-ui-user-avatar = { $user } user avatar
-ui-server-avatar = { $user } server avatar
+ui-user-avatar = Avatar dell'utente { $user }
+ui-server-avatar = Avatar del server { $user }
 ui-no-server-avatar = Ancora nessun avatar del server impostato.
 ui-back-btn = Torna alle info dell'utente
 ui-perms-btn = Visualizza le autorizzazioni del membro
@@ -177,32 +177,32 @@ donate-title = Ecco come puoi supportare lo sviluppo di Martine
 donate-kofi = Donazione una tantum: ti sblocca un ruolo sul server di Martine e 10k mart (per mese di donazione).
 donate-patreon = Donazione mensile, diventa un Patron per ottenere dei fantastici vantaggi per te e il tuo server!
 # max.length: 100
-help-ping = Shows the latency estimation of the bot (for the current cluster).
+help-ping = Mostra la stima della latenza del bot (per il cluster corrente).
 # max.length: 100
-help-martine = Get all informations about Martine.
+help-martine = Ottieni tutte le informazioni su Martine.
 # max.length: 100
-help-info = Get info of multiple things on Discord.
+help-info = Ottieni informazioni su svariate cose, su Discord.
 # max.length: 100
 help-info_user = Mostra le informazioni su un utente.
 # max.length: 100
-info_user-parameter-user-description = The user you want information about.
+info_user-parameter-user-description = L'utente di cui desideri ricevere informazioni.
 # max.length: 100
 help-info_server = Mostra le informazioni sul server, i distintivi dei membri e le risorse.
 # max.length: 100
 help-info_channel = Mostra le informazioni su un canale. Predefinito al corrente.
 # max.length: 100
-info_channel-parameter-channel-description = The channel you want information about.
+info_channel-parameter-channel-description = Il canale di cui desideri ricevere informazioni.
 # max.length: 100
 help-info_role = Mostra informazioni su un ruolo.
 # max.length: 100
-info_role-parameter-role-description = The role you want information about.
+info_role-parameter-role-description = Il ruolo di cui desideri ricevere informazioni.
 # max.length: 100
-help-info_emoji = Shows information about a emoji.
+help-info_emoji = Mostra le informazioni su un'emoji.
 # max.length: 100
-info_emoji-parameter-emoji-description = The emoji you want information about.
+info_emoji-parameter-emoji-description = L'email di cui desideri ricevere informazioni.
 # max.length: 100
-help-info_bot_clusters = Shows clusters stats.
+help-info_bot_clusters = Mostra le statistiche del cluster.
 # max.length: 100
-help-info_bot_currentcluster = Shows infos about the current cluster.
+help-info_bot_currentcluster = Mostra informazioni sul cluster corrente.
 # max.length: 100
-help-help = Get the list of commands and important links.
+help-help = Ottieni l'elenco dei comandi e dei collegamenti importanti.

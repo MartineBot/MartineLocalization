@@ -17,41 +17,41 @@ help-vote = Sender linkene til å oppvote Martine på botter lister.
 # max.length: 100
 help-selfblock = Legg deg til i botens blokkeliste, for å velge bort fra datainnsamling.
 # max.length: 100
-help-premium = Premium management commands.
+help-premium = Premium behandlingskommandoer.
 # max.length: 100
-help-premium-status = Gets information about your current Premium status.
+help-premium-status = Hent informasjon om din nåværende Premium-status.
 # max.length: 100
-help-premium-server = Premium server management.
+help-premium-server = Premium server håndtering.
 # max.length: 100
-help-premium-server-activate = Activates Premium in this server, based off your current Patreon subscription.
+help-premium-server-activate = Aktiverer Premium i denne serveren, basert på ditt nåværende Patreon-abonnement.
 # max.length: 100
-help-premium-server-remove = Removes Premium from this server.
-language-invalid = Please try again with a language that is in the list.
-language-current = Please select another language than the one currently selected.
-language-changed = Successfully updated the language on this server to { $language }! { $emoji }
+help-premium-server-remove = Fjerner Premium fra serveren.
+language-invalid = Vennligst prøv igjen med et språk som er i listen.
+language-current = Vennligst velg et annet språk enn det valgte nåværende.
+language-changed = Vellykket oppdatering av språket på denne serveren til { $language }! { $emoji }
 language-contribute =
-    Do you want to help us having more translations to this language? 
-    Here is the link to our Crowdin project to contribute: { $link } { $emoji }
-premium-not-active = Not active
-premium-status-user = Your Premium status
+    Vil du hjelpe oss å ha flere oversettelser til dette språket? 
+    Her er lenken til vårt Crowdinprosjekt som kan bidra: { $link } { $emoji }
+premium-not-active = Ikke aktiv
+premium-status-user = Din Premium status
 premium-tier = **Tier:** { $value }
-premium-since = **Since:** { $value }
-premium-status-servers = Your Premium servers
-premium-unknown-server = Unknown server name
-premium-status-current-server = Current server Premium status
+premium-since = **Siden:** { $value }
+premium-status-servers = Dine Premium servere
+premium-unknown-server = Ukjent servernavn
+premium-status-current-server = Nåværende server Premium status
 premium-server-notsub =
-    It seems that you don't have a Patreon subscription. 
-    Please subscribe to our Patreon to get access to Premium features: { $premium_url }
-    Or maybe you already have one? If so, please click on following url to link your account to Martine: { $premium_link_url }
+    Det virker som du ikke har Patreon abonnement. 
+    Vennligst abonner på vårt Patreon for å få tilgang til Premium-funksjoner: { $premium_url }
+    Eller har du allerede én? Hvis ja, vennligst klikk på følgende url for å koble kontoen din til Martine: { $premium_link_url }
 premium-server-invalid-sub =
-    You have a Premium subscription, but it's not a server subscription therefore I cannot activate Premium in this server.
-    You can find our Premium server subscriptions here: { $premium_url }
-premium-server-already-active = Premium is already activated in this server. { $emoji }
+    Du har Premium abonnement, men det er ikke et server abonnement og jeg kan derfor ikke aktivere Premium i serveren.
+    Du kan finne våre Premium server abonnementer her: { $premium_url }
+premium-server-already-active = Premium er allerede aktivert på denne serveren. { $emoji }
 premium-server-max =
-    You have reached the maximum amount of Premium servers you can have with this subscription. 
-    Please remove a server from your Premium servers list before adding a new one.
+    Du har nådd maksimalt antall Premium servere du kan ha med dette abonnementet. 
+    Vennligst fjern en server fra premium server listen din før du legger til en ny.
 premium-server-activated =
-    Successfully activated { $tier } in this server!
-    You can now enjoy all the Premium features in this server. Thank you for supporting Martine! { $emoji }
-premium-server-remove-not-active = Premium is not activated in this server.
-premium-server-removed = Successfully removed Premium from this server!
+    Vellykket aktivert { $tier } i denne serveren!
+    Du kan nå nyte alle Premium-funksjonene i denne serveren. Takk for at du støtter Martine! { $emoji }
+premium-server-remove-not-active = Premium er ikke aktivert på denne serveren.
+premium-server-removed = Fjernet Premium fra denne serveren!

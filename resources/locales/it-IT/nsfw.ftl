@@ -7,19 +7,22 @@ upvote-msg =
     
     Puoi aggirarlo [potenziando il server di Martine] ({ $server_invite })
 upvote-msg-premium = Od ottenendo uno dei nostri [ranghi Premium]({ $premium_url })!
-discord-server = Server Discord
-get-premium = Ottieni Premium
-invite-me = Invitami
 yes = Sì
 no = No
 btn-fail = Oops! Qualcosa è andato storto con i pulsanti su questo messaggio, sei pregato di riutilizzare il comando.
-amount-too-low = Sorry, but the amount parameter must be at least 1 image! { $emoji }
-amount-too-high = Sorry, but the amount parameter must be less or equal of { $amount } images! { $emoji }
+amount-too-low = Spiacenti, ma il parametro della quantità dev'essere di almeno 1 immagine! { $emoji }
+amount-too-high = Spiacenti, ma il parametro della quantità dev'essere inferiore o uguale a { $amount } immagini! { $emoji }
 command-no-images-found = Spiacenti, non sono riuscita a recuperare un'immagine per te! Sei pregato di riprovare tra poco. { $emoji }
 command-invalid-category = Spiacenti, questa categoria non è valida! { $emoji }
 command-list-categories = Ecco un elenco di tutte le categorie disponibili:
-command-req-by = Richiesto da { $author } { $emoji }
-embed-title = Ecco un'immagine di { $category }... { $emoji }
+msg-category = **Image category:** { $category }
+msg-search-tags = **Search tags:** { $tags }
+msg-requested-by = **Requested by:** { $author }
+msg-invite-me = **Invite me:** { $link }
+msg-premium = **Premium:** { $link }
+msg-discord-server = **Discord Server:** { $link }
+msg-image = **Image:** { $link }
+msg-images = **Images:**
 embed-auto-footer = Utilizza { $cmd_mention } per modificare o disabilitare il ritardo
 command-category-select-placeholder = Seleziona un'altra categoria dell'immagine...
 command-category-next-btn = Pagina successiva
@@ -29,17 +32,15 @@ command-category-prev-btn-desc = Torna alle categorie visualizzate in precedenza
 command-open-img-btn = Apri Immagine
 command-report-img-btn = Segnala Immagine
 command-post-url-btn = URL del Post
-embed-booru-tags = Cerca tag: { $tags }
-command-multiple-title = Here are some { $category } images... { $emoji }
-image-report-title = Martine - NSFW Image report
-image-report-label = Image number or URL
-image-report-placeholder = The image number or its URL...
+image-report-title = Martine - Segnalazione Immagine NSFW
+image-report-label = Numero o URL dell'immagine
+image-report-placeholder = Il numero o l'URL dell'immagine...
 image-report-success =
-    Here is the report link:
+    Ecco il link di segnalazione:
     { $link }
-image-report-invalid-url = Sorry, but this is not a valid image!
-booru-previous-img-btn = Previous image
-booru-next-img-btn = Next image
+image-report-invalid-url = Spiacenti, quest'immagine non è valida!
+booru-previous-img-btn = Immagine precedente
+booru-next-img-btn = Immagine successiva
 booru-too-many-tags-nopremium = Spiacenti, puoi cercare un massimo di 10 tag! Altrimenti, puoi ottenere Premium per aumentare il limite fino a 30 tag! { $emoji }
 booru-too-many-tags = Spiacenti, non puoi cercare più di 30 tag! { $emoji }
 booru-blocked-tag = Uno di questi tag contiene un tag bloccato. Sei pregato di riprovare. { $emoji }
@@ -58,7 +59,7 @@ auto-setup-description =
 auto-setup-current = Impostazioni correnti:
 auto-setup-enabled = **Abilitato:** { $enabled }
 auto-setup-delay = **Ritardo:** { $delay }
-auto-setup-amount = **Amount:** { $amount }
+auto-setup-amount = **Quantità:** { $amount }
 auto-setup-categories = Categorie abilitate:
 auto-setup-selected-categories = Categorie selezionate:
 auto-setup-footer = Utilizza il pulsante "Aggiorna categorie" dopo aver selezionato quelle di tua scelta
@@ -66,7 +67,7 @@ auto-setup-select-placeholder-disabled = Abilita per selezionare le categorie
 auto-setup-categories-btn = Aggiorna le categorie
 auto-setup-clear-categories-btn = Cancella le categorie selezionate
 auto-setup-delay-btn = Modifica ritardo
-auto-setup-amount-btn = Change amount
+auto-setup-amount-btn = Modifica quantità
 auto-setup-status-btn = Stato su questo server
 auto-setup-select-placeholder = Seleziona le categorie
 auto-setup-enable-btn = Abilita
@@ -75,8 +76,8 @@ auto-setup-same-categories = Sei pregato di selezionare delle altre categorie, o
 auto-setup-categories-updated = Categorie dell'auto-porn aggiornate correttamente per { $channel } in: { $categories }
 auto-setup-enable-fail = Non sono riuscita a configurare l'auto-porn su questo canale. Sei pregato di riprovare più tardi.
 auto-setup-no-premium =
-    You cannot have more than { $count } autoporn channels per server.
-    However, you can get higher limits with our Premium tiers: { $premium_url }
+    Non puoi avere più di { $count } canali auto-porn per server.
+    Tuttavia, puoi incrementare i limiti con i nostri ranghi Premium: { $premium_url }
 auto-setup-no-premium-3 = Puoi impostare al massimo 25 canali di auto-porn.
 auto-setup-enable-no-webhooks-perm = Necessito dell'autorizzazione "Gestisci Webhook" per poter inviare i messaggi di auto-porn su questo canale! La funzionalità di auto-porn utilizza i webhook per fornire immagini nelle migliori condizioni, in termini di ritardo.
 auto-setup-disable-no-webhooks-perm = Necessito dell'autorizzazione "Gestisci Webhook" per poter disabilitare completamente l'auto-porn su questo canale.
@@ -85,7 +86,7 @@ auto-setup-enabled-success = Auto-porn abilitato in { $channel }.
 auto-setup-enabled-tip = Le immagini sono inviate ogni 5 minuti di default. Utilizza il pulsante `Modifica ritardo` per aggiornarlo.
 auto-setup-disabled = Auto-porn disabilitato in { $channel }.
 auto-setup-delay-no-premium = Il ritardo dell'auto-porn può essere modificato per i server di rango 'Premium Server Silver' (o superiori)! Dai un'occhiata ai ranghi Premium, qui: { $premium_url }
-auto-setup-amount-no-premium = Autoporn amount can only be changed for `Premium Server Silver` tier (or higher) servers! Check out our Premium tiers here: { $premium_url }
+auto-setup-amount-no-premium = La quantità di auto-porn è modificabile soltanto per i server di rango `Premium Server Silver` (o superiori)! Consulta i nostri ranghi Premium, qui: { $premium_url }
 auto-status-title = Stato dell'auto-porn su { $guild }
 auto-status-title-none = L'auto-porn non è configurato da alcuna parte, su questo server.
 auto-status-msg-sent = **Messaggi inviati:** { $count }
@@ -97,18 +98,18 @@ auto-status-categories =
 auto-status-getback-btn = Torna alla configurazione
 auto-delaymodal-title = Martine - Ritardo Immediato Auto-porn
 auto-delaymodal-label = Ritardo
-auto-delaymodal-placeholder = The delay in minutes between each autoporn image sent in this channel...
+auto-delaymodal-placeholder = Il ritardo in minuti tra ogni immagine inviata dell'auto-porn in questo canale...
 auto-delaymodal-invalid = Sembra che questo non sia un valore corretto. Esempio: 5 minuti
 auto-delaymodal-toolow = Il valore dev'essere superiore a 2 minuti.
 auto-delaymodal-toohigh = Il valore dev'essere inferiore a 60 minuti.
 auto-delaymodal-success = Ritardo dell'auto-porn aggiornato correttamente per { $channel } in `{ $delay }`.
-auto-amountmodal-title = Martine - Autoporn amount of images prompt
-auto-amountmodal-label = Amount
-auto-amountmodal-placeholder = The amount of images a autoporn message will contain...
-auto-amountmodal-invalid = Looks like this is not a correct value. Example: 5
-auto-amountmodal-toolow = The value must be over than 1.
-auto-amountmodal-toohigh = The value must be less than 5.
-auto-amountmodal-success = Successfully updated autoporn amount for { $channel } to `{ $amount }`.
+auto-amountmodal-title = Martine - Quantità richiesta di immagini dell'auto-porn
+auto-amountmodal-label = Quantità
+auto-amountmodal-placeholder = La quantità di immagini che un messaggio dell'auto-porn conterrà...
+auto-amountmodal-invalid = Sembra che questo non sia un valore corretto. Esempio: 5
+auto-amountmodal-toolow = Il valore dev'essere maggiore di 1.
+auto-amountmodal-toohigh = Il valore dev'essere minore di 5.
+auto-amountmodal-success = Quantità dell'auto-porn aggiornata correttamente per { $channel }, a `{ $amount }`.
 auto-setup-timeout-title = Configurazione auto-porn
 auto-setup-timeout-description = Questo messaggio di configurazione è scaduto!
 auto-task-disabled =
@@ -129,42 +130,42 @@ auto-cleanup-msg =
     Ottieni Premium per ottenere nuovamente l'accesso a ulteriori canali di auto-porn! { $emoji }
     { $premium_url }
 # max.length: 100
-help-autoporn = Setup autoporn in this channel, and see the status of it on this server.
+help-autoporn = Configura l'auto-porn in questo canale e visualizzane lo stato su questo server.
 # max.length: 100
-help-nsfw = Send nsfw images of many categories!
+help-nsfw = Invia immagini NSFW di molte categorie!
 # max.length: 100
-nsfw-parameter-category-description = The image category.
+nsfw-parameter-category-description = La categoria dell'immagine.
 # max.length: 100
-nsfw-parameter-amount-description = The amount of images to send.
+nsfw-parameter-amount-description = La quantità di immagini da inviare.
 # max.length: 100
-nsfw-parameter-private-description = Set to True and the command will only be visible to you.
+nsfw-parameter-private-description = Imposta a True e il comando sarà visibile soltanto a te.
 # max.length: 100
-help-nsfwbomb = Send multiple Nsfw images in one command between an interval of 2 seconds.
+help-nsfwbomb = Invia svariate immagini NSFW in un comando, a intervalli di 2 secondi.
 # max.length: 100
-nsfwbomb-parameter-amount-description = The amount of images.
+nsfwbomb-parameter-amount-description = La quantità di immagini.
 # max.length: 100
-nsfwbomb-parameter-category-description = The images category.
+nsfwbomb-parameter-category-description = La categoria delle immagini.
 # max.length: 100
-help-rule34 = That famous rule yes yes.
+help-rule34 = Sìsì, quella regola famosa.
 # max.length: 100
-rule34-parameter-search_tags-description = Keywords to search images for.
+rule34-parameter-search_tags-description = Parole chiave per cercare le immagini.
 # max.length: 100
-rule34-parameter-amount-description = The amount of images to send.
+rule34-parameter-amount-description = La quantità di immagini da inviare.
 # max.length: 100
-rule34-parameter-private-description = Set to True and the command will only be visible to you.
+rule34-parameter-private-description = Imposta a True e il comando sarà visibile soltanto a te.
 # max.length: 100
-help-e621 = Furries porn.
+help-e621 = Porno furry.
 # max.length: 100
-e621-parameter-search_tags-description = Keywords to search images for.
+e621-parameter-search_tags-description = Parole chiave per cercare le immagini.
 # max.length: 100
-e621-parameter-amount-description = The amount of images to send.
+e621-parameter-amount-description = La quantità di immagini da inviare.
 # max.length: 100
-e621-parameter-private-description = Set to True and the command will only be visible to you.
+e621-parameter-private-description = Imposta a True e il comando sarà visibile soltanto a te.
 # max.length: 100
-help-realbooru = Search for real stuff.
+help-realbooru = Cerca la roba vera.
 # max.length: 100
-realbooru-parameter-search_tags-description = Keywords to search images for.
+realbooru-parameter-search_tags-description = Parole chiave per cercare le immagini.
 # max.length: 100
-realbooru-parameter-amount-description = The amount of images to send.
+realbooru-parameter-amount-description = La quantità di immagini da inviare.
 # max.length: 100
-realbooru-parameter-private-description = Set to True and the command will only be visible to you.
+realbooru-parameter-private-description = Imposta a True e il comando sarà visibile soltanto a te.
