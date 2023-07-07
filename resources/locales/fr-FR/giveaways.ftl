@@ -70,7 +70,7 @@ giveaway-setup-error = Erreur :
 giveaway-setup-cancelled = La configuration du giveaway a été annulée.
 giveaway-setup-timeout =
     { $giveaway-setup-cancelled }
-    User took too much time to answer.
+    L'utilisateur a pris trop de temps pour répondre.
 giveaway-setup-too-many-fails =
     { $giveaway-setup-cancelled }
     L'utilisateur n'a pas réussi à donner une bonne réponse après 5 tentatives.
@@ -172,12 +172,12 @@ giveaway-settings-host-reset = Réinitialisation réussie de l'hôte par défaut
 help-giveaway_settings_emoji = Définit l'émoji par défaut pour les cadeaux dans ce serveur. Ne pas spécifier pour réinitialiser.
 # max.length: 100
 giveaway_settings_emoji-parameter-emoji-description = L'emoji qui sera l'émoji par défaut. Ne pas spécifier pour réinitialiser.
-giveaway-settings-emoji-success = Successfully set the default emoji for giveaways in this server to { $emoji }.
+giveaway-settings-emoji-success = Emoji par défaut pour les giveaways dans ce serveur défini avec succès comme { $emoji }.
 giveaway-settings-emoji-reset = Successfully reset the default emoji for giveaways in this server.
 # max.length: 100
 help-giveaway_settings_joindays =
-    Set the default requirement for number of days required to be in the server to join the giveaway.
-    Don't specify to reset.
+    Définir la condition par défaut concernant le nombre de jours requis présent sur le serveur afin de participer au giveaway.
+    Ne pas spécifier pour réinitialiser.
 # max.length: 100
 giveaway_settings_joindays-parameter-days-description = The days value that will be default for giveaways. Don't specify to reset.
 giveaway-settings-joindays-reset = Successfully reset the default join days for giveaways in this server.

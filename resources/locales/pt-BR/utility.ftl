@@ -17,15 +17,15 @@ help-vote = Envia os links para votar em Martine nas listas de bots.
 # max.length: 100
 help-selfblock = Adicione-se à lista de bloqueio do bot para cancelar a coleta de dados.
 # max.length: 100
-help-premium = Premium management commands.
+help-premium = Comandos de gerenciamento Premium.
 # max.length: 100
-help-premium-status = Gets information about your current Premium status.
+help-premium-status = Obtém informações sobre seu status Premium atual.
 # max.length: 100
-help-premium-server = Premium server management.
+help-premium-server = Gerenciamento de servidor premium.
 # max.length: 100
-help-premium-server-activate = Activates Premium in this server, based off your current Patreon subscription.
+help-premium-server-activate = Ativa o Premium neste servidor, com base na sua assinatura atual do Patreon.
 # max.length: 100
-help-premium-server-remove = Removes Premium from this server.
+help-premium-server-remove = Remove o Premium deste servidor.
 language-invalid = Please try again with a language that is in the list.
 language-current = Please select another language than the one currently selected.
 language-changed = Successfully updated the language on this server to { $language }! { $emoji }
