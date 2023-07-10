@@ -15,4 +15,5 @@ twitch-stream-lang = Nyelv:
 twitch-streamend-games-played = Kategória
 youtube-live = Közvetít YouTube-on
 youtube-subscribers = Feliratkozók:
+kick-live = Live on Kick
 videos-default-msg = { $name } has posted a new video!

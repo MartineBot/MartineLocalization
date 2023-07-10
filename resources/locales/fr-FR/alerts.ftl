@@ -39,6 +39,7 @@ streams-added-tip =
 # $source will be the source of the stream alert.
 streams-removed = L'alerte { $source } a été supprimée avec succès de ce canal!
 streams-twitch-notfound = Je n'ai pas trouvé cet utilisateur de Twitch.
+streams-kick-notfound = Couldn't find that Kick user.
 videos-settings = paramètres des alertes vidéos
 videos-message = Message
 videos-settings-msg-btn = Modifier le message
@@ -75,5 +76,9 @@ alerts_streams_youtube-parameter-user_name_or_id-description = Le nom ou l'ident
 help-alerts_streams_twitch = Gérer une alerte de flux pour un utilisateur Twitch.
 # max.length: 100
 alerts_streams_twitch-parameter-user_name_or_url-description = Le nom ou l'URL de la chaîne Twitch.
+# max.length: 100
+help-alerts_streams_kick = Manage a stream alert for a Kick user.
+# max.length: 100
+alerts_streams_kick-parameter-user_name_or_url-description = The Kick channel name or URL.
 # max.length: 100
 help-alerts_streams_settings = Gérer les paramètres des alertes de flux.

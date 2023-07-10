@@ -39,6 +39,7 @@ streams-added-tip =
 # $source will be the source of the stream alert.
 streams-removed = Questo avviso di streaming { $source } è stato rimosso correttamente da questo canale!
 streams-twitch-notfound = Impossibile trovare quell'utente di Twitch.
+streams-kick-notfound = Couldn't find that Kick user.
 videos-settings = impostazioni degli avvisi dei video
 videos-message = Messaggio
 videos-settings-msg-btn = Modifica messaggio
@@ -75,5 +76,9 @@ alerts_streams_youtube-parameter-user_name_or_id-description = Il nome o ID del 
 help-alerts_streams_twitch = Gestisci un avviso sulla live per un utente di Twitch.
 # max.length: 100
 alerts_streams_twitch-parameter-user_name_or_url-description = Il nome o ID del canale di Twitch.
+# max.length: 100
+help-alerts_streams_kick = Manage a stream alert for a Kick user.
+# max.length: 100
+alerts_streams_kick-parameter-user_name_or_url-description = The Kick channel name or URL.
 # max.length: 100
 help-alerts_streams_settings = Gestisci le impostazioni degli avvisi sulle live.

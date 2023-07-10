@@ -15,4 +15,5 @@ twitch-stream-lang = Lingua:
 twitch-streamend-games-played = Gioco
 youtube-live = In diretta su YouTube
 youtube-subscribers = Iscritti:
+kick-live = Live on Kick
 videos-default-msg = { $name } ha pubblicato un nuovo video!

@@ -39,6 +39,7 @@ streams-added-tip =
 # $source will be the source of the stream alert.
 streams-removed = Successfuwwy wemuvd this { $source } stweam awewt fwom this channyew!!
 streams-twitch-notfound = Couwdn't find that Twitch usew.
+streams-kick-notfound = Couldn't find that Kick user.
 videos-settings = videos awewts settings
 videos-message = Mewssage
 videos-settings-msg-btn = Edit mewssage
@@ -75,5 +76,9 @@ alerts_streams_youtube-parameter-user_name_or_id-description = The YouTube chann
 help-alerts_streams_twitch = Manage a stream alert for a Twitch user.
 # max.length: 100
 alerts_streams_twitch-parameter-user_name_or_url-description = The Twitch channel name or URL.
+# max.length: 100
+help-alerts_streams_kick = Manage a stream alert for a Kick user.
+# max.length: 100
+alerts_streams_kick-parameter-user_name_or_url-description = The Kick channel name or URL.
 # max.length: 100
 help-alerts_streams_settings = Manage streams alerts settings.

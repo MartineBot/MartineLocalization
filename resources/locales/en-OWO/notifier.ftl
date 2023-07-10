@@ -15,4 +15,5 @@ twitch-stream-lang = Lawuguage:
 twitch-streamend-games-played = Games pwayed
 youtube-live = Wive on YouTube
 youtube-subscribers = Subscribers:
+kick-live = Live on Kick
 videos-default-msg = { $name } has posted a new video!
