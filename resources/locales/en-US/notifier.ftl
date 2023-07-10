@@ -18,4 +18,6 @@ twitch-streamend-games-played = Games played
 youtube-live = Live on YouTube
 youtube-subscribers = Subscribers:
 
+kick-live = Live on Kick
+
 videos-default-msg = { $name } has posted a new video!
