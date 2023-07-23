@@ -70,6 +70,7 @@ ui-app-presence = Presence Intent
 ui-app-members = Server Members Intent
 ui-app-msg = Message Content Intent
 ui-app-misc = Misc
+ui-app-guildcount = Approximate servers count
 ui-app-public = Public
 ui-app-slug = Slug
 ui-app-tos = Terms of Service

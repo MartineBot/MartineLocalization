@@ -70,6 +70,7 @@ ui-app-presence = Назначение
 ui-app-members = Назначение участников сервера
 ui-app-msg = Предупреждение содержимого сообщения
 ui-app-misc = Прочее
+ui-app-guildcount = Approximate servers count
 ui-app-public = Публичный
 ui-app-slug = Метка
 ui-app-tos = Условия использования

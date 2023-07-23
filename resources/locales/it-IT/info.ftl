@@ -70,6 +70,7 @@ ui-app-presence = Finalità di Presenza
 ui-app-members = Finalità dei Membri del Server
 ui-app-msg = Finalità del Contenuto del Messaggio
 ui-app-misc = Varie
+ui-app-guildcount = Approximate servers count
 ui-app-public = Pubblica
 ui-app-slug = Slug
 ui-app-tos = Termini di Servizio

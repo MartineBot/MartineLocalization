@@ -38,8 +38,8 @@ streams-added-tip =
     Vous pouvez mettre à jour les paramètres d'alerte des flux à l'aide de la commande { $cmd_mention } .
 # $source will be the source of the stream alert.
 streams-removed = L'alerte { $source } a été supprimée avec succès de ce canal!
-streams-twitch-notfound = Je n'ai pas trouvé cet utilisateur de Twitch.
-streams-kick-notfound = Couldn't find that Kick user.
+streams-twitch-notfound = Impossible de trouver cet utilisateur Twitch.
+streams-kick-notfound = Impossible de trouver cet utilisateur Kick.
 videos-settings = paramètres des alertes vidéos
 videos-message = Message
 videos-settings-msg-btn = Modifier le message
@@ -54,7 +54,7 @@ videos-added-tip =
     Vous pouvez mettre à jour les paramètres d'alerte des vidéos à l'aide de la commande { $cmd_mention } .
 videos-removed = L'alerte { $source } a été supprimée avec succès de ce canal !
 yt-notfound =
-    Cet utilisateur de YouTube n'a pas été trouvé.
+    Impossible de trouver cet utilisateur YouTube.
     Réessayez en collant l'URL de la chaîne sur https://commentpicker.com/youtube-channel-id.php et prenez la valeur "Channel ID".
 # max.length: 100
 help-alerts = Gérer les alertes dans ce serveur.
@@ -77,8 +77,8 @@ help-alerts_streams_twitch = Gérer une alerte de flux pour un utilisateur Twitc
 # max.length: 100
 alerts_streams_twitch-parameter-user_name_or_url-description = Le nom ou l'URL de la chaîne Twitch.
 # max.length: 100
-help-alerts_streams_kick = Manage a stream alert for a Kick user.
+help-alerts_streams_kick = Gérer une alerte de stream pour un utilisateur Kick.
 # max.length: 100
-alerts_streams_kick-parameter-user_name_or_url-description = The Kick channel name or URL.
+alerts_streams_kick-parameter-user_name_or_url-description = Le nom ou l'URL de la chaîne Kick.
 # max.length: 100
 help-alerts_streams_settings = Gérer les paramètres des alertes de flux.

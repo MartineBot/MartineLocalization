@@ -70,6 +70,7 @@ ui-app-presence = הרשאה לנוכחות
 ui-app-members = הרשאה לחברי השרת
 ui-app-msg = הרשאה למידע ההודעות
 ui-app-misc = שונות
+ui-app-guildcount = Approximate servers count
 ui-app-public = פומבי
 ui-app-slug = סלאג
 ui-app-tos = תנאי השירות

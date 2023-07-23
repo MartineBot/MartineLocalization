@@ -70,6 +70,7 @@ ui-app-presence = Presença de interação
 ui-app-members = Interação dos membros do servidor
 ui-app-msg = Contém interação de mensagem
 ui-app-misc = Outros
+ui-app-guildcount = Approximate servers count
 ui-app-public = Público
 ui-app-slug = Slug
 ui-app-tos = Termos de Serviço

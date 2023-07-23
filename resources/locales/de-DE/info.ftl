@@ -70,6 +70,7 @@ ui-app-presence = Anwesenheit sehen
 ui-app-members = Mitglieder sehen
 ui-app-msg = Nachrichten lesen
 ui-app-misc = Sonstiges
+ui-app-guildcount = Approximate servers count
 ui-app-public = Öffentlich
 ui-app-slug = Slug
 ui-app-tos = Nutzungsbedingungen
