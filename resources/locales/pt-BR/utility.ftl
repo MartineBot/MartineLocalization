@@ -30,12 +30,12 @@ language-invalid = Por favor, tente novamente com um idioma que esteja na lista.
 language-current = Por favor, selecione outro idioma diferente do selecionado atualmente.
 language-changed = Atualizado com sucesso o idioma neste servidor para { $language }! { $emoji }
 language-contribute =
-    Do you want to help us having more translations to this language? 
-    Here is the link to our Crowdin project to contribute: { $link } { $emoji }
+    Quer nos ajudar a ter mais traduções para este idioma? 
+    Aqui está o link para o nosso projeto Crowdin para contribuir: { $link } { $emoji }
 premium-not-active = Não ativo
 premium-status-user = Seu status Premium
-premium-tier = **Tier:** { $value }
-premium-since = **Since:** { $value }
+premium-tier = **Nível:** { $value }
+premium-since = **Desde:** { $value }
 premium-status-servers = Seus servidores Premium
 premium-unknown-server = Nome de servidor desconhecido
 premium-status-current-server = Status atual do servidor Premium
@@ -44,14 +44,14 @@ premium-server-notsub =
     Por favor, assine nosso Patreon para acessar os recursos Premium: { $premium_url }
     Ou talvez você já tenha uma? Nesse caso, clique no URL a seguir para vincular sua conta à Martine: { $premium_link_url }
 premium-server-invalid-sub =
-    You have a Premium subscription, but it's not a server subscription therefore I cannot activate Premium in this server.
-    You can find our Premium server subscriptions here: { $premium_url }
-premium-server-already-active = Premium is already activated in this server. { $emoji }
+    Você tem uma assinatura Premium, mas não é uma assinatura de servidor. Portanto, não posso ativar o Premium neste servidor.
+    Você pode encontrar nossas assinaturas de servidores Premium aqui: { $premium_url }
+premium-server-already-active = O Premium já está ativado neste servidor. { $emoji }
 premium-server-max =
     Você atingiu a quantidade máxima de servidores Premium que pode ter com esta assinatura.
     Por favor, remova um servidor da sua lista de servidores Premium antes de adicionar um novo.
 premium-server-activated =
-    Successfully activated { $tier } in this server!
-    You can now enjoy all the Premium features in this server. Thank you for supporting Martine! { $emoji }
+    Ativado com sucesso { $tier } neste servidor!
+    Agora você pode desfrutar de todos os recursos Premium no servidor. Obrigado por apoiar Martine! { $emoji }
 premium-server-remove-not-active = Premium não está ativado neste servidor.
 premium-server-removed = Premium removido com sucesso deste servidor!
