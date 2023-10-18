@@ -1,50 +1,50 @@
 # max.length: 100
-help-valorantstats = Get Valorant stats of a provided riotid#tag.
+help-valorantstats = Sağlanan bir riotid#tag'ın Valorant istatistiklerini alın.
 # max.length: 100
-valorantstats-parameter-riotid_and_tag-description = The player name followed by its #tag
+valorantstats-parameter-riotid_and_tag-description = Oyuncu adı ve ardından #etiketi
 # max.length: 100
-help-lolstats = Get League of Legends stats of a summoner, and more in subcommands.
+help-lolstats = Bir sihirdarın League of Legends istatistiklerini ve daha fazlasını alt komutlarda öğrenin.
 # max.length: 100
-help-lolstats_masteries = Get LoL masteries of a summoner.
+help-lolstats_masteries = Bir sihirdarın LoL ustalıklarını alın.
 # max.length: 100
-lolstats_masteries-parameter-region-description = The region of the summoner.
+lolstats_masteries-parameter-region-description = Sihirdarın bölgesi.
 # max.length: 100
-lolstats_masteries-parameter-summoner-description = The summoner you want to see masteries of.
+lolstats_masteries-parameter-summoner-description = Ustalıklarını görmek istediğiniz sihirdar.
 # max.length: 100
-help-lolstats_matches = Get latest LoL matches of a summoner.
+help-lolstats_matches = Bir sihirdarın son LoL maçlarını alın.
 # max.length: 100
-lolstats_matches-parameter-region-description = The region of the summoner.
+lolstats_matches-parameter-region-description = Sihirdarın bölgesi.
 # max.length: 100
-lolstats_matches-parameter-summoner-description = The summoner you want to see matches of.
+lolstats_matches-parameter-summoner-description = Maçlarını görmek istediğiniz sihirdar.
 # max.length: 100
-help-lolstats_currentgame = Get current game status of a summoner.
+help-lolstats_currentgame = Bir sihirdarın mevcut oyun durumunu alın.
 # max.length: 100
-lolstats_currentgame-parameter-region-description = The region of the summoner.
+lolstats_currentgame-parameter-region-description = Sihirdarın bölgesi.
 # max.length: 100
-lolstats_currentgame-parameter-summoner-description = The summoner you want to see current match of.
+lolstats_currentgame-parameter-summoner-description = Güncel maçını görmek istediğiniz sihirdar.
 # max.length: 100
-help-lolrotation = Get this week's free champions rotation.
+help-lolrotation = Bu haftanın ücretsiz şampiyon rotasyonunu alın.
 # max.length: 100
-help-fortnite = Get infos and stats from Fortnite.
+help-fortnite = Fortnite'tan bilgi ve istatistikler alın.
 # max.length: 100
-help-fortnite_stats = Get stats of a Fortnite player.
+help-fortnite_stats = Fortnite oyuncusunun istatistiklerini öğrenin.
 # max.length: 100
-fortnite_stats-parameter-player-description = The player you want to see stats of.
+fortnite_stats-parameter-player-description = İstatistiklerini görmek istediğiniz oyuncu.
 # max.length: 100
-fortnite_stats-parameter-platform-description = The platform of this player.
+fortnite_stats-parameter-platform-description = Bu oyuncunun platformu.
 # max.length: 100
-help-fortnite_news = Get latest Fortnite news.
+help-fortnite_news = En son Fortnite haberlerini alın.
 # max.length: 100
-help-fortnite_map = Get current Fortnite map with points of interest.
+help-fortnite_map = İlgi çekici noktaları içeren güncel Fortnite haritasını edinin.
 # max.length: 100
-help-osu = Get a profile card osu! containing stats of a provided player.
+help-osu = Sağlanan bir oyuncunun istatistiklerini içeren bir profil kartı osu!
 # max.length: 100
-osu-parameter-player-description = The player you want to see stats of.
+osu-parameter-player-description = İstatistiklerini görmek istediğiniz oyuncu.
 # max.length: 100
-help-rlstats = Shows Rocket League stats in competitive playlists for you or given player.
+help-rlstats = Sizin veya belirli bir oyuncu için rekabetçi oynatma listelerindeki Rocket League istatistiklerini gösterir.
 # max.length: 100
-rlstats-parameter-player_id-description = The Steam/PSN/XBL/Nintendo username or ID of the player.
+rlstats-parameter-player_id-description = Oyuncunun Steam/PSN/XBL/Nintendo kullanıcı adı veya kimliği.
 # max.length: 100
-help-rlsports = Shows Rocket League stats in extra modes playlists for you or given player.
+help-rlsports = Rocket League istatistiklerini sizin veya belirli bir oyuncu için ekstra mod çalma listelerinde gösterir.
 # max.length: 100
-rlsports-parameter-player_id-description = The Steam/PSN/XBL/Nintendo username or ID of the player.
+rlsports-parameter-player_id-description = Oyuncunun Steam/PSN/XBL/Nintendo kullanıcı adı veya kimliği.

@@ -1,69 +1,69 @@
-giveaway-run-notfound = Couldn't find a currently running giveaway for that message.
-giveaway-notfound = Couldn't find a giveaway for that message.
-giveaway-notstored = Couldn't find a stored giveaway for that message.
-giveaway-roles = Roles:
-giveaway-days-in-server = Days in server:
-giveaway-details = Details:
-giveaway-hosted-by = Hosted by:
-giveaway-unknown = Unknown
-giveaway-time-remaining = Time remaining:
-giveaway-requirements = Requirements:
-giveaway-bypassrole = { $role } role bypasses those requirements!
-giveaway-ends = Ends:
-giveaway-ends-at = Ends at
-giveaway-winners = Winners:
-giveaway-rolling = Rolling giveaway { $prize }...
+giveaway-run-notfound = Bu mesaj için şu anda devam eden bir çekiliş bulamadım.
+giveaway-notfound = Bu mesaj için bir çekiliş bulamadım.
+giveaway-notstored = Bu mesaj için kayıtlı bir çekiliş bulunamadı.
+giveaway-roles = Roller:
+giveaway-days-in-server = Sunucuda geçen günler:
+giveaway-details = Detaylar:
+giveaway-hosted-by = Tarafından düzenlendi:
+giveaway-unknown = Bilinmiyor
+giveaway-time-remaining = Kalan süre:
+giveaway-requirements = Gereklilikler:
+giveaway-bypassrole = { $role } rolü bu gereklilikleri atlar!
+giveaway-ends = Bitiş:
+giveaway-ends-at = Bitiş Tarihi
+giveaway-winners = Kazananlar:
+giveaway-rolling = Çekilişi sonuçlandırıyorum { $prize }...
 giveaway-roll-notfound =
-    The message of giveaway { $prize } seems to have been deleted.
-    I cannot roll out winners.
-giveaway-roll-reroll = Giveaway reroll! { $emoji }
-giveaway-roll-ended = Giveaway ended! { $emoji }
+    Çekiliş mesajı { $prize } silinmiş görünüyor.
+    Kazananları açıklayamıyorum.
+giveaway-roll-reroll = Çekilişi yenile! { $emoji }
+giveaway-roll-ended = Çekiliş bitti! { $emoji }
 giveaway-roll-description =
-    Congratulations to the **{ $num_winners } { $num_winners ->
-        [one] winner
-       *[other] winners
+    Tebrikler **{ $num_winners } { $num_winners ->
+        [one] kazanan
+       *[other] kazanan
     }
-    You have won { $prize }!**
+    Kazandınız { $prize }!**
 giveaway-roll-total-entries =
-    { $num_entries_fmt } total { $num_entries ->
-        [one] entry
-       *[other] entries
+    { $num_entries_fmt } toplam { $num_entries ->
+        [one] giriş
+       *[other] giriş
     }!
-giveaway-roll-gg = Congratulation { $winners }!
+giveaway-roll-gg = Tebrikler { $winners }!
 giveaway-roll-nothing =
-    But no one entered. { $emoji }
-    It was { $prize }
-giveaway-ended = Giveaway Ended
-giveaway-ended-time = Giveaway ended { $locale_formatted_time }!
-giveaway-no-winners = No one won
-giveaway-btn-label = Enter giveaway ({ $entries } entries)
-giveaway-btn-label-ended = { $entries } entries
-giveaway-btn-spammy = This button is on cooldown, please try again later.
-giveaway-btn-removed = Successfully removed your entry from this giveaway! { $emoji }
-giveaway-btn-fail-role = { $role } role
-giveaway-btn-fail-joindays = { $joindays } days in the server but you have been there for { $days } days.
+    Ama kimse girmedi. { $emoji }
+     { $prize }
+giveaway-ended = Çekiliş Sona Erdi
+giveaway-ended-time = Çekiliş bitti! { $locale_formatted_time }!
+giveaway-no-winners = Kimse kazanamadı
+giveaway-btn-label = Çekilişe katılın ({ $entries } girişler)
+giveaway-btn-label-ended = { $entries } girişler
+giveaway-btn-spammy = Bu buton beklemede, lütfen daha sonra tekrar deneyin.
+giveaway-btn-removed = Girişiniz bu çekilişten başarıyla kaldırıldı! { $emoji }
+giveaway-btn-fail-role = { $role } rol
+giveaway-btn-fail-joindays = { $joindays } gündür sunucudasınız ama siz { $days } gündür oradasınız.
 giveaway-btn-denied-title =
-    Giveaway entry denied! Missing { $count ->
-        [one] requirement
-       *[other] requirements
+    Çekiliş girişi reddedildi! Eksik { $count ->
+        [one] gereklilik
+       *[other] gereklilik
     }
-giveaway-btn-denied-description = Sorry but you are missing one of the requirements for { $prize } giveaway in { $server } server.
-giveaway-btn-bypass-title = Bypass role:
-giveaway-btn-bypass-description = By having { $role } role you can bypass the above requirements!
-giveaway-btn-martine-links = Martine's links:
-giveaway-btn-accepted-title = Giveaway entry accepted!
-giveaway-btn-accepted-description = Your entry for the giveaway of { $prize } in { $server } server has been processed and accepted. Good luck!
+giveaway-btn-denied-description = Üzgünüm ama { $server } sunucusunda { $prize } giveaway için gereksinimlerden birini karşılamıyorsun.
+giveaway-btn-bypass-title = Atlatma rolü:
+giveaway-btn-bypass-description = { $role } rolüne sahip olarak yukarıdaki gereklilikleri atlayabilirsiniz!
+giveaway-btn-martine-links = Martine'in linkleri:
+giveaway-btn-accepted-title = Çekilişe katılım kabul edildi!
+giveaway-btn-accepted-description = { $server } sunucusundaki { $prize } çekilişi için katılımınız işleme alınmış ve kabul edilmiştir. İyi şanslar!
 # max.length: 100
-help-giveaway = Commands to manage giveaways
+help-giveaway = Çekilişleri yönetmek için komutlar
 # max.length: 100
-help-giveaway_create = Create a giveaway.
+help-giveaway_create = Bir çekiliş oluştur.
 # max.length: 100
-giveaway_create-parameter-use_config-description = Whether you want to use already set config values. Default to False.
-giveaway-setup = Giveaway setup { $emoji }
-giveaway-setup-optional = Optional
-giveaway-setup-current-value = Current value:
-giveaway-setup-example = Example:
-giveaway-setup-footer-cancel-skip = Send "cancel" to cancel the setup or send "skip" to skip that question.
+giveaway_create-parameter-use_config-description = Önceden ayarlanmış yapılandırma değerlerini kullanmak isteyip istemediğiniz. Varsayılan değer False.
+giveaway-setup = Çekiliş kur { $emoji }
+giveaway-setup-optional = İsteğe bağlı
+giveaway-setup-current-value = Mevcut değer:
+giveaway-setup-example = Örnek:
+giveaway-setup-footer-cancel-skip = Kurulumu iptal etmek için "cancel" gönderin veya soruyu atlamak için "skip" gönderin.
 giveaway-setup-footer-cancel = Send "cancel" to cancel the setup.
 giveaway-setup-keep = Send "keep" to keep the current value.
 giveaway-setup-error = Error:

@@ -1,173 +1,174 @@
-non-nsfw-channel-title = { $emoji } You can't use this command in a non-NSFW channel!
-non-nsfw-channel-description = Use the { $cmd_mention } command if you're unsure how to setup this.
+non-nsfw-channel-title = { $emoji } Bu komutu Yaş Sınırı olmayan bir kanalda kullanamazsınız!
+non-nsfw-channel-description = Bunu nasıl ayarlayacağınızdan emin değilseniz { $cmd_mention } komutunu kullanın.
 upvote-msg =
-    Please upvote me on Top.gg or DBL to use this command. { $emoji }
-    Here is the link: { $link }
-    Your vote will expire after 12 hours.
+    Bu komutu kullanmak için lütfen Top.gg veya DBL'de bana upvote verin. { $emoji }
+    İşte bağlantı: { $link }
+    Oyunuzun süresi 12 saat sonra dolacaktır.
     
-    You can bypass this by [boosting Martine's server]({ $server_invite })
-upvote-msg-premium = Or by getting one of our [Premium tiers]({ $premium_url })!
-yes = Yes
-no = No
-btn-fail = Oops! Something failed with buttons on this message, please use the command again.
-amount-too-low = Sorry, but the amount parameter must be at least 1 image! { $emoji }
-amount-too-high = Sorry, but the amount parameter must be less or equal of { $amount } images! { $emoji }
-command-no-images-found = Sorry, I wasn't able to pull a image for you! Please try again in a bit. { $emoji }
-command-invalid-category = Sorry but this is not a valid category! { $emoji }
-command-list-categories = Here is a list of all available categories:
-msg-category = **Image category:** { $category }
-msg-search-tags = **Search tags:** { $tags }
-msg-requested-by = **Requested by:** { $author }
-msg-invite-me = **Invite me:** { $link }
+    Bunu [Martine'nin sunucusuna takviye yaparak] atlayabilirsiniz ({ $server_invite })
+upvote-msg-premium = Ya da [Premium planlarımızdan] ({ $premium_url }) birini alarak!
+yes = Evet
+no = Hayır
+btn-fail = Eyvah! Bu mesajdaki tuşlarla ilgili bir sorun oluştu, lütfen komutu tekrar kullanın.
+amount-too-low = Üzgünüz, ancak miktar parametresi en az 1 resim olmalıdır! { $emoji }
+amount-too-high = Üzgünüz, ancak miktar parametresi { $amount } görselden küçük veya ona eşit olmalıdır! { $emoji }
+command-no-images-found = Üzgünüm, sizin için bir resim çekemedim! Lütfen birazdan tekrar deneyin. { $emoji }
+command-invalid-category = Üzgünüm ama bu geçerli bir kategori değil! { $emoji }
+command-list-categories = İşte mevcut tüm kategorilerin bir listesi:
+msg-category = **Resim kategorisi:** { $category }
+msg-search-tags = **Arama etiketleri:** { $tags }
+msg-requested-by = **Talep eden:** { $author }
+msg-invite-me = **Beni davet et:** { $link }
 msg-premium = **Premium:** { $link }
-msg-discord-server = **Discord Server:** { $link }
-msg-image = **Image:** { $link }
-msg-images = **Images:**
-embed-auto-footer = Use { $cmd_mention } to change delay or disable
-command-category-select-placeholder = Select another image category...
-command-category-next-btn = Next page
-command-category-next-btn-desc = There's more categories that might interest you!
-command-category-prev-btn = Previous page
-command-category-prev-btn-desc = Get back to previous seen categories.
-command-open-img-btn = Open Image
-command-report-img-btn = Report Image
-command-post-url-btn = Post URL
-image-report-title = Martine - NSFW Image report
-image-report-label = Image number or URL
-image-report-placeholder = The image number or its URL...
+msg-discord-server = **Discord Sunucusu:** { $link }
+msg-image = **Resim:** { $link }
+msg-images = **Resimler:**
+embed-auto-footer = Gecikmeyi değiştirmek veya devre dışı bırakmak için { $cmd_mention } kullanın
+command-category-select-placeholder = Başka bir resim kategorisi seç...
+command-category-next-btn = Sonraki sayfa
+command-category-next-btn-desc = İlginizi çekebilecek daha fazla kategori var!
+command-category-prev-btn = Önceki sayfa
+command-category-prev-btn-desc = Daha önce görüntülenen kategorilere geri dön.
+command-open-img-btn = Resmi Aç
+command-report-img-btn = Resmi Şikayet Et
+command-post-url-btn = URL gönder
+image-report-title = Martine - NSFW Görüntü Şikayeti
+image-report-label = Resim numarası veya URL
+image-report-placeholder = Resim numarası veya URL...
 image-report-success =
-    Here is the report link:
+    İşte şikayet etme bağlantısı:
     { $link }
-image-report-invalid-url = Sorry, but this is not a valid image!
-booru-previous-img-btn = Previous image
-booru-next-img-btn = Next image
-booru-too-many-tags-nopremium = Sorry, but you can search for maximum 10 tags! Or get Premium to increase that limit up to 30 tags! { $emoji }
-booru-too-many-tags = Sorry, but you cannot search for more than 30 tags! { $emoji }
-booru-blocked-tag = One of these tags contains a blocked tag. Please try again. { $emoji }
-booru-no-results = I couldn't find any results for these tags. Please try again. { $emoji }
-set-anonymous = Your name will no longer be shown as requester in nsfw commands messages.
-unset-anonymous = Your name will be shown as requester in nsfw commands messages.
-auto-no-thread = Autoporn cannot be enabled in threads.
-auto-no-nsfw = Autoporn can only be enabled in a NSFW channel.
-auto-no-perms = I need embed links permissions to be able to send autoporn messages in this channel.
-auto-setup-title = Autoporn setup for: { $channel }
+image-report-invalid-url = Üzgünüm, ama bu geçerli bir resim değil!
+booru-previous-img-btn = Önceki görüntü
+booru-next-img-btn = Sonraki görüntü
+booru-too-many-tags-nopremium = Üzgünüz, ancak en fazla 10 etiket için arama yapabilirsiniz! Veya bu sınırı 30 etikete kadar artırmak için Premium alın! { $emoji }
+booru-too-many-tags = Üzgünüz, ancak 30'dan fazla etiket için arama yapamazsınız! { $emoji }
+booru-blocked-tag = Bu etiketlerden biri engellenmiş bir etiket içeriyor. Lütfen tekrar deneyin. { $emoji }
+booru-no-results = Bu etiketler için herhangi bir sonuç bulamadım. Lütfen tekrar deneyin. { $emoji }
+set-anonymous = Adınız artık NSFW komut mesajlarında istek sahibi olarak gösterilmeyecek.
+unset-anonymous = Adınız artık NSFW komut mesajlarında istek sahibi olarak gösterilecek.
+auto-no-thread = Alt başlıklarda otomatik porno etkinleştirilemez.
+auto-no-nsfw = Otomatik porno yalnızca NSFW kanalında etkinleştirilebilir.
+auto-no-perms = Bu kanala otomatik porno mesajları gönderebilmek için bağlantı izinlerine ihtiyacım var.
+auto-setup-title = Autoporn kurulumu için: { $channel }
 auto-setup-description =
-    Notes:
-    - The category called "random" is images of *all* available categories. It is the one selected by default. If you select a specific category it will get removed.
-    - There is a 15 seconds cooldown after enabling/disabling, and after updating categories.
-    - Images are sent every 5 minutes, by default. Use the `Change delay` button to update it.
-auto-setup-current = Current settings:
-auto-setup-enabled = **Enabled:** { $enabled }
-auto-setup-delay = **Delay:** { $delay }
-auto-setup-amount = **Amount:** { $amount }
-auto-setup-categories = Enabled categories:
-auto-setup-selected-categories = Selected categories:
-auto-setup-footer = Use the "Update categories" button after selecting the categories of your choice
-auto-setup-select-placeholder-disabled = Enable to select categories
-auto-setup-categories-btn = Update categories
-auto-setup-clear-categories-btn = Clear selected categories
-auto-setup-delay-btn = Change delay
-auto-setup-amount-btn = Change amount
-auto-setup-status-btn = Status in this server
-auto-setup-select-placeholder = Select categories
-auto-setup-enable-btn = Enable
-auto-setup-disable-btn = Disable
-auto-setup-same-categories = Please select other categories than those currently enabled for this channel.
-auto-setup-categories-updated = Successfully updated autoporn categories for { $channel } to: { $categories }
-auto-setup-enable-fail = I couldn't setup autoporn in this channel. Please try again later.
+    Notlar:
+    - "Rastgele" olarak adlandırılan kategori *tüm* mevcut kategorilerin görüntüleridir. Varsayılan olarak seçilen kategoridir. Eğer belirli bir kategori seçerseniz bu kategori kaldırılacaktır.
+    - Etkinleştirdikten/devre dışı bıraktıktan ve kategorileri güncelledikten sonra 15 saniyelik bir bekleme süresi vardır.
+    - Görüntüler varsayılan olarak her 5 dakikada bir gönderilir. Güncellemek için `Gecikmeyi değiştir` tuşunu kullanın.
+auto-setup-current = Şu anki ayarlar:
+auto-setup-enabled = **Etkinleştirilmiş:** { $enabled }
+auto-setup-delay = **Gecikme:** { $delay }
+auto-setup-amount = **Miktar:** { $amount }
+auto-setup-categories = Aktif kategoriler:
+auto-setup-selected-categories = Seçilen kategoriler:
+auto-setup-footer = İstediğiniz kategorileri seçtikten sonra "Kategorileri güncelle" tuşunu kullanın
+auto-setup-select-placeholder-disabled = Kategori seçmeyi etkinleştirin
+auto-setup-categories-btn = Kategorileri Güncelle
+auto-setup-clear-categories-btn = Seçili kategorileri temizle
+auto-setup-delay-btn = Gecikmeyi değiştir
+auto-setup-amount-btn = Miktarı değiştir
+auto-setup-status-btn = Bu sunucudaki durum
+auto-setup-select-placeholder = Kategorileri seçin
+auto-setup-enable-btn = Etkinleştir
+auto-setup-disable-btn = Devre Dışı Bırak
+auto-setup-same-categories = Lütfen bu kanal için şu anda etkin olanlardan başka kategoriler seçin.
+auto-setup-categories-updated = { $channel } için autoporn kategorileri başarıyla güncellendi: { $categories }
+auto-setup-enable-fail = Bu kanalda otomatik porno ayarlayamadım. Lütfen daha sonra tekrar deneyin.
 auto-setup-no-premium =
-    You cannot have more than { $count } autoporn channels per server.
-    However, you can get higher limits with our Premium tiers: { $premium_url }
+    Sunucu başına { $count } autoporn kanalından daha fazlasına sahip olamazsınız.
+    Ancak, Premium planlarıyla daha yüksek limitler elde edebilirsiniz: { $premium_url }
 auto-setup-no-premium-3 = 25 autoporn channels is the maximum that can be set.
 auto-setup-enable-no-webhooks-perm =
-    I need the "Manage Webhooks" permission in order to be able to send autoporn messages in this channel!
-    The autoporn feature uses webhooks for a giving images in the best conditions in term of delay.
-auto-setup-disable-no-webhooks-perm = I need the "Manage Webhooks" permission to be able to completely disable autoporn in this channel.
-auto-setup-max-webhooks = Maximum amount of webhooks reached in this channel. Please delete at least one webhook so Martine can set up autoporn here.
-auto-setup-enabled-success = Autoporn enabled in { $channel }.
-auto-setup-enabled-tip = Images are sent every 5 minutes by default. Use the `Change delay` button to update it.
-auto-setup-disabled = Autoporn disabled in { $channel }.
-auto-setup-delay-no-premium = Autoporn delay can only be changed for `Premium Server Silver` tier (or higher) servers! Check out our Premium tiers here: { $premium_url }
-auto-setup-amount-no-premium = Autoporn amount can only be changed for `Premium Server Silver` tier (or higher) servers! Check out our Premium tiers here: { $premium_url }
-auto-status-title = Autoporn status in { $guild }
-auto-status-title-none = Autoporn is not set anywhere in this server.
-auto-status-msg-sent = **Messages sent:** { $count }
+    Bu kanalda autoporn mesajları gönderebilmek için "Webhook'ları Yönet" iznine ihtiyacım var!
+    Autoporn özelliği, gecikme açısından en iyi koşullarda görüntü vermek için webhookları kullanır.
+auto-setup-disable-no-webhooks-perm = Bu kanalda autoporn'u tamamen devre dışı bırakabilmek için "Webhook'ları Yönet" iznine ihtiyacım var.
+auto-setup-max-webhooks = Bu kanalda maksimum webhook sayısına ulaşıldı. Martine'in burada autoporn kurabilmesi için lütfen en az bir webhook silin.
+auto-setup-enabled-success = Autoporn { $channel } kanalında etkinleştirildi.
+auto-setup-enabled-tip = Görüntüler varsayılan olarak her 5 dakikada bir gönderilir. Güncellemek için `Gecikmeyi değiştir` butonunu kullanın.
+auto-setup-disabled = Autoporn { $channel } kanalında devre dışı bırakıldı.
+auto-setup-delay-no-premium = Autoporn gecikmesi yalnızca `Premium Server Silver` (veya daha yüksek) sunucular için değiştirilebilir! Premium planlarına buradan göz atın: { $premium_url }
+auto-setup-amount-no-premium = Autoporn miktarı yalnızca `Premium Server Silver` (veya daha yüksek) sunucular için değiştirilebilir! Premium planlarına buradan göz atın: { $premium_url }
+auto-status-title = { $guild } adresinde otomatik porno durumu
+auto-status-title-none = Autoporn bu sunucunun hiçbir yerinde ayarlanmamıştır.
+auto-status-msg-sent = **Gönderilen mesajlar:** { $count }
 auto-status-categories =
     { $count ->
-        [one] **Category:** { $categories }
-       *[other] **Categories:** { $categories }
+        [one] **Kategori:** { $categories }
+       *[other] **Kategoriler:** { $categories }
     }
-auto-status-getback-btn = Get back to setup
-auto-delaymodal-title = Martine - Autoporn delay prompt
-auto-delaymodal-label = Delay
-auto-delaymodal-placeholder = The delay in minutes between each autoporn image sent in this channel...
-auto-delaymodal-invalid = Looks like this is not a correct value. Example: 5 minutes
-auto-delaymodal-toolow = The value must be over than 2 minutes.
-auto-delaymodal-toohigh = The value must be less than 60 minutes.
-auto-delaymodal-success = Successfully updated autoporn delay for { $channel } to `{ $delay }`.
-auto-amountmodal-title = Martine - Autoporn amount of images prompt
-auto-amountmodal-label = Amount
-auto-amountmodal-placeholder = The amount of images a autoporn message will contain...
-auto-amountmodal-invalid = Looks like this is not a correct value. Example: 5
-auto-amountmodal-toolow = The value must be over than 1.
-auto-amountmodal-toohigh = The value must be less than 5.
-auto-amountmodal-success = Successfully updated autoporn amount for { $channel } to `{ $amount }`.
-auto-setup-timeout-title = Autoporn setup
-auto-setup-timeout-description = This setup message has expired!
+auto-status-getback-btn = Kuruluma geri dönün
+auto-delaymodal-title = Martine - Autoporn gecikme istemi
+auto-delaymodal-label = Gecikme
+auto-delaymodal-placeholder = Bu kanalda gönderilen her otomatik porno görüntüsü arasındaki gecikme (dakika cinsinden)...
+auto-delaymodal-invalid = Görünüşe göre bu doğru bir değer değil. Örnek: 5 dakika
+auto-delaymodal-toolow = Değer 2 dakikadan fazla olmalıdır.
+auto-delaymodal-toohigh = Değer 60 dakikadan az olmalıdır.
+auto-delaymodal-success = { $channel } için autoporn gecikmesi başarıyla `{ $delay }` olarak güncellendi.
+auto-amountmodal-title = Martine - Autoporn görüntü miktarı istemi
+auto-amountmodal-label = Miktar
+auto-amountmodal-placeholder = Bir otomatik porno mesajının içereceği görüntü miktarı...
+auto-amountmodal-invalid = Görünüşe göre bu doğru bir değer değil. Örnek: 5
+auto-amountmodal-toolow = Değer 1'den fazla olmalıdır.
+auto-amountmodal-toohigh = Bu değer 5'den küçük olmalı.
+auto-amountmodal-success = { $channel } için autoporn miktarı başarıyla `{ $amount }` olarak güncellendi.
+auto-setup-timeout-title = Autoporn kurulumu
+auto-setup-timeout-description = Bu kurulum mesajının süresi doldu!
 auto-task-disabled =
-    Set this channel to NSFW back and use { $autocmd_mention } command to re-enable autoporn in this channel.
-    Use the { $tipcmd_mention } command if you're not sure how to setup this.
-auto-task-noperms-title = Autoporn feature requires Martine to have the "Manage Webhooks" and "View Channel" permissions!
+    Bu kanalı NSFW olarak geri ayarlayın ve bu kanalda otomatik pornoyu yeniden etkinleştirmek için { $autocmd_mention } komutunu kullanın.
+    Bunu nasıl ayarlayacağınızdan emin değilseniz { $tipcmd_mention } komutunu kullanın.
+auto-task-noperms-title = Autoporn özelliği Martine'in "Webhookları Yönet" ve "Kanalı Görüntüle" izinlerine sahip olmasını gerektirir!
 auto-task-noperms-desc =
-    Set the correct permissions and use the { $autocmd_mention } command to re-enable autoporn in this channel.
-    If you are confused about this, or not sure how to proceed, feel free to join our support server and we will help you! { $support_url }
-auto-task-maxwebhooks-title = Maximum number of webhooks reached (10) in this channel!
+    Doğru izinleri ayarlayın ve bu kanalda autoporn'u yeniden etkinleştirmek için { $autocmd_mention } komutunu kullanın.
+    Bu konuda kafanız karıştıysa veya nasıl devam edeceğinizden emin değilseniz, destek sunucumuza katılmaktan çekinmeyin, size yardımcı olacağız! { $support_url }
+auto-task-maxwebhooks-title = Bu kanalda maksimum webhook sayısına (10) ulaşıldı!
 auto-task-maxwebhooks-desc =
-    A Discord channel can have a maximum of 10 webhooks, and this channel has hit the maximum.
-    Please delete at least one webhook so Martine can set up autoporn here. Once it's done use the { $autocmd_mention } command to re-enable autoporn.
-    If you are confused about this, or not sure how to proceed, feel free to join our support server and we will help you! { $support_url }
+    Bir Discord kanalında en fazla 10 webhook bulunabilir ve bu kanal maksimum sayıya ulaştı.
+    Martine'in burada otomatik porno ayarlayabilmesi için lütfen en az bir webhook 
+    silin. İşlem tamamlandıktan sonra autoporn'u yeniden etkinleştirmek için { $autocmd_mention } komutunu kullanın.
+    Bu konuda kafanız karıştıysa veya nasıl ilerleyeceğinizden emin değilseniz, destek sunucumuza katılmaktan çekinmeyin; size yardımcı olacağız! { $support_url }
 auto-cleanup-msg =
-    Autoporn was disabled in this channel because this server has hit the maximum channel enabled (5).
-    This happens because the server had Premium enabled in the past but no longer is.
-    Get Premium to get access to more autoporn channels again! { $emoji }
+    Bu sunucu maksimum kanal etkinliğine (5) ulaştığı için bu kanalda otomatik porno devre dışı bırakıldı.
+    Bunun nedeni, sunucunun geçmişte Premium'u etkinleştirmiş olması ancak artık etkinleştirmemiş olmasıdır.
+    Daha fazla otomatik porno kanalına tekrar erişmek için Premium alın! { $emoji }
     { $premium_url }
 # max.length: 100
-help-autoporn = Setup autoporn in this channel, and see the status of it on this server.
+help-autoporn = Bu kanalda autoporn kurun ve bu sunucudaki durumunu görün.
 # max.length: 100
-help-nsfw = Send nsfw images of many categories!
+help-nsfw = Birçok kategoriden NSFW görüntüleri gönderin!
 # max.length: 100
-nsfw-parameter-category-description = The image category.
+nsfw-parameter-category-description = Resim kategorisi.
 # max.length: 100
-nsfw-parameter-amount-description = The amount of images to send.
+nsfw-parameter-amount-description = Gönderilecek görüntü miktarı.
 # max.length: 100
-nsfw-parameter-private-description = Set to True and the command will only be visible to you.
+nsfw-parameter-private-description = True olarak ayarladığınızda komut yalnızca sizin tarafınızdan görülebilir.
 # max.length: 100
-help-nsfwbomb = Send multiple Nsfw images in one command between an interval of 2 seconds.
+help-nsfwbomb = Bir komutta 2 saniyelik aralıklarla birden fazla NSFW görüntüsü gönderin.
 # max.length: 100
-nsfwbomb-parameter-amount-description = The amount of images.
+nsfwbomb-parameter-amount-description = Resim miktarı.
 # max.length: 100
-nsfwbomb-parameter-category-description = The images category.
+nsfwbomb-parameter-category-description = Resim kategorisi.
 # max.length: 100
-help-rule34 = That famous rule yes yes.
+help-rule34 = Şu meşhur kural, evet evet.
 # max.length: 100
-rule34-parameter-search_tags-description = Keywords to search images for.
+rule34-parameter-search_tags-description = Görselleri aramak için anahtar kelimeler.
 # max.length: 100
-rule34-parameter-amount-description = The amount of images to send.
+rule34-parameter-amount-description = Gönderilecek görüntü miktarı.
 # max.length: 100
-rule34-parameter-private-description = Set to True and the command will only be visible to you.
+rule34-parameter-private-description = True olarak ayarladığınızda komut yalnızca sizin tarafınızdan görülebilir.
 # max.length: 100
-help-e621 = Furries porn.
+help-e621 = Kürklüler pornosu.
 # max.length: 100
-e621-parameter-search_tags-description = Keywords to search images for.
+e621-parameter-search_tags-description = Görselleri aramak için anahtar kelimeler.
 # max.length: 100
-e621-parameter-amount-description = The amount of images to send.
+e621-parameter-amount-description = Gönderilecek görüntü miktarı.
 # max.length: 100
-e621-parameter-private-description = Set to True and the command will only be visible to you.
+e621-parameter-private-description = True olarak ayarladığınızda komut yalnızca sizin tarafınızdan görülebilir.
 # max.length: 100
-help-realbooru = Search for real stuff.
+help-realbooru = Gerçek şeyler arayın.
 # max.length: 100
-realbooru-parameter-search_tags-description = Keywords to search images for.
+realbooru-parameter-search_tags-description = Görselleri aramak için anahtar kelimeler.
 # max.length: 100
-realbooru-parameter-amount-description = The amount of images to send.
+realbooru-parameter-amount-description = Gönderilecek görüntü miktarı.
 # max.length: 100
-realbooru-parameter-private-description = Set to True and the command will only be visible to you.
+realbooru-parameter-private-description = True olarak ayarladığınızda komut yalnızca sizin tarafınızdan görülebilir.

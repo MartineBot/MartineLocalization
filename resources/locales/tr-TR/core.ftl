@@ -1,71 +1,71 @@
-support-server = Support Server
+support-server = Destek Sunucusu
 permission =
     { $count ->
-        [one] permission
-       *[other] permissions
+        [one] izin
+       *[other] izinler
     }
-error-title = Oops! Something went wrong!
+error-title = Eyvah! Bir şeyler ters gitti!
 error-description =
-    The command { $command } has failed.
-    This error has been forwarded to the bot developer.
-error-tip-title = Confused about this?
-error-tip-description = Join the support server by [clicking here]({ $invite_url }), someone will answer your questions.
-missing-perms-msg = I require the { $perms } { $permission } to execute this command.
-command-nodm = This command is not available in DMs.
-command-dmonly = This command is only available in DMs.
-command-nsfwonly-title = You can't use that command in a non-NSFW channel!
-command-nsfwonly-description = Use the { $cmd_mention } command if you're not sure how to setup this.
-command-boosters-only = **Sorry, but this command is only available to boosters of Martine's server.**
-    Join today by clicking on the following link: { $invite_url }
-command-premium-user-only = **Sorry, but this command is only available to premium users (Level { $premium_lvl }).**
-    Join today and get more advantages, by clicking on the following link:  { $premium_url }
-command-premium-server-only = **Sorry, but this command is only available to premium servers (Level { $premium_lvl }).**
-    Join today and get more advantages, by clicking on the following link:  { $premium_url }
-command-cd-tryagain = Try again { $time }. { $emoji }
+    { $command } komutu başarısız oldu.
+    Bu hata bot geliştiricisine iletildi.
+error-tip-title = Bu konuda kafanız mı karıştı?
+error-tip-description = [Buraya tıklayarak]({ $invite_url }) destek sunucusuna katılın, birisi sorularınızı yanıtlayacaktır.
+missing-perms-msg = Bu komutu çalıştırmak için { $perms } { $permission } izinlerine ihtiyacım var.
+command-nodm = Bu komut DM üzerinden kullanılamaz.
+command-dmonly = Bu komut sadece DM üzerinden kullanılabilir.
+command-nsfwonly-title = Bu komutu Yaş Sınırı olmayan bir kanalda kullanamazsınız!
+command-nsfwonly-description = Bunu nasıl ayarlayacağınızdan emin değilseniz { $cmd_mention } komutunu kullanın.
+command-boosters-only = **Üzgünüm, ancak bu komut sadece Martine'nin sunucusunun destekçileri tarafından kullanılabilir.**
+    Aşağıdaki bağlantıya tıklayarak bugün katılın: { $invite_url }
+command-premium-user-only = **Üzgünüm, ancak bu komut yalnızca premium kullanıcıları tarafından kullanılabilir (Seviye { $premium_lvl }).**
+    Aşağıdaki bağlantıya tıklayarak bugün katılın ve daha fazla avantaj elde edin:  { $premium_url }
+command-premium-server-only = **Üzgünüm, ancak bu komut yalnızca premium sunucuları tarafından kullanılabilir (Seviye { $premium_lvl }).**
+    Aşağıdaki bağlantıya tıklayarak bugün katılın ve daha fazla avantaj elde edin:  { $premium_url }
+command-cd-tryagain = Tekrar deneyin { $time }. { $emoji }
 command-cd-global =
-    This command is on cooldown globally.
+    Bu komut küresel olarak bekleme süresindedir.
     { $command-cd-tryagain }
 command-cd-userglobal =
-    This command is on cooldown for you globally.
+    Bu komut senin için küresel olarak bekleme süresindedir.
     { $command-cd-tryagain }
 command-cd-server =
-    This command is on cooldown for this server.
+    Bu komut bu sunucu için bekleme süresinde.
     { $command-cd-tryagain }
 command-cd-channel =
-    This command is on cooldown for this channel.
+    Bu komut bu kanal için bekleme süresindedir.
     { $command-cd-tryagain }
 command-cd-channelcat =
-    This command is on cooldown for this channel category.
+    Bu komut, bu kanal kategorisi için bekleme süresindedir.
     { $command-cd-tryagain }
 command-cd-userserver =
-    This command is on cooldown for you on this server.
+    Bu komut bu sunucuda sizin için bekleme süresinde.
     { $command-cd-tryagain }
 command-cd-role =
-    This command is on cooldown for your role.
+    Bu komut rolünüz için bekleme süresindedir.
     { $command-cd-tryagain }
 command-concurrent-default =
-    Too many people are using this command at the same time.
-    It can only be used { $number } time(s) at the same time.
+    Bu komutu aynı anda çok fazla kişi kullanıyor.
+    Aynı anda yalnızca { $number } zaman(lar)ı kullanılabilir.
 # the $type is either "user" or "member"
 command-concurrent-other =
-    Too many people are using this command at the same time.
-    It can only be used { $number } time(s) per { $type } at the same time.
-app-command-unavailable = Looks like this command is not yet available on the bot. Please wait a moment while it gets synced.
-bot-not-ready = Martine is not yet ready to process any commands. Please wait a minute or two before trying again.
-commands-btn = Commands and FAQ
+    Bu komutu aynı anda çok fazla kişi kullanıyor.
+    Aynı anda { $type } başına yalnızca { $number } kez kullanılabilir.
+app-command-unavailable = Görünüşe göre bu komut henüz botta mevcut değil. Lütfen senkronize olması için biraz bekleyin.
+bot-not-ready = Martine henüz herhangi bir komutu işleme koymaya hazır değil. Lütfen tekrar denemeden önce bir veya iki dakika bekleyin.
+commands-btn = Komutlar ve SSS
 premium-btn = Premium
-join-msg-title = Hello there! And thanks for adding Martine to your server!
-join-msg-prefixes = Prefixes
-join-msg-prefixes-description = **My default prefixes are:**
+join-msg-title = Merhabalar! Martine'i sunucunuza eklediğiniz için teşekkürler!
+join-msg-prefixes = Ön Karakter
+join-msg-prefixes-description = **Varsayılan ön karakterim şunlardır:**
     Principal `,`
-    Additional prefixes are `mart ` and `m!`.
-    (You can change them with the `,prefix` command)
-join-msg-commands = Commands:
+    Ön karakterler `mart ` ve `m!`.
+    (Bunları `,prefix` komutu ile değiştirebilirsiniz)
+join-msg-commands = Komutlar:
 join-msg-commands-description =
-    Get started with `,help` command, it will send you all commands of the bot!
-    Then use the dropdown below the message for selecting the category you want.
-    Or use the `,help <category>` (Category you want instead of `<>`)
-    You can also find a list of the commands and frequently asked questions on the bot website: { $website }
-join-msg-support = Support:
-join-msg-support-description = If you need help with the bot, feel free to [join support server]({ $invite_url }), a support member will help you when they're available.
-button-no-perms = You don't have the permission to use this button.
+    `,help` komutu ile başlayın, size botun tüm komutlarını gönderecektir!
+    Daha sonra istediğiniz kategoriyi seçmek için mesajın altındaki açılır menüyü kullanın.
+    Ya da `,help <category>` (`<>` yerine istediğiniz kategori) komutunu kullanın
+    Ayrıca botun web sitesinde komutların ve sıkça sorulan soruların bir listesini bulabilirsiniz: { $website }
+join-msg-support = Destek:
+join-msg-support-description = Botla ilgili yardıma ihtiyacınız olursa, [destek sunucusuna katılın]({ $invite_url }) sunucuya katılmaktan çekinmeyin, bir destek üyesi müsait olduğunda size yardımcı olacaktır.
+button-no-perms = Bu düğmeyi kullanmak için izniniz yok.

@@ -1,84 +1,84 @@
-yes = Yes
-no = No
-max-alerts-0 = You cannot have more than 20 alerts per server.
-max-alerts-0-tip = You can get higher limits with our Premium tiers:
-max-alerts-1 = You cannot have more than 30 alerts per server with this premium tier.
-max-alerts-1-tip = You can get unlimited alerts with our Server Premium Gold tier:
-streams-settings = streams alerts settings
-streams-message = Message
-streams-autorefresh = Alerts auto-refresh
-streams-endbehavior = End behavior
+yes = Evet
+no = Hayır
+max-alerts-0 = Sunucu başına 20'den fazla bildirim alamazsın.
+max-alerts-0-tip = Premium alarak daha yüksek limitler elde edebilirsiniz:
+max-alerts-1 = Bu premium planı ile 30'dan daha fazla uyarı bildirim alamazsınız.
+max-alerts-1-tip = Server Premium Gold planı ile sınırsız bildirim alabilirsiniz:
+streams-settings = yayın bildirim ayarları
+streams-message = Mesaj
+streams-autorefresh = Bildirimi otomatik yenile
+streams-endbehavior = Eylemi sonlandır
 # $source will be the source of the stream alert.
-streams-count = { $source } streams alerts in this server
-streams-none = No streams alerts has been set in this server.
-streams-disable-autorefresh = Disable alerts auto-refresh
-streams-enable-autorefresh = Enable alerts auto-refresh
-streams-edit-msg-btn = Edit message
-streams-autorefresh-btn = Auto-refresh
-streams-autorefresh-enabled = Alright! Stream alerts messages will now auto refresh after 15 minutes.
-streams-autorefresh-disabled = Alright! Stream alerts message will no longer auto refresh.
-streams-endbehavior-select = Change streams end behavior
-streams-deletealertmsg = Delete alert message
-streams-deletealertmsg-desc = This will delete the stream alert message.
-streams-editalertmsg = Edit alert message
-streams-editalertmsg-desc = This will edit the stream alert message with some informations about the stream.
-streams-newmsg = Send new message
-streams-newmsg-desc = This will send a new message with some informations about the stream.
-streams-same-endbehavior = Please select another behavior than the one currently selected.
-streams-endbehavior-changed = Successfully updated the stream end behavior.
-streams-msg-modal = Streams alerts message editor
-streams-msg-label = Set the message sent on a stream start alert.
-streams-msg-placeholder = { "{" }streamer{ "}" } = the streamer name - { "{" }everyone{ "}" } = @everyone ping - { "{" }here{ "}" } = @here ping
-streams-msg-changed = Successfully updated the stream start alert message!
+streams-count = { $source } bildirimleri bu sunucuda yayınlanıyor
+streams-none = Bu sunucuda hiçbir canlı yayın bildirimi ayarlanmamıştır.
+streams-disable-autorefresh = Otomatik bildirim yenilemeyi devre dışı bırak
+streams-enable-autorefresh = Otomatik bildirim yenilemeyi aktifleştir
+streams-edit-msg-btn = Mesajı düzenle
+streams-autorefresh-btn = Otomatik yenileme
+streams-autorefresh-enabled = Tamamdır! Canlı yayın bildirim mesajları artık 15 dakika sonra otomatik olarak yenilenecektir.
+streams-autorefresh-disabled = Pekala! Canlı yayın bildirim mesajı artık otomatik olarak yenilenmeyecektir.
+streams-endbehavior-select = Canlı yayının bitiş eylemini değiştir
+streams-deletealertmsg = Bildirim mesajını sil
+streams-deletealertmsg-desc = Bu işlem canlı yayın bildirim mesajını silecektir.
+streams-editalertmsg = Bildirim mesajını düzenle
+streams-editalertmsg-desc = Bu, canlı yayın bildirim mesajını canlı yayınla ilgili bazı bilgilerle düzenleyecektir.
+streams-newmsg = Yeni mesaj gönder
+streams-newmsg-desc = Bu, canlı yayınla ilgili bazı bilgileri içeren yeni bir mesaj gönderecektir.
+streams-same-endbehavior = Lütfen şu anda seçili olandan başka bir eylem seçin.
+streams-endbehavior-changed = Canlı yayın sonu eylemi başarıyla güncellendi.
+streams-msg-modal = Canlı yayın bildirimi mesaj düzenleyicisi
+streams-msg-label = Canlı yayın bildiriminde gönderilecek mesajı ayarlayın.
+streams-msg-placeholder = { "{" }yayıncı{ "}" } = yayıncı adı - { "{" }herkes{ "}" } = @everyone ping - { "{" }bura{ "}" } = @here ping
+streams-msg-changed = Canlı yayın başlangıç bildirimi başarıyla güncellendi!
 # $source will be the source of the stream alert.
-streams-added = Successfully added this { $source } stream as a alert in that channel!
+streams-added = Bu { $source } yayınını başarıyla söz konusu kanala ekledik!
 # $cmd_mention is the slash command mention for /alerts streams settings
 streams-added-tip =
-    A alert will be sent during the next stream.
-    You can update the streams alerts settings using { $cmd_mention } command.
+    Bir sonraki yayın sırasında bir bildirim gönderilecektir.
+    { $cmd_mention } komutunu kullanarak canlı yayın bildirim ayarlarını güncelleyebilirsiniz.
 # $source will be the source of the stream alert.
-streams-removed = Successfully removed this { $source } stream alert from this channel!
-streams-twitch-notfound = Couldn't find that Twitch user.
-streams-kick-notfound = Couldn't find that Kick user.
-videos-settings = videos alerts settings
-videos-message = Message
-videos-settings-msg-btn = Edit message
-videos-msg-modal = Videos alerts message editor
-videos-msg-label = Set the message sent on videos alerts.
-videos-msg-placeholder = { "{" }name{ "}" } = the video creator name - { "{" }everyone{ "}" } = @everyone ping - { "{" }here{ "}" } = @here ping
-videos-msg-changed = Successfully updated the videos alerts message!
-videos-count = { $source } videos alerts in this server
-videos-added = Successfully added this { $source } channel as a alert in that channel!
+streams-removed = { $source } canlı yayın bildirimi bu kanaldan başarıyla kaldırıldı!
+streams-twitch-notfound = Twitch kullanıcısı bulunamadı.
+streams-kick-notfound = Kick kullanıcısı bulunamadı.
+videos-settings = video bildirim ayarları
+videos-message = Mesaj
+videos-settings-msg-btn = Mesajı düzenle
+videos-msg-modal = Video bildirimleri mesaj düzenleyici
+videos-msg-label = Video bildirimleri için gönderilecek mesajı ayarlayın.
+videos-msg-placeholder = { "{" }name{ "}" } = içerik üreticisi adı - { "{" }everyone{ "}" } = @everyone ping - { "{" }here{ "}" } = @here ping
+videos-msg-changed = Video bildirimi başarıyla güncellendi!
+videos-count = { $source } videoların bildirimi bu sunucuda
+videos-added = { $source } kanalını başarıyla söz konusu kanala eklendi!
 videos-added-tip =
-    A alert will be sent whenever the next video is posted.
-    You can update the videos alerts settings using { $cmd_mention } command.
-videos-removed = Successfully removed this { $source } channel alert from this channel!
+    Bir sonraki video yayınlandığında bir bildirim gönderilecektir.
+    { $cmd_mention } komutunu kullanarak video bildirim ayarlarını güncelleyebilirsiniz.
+videos-removed = { $source } kanal bildirimi bu kanaldan başarıyla kaldırıldı!
 yt-notfound =
-    Couldn't find that YouTube user.
-    Try again by pasting the channel URL at https://commentpicker.com/youtube-channel-id.php and take the "Channel ID" value.
+    Bu YouTube kullanıcısını bulamadı.
+    Kanal URL'sini https://commentpicker.com/youtube-channel-id.php adresine yapıştırarak tekrar deneyin ve "Channel ID" değerini alın.
 # max.length: 100
-help-alerts = Manage alerts in this server.
+help-alerts = Bildirimleri bu sunucuda düzenleyin.
 # max.length: 100
-help-alerts_videos = Manage videos alerts in this server.
+help-alerts_videos = Video bildirimlerini bu sunucuda düzenleyin.
 # max.length: 100
-help-alerts_videos_youtube = Manage a video alert for a YouTube user.
+help-alerts_videos_youtube = Bir YouTube kullanıcısı için video bildirimini yönetin.
 # max.length: 100
-alerts_videos_youtube-parameter-user_name_or_id-description = The YouTube channel name or ID.
+alerts_videos_youtube-parameter-user_name_or_id-description = YouTube kanal adı veya ID'si.
 # max.length: 100
-help-alerts_videos_settings = Manage videos alerts settings.
+help-alerts_videos_settings = Video bildirim ayarlarını yönet.
 # max.length: 100
-help-alerts_streams = Manage streams alerts in this server.
+help-alerts_streams = Canlı yayın bildirimlerini bu sunucuda düzenleyin.
 # max.length: 100
-help-alerts_streams_youtube = Manage a stream alert for a YouTube user.
+help-alerts_streams_youtube = Bir YouTube kullanıcısı için canlı yayın bildirimini yönetin.
 # max.length: 100
-alerts_streams_youtube-parameter-user_name_or_id-description = The YouTube channel name or ID.
+alerts_streams_youtube-parameter-user_name_or_id-description = YouTube kanal adı veya ID'si.
 # max.length: 100
-help-alerts_streams_twitch = Manage a stream alert for a Twitch user.
+help-alerts_streams_twitch = Bir Twitch kullanıcısı için canlı yayın bildirimini yönetin.
 # max.length: 100
-alerts_streams_twitch-parameter-user_name_or_url-description = The Twitch channel name or URL.
+alerts_streams_twitch-parameter-user_name_or_url-description = Twitch kanal adı veya URL'si.
 # max.length: 100
-help-alerts_streams_kick = Manage a stream alert for a Kick user.
+help-alerts_streams_kick = Bir Kick kullanıcısı için canlı yayın bildirimini yönetin.
 # max.length: 100
-alerts_streams_kick-parameter-user_name_or_url-description = The Kick channel name or URL.
+alerts_streams_kick-parameter-user_name_or_url-description = Kick kanal adı veya URL'si.
 # max.length: 100
-help-alerts_streams_settings = Manage streams alerts settings.
+help-alerts_streams_settings = Canlı yayın bildirim ayarlarını yönet.
