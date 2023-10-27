@@ -39,7 +39,7 @@ streams-added-tip =
 # $source will be the source of the stream alert.
 streams-removed = Це сповіщення успішно видалено про трансляцію { $source } з цього каналу!
 streams-twitch-notfound = Не вдалося знайти цього користувача Twitch.
-streams-kick-notfound = Couldn't find that Kick user.
+streams-kick-notfound = Не вдалося знайти цього користувача Kick.
 videos-settings = налаштування сповіщень про відео
 videos-message = Повідомлення
 videos-settings-msg-btn = Редагувати повідомлення
@@ -75,8 +75,8 @@ help-alerts_streams_twitch = Керувати сповіщенням про тр
 # max.length: 100
 alerts_streams_twitch-parameter-user_name_or_url-description = Назва або посилання каналу Twitch.
 # max.length: 100
-help-alerts_streams_kick = Manage a stream alert for a Kick user.
+help-alerts_streams_kick = Керувати сповіщенням трансляції для користувача Kick.
 # max.length: 100
-alerts_streams_kick-parameter-user_name_or_url-description = The Kick channel name or URL.
+alerts_streams_kick-parameter-user_name_or_url-description = Назва або URL-адреса каналу Kick.
 # max.length: 100
 help-alerts_streams_settings = Керувати налаштуваннями сповіщень про трансляції.

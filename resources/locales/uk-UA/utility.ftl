@@ -32,11 +32,11 @@ language-changed = Successfully updated the language on this server to { $langua
 language-contribute =
     Do you want to help us having more translations to this language? 
     Here is the link to our Crowdin project to contribute: { $link } { $emoji }
-premium-not-active = Not active
-premium-status-user = Your Premium status
-premium-tier = **Tier:** { $value }
-premium-since = **Since:** { $value }
-premium-status-servers = Your Premium servers
+premium-not-active = Не активно
+premium-status-user = Ваш преміум статус
+premium-tier = **Рівень:** { $value }
+premium-since = **З:** { $value }
+premium-status-servers = Ваші сервери преміум
 premium-unknown-server = Unknown server name
 premium-status-current-server = Current server Premium status
 premium-server-notsub =

@@ -15,5 +15,5 @@ twitch-stream-lang = Мова:
 twitch-streamend-games-played = Категорія
 youtube-live = Наживо на YouTube
 youtube-subscribers = Підписників:
-kick-live = Live on Kick
+kick-live = Наживо на Kick
 videos-default-msg = { $name } опублікував нове відео!

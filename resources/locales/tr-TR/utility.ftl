@@ -1,57 +1,57 @@
 # max.length: 100
-help-stickeradd = Add a sticker to this server.
+help-stickeradd = Bu sunucuya bir çıkartma ekleyin.
 # max.length: 100
-stickeradd-parameter-message-description = The message containing the sticker.
+stickeradd-parameter-message-description = Mesaj bu çıkartmayı içeriyor.
 # max.length: 100
-help-stickerdelete = Remove a sticker from server.
+help-stickerdelete = Sunucudan bir çıkartma silin.
 # max.length: 100
-help-invite = Sends the invitation link of the bot, and some other important links.
+help-invite = Botun davet bağlantısını ve diğer bazı önemli bağlantıları gönderir.
 # max.length: 100
-help-language = Select which language to use on this server for Martine.
+help-language = Bu sunucuda Martine için hangi dilin kullanılacağını seçin.
 # max.length: 100
-language-parameter-lang-description = The language of your choice.
+language-parameter-lang-description = Seçtiğiniz dil.
 # max.length: 100
-help-nsfwchannel = Sends instructions on how to setup an NSFW channel.
+help-nsfwchannel = Bir NSFW kanalının nasıl kurulacağına ilişkin talimatlar gönderir.
 # max.length: 100
-help-vote = Sends the links to upvote Martine on bot lists.
+help-vote = Bot listesinde Martine'e oy vermek için bağlantıları gönderir.
 # max.length: 100
-help-selfblock = Add yourself to the bot's blocklist, to opt out from data collection.
+help-selfblock = Veri toplamayı devre dışı bırakmak için kendinizi botun engellenenler listesine ekleyin.
 # max.length: 100
-help-premium = Premium management commands.
+help-premium = Premium yönetim komutları.
 # max.length: 100
-help-premium-status = Gets information about your current Premium status.
+help-premium-status = Mevcut Premium durumunuz hakkında bilgi alın.
 # max.length: 100
-help-premium-server = Premium server management.
+help-premium-server = Premium sunucu yönetimi.
 # max.length: 100
-help-premium-server-activate = Activates Premium in this server, based off your current Patreon subscription.
+help-premium-server-activate = Mevcut Patreon aboneliğinize bağlı olarak bu sunucuda Premium'u etkinleştirir.
 # max.length: 100
-help-premium-server-remove = Removes Premium from this server.
-language-invalid = Please try again with a language that is in the list.
-language-current = Please select another language than the one currently selected.
-language-changed = Successfully updated the language on this server to { $language }! { $emoji }
+help-premium-server-remove = Premium'u bu sunucudan kaldırır.
+language-invalid = Lütfen listede bulunan bir dil ile tekrar deneyin.
+language-current = Lütfen şu anda seçili olandan başka bir dil seçin.
+language-changed = Bu sunucudaki dil başarıyla { $language } olarak güncellendi! { $emoji }
 language-contribute =
-    Do you want to help us having more translations to this language? 
-    Here is the link to our Crowdin project to contribute: { $link } { $emoji }
-premium-not-active = Not active
-premium-status-user = Your Premium status
-premium-tier = **Tier:** { $value }
-premium-since = **Since:** { $value }
-premium-status-servers = Your Premium servers
-premium-unknown-server = Unknown server name
-premium-status-current-server = Current server Premium status
+    Bu dile daha fazla çeviri yapmamıza yardımcı olmak ister misiniz? 
+    İşte katkıda bulunmak için Crowdin projemizin bağlantısı: { $link } { $emoji }
+premium-not-active = Aktif değil
+premium-status-user = Premium Durumunuz
+premium-tier = **Kademe:** { $value }
+premium-since = **Beri:** { $value }
+premium-status-servers = Premium Sunucularınız
+premium-unknown-server = Bilinmeyen sunucu adı
+premium-status-current-server = Mevcut sunucu Premium durumu
 premium-server-notsub =
-    It seems that you don't have a Patreon subscription. 
-    Please subscribe to our Patreon to get access to Premium features: { $premium_url }
-    Or maybe you already have one? If so, please click on following url to link your account to Martine: { $premium_link_url }
+    Görünüşe göre bir Patreon aboneliğiniz yok. 
+    Premium özelliklere erişmek için lütfen Patreon'umuza abone olun: { $premium_url }
+    Ya da belki zaten bir hesabınız vardır? Eğer öyleyse, hesabınızı Martine'e bağlamak için lütfen aşağıdaki url'ye tıklayın: { $premium_link_url }
 premium-server-invalid-sub =
-    You have a Premium subscription, but it's not a server subscription therefore I cannot activate Premium in this server.
-    You can find our Premium server subscriptions here: { $premium_url }
-premium-server-already-active = Premium is already activated in this server. { $emoji }
+    Premium aboneliğiniz var, ancak bu bir sunucu aboneliği değil, bu nedenle Premium'u bu sunucuda etkinleştiremiyorum.
+    Premium sunucu aboneliklerimizi burada bulabilirsiniz: { $premium_url }
+premium-server-already-active = Premium bu sunucuda zaten etkinleştirilmiştir. { $emoji }
 premium-server-max =
-    You have reached the maximum amount of Premium servers you can have with this subscription. 
-    Please remove a server from your Premium servers list before adding a new one.
+    Bu abonelikle sahip olabileceğiniz maksimum Premium sunucu sayısına ulaştınız. 
+    Lütfen yeni bir sunucu eklemeden önce Premium sunucular listenizden bir sunucuyu kaldırın.
 premium-server-activated =
-    Successfully activated { $tier } in this server!
-    You can now enjoy all the Premium features in this server. Thank you for supporting Martine! { $emoji }
-premium-server-remove-not-active = Premium is not activated in this server.
-premium-server-removed = Successfully removed Premium from this server!
+    Bu sunucuda { $tier } başarıyla etkinleştirildi!
+    Artık bu sunucudaki tüm Premium özelliklerin keyfini çıkarabilirsiniz. Martine'i desteklediğiniz için teşekkür ederiz! { $emoji }
+premium-server-remove-not-active = Premium bu sunucuda etkinleştirilmemiş.
+premium-server-removed = Premium bu sunucudan başarıyla kaldırıldı!
