@@ -39,7 +39,7 @@ streams-added-tip =
 # $source will be the source of the stream alert.
 streams-removed = Vellykket Fjernet dette { $source } strømvarselet fra denne kanalen!
 streams-twitch-notfound = Kunne ikke finne den Twitch-brukeren.
-streams-kick-notfound = Couldn't find that Kick user.
+streams-kick-notfound = Kunne ikke finne den kick brukeren.
 videos-settings = innstillinger for videoer varsler
 videos-message = Melding
 videos-settings-msg-btn = Rediger melding
@@ -77,8 +77,8 @@ help-alerts_streams_twitch = Administrer et strømmingsvarsel for en Twitch bruk
 # max.length: 100
 alerts_streams_twitch-parameter-user_name_or_url-description = Twitch kanalnavnet eller URL-en.
 # max.length: 100
-help-alerts_streams_kick = Manage a stream alert for a Kick user.
+help-alerts_streams_kick = Administrer en direktemelding for en kick bruker.
 # max.length: 100
-alerts_streams_kick-parameter-user_name_or_url-description = The Kick channel name or URL.
+alerts_streams_kick-parameter-user_name_or_url-description = Kick kanalnavn eller URL.
 # max.length: 100
 help-alerts_streams_settings = Behandle innstillinger for strømminger.
