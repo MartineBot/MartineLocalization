@@ -65,14 +65,14 @@ help-userinfo = Üye hakkında bilgi gösterir.
 ui-app-info = Başvuru Bilgisi
 ui-app-tags = Etiketler
 ui-app-tags-empty = Boş
-ui-app-flags = Application flags
-ui-app-presence = Presence Intent
-ui-app-members = Server Members Intent
-ui-app-msg = Message Content Intent
+ui-app-flags = Uygulama bayrakları
+ui-app-presence = Mevcudiyet Niyeti
+ui-app-members = Sunucu Üyelerinin Niyeti
+ui-app-msg = Mesaj İçeriği Niyet
 ui-app-misc = Diğer
 ui-app-guildcount = Yaklaşık sunucu sayısı
 ui-app-public = Genel
-ui-app-slug = Slug
+ui-app-slug = Lakap
 ui-app-tos = Kullanım Şartları
 ui-app-privacy = Gizlilik Politikası
 ui-app-add = Sunucuya Ekle
@@ -123,7 +123,7 @@ ci-archiver = Arşivleyen
 ci-private = Özel
 ci-messages = Mesajlar
 ci-owner = Sahibi
-ci-parent = Parent
+ci-parent = Ana
 ci-region = Bölge
 ci-region-automatic = Otomatik
 ci-bitrate = Bit hızı
@@ -202,8 +202,8 @@ help-info_emoji = Emoji hakkında bilgi verir.
 # max.length: 100
 info_emoji-parameter-emoji-description = Hakkında bilgi almak istediğiniz emoji.
 # max.length: 100
-help-info_bot_clusters = Shows clusters stats.
+help-info_bot_clusters = Küme istatistiklerini gösterir.
 # max.length: 100
-help-info_bot_currentcluster = Shows infos about the current cluster.
+help-info_bot_currentcluster = Geçerli küme hakkındaki bilgileri gösterir.
 # max.length: 100
 help-help = Komutların ve önemli bağlantıların listesini alın.

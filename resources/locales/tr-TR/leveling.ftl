@@ -77,53 +77,53 @@ help-lvlset_lvlup = Seviye atlama ayarlarını yönetin.
 # max.length: 100
 help-lvlset_lvlup_destination = Seviye yükseltme mesajlarının hedefini ayarlayın.
 # max.length: 100
-lvlset_lvlup_destination-parameter-destination-description = member for member's DMs, current for current lvlup channel, or channel ID/mention.
+lvlset_lvlup_destination-parameter-destination-description = üyelerin DM'leri için üye, mevcut lvlup kanalı için güncel veya kanal kimliği/bahsetme.
 # max.length: 100
-help-lvlset_lvlup_message = Set the level up message.
+help-lvlset_lvlup_message = Seviye yükselme mesajını ayarlayın.
 # max.length: 100
-lvlset_lvlup_message-parameter-message-description = You can use `[member]` for member mention, and `[lvl]` for the level the member reached.
+lvlset_lvlup_message-parameter-message-description = Üyeden bahsetmek için `[member]` ve üyenin ulaştığı seviye için `[lvl]` kullanabilirsiniz.
 # max.length: 100
-help-lvlset_exp = Manage exp settings.
+help-lvlset_exp = Xp ayarlarını yönetin.
 # max.length: 100
-help-lvlset_exp_rate = Set the exp rate/multiplier. From 0.1 to 5.0. Default to 1.0.
+help-lvlset_exp_rate = Xp oranını/çarpanını ayarlayın. 0,1'den 5,0'a. Varsayılan 1.0'dır.
 # max.length: 100
-lvlset_exp_rate-parameter-rate-description = The exp rate to set.
+lvlset_exp_rate-parameter-rate-description = Ayarlanacak xp oranı.
 # max.length: 100
-help-lvlset_exp_message = Set how much exp will be given for a message sent.
+help-lvlset_exp_message = Gönderilen bir mesaj için ne kadar xp verileceğini ayarlayın.
 # max.length: 100
-lvlset_exp_message-parameter-minimum-description = The minimum exp that will be given. (Max. 200)
+lvlset_exp_message-parameter-minimum-description = Verilecek minimum xp. (Maks. 200)
 # max.length: 100
-lvlset_exp_message-parameter-maximum-description = The maximum exp that will be given. (Max. 200)
+lvlset_exp_message-parameter-maximum-description = Verilecek maksimum xp. (Maks. 200)
 # max.length: 100
-help-lvlset_exp_cooldown = [Server Premium Silver] Set the exp cooldown in seconds. Default is 60.
+help-lvlset_exp_cooldown = [Sunucu Premium Gümüş] Xp bekleme süresini saniyeler içinde ayarlayın. Varsayılan 60'tır.
 # max.length: 100
-lvlset_exp_cooldown-parameter-cooldown-description = The cooldown value (in seconds) to set. Must be between 10s and 21600s. Default is 60.
+lvlset_exp_cooldown-parameter-cooldown-description = Ayarlanacak bekleme süresi değeri (saniye cinsinden). 10s ile 21600s arasında olmalıdır. Varsayılan değer 60'tır.
 # max.length: 100
-help-lvlset_exp_msglength = [Server Premium Silver] Set minimum message length for exp gain. Default is 20.
+help-lvlset_exp_msglength = [Sunucu Premium Gümüş] Xp kazancı için minimum mesaj uzunluğunu ayarlayın. Varsayılan değer 20'dir.
 # max.length: 100
-help-lvlset_ignore = Manage ignore settings.
+help-lvlset_ignore = Yoksayma ayarlarını yönetin.
 # max.length: 100
-help-lvlset_ignore_addchannel = Add a channel where members will not get exp.
+help-lvlset_ignore_addchannel = Üyelerin xp alamayacağı bir kanal ekleyin.
 # max.length: 100
-lvlset_ignore_addchannel-parameter-channel-description = The channel to add to the ignore list.
+lvlset_ignore_addchannel-parameter-channel-description = Yoksay listesine eklenecek kanal.
 # max.length: 100
-help-lvlset_ignore_rmchannel = Remove an ignored channel.
+help-lvlset_ignore_rmchannel = Yok sayılan bir kanalı kaldırın.
 # max.length: 100
-lvlset_ignore_rmchannel-parameter-channel-description = The channel to remove from the ignore list. Must be a text channel.
+lvlset_ignore_rmchannel-parameter-channel-description = Yoksayma listesinden kaldırılacak kanal. Bir metin kanalı olmalıdır.
 # max.length: 100
-help-lvlset_ignore_addrole = Add a role where members will not get exp.
+help-lvlset_ignore_addrole = Üyelerin xp alamayacağı bir rol ekleyin.
 # max.length: 100
-lvlset_ignore_addrole-parameter-role-description = The role to add to the ignore list.
+lvlset_ignore_addrole-parameter-role-description = Yoksay listesine eklenecek rol.
 # max.length: 100
-help-lvlset_ignore_rmrole = Remove an ignored role.
+help-lvlset_ignore_rmrole = Yok sayılan bir rolü kaldırın.
 # max.length: 100
-lvlset_ignore_rmrole-parameter-role-description = The role to remove from the ignore list.
+lvlset_ignore_rmrole-parameter-role-description = Yok say listesinden kaldırılacak rol.
 # max.length: 100
-help-lvlset_rep = Manage rep settings.
+help-lvlset_rep = Temsilci ayarlarını yönetin.
 # max.length: 100
-help-lvlset_rep_cooldown = Set the rep cooldown in seconds. Default is 5 minutes (300s).
+help-lvlset_rep_cooldown = Tekrar bekleme süresini saniye cinsinden ayarlayın. Varsayılan değer 5 dakikadır (300s).
 # max.length: 100
-lvlset_rep_cooldown-parameter-cooldown-description = The rep cooldown value. Default is 5 minutes (300s).
+lvlset_rep_cooldown-parameter-cooldown-description = Bekleme süresi değeri. Varsayılan değer 5 dakikadır (300s).
 # max.length: 100
 help-lvlset_rep_mention = İtibarlı üyeden bahsedilip bahsedilmeyeceğini ayarlayın.
 # max.length: 100

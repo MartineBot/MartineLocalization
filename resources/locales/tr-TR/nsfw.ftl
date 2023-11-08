@@ -1,7 +1,7 @@
 non-nsfw-channel-title = { $emoji } Bu komutu Yaş Sınırı olmayan bir kanalda kullanamazsınız!
 non-nsfw-channel-description = Bunu nasıl ayarlayacağınızdan emin değilseniz { $cmd_mention } komutunu kullanın.
 upvote-msg =
-    Bu komutu kullanmak için lütfen Top.gg veya DBL'de bana upvote verin. { $emoji }
+    Bu komutu kullanmak için lütfen Top.gg veya DBL' de bana upvote verin. { $emoji }
     İşte bağlantı: { $link }
     Oyunuzun süresi 12 saat sonra dolacaktır.
     
@@ -78,7 +78,7 @@ auto-setup-enable-fail = Bu kanalda otomatik porno ayarlayamadım. Lütfen daha 
 auto-setup-no-premium =
     Sunucu başına { $count } autoporn kanalından daha fazlasına sahip olamazsınız.
     Ancak, Premium planlarıyla daha yüksek limitler elde edebilirsiniz: { $premium_url }
-auto-setup-no-premium-3 = 25 autoporn channels is the maximum that can be set.
+auto-setup-no-premium-3 = 25 otomatik porno kanalı ayarlanabilecek maksimum kanaldır.
 auto-setup-enable-no-webhooks-perm =
     Bu kanalda autoporn mesajları gönderebilmek için "Webhook'ları Yönet" iznine ihtiyacım var!
     Autoporn özelliği, gecikme açısından en iyi koşullarda görüntü vermek için webhookları kullanır.
@@ -157,7 +157,7 @@ rule34-parameter-amount-description = Gönderilecek görüntü miktarı.
 # max.length: 100
 rule34-parameter-private-description = True olarak ayarladığınızda komut yalnızca sizin tarafınızdan görülebilir.
 # max.length: 100
-help-e621 = Kürklüler pornosu.
+help-e621 = Furry pornosu.
 # max.length: 100
 e621-parameter-search_tags-description = Görselleri aramak için anahtar kelimeler.
 # max.length: 100
