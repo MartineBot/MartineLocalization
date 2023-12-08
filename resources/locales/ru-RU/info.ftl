@@ -1,5 +1,5 @@
-yes = Yes
-no = No
+yes = Конечно
+no = К сожалению, нет
 # /help command
 shelp-title = Martine - список команд
 shelp-desc = Документация доступных команд которые есть в Martine.

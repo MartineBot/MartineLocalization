@@ -1,84 +1,80 @@
-yes = Yes
+yes = Si
 no = No
-max-alerts-0 = You cannot have more than 20 alerts per server.
-max-alerts-0-tip = You can get higher limits with our Premium tiers:
-max-alerts-1 = You cannot have more than 30 alerts per server with this premium tier.
-max-alerts-1-tip = You can get unlimited alerts with our Server Premium Gold tier:
-streams-settings = streams alerts settings
-streams-message = Message
-streams-autorefresh = Alerts auto-refresh
-streams-endbehavior = End behavior
+max-alerts-0 = No puedes tener más de 20 alertas por servidor.
+max-alerts-0-tip = Puedes obtener límites más altos con nuestros niveles Premium:
+max-alerts-1 = No puedes tener más de 30 alertas por servidor con este nivel premium.
+max-alerts-1-tip = Puedes obtener alertas ilimitadas con nuestro nivel premium Server Gold:
+streams-settings = Configuración de alertas de transmisiones
+streams-message = Mensaje
+streams-autorefresh = Actualización automática de alertas
+streams-endbehavior = Comportamiento en el extremo
 # $source will be the source of the stream alert.
-streams-count = { $source } streams alerts in this server
-streams-none = No streams alerts has been set in this server.
-streams-disable-autorefresh = Disable alerts auto-refresh
-streams-enable-autorefresh = Enable alerts auto-refresh
-streams-edit-msg-btn = Edit message
-streams-autorefresh-btn = Auto-refresh
-streams-autorefresh-enabled = Alright! Stream alerts messages will now auto refresh after 15 minutes.
-streams-autorefresh-disabled = Alright! Stream alerts message will no longer auto refresh.
-streams-endbehavior-select = Change streams end behavior
-streams-deletealertmsg = Delete alert message
-streams-deletealertmsg-desc = This will delete the stream alert message.
-streams-editalertmsg = Edit alert message
-streams-editalertmsg-desc = This will edit the stream alert message with some informations about the stream.
-streams-newmsg = Send new message
-streams-newmsg-desc = This will send a new message with some informations about the stream.
-streams-same-endbehavior = Please select another behavior than the one currently selected.
-streams-endbehavior-changed = Successfully updated the stream end behavior.
-streams-msg-modal = Streams alerts message editor
-streams-msg-label = Set the message sent on a stream start alert.
-streams-msg-placeholder = { "{" }streamer{ "}" } = the streamer name - { "{" }everyone{ "}" } = @everyone ping - { "{" }here{ "}" } = @here ping
-streams-msg-changed = Successfully updated the stream start alert message!
+streams-count = { $source } Alertas de transmisión en este servidor
+streams-none = No se han configurado alertas de transmisión en este servidor.
+streams-disable-autorefresh = Deshabilitar la actualización automática de alertas.
+streams-enable-autorefresh = Habilitar la actualización automática de alertas.
+streams-edit-msg-btn = Editar mensaje.
+streams-autorefresh-btn = Actualización automática.
+streams-autorefresh-enabled = ¡Perfecto! Los mensajes de alertas de transmisión se actualizarán automáticamente cada 15 minutos.
+streams-autorefresh-disabled = ¡Entendido! Los mensajes de alertas de transmisión ya no se actualizarán automáticamente.
+streams-endbehavior-select = Cambiar el comportamiento en el extremo de las transmisiones.
+streams-deletealertmsg = Eliminar mensaje de alerta.
+streams-deletealertmsg-desc = Esto eliminará el mensaje de alerta de transmisión.
+streams-editalertmsg = Editar mensaje de alerta.
+streams-editalertmsg-desc = Esto editará el mensaje de alerta de transmisión con alguna información sobre la transmisión.
+streams-newmsg = Enviar nuevo mensaje.
+streams-newmsg-desc = Esto enviará un nuevo mensaje con información sobre la transmisión.
+streams-same-endbehavior = Por favor, selecciona un comportamiento diferente al actualmente elegido.
+streams-endbehavior-changed = Se actualizó correctamente el comportamiento al finalizar la transmisión.
+streams-msg-modal = Editor de mensajes de alertas de transmisión.
+streams-msg-label = Establecer el mensaje enviado en una alerta de inicio de transmisión.
+streams-msg-placeholder = { "{" }streamer{ "}" } = El nombre del streamer. - { "{" }Mencionar a todos.{ "}" } = @everyone - { "{" }Conectados{ "}" } = @here ping
+streams-msg-changed = ¡Se actualizó correctamente el mensaje de alerta de inicio de transmisión!
 # $source will be the source of the stream alert.
-streams-added = Successfully added this { $source } stream as a alert in that channel!
+streams-added = ¡Se agregó correctamente esta transmisión de { $source } como una alerta en ese canal!
 # $cmd_mention is the slash command mention for /alerts streams settings
-streams-added-tip =
-    A alert will be sent during the next stream.
-    You can update the streams alerts settings using { $cmd_mention } command.
+streams-added-tip = Se enviará una alerta durante la próxima transmisión. Puedes actualizar la configuración de alertas de transmisión utilizando el comando { $cmd_mention }.
 # $source will be the source of the stream alert.
-streams-removed = Successfully removed this { $source } stream alert from this channel!
-streams-twitch-notfound = Couldn't find that Twitch user.
-streams-kick-notfound = Couldn't find that Kick user.
-videos-settings = videos alerts settings
-videos-message = Message
-videos-settings-msg-btn = Edit message
-videos-msg-modal = Videos alerts message editor
-videos-msg-label = Set the message sent on videos alerts.
-videos-msg-placeholder = { "{" }name{ "}" } = the video creator name - { "{" }everyone{ "}" } = @everyone ping - { "{" }here{ "}" } = @here ping
-videos-msg-changed = Successfully updated the videos alerts message!
-videos-count = { $source } videos alerts in this server
-videos-added = Successfully added this { $source } channel as a alert in that channel!
+streams-removed = ¡Se eliminó correctamente esta alerta de transmisión de { $source } de este canal!
+streams-twitch-notfound = No se pudo encontrar ese usuario de Twitch.
+streams-kick-notfound = No se pudo encontrar ese usuario para expulsar.
+videos-settings = Configuración de alertas de videos.
+videos-message = Mensaje
+videos-settings-msg-btn = Editar mensaje.
+videos-msg-modal = Editor de mensajes de alertas de videos.
+videos-msg-label = Establecer el mensaje enviado en las alertas de videos.
+videos-msg-placeholder = { "{" }name{ "}" } representa el nombre del creador del video, { "{" }everyone{ "}" } representa una mención a @everyone y { "{" }here{ "}" } representa una mención a @here
+videos-msg-changed = ¡Se actualizó correctamente el mensaje de alertas de videos!
+videos-count = Alertas de videos de { $source } en este servidor.
+videos-added = Se añadió correctamente este canal de { $source } como una alerta en ese canal.
 videos-added-tip =
-    A alert will be sent whenever the next video is posted.
-    You can update the videos alerts settings using { $cmd_mention } command.
-videos-removed = Successfully removed this { $source } channel alert from this channel!
-yt-notfound =
-    Couldn't find that YouTube user.
-    Try again by pasting the channel URL at https://commentpicker.com/youtube-channel-id.php and take the "Channel ID" value.
+    Se enviará una alerta cada vez que se publique el próximo video. 
+    Puedes actualizar la configuración de alertas de videos utilizando el comando { $cmd_mention }.
+videos-removed = Se eliminó correctamente esta alerta de canal de { $source } de este canal.
+yt-notfound = No se pudo encontrar ese usuario de YouTube. Intenta nuevamente pegando la URL del canal en https://commentpicker.com/youtube-channel-id.php y copia el valor de la ID del canal "Channel ID"
 # max.length: 100
-help-alerts = Manage alerts in this server.
+help-alerts = Administrar alertas en este servidor.
 # max.length: 100
-help-alerts_videos = Manage videos alerts in this server.
+help-alerts_videos = Administrar alertas de videos en este servidor.
 # max.length: 100
-help-alerts_videos_youtube = Manage a video alert for a YouTube user.
+help-alerts_videos_youtube = Administrar una alerta de video para un usuario de YouTube.
 # max.length: 100
-alerts_videos_youtube-parameter-user_name_or_id-description = The YouTube channel name or ID.
+alerts_videos_youtube-parameter-user_name_or_id-description = El nombre o ID del canal de YouTube.
 # max.length: 100
-help-alerts_videos_settings = Manage videos alerts settings.
+help-alerts_videos_settings = Administrar la configuración de alertas de videos.
 # max.length: 100
-help-alerts_streams = Manage streams alerts in this server.
+help-alerts_streams = Administrar alertas de transmisión en este servidor.
 # max.length: 100
-help-alerts_streams_youtube = Manage a stream alert for a YouTube user.
+help-alerts_streams_youtube = Administrar una alerta de transmisión para un usuario de YouTube.
 # max.length: 100
-alerts_streams_youtube-parameter-user_name_or_id-description = The YouTube channel name or ID.
+alerts_streams_youtube-parameter-user_name_or_id-description = El nombre o ID del canal de YouTube.
 # max.length: 100
-help-alerts_streams_twitch = Manage a stream alert for a Twitch user.
+help-alerts_streams_twitch = Administrar una alerta de transmisión para un usuario de Twitch.
 # max.length: 100
-alerts_streams_twitch-parameter-user_name_or_url-description = The Twitch channel name or URL.
+alerts_streams_twitch-parameter-user_name_or_url-description = El nombre o URL del canal de Twitch.
 # max.length: 100
-help-alerts_streams_kick = Manage a stream alert for a Kick user.
+help-alerts_streams_kick = Administrar una alerta de transmisión para un usuario de Kick.
 # max.length: 100
-alerts_streams_kick-parameter-user_name_or_url-description = The Kick channel name or URL.
+alerts_streams_kick-parameter-user_name_or_url-description = El nombre o URL del canal de Kick.
 # max.length: 100
-help-alerts_streams_settings = Manage streams alerts settings.
+help-alerts_streams_settings = Administrar la configuración de alertas de transmisión.

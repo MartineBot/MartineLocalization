@@ -7,8 +7,8 @@ upvote-msg =
     
     Вы можете обойти это, [ускорив сервер Мартина]({ $server_invite })
 upvote-msg-premium = Или получив один из наших [Премиум уровней]({ $premium_url })!
-yes = Yes
-no = No
+yes = Конечно
+no = К сожалению, нет
 btn-fail = Ой! Что-то поломалось с кнопками на этом сообщении, пожалуйста, используйте команду снова.
 amount-too-low = Sorry, but the amount parameter must be at least 1 image! { $emoji }
 amount-too-high = Sorry, but the amount parameter must be less or equal of { $amount } images! { $emoji }

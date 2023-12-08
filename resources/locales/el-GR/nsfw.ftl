@@ -1,173 +1,173 @@
-non-nsfw-channel-title = { $emoji } You can't use this command in a non-NSFW channel!
-non-nsfw-channel-description = Use the { $cmd_mention } command if you're unsure how to setup this.
+non-nsfw-channel-title = { $emoji } Δεν μπορείτε να χρησιμοποιήσετε αυτή την εντολή σε ένα κανάλι που δεν είναι NSFW!
+non-nsfw-channel-description = Χρησιμοποιήστε την εντολή { $cmd_mention } αν δεν είστε σίγουροι για τον τρόπο ρύθμισης.
 upvote-msg =
-    Please upvote me on Top.gg or DBL to use this command. { $emoji }
-    Here is the link: { $link }
-    Your vote will expire after 12 hours.
+    Παρακαλώ δώστε μου ένα upvote στο Top.gg ή στο DBL για να χρησιμοποιήσετε αυτή την εντολή. { $emoji }
+    Εδώ είναι ο σύνδεσμος: { $link }
+    Η ψήφος σας θα λήξει μετά από 12 ώρες.
     
-    You can bypass this by [boosting Martine's server]({ $server_invite })
-upvote-msg-premium = Or by getting one of our [Premium tiers]({ $premium_url })!
-yes = Yes
-no = No
-btn-fail = Oops! Something failed with buttons on this message, please use the command again.
-amount-too-low = Sorry, but the amount parameter must be at least 1 image! { $emoji }
-amount-too-high = Sorry, but the amount parameter must be less or equal of { $amount } images! { $emoji }
-command-no-images-found = Sorry, I wasn't able to pull a image for you! Please try again in a bit. { $emoji }
-command-invalid-category = Sorry but this is not a valid category! { $emoji }
-command-list-categories = Here is a list of all available categories:
-msg-category = **Image category:** { $category }
-msg-search-tags = **Search tags:** { $tags }
-msg-requested-by = **Requested by:** { $author }
-msg-invite-me = **Invite me:** { $link }
+    Μπορείτε να το παρακάμψετε αυτό κάνοντας [boosting στον διακομιστή της Martine]({ $server_invite })
+upvote-msg-premium = Ή παίρνοντας ένα από τα [Premium tiers]({ $premium_url })!
+yes = Ναι
+no = Όχι
+btn-fail = Ουπς! Κάτι απέτυχε με τα κουμπιά σε αυτό το μήνυμα, παρακαλώ χρησιμοποιήστε την εντολή ξανά.
+amount-too-low = Συγγνώμη, αλλά η παράμετρος ποσότητα πρέπει να είναι τουλάχιστον 1 εικόνα! { $emoji }
+amount-too-high = Συγγνώμη, αλλά η παράμετρος ποσό πρέπει να είναι μικρότερη ή ίση με { $amount } εικόνες! { $emoji }
+command-no-images-found = Συγγνώμη, δεν μπόρεσα να βρω μια εικόνα για εσάς! Παρακαλώ δοκιμάστε ξανά σε λίγο. { $emoji }
+command-invalid-category = Συγγνώμη, αλλά αυτή η κατηγορία δεν είναι έγκυρη! { $emoji }
+command-list-categories = Εδώ είναι μια λίστα με όλες τις διαθέσιμες κατηγορίες:
+msg-category = **Κατηγορία εικόνας:** { $category }
+msg-search-tags = **Ετικέτες αναζήτησης:** { $tags }
+msg-requested-by = **Ζητήθηκε από:** { $author }
+msg-invite-me = **Προσκαλέστε με:** { $link }
 msg-premium = **Premium:** { $link }
-msg-discord-server = **Discord Server:** { $link }
-msg-image = **Image:** { $link }
-msg-images = **Images:**
-embed-auto-footer = Use { $cmd_mention } to change delay or disable
-command-category-select-placeholder = Select another image category...
-command-category-next-btn = Next page
-command-category-next-btn-desc = There's more categories that might interest you!
-command-category-prev-btn = Previous page
-command-category-prev-btn-desc = Get back to previous seen categories.
-command-open-img-btn = Open Image
-command-report-img-btn = Report Image
-command-post-url-btn = Post URL
-image-report-title = Martine - NSFW Image report
-image-report-label = Image number or URL
-image-report-placeholder = The image number or its URL...
+msg-discord-server = **Discord Διακομιστής:** { $link }
+msg-image = **Εικόνα:** { $link }
+msg-images = **Εικόνες:**
+embed-auto-footer = Χρησιμοποιήστε το { $cmd_mention } για να αλλάξετε την καθυστέρηση ή να την απενεργοποιήσετε
+command-category-select-placeholder = Επιλέξτε άλλη κατηγορία εικόνων...
+command-category-next-btn = Επόμενη σελίδα
+command-category-next-btn-desc = Υπάρχουν κι άλλες κατηγορίες που μπορεί να σας ενδιαφέρουν!
+command-category-prev-btn = Προηγούμενη σελίδα
+command-category-prev-btn-desc = Επιστροφή σε προηγούμενες κατηγορίες.
+command-open-img-btn = Άνοιγμα εικόνας
+command-report-img-btn = Αναφορά εικόνας
+command-post-url-btn = Δημοσίευση URL
+image-report-title = Martine - Αναφορά εικόνας NSFW
+image-report-label = Αριθμός εικόνας ή URL
+image-report-placeholder = Ο αριθμός της εικόνας ή η διεύθυνση URL...
 image-report-success =
-    Here is the report link:
+    Εδώ είναι ο σύνδεσμος αναφοράς:
     { $link }
-image-report-invalid-url = Sorry, but this is not a valid image!
-booru-previous-img-btn = Previous image
-booru-next-img-btn = Next image
-booru-too-many-tags-nopremium = Sorry, but you can search for maximum 10 tags! Or get Premium to increase that limit up to 30 tags! { $emoji }
-booru-too-many-tags = Sorry, but you cannot search for more than 30 tags! { $emoji }
-booru-blocked-tag = One of these tags contains a blocked tag. Please try again. { $emoji }
-booru-no-results = I couldn't find any results for these tags. Please try again. { $emoji }
-set-anonymous = Your name will no longer be shown as requester in nsfw commands messages.
-unset-anonymous = Your name will be shown as requester in nsfw commands messages.
-auto-no-thread = Autoporn cannot be enabled in threads.
-auto-no-nsfw = Autoporn can only be enabled in a NSFW channel.
-auto-no-perms = I need embed links permissions to be able to send autoporn messages in this channel.
-auto-setup-title = Autoporn setup for: { $channel }
+image-report-invalid-url = Συγγνώμη, αλλά αυτή η εικόνα δεν είναι έγκυρη!
+booru-previous-img-btn = Προηγούμενη εικόνα
+booru-next-img-btn = Επόμενη εικόνα
+booru-too-many-tags-nopremium = Συγγνώμη, αλλά μπορείτε να αναζητήσετε το πολύ 10 ετικέτες! Ή αποκτήστε Premium για να αυξήσετε το όριο αυτό σε 30 ετικέτες! { $emoji }
+booru-too-many-tags = Συγγνώμη, αλλά δεν μπορείτε να αναζητήσετε περισσότερες από 30 ετικέτες! { $emoji }
+booru-blocked-tag = Μία από αυτές τις ετικέτες περιέχει μια αποκλεισμένη ετικέτα. Παρακαλώ δοκιμάστε ξανά. { $emoji }
+booru-no-results = Δεν μπόρεσα να βρω αποτελέσματα για αυτές τις ετικέτες. Παρακαλώ προσπαθήστε ξανά. { $emoji }
+set-anonymous = Το όνομά σας δε θα εμφανίζεται πλέον ως αιτών στα μηνύματα εντολών nsfw.
+unset-anonymous = Το όνομά σας θα εμφανίζεται ως αιτών στα μηνύματα εντολών nsfw.
+auto-no-thread = Το autoporn δεν μπορεί να ενεργοποιηθεί σε threads.
+auto-no-nsfw = Το autoporn μπορεί να ενεργοποιηθεί μόνο σε ένα κανάλι NSFW.
+auto-no-perms = Χρειάζομαι άδεια ενσωμάτωσης συνδέσμων για να μπορώ να στέλνω μηνύματα autoporn σε αυτό το κανάλι.
+auto-setup-title = Ρύθμιση autoporn για: { $channel }
 auto-setup-description =
-    Notes:
-    - The category called "random" is images of *all* available categories. It is the one selected by default. If you select a specific category it will get removed.
-    - There is a 15 seconds cooldown after enabling/disabling, and after updating categories.
-    - Images are sent every 5 minutes, by default. Use the `Change delay` button to update it.
-auto-setup-current = Current settings:
-auto-setup-enabled = **Enabled:** { $enabled }
-auto-setup-delay = **Delay:** { $delay }
-auto-setup-amount = **Amount:** { $amount }
-auto-setup-categories = Enabled categories:
-auto-setup-selected-categories = Selected categories:
-auto-setup-footer = Use the "Update categories" button after selecting the categories of your choice
-auto-setup-select-placeholder-disabled = Enable to select categories
-auto-setup-categories-btn = Update categories
-auto-setup-clear-categories-btn = Clear selected categories
-auto-setup-delay-btn = Change delay
-auto-setup-amount-btn = Change amount
-auto-setup-status-btn = Status in this server
-auto-setup-select-placeholder = Select categories
-auto-setup-enable-btn = Enable
-auto-setup-disable-btn = Disable
-auto-setup-same-categories = Please select other categories than those currently enabled for this channel.
-auto-setup-categories-updated = Successfully updated autoporn categories for { $channel } to: { $categories }
-auto-setup-enable-fail = I couldn't setup autoporn in this channel. Please try again later.
+    Σημειώσεις:
+    - Η κατηγορία που ονομάζεται "random" είναι εικόνες *όλων* των διαθέσιμων κατηγοριών. Είναι αυτή που επιλέγεται από προεπιλογή. Αν επιλέξετε μια συγκεκριμένη κατηγορία, θα αφαιρεθεί.
+    - Υπάρχει ένα χρονικό διάστημα 15 δευτερολέπτων μετά την ενεργοποίηση/απενεργοποίηση και μετά την ενημέρωση των κατηγοριών.
+    - Οι εικόνες αποστέλλονται κάθε 5 λεπτά, από προεπιλογή. Χρησιμοποιήστε το κουμπί `Αλλαγή καθυστέρησης` για να το ενημερώσετε.
+auto-setup-current = Τρέχουσες ρυθμίσεις:
+auto-setup-enabled = **Ενεργοποιημένο:** { $enabled }
+auto-setup-delay = **Καθυστέρηση:** { $delay }
+auto-setup-amount = **Ποσότητά:** { $amount }
+auto-setup-categories = Ενεργοποιημένες κατηγορίες:
+auto-setup-selected-categories = Επιλεγμένες κατηγορίες:
+auto-setup-footer = Χρησιμοποιήστε το κουμπί "Ενημέρωση κατηγοριών" αφού επιλέξετε τις κατηγορίες της επιλογής σας
+auto-setup-select-placeholder-disabled = Ενεργοποιήστε για να επιλέξετε κατηγορίες
+auto-setup-categories-btn = Ενημέρωση κατηγοριών
+auto-setup-clear-categories-btn = Εκκαθάριση επιλεγμένων κατηγοριών
+auto-setup-delay-btn = Αλλαγή καθυστέρησης
+auto-setup-amount-btn = Αλλαγή ποσότητας
+auto-setup-status-btn = Κατάσταση σε αυτόν τον διακομιστή
+auto-setup-select-placeholder = Επιλογή κατηγοριών
+auto-setup-enable-btn = Ενεργοποίηση
+auto-setup-disable-btn = Απενεργοποίηση
+auto-setup-same-categories = Παρακαλούμε επιλέξτε άλλες κατηγορίες από αυτές που είναι είδη ενεργοποιημένες για αυτό το κανάλι.
+auto-setup-categories-updated = Επιτυχής ενημέρωση κατηγοριών autoporn για { $channel } σε: { $categories }
+auto-setup-enable-fail = Δεν μπορούσα να ρυθμίσω το autoporn σε αυτό το κανάλι. Παρακαλώ δοκιμάστε ξανά αργότερα.
 auto-setup-no-premium =
-    You cannot have more than { $count } autoporn channels per server.
-    However, you can get higher limits with our Premium tiers: { $premium_url }
+    Δεν μπορείτε να έχετε περισσότερα από { $count } κανάλια autoporn ανά διακομιστή.
+    Ωστόσο, μπορείτε να έχετε υψηλότερα όρια με τα επίπεδα Premium: { $premium_url }
 auto-setup-no-premium-3 = 25 autoporn channels is the maximum that can be set.
 auto-setup-enable-no-webhooks-perm =
-    I need the "Manage Webhooks" permission in order to be able to send autoporn messages in this channel!
-    The autoporn feature uses webhooks for a giving images in the best conditions in term of delay.
-auto-setup-disable-no-webhooks-perm = I need the "Manage Webhooks" permission to be able to completely disable autoporn in this channel.
-auto-setup-max-webhooks = Maximum amount of webhooks reached in this channel. Please delete at least one webhook so Martine can set up autoporn here.
-auto-setup-enabled-success = Autoporn enabled in { $channel }.
-auto-setup-enabled-tip = Images are sent every 5 minutes by default. Use the `Change delay` button to update it.
-auto-setup-disabled = Autoporn disabled in { $channel }.
-auto-setup-delay-no-premium = Autoporn delay can only be changed for `Premium Server Silver` tier (or higher) servers! Check out our Premium tiers here: { $premium_url }
-auto-setup-amount-no-premium = Autoporn amount can only be changed for `Premium Server Silver` tier (or higher) servers! Check out our Premium tiers here: { $premium_url }
-auto-status-title = Autoporn status in { $guild }
-auto-status-title-none = Autoporn is not set anywhere in this server.
-auto-status-msg-sent = **Messages sent:** { $count }
+    Χρειάζομαι την άδεια "Διαχείριση Webhooks" για να μπορώ να στέλνω αυτόματα μηνύματα σε αυτό το κανάλι!
+    Η λειτουργία autoporn χρησιμοποιεί webhooks για να δώσει εικόνες με τις καλύτερες συνθήκες σε όρους καθυστέρησης.
+auto-setup-disable-no-webhooks-perm = Χρειάζομαι την άδεια "Διαχείριση Webhooks" για να είμαι σε θέση να απενεργοποιήσετε εντελώς το autoporn σε αυτό το κανάλι.
+auto-setup-max-webhooks = Το μέγιστο ποσό των webhooks σε αυτό το κανάλι. Παρακαλώ διαγράψτε τουλάχιστον ένα webhook ώστε η Martine να μπορεί να ρυθμίσει το autoporn εδώ.
+auto-setup-enabled-success = Το autoporn ενεργοποιήθηκε στο { $channel }.
+auto-setup-enabled-tip = Οι εικόνες αποστέλλονται από προεπιλογή κάθε 5 λεπτά. Χρησιμοποιήστε το κουμπί "Αλλαγή καθυστέρησης" για να την ενημερώσετε.
+auto-setup-disabled = Το autoporn είναι απενεργοποιημένο στο { $channel }.
+auto-setup-delay-no-premium = Η καθυστέρηση του autoporn μπορεί να αλλάξει μόνο για τους διακομιστές της βαθμίδας "Premium Server Silver" (ή υψηλότερη)! Ελέγξτε τις Premium βαθμίδες μας εδώ: { $premium_url }
+auto-setup-amount-no-premium = Η ποσότητα του autoporn μπορεί να αλλάξει μόνο για τους διακομιστές της βαθμίδας "Premium Server Silver" (ή υψηλότερη)! Ελέγξτε τις Premium βαθμίδες μας εδώ: { $premium_url }
+auto-status-title = Κατάσταση autoporn στο { $guild }
+auto-status-title-none = Το autoporn δεν έχει οριστεί πουθενά σε αυτόν τον διακομιστή.
+auto-status-msg-sent = **Αποσταλμένα μηνύματα:** { $count }
 auto-status-categories =
     { $count ->
-        [one] **Category:** { $categories }
-       *[other] **Categories:** { $categories }
+        [one] **Κατηγορία:** { $categories }
+       *[other] **Κατηγορίες:** { $categories }
     }
-auto-status-getback-btn = Get back to setup
-auto-delaymodal-title = Martine - Autoporn delay prompt
-auto-delaymodal-label = Delay
-auto-delaymodal-placeholder = The delay in minutes between each autoporn image sent in this channel...
-auto-delaymodal-invalid = Looks like this is not a correct value. Example: 5 minutes
-auto-delaymodal-toolow = The value must be over than 2 minutes.
-auto-delaymodal-toohigh = The value must be less than 60 minutes.
-auto-delaymodal-success = Successfully updated autoporn delay for { $channel } to `{ $delay }`.
-auto-amountmodal-title = Martine - Autoporn amount of images prompt
-auto-amountmodal-label = Amount
-auto-amountmodal-placeholder = The amount of images a autoporn message will contain...
-auto-amountmodal-invalid = Looks like this is not a correct value. Example: 5
-auto-amountmodal-toolow = The value must be over than 1.
-auto-amountmodal-toohigh = The value must be less than 5.
-auto-amountmodal-success = Successfully updated autoporn amount for { $channel } to `{ $amount }`.
-auto-setup-timeout-title = Autoporn setup
-auto-setup-timeout-description = This setup message has expired!
+auto-status-getback-btn = Επιστρέψτε στη ρύθμιση
+auto-delaymodal-title = Martine - Προτροπή καθυστέρησης autoporn
+auto-delaymodal-label = Καθυστέρηση
+auto-delaymodal-placeholder = Η καθυστέρηση σε λεπτά μεταξύ κάθε autoporn εικόνα που αποστέλλεται σε αυτό το κανάλι...
+auto-delaymodal-invalid = Φαίνεται ότι αυτή η τιμή δεν είναι σωστή. Παράδειγμα: 5 λεπτά
+auto-delaymodal-toolow = Η τιμή πρέπει να είναι μεγαλύτερη από 2 λεπτά.
+auto-delaymodal-toohigh = Η τιμή πρέπει να είναι μικρότερη από 60 λεπτά.
+auto-delaymodal-success = Ενημερώθηκε επιτυχώς η καθυστέρηση του autoporn για το { $channel } σε `{ $delay }`.
+auto-amountmodal-title = Martine - Αυτόματη προτροπή ποσότητας εικόνων
+auto-amountmodal-label = Ποσότητα
+auto-amountmodal-placeholder = Η ποσότητα των εικόνων που θα περιέχει ένα μήνυμα autoporn...
+auto-amountmodal-invalid = Φαίνεται ότι αυτή η τιμή δεν είναι σωστή. Παράδειγμα: 5
+auto-amountmodal-toolow = Η τιμή πρέπει να είναι μεγαλύτερη του 1.
+auto-amountmodal-toohigh = Η τιμή πρέπει να είναι μικρότερη από 5.
+auto-amountmodal-success = Ενημερώθηκε επιτυχώς η ποσότητα του autoporn για το { $channel } σε `{ $amount }`.
+auto-setup-timeout-title = Ρύθμιση autoporn
+auto-setup-timeout-description = Αυτό το μήνυμα ρύθμισης έχει λήξει!
 auto-task-disabled =
-    Set this channel to NSFW back and use { $autocmd_mention } command to re-enable autoporn in this channel.
-    Use the { $tipcmd_mention } command if you're not sure how to setup this.
-auto-task-noperms-title = Autoporn feature requires Martine to have the "Manage Webhooks" and "View Channel" permissions!
+    Ρυθμίστε αυτό το κανάλι σε NSFW και χρησιμοποιήστε την εντολή { $autocmd_mention } για να ενεργοποιήσετε ξανά το autoporn σε αυτό το κανάλι.
+    Χρησιμοποιήστε την εντολή { $tipcmd_mention } αν δεν είστε σίγουροι πώς να το ρυθμίσετε αυτό.
+auto-task-noperms-title = Η λειτουργία autoporn απαιτεί από την Martine να έχει τις άδειες "Διαχείριση Webhooks" και "Προβολή καναλιού"!
 auto-task-noperms-desc =
-    Set the correct permissions and use the { $autocmd_mention } command to re-enable autoporn in this channel.
-    If you are confused about this, or not sure how to proceed, feel free to join our support server and we will help you! { $support_url }
-auto-task-maxwebhooks-title = Maximum number of webhooks reached (10) in this channel!
+    Ορίστε τις σωστές άδειες και χρησιμοποιήστε την εντολή { $autocmd_mention } για να ενεργοποιήσετε ξανά το autoporn σε αυτό το κανάλι.
+    Αν έχετε μπερδευτεί σχετικά με αυτό, ή δεν είστε σίγουροι για το πώς να προχωρήσετε, μη διστάσετε να μπείτε στο διακομιστή υποστήριξης και θα σας βοηθήσουμε! { $support_url }
+auto-task-maxwebhooks-title = Μέγιστος αριθμός webhooks που έχουν επιτευχθεί (10) σε αυτό το κανάλι!
 auto-task-maxwebhooks-desc =
-    A Discord channel can have a maximum of 10 webhooks, and this channel has hit the maximum.
-    Please delete at least one webhook so Martine can set up autoporn here. Once it's done use the { $autocmd_mention } command to re-enable autoporn.
-    If you are confused about this, or not sure how to proceed, feel free to join our support server and we will help you! { $support_url }
+    Ένα κανάλι Discord μπορεί να έχει μέγιστο αριθμό 10 webhooks και αυτό το κανάλι έχει φτάσει το μέγιστο όριο.
+    Παρακαλούμε διαγράψτε τουλάχιστον ένα webhook ώστε η Martine να μπορέσει να ρυθμίσει το autoporn εδώ. Μόλις γίνει αυτό, χρησιμοποιήστε την εντολή { $autocmd_mention } για να ενεργοποιήσετε ξανά το autoporn.
+    Αν έχετε μπερδευτεί σχετικά με αυτό, ή δεν είστε σίγουροι για το πώς να προχωρήσετε, μπορείτε να συνδεθείτε στο διακομιστή υποστήριξης και θα σας βοηθήσουμε! { $support_url }
 auto-cleanup-msg =
-    Autoporn was disabled in this channel because this server has hit the maximum channel enabled (5).
-    This happens because the server had Premium enabled in the past but no longer is.
-    Get Premium to get access to more autoporn channels again! { $emoji }
+    Το αυτόματο πορνό απενεργοποιήθηκε σε αυτό το κανάλι επειδή ο διακομιστής έχει φτάσει στο μέγιστο ενεργοποιημένο κανάλι (5).
+    Αυτό συμβαίνει επειδή ο διακομιστής είχε ενεργοποιημένο το Premium στο παρελθόν, αλλά είναι πλέον απενεργοποιημένο.
+    Αποκτήστε το Premium για να αποκτήσετε ξανά πρόσβαση σε περισσότερα κανάλια αυτόματου πορνό! { $emoji }
     { $premium_url }
 # max.length: 100
-help-autoporn = Setup autoporn in this channel, and see the status of it on this server.
+help-autoporn = Ρυθμίστε το autoporn σε αυτό το κανάλι και δείτε την κατάστασή του σε αυτόν τον διακομιστή.
 # max.length: 100
-help-nsfw = Send nsfw images of many categories!
+help-nsfw = Στείλτε nsfw εικόνες πολλών κατηγοριών!
 # max.length: 100
-nsfw-parameter-category-description = The image category.
+nsfw-parameter-category-description = Η κατηγορία εικόνας.
 # max.length: 100
-nsfw-parameter-amount-description = The amount of images to send.
+nsfw-parameter-amount-description = Το πλήθος των εικόνων που θα αποσταλούν.
 # max.length: 100
-nsfw-parameter-private-description = Set to True and the command will only be visible to you.
+nsfw-parameter-private-description = Ορίστε την τιμή True και η εντολή θα είναι ορατή μόνο σε εσάς.
 # max.length: 100
-help-nsfwbomb = Send multiple Nsfw images in one command between an interval of 2 seconds.
+help-nsfwbomb = Αποστολή πολλαπλών εικόνων Nsfw με μία εντολή σε διάστημα 2 δευτερολέπτων.
 # max.length: 100
-nsfwbomb-parameter-amount-description = The amount of images.
+nsfwbomb-parameter-amount-description = Η ποσότητα των εικόνων.
 # max.length: 100
-nsfwbomb-parameter-category-description = The images category.
+nsfwbomb-parameter-category-description = Η κατηγορία εικόνων.
 # max.length: 100
-help-rule34 = That famous rule yes yes.
+help-rule34 = Αυτός ο περίφημος κανόνας ναι ναι.
 # max.length: 100
-rule34-parameter-search_tags-description = Keywords to search images for.
+rule34-parameter-search_tags-description = Λέξεις-κλειδιά για αναζήτηση εικόνων.
 # max.length: 100
-rule34-parameter-amount-description = The amount of images to send.
+rule34-parameter-amount-description = Το πλήθος των εικόνων που θα αποσταλούν.
 # max.length: 100
-rule34-parameter-private-description = Set to True and the command will only be visible to you.
+rule34-parameter-private-description = Ορίστε την τιμή True και η εντολή θα είναι ορατή μόνο σε εσάς.
 # max.length: 100
-help-e621 = Furries porn.
+help-e621 = Furries πορνό.
 # max.length: 100
-e621-parameter-search_tags-description = Keywords to search images for.
+e621-parameter-search_tags-description = Λέξεις-κλειδιά για αναζήτηση εικόνων.
 # max.length: 100
-e621-parameter-amount-description = The amount of images to send.
+e621-parameter-amount-description = Το πλήθος των εικόνων που θα αποσταλούν.
 # max.length: 100
-e621-parameter-private-description = Set to True and the command will only be visible to you.
+e621-parameter-private-description = Ορίστε την τιμή True και η εντολή θα είναι ορατή μόνο σε εσάς.
 # max.length: 100
-help-realbooru = Search for real stuff.
+help-realbooru = Αναζητήστε για αληθινά πράγματα.
 # max.length: 100
-realbooru-parameter-search_tags-description = Keywords to search images for.
+realbooru-parameter-search_tags-description = Λέξεις-κλειδιά για αναζήτηση εικόνων.
 # max.length: 100
-realbooru-parameter-amount-description = The amount of images to send.
+realbooru-parameter-amount-description = Το πλήθος των εικόνων που θα αποσταλούν.
 # max.length: 100
-realbooru-parameter-private-description = Set to True and the command will only be visible to you.
+realbooru-parameter-private-description = Ορίστε την τιμή True και η εντολή θα είναι ορατή μόνο σε εσάς.

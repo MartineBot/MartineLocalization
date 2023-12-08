@@ -1,6 +1,6 @@
-yes = Yes
-no = No
-max-alerts-0 = You cannot have more than 20 alerts per server.
+yes = Конечно
+no = К сожалению, нет
+max-alerts-0 = У вас не может быть больше чем 20 уведомлений на одном сервере.
 max-alerts-0-tip = Вы можете получить более высокие лимиты с нашими Премиум подписками:
 max-alerts-1 = Вы не можете иметь более 30 уведомлений на сервер с этой премиум подпиской.
 max-alerts-1-tip = Вы можете получить неограниченное количество уведомлений с нашей Золотой Премиум Подпиской:
@@ -39,7 +39,7 @@ streams-added-tip =
 # $source will be the source of the stream alert.
 streams-removed = Успешно удалено это уведомление { $source } стрима из этого канала!
 streams-twitch-notfound = Не удалось найти этого пользователя Twitch.
-streams-kick-notfound = Couldn't find that Kick user.
+streams-kick-notfound = К сожалению, я не смогла найти пользователя, которого вы хотели выгнать.
 videos-settings = настройки уведомлений видео
 videos-message = Сообщение
 videos-settings-msg-btn = Изменить сообщение
@@ -57,7 +57,7 @@ yt-notfound =
     Не удалось найти этого пользователя YouTube.
     Попробуйте еще раз, вставив URL канала на https://commentpicker.com/youtube-channel-id.php и скопировать значение "Channel ID".
 # max.length: 100
-help-alerts = Manage alerts in this server.
+help-alerts = Управляйте оповещениями этого сервера.
 # max.length: 100
 help-alerts_videos = Manage videos alerts in this server.
 # max.length: 100

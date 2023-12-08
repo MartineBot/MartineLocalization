@@ -1,200 +1,199 @@
-giveaway-run-notfound = Couldn't find a currently running giveaway for that message.
-giveaway-notfound = Couldn't find a giveaway for that message.
-giveaway-notstored = Couldn't find a stored giveaway for that message.
+giveaway-run-notfound = No se pudo encontrar un sorteo en curso para ese mensaje.
+giveaway-notfound = No se pudo encontrar un sorteo para ese mensaje.
+giveaway-notstored = No se pudo encontrar un sorteo almacenado para ese mensaje.
 giveaway-roles = Roles:
-giveaway-days-in-server = Days in server:
-giveaway-details = Details:
-giveaway-hosted-by = Hosted by:
-giveaway-unknown = Unknown
-giveaway-time-remaining = Time remaining:
-giveaway-requirements = Requirements:
-giveaway-bypassrole = { $role } role bypasses those requirements!
-giveaway-ends = Ends:
-giveaway-ends-at = Ends at
-giveaway-winners = Winners:
-giveaway-rolling = Rolling giveaway { $prize }...
-giveaway-roll-notfound =
-    The message of giveaway { $prize } seems to have been deleted.
-    I cannot roll out winners.
-giveaway-roll-reroll = Giveaway reroll! { $emoji }
-giveaway-roll-ended = Giveaway ended! { $emoji }
+giveaway-days-in-server = Días en el servidor:
+giveaway-details = Detalles:
+giveaway-hosted-by = Organizado por:
+giveaway-unknown = Desconocido.
+giveaway-time-remaining = Tiempo restante:
+giveaway-requirements = Requisitos:
+giveaway-bypassrole = ¡El rol { $role } evita esos requisitos!
+giveaway-ends = Finaliza:
+giveaway-ends-at = Finaliza en
+giveaway-winners = Ganadores:
+giveaway-rolling = Sorteo en curso { $prize }...
+giveaway-roll-notfound = El mensaje del sorteo { $prize } parece haber sido eliminado. No puedo elegir a los ganadores.
+giveaway-roll-reroll = ¡Sorteo de nuevo! { $emoji }
+giveaway-roll-ended = ¡Sorteo terminado! { $emoji }
 giveaway-roll-description =
-    Congratulations to the **{ $num_winners } { $num_winners ->
-        [one] winner
-       *[other] winners
-    }
-    You have won { $prize }!**
+    ¡Felicidades a los **{ $num_winners } { $num_winners ->
+     [one] ganador 
+     *[other] ganadores 
+    } 
+    Has ganado { $prize }!**
 giveaway-roll-total-entries =
-    { $num_entries_fmt } total { $num_entries ->
-        [one] entry
-       *[other] entries
+    ¡{ $num_entries_fmt } total 
+    { $num_entries ->
+        [one] entrada
+       *[other] entradas
     }!
-giveaway-roll-gg = Congratulation { $winners }!
+giveaway-roll-gg = ¡Felicidades { $winners }!
 giveaway-roll-nothing =
-    But no one entered. { $emoji }
-    It was { $prize }
-giveaway-ended = Giveaway Ended
-giveaway-ended-time = Giveaway ended { $locale_formatted_time }!
-giveaway-no-winners = No one won
-giveaway-btn-label = Enter giveaway ({ $entries } entries)
-giveaway-btn-label-ended = { $entries } entries
-giveaway-btn-spammy = This button is on cooldown, please try again later.
-giveaway-btn-removed = Successfully removed your entry from this giveaway! { $emoji }
-giveaway-btn-fail-role = { $role } role
-giveaway-btn-fail-joindays = { $joindays } days in the server but you have been there for { $days } days.
+    Pero nadie participó. { $emoji }
+    Era { $prize }
+giveaway-ended = Sorteo Terminado
+giveaway-ended-time = ¡Sorteo terminado { $locale_formatted_time }!
+giveaway-no-winners = Nadie ganó
+giveaway-btn-label = Participa en el sorteo ({ $entries } participaciones)
+giveaway-btn-label-ended = { $entries } participaciones
+giveaway-btn-spammy = Este botón está en tiempo de espera, por favor intenta de nuevo más tarde.
+giveaway-btn-removed = ¡Se ha eliminado exitosamente tu participación en este sorteo! { $emoji }
+giveaway-btn-fail-role = Rol { $role }
+giveaway-btn-fail-joindays = Has estado en el servidor { $joindays } días, pero has estado allí durante { $days } días.
 giveaway-btn-denied-title =
-    Giveaway entry denied! Missing { $count ->
-        [one] requirement
-       *[other] requirements
+    ¡Participación en el sorteo denegada! Faltan { $count ->
+        [one] requisito
+       *[other] requisitos
     }
-giveaway-btn-denied-description = Sorry but you are missing one of the requirements for { $prize } giveaway in { $server } server.
-giveaway-btn-bypass-title = Bypass role:
-giveaway-btn-bypass-description = By having { $role } role you can bypass the above requirements!
-giveaway-btn-martine-links = Martine's links:
-giveaway-btn-accepted-title = Giveaway entry accepted!
-giveaway-btn-accepted-description = Your entry for the giveaway of { $prize } in { $server } server has been processed and accepted. Good luck!
+giveaway-btn-denied-description = Lo siento, pero te falta uno de los requisitos para el sorteo de { $prize } en el servidor { $server }.
+giveaway-btn-bypass-title = Rol de omisión:
+giveaway-btn-bypass-description = ¡Al tener el rol { $role } puedes eludir los requisitos anteriores!
+giveaway-btn-martine-links = Enlaces de Martine:
+giveaway-btn-accepted-title = ¡Participación en el sorteo aceptada!
+giveaway-btn-accepted-description = Tu participación para el sorteo de { $prize } en el servidor { $server } ha sido procesada y aceptada. ¡Buena suerte!
 # max.length: 100
-help-giveaway = Commands to manage giveaways
+help-giveaway = Comandos para administrar sorteos
 # max.length: 100
-help-giveaway_create = Create a giveaway.
+help-giveaway_create = Crear un sorteo.
 # max.length: 100
-giveaway_create-parameter-use_config-description = Whether you want to use already set config values. Default to False.
-giveaway-setup = Giveaway setup { $emoji }
-giveaway-setup-optional = Optional
-giveaway-setup-current-value = Current value:
-giveaway-setup-example = Example:
-giveaway-setup-footer-cancel-skip = Send "cancel" to cancel the setup or send "skip" to skip that question.
-giveaway-setup-footer-cancel = Send "cancel" to cancel the setup.
-giveaway-setup-keep = Send "keep" to keep the current value.
+giveaway_create-parameter-use_config-description = Si deseas utilizar los valores de configuración ya establecidos. Por defecto esta desactivado.
+giveaway-setup = Configuración del sorteo { $emoji }
+giveaway-setup-optional = Opcional
+giveaway-setup-current-value = Valor actual:
+giveaway-setup-example = Ejemplo:
+giveaway-setup-footer-cancel-skip = Escribe "cancelar" para cancelar la configuración o escribe "saltar" para omitir esa pregunta.
+giveaway-setup-footer-cancel = Envía "cancelar" para cancelar la configuración.
+giveaway-setup-keep = Envía "mantener" para mantener el valor actual.
 giveaway-setup-error = Error:
-giveaway-setup-cancelled = The giveaway setup has been cancelled.
+giveaway-setup-cancelled = La configuración del sorteo ha sido cancelada.
 giveaway-setup-timeout =
     { $giveaway-setup-cancelled }
-    User took too much time to answer.
+    
+    El usuario tardó demasiado en responder.
 giveaway-setup-too-many-fails =
     { $giveaway-setup-cancelled }
-    User failed to give an good answer after 5 tries.
-giveaway-setup-title =
-    __You have started the giveaway setup. You will have 5 minutes to answer each questions.__
     
-    What prize are you giving away? (256 characters maximum)
-giveaway-setup-prize-example = A Discord Nitro.
-giveaway-setup-prize-too-long = The prize title must be less than 256 characters. Please try again with a shorter title.
-giveaway-setup-description = A brief description of your giveaway. (1024 characters maximum)
-giveaway-setup-description-example = Staff team is offering a Discord Nitro for the end of this month!
-giveaway-setup-description-too-long = The description must be less than 1024 characters. Please try again with a shorter description.
-giveaway-setup-winners = How many winners will be pulled? (Maximum 25)
-giveaway-setup-numbers-invalid = This must be a number, please try again.
-giveaway-setup-winners-too-high = The maximum number of winners is 25. Please try again with a lower number.
-giveaway-setup-host = Who is hosting that giveaway?
-giveaway-setup-host-notfound = This user was not found. Please try again.
+    El usuario no proporcionó una buena respuesta después de 5 intentos.
+giveaway-setup-title =
+    __Has iniciado la configuración del sorteo. Tendrás 5 minutos para responder a cada pregunta.__
+    
+    ¿Qué premio estás regalando? (máximo 256 caracteres)
+giveaway-setup-prize-example = Un Discord Nitro.
+giveaway-setup-prize-too-long = El título del premio debe tener menos de 256 caracteres. Por favor, inténtalo de nuevo con un título más corto.
+giveaway-setup-description = Una breve descripción de tu sorteo. (máximo 1024 caracteres)
+giveaway-setup-description-example = ¡El equipo de administración está ofreciendo un Discord Nitro para el final de este mes!
+giveaway-setup-description-too-long = La descripción debe tener menos de 1024 caracteres. Por favor, inténtalo de nuevo con una descripción más corta.
+giveaway-setup-winners = ¿Cuántos ganadores se seleccionarán? (Máximo 25)
+giveaway-setup-numbers-invalid = Esto debe ser un número, por favor inténtalo de nuevo.
+giveaway-setup-winners-too-high = El número máximo de ganadores es 25. Por favor, inténtalo de nuevo con un número más bajo.
+giveaway-setup-host = ¿Quién está organizando ese sorteo?
+giveaway-setup-host-notfound = Este usuario no fue encontrado. Por favor, inténtalo de nuevo.
 giveaway-setup-roles =
-    Which role(s) will be allowed to enter that giveaway? In the case of multiple roles, please use commas to separate them.
-    For roles with spaces in their name, either mention them or use their ID.
-giveaway-setup-roles-invalid = { $value } is not a valid role. Please try again.
-giveaway-setup-roles-too-many = You can only specify up to 5 roles. Please try again with less roles.
-giveaway-setup-joindays = How many days members should have been in the server?
-giveaway-setup-joindays-too-low = The minimum number of days is 1. Please try again with a higher number.
-giveaway-setup-bypassrole = Do you want to set a role that will bypass requirements set before?
-giveaway-setup-bypassrole-invalid = { $value } is not a valid role. Please try again.
+    ¿Qué rol(es) podrán participar en ese sorteo? En caso de roles múltiples, por favor usa comas para separarlos.
+    Para roles con espacios en su nombre, menciónalos o usa su ID.
+giveaway-setup-roles-invalid = { $value } no es un rol válido. Por favor, inténtalo de nuevo.
+giveaway-setup-roles-too-many = Solo puedes especificar hasta 5 roles. Por favor, inténtalo de nuevo con menos roles.
+giveaway-setup-joindays = ¿Cuántos días deberían haber estado los miembros en el servidor?
+giveaway-setup-joindays-too-low = El número mínimo de días es 1. Por favor, inténtalo de nuevo con un número mayor.
+giveaway-setup-bypassrole = ¿Deseas establecer un rol que omita los requisitos establecidos anteriormente?
+giveaway-setup-bypassrole-invalid = { $value } no es un rol válido. Por favor, inténtalo de nuevo.
 giveaway-setup-emoji =
-    Which emoji do you want with the button on which people can enter?
-    Send "None" and there will be no emoji on the button.
-    By default it will use "{ $emoji }".
-giveaway-setup-emoji-invalid = { $value } is not a valid emoji. Please try again.
-giveaway-setup-channel = In which channel do you want that giveaway being hosted?
-giveaway-setup-channel-notfound = This channel was not found. Please try again.
+    ¿Qué emoji quieres con el botón en el que las personas pueden ingresar?
+    Envía "None" y no habrá emoji en el botón.
+    Por defecto, usará "{ $emoji }".
+giveaway-setup-emoji-invalid = "{ $value }" no es un emoji válido. Por favor, inténtalo de nuevo.
+giveaway-setup-channel = ¿En qué canal quieres que se realice el sorteo?
+giveaway-setup-channel-notfound = Este canal no fue encontrado. Por favor, inténtalo de nuevo.
 giveaway-setup-channel-missing-perms =
-    Please make sure I have the following permissions in the wanted channel:
-    View Channel, Read message history, Read messages, Embed links, and External emojis.
-giveaway-setup-endtime = When will the giveaway end? The time can be any direct date in this format `YYYY-MM-DD` (UTC time) or an human readable offset.
-giveaway-setup-endtime-invalid = This is not a valid end time. Please try again.
-giveaway-setup-success = Successfully created this giveaway in { $channel }!
-giveaway-started = New Giveaway Started!
-giveaway-tip = Click on the button below to enter!
+    Por favor, asegúrate de que tengo los siguientes permisos en el canal deseado:
+    Ver Canal, Leer historial de mensajes, Leer mensajes, Insertar enlaces, y Emojis externos.
+giveaway-setup-endtime = ¿Cuándo terminará el sorteo? El tiempo puede ser cualquier fecha directa en este formato `YYYY-MM-DD` (hora UTC) o un desplazamiento legible para humanos.
+giveaway-setup-endtime-invalid = Esto no es una hora de finalización válida. Por favor, inténtalo de nuevo.
+giveaway-setup-success = Este sorteo se ha creado exitosamente en { $channel }!
+giveaway-started = ¡Nuevo sorteo iniciado!
+giveaway-tip = ¡Haz clic en el botón de abajo para participar!
 # max.length: 100
-help-giveaway_edit = Edit a currently ongoing giveaway.
+help-giveaway_edit = Edita un sorteo actualmente en curso.
 # max.length: 100
-giveaway_edit-parameter-message-description = The message jump URL or ID of the giveaway.
-giveaway-edit-success = Successfully edited that giveaway!
+giveaway_edit-parameter-message-description = La URL de salto del mensaje o ID del sorteo.
+giveaway-edit-success = ¡Ese sorteo ha sido editado exitosamente!
 # max.length: 100
-help-giveaway_end = Ends a giveaway early. Message can be a jump url, or ID of the giveaway message.
+help-giveaway_end = Finaliza un sorteo anticipadamente. El mensaje puede ser una URL de salto, o ID del mensaje del sorteo.
 # max.length: 100
-giveaway_end-parameter-message-description = The message jump URL or ID of the giveaway.
-giveaway-end-success = Successfully ended that giveaway!
+giveaway_end-parameter-message-description = La URL de salto del mensaje o ID del sorteo.
+giveaway-end-success = ¡Ese sorteo ha sido finalizado exitosamente!
 # max.length: 100
-help-giveaway_reroll = Re-roll a giveaway. Message can be a jump url, or ID of the giveaway message.
+help-giveaway_reroll = Vuelve a sortear un sorteo. El mensaje puede ser una URL de salto, o ID del mensaje del sorteo.
 # max.length: 100
-giveaway_reroll-parameter-message-description = The message jump URL or ID of the giveaway.
+giveaway_reroll-parameter-message-description = La URL de salto del mensaje o ID del sorteo.
 # max.length: 100
-giveaway_reroll-parameter-count-description = The number of winners to re-roll. Default is 1.
-giveaway-reroll-notended = That giveaway is not ended yet. You cannot reroll it.
-giveaway-reroll-too-high = You choosed a count higher than 25. Don't forget that the maximum number of winners in giveaways is 25. Please try again with a lower number.
-giveaway-reroll-count-invalid = The number of winners for that giveaway was { $value }, which is higher than what you provided. Please try again with a lower number.
-giveaway-reroll-success = Successfully rerolled that giveaway!
+giveaway_reroll-parameter-count-description = El número de ganadores a volver a sortear. Por defecto es 1.
+giveaway-reroll-notended = Ese sorteo aún no ha terminado. No puedes volver a sortearlo.
+giveaway-reroll-too-high = Has seleccionado un número mayor a 25. No olvides que el número máximo de ganadores en los sorteos es 25. Por favor, intenta de nuevo con un número menor.
+giveaway-reroll-count-invalid = El número de ganadores para ese sorteo fue { $value }, que es mayor a lo que proporcionaste. Por favor, intenta de nuevo con un número menor.
+giveaway-reroll-success = ¡Ese sorteo ha sido vuelto a sortear exitosamente!
 # max.length: 100
-help-giveaway_list = List all current and previous giveaways.
-giveaway-list-nothing = There is no giveaway currently running or stored for this server.
-giveaway-list-failed = Failed to get that giveaway { $id }.
-giveaway-list-no-description = No description.
-giveaway-list-jump-url = Jump to message!
-giveaway-list-page = Page
-giveaway-list-ended = Ended
-giveaway-list-ends-at = Ends
+help-giveaway_list = Lista todos los sorteos actuales y anteriores.
+giveaway-list-nothing = No hay ningún sorteo en curso o almacenado para este servidor.
+giveaway-list-failed = No se pudo obtener ese sorteo { $id }.
+giveaway-list-no-description = Sin descripción.
+giveaway-list-jump-url = ¡Salta al mensaje!
+giveaway-list-page = Página
+giveaway-list-ended = Finalizado
+giveaway-list-ends-at = Finaliza
 # max.length: 100
-help-giveaway_settings = Set the default values for giveaways in this server.
+help-giveaway_settings = Establece los valores predeterminados para los sorteos en este servidor.
 # max.length: 100
-help-giveaway_settings_show = Shows the current giveaway settings of this server.
-giveaway-settings-not-set = Not set.
-giveaway-settings-title = { $server } giveaway default settings
-giveaway-settings-channel = Channel:
-giveaway-settings-host = Host:
+help-giveaway_settings_show = Muestra la configuración actual de los sorteos de este servidor.
+giveaway-settings-not-set = No establecido.
+giveaway-settings-title = Configuración predeterminada del sorteo para { $server }
+giveaway-settings-channel = Canal:
+giveaway-settings-host = Organizador:
 giveaway-settings-emoji = Emoji:
-giveaway-settings-winners = Number of winners:
-giveaway-settings-joindays = Join days:
-giveaway-settings-bypassrole = Requirements bypass role:
+giveaway-settings-winners = Número de ganadores:
+giveaway-settings-joindays = Días de unión:
+giveaway-settings-bypassrole = Rol para eludir los requisitos:
 # max.length: 100
-help-giveaway_settings_resetall = Reset all giveaway default settings for this server.
-giveaway-settings-resetall-success = Successfully reset all giveaway settings for this server.
+help-giveaway_settings_resetall = Restablece todas las configuraciones predeterminadas de los sorteos para este servidor.
+giveaway-settings-resetall-success = Se han restablecido exitosamente todas las configuraciones de los sorteos para este servidor.
 # max.length: 100
-help-giveaway_settings_channel = Set the default channel for giveaways in this server. Don't specify to reset.
+help-giveaway_settings_channel = Establece el canal predeterminado para los sorteos en este servidor. No especifiques nada para restablecer.
 # max.length: 100
-giveaway_settings_channel-parameter-channel-description = The channel where the giveaways will be sent. Don't specify to reset.
-giveaway-settings-channel-success = Successfully set the default channel for giveaways in this server to { $channel }.
-giveaway-settings-channel-reset = Successfully reset the default channel for giveaways in this server.
+giveaway_settings_channel-parameter-channel-description = El canal donde se enviarán los sorteos. No especifiques nada para restablecer.
+giveaway-settings-channel-success = Se ha establecido correctamente el canal predeterminado para los sorteos en este servidor a { $channel }.
+giveaway-settings-channel-reset = Se ha restablecido correctamente el canal predeterminado para los sorteos en este servidor.
 # max.length: 100
-help-giveaway_settings_host = Set the default host for giveaways in this server. Don't specify to reset.
+help-giveaway_settings_host = Establece el anfitrión predeterminado para los sorteos en este servidor. No especifiques nada para restablecer.
 # max.length: 100
-giveaway_settings_host-parameter-user-description = The user that will be default giveaway host. Don't specify to reset.
-giveaway-settings-host-success = Successfully set the default host for giveaways in this server to { $host }.
-giveaway-settings-host-reset = Successfully reset the default host for giveaways in this server.
+giveaway_settings_host-parameter-user-description = El usuario que será el anfitrión predeterminado de los sorteos. No especifiques nada para restablecer.
+giveaway-settings-host-success = Se ha establecido correctamente el anfitrión predeterminado para los sorteos en este servidor a { $host }.
+giveaway-settings-host-reset = Se ha restablecido correctamente el anfitrión predeterminado para los sorteos en este servidor.
 # max.length: 100
-help-giveaway_settings_emoji = Set the default emoji for giveaways in this server. Don't specify to reset.
+help-giveaway_settings_emoji = Establece el emoji predeterminado para los sorteos en este servidor. No especifiques nada para restablecer.
 # max.length: 100
-giveaway_settings_emoji-parameter-emoji-description = The emoji that will be default giveaway emoji. Don't specify to reset.
-giveaway-settings-emoji-success = Successfully set the default emoji for giveaways in this server to { $emoji }.
-giveaway-settings-emoji-reset = Successfully reset the default emoji for giveaways in this server.
+giveaway_settings_emoji-parameter-emoji-description = El emoji que será el emoji predeterminado para los sorteos. No especifiques nada para restablecer.
+giveaway-settings-emoji-success = Se ha establecido correctamente el emoji predeterminado para los sorteos en este servidor a { $emoji }.
+giveaway-settings-emoji-reset = Se ha restablecido correctamente el emoji predeterminado para los sorteos en este servidor.
 # max.length: 100
-help-giveaway_settings_joindays =
-    Set the default requirement for number of days required to be in the server to join the giveaway.
-    Don't specify to reset.
+help-giveaway_settings_joindays = Establece el requisito predeterminado para el número de días necesarios para estar en el servidor para unirse al sorteo. No especifiques nada para restablecer.
 # max.length: 100
-giveaway_settings_joindays-parameter-days-description = The days value that will be default for giveaways. Don't specify to reset.
-giveaway-settings-joindays-reset = Successfully reset the default join days for giveaways in this server.
-giveaway-settings-joindays-success = Successfully set the default join days for giveaways in this server to { $joindays }.
+giveaway_settings_joindays-parameter-days-description = El valor de los días que será el predeterminado para los sorteos. No especifiques nada para restablecer.
+giveaway-settings-joindays-reset = Se ha restablecido correctamente el número de días de unión predeterminados para los sorteos en este servidor.
+giveaway-settings-joindays-success = Se ha establecido correctamente el número de días de unión predeterminados para los sorteos en este servidor a { $joindays }.
 # max.length: 100
-help-giveaway_settings_roles = Set the default roles for giveaways in this server. Don't specify to reset.
-giveaway-settings-roles-success = Successfully set the default roles for giveaways in this server to { $roles }.
-giveaway-settings-roles-reset = Successfully reset the default roles for giveaways in this server.
+help-giveaway_settings_roles = Establece los roles predeterminados para los sorteos en este servidor. No especifiques nada para restablecer.
+giveaway-settings-roles-success = Se ha establecido correctamente los roles predeterminados para los sorteos en este servidor a { $roles }.
+giveaway-settings-roles-reset = Se ha restablecido correctamente los roles predeterminados para los sorteos en este servidor.
 # max.length: 100
-help-giveaway_settings_winners = Set the default number of winners for giveaways in this server. Don't specify to reset.
+help-giveaway_settings_winners = Establece el número predeterminado de ganadores para los sorteos en este servidor. No especifiques nada para restablecer.
 # max.length: 100
-giveaway_settings_winners-parameter-winners-description = The number of winners that will be default for giveaways. Don't specify to reset.
-giveaway-settings-winners-success = Successfully set the default number of winners for giveaways in this server to { $winners }.
-giveaway-settings-winners-reset = Successfully reset the default number of winners for giveaways in this server.
+giveaway_settings_winners-parameter-winners-description = El número de ganadores que será el predeterminado para los sorteos. No especifiques nada para restablecer.
+giveaway-settings-winners-success = Se ha establecido correctamente el número predeterminado de ganadores para los sorteos en este servidor a { $winners }.
+giveaway-settings-winners-reset = Se ha restablecido correctamente el número predeterminado de ganadores para los sorteos en este servidor.
 # max.length: 100
-help-giveaway_settings_bypassrole = Set the default role that will bypass requirements for giveaways in this server. Don't specify to reset.
+help-giveaway_settings_bypassrole = Establece el rol predeterminado que omitirá los requisitos para los sorteos en este servidor. No especifiques nada para restablecer.
 # max.length: 100
-giveaway_settings_bypassrole-parameter-role-description = The role that will be default bypass role for giveaways.
-giveaway-settings-bypassrole-success = Successfully set the default bypass role for giveaways in this server to { $bypassrole }.
-giveaway-settings-bypassrole-reset = Successfully reset the default bypass role for giveaways in this server.
+giveaway_settings_bypassrole-parameter-role-description = El rol que será el rol predeterminado para omitir los requisitos en los sorteos.
+giveaway-settings-bypassrole-success = Se ha establecido correctamente el rol predeterminado para omitir los requisitos en los sorteos en este servidor a { $bypassrole }.
+giveaway-settings-bypassrole-reset = Se ha restablecido correctamente el rol predeterminado para omitir los requisitos en los sorteos en este servidor.

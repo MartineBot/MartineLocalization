@@ -70,7 +70,7 @@ ui-app-presence = הרשאה לנוכחות
 ui-app-members = הרשאה לחברי השרת
 ui-app-msg = הרשאה למידע ההודעות
 ui-app-misc = שונות
-ui-app-guildcount = Approximate servers count
+ui-app-guildcount = כמות שרתים משוערת
 ui-app-public = פומבי
 ui-app-slug = סלאג
 ui-app-tos = תנאי השירות
@@ -86,24 +86,24 @@ ui-member = מידע על החבר
 ui-member-joined = הצטרף ב:
 ui-in-channel = חדר:
 ui-booster-since = בוסטר החל מ:
-ui-member-nick = Nickname:
-ui-customstatus-emojiandname = Custom status: { $emoji } { $name }
-ui-customstatus-emoji = Custom status: { $emoji }
-ui-customstatus-name = Custom status: { $name }
-ui-playing = Playing { $name }
-ui-streaming = Streaming { $name }
-ui-listening = Listening to { $name }
-ui-watching = Watching { $name }
-ui-competing = Competing in { $name }
+ui-member-nick = כינוי:
+ui-customstatus-emojiandname = סטטוס מותאם אישית: { $name } { $emoji }
+ui-customstatus-emoji = סטטוס מותאם אישית: { $emoji }
+ui-customstatus-name = סטטוס מותאם אישית: { $name }
+ui-playing = משחק ב-{ $name }
+ui-streaming = סטרימינג { $name }
+ui-listening = מאזין ל { $name }
+ui-watching = צופה ב{ $name }
+ui-competing = מתחרה ב{ $name }
 ui-roles = תגיות
 ui-member = חבר
 ui-select-assets = צפה בתמונת הפרופיל או בדגל...
 ui-select-banner = דגל
-ui-select-avatar = Avatar
-ui-select-server-avatar = Server avatar
+ui-select-avatar = תמונת פרופיל
+ui-select-server-avatar = תמונת פרופיל שרת
 ui-no-banner = אין דגל עדיין.
-ui-user-avatar = { $user } user avatar
-ui-server-avatar = { $user } server avatar
+ui-user-avatar = תמונת פרופיל של { $user }
+ui-server-avatar = תמונת פרופיל בשרת של { $user }
 ui-no-server-avatar = אין תמונת פרופיל בשרת.
 ui-back-btn = חזור למידע
 ui-perms-btn = צפה בהרשאות
@@ -127,7 +127,7 @@ ci-parent = הורה
 ci-region = איזור
 ci-region-automatic = אוטומטי
 ci-bitrate = קצב סיביות
-ci-unknown = Unknown
+ci-unknown = לא ידוע
 ci-user-limit = הגבלת משתתפים
 ci-details-field = מידע נוסף
 ci-id = מזהה חדר:
@@ -178,32 +178,32 @@ donate-title = הנה הדרכים לתמוך במרטין
 donate-kofi = תרומה חד פעמית, מזכה התגית בשרת של מרטין, ו10,000 marts (לכל חודש בו נתרם).
 donate-patreon = תרומה אוטומטית בכל חודש, תצטרף לpatreon על מנת לפתוח הרשאות מיוחדות לך ולשרת שלך!
 # max.length: 100
-help-ping = Shows the latency estimation of the bot (for the current cluster).
+help-ping = מראה את זמן האחזור המשוער של הבוט (לאשכול הנוכחי).
 # max.length: 100
-help-martine = Get all informations about Martine.
+help-martine = צפה במידע על מרטין.
 # max.length: 100
-help-info = Get info of multiple things on Discord.
+help-info = צפה במידע לגבי דברים שונים בדיסקורד.
 # max.length: 100
 help-info_user = מראה מידע על אדם מסוים.
 # max.length: 100
-info_user-parameter-user-description = The user you want information about.
+info_user-parameter-user-description = החשבון שאתה רוצה מידע לגביו.
 # max.length: 100
 help-info_server = מראה מידע לגבי השרת, החברים בו, התגיות שלהם, והנכסים של השרת.
 # max.length: 100
 help-info_channel = מראה מידע לגבי חדר מסוים, ברירת המחדל החדר הנוכחי.
 # max.length: 100
-info_channel-parameter-channel-description = The channel you want information about.
+info_channel-parameter-channel-description = החדר שאתה רוצה מידע לגביו.
 # max.length: 100
 help-info_role = מראה מידע לגבי תגית.
 # max.length: 100
-info_role-parameter-role-description = The role you want information about.
+info_role-parameter-role-description = התגית שאתה רוצה מידע לגביה.
 # max.length: 100
-help-info_emoji = Shows information about a emoji.
+help-info_emoji = מראה מידע לגבי אימוג'י.
 # max.length: 100
-info_emoji-parameter-emoji-description = The emoji you want information about.
+info_emoji-parameter-emoji-description = האימוג'י שאתה רוצה מידע לגביו.
 # max.length: 100
-help-info_bot_clusters = Shows clusters stats.
+help-info_bot_clusters = מראה מידע על האשכולות.
 # max.length: 100
-help-info_bot_currentcluster = Shows infos about the current cluster.
+help-info_bot_currentcluster = מראה מידע על האשכול הנוכחי.
 # max.length: 100
-help-help = Get the list of commands and important links.
+help-help = צפה ברשימה של כל הפקודות ולינקים חשובים.

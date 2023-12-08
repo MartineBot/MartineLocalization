@@ -1,4 +1,4 @@
-yes = Yes
+yes = Si
 no = No
 # /help command
 shelp-title = Martine - Lista de comandos
@@ -54,16 +54,16 @@ si-shard-id = Bot shard ID
 si-users-badges = Insignias de usuarios en
 si-si-btn = Información del servidor
 si-badges-btn = Ver insignias de miembros
-si-assets-btn = View server assets
-si-icon = Icon
-si-banner-btn = Banner
-si-invite-bg-btn = Invite Background
-si-back-si-btn = Get back to server info
+si-assets-btn = Visualiza los recursos del servidor
+si-icon = Icono
+si-banner-btn = Portada
+si-invite-bg-btn = Fondo de Invitación
+si-back-si-btn = Volver a la información del servidor
 # userinfo command
 # max.length: 100
-help-userinfo = Shows information about a user.
-ui-app-info = Application Information
-ui-app-tags = Tags
+help-userinfo = Muestra información sobre un usuario.
+ui-app-info = Información de la aplicación
+ui-app-tags = Etiquetas
 ui-app-tags-empty = Empty
 ui-app-flags = Application flags
 ui-app-presence = Presence Intent
@@ -98,7 +98,7 @@ ui-competing = Competing in { $name }
 ui-roles = Roles
 ui-member = Member
 ui-select-assets = View user's avatar or banner...
-ui-select-banner = Banner
+ui-select-banner = Portada
 ui-select-avatar = Avatar
 ui-select-server-avatar = Server avatar
 ui-no-banner = No banner set.
@@ -127,7 +127,7 @@ ci-parent = Padre
 ci-region = Región
 ci-region-automatic = Automático
 ci-bitrate = Bitrate
-ci-unknown = Unknown
+ci-unknown = Desconocido.
 ci-user-limit = Limite de usuario
 ci-details-field = Detalles
 ci-id = ID del canal:
@@ -184,7 +184,7 @@ help-martine = Obtén toda la información sobre Martine.
 # max.length: 100
 help-info = Obtén información de varias cosas en Discord.
 # max.length: 100
-help-info_user = Shows information about a user.
+help-info_user = Muestra información sobre un usuario.
 # max.length: 100
 info_user-parameter-user-description = El usuario sobre el que desea información.
 # max.length: 100
