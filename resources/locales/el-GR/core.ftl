@@ -1,71 +1,71 @@
-support-server = Support Server
+support-server = Διακομιστής Υποστήριξης
 permission =
     { $count ->
-        [one] permission
-       *[other] permissions
+        [one] άδεια
+       *[other] άδειες
     }
-error-title = Oops! Something went wrong!
+error-title = Ουπς! Κάτι πήγε λάθος!
 error-description =
-    The command { $command } has failed.
-    This error has been forwarded to the bot developer.
-error-tip-title = Confused about this?
-error-tip-description = Join the support server by [clicking here]({ $invite_url }), someone will answer your questions.
-missing-perms-msg = I require the { $perms } { $permission } to execute this command.
-command-nodm = This command is not available in DMs.
-command-dmonly = This command is only available in DMs.
-command-nsfwonly-title = You can't use that command in a non-NSFW channel!
-command-nsfwonly-description = Use the { $cmd_mention } command if you're not sure how to setup this.
-command-boosters-only = **Sorry, but this command is only available to boosters of Martine's server.**
-    Join today by clicking on the following link: { $invite_url }
-command-premium-user-only = **Sorry, but this command is only available to premium users (Level { $premium_lvl }).**
-    Join today and get more advantages, by clicking on the following link:  { $premium_url }
-command-premium-server-only = **Sorry, but this command is only available to premium servers (Level { $premium_lvl }).**
-    Join today and get more advantages, by clicking on the following link:  { $premium_url }
-command-cd-tryagain = Try again { $time }. { $emoji }
+    Η εντολή { $command } απέτυχε.
+    Αυτό το σφάλμα έχει προωθηθεί στον προγραμματιστή του bot.
+error-tip-title = Έχετε μπερδευτεί σχετικά με αυτό;
+error-tip-description = Γίνετε μέλος του διακομιστή υποστήριξης [κάνοντας κλικ εδώ]({ $invite_url }), κάποιος θα απαντήσει στις ερωτήσεις σας.
+missing-perms-msg = Χρειάζομαι το { $perms } { $permission } για την εκτέλεση αυτής της εντολής.
+command-nodm = Αυτή η εντολή δεν είναι διαθέσιμη σε DMs.
+command-dmonly = Αυτή η εντολή είναι διαθέσιμη μόνο σε DMs.
+command-nsfwonly-title = Δεν μπορείτε να χρησιμοποιήσετε αυτή την εντολή σε ένα κανάλι που δεν είναι NSFW!
+command-nsfwonly-description = Χρησιμοποιήστε την εντολή { $cmd_mention } αν δεν είστε σίγουροι πώς να το ρυθμίσετε αυτό.
+command-boosters-only = **Συγγνώμη, αλλά αυτή η εντολή είναι διαθέσιμη μόνο στους ενισχυτές του διακομιστή της Martine.**
+    Γίνετε μέλος σήμερα κάνοντας κλικ στον ακόλουθο σύνδεσμο: { $invite_url }
+command-premium-user-only = **Συγγνώμη, αλλά αυτή η εντολή είναι διαθέσιμη μόνο σε premium χρήστες (Επίπεδο { $premium_lvl }).**
+    Γίνετε μέλος σήμερα και αποκτήστε περισσότερα πλεονεκτήματα, κάνοντας κλικ στον ακόλουθο σύνδεσμο:  { $premium_url }
+command-premium-server-only = **Συγγνώμη, αλλά αυτή η εντολή είναι διαθέσιμη μόνο σε premium διακομιστές (Επίπεδο { $premium_lvl }).**
+    Εγγραφείτε σήμερα και αποκτήστε περισσότερα πλεονεκτήματα, κάνοντας κλικ στον παρακάτω σύνδεσμο:  { $premium_url }
+command-cd-tryagain = Δοκιμάστε ξανά { $time }. { $emoji }
 command-cd-global =
-    This command is on cooldown globally.
+    Αυτή η εντολή είναι σε επαναφόρτιση παγκοσμίως.
     { $command-cd-tryagain }
 command-cd-userglobal =
-    This command is on cooldown for you globally.
+    Αυτή η εντολή είναι σε επαναφόρτιση για εσάς παγκοσμίως.
     { $command-cd-tryagain }
 command-cd-server =
-    This command is on cooldown for this server.
+    Αυτή η εντολή είναι σε επαναφόρτιση για αυτόν τον διακομιστή.
     { $command-cd-tryagain }
 command-cd-channel =
-    This command is on cooldown for this channel.
+    Αυτή η εντολή είναι σε επαναφόρτιση για αυτό το κανάλι.
     { $command-cd-tryagain }
 command-cd-channelcat =
-    This command is on cooldown for this channel category.
+    Αυτή η εντολή είναι σε επαναφόρτιση για αυτήν την κατηγορία καναλιού.
     { $command-cd-tryagain }
 command-cd-userserver =
-    This command is on cooldown for you on this server.
+    Αυτή η εντολή είναι σε επαναφόρτιση για εσάς σε αυτόν τον διακομιστή.
     { $command-cd-tryagain }
 command-cd-role =
-    This command is on cooldown for your role.
+    Αυτή η εντολή είναι σε επαναφόρτιση για το ρόλο σας.
     { $command-cd-tryagain }
 command-concurrent-default =
-    Too many people are using this command at the same time.
-    It can only be used { $number } time(s) at the same time.
+    Πάρα πολλά άτομα χρησιμοποιούν αυτή την εντολή ταυτόχρονα.
+    Μπορεί να χρησιμοποιηθεί μόνο { $number } φορά(ές) ταυτόχρονα.
 # the $type is either "user" or "member"
 command-concurrent-other =
-    Too many people are using this command at the same time.
-    It can only be used { $number } time(s) per { $type } at the same time.
-app-command-unavailable = Looks like this command is not yet available on the bot. Please wait a moment while it gets synced.
-bot-not-ready = Martine is not yet ready to process any commands. Please wait a minute or two before trying again.
-commands-btn = Commands and FAQ
+    Πάρα πολλά άτομα χρησιμοποιούν αυτή την εντολή ταυτόχρονα.
+    Μπορεί να χρησιμοποιηθεί μόνο { $number } φορά(ές) ανά { $type } ταυτόχρονα.
+app-command-unavailable = Φαίνεται ότι αυτή η εντολή δεν είναι ακόμα διαθέσιμη στο bot. Παρακαλώ περιμένετε λίγο όσο συγχρονίζεται.
+bot-not-ready = Η Martine δεν είναι ακόμα έτοιμη να επεξεργαστεί οποιεσδήποτε εντολές. Παρακαλώ περιμένετε ένα ή δύο λεπτά πριν δοκιμάσετε ξανά.
+commands-btn = Εντολές και συχνές ερωτήσεις
 premium-btn = Premium
-join-msg-title = Hello there! And thanks for adding Martine to your server!
-join-msg-prefixes = Prefixes
-join-msg-prefixes-description = **My default prefixes are:**
-    Principal `,`
-    Additional prefixes are `mart ` and `m!`.
-    (You can change them with the `,prefix` command)
-join-msg-commands = Commands:
+join-msg-title = Γεια σας! Και ευχαριστώ για την προσθήκη της Martine στο διακομιστή σας!
+join-msg-prefixes = Προθέματα
+join-msg-prefixes-description = **Τα προεπιλεγμένα μου προθέματα είναι:**
+    Το κύριο `,`
+    Επιπλέον προθέματα είναι τα `mart ` και `m!`.
+    (Μπορείτε να τα αλλάξετε με την εντολή `,prefix`)
+join-msg-commands = Εντολές:
 join-msg-commands-description =
-    Get started with `,help` command, it will send you all commands of the bot!
-    Then use the dropdown below the message for selecting the category you want.
-    Or use the `,help <category>` (Category you want instead of `<>`)
-    You can also find a list of the commands and frequently asked questions on the bot website: { $website }
-join-msg-support = Support:
-join-msg-support-description = If you need help with the bot, feel free to [join support server]({ $invite_url }), a support member will help you when they're available.
-button-no-perms = You don't have the permission to use this button.
+    Ξεκινήστε με την εντολή `,help`, θα σας στείλει όλες τις εντολές του bot!
+    Στη συνέχεια, χρησιμοποιήστε το αναπτυσσόμενο μενού κάτω από το μήνυμα για να επιλέξετε την κατηγορία που θέλετε.
+    Ή χρησιμοποιήστε την εντολή `,help <category>` (Κατηγορία που θέλετε αντί για `<>`)
+    Μπορείτε επίσης να βρείτε μια λίστα με τις εντολές και τις συχνές ερωτήσεις στην ιστοσελίδα του bot: { $website }
+join-msg-support = Υποστήριξη:
+join-msg-support-description = Αν χρειάζεστε βοήθεια με το bot, μη διστάσετε να [γίνετε μέλος του διακομιστή υποστήριξης]({ $invite_url }), ένα μέλος υποστήριξης θα σας βοηθήσει όταν είναι διαθέσιμα.
+button-no-perms = Δεν έχετε την άδεια να χρησιμοποιήσετε αυτό το κουμπί.

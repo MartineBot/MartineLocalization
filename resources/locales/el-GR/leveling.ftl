@@ -1,144 +1,144 @@
-maintenance-disabled = The leveling system is disabled globally for a maintenance. Please try again later.
+maintenance-disabled = Το σύστημα leveling είναι απενεργοποιημένο παγκοσμίως για συντήρηση. Παρακαλώ δοκιμάστε ξανά αργότερα.
 disabled-msg =
-    Leveler is not enabled in this server.
-    An admin or someone who can manage this server can enable it with the command { $cmd_mention }!
+    Το leveler δεν είναι ενεργοποιημένο σε αυτόν τον διακομιστή.
+    Ένας διαχειριστής ή κάποιος που μπορεί να διαχειριστεί αυτόν τον διακομιστή μπορεί να τον ενεργοποιήσει με την εντολή { $cmd_mention }!
 # max.length: 100
-help-profile = Shows your profile card or the one of another member.
-profile-nobots = Sorry, but bots don't have profiles! { $emoji }
-profile-noexp-author = You haven't gained any exp yet! Continue to send more messages.
-profile-noexp-other = This member doesn't have gained any exp yet!
-profile-image-failed = Sorry, something went wrong while trying to get this profile image. Please try again later. { $emoji }
-profile-vote-btn = Upvote for 10% exp boost!
-profile-exp-boost-active = 10% upvote exp boost active! (Reason: `{ $reason }`)
-profile-card = { $member } profile card
+help-profile = Εμφανίζει την κάρτα προφίλ σας ή την κάρτα ενός άλλου μέλους.
+profile-nobots = Συγγνώμη, αλλά τα bots δεν έχουν προφίλ! { $emoji }
+profile-noexp-author = Δεν έχετε κερδίσει exp ακόμα! Συνεχίστε να στέλνετε περισσότερα μηνύματα.
+profile-noexp-other = Αυτό το μέλος δεν έχει αποκτήσει ακόμα exp!
+profile-image-failed = Συγγνώμη, κάτι πήγε στραβά κατά την προσπάθεια λήψης αυτής της εικόνας προφίλ. Παρακαλώ δοκιμάστε ξανά αργότερα. { $emoji }
+profile-vote-btn = Upvote για 10% exp boost!
+profile-exp-boost-active = 10% upvote exp boost ενεργό! (Λόγος: `{ $reason }`)
+profile-card = { $member } κάρτα προφίλ
 # max.length: 100
-help-lvltop = Shows top 10 of levels of this server.
+help-lvltop = Εμφανίζει τα 10 κορυφαία level αυτού του διακομιστή.
 # max.length: 100
-help-reptop = Shows top 10 of rep of this server.
-top-image-failed = Sorry, something went wrong while trying to get this server top image. Please try again later. { $emoji }
-lvltop-nodata = It looks like no members have gained experience with Martine for now. { $emoji }
-lvltop-lb = { $server } levels leaderboard
-top-member-rank = You are rank #{ $rank } in this server
-top-member-norank = You are not ranked yet in this server
-reptop-nodata = It looks like no members have gained rep with Martine for now. { $emoji }
+help-reptop = Εμφανίζει τα 10 κορυφαία rep αυτού του διακομιστή.
+top-image-failed = Συγγνώμη, κάτι πήγε στραβά κατά την προσπάθεια να ληφθεί αυτή η κορυφαία εικόνα του διακομιστή. Παρακαλώ δοκιμάστε ξανά αργότερα. { $emoji }
+lvltop-nodata = Φαίνεται ότι κανένα μέλος δεν έχει αποκτήσει exp με τη Martine προς το παρόν. { $emoji }
+lvltop-lb = { $server } πίνακας κατάταξης levels
+top-member-rank = Είσαι στην κατάταξη #{ $rank } σε αυτόν τον διακομιστή
+top-member-norank = Δεν έχετε καταταγεί ακόμα σε αυτόν τον διακομιστή
+reptop-nodata = Φαίνεται ότι κανένα μέλος δεν έχει κερδίσει rep με Martine για τώρα. { $emoji }
 reptop-lb = { $server } rep leaderboard
 # max.length: 100
-help-rep = Gives a reputation point to a member of this server.
+help-rep = Δίνει ένα πόντο φήμης (rep) σε ένα μέλος αυτού του διακομιστή.
 # max.length: 100
-rep-parameter-member-description = The member to give a reputation point.
-rep-no-self = You cannot give yourself reputation points. { $emoji }
-rep-nobots = Sorry, but bots cannot receive reputation points! { $emoji }
+rep-parameter-member-description = Το μέλος για να δώσει ένα πόντο φήμης.
+rep-no-self = Δεν μπορείτε να δώσετε στον εαυτό σας πόντους φήμης. { $emoji }
+rep-nobots = Συγγνώμη, αλλά τα bots δεν μπορούν να λάβουν πόντους φήμης! { $emoji }
 rep-cooldown =
-    Oops, you are on cooldown on giving rep points! { $emoji }
-    Try again { $formatted_cooldown }
+    Ουπσ, είστε σε επαναφόρτιση για να δώσετε πόντους φήμης! { $emoji }
+    Δοκιμάστε ξανά { $formatted_cooldown }
 rep-success =
-    { $member } you have just received a reputation point from { $author }!
-    You now have { $rep_count } reputation points! { $emoji }
+    { $member } μόλις λάβατε έναν πόντο φήμης από { $author }!
+    Τώρα έχετε { $rep_count } πόντους φήμης! { $emoji }
 # max.length: 100
-help-lvlset = Manage all leveler settings.
+help-lvlset = Διαχείριση όλων των ρυθμίσεων leveler.
 # max.length: 100
-help-lvlset_show = Shows the current settings of this server.
+help-lvlset_show = Εμφανίζει τις τρέχουσες ρυθμίσεις αυτού του διακομιστή.
 # max.length: 100
-help-lvlset_toggle = Enable/disable leveling in this server.
+help-lvlset_toggle = Ενεργοποίηση/απενεργοποίηση του leveling σε αυτόν τον διακομιστή.
 # max.length: 100
-help-lvlset_setlvl = Set manually the level of a member.
+help-lvlset_setlvl = Ορίστε χειροκίνητα το level ενός μέλους.
 # max.length: 100
-lvlset_setlvl-parameter-level-description = The level to give to the member.
+lvlset_setlvl-parameter-level-description = Το επίπεδο που θα δοθεί στο μέλος.
 # max.length: 100
-lvlset_setlvl-parameter-member-description = The member to update its level. (Min. 1 and max. 9999)
+lvlset_setlvl-parameter-member-description = Το μέλος για να ενημερώσει το επίπεδο του. (Ελάχιστο 1 και μέγιστο 9999)
 # max.length: 100
-help-lvlset_resetrep = Reset reputation points of a selected member.
+help-lvlset_resetrep = Επαναφορά πόντων φήμης ενός επιλεγμένου μέλους.
 # max.length: 100
-lvlset_resetrep-parameter-member-description = The member to reset levels and exp.
+lvlset_resetrep-parameter-member-description = Το μέλος για επαναφορά level και exp.
 # max.length: 100
-help-lvlset_resetlvl = Reset level and exp of a selected member.
+help-lvlset_resetlvl = Επαναφορά level και exp ενός επιλεγμένου μέλους.
 # max.length: 100
-lvlset_resetlvl-parameter-member-description = The member to reset reputation points.
+lvlset_resetlvl-parameter-member-description = Το μέλος για την επαναφορά πόντων φήμης.
 # max.length: 100
-help-lvlset_resetrepall = Reset reputation points of all stored members.
+help-lvlset_resetrepall = Επαναφορά των πόντων φήμης όλων των αποθηκευμένων μελών.
 # max.length: 100
-help-lvlset_resetlvlall = Reset level and exp of all stored members.
+help-lvlset_resetlvlall = Επαναφορά level και exp όλων των αποθηκευμένων μελών.
 # max.length: 100
-help-lvlset_roles = Manage roles reward.
+help-lvlset_roles = Διαχείριση ρόλων ανταμοιβής.
 # max.length: 100
-help-lvlset_roles_mode = Set if members will only have the higher role reward, or if it will be cumulative.
+help-lvlset_roles_mode = Ορίστε αν τα μέλη θα έχουν μόνο την υψηλότερη ανταμοιβή ρόλου ή αν θα είναι αθροιστική.
 # max.length: 100
-help-lvlset_roles_add = Adds a reward role.
+help-lvlset_roles_add = Προσθέτει έναν ρόλο ανταμοιβής.
 # max.length: 100
-lvlset_roles_add-parameter-level-description = The level on which you want to bind the role.
+lvlset_roles_add-parameter-level-description = Το επίπεδο στο οποίο θέλετε να δεσμεύσετε το ρόλο.
 # max.length: 100
-lvlset_roles_add-parameter-role-description = The role that will be added for this level.
+lvlset_roles_add-parameter-role-description = Ο ρόλος που θα προστεθεί για αυτό το level.
 # max.length: 100
-help-lvlset_roles_remove = Removes a reward role.
+help-lvlset_roles_remove = Καταργεί έναν ρόλο ανταμοιβής.
 # max.length: 100
-lvlset_roles_remove-parameter-level-description = The level on which the role is currently binded.
+lvlset_roles_remove-parameter-level-description = Το επίπεδο στο οποίο είναι δεσμευμένος ο ρόλος.
 # max.length: 100
-help-lvlset_lvlup = Manage level ups settings.
+help-lvlset_lvlup = Διαχειριστείτε τις ρυθμίσεις των level ups.
 # max.length: 100
-help-lvlset_lvlup_destination = Set the destination of level up messages.
+help-lvlset_lvlup_destination = Ορίστε τον προορισμό των μηνυμάτων level up.
 # max.length: 100
-lvlset_lvlup_destination-parameter-destination-description = member for member's DMs, current for current lvlup channel, or channel ID/mention.
+lvlset_lvlup_destination-parameter-destination-description = member για τα DMs του μέλους, current για το τρέχον κανάλι lvlup, ή ID/αναφορά καναλιού.
 # max.length: 100
-help-lvlset_lvlup_message = Set the level up message.
+help-lvlset_lvlup_message = Ορίστε το level up μήνυμα.
 # max.length: 100
-lvlset_lvlup_message-parameter-message-description = You can use `[member]` for member mention, and `[lvl]` for the level the member reached.
+lvlset_lvlup_message-parameter-message-description = Μπορείτε να χρησιμοποιήσετε `[member]` για την αναφορά του μέλους και `[lvl]` για το επίπεδο στο οποίο έφτασε το μέλος.
 # max.length: 100
-help-lvlset_exp = Manage exp settings.
+help-lvlset_exp = Διαχείριση ρυθμίσεων exp.
 # max.length: 100
-help-lvlset_exp_rate = Set the exp rate/multiplier. From 0.1 to 5.0. Default to 1.0.
+help-lvlset_exp_rate = Ορίστε τον ρυθμό/πολλαπλασιαστή exp. Από 0,1 έως 5,0. Προεπιλογή σε 1.0.
 # max.length: 100
-lvlset_exp_rate-parameter-rate-description = The exp rate to set.
+lvlset_exp_rate-parameter-rate-description = Ο ρυθμός exp που πρέπει να οριστεί.
 # max.length: 100
-help-lvlset_exp_message = Set how much exp will be given for a message sent.
+help-lvlset_exp_message = Ορίστε πόσα exp θα δίνονται για ένα μήνυμα που αποστέλλεται.
 # max.length: 100
-lvlset_exp_message-parameter-minimum-description = The minimum exp that will be given. (Max. 200)
+lvlset_exp_message-parameter-minimum-description = Το ελάχιστο exp που θα δοθεί. (Μέγιστο 200)
 # max.length: 100
-lvlset_exp_message-parameter-maximum-description = The maximum exp that will be given. (Max. 200)
+lvlset_exp_message-parameter-maximum-description = Το μέγιστο exp που θα δοθεί. (Max. 200)
 # max.length: 100
-help-lvlset_exp_cooldown = [Server Premium Silver] Set the exp cooldown in seconds. Default is 60.
+help-lvlset_exp_cooldown = [Server Premium Silver] Ορίστε την αναμονή exp σε δευτερόλεπτα. Η προεπιλογή είναι 60.
 # max.length: 100
-lvlset_exp_cooldown-parameter-cooldown-description = The cooldown value (in seconds) to set. Must be between 10s and 21600s. Default is 60.
+lvlset_exp_cooldown-parameter-cooldown-description = Η τιμή επαναφόρτισης (σε δευτερόλεπτα) για να ορίσετε. Πρέπει να είναι μεταξύ 10s και 21600s. Η προεπιλογή είναι 60.
 # max.length: 100
-help-lvlset_exp_msglength = [Server Premium Silver] Set minimum message length for exp gain. Default is 20.
+help-lvlset_exp_msglength = [Server Premium Silver] Ορισμός ελάχιστου μήκους μηνύματος για κέρδος exp. Η προεπιλογή είναι 20.
 # max.length: 100
-help-lvlset_ignore = Manage ignore settings.
+help-lvlset_ignore = Διαχείριση ρυθμίσεων παράβλεψης.
 # max.length: 100
-help-lvlset_ignore_addchannel = Add a channel where members will not get exp.
+help-lvlset_ignore_addchannel = Προσθέστε ένα κανάλι όπου τα μέλη δεν θα παίρνουν exp.
 # max.length: 100
-lvlset_ignore_addchannel-parameter-channel-description = The channel to add to the ignore list.
+lvlset_ignore_addchannel-parameter-channel-description = Το κανάλι που θα προστεθεί στη λίστα παράβλεψης.
 # max.length: 100
-help-lvlset_ignore_rmchannel = Remove an ignored channel.
+help-lvlset_ignore_rmchannel = Κατάργηση ενός καναλιού παράβλεψης.
 # max.length: 100
-lvlset_ignore_rmchannel-parameter-channel-description = The channel to remove from the ignore list. Must be a text channel.
+lvlset_ignore_rmchannel-parameter-channel-description = Το κανάλι που θα αφαιρεθεί από τη λίστα παράβλεψης. Πρέπει να είναι κανάλι κειμένου.
 # max.length: 100
-help-lvlset_ignore_addrole = Add a role where members will not get exp.
+help-lvlset_ignore_addrole = Προσθέστε έναν ρόλο όπου τα μέλη δεν θα παίρνουν exp.
 # max.length: 100
-lvlset_ignore_addrole-parameter-role-description = The role to add to the ignore list.
+lvlset_ignore_addrole-parameter-role-description = Ο ρόλος που θέλετε να προσθέσετε στη λίστα παράβλεψης.
 # max.length: 100
-help-lvlset_ignore_rmrole = Remove an ignored role.
+help-lvlset_ignore_rmrole = Κατάργηση ενός παραλειπόμενου ρόλου.
 # max.length: 100
-lvlset_ignore_rmrole-parameter-role-description = The role to remove from the ignore list.
+lvlset_ignore_rmrole-parameter-role-description = Ο ρόλος που θέλετε να αφαιρέσετε από τη λίστα παράβλεψης.
 # max.length: 100
-help-lvlset_rep = Manage rep settings.
+help-lvlset_rep = Διαχείριση ρυθμίσεων rep.
 # max.length: 100
-help-lvlset_rep_cooldown = Set the rep cooldown in seconds. Default is 5 minutes (300s).
+help-lvlset_rep_cooldown = Ορισμός επαναφόρτισης rep σε δευτερόλεπτα. Η προεπιλογή είναι 5 λεπτά (300s).
 # max.length: 100
-lvlset_rep_cooldown-parameter-cooldown-description = The rep cooldown value. Default is 5 minutes (300s).
+lvlset_rep_cooldown-parameter-cooldown-description = Η τιμή επαναφόρτισης rep. Το προκαθορισμένο είναι 5 λεπτά (300s).
 # max.length: 100
-help-lvlset_rep_mention = Set whether or not the rep member will be mentionned.
+help-lvlset_rep_mention = Ορίστε αν θα αναφέρεται ή όχι το μέλος rep.
 # max.length: 100
-help-profileset = Change your leveler's profile settings.
+help-profileset = Αλλάξτε τις ρυθμίσεις προφίλ του leveler σας.
 # max.length: 100
-help-profileset_show = Shows your current profile settings.
+help-profileset_show = Εμφανίζει τις τρέχουσες ρυθμίσεις του προφίλ σας.
 # max.length: 100
-help-profileset_background = View available profile backgrounds, and change it.
+help-profileset_background = Δείτε τα διαθέσιμα φόντα προφίλ και αλλάξτε τα.
 # max.length: 100
-help-profileset_color = Set the secondary color.
+help-profileset_color = Ορίστε το δευτερεύον χρώμα.
 # max.length: 100
-profileset_color-parameter-color-description = The color value.
+profileset_color-parameter-color-description = Η τιμή του χρώματος.
 # max.length: 100
-help-profileset_description = Change your description. Reset by don't providing a description.
+help-profileset_description = Αλλάξτε την περιγραφή σας. Επαναφέρετε την με το να μην παρέχετε περιγραφή.
 # max.length: 100
-profileset_description-parameter-description-description = The description value.
+profileset_description-parameter-description-description = Η τιμή της περιγραφής.
 # max.length: 100
-help-profileset_resetrep = Reset your reputation points.
+help-profileset_resetrep = Επαναφέρετε τους πόντους φήμης σας.

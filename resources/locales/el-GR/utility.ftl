@@ -1,57 +1,57 @@
 # max.length: 100
-help-stickeradd = Add a sticker to this server.
+help-stickeradd = Προσθέστε ένα αυτοκόλλητο σε αυτόν τον διακομιστή.
 # max.length: 100
-stickeradd-parameter-message-description = The message containing the sticker.
+stickeradd-parameter-message-description = Το μήνυμα που περιέχει το αυτοκόλλητο.
 # max.length: 100
-help-stickerdelete = Remove a sticker from server.
+help-stickerdelete = Αφαιρέστε ένα αυτοκόλλητο από το διακομιστή.
 # max.length: 100
-help-invite = Sends the invitation link of the bot, and some other important links.
+help-invite = Αποστέλλει τον σύνδεσμο πρόσκλησης του bot και ορισμένους άλλους σημαντικούς συνδέσμους.
 # max.length: 100
-help-language = Select which language to use on this server for Martine.
+help-language = Επιλέξτε ποια γλώσσα θα χρησιμοποιηθεί σε αυτόν τον διακομιστή για την Martine.
 # max.length: 100
-language-parameter-lang-description = The language of your choice.
+language-parameter-lang-description = Η γλώσσα της επιλογής σας.
 # max.length: 100
-help-nsfwchannel = Sends instructions on how to setup an NSFW channel.
+help-nsfwchannel = Στέλνει οδηγίες για το πώς να ρυθμίσετε ένα κανάλι NSFW.
 # max.length: 100
-help-vote = Sends the links to upvote Martine on bot lists.
+help-vote = Στέλνει τους συνδέσμους για να κάνετε upvote τη Martine στις λίστες των bot.
 # max.length: 100
-help-selfblock = Add yourself to the bot's blocklist, to opt out from data collection.
+help-selfblock = Προσθέστε τον εαυτό σας στη λίστα αποκλεισμού του bot, για να εξαιρεθείτε από τη συλλογή δεδομένων.
 # max.length: 100
-help-premium = Premium management commands.
+help-premium = Εντολές διαχείρισης Premium.
 # max.length: 100
-help-premium-status = Gets information about your current Premium status.
+help-premium-status = Λαμβάνει πληροφορίες σχετικά με την τρέχουσα κατάσταση Premium.
 # max.length: 100
-help-premium-server = Premium server management.
+help-premium-server = Διαχείριση διακομιστή Premium.
 # max.length: 100
-help-premium-server-activate = Activates Premium in this server, based off your current Patreon subscription.
+help-premium-server-activate = Ενεργοποιεί το Premium σε αυτόν τον διακομιστή, με βάση την τρέχουσα συνδρομή σας Patreon.
 # max.length: 100
-help-premium-server-remove = Removes Premium from this server.
-language-invalid = Please try again with a language that is in the list.
-language-current = Please select another language than the one currently selected.
-language-changed = Successfully updated the language on this server to { $language }! { $emoji }
+help-premium-server-remove = Αφαιρεί το Premium από αυτόν τον διακομιστή.
+language-invalid = Προσπαθήστε ξανά με μια γλώσσα που υπάρχει στη λίστα.
+language-current = Παρακαλώ επιλέξτε άλλη γλώσσα από αυτή που είναι επιλεγμένη αυτή τη στιγμή.
+language-changed = Ενημερώθηκε επιτυχώς η γλώσσα σε αυτόν τον διακομιστή σε { $language }! { $emoji }
 language-contribute =
-    Do you want to help us having more translations to this language? 
-    Here is the link to our Crowdin project to contribute: { $link } { $emoji }
-premium-not-active = Not active
-premium-status-user = Your Premium status
-premium-tier = **Tier:** { $value }
-premium-since = **Since:** { $value }
-premium-status-servers = Your Premium servers
-premium-unknown-server = Unknown server name
-premium-status-current-server = Current server Premium status
+    Θέλετε να μας βοηθήσετε να έχουμε περισσότερες μεταφράσεις σε αυτή τη γλώσσα; 
+    Εδώ είναι ο σύνδεσμος στο project Crowdin για να συνεισφέρετε: { $link } { $emoji }
+premium-not-active = Μη ενεργό
+premium-status-user = Η κατάσταση Premium σας
+premium-tier = **Επίπεδο:** { $value }
+premium-since = **Από:** { $value }
+premium-status-servers = Οι Premium διακομιστές σας
+premium-unknown-server = Άγνωστο όνομα διακομιστή
+premium-status-current-server = Τρέχουσα κατάσταση Premium διακομιστή
 premium-server-notsub =
-    It seems that you don't have a Patreon subscription. 
-    Please subscribe to our Patreon to get access to Premium features: { $premium_url }
-    Or maybe you already have one? If so, please click on following url to link your account to Martine: { $premium_link_url }
+    Φαίνεται ότι δεν έχετε μια συνδρομή Patreon. 
+    Παρακαλούμε εγγραφείτε στο Patreon μας για να αποκτήσετε πρόσβαση σε Premium λειτουργίες: { $premium_url }
+    Ή ίσως έχετε ήδη; Αν ναι, κάντε κλικ στο παρακάτω url για να συνδέσετε στον λογαριασμό σας με Martine: { $premium_link_url }
 premium-server-invalid-sub =
-    You have a Premium subscription, but it's not a server subscription therefore I cannot activate Premium in this server.
-    You can find our Premium server subscriptions here: { $premium_url }
-premium-server-already-active = Premium is already activated in this server. { $emoji }
+    Έχετε συνδρομή Premium, αλλά δεν είναι συνδρομή διακομιστή, επομένως δεν μπορώ να ενεργοποιήσω το Premium σε αυτόν τον διακομιστή.
+    Μπορείτε να βρείτε τις συνδρομές Premium διακομιστή εδώ: { $premium_url }
+premium-server-already-active = Το Premium είναι ήδη ενεργοποιημένο σε αυτόν τον διακομιστή. { $emoji }
 premium-server-max =
-    You have reached the maximum amount of Premium servers you can have with this subscription. 
-    Please remove a server from your Premium servers list before adding a new one.
+    Έχετε φτάσει στο μέγιστο αριθμό διακομιστών Premium που μπορείτε να έχετε με αυτή τη συνδρομή. 
+    Παρακαλούμε αφαιρέστε έναν διακομιστή από τη λίστα των διακομιστών Premium πριν προσθέσετε έναν νέο.
 premium-server-activated =
-    Successfully activated { $tier } in this server!
-    You can now enjoy all the Premium features in this server. Thank you for supporting Martine! { $emoji }
-premium-server-remove-not-active = Premium is not activated in this server.
-premium-server-removed = Successfully removed Premium from this server!
+    Ενεργοποιήθηκε επιτυχώς το { $tier } σε αυτόν τον διακομιστή!
+    Τώρα μπορείτε να απολαύσετε όλες τις λειτουργίες Premium σε αυτόν τον διακομιστή. Σας ευχαριστούμε για την υποστήριξη της Martine! { $emoji }
+premium-server-remove-not-active = Το Premium δεν είναι ενεργοποιημένο σε αυτόν τον διακομιστή.
+premium-server-removed = Αφαιρέθηκε επιτυχώς το Premium από αυτόν τον διακομιστή!
