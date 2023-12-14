@@ -2,6 +2,7 @@ giveaway-run-notfound = Não foi possível encontrar um sorteio atualmente  em e
 giveaway-notfound = Não foi possível encontrar um sorteio para essa mensagem.
 giveaway-notstored = Não foi possível encontrar um sorteio armazenado para essa mensagem.
 giveaway-roles = Cargos:
+giveaway-roles-condition = Roles condition:
 giveaway-days-in-server = Dias no servidor:
 giveaway-details = Detalhes:
 giveaway-hosted-by = Hospedado por:
@@ -41,6 +42,7 @@ giveaway-btn-label-ended = { $entries } entradas
 giveaway-btn-spammy = Este botão está em cooldown, tente novamente mais tarde.
 giveaway-btn-removed = Removido com sucesso a sua entrada desse sorteio! { $emoji }
 giveaway-btn-fail-role = { $role } cargo
+giveaway-btn-fail-role-all = You need to have all of the following roles to enter this giveaway: { $roles }
 giveaway-btn-fail-joindays = { $joindays } dias no servidor, mas você está lá há { $days } dias.
 giveaway-btn-denied-title =
     Entrada do sorteio negada!! Faltando { $count ->
@@ -93,6 +95,10 @@ giveaway-setup-roles =
     Para cargos com espaços no nome, mencione-os ou use o ID.
 giveaway-setup-roles-invalid = { $value } não é um cargo válido. Por favor, tente novamente.
 giveaway-setup-roles-too-many = Você só pode especificar um máximo de 5 cargos. Tente novamente com menos cargos.
+giveaway-setup-roles-condition =
+    Do you want to require members to have any or all of the roles you specified?
+    By default it will be set to `all`.
+giveaway-setup-roles-condition-invalid = This is not a valid type, it must be either `any` or `all`. Please try again.
 giveaway-setup-joindays = Há quantos dias os membros devem estar neste servidor?
 giveaway-setup-joindays-too-low = O número mínimo de dias é 1. Tente novamente com um número maior.
 giveaway-setup-bypassrole = Deseja definir um cargo que ignorará os requisitos definidos anteriormente?
@@ -186,6 +192,10 @@ giveaway-settings-joindays-success = Defina com sucesso os dias de ingresso padr
 help-giveaway_settings_roles = Defina os cargos padrões para sorteios nesse servidor. Não especificar para redefinir.
 giveaway-settings-roles-success = Defina com sucesso os cargos padrões para sorteios nesse servidor em { $roles }.
 giveaway-settings-roles-reset = Redefina com sucesso as funções padrão para sorteios nesse servidor.
+# max.length: 100
+help-giveaway_settings_rolescondition = Set the default roles requirement type. Don't specify to reset the requirement.
+giveaway_settings_rolescondition-parameter-description = The ability to select either any or all roles to have as a requirement.
+giveaway-settings-rolescondition-success = Successfully set the default roles requirement type for giveaways in this server to { $roles_condition }.
 # max.length: 100
 help-giveaway_settings_winners = Defina o número padrão de vencedores para sorteios neste servidor. Não especificar para redefinir.
 # max.length: 100

@@ -2,6 +2,7 @@ giveaway-run-notfound = Не вдалося знайти чинну роздач
 giveaway-notfound = Не вдалося знайти роздачу для цього повідомлення.
 giveaway-notstored = Не вдалося знайти збережену роздачу для цього повідомлення.
 giveaway-roles = Ролів:
+giveaway-roles-condition = Roles condition:
 giveaway-days-in-server = Днів на сервері:
 giveaway-details = Подробиці:
 giveaway-hosted-by = Організовано:
@@ -41,6 +42,7 @@ giveaway-btn-label-ended = заявок: { $entries }
 giveaway-btn-spammy = Ця кнопка відновлюється, спробуйте пізніше.
 giveaway-btn-removed = Вашу заявку успішно видалено з цієї роздачі! { $emoji }
 giveaway-btn-fail-role = Роль { $role }
+giveaway-btn-fail-role-all = You need to have all of the following roles to enter this giveaway: { $roles }
 giveaway-btn-fail-joindays = { $joindays } днів на сервері, але ви були там { $days } днів.
 giveaway-btn-denied-title =
     Участь у розіграші відмовлено! Відсутньо { $count ->
@@ -93,6 +95,10 @@ giveaway-setup-roles =
     Для ролей із пробілами в назві згадайте їх або використовуйте їхні ID.
 giveaway-setup-roles-invalid = { $value } не є дійсною роллю. Будь ласка, спробуйте ще раз.
 giveaway-setup-roles-too-many = Ви можете вказати не більше 5 ролей. Спробуйте ще раз із меншою кількістю ролей.
+giveaway-setup-roles-condition =
+    Do you want to require members to have any or all of the roles you specified?
+    By default it will be set to `all`.
+giveaway-setup-roles-condition-invalid = This is not a valid type, it must be either `any` or `all`. Please try again.
 giveaway-setup-joindays = Скільки днів учасники повинні були бути на сервері?
 giveaway-setup-joindays-too-low = Мінімальна кількість днів – 1. Спробуйте ще раз із більшим числом.
 giveaway-setup-bypassrole = Ви хочете встановити роль, яка обійде вимоги, встановлені раніше?
@@ -186,6 +192,10 @@ giveaway-settings-joindays-success = Successfully set the default join days for 
 help-giveaway_settings_roles = Set the default roles for giveaways in this server. Don't specify to reset.
 giveaway-settings-roles-success = Successfully set the default roles for giveaways in this server to { $roles }.
 giveaway-settings-roles-reset = Successfully reset the default roles for giveaways in this server.
+# max.length: 100
+help-giveaway_settings_rolescondition = Set the default roles requirement type. Don't specify to reset the requirement.
+giveaway_settings_rolescondition-parameter-description = The ability to select either any or all roles to have as a requirement.
+giveaway-settings-rolescondition-success = Successfully set the default roles requirement type for giveaways in this server to { $roles_condition }.
 # max.length: 100
 help-giveaway_settings_winners = Set the default number of winners for giveaways in this server. Don't specify to reset.
 # max.length: 100

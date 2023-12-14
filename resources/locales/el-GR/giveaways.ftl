@@ -2,6 +2,7 @@ giveaway-run-notfound = Δεν μπόρεσα να βρω ένα τρέχον gi
 giveaway-notfound = Δεν ήταν δυνατή η εύρεση giveaway για αυτό το μήνυμα.
 giveaway-notstored = Δεν βρέθηκε αποθηκευμένο giveaway για αυτό το μήνυμα.
 giveaway-roles = Ρόλοι:
+giveaway-roles-condition = Roles condition:
 giveaway-days-in-server = Ημέρες στον διακομιστή:
 giveaway-details = Λεπτομέρειες:
 giveaway-hosted-by = Δημιουργός:
@@ -41,6 +42,7 @@ giveaway-btn-label-ended = { $entries } είσοδοι
 giveaway-btn-spammy = Αυτό το κουμπί είναι σε επαναφόρτιση, παρακαλώ προσπαθήστε ξανά αργότερα.
 giveaway-btn-removed = Αφαιρέθηκε επιτυχώς η συμμετοχή σας από αυτό το giveaway! { $emoji }
 giveaway-btn-fail-role = { $role } ρόλος
+giveaway-btn-fail-role-all = You need to have all of the following roles to enter this giveaway: { $roles }
 giveaway-btn-fail-joindays = { $joindays } ημέρες στον διακομιστή, αλλά εσείς είστε εκεί για { $days } ημέρες.
 giveaway-btn-denied-title =
     Η συμμετοχή στο giveaway απορρίφθηκε! Λείπει { $count ->
@@ -93,6 +95,10 @@ giveaway-setup-roles =
     Για ρόλους με κενά στο όνομά τους, αναφέρετε τους ή χρησιμοποιήστε το ID τους.
 giveaway-setup-roles-invalid = Το { $value } δεν είναι έγκυρος ρόλος. Παρακαλώ προσπαθήστε ξανά.
 giveaway-setup-roles-too-many = Μπορείτε να καθορίσετε μόνο μέχρι 5 ρόλους. Παρακαλώ δοκιμάστε ξανά με λιγότερους ρόλους.
+giveaway-setup-roles-condition =
+    Do you want to require members to have any or all of the roles you specified?
+    By default it will be set to `all`.
+giveaway-setup-roles-condition-invalid = This is not a valid type, it must be either `any` or `all`. Please try again.
 giveaway-setup-joindays = Πόσες ημέρες θα έπρεπε να είναι τα μέλη στον διακομιστή;
 giveaway-setup-joindays-too-low = Ο ελάχιστος αριθμός ημερών είναι 1. Προσπαθήστε ξανά με μεγαλύτερο αριθμό.
 giveaway-setup-bypassrole = Θέλετε να ορίσετε έναν ρόλο που θα παρακάμπτει τις απαιτήσεις που έχουν τεθεί προηγουμένως;
@@ -186,6 +192,10 @@ giveaway-settings-joindays-success = Ρυθμίστηκαν επιτυχώς ο�
 help-giveaway_settings_roles = Ορίστε τους προεπιλεγμένους ρόλους για giveaways σε αυτόν το διακομιστή. Μην καθορίσετε για επαναφορά.
 giveaway-settings-roles-success = Ορίστηκαν με επιτυχία οι προεπιλεγμένοι ρόλοι για giveaways σε αυτόν τον διακομιστή στο { $roles }.
 giveaway-settings-roles-reset = Επιτυχής επαναφορά των προεπιλεγμένων ρόλων για giveaways σε αυτόν τον διακομιστή.
+# max.length: 100
+help-giveaway_settings_rolescondition = Set the default roles requirement type. Don't specify to reset the requirement.
+giveaway_settings_rolescondition-parameter-description = The ability to select either any or all roles to have as a requirement.
+giveaway-settings-rolescondition-success = Successfully set the default roles requirement type for giveaways in this server to { $roles_condition }.
 # max.length: 100
 help-giveaway_settings_winners = Ορίστε τον προεπιλεγμένο αριθμό νικητών για giveaways σε αυτόν τον διακομιστή. Μην καθορίσετε για επαναφορά.
 # max.length: 100

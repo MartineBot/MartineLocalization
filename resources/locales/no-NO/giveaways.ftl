@@ -2,6 +2,7 @@ giveaway-run-notfound = Kunne ikke finne en løpende giveaway for den meldingen.
 giveaway-notfound = Kunne ikke finne en giveaway for den meldingen.
 giveaway-notstored = Kunne ikke finne en lagret giveaway for den meldingen.
 giveaway-roles = Roller:
+giveaway-roles-condition = Roles condition:
 giveaway-days-in-server = Dager på server:
 giveaway-details = Detaljer:
 giveaway-hosted-by = Arrangert av:
@@ -41,6 +42,7 @@ giveaway-btn-label-ended = { $entries } deltat
 giveaway-btn-spammy = Denne knappen er på nedkjøling, vennligst prøv igjen senere.
 giveaway-btn-removed = Vellykket fjernet deg fra denne giveawayen! { $emoji }
 giveaway-btn-fail-role = { $role } rolle
+giveaway-btn-fail-role-all = You need to have all of the following roles to enter this giveaway: { $roles }
 giveaway-btn-fail-joindays = { $joindays } dager i serveren, men du har vært der i { $days } dager.
 giveaway-btn-denied-title =
     Giveaway tilgang nektet! Mangler { $count ->
@@ -93,6 +95,10 @@ giveaway-setup-roles =
     For roller med mellomrom i navnet kan du enten nevne dem eller bruke ID-en deres.
 giveaway-setup-roles-invalid = { $value } er ikke en gyldig rolle. Vennligst prøv på nytt.
 giveaway-setup-roles-too-many = Du kan bare spesifisere opptil 5 roller. Vennligst prøv igjen med mindre roller.
+giveaway-setup-roles-condition =
+    Do you want to require members to have any or all of the roles you specified?
+    By default it will be set to `all`.
+giveaway-setup-roles-condition-invalid = This is not a valid type, it must be either `any` or `all`. Please try again.
 giveaway-setup-joindays = Hvor mange dager medlemmer skal ha vært på serveren?
 giveaway-setup-joindays-too-low = Minimum antall dager er 1. Vennligst prøv igjen med et høyere tall.
 giveaway-setup-bypassrole = Vil du sette en rolle som vil omgå krav som er satt før?
@@ -186,6 +192,10 @@ giveaway-settings-joindays-success = Vellykket angitt standard dagene for deltak
 help-giveaway_settings_roles = Angi standardrollene for giveaways på denne serveren. Ikke spesifiser å tilbakestille.
 giveaway-settings-roles-success = Vellykket angitt standardrollene for giveaways på denne serveren til { $roles }.
 giveaway-settings-roles-reset = Vellykket tilbakestilling av standardrollene for giveaways på denne serveren.
+# max.length: 100
+help-giveaway_settings_rolescondition = Set the default roles requirement type. Don't specify to reset the requirement.
+giveaway_settings_rolescondition-parameter-description = The ability to select either any or all roles to have as a requirement.
+giveaway-settings-rolescondition-success = Successfully set the default roles requirement type for giveaways in this server to { $roles_condition }.
 # max.length: 100
 help-giveaway_settings_winners = Angi standard antall vinnere for giveaways på denne serveren. Ikke spesifiser å tilbakestille.
 # max.length: 100

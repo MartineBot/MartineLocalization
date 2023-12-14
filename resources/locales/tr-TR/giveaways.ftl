@@ -2,6 +2,7 @@ giveaway-run-notfound = Bu mesaj için şu anda devam eden bir çekiliş bulamad
 giveaway-notfound = Bu mesaj için bir çekiliş bulamadım.
 giveaway-notstored = Bu mesaj için kayıtlı bir çekiliş bulunamadı.
 giveaway-roles = Roller:
+giveaway-roles-condition = Roles condition:
 giveaway-days-in-server = Sunucuda geçen günler:
 giveaway-details = Detaylar:
 giveaway-hosted-by = Tarafından düzenlendi:
@@ -41,6 +42,7 @@ giveaway-btn-label-ended = { $entries } girişler
 giveaway-btn-spammy = Bu buton beklemede, lütfen daha sonra tekrar deneyin.
 giveaway-btn-removed = Girişiniz bu çekilişten başarıyla kaldırıldı! { $emoji }
 giveaway-btn-fail-role = { $role } rol
+giveaway-btn-fail-role-all = You need to have all of the following roles to enter this giveaway: { $roles }
 giveaway-btn-fail-joindays = { $joindays } gündür sunucudasınız ama siz { $days } gündür oradasınız.
 giveaway-btn-denied-title =
     Çekiliş girişi reddedildi! Eksik { $count ->
@@ -93,6 +95,10 @@ giveaway-setup-roles =
     Adında boşluk olan roller için ya onlardan bahsedin ya da ID kullanın.
 giveaway-setup-roles-invalid = { $value } geçerli bir rol değil. Lütfen tekrar deneyin.
 giveaway-setup-roles-too-many = Yalnızca en fazla 5 rol belirtebilirsiniz. Lütfen daha az rol ile tekrar deneyin.
+giveaway-setup-roles-condition =
+    Do you want to require members to have any or all of the roles you specified?
+    By default it will be set to `all`.
+giveaway-setup-roles-condition-invalid = This is not a valid type, it must be either `any` or `all`. Please try again.
 giveaway-setup-joindays = Üyeler kaç gündür sunucuda olmalı?
 giveaway-setup-joindays-too-low = Minimum gün sayısı 1'dir. Lütfen daha yüksek bir sayı ile tekrar deneyin.
 giveaway-setup-bypassrole = Daha önce belirlenen gereksinimleri atlayacak bir rol belirlemek istiyor musunuz?
@@ -186,6 +192,10 @@ giveaway-settings-joindays-success = Bu sunucudaki çekilişler için varsayıla
 help-giveaway_settings_roles = Bu sunucudaki çekilişler için varsayılan rolleri ayarlayın. Sıfırlamak için belirtmeyin.
 giveaway-settings-roles-success = Bu sunucudaki çekilişler için varsayılan roller başarıyla { $roles } olarak ayarlandı.
 giveaway-settings-roles-reset = Bu sunucudaki çekilişler için varsayılan roller başarıyla sıfırlandı.
+# max.length: 100
+help-giveaway_settings_rolescondition = Set the default roles requirement type. Don't specify to reset the requirement.
+giveaway_settings_rolescondition-parameter-description = The ability to select either any or all roles to have as a requirement.
+giveaway-settings-rolescondition-success = Successfully set the default roles requirement type for giveaways in this server to { $roles_condition }.
 # max.length: 100
 help-giveaway_settings_winners = Bu sunucudaki çekilişler için varsayılan kazanan sayısını ayarlayın. Sıfırlamak için belirtmeyin.
 # max.length: 100
