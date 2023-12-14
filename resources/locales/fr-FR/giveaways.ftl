@@ -2,7 +2,7 @@ giveaway-run-notfound = Il n'a pas été possible de trouver un giveaway en cour
 giveaway-notfound = Je n'ai pas trouvé de giveaway pour ce message.
 giveaway-notstored = Il n'a pas été possible de trouver un giveaway enregistré pour ce message.
 giveaway-roles = Rôles :
-giveaway-roles-condition = Roles condition:
+giveaway-roles-condition = Condition de rôle :
 giveaway-days-in-server = Jours dans le serveur :
 giveaway-details = Détails :
 giveaway-hosted-by = Hébergé par :
@@ -41,8 +41,8 @@ giveaway-btn-label = Participer au giveaway ({ $entries } participants)
 giveaway-btn-label-ended = { $entries } participants
 giveaway-btn-spammy = Ce bouton est en cooldown, veuillez réessayer plus tard.
 giveaway-btn-removed = Ta participation pour ce giveaway a été retirée ! { $emoji }
-giveaway-btn-fail-role-any = You need to have at least one of the following roles to enter this giveaway: { $roles }
-giveaway-btn-fail-role-all = You need to have all of the following roles to enter this giveaway: { $roles }
+giveaway-btn-fail-role-any = Tu dois avoir au moins l'un des rôles suivants pour participer à ce giveaway : { $roles }
+giveaway-btn-fail-role-all = Tu dois avoir tous les rôles suivants pour participer à ce giveaway : { $roles }
 giveaway-btn-fail-joindays = { $joindays } jours dans le serveur, mais tu y es depuis { $days } jours.
 giveaway-btn-denied-title =
     Ta participation au giveaway est refusée ! Il manque { $count ->
@@ -96,9 +96,9 @@ giveaway-setup-roles =
 giveaway-setup-roles-invalid = { $value } n'est pas un rôle valide. Réessaie.
 giveaway-setup-roles-too-many = Tu ne peux spécifier que 5 rôles au maximum. Réessaie avec moins de rôles.
 giveaway-setup-roles-condition =
-    Do you want to require members to have any or all of the roles you specified?
-    By default it will be set to `all`.
-giveaway-setup-roles-condition-invalid = This is not a valid type, it must be either `any` or `all`. Please try again.
+    Veux-tu exiger que les membres aient seulement un des rôles, ou tous les rôles que vous avez spécifiés ?
+    Par défaut, la valeur sera `all`.
+giveaway-setup-roles-condition-invalid = Ce n'est pas un type valide, il doit s'agir de `any` ou `all`. Merci de réessayer.
 giveaway-setup-joindays = Depuis combien de jours les membres devraient-ils être dans le serveur ?
 giveaway-setup-joindays-too-low = Le nombre minimum de jours est de 1. Réessaie avec un nombre plus élevé.
 giveaway-setup-bypassrole = Souhaites-tu définir un rôle qui contourne les conditions définies préalablement ?
