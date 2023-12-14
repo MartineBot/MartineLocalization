@@ -2,7 +2,7 @@ giveaway-run-notfound = Impossibile trovare un getaway in corso per quel messagg
 giveaway-notfound = Impossiibile trovare un getaway per quel messaggio.
 giveaway-notstored = Impossiibile trovare un getaway archiviato per quel messaggio.
 giveaway-roles = Ruoli:
-giveaway-roles-condition = Roles condition:
+giveaway-roles-condition = Condizione dei ruoli:
 giveaway-days-in-server = Giorni nel server:
 giveaway-details = Dettagli:
 giveaway-hosted-by = Organizzato da:
@@ -41,8 +41,8 @@ giveaway-btn-label = Iscriviti al giveaway ({ $entries } iscrizioni)
 giveaway-btn-label-ended = { $entries } iscrizioni
 giveaway-btn-spammy = Questo pulsante è in raffreddamento, ti preghiamo di riprovare più tardi.
 giveaway-btn-removed = La tua iscrizione è stata rimossa correttamente da questo giveaway! { $emoji }
-giveaway-btn-fail-role = Ruolo { $role }
-giveaway-btn-fail-role-all = You need to have all of the following roles to enter this giveaway: { $roles }
+giveaway-btn-fail-role-any = You need to have at least one of the following roles to enter this giveaway: { $roles }
+giveaway-btn-fail-role-all = Devi avere i seguenti ruoli per accedere a questo giveaway: { $roles }
 giveaway-btn-fail-joindays = { $joindays } giorni nel server, ma sei stato qui per { $days } giorni.
 giveaway-btn-denied-title =
     Iscrizione al giveaway negata! { $count ->
@@ -96,9 +96,9 @@ giveaway-setup-roles =
 giveaway-setup-roles-invalid = { $value } non è un ruolo valido. Ti preghiamo di riprovare.
 giveaway-setup-roles-too-many = Puoi specificare soltanto fino a 5 ruoli. Ti preghiamo di riprovare con meno ruoli.
 giveaway-setup-roles-condition =
-    Do you want to require members to have any or all of the roles you specified?
-    By default it will be set to `all`.
-giveaway-setup-roles-condition-invalid = This is not a valid type, it must be either `any` or `all`. Please try again.
+    Desideri richiedere ai membri di avere uno dei o tutti i ruoli specificati?
+    Di default è impostato a 'tutti'.
+giveaway-setup-roles-condition-invalid = Questo non è un tipo valido, dev'essere 'any' o 'all'. Ti preghiamo di riprovare.
 giveaway-setup-joindays = I membri che si sono uniti al server da quanti giorni, potranno partecipare?
 giveaway-setup-joindays-too-low = Il numero minimo di giorni è 1. Ti preghiamo di riprovare con un numero maggiore.
 giveaway-setup-bypassrole = Desideri impostare un ruolo che aggirerà i requisiti precedentemente impostati?
@@ -192,9 +192,9 @@ help-giveaway_settings_roles = Imposta i ruoli predefiniti per i giveaway su que
 giveaway-settings-roles-success = Ruoli predefiniti per i giveaway su questo server impostati correttamente a { $roles }.
 giveaway-settings-roles-reset = Ruoli predefiniti per i giveaway su questo server ripristinati correttamente a.
 # max.length: 100
-help-giveaway_settings_rolescondition = Set the default roles requirement type. Don't specify to reset the requirement.
-giveaway_settings_rolescondition-parameter-description = The ability to select either any or all roles to have as a requirement.
-giveaway-settings-rolescondition-success = Successfully set the default roles requirement type for giveaways in this server to { $roles_condition }.
+help-giveaway_settings_rolescondition = Imposta il tipo di requisito dei ruoli predefiniti. Non specificare per ripristinare il requisito.
+giveaway_settings_rolescondition-parameter-description = L'abilità di selezionare uno dei o tutti i ruoli da avere come requisito.
+giveaway-settings-rolescondition-success = Tipo di requisito dei ruoli predefiniti impostato correttamente per i giveaway in questo server a { $roles_condition }.
 # max.length: 100
 help-giveaway_settings_winners = Imposta il numero predefinito di vincitori per i giveaway su questo server. Non specificare per ripristinare.
 # max.length: 100
