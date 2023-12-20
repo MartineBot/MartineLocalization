@@ -2,7 +2,7 @@ giveaway-run-notfound = Bu mesaj için şu anda devam eden bir çekiliş bulamad
 giveaway-notfound = Bu mesaj için bir çekiliş bulamadım.
 giveaway-notstored = Bu mesaj için kayıtlı bir çekiliş bulunamadı.
 giveaway-roles = Roller:
-giveaway-roles-condition = Roles condition:
+giveaway-roles-condition = Rol durumu:
 giveaway-days-in-server = Sunucuda geçen günler:
 giveaway-details = Detaylar:
 giveaway-hosted-by = Tarafından düzenlendi:
@@ -41,8 +41,8 @@ giveaway-btn-label = Çekilişe katılın ({ $entries } girişler)
 giveaway-btn-label-ended = { $entries } girişler
 giveaway-btn-spammy = Bu buton beklemede, lütfen daha sonra tekrar deneyin.
 giveaway-btn-removed = Girişiniz bu çekilişten başarıyla kaldırıldı! { $emoji }
-giveaway-btn-fail-role-any = You need to have at least one of the following roles to enter this giveaway: { $roles }
-giveaway-btn-fail-role-all = You need to have all of the following roles to enter this giveaway: { $roles }
+giveaway-btn-fail-role-any = Bu çekilişe katılmak için aşağıdaki rollerden en az birine sahip olmanız gerekir: { $roles }
+giveaway-btn-fail-role-all = Bu çekilişe katılmak için aşağıdaki rollerin tümüne sahip olmanız gerekir: { $roles }
 giveaway-btn-fail-joindays = { $joindays } gündür sunucudasınız ama siz { $days } gündür oradasınız.
 giveaway-btn-denied-title =
     Çekiliş girişi reddedildi! Eksik { $count ->
@@ -96,8 +96,8 @@ giveaway-setup-roles =
 giveaway-setup-roles-invalid = { $value } geçerli bir rol değil. Lütfen tekrar deneyin.
 giveaway-setup-roles-too-many = Yalnızca en fazla 5 rol belirtebilirsiniz. Lütfen daha az rol ile tekrar deneyin.
 giveaway-setup-roles-condition =
-    Do you want to require members to have any or all of the roles you specified?
-    By default it will be set to `all`.
+    Üyelerin belirttiğiniz rollerden herhangi birine mi yoksa hepsine mi sahip olmasını istiyorsunuz?
+    Varsayılan olarak `hepsi` olarak ayarlanacaktır.
 giveaway-setup-roles-condition-invalid = This is not a valid type, it must be either `any` or `all`. Please try again.
 giveaway-setup-joindays = Üyeler kaç gündür sunucuda olmalı?
 giveaway-setup-joindays-too-low = Minimum gün sayısı 1'dir. Lütfen daha yüksek bir sayı ile tekrar deneyin.
