@@ -1,4 +1,4 @@
-non-nsfw-channel-title = { $emoji } You can't use this command in a non-NSFW channel!
+non-nsfw-channel-title = { $emoji } Ezt a parancsot nem tudod használni egy non-NSFW csatornába!
 non-nsfw-channel-description = Use the { $cmd_mention } command if you're unsure how to setup this.
 upvote-msg =
     Please upvote me on Top.gg or DBL to use this command. { $emoji }
@@ -15,8 +15,8 @@ amount-too-high = Sorry, but the amount parameter must be less or equal of { $am
 command-no-images-found = Sorry, I wasn't able to pull a image for you! Please try again in a bit. { $emoji }
 command-invalid-category = Sorry but this is not a valid category! { $emoji }
 command-list-categories = Here is a list of all available categories:
-msg-category = **Image category:** { $category }
-msg-search-tags = **Search tags:** { $tags }
+msg-category = **Kép kategória:** { $category }
+msg-search-tags = **Keresési jelzők:** { $tags }
 msg-requested-by = **Requested by:** { $author }
 msg-invite-me = **Invite me:** { $link }
 msg-premium = **Premium:** { $link }
