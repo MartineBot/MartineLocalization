@@ -142,3 +142,32 @@ help-profileset_description = Змінити опис. Скинути, не на
 profileset_description-parameter-description-description = Значення опису.
 # max.length: 100
 help-profileset_resetrep = Скинути свої бали репутації.
+# max.length: 100
+help-lvlconvert = Convert levels and server settings from other bots to Martine.
+lvlconvert-lock = You cannot migrate data for this server for now because a migration is currently going. Please try again later.
+lvlconvert-fetching = Fetching leaderboard and settings data from { $bot_name }, it may take a while...
+lvlconvert-fetch-failed = Sorry, something went wrong while trying to fetch data from { $bot_name }. Please try again later.
+lvlconvert-embed-title = `{ $server_name }` leveler data migration - { $bot_name }
+lvlconvert-embed-description = Found { $members_count } members with levels data to migrate.
+lvlconvert-embed-serversettings = Server settings
+lvlconvert-embed-serversettings-exp = **Exp rate:** { $exp_rate }
+    **Exp per message:** { $exp_per_message }
+
+lvlconvert-embed-roles = Roles rewards
+lvlconvert-embed-roles-none = No roles rewards set.
+lvlconvert-migrate_members_btn-label = Migrate members
+lvlconvert-migrate_server_settings-btn-label = Migrate server settings
+# max.length: 45
+lvlconvert-migration_modal-title = Confirmation modal
+lvlconvert-migration_modal-placeholder = Type YES to confirm
+# max.length: 45
+lvlconvert-migration_modal-members-label = It'll replace ALL of the current members data
+# max.length: 45
+lvlconvert-migration_modal-server_settings-label = It'll replace ALL of the server settings
+lvlconvert-migration_modal-wrongvalue = Please input "Yes" on the modal to migrate the data.
+lvlconvert-migration_modal-members-success = Successfully migrated `{ $members_count }` members data from { $bot_name } to Martine! { $emoji }
+lvlconvert-migration_modal-server_settings-success = Successfully migrated server settings from { $bot_name } to Martine! { $emoji }
+# max.length: 100
+help-lvlconvert_mee6 = Convert levels and server settings from MEE6 to Martine.
+# max.length: 100
+help-lvlconvert_amaribot = Convert levels and server settings from AmariBot to Martine.
