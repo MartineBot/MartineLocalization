@@ -143,33 +143,33 @@ profileset_description-parameter-description-description = Açıklama değeri.
 # max.length: 100
 help-profileset_resetrep = İtibar puanlarınızı sıfırlayın.
 # max.length: 100
-help-lvlconvert = Convert levels and server settings from other bots to Martine.
-lvlconvert-lock = You cannot migrate data for this server for now because a migration is currently going. Please try again later.
-lvlconvert-fetching = Fetching leaderboard and settings data from { $bot_name }, it may take a while...
-lvlconvert-fetch-nodata = Sorry, but I didn't found any data to migrate.
-lvlconvert-fetch-forbidden = I found data for this server, but it is not public. Please make it public and try again.
-lvlconvert-fetch-failed = Sorry, something went wrong while trying to fetch data from { $bot_name }. Please try again later.
-lvlconvert-embed-title = `{ $server_name }` leveler data migration - { $bot_name }
-lvlconvert-embed-description = Found { $members_count } members with levels data to migrate.
-lvlconvert-embed-serversettings = Server settings
-lvlconvert-embed-serversettings-exp = **Exp rate:** { $exp_rate }
+help-lvlconvert = Seviyeleri ve sunucu ayarlarını diğer botlardan Martine'e dönüştürün.
+lvlconvert-lock = Şu anda bir taşıma işlemi devam ettiğinden şimdilik bu sunucuya ilişkin verileri taşıyamazsınız. Lütfen daha sonra tekrar deneyiniz.
+lvlconvert-fetching = Liderlik tablosu ve ayar verilerini { $bot_name }, adresinden almak biraz zaman alabilir...
+lvlconvert-fetch-nodata = Üzgünüm, ancak taşınacak herhangi bir veri bulamadım.
+lvlconvert-fetch-forbidden = Bu sunucu için veri buldum, ancak herkese açık değil. Lütfen herkese açık hale getirin ve tekrar deneyin.
+lvlconvert-fetch-failed = Üzgünüz, { $bot_name } adresinden veri almaya çalışırken bir şeyler ters gitti. Lütfen daha sonra tekrar deneyin.
+lvlconvert-embed-title = `{ $server_name }` leveler veri̇ geçi̇şi̇ - { $bot_name }
+lvlconvert-embed-description = Taşınacak seviye verilerine sahip { $members_count } üyeleri bulundu.
+lvlconvert-embed-serversettings = Sunucu ayarları
+lvlconvert-embed-serversettings-exp = **Xp oranı:** { $exp_rate }
     **Exp per message:** { $exp_per_message }
 
-lvlconvert-embed-roles = Roles rewards
-lvlconvert-embed-roles-none = No roles rewards set.
-lvlconvert-migrate_members_btn-label = Migrate members
-lvlconvert-migrate_server_settings-btn-label = Migrate server settings
+lvlconvert-embed-roles = Rol Ödülleri
+lvlconvert-embed-roles-none = Rol ödülleri belirlenmedi.
+lvlconvert-migrate_members_btn-label = Üyeleri taşıma
+lvlconvert-migrate_server_settings-btn-label = Sunucu ayarlarını taşıma
 # max.length: 45
-lvlconvert-migration_modal-title = Confirmation modal
-lvlconvert-migration_modal-placeholder = Type YES to confirm
+lvlconvert-migration_modal-title = Onay modu
+lvlconvert-migration_modal-placeholder = Onaylamak için YES yazınız
 # max.length: 45
-lvlconvert-migration_modal-members-label = It'll replace ALL of the current members data
+lvlconvert-migration_modal-members-label = Mevcut üye verilerinin TÜMÜNÜN yerini alacak
 # max.length: 45
-lvlconvert-migration_modal-server_settings-label = It'll replace ALL of the server settings
-lvlconvert-migration_modal-wrongvalue = Please input "Yes" on the modal to migrate the data.
-lvlconvert-migration_modal-members-success = Successfully migrated `{ $members_count }` members data from { $bot_name } to Martine! { $emoji }
-lvlconvert-migration_modal-server_settings-success = Successfully migrated server settings from { $bot_name } to Martine! { $emoji }
+lvlconvert-migration_modal-server_settings-label = TÜM sunucu ayarlarını değiştirecektir
+lvlconvert-migration_modal-wrongvalue = Verileri taşımak için lütfen modalde "Yes" girin.
+lvlconvert-migration_modal-members-success = { $members_count }` üye verileri { $bot_name } adresinden Martine'e başarıyla taşındı! { $emoji }
+lvlconvert-migration_modal-server_settings-success = Sunucu verileri { $bot_name } adresinden Martine'e başarıyla taşındı! { $emoji }
 # max.length: 100
-help-lvlconvert_mee6 = Convert levels and server settings from MEE6 to Martine.
+help-lvlconvert_mee6 = Seviyeleri ve sunucu ayarlarını MEE6'dan Martine'e dönüştürün.
 # max.length: 100
-help-lvlconvert_amaribot = Convert levels and server settings from AmariBot to Martine.
+help-lvlconvert_amaribot = Seviyeleri ve sunucu ayarlarını AmariBot'tan, Martine'e dönüştürün.

@@ -98,7 +98,7 @@ giveaway-setup-roles-too-many = Yalnızca en fazla 5 rol belirtebilirsiniz. Lüt
 giveaway-setup-roles-condition =
     Üyelerin belirttiğiniz rollerden herhangi birine mi yoksa hepsine mi sahip olmasını istiyorsunuz?
     Varsayılan olarak `hepsi` olarak ayarlanacaktır.
-giveaway-setup-roles-condition-invalid = This is not a valid type, it must be either `any` or `all`. Please try again.
+giveaway-setup-roles-condition-invalid = Bu geçerli bir tür değil, `any` (herhangi) veya `all` (hepsi) olmalıdır. Lütfen tekrar deneyin.
 giveaway-setup-joindays = Üyeler kaç gündür sunucuda olmalı?
 giveaway-setup-joindays-too-low = Minimum gün sayısı 1'dir. Lütfen daha yüksek bir sayı ile tekrar deneyin.
 giveaway-setup-bypassrole = Daha önce belirlenen gereksinimleri atlayacak bir rol belirlemek istiyor musunuz?
@@ -193,9 +193,9 @@ help-giveaway_settings_roles = Bu sunucudaki çekilişler için varsayılan roll
 giveaway-settings-roles-success = Bu sunucudaki çekilişler için varsayılan roller başarıyla { $roles } olarak ayarlandı.
 giveaway-settings-roles-reset = Bu sunucudaki çekilişler için varsayılan roller başarıyla sıfırlandı.
 # max.length: 100
-help-giveaway_settings_rolescondition = Set the default roles requirement type. Don't specify to reset the requirement.
-giveaway_settings_rolescondition-parameter-description = The ability to select either any or all roles to have as a requirement.
-giveaway-settings-rolescondition-success = Successfully set the default roles requirement type for giveaways in this server to { $roles_condition }.
+help-giveaway_settings_rolescondition = Varsayılan roller gereksinim türünü ayarlayın. Gereksinimi sıfırlamak için herhangi bir rol belirtmeyin.
+giveaway_settings_rolescondition-parameter-description = Gereksinim olarak sahip olunacak rollerden herhangi birini veya tümünü seçme yeteneği.
+giveaway-settings-rolescondition-success = Bu sunucudaki çekilişler için varsayılan roller başarıyla { $roles_condition } olarak ayarlandı.
 # max.length: 100
 help-giveaway_settings_winners = Bu sunucudaki çekilişler için varsayılan kazanan sayısını ayarlayın. Sıfırlamak için belirtmeyin.
 # max.length: 100
