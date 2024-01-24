@@ -1,12 +1,12 @@
-non-nsfw-channel-title = { $emoji } You can't use this command in a non-NSFW channel!
-non-nsfw-channel-description = Use the { $cmd_mention } command if you're unsure how to setup this.
+non-nsfw-channel-title = { $emoji } ¡No puedes usar este comando en un canal que no sea NSFW!
+non-nsfw-channel-description = Usa el comando { $cmd_mention } si no estás seguro como configurarlo.
 upvote-msg =
-    Please upvote me on Top.gg or DBL to use this command. { $emoji }
-    Here is the link: { $link }
-    Your vote will expire after 12 hours.
+    Por favor, dame upvote en Top.gg o DBL para usar este comando. { $emoji }
+    Este es el link: { $link }
+    Tu voto expirará después de las 12 horas.
     
-    You can bypass this by [boosting Martine's server]({ $server_invite })
-upvote-msg-premium = Or by getting one of our [Premium tiers]({ $premium_url })!
+    Puedes omitir este paso [Mejorando el servidor de Martine] ({ $server_invite })
+upvote-msg-premium = ¡O adquiriendo uno de nuestros [Niveles Prémium]({ $premium_url })!
 yes = Si
 no = No
 btn-fail = Oops! Something failed with buttons on this message, please use the command again.
@@ -56,7 +56,7 @@ auto-setup-description =
     - The category called "random" is images of *all* available categories. It is the one selected by default. If you select a specific category it will get removed.
     - There is a 15 seconds cooldown after enabling/disabling, and after updating categories.
     - Images are sent every 5 minutes, by default. Use the `Change delay` button to update it.
-auto-setup-current = Current settings:
+auto-setup-current = Configuraciones actuales:
 auto-setup-enabled = **Enabled:** { $enabled }
 auto-setup-delay = **Delay:** { $delay }
 auto-setup-amount = **Amount:** { $amount }
@@ -156,7 +156,7 @@ rule34-parameter-amount-description = The amount of images to send.
 # max.length: 100
 rule34-parameter-private-description = Set to True and the command will only be visible to you.
 # max.length: 100
-help-e621 = Furries porn.
+help-e621 = Porno Furry.
 # max.length: 100
 e621-parameter-search_tags-description = Keywords to search images for.
 # max.length: 100

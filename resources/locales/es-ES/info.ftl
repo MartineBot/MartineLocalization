@@ -64,25 +64,25 @@ si-back-si-btn = Volver a la información del servidor
 help-userinfo = Muestra información sobre un usuario.
 ui-app-info = Información de la aplicación
 ui-app-tags = Etiquetas
-ui-app-tags-empty = Empty
+ui-app-tags-empty = Vacío
 ui-app-flags = Application flags
 ui-app-presence = Presence Intent
 ui-app-members = Server Members Intent
 ui-app-msg = Message Content Intent
-ui-app-misc = Misc
+ui-app-misc = Otros
 ui-app-guildcount = Approximate servers count
-ui-app-public = Public
+ui-app-public = Público
 ui-app-slug = Slug
-ui-app-tos = Terms of Service
-ui-app-privacy = Privacy Policy
-ui-app-add = Add to Server
-ui-created-on = Created:
+ui-app-tos = Términos de Servicio
+ui-app-privacy = Políticas de Privacidad
+ui-app-add = Añadir al Servidor
+ui-created-on = Creado:
 ui-badges = Badges
-ui-id = User ID:
-ui-userinfo-field = User info
-ui-mention = Mention
+ui-id = ID de usuario:
+ui-userinfo-field = Info de Usuario
+ui-mention = Mención
 ui-activities = Activities
-ui-member = Member info
+ui-member = Datos de miembro
 ui-member-joined = Joined:
 ui-in-channel = channel:
 ui-booster-since = Booster since:
@@ -96,11 +96,11 @@ ui-listening = Listening to { $name }
 ui-watching = Watching { $name }
 ui-competing = Competing in { $name }
 ui-roles = Roles
-ui-member = Member
+ui-member = Miembro
 ui-select-assets = View user's avatar or banner...
 ui-select-banner = Portada
 ui-select-avatar = Avatar
-ui-select-server-avatar = Server avatar
+ui-select-server-avatar = Avatar del Server
 ui-no-banner = No banner set.
 ui-user-avatar = { $user } user avatar
 ui-server-avatar = { $user } server avatar
@@ -113,12 +113,12 @@ help-channelinfo = Shows information about a channel. Default to current.
 ci-created = Created on
 ci-no-topic = No topic.
 ci-position = Position
-ci-members = Members
-ci-slowmode = Slowmode
+ci-members = Miembros
+ci-slowmode = Modo lento
 ci-webhooks = Webhooks
-ci-threads = Threads
-ci-archived = Archived
-ci-archived-time = Archived Time
+ci-threads = Discusiones
+ci-archived = Archivado
+ci-archived-time = Tiempo Archivado
 ci-archiver = Archiver
 ci-private = Privado
 ci-messages = Mensajes
@@ -135,7 +135,7 @@ ci-id = ID del canal:
 # max.length: 100
 help-roleinfo = Muestra información sobre un rol.
 ri-created = Created on
-ri-members = Members
+ri-members = Miembros
 ri-colour = Color
 ri-position = Position
 ri-hoisted = Hoisted
@@ -186,17 +186,17 @@ help-info = Obtén información de varias cosas en Discord.
 # max.length: 100
 help-info_user = Muestra información sobre un usuario.
 # max.length: 100
-info_user-parameter-user-description = El usuario sobre el que desea información.
+info_user-parameter-user-description = El usuario sobre el que deseas información.
 # max.length: 100
 help-info_server = Muestra información sobre el servidor, las insignias de los miembros y los activos.
 # max.length: 100
 help-info_channel = Shows information about a channel. Default to current.
 # max.length: 100
-info_channel-parameter-channel-description = El canal sobre el que desea información.
+info_channel-parameter-channel-description = El canal sobre el que deseas información.
 # max.length: 100
 help-info_role = Muestra información sobre un rol.
 # max.length: 100
-info_role-parameter-role-description = El rol sobre el que desea información.
+info_role-parameter-role-description = El rol sobre el que deseas información.
 # max.length: 100
 help-info_emoji = Muestra información sobre un emoji.
 # max.length: 100

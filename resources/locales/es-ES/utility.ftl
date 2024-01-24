@@ -1,27 +1,27 @@
 # max.length: 100
-help-stickeradd = Add a sticker to this server.
+help-stickeradd = Añade un sticker al servidor.
 # max.length: 100
-stickeradd-parameter-message-description = The message containing the sticker.
+stickeradd-parameter-message-description = El mensaje que contiene el sticker.
 # max.length: 100
-help-stickerdelete = Remove a sticker from server.
+help-stickerdelete = Quitar el sticker del servidor.
 # max.length: 100
-help-invite = Sends the invitation link of the bot, and some other important links.
+help-invite = Envía el link de invitación del bot, y otros links importantes.
 # max.length: 100
-help-language = Select which language to use on this server for Martine.
+help-language = Selecciona que idioma quieres utilizar en este servidor para Martine.
 # max.length: 100
-language-parameter-lang-description = The language of your choice.
+language-parameter-lang-description = El idioma seleccionado.
 # max.length: 100
-help-nsfwchannel = Sends instructions on how to setup an NSFW channel.
+help-nsfwchannel = Envía instrucciones de como configurar un canal NSFW.
 # max.length: 100
-help-vote = Sends the links to upvote Martine on bot lists.
+help-vote = Envía los links para dar upvote a Martine en la lista de bots.
 # max.length: 100
-help-selfblock = Add yourself to the bot's blocklist, to opt out from data collection.
+help-selfblock = Añádete a ti mismo en la lista de bloqueo del bot, para cancelar la recolección de datos.
 # max.length: 100
-help-premium = Premium management commands.
+help-premium = Gestión de comandos Prémium.
 # max.length: 100
-help-premium-status = Gets information about your current Premium status.
+help-premium-status = Obtén información de tu estado actual Prémium.
 # max.length: 100
-help-premium-server = Premium server management.
+help-premium-server = Gestión de servidor Prémium.
 # max.length: 100
 help-premium-server-activate = Activates Premium in this server, based off your current Patreon subscription.
 # max.length: 100
