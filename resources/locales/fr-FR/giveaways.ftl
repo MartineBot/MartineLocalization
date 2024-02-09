@@ -179,22 +179,22 @@ help-giveaway_settings_emoji = Définit l'émoji par défaut pour les cadeaux da
 # max.length: 100
 giveaway_settings_emoji-parameter-emoji-description = L'emoji qui sera l'émoji par défaut. Ne pas spécifier pour réinitialiser.
 giveaway-settings-emoji-success = Emoji par défaut pour les giveaways dans ce serveur défini avec succès comme { $emoji }.
-giveaway-settings-emoji-reset = Successfully reset the default emoji for giveaways in this server.
+giveaway-settings-emoji-reset = Émoji par défaut réinitialisé pour les giveaways sur ce serveur.
 # max.length: 100
 help-giveaway_settings_joindays =
     Définir la condition par défaut concernant le nombre de jours requis présent sur le serveur afin de participer au giveaway.
     Ne pas spécifier pour réinitialiser.
 # max.length: 100
-giveaway_settings_joindays-parameter-days-description = The days value that will be default for giveaways. Don't specify to reset.
-giveaway-settings-joindays-reset = Successfully reset the default join days for giveaways in this server.
-giveaway-settings-joindays-success = Successfully set the default join days for giveaways in this server to { $joindays }.
+giveaway_settings_joindays-parameter-days-description = La valeur des jours qui sera utilisée par défaut pour les giveaways. Ne pas spécifier pour réinitialiser.
+giveaway-settings-joindays-reset = Le nombre de jours par défaut pour les giveaways ont été réinitialisés sur ce serveur.
+giveaway-settings-joindays-success = Le nombre de jours par défaut pour les giveaways de ce serveur ont été définis à { $joindays }.
 # max.length: 100
-help-giveaway_settings_roles = Set the default roles for giveaways in this server. Don't specify to reset.
-giveaway-settings-roles-success = Successfully set the default roles for giveaways in this server to { $roles }.
-giveaway-settings-roles-reset = Successfully reset the default roles for giveaways in this server.
+help-giveaway_settings_roles = Définit les rôles par défaut pour les giveaways dans ce serveur. Ne pas spécifier pour réinitialiser.
+giveaway-settings-roles-success = Les rôles par défaut pour les giveaways de ce serveur ont été définis à { $roles }.
+giveaway-settings-roles-reset = Les rôles par défaut pour les giveaways ont été réinitialisés sur ce serveur.
 # max.length: 100
-help-giveaway_settings_rolescondition = Set the default roles requirement type. Don't specify to reset the requirement.
-giveaway_settings_rolescondition-parameter-description = The ability to select either any or all roles to have as a requirement.
+help-giveaway_settings_rolescondition = Définissez le type de prérequis de rôle par défaut. Ne pas spécifier pour réinitialiser le prérequis.
+giveaway_settings_rolescondition-parameter-description = La possibilité de choisir un ou tous les rôles comme un prérequis.
 giveaway-settings-rolescondition-success = Successfully set the default roles requirement type for giveaways in this server to { $roles_condition }.
 # max.length: 100
 help-giveaway_settings_winners = Set the default number of winners for giveaways in this server. Don't specify to reset.

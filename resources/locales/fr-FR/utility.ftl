@@ -17,41 +17,41 @@ help-vote = Envoie les liens pour voter pour Martine sur les listes de bots.
 # max.length: 100
 help-selfblock = Ajoutez-vous à la liste noire du bot, pour vous retirer de la collecte de données.
 # max.length: 100
-help-premium = Premium management commands.
+help-premium = Commandes de gestion Premium.
 # max.length: 100
-help-premium-status = Gets information about your current Premium status.
+help-premium-status = Permet d'obtenir des informations sur l'état actuel de votre Premium.
 # max.length: 100
-help-premium-server = Premium server management.
+help-premium-server = Gestion du serveur Premium.
 # max.length: 100
-help-premium-server-activate = Activates Premium in this server, based off your current Patreon subscription.
+help-premium-server-activate = Active le Premium dans ce serveur, en fonction de votre abonnement Patreon actuel.
 # max.length: 100
-help-premium-server-remove = Removes Premium from this server.
-language-invalid = Please try again with a language that is in the list.
-language-current = Please select another language than the one currently selected.
-language-changed = Successfully updated the language on this server to { $language }! { $emoji }
+help-premium-server-remove = Retire le Premium de ce serveur.
+language-invalid = Réessaie avec une langue figurant dans la liste.
+language-current = Réessaie avec une autre langue que celle actuellement sélectionnée.
+language-changed = La langue de ce serveur a été mise à jour vers { $language }! { $emoji }
 language-contribute =
-    Do you want to help us having more translations to this language? 
-    Here is the link to our Crowdin project to contribute: { $link } { $emoji }
-premium-not-active = Not active
-premium-status-user = Your Premium status
-premium-tier = **Tier:** { $value }
-premium-since = **Since:** { $value }
-premium-status-servers = Your Premium servers
-premium-unknown-server = Unknown server name
-premium-status-current-server = Current server Premium status
+    Voulez-vous nous aider à avoir plus de traductions dans cette langue ? 
+    Voici le lien vers notre projet Crowdin pour contribuer : { $link } { $emoji }
+premium-not-active = Inactif
+premium-status-user = Votre statut Premium
+premium-tier = **Niveau :** { $value }
+premium-since = **Depuis :** { $value }
+premium-status-servers = Vos serveurs Premium
+premium-unknown-server = Nom de serveur inconnu
+premium-status-current-server = Statut Premium du serveur actuel
 premium-server-notsub =
-    It seems that you don't have a Patreon subscription. 
-    Please subscribe to our Patreon to get access to Premium features: { $premium_url }
-    Or maybe you already have one? If so, please click on following url to link your account to Martine: { $premium_link_url }
+    Il semble que tu n'as pas d'abonnement Patreon. 
+    Abonne-toi à notre Patreon pour avoir accès aux fonctionnalités Premium : { $premium_url }
+    Ou peut-être tu en as déjà un ? Si c'est le cas, clique sur le lien suivant pour lier ton compte à Martine : { $premium_link_url }
 premium-server-invalid-sub =
-    You have a Premium subscription, but it's not a server subscription therefore I cannot activate Premium in this server.
-    You can find our Premium server subscriptions here: { $premium_url }
-premium-server-already-active = Premium is already activated in this server. { $emoji }
+    Tu as un abonnement Premium, mais il ne s'agit pas d'un abonnement serveur. Je ne peux donc pas activer Premium sur ce serveur.
+    Tu peux retrouver nos abonnements Premium pour les serveurs ici : { $premium_url }
+premium-server-already-active = Le Premium est déjà activé sur ce serveur. { $emoji }
 premium-server-max =
-    You have reached the maximum amount of Premium servers you can have with this subscription. 
-    Please remove a server from your Premium servers list before adding a new one.
+    Vous avez atteint le nombre maximum de serveurs Premium que vous pouvez avoir avec cet abonnement. 
+    Veuillez supprimer un serveur de votre liste de serveurs Premium avant d'en ajouter un nouveau.
 premium-server-activated =
-    Successfully activated { $tier } in this server!
-    You can now enjoy all the Premium features in this server. Thank you for supporting Martine! { $emoji }
-premium-server-remove-not-active = Premium is not activated in this server.
-premium-server-removed = Successfully removed Premium from this server!
+    Activation réussie de { $tier } sur ce serveur !
+    Vous pouvez maintenant profiter de toutes les fonctionnalités Premium de ce serveur. Merci de soutenir Martine ! { $emoji }
+premium-server-remove-not-active = Le Premium n'est pas activé sur ce serveur.
+premium-server-removed = Suppression réussie de Premium sur ce serveur !
