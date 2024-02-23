@@ -1,4 +1,4 @@
-support-server = Support Server
+support-server = Serwer Wsparcia
 permission =
     { $count ->
         [one] permission

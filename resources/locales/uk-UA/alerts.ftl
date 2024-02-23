@@ -9,40 +9,40 @@ streams-message = Повідомлення
 streams-autorefresh = Автоматичне оновлення сповіщень
 streams-endbehavior = Поведінка завершення
 # $source will be the source of the stream alert.
-streams-count = Сповіщення про трансляцію { $source } на цьому сервері
-streams-none = На цьому сервері не налаштовано сповіщення про трансляції.
-streams-disable-autorefresh = Вимкнути автоматичне оновлення сповіщень
-streams-enable-autorefresh = Увімкнути автоматичне оновлення сповіщень
-streams-edit-msg-btn = Редагувати повідомлення
-streams-autorefresh-btn = Автоматичне оновлення
+streams-count = Сповіщення про трансляції { $source } на сервері
+streams-none = На сервері не налаштовано сповіщення про трансляції.
+streams-disable-autorefresh = Вимкнути автооновлення сповіщень
+streams-enable-autorefresh = Увімкнути автооновлення сповіщень
+streams-edit-msg-btn = Редагувати
+streams-autorefresh-btn = Автооновлення
 streams-autorefresh-enabled = Гаразд! Сповіщення про трансляції тепер автоматично оновлюватимуться через 15 хвилин.
 streams-autorefresh-disabled = Гаразд! Сповіщення про трансляції більше не оновлюватимуться автоматично.
 streams-endbehavior-select = Змінити поведінку завершення трансляції
-streams-deletealertmsg = Видалити сповіщення
-streams-deletealertmsg-desc = Видалити сповіщення про трансляцію.
-streams-editalertmsg = Редагувати сповіщення
+streams-deletealertmsg = Видалити повідомлення
+streams-deletealertmsg-desc = Видалити повідомлення сповіщення про трансляцію.
+streams-editalertmsg = Редагувати повідомлення
 streams-editalertmsg-desc = Відредагувати повідомлення про сповіщення трансляції з деякою інформацією про трансляцію.
 streams-newmsg = Надіслати нове повідомлення
 streams-newmsg-desc = Надіслати нове повідомлення з інформацією про трансляцію.
-streams-same-endbehavior = Будь ласка, виберіть іншу поведінку, ніж вибрана наразі.
+streams-same-endbehavior = Будь ласка, виберіть іншу поведінку, ніж поточну.
 streams-endbehavior-changed = Поведінку завершення трансляції оновлено.
 streams-msg-modal = Редактор повідомлень сповіщень трансляцій
-streams-msg-label = Установити повідомлення, яке надсилатиметься під час сповіщення про початок трансляції.
+streams-msg-label = Напишіть повідомлення, яке надсилатиметься при сповіщенні початку трансляції.
 streams-msg-placeholder = { "{" }streamer{ "}" } = імʼя стримера - { "{" }everyone{ "}" } = згадування @everyone - { "{" }here{ "}" } = згадування @here
-streams-msg-changed = Сповіщення про початок трансляції успішно оновлено!
+streams-msg-changed = Сповіщення початку трансляції успішно оновлено!
 # $source will be the source of the stream alert.
-streams-added = Трансляції { $source } успішно додано як сповіщення в цьому каналі!
+streams-added = Трансляцію { $source } успішно додано як сповіщення у цьому каналі!
 # $cmd_mention is the slash command mention for /alerts streams settings
 streams-added-tip =
-    Сповіщення буде надіслано під час наступної трансляції.
-    Ви можете оновити налаштування сповіщень про трансляції за допомогою команди { $cmd_mention }.
+    Сповіщення буде надіслано при наступній трансляції.
+    Ви можете оновити налаштування про сповіщення трансляцій з командою { $cmd_mention }.
 # $source will be the source of the stream alert.
 streams-removed = Це сповіщення успішно видалено про трансляцію { $source } з цього каналу!
 streams-twitch-notfound = Не вдалося знайти цього користувача Twitch.
 streams-kick-notfound = Не вдалося знайти цього користувача Kick.
 videos-settings = налаштування сповіщень про відео
 videos-message = Повідомлення
-videos-settings-msg-btn = Редагувати повідомлення
+videos-settings-msg-btn = Редагувати
 videos-msg-modal = Редактор повідомлення сповіщення про відео
 videos-msg-label = Установити повідомлення, що надсилається на сповіщення про відео.
 videos-msg-placeholder = { "{" }name{ "}" } = імʼя каналу відео - { "{" }everyone{ "}" } = згадка @everyone - { "{" }here{ "}" } = згадка @here
