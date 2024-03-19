@@ -97,27 +97,28 @@ auto-status-categories =
         [one] **Category:** { $categories }
        *[other] **Categories:** { $categories }
     }
-auto-status-getback-btn = Get back to setup
-auto-delaymodal-title = Martine - Autoporn delay prompt
+auto-status-getback-btn = Volver a la configuración
+auto-delaymodal-title = Martine - Tiempo de retraso de imagen porno automática
 auto-delaymodal-label = Delay
-auto-delaymodal-placeholder = The delay in minutes between each autoporn image sent in this channel...
-auto-delaymodal-invalid = Looks like this is not a correct value. Example: 5 minutes
-auto-delaymodal-toolow = The value must be over than 2 minutes.
-auto-delaymodal-toohigh = The value must be less than 60 minutes.
-auto-delaymodal-success = Successfully updated autoporn delay for { $channel } to `{ $delay }`.
-auto-amountmodal-title = Martine - Autoporn amount of images prompt
-auto-amountmodal-label = Amount
-auto-amountmodal-placeholder = The amount of images a autoporn message will contain...
-auto-amountmodal-invalid = Looks like this is not a correct value. Example: 5
-auto-amountmodal-toolow = The value must be over than 1.
-auto-amountmodal-toohigh = The value must be less than 5.
-auto-amountmodal-success = Successfully updated autoporn amount for { $channel } to `{ $amount }`.
-auto-setup-timeout-title = Autoporn setup
-auto-setup-timeout-description = This setup message has expired!
+auto-delaymodal-placeholder = El tiempo de demora entre cada imagen autoporn enviada a este canal...
+auto-delaymodal-invalid = Parece que ese no es un valor correcto. Ejemplo: 5 minutos
+auto-delaymodal-toolow = El valor debe ser mayor a 2 minutos.
+auto-delaymodal-toohigh = El valor debe ser menos de 60 segundos.
+auto-delaymodal-success = Se actualizó exitosamente el tiempo de demora de imágenes porno automáticas de { $channel } a `{ $delay }`.
+auto-amountmodal-title = Martine - Cantidad de imágenes porno automáticas
+auto-amountmodal-label = Cantidad
+auto-amountmodal-placeholder = La cantidad de imágenes que los mensajes automáticos contendrán...
+auto-amountmodal-invalid = Parece que ese no es un valor correcto. Ejemplo: 5
+auto-amountmodal-toolow = El valor debe ser superior a 1.
+auto-amountmodal-toohigh = El valor debe ser inferior a 5.
+auto-amountmodal-success = Se actualizó exitosamente la cantidad de imágenes porno automática de { $channel } a `{ $amount }`.
+auto-setup-timeout-title = Configurar imágenes porno automáticas
+auto-setup-timeout-description = Este mensaje de configuración ha expirado!
 auto-task-disabled =
-    Set this channel to NSFW back and use { $autocmd_mention } command to re-enable autoporn in this channel.
-    Use the { $tipcmd_mention } command if you're not sure how to setup this.
-auto-task-noperms-title = Autoporn feature requires Martine to have the "Manage Webhooks" and "View Channel" permissions!
+    Pon este canal con restricción de edad y usa el comando
+    { $autocmd_mention } para volver a activar las imágenes porno automáticas en este canal.
+    Usa el comando { $tipcmd_mention } si no estás seguro de como hacerlo.
+auto-task-noperms-title = El comando de imágenes porno automáticas requiere que Martine tenga los permisos "Gestionar Webhooks" y "Ver Canal"!
 auto-task-noperms-desc =
     Set the correct permissions and use the { $autocmd_mention } command to re-enable autoporn in this channel.
     If you are confused about this, or not sure how to proceed, feel free to join our support server and we will help you! { $support_url }
@@ -132,42 +133,42 @@ auto-cleanup-msg =
     Get Premium to get access to more autoporn channels again! { $emoji }
     { $premium_url }
 # max.length: 100
-help-autoporn = Setup autoporn in this channel, and see the status of it on this server.
+help-autoporn = Configurar autoporn en este canal, y ver el estado de la misma en este servidor.
 # max.length: 100
-help-nsfw = Send nsfw images of many categories!
+help-nsfw = Envía imágenes NSFW de muchas categorías!
 # max.length: 100
-nsfw-parameter-category-description = The image category.
+nsfw-parameter-category-description = La categoría de la imagen.
 # max.length: 100
-nsfw-parameter-amount-description = The amount of images to send.
+nsfw-parameter-amount-description = La cantidad de imágenes para enviar.
 # max.length: 100
 nsfw-parameter-private-description = Set to True and the command will only be visible to you.
 # max.length: 100
-help-nsfwbomb = Send multiple Nsfw images in one command between an interval of 2 seconds.
+help-nsfwbomb = Envía múltiples imágenes NSFW en un comando con un intervalo de 2 segundos.
 # max.length: 100
-nsfwbomb-parameter-amount-description = The amount of images.
+nsfwbomb-parameter-amount-description = La cantidad de imágenes.
 # max.length: 100
-nsfwbomb-parameter-category-description = The images category.
+nsfwbomb-parameter-category-description = La categoría de las imágenes.
 # max.length: 100
-help-rule34 = That famous rule yes yes.
+help-rule34 = La famosa regla jeje
 # max.length: 100
-rule34-parameter-search_tags-description = Keywords to search images for.
+rule34-parameter-search_tags-description = Palabras clave para buscar imágenes.
 # max.length: 100
-rule34-parameter-amount-description = The amount of images to send.
+rule34-parameter-amount-description = La cantidad de imágenes para enviar.
 # max.length: 100
 rule34-parameter-private-description = Set to True and the command will only be visible to you.
 # max.length: 100
 help-e621 = Porno Furry.
 # max.length: 100
-e621-parameter-search_tags-description = Keywords to search images for.
+e621-parameter-search_tags-description = Palabras clave para buscar imágenes.
 # max.length: 100
-e621-parameter-amount-description = The amount of images to send.
+e621-parameter-amount-description = La cantidad de imágenes para enviar.
 # max.length: 100
 e621-parameter-private-description = Set to True and the command will only be visible to you.
 # max.length: 100
 help-realbooru = Search for real stuff.
 # max.length: 100
-realbooru-parameter-search_tags-description = Keywords to search images for.
+realbooru-parameter-search_tags-description = Palabras clave para buscar imágenes.
 # max.length: 100
-realbooru-parameter-amount-description = The amount of images to send.
+realbooru-parameter-amount-description = La cantidad de imágenes para enviar.
 # max.length: 100
 realbooru-parameter-private-description = Set to True and the command will only be visible to you.

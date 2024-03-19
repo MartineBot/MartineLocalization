@@ -1,98 +1,98 @@
-giveaway-run-notfound = Couldn't find a currently running giveaway for that message.
-giveaway-notfound = Couldn't find a giveaway for that message.
-giveaway-notstored = Couldn't find a stored giveaway for that message.
+giveaway-run-notfound = Konnte kein laufendes Giveaway für diese Nachricht finden.
+giveaway-notfound = Konnte kein Giveaway für diese Nachricht finden.
+giveaway-notstored = Konnte kein gespeichertes Giveaway für diese Nachricht finden.
 giveaway-roles = Rollen:
-giveaway-roles-condition = Roles condition:
-giveaway-days-in-server = Days in server:
+giveaway-roles-condition = Rollenbedingung:
+giveaway-days-in-server = Tage auf dem Server:
 giveaway-details = Details:
-giveaway-hosted-by = Hosted by:
+giveaway-hosted-by = Gehostet von:
 giveaway-unknown = Unbekannt
-giveaway-time-remaining = Time remaining:
-giveaway-requirements = Requirements:
-giveaway-bypassrole = { $role } role bypasses those requirements!
-giveaway-ends = Ends:
-giveaway-ends-at = Ends at
-giveaway-winners = Winners:
-giveaway-rolling = Rolling giveaway { $prize }...
+giveaway-time-remaining = Verbleibende Zeit:
+giveaway-requirements = Anforderungen:
+giveaway-bypassrole = Die Rolle { $role } umgeht diese Anforderungen!
+giveaway-ends = Endet:
+giveaway-ends-at = Endet um
+giveaway-winners = Gewinner:
+giveaway-rolling = Auslosung des Giveaways { $prize }...
 giveaway-roll-notfound =
-    The message of giveaway { $prize } seems to have been deleted.
-    I cannot roll out winners.
-giveaway-roll-reroll = Giveaway reroll! { $emoji }
-giveaway-roll-ended = Giveaway ended! { $emoji }
+    Die Nachricht des Giveaways { $prize } scheint gelöscht worden zu sein.
+    Ich kann keinen Gewinner auslosen.
+giveaway-roll-reroll = Giveaway-Neuauslosung! { $emoji }
+giveaway-roll-ended = Giveaway beendet! { $emoji }
 giveaway-roll-description =
-    Congratulations to the **{ $num_winners } { $num_winners ->
-        [one] winner
-       *[other] winners
+    Herzlichen Glückwunsch an **{ $num_winners } { $num_winners ->
+        [one] den Gewinner
+       *[other] die Gewinner
     }
-    You have won { $prize }!**
+    Du hast { $prize } gewonnen!**
 giveaway-roll-total-entries =
-    { $num_entries_fmt } total { $num_entries ->
-        [one] entry
-       *[other] entries
+    { $num_entries_fmt } insgesamt { $num_entries ->
+        [one] Eintrag
+       *[other] Einträge
     }!
-giveaway-roll-gg = Congratulation { $winners }!
+giveaway-roll-gg = Herzlichen Glückwunsch { $winners }!
 giveaway-roll-nothing =
-    But no one entered. { $emoji }
-    It was { $prize }
-giveaway-ended = Giveaway Ended
-giveaway-ended-time = Giveaway ended { $locale_formatted_time }!
-giveaway-no-winners = No one won
-giveaway-btn-label = Enter giveaway ({ $entries } entries)
-giveaway-btn-label-ended = { $entries } entries
-giveaway-btn-spammy = This button is on cooldown, please try again later.
-giveaway-btn-removed = Successfully removed your entry from this giveaway! { $emoji }
-giveaway-btn-fail-role-any = You need to have at least one of the following roles to enter this giveaway: { $roles }
-giveaway-btn-fail-role-all = You need to have all of the following roles to enter this giveaway: { $roles }
-giveaway-btn-fail-joindays = { $joindays } days in the server but you have been there for { $days } days.
+    Aber niemand hat teilgenommen. { $emoji }
+    Es war { $prize }
+giveaway-ended = Giveaway beendet
+giveaway-ended-time = Giveaway endete um { $locale_formatted_time }!
+giveaway-no-winners = Niemand hat gewonnen
+giveaway-btn-label = An Giveaway teilnehmen ({ $entries } Einträge)
+giveaway-btn-label-ended = { $entries } Einträge
+giveaway-btn-spammy = Dieser Button ist derzeit auf Abklingzeit, bitte versuche es später erneut.
+giveaway-btn-removed = Deine Teilnahme wurde erfolgreich aus diesem Giveaway entfernt! { $emoji }
+giveaway-btn-fail-role-any = Du musst mindestens eine der folgenden Rollen haben, um an diesem Giveaway teilnehmen zu können: { $roles }
+giveaway-btn-fail-role-all = Du musst alle der folgenden Rollen haben, um an diesem Giveaway teilnehmen zu können: { $roles }
+giveaway-btn-fail-joindays = Du bist seit { $days } Tagen auf dem Server, aber du musst hier für { $joindays } Tage sein.
 giveaway-btn-denied-title =
-    Giveaway entry denied! Missing { $count ->
-        [one] requirement
-       *[other] requirements
+    Teilnahme am Giveaway verweigert! Es fehlt { $count ->
+        [one] Anforderung
+       *[other] Anforderungen
     }
-giveaway-btn-denied-description = Sorry but you are missing one of the requirements for { $prize } giveaway in { $server } server.
-giveaway-btn-bypass-title = Bypass role:
-giveaway-btn-bypass-description = By having { $role } role you can bypass the above requirements!
-giveaway-btn-martine-links = Martine's links:
-giveaway-btn-accepted-title = Giveaway entry accepted!
-giveaway-btn-accepted-description = Your entry for the giveaway of { $prize } in { $server } server has been processed and accepted. Good luck!
+giveaway-btn-denied-description = Entschuldigung, aber dir fehlt eine der Anforderungen für das { $prize } Giveaway im { $server } Server.
+giveaway-btn-bypass-title = Umgehungsrolle:
+giveaway-btn-bypass-description = Durch die Rolle { $role } kannst du die oben genannten Anforderungen umgehen!
+giveaway-btn-martine-links = Martine's Links:
+giveaway-btn-accepted-title = Teilnahme am Giveaway akzeptiert!
+giveaway-btn-accepted-description = Deine Teilnahme am Giveaway von { $prize } im { $server } Server wurde verarbeitet und akzeptiert. Viel Glück!
 # max.length: 100
-help-giveaway = Commands to manage giveaways
+help-giveaway = Befehle zum Verwalten von Giveaways
 # max.length: 100
-help-giveaway_create = Create a giveaway.
+help-giveaway_create = Ein Giveaway erstellen.
 # max.length: 100
-giveaway_create-parameter-use_config-description = Whether you want to use already set config values. Default to False.
-giveaway-setup = Giveaway setup { $emoji }
+giveaway_create-parameter-use_config-description = Ob du bereits festgelegte Konfigurationswerte verwenden möchtest. Standardmäßig auf Falsch.
+giveaway-setup = Giveaway-Konfiguration { $emoji }
 giveaway-setup-optional = Optional
-giveaway-setup-current-value = Current value:
-giveaway-setup-example = Example:
-giveaway-setup-footer-cancel-skip = Send "cancel" to cancel the setup or send "skip" to skip that question.
-giveaway-setup-footer-cancel = Send "cancel" to cancel the setup.
-giveaway-setup-keep = Send "keep" to keep the current value.
-giveaway-setup-error = Error:
-giveaway-setup-cancelled = The giveaway setup has been cancelled.
+giveaway-setup-current-value = Aktueller Wert:
+giveaway-setup-example = Beispiel:
+giveaway-setup-footer-cancel-skip = Sende "cancel", um die Konfiguration abzubrechen, oder sende "skip", um diese Frage zu überspringen.
+giveaway-setup-footer-cancel = Sende "cancel", um die Konfiguration abzubrechen.
+giveaway-setup-keep = Sende "keep", um den aktuellen Wert beizubehalten.
+giveaway-setup-error = Fehler:
+giveaway-setup-cancelled = Die Konfiguration des Giveaways wurde abgebrochen.
 giveaway-setup-timeout =
     { $giveaway-setup-cancelled }
-    User took too much time to answer.
+    Der Benutzer hat zu lange gebraucht, um zu antworten.
 giveaway-setup-too-many-fails =
     { $giveaway-setup-cancelled }
-    User failed to give an good answer after 5 tries.
+    Der Benutzer konnte nach 5 Versuchen keine richtige Antwort geben.
 giveaway-setup-title =
-    __You have started the giveaway setup. You will have 5 minutes to answer each questions.__
+    __Du hast mit der Einrichtung des Giveaways begonnen. Du hast 5 Minuten Zeit, um jede Frage zu beantworten.__
     
-    What prize are you giving away? (256 characters maximum)
-giveaway-setup-prize-example = A Discord Nitro.
-giveaway-setup-prize-too-long = The prize title must be less than 256 characters. Please try again with a shorter title.
-giveaway-setup-description = A brief description of your giveaway. (1024 characters maximum)
-giveaway-setup-description-example = Staff team is offering a Discord Nitro for the end of this month!
-giveaway-setup-description-too-long = The description must be less than 1024 characters. Please try again with a shorter description.
-giveaway-setup-winners = How many winners will be pulled? (Maximum 25)
-giveaway-setup-numbers-invalid = This must be a number, please try again.
-giveaway-setup-winners-too-high = The maximum number of winners is 25. Please try again with a lower number.
-giveaway-setup-host = Who is hosting that giveaway?
-giveaway-setup-host-notfound = This user was not found. Please try again.
+    Welchen Preis verlosen Sie? (maximal 256 Zeichen)
+giveaway-setup-prize-example = Ein Discord Nitro.
+giveaway-setup-prize-too-long = Der Titel des Preises muss weniger als 256 Zeichen enthalten. Bitte versuche es erneut mit einem kürzeren Titel.
+giveaway-setup-description = Eine kurze Beschreibung deines Giveaways. (maximal 1024 Zeichen)
+giveaway-setup-description-example = Das Team bietet am Ende dieses Monats ein Discord Nitro an!
+giveaway-setup-description-too-long = Die Beschreibung darf maximal 1024 Zeichen enthalten. Bitte versuchen Sie es erneut mit einer kürzeren Beschreibung.
+giveaway-setup-winners = Wie viele Gewinner sollen gezogen werden? (maximal 25)
+giveaway-setup-numbers-invalid = Dies muss eine Zahl sein. Bitte versuche es erneut.
+giveaway-setup-winners-too-high = Die maximale Anzahl von Gewinnern beträgt 25. Bitte versuche es erneut mit einer niedrigeren Zahl.
+giveaway-setup-host = Wer veranstaltet dieses Giveaway?
+giveaway-setup-host-notfound = Dieser Benutzer wurde nicht gefunden. Bitte versuche es erneut.
 giveaway-setup-roles =
-    Which role(s) will be allowed to enter that giveaway? In the case of multiple roles, please use commas to separate them.
-    For roles with spaces in their name, either mention them or use their ID.
+    Welche Rolle(n) dürfen an diesem Giveaway teilnehmen? Bei mehreren Rollen bitte mit Kommas trennen.
+    Für Rollen mit Leerzeichen im Namen, entweder sie erwähnen oder ihre ID verwenden.
 giveaway-setup-roles-invalid = { $value } is not a valid role. Please try again.
 giveaway-setup-roles-too-many = You can only specify up to 5 roles. Please try again with less roles.
 giveaway-setup-roles-condition =

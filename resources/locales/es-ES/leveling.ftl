@@ -1,89 +1,89 @@
-maintenance-disabled = The leveling system is disabled globally for a maintenance. Please try again later.
+maintenance-disabled = El sistema de nivelación está globalmente deshabilitado por mantenimiento. Por favor intenta de nuevo más tarde.
 disabled-msg =
-    Leveler is not enabled in this server.
-    An admin or someone who can manage this server can enable it with the command { $cmd_mention }!
+    La nivelación no está activada en este servidor.
+    Un Administrador o alguien que gestione el servidor puede habilitarlo con el comando { $cmd_mention } !
 # max.length: 100
-help-profile = Shows your profile card or the one of another member.
-profile-nobots = Sorry, but bots don't have profiles! { $emoji }
-profile-noexp-author = You haven't gained any exp yet! Continue to send more messages.
-profile-noexp-other = This member doesn't have gained any exp yet!
-profile-image-failed = Sorry, something went wrong while trying to get this profile image. Please try again later. { $emoji }
-profile-vote-btn = Upvote for 10% exp boost!
-profile-exp-boost-active = 10% upvote exp boost active! (Reason: `{ $reason }`)
-profile-card = { $member } profile card
+help-profile = Muestra tu tarjeta de usuario o la de otro miembro del servidor.
+profile-nobots = Lo siento, pero los bots no tienen tarjeta de usuario! { $emoji }
+profile-noexp-author = Aún no has ganado experiencia! Tienes que enviar más mensajes.
+profile-noexp-other = Este usuario aún no ha ganado experiencia!
+profile-image-failed = Algo ha ido mal al intentar obtener esta imagen de perfil. Por favor intenta de nuevo más tarde. { $emoji }
+profile-vote-btn = Vota para recibir un 10% de boost de experiencia!
+profile-exp-boost-active = 10% boost de experiencia activo! (Razón: `{ $reason }`)
+profile-card = { $member } tarjeta de usuario
 # max.length: 100
-help-lvltop = Shows top 10 of levels of this server.
+help-lvltop = Muestra un top 10 de usuarios con mayor nivel en el servidor.
 # max.length: 100
-help-reptop = Shows top 10 of rep of this server.
-top-image-failed = Sorry, something went wrong while trying to get this server top image. Please try again later. { $emoji }
-lvltop-nodata = It looks like no members have gained experience with Martine for now. { $emoji }
-lvltop-lb = { $server } levels leaderboard
-top-member-rank = You are rank #{ $rank } in this server
-top-member-norank = You are not ranked yet in this server
-reptop-nodata = It looks like no members have gained rep with Martine for now. { $emoji }
-reptop-lb = { $server } rep leaderboard
+help-reptop = Muestra un top 10 de usuarios con mayor reputación en el servidor.
+top-image-failed = Algo ha ido mal al intentar obtener la foto del servidor. Por favor intenta de nuevo más tarde. { $emoji }
+lvltop-nodata = Parece que ningún miembro ha ganado experiencia con Martine aún. { $emoji }
+lvltop-lb = { $server } Tabla de clasificación de niveles
+top-member-rank = Eres nivel #{ $rank } en el servidor
+top-member-norank = Aún no estás clasificado en este servidor
+reptop-nodata = Parece que ningún miembro ha ganado experiencia con Martine aún. { $emoji }
+reptop-lb = { $server } Clasificación de reputación
 # max.length: 100
-help-rep = Gives a reputation point to a member of this server.
+help-rep = Le da un punto de reputación a un miembro del servidor.
 # max.length: 100
-rep-parameter-member-description = The member to give a reputation point.
-rep-no-self = You cannot give yourself reputation points. { $emoji }
-rep-nobots = Sorry, but bots cannot receive reputation points! { $emoji }
+rep-parameter-member-description = El usuario a quien darle un punto de reputación.
+rep-no-self = No te puedes dar puntos de reputación a ti mismo. { $emoji }
+rep-nobots = Lo siento, los bots no pueden recibir puntos de reputación! { $emoji }
 rep-cooldown =
-    Oops, you are on cooldown on giving rep points! { $emoji }
-    Try again { $formatted_cooldown }
+    Ups, el comando está en enfriamiento! { $emoji } 
+    Intenta de nuevo { $formatted_cooldown }
 rep-success =
-    { $member } you have just received a reputation point from { $author }!
-    You now have { $rep_count } reputation points! { $emoji }
+    { $member } acabas de recibir un punto de reputación de parte de { $author }!
+    Ahora tienes { $rep_count } puntos de reputación! { $emoji }
 # max.length: 100
 help-lvlset = Manage all leveler settings.
 # max.length: 100
-help-lvlset_show = Shows the current settings of this server.
+help-lvlset_show = Muestra la configuración actual del servidor.
 # max.length: 100
-help-lvlset_toggle = Enable/disable leveling in this server.
+help-lvlset_toggle = Habilita/Desabilita la nivelación en este servidor.
 # max.length: 100
-help-lvlset_setlvl = Set manually the level of a member.
+help-lvlset_setlvl = Establece manualmente el nivel de un usuario.
 # max.length: 100
-lvlset_setlvl-parameter-level-description = The level to give to the member.
+lvlset_setlvl-parameter-level-description = El nivel que quieres darle a un usuario.
 # max.length: 100
-lvlset_setlvl-parameter-member-description = The member to update its level. (Min. 1 and max. 9999)
+lvlset_setlvl-parameter-member-description = El usuario al cual quieres actualizar su nivel. (Min. 1 y Max 9999)
 # max.length: 100
-help-lvlset_resetrep = Reset reputation points of a selected member.
+help-lvlset_resetrep = Resetea los puntos de reputación del usuario seleccionado.
 # max.length: 100
-lvlset_resetrep-parameter-member-description = The member to reset levels and exp.
+lvlset_resetrep-parameter-member-description = El usuario al cual vas a resetear nivel y experiencia.
 # max.length: 100
-help-lvlset_resetlvl = Reset level and exp of a selected member.
+help-lvlset_resetlvl = Resetea nivel y experiencia del usuario seleccionado.
 # max.length: 100
-lvlset_resetlvl-parameter-member-description = The member to reset reputation points.
+lvlset_resetlvl-parameter-member-description = El usuario al cual resetear sus puntos de reputación.
 # max.length: 100
-help-lvlset_resetrepall = Reset reputation points of all stored members.
+help-lvlset_resetrepall = Resetea los puntos de reputación de todos los usuarios.
 # max.length: 100
-help-lvlset_resetlvlall = Reset level and exp of all stored members.
+help-lvlset_resetlvlall = Resetea los niveles y experiencia de todos los usuarios.
 # max.length: 100
-help-lvlset_roles = Manage roles reward.
+help-lvlset_roles = Gestiona las recompensas de roles.
 # max.length: 100
-help-lvlset_roles_mode = Set if members will only have the higher role reward, or if it will be cumulative.
+help-lvlset_roles_mode = Establece si los miembros solo tendrán la recompensa del rol más alto, o si será acumulativa.
 # max.length: 100
-help-lvlset_roles_add = Adds a reward role.
+help-lvlset_roles_add = Añade un rol de recompensa.
 # max.length: 100
-lvlset_roles_add-parameter-level-description = The level on which you want to bind the role.
+lvlset_roles_add-parameter-level-description = El nivel en el que se va a dar el rol.
 # max.length: 100
-lvlset_roles_add-parameter-role-description = The role that will be added for this level.
+lvlset_roles_add-parameter-role-description = El rol que se va a agregar para este nivel.
 # max.length: 100
-help-lvlset_roles_remove = Removes a reward role.
+help-lvlset_roles_remove = Elimina un rol de recompensa.
 # max.length: 100
-lvlset_roles_remove-parameter-level-description = The level on which the role is currently binded.
+lvlset_roles_remove-parameter-level-description = El nivel en el que se está dando el rol.
 # max.length: 100
-help-lvlset_lvlup = Manage level ups settings.
+help-lvlset_lvlup = Gestiona los ajustes de las subidas de nivel.
 # max.length: 100
-help-lvlset_lvlup_destination = Set the destination of level up messages.
+help-lvlset_lvlup_destination = Establece donde será enviado mensaje de subida de nivel.
 # max.length: 100
 lvlset_lvlup_destination-parameter-destination-description = member for member's DMs, current for current lvlup channel, or channel ID/mention.
 # max.length: 100
-help-lvlset_lvlup_message = Set the level up message.
+help-lvlset_lvlup_message = Establece el mensaje de subida de nivel.
 # max.length: 100
 lvlset_lvlup_message-parameter-message-description = You can use `[member]` for member mention, and `[lvl]` for the level the member reached.
 # max.length: 100
-help-lvlset_exp = Manage exp settings.
+help-lvlset_exp = Gestiona la configuración de experiencia.
 # max.length: 100
 help-lvlset_exp_rate = Set the exp rate/multiplier. From 0.1 to 5.0. Default to 1.0.
 # max.length: 100
@@ -101,15 +101,15 @@ lvlset_exp_cooldown-parameter-cooldown-description = The cooldown value (in seco
 # max.length: 100
 help-lvlset_exp_msglength = [Server Premium Silver] Set minimum message length for exp gain. Default is 20.
 # max.length: 100
-help-lvlset_ignore = Manage ignore settings.
+help-lvlset_ignore = Gestiona la configuración de Ignorados.
 # max.length: 100
-help-lvlset_ignore_addchannel = Add a channel where members will not get exp.
+help-lvlset_ignore_addchannel = Agrega un canal donde los usuarios no btendrán experiencia.
 # max.length: 100
-lvlset_ignore_addchannel-parameter-channel-description = The channel to add to the ignore list.
+lvlset_ignore_addchannel-parameter-channel-description = El canal para agregar a la lista de Ignorados.
 # max.length: 100
-help-lvlset_ignore_rmchannel = Remove an ignored channel.
+help-lvlset_ignore_rmchannel = Elimina un canal Ignorado.
 # max.length: 100
-lvlset_ignore_rmchannel-parameter-channel-description = The channel to remove from the ignore list. Must be a text channel.
+lvlset_ignore_rmchannel-parameter-channel-description = El canal a eliminar de la lista de canales Ignorados. Debe ser un canal de texto.
 # max.length: 100
 help-lvlset_ignore_addrole = Add a role where members will not get exp.
 # max.length: 100

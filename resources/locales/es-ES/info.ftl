@@ -65,61 +65,61 @@ help-userinfo = Muestra información sobre un usuario.
 ui-app-info = Información de la aplicación
 ui-app-tags = Etiquetas
 ui-app-tags-empty = Vacío
-ui-app-flags = Application flags
+ui-app-flags = Configuraciones del bot
 ui-app-presence = Presence Intent
 ui-app-members = Server Members Intent
 ui-app-msg = Message Content Intent
 ui-app-misc = Otros
-ui-app-guildcount = Approximate servers count
+ui-app-guildcount = Número aproximado de servidores
 ui-app-public = Público
 ui-app-slug = Slug
 ui-app-tos = Términos de Servicio
 ui-app-privacy = Políticas de Privacidad
 ui-app-add = Añadir al Servidor
 ui-created-on = Creado:
-ui-badges = Badges
+ui-badges = Insignias
 ui-id = ID de usuario:
 ui-userinfo-field = Info de Usuario
 ui-mention = Mención
-ui-activities = Activities
+ui-activities = Actividades
 ui-member = Datos de miembro
-ui-member-joined = Joined:
-ui-in-channel = channel:
-ui-booster-since = Booster since:
-ui-member-nick = Nickname:
-ui-customstatus-emojiandname = Custom status: { $emoji } { $name }
-ui-customstatus-emoji = Custom status: { $emoji }
-ui-customstatus-name = Custom status: { $name }
-ui-playing = Playing { $name }
-ui-streaming = Streaming { $name }
-ui-listening = Listening to { $name }
-ui-watching = Watching { $name }
-ui-competing = Competing in { $name }
+ui-member-joined = Entró:
+ui-in-channel = Canal:
+ui-booster-since = Booster desde:
+ui-member-nick = Apodo:
+ui-customstatus-emojiandname = Estado personalizado: { $emoji } { $name }
+ui-customstatus-emoji = Estado personalizado: { $emoji }
+ui-customstatus-name = Estado personalizado: { $name }
+ui-playing = Jugando { $name }
+ui-streaming = Transmitiendo { $name }
+ui-listening = Escuchando { $name }
+ui-watching = Mirando { $name }
+ui-competing = Compitiendo en: { $name }
 ui-roles = Roles
 ui-member = Miembro
-ui-select-assets = View user's avatar or banner...
+ui-select-assets = Ver avatar del usuario o banner...
 ui-select-banner = Portada
 ui-select-avatar = Avatar
 ui-select-server-avatar = Avatar del Server
-ui-no-banner = No banner set.
-ui-user-avatar = { $user } user avatar
-ui-server-avatar = { $user } server avatar
-ui-no-server-avatar = No server avatar set.
-ui-back-btn = Get back to user info
-ui-perms-btn = View member permissions
+ui-no-banner = Banner no establecido.
+ui-user-avatar = { $user } avatar
+ui-server-avatar = { $user } foto del usuario
+ui-no-server-avatar = Foto de usuario no establecida.
+ui-back-btn = Volver a información del usuario
+ui-perms-btn = Ver permisos del usuario
 # channelinfo command
 # max.length: 100
-help-channelinfo = Shows information about a channel. Default to current.
-ci-created = Created on
-ci-no-topic = No topic.
-ci-position = Position
+help-channelinfo = Muestra información del canal. Dejar en blanco para ver información del canal actual.
+ci-created = Creado el
+ci-no-topic = Sin tema.
+ci-position = Posición
 ci-members = Miembros
 ci-slowmode = Modo lento
 ci-webhooks = Webhooks
-ci-threads = Discusiones
+ci-threads = Hilos
 ci-archived = Archivado
 ci-archived-time = Tiempo Archivado
-ci-archiver = Archiver
+ci-archiver = Archivador
 ci-private = Privado
 ci-messages = Mensajes
 ci-owner = Dueño
@@ -134,18 +134,18 @@ ci-id = ID del canal:
 # roleinfo command
 # max.length: 100
 help-roleinfo = Muestra información sobre un rol.
-ri-created = Created on
+ri-created = Creado el
 ri-members = Miembros
 ri-colour = Color
-ri-position = Position
-ri-hoisted = Hoisted
+ri-position = Posición
+ri-hoisted = Mostrar rol separado de usuarios en línea
 ri-managed = Gestionado
 ri-mentionnable = Mencionable
 ri-id = ID del rol:
 # emojiinfo command
 # max.length: 100
 help-emojiinfo = Muestra información sobre un emoji.
-em-react = React to this message with the emoji of your choice
+em-react = Reacciona a este mensaje con un emoji a elección
 em-cancelled = Cancelado
 em-unicode-char = Carácter Unicode
 em-unicode-category = Categoria Unicode
@@ -190,7 +190,7 @@ info_user-parameter-user-description = El usuario sobre el que deseas informaci�
 # max.length: 100
 help-info_server = Muestra información sobre el servidor, las insignias de los miembros y los activos.
 # max.length: 100
-help-info_channel = Shows information about a channel. Default to current.
+help-info_channel = Muestra información del canal. Dejar en blanco para ver información del canal actual.
 # max.length: 100
 info_channel-parameter-channel-description = El canal sobre el que deseas información.
 # max.length: 100
@@ -204,6 +204,6 @@ info_emoji-parameter-emoji-description = El emoji sobre el que quieres informaci
 # max.length: 100
 help-info_bot_clusters = Muestra las estadísticas de los clusters.
 # max.length: 100
-help-info_bot_currentcluster = Shows infos about the current cluster.
+help-info_bot_currentcluster = Muestra información del cluster actual.
 # max.length: 100
-help-help = Get the list of commands and important links.
+help-help = Obtén la lista de comandos y links importante.
