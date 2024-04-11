@@ -22,7 +22,7 @@ giveaway-roll-ended = Sorteio encerrado! { $emoji }
 giveaway-roll-description =
     Parabéns aos **{ $num_winners } { $num_winners ->
         [one] vencedor
-       *[other] vencem dores
+       *[other] vencedores
     }
     Você ganhou { $prize }!**
 giveaway-roll-total-entries =
