@@ -56,6 +56,7 @@ videos-removed = Αφαιρέθηκε επιτυχώς αυτή η ειδοπο�
 yt-notfound =
     Δεν μπόρεσε να βρεθεί αυτός ο χρήστης του YouTube.
     Δοκιμάστε ξανά επικολλώντας τη διεύθυνση URL του καναλιού στο https://commentpicker.com/youtube-channel-id.php και πάρτε την τιμή του "Channel ID".
+tiktok-notfound = Couldn't find that TikTok user.
 # max.length: 100
 help-alerts = Διαχείριση ειδοποιήσεων σε αυτόν τον διακομιστή.
 # max.length: 100
@@ -64,6 +65,12 @@ help-alerts_videos = Διαχείριση ειδοποιήσεων βίντεο 
 help-alerts_videos_youtube = Διαχειριστείτε μια ειδοποίηση βίντεο για έναν χρήστη του YouTube.
 # max.length: 100
 alerts_videos_youtube-parameter-user_name_or_id-description = Το όνομα καναλιού του YouTube ή ID.
+# max.length: 100
+help-alerts_videos_tiktok = Manage a video alert for a TikTok user.
+# max.length: 100
+alerts_videos_tiktok-parameter-user_name_or_url-description = The TikTok channel name or URL.
+# max.length: 100
+alerts_videos_tiktok-parameter-message_template-long-description = The message template to use for the alert. Use { name } for the channel name.
 # max.length: 100
 help-alerts_videos_settings = Διαχείριση ρυθμίσεων ειδοποιήσεων βίντεο.
 # max.length: 100

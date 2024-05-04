@@ -56,6 +56,7 @@ videos-removed = Questo canale { $source } è stato rimosso correttamente da que
 yt-notfound =
     Impossibile trovare quell'utente di YouTube.
     Riprova incollando l'URL del canale su https://commentpicker.com/youtube-id-channel-id.php e utilizzando il valore "Channel ID" (ID Canale).
+tiktok-notfound = Couldn't find that TikTok user.
 # max.length: 100
 help-alerts = Gestisci gli avvisi su questo server.
 # max.length: 100
@@ -64,6 +65,12 @@ help-alerts_videos = Gestisci gli avvisi sui video su questo server.
 help-alerts_videos_youtube = Gestisci un avviso su un video per un utente di YouTube.
 # max.length: 100
 alerts_videos_youtube-parameter-user_name_or_id-description = Il nome o ID del canale di YouTube.
+# max.length: 100
+help-alerts_videos_tiktok = Manage a video alert for a TikTok user.
+# max.length: 100
+alerts_videos_tiktok-parameter-user_name_or_url-description = The TikTok channel name or URL.
+# max.length: 100
+alerts_videos_tiktok-parameter-message_template-long-description = The message template to use for the alert. Use { name } for the channel name.
 # max.length: 100
 help-alerts_videos_settings = Gestisci le impostazioni sugli avvisi sui video.
 # max.length: 100

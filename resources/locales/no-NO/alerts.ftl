@@ -56,6 +56,7 @@ videos-removed = Vellykket Fjernet dette { $source } strømvarselet fra denne ka
 yt-notfound =
     Kunne ikke finne den YouTube-brukeren.
     Prøv igjen ved å lime inn kanal-URLen på https://commentpicker.com/youtube-channel-id.php og ta "Channel ID"-verdien.
+tiktok-notfound = Couldn't find that TikTok user.
 # max.length: 100
 help-alerts = Administrer varsler på denne serveren.
 # max.length: 100
@@ -64,6 +65,12 @@ help-alerts_videos = Administrer video varsler på denne serveren.
 help-alerts_videos_youtube = Administrer et video varsel for en YouTube bruker.
 # max.length: 100
 alerts_videos_youtube-parameter-user_name_or_id-description = YouTube-kanalens navn eller ID.
+# max.length: 100
+help-alerts_videos_tiktok = Manage a video alert for a TikTok user.
+# max.length: 100
+alerts_videos_tiktok-parameter-user_name_or_url-description = The TikTok channel name or URL.
+# max.length: 100
+alerts_videos_tiktok-parameter-message_template-long-description = The message template to use for the alert. Use { name } for the channel name.
 # max.length: 100
 help-alerts_videos_settings = Administrere innstillinger varlser for videoer.
 # max.length: 100

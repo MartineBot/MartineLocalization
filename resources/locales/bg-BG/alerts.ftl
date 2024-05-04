@@ -50,6 +50,7 @@ videos-added = Успешно добавяне на този { $source } кан�
 videos-added-tip = Уведомление ще бъде изпратено когато следващото видео е публикувано. Можете да променяте настройките на уведомления за видеа с командата { $cmd_mention }.
 videos-removed = Успешно премахване на това { $source } уведомление за канал от този сървър!
 yt-notfound = Не бе намерен този YouTube потребител. Опитайте отново, като поставите URL линка на канала в https://commentpicker.com/youtube-channel-id.php и вземете стойността на "Channel ID".
+tiktok-notfound = Couldn't find that TikTok user.
 # max.length: 100
 help-alerts = Управление на уведомления в този сървър.
 # max.length: 100
@@ -58,6 +59,12 @@ help-alerts_videos = Управление на видео уведомления
 help-alerts_videos_youtube = Управление на видео уведомление за YouTube потребител.
 # max.length: 100
 alerts_videos_youtube-parameter-user_name_or_id-description = Името на YouTube канала или ID.
+# max.length: 100
+help-alerts_videos_tiktok = Manage a video alert for a TikTok user.
+# max.length: 100
+alerts_videos_tiktok-parameter-user_name_or_url-description = The TikTok channel name or URL.
+# max.length: 100
+alerts_videos_tiktok-parameter-message_template-long-description = The message template to use for the alert. Use { name } for the channel name.
 # max.length: 100
 help-alerts_videos_settings = Управление настройки на уведомления за видеа.
 # max.length: 100
