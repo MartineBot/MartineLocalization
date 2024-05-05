@@ -10,7 +10,8 @@ streams-autorefresh = Actualización automática de alertas
 streams-endbehavior = Comportamiento en el extremo
 # $source will be the source of the stream alert.
 streams-count = { $source } Alertas de transmisión en este servidor
-streams-none = No se han configurado alertas de transmisión en este servidor.
+# $source will be the source of the stream alert.
+streams-none = There are no { $source } stream alerts in this server.
 streams-disable-autorefresh = Deshabilitar la actualización automática de alertas.
 streams-enable-autorefresh = Habilitar la actualización automática de alertas.
 streams-edit-msg-btn = Editar mensaje.
@@ -45,11 +46,16 @@ videos-msg-modal = Editor de mensajes de alertas de videos.
 videos-msg-label = Establecer el mensaje enviado en las alertas de videos.
 videos-msg-placeholder = { "{" }name{ "}" } representa el nombre del creador del video, { "{" }everyone{ "}" } representa una mención a @everyone y { "{" }here{ "}" } representa una mención a @here
 videos-msg-changed = ¡Se actualizó correctamente el mensaje de alertas de videos!
+# $source will be the source of the video alert.
 videos-count = Alertas de videos de { $source } en este servidor.
+# $source will be the source of the video alert.
+videos-none = There are no { $source } video alerts in this server.
+# $source will be the source of the video alert.
 videos-added = Se añadió correctamente este canal de { $source } como una alerta en ese canal.
 videos-added-tip =
     Se enviará una alerta cada vez que se publique el próximo video. 
     Puedes actualizar la configuración de alertas de videos utilizando el comando { $cmd_mention }.
+# $source will be the source of the video alert.
 videos-removed = Se eliminó correctamente esta alerta de canal de { $source } de este canal.
 yt-notfound = No se pudo encontrar ese usuario de YouTube. Intenta nuevamente pegando la URL del canal en https://commentpicker.com/youtube-channel-id.php y copia el valor de la ID del canal "Channel ID"
 tiktok-notfound = Couldn't find that TikTok user.

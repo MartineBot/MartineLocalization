@@ -10,7 +10,8 @@ streams-autorefresh = Actualisation automatique des alertes
 streams-endbehavior = Fin du comportement
 # $source will be the source of the stream alert.
 streams-count = Alertes de flux { $source } dans ce serveur
-streams-none = Aucune alerte de flux n'a été définie dans ce serveur.
+# $source will be the source of the stream alert.
+streams-none = There are no { $source } stream alerts in this server.
 streams-disable-autorefresh = Désactiver le rafraîchissement automatique des alertes
 streams-enable-autorefresh = Activer le rafraîchissement automatique des alertes
 streams-edit-msg-btn = Modifier le message
@@ -47,11 +48,16 @@ videos-msg-modal = Éditeur du message des alertes vidéo
 videos-msg-label = Définir le message envoyé pour les alertes vidéo.
 videos-msg-placeholder = { "{" }nom{ "}" } = le nom du créateur de la vidéo - { "{" }everyone{ "}" } = @tous ping - { "{" }here{ "}" } = @here ping
 videos-msg-changed = La mise à jour du message des alertes vidéo a été effectuée avec succès !
+# $source will be the source of the video alert.
 videos-count = { $source } alertes vidéo dans ce serveur
+# $source will be the source of the video alert.
+videos-none = There are no { $source } video alerts in this server.
+# $source will be the source of the video alert.
 videos-added = L'ajout de ce canal { $source } en tant que canal d'alerte a été effectué avec succès !
 videos-added-tip =
     Une alerte sera envoyée lorsque la prochaine vidéo sera publiée.
     Vous pouvez mettre à jour les paramètres d'alerte des vidéos à l'aide de la commande { $cmd_mention } .
+# $source will be the source of the video alert.
 videos-removed = L'alerte { $source } a été supprimée avec succès de ce canal !
 yt-notfound =
     Impossible de trouver cet utilisateur YouTube.

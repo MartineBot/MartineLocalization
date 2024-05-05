@@ -10,7 +10,8 @@ streams-autorefresh = Автоматичне оновлення сповіщен
 streams-endbehavior = Поведінка завершення
 # $source will be the source of the stream alert.
 streams-count = Сповіщення про трансляції { $source } на сервері
-streams-none = На сервері не налаштовано сповіщення про трансляції.
+# $source will be the source of the stream alert.
+streams-none = There are no { $source } stream alerts in this server.
 streams-disable-autorefresh = Вимкнути автооновлення сповіщень
 streams-enable-autorefresh = Увімкнути автооновлення сповіщень
 streams-edit-msg-btn = Редагувати
@@ -47,9 +48,14 @@ videos-msg-modal = Редактор повідомлення сповіщенн�
 videos-msg-label = Установити повідомлення, що надсилається на сповіщення про відео.
 videos-msg-placeholder = { "{" }name{ "}" } = імʼя каналу відео - { "{" }everyone{ "}" } = згадка @everyone - { "{" }here{ "}" } = згадка @here
 videos-msg-changed = Повідомлення сповіщень про відео успішно оновлено!
+# $source will be the source of the video alert.
 videos-count = { $source } сповіщення про відео на цьому сервері
+# $source will be the source of the video alert.
+videos-none = There are no { $source } video alerts in this server.
+# $source will be the source of the video alert.
 videos-added = Цей канал { $source } успішно додано як сповіщення в цьому каналі!
 videos-added-tip = Щоразу, коли буде опубліковано наступне відео, буде надіслано сповіщення. Ви можете оновити налаштування сповіщень про відео командою { $cmd_mention }.
+# $source will be the source of the video alert.
 videos-removed = Сповіщення каналу { $source } успішно вилучено з цього каналу!
 yt-notfound =
     Не вдалося знайти цього користувача YouTube.

@@ -10,7 +10,8 @@ streams-autorefresh = Bildirimi otomatik yenile
 streams-endbehavior = Eylemi sonlandır
 # $source will be the source of the stream alert.
 streams-count = { $source } bildirimleri bu sunucuda yayınlanıyor
-streams-none = Bu sunucuda hiçbir canlı yayın bildirimi ayarlanmamıştır.
+# $source will be the source of the stream alert.
+streams-none = There are no { $source } stream alerts in this server.
 streams-disable-autorefresh = Otomatik bildirim yenilemeyi devre dışı bırak
 streams-enable-autorefresh = Otomatik bildirim yenilemeyi aktifleştir
 streams-edit-msg-btn = Mesajı düzenle
@@ -47,11 +48,16 @@ videos-msg-modal = Video bildirimleri mesaj düzenleyici
 videos-msg-label = Video bildirimleri için gönderilecek mesajı ayarlayın.
 videos-msg-placeholder = { "{" }name{ "}" } = içerik üreticisi adı - { "{" }everyone{ "}" } = @everyone ping - { "{" }here{ "}" } = @here ping
 videos-msg-changed = Video bildirimi başarıyla güncellendi!
+# $source will be the source of the video alert.
 videos-count = { $source } videoların bildirimi bu sunucuda
+# $source will be the source of the video alert.
+videos-none = There are no { $source } video alerts in this server.
+# $source will be the source of the video alert.
 videos-added = { $source } kanalını başarıyla söz konusu kanala eklendi!
 videos-added-tip =
     Bir sonraki video yayınlandığında bir bildirim gönderilecektir.
     { $cmd_mention } komutunu kullanarak video bildirim ayarlarını güncelleyebilirsiniz.
+# $source will be the source of the video alert.
 videos-removed = { $source } kanal bildirimi bu kanaldan başarıyla kaldırıldı!
 yt-notfound =
     Bu YouTube kullanıcısını bulamadı.

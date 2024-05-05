@@ -10,7 +10,8 @@ streams-autorefresh = Автоматическое обновление опов
 streams-endbehavior = По завершению
 # $source will be the source of the stream alert.
 streams-count = { $source } уведомления о начале стримов будут появляться в этом канале
-streams-none = Уведомления о начале стримов не включено на этом сервере.
+# $source will be the source of the stream alert.
+streams-none = There are no { $source } stream alerts in this server.
 streams-disable-autorefresh = Отключить автоматическое обновление уведомлений
 streams-enable-autorefresh = Включить автоматическое обновление уведомлений
 streams-edit-msg-btn = Изменить сообщение
@@ -47,11 +48,16 @@ videos-msg-modal = Редактор сообщений оповещений о �
 videos-msg-label = Установить сообщение, отправляемое при уведомлении о видео.
 videos-msg-placeholder = { "{" }name{ "}" } = имя создателя видео - { "{" }everyone{ "}" } = @everyone ping - { "{" }here{ "}" } = @here ping
 videos-msg-changed = Успешно обновлено уведомление о выходе видео!
+# $source will be the source of the video alert.
 videos-count = { $source } имеет оповещений о видео на этом сервере
+# $source will be the source of the video alert.
+videos-none = There are no { $source } video alerts in this server.
+# $source will be the source of the video alert.
 videos-added = Успешно добавлено этот { $source } канал как уведомление в канале!
 videos-added-tip =
     Уведомление будет отправлено при появлении следующего видео.
     Вы можете обновить настройки оповещений видео с помощью команды { $cmd_mention }.
+# $source will be the source of the video alert.
 videos-removed = Успешно удалено это уведомление { $source } канала из этого канала!
 yt-notfound =
     Не удалось найти этого пользователя YouTube.

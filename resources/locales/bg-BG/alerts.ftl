@@ -10,7 +10,8 @@ streams-autorefresh = Автоматично опресняване на уве�
 streams-endbehavior = Поведение в края
 # $source will be the source of the stream alert.
 streams-count = { $source } уведомления за излъчвания в този сървър
-streams-none = Няма зададени уведомления за излъчвания в този сървър.
+# $source will be the source of the stream alert.
+streams-none = There are no { $source } stream alerts in this server.
 streams-disable-autorefresh = Изключи автоматичното опресняване на уведомления
 streams-enable-autorefresh = Включи автоматичното опресняване на уведомления
 streams-edit-msg-btn = Редактирай съобщение
@@ -45,9 +46,14 @@ videos-msg-modal = Редактор на съобщение относно ув�
 videos-msg-label = Задайте съобщението, изпращано при уведомления за видеа.
 videos-msg-placeholder = { "{" }name{ "}" } = създателят на видеото - { "{" }everyone{ "}" } = @everyone таг - { "{" }here{ "}" } = @here таг
 videos-msg-changed = Успешна промяна на съобщението относно уведомявания за видеа!
+# $source will be the source of the video alert.
 videos-count = { $source } уведомления за видеа в този сървър
+# $source will be the source of the video alert.
+videos-none = There are no { $source } video alerts in this server.
+# $source will be the source of the video alert.
 videos-added = Успешно добавяне на този { $source } канал като уведомление в този канал!
 videos-added-tip = Уведомление ще бъде изпратено когато следващото видео е публикувано. Можете да променяте настройките на уведомления за видеа с командата { $cmd_mention }.
+# $source will be the source of the video alert.
 videos-removed = Успешно премахване на това { $source } уведомление за канал от този сървър!
 yt-notfound = Не бе намерен този YouTube потребител. Опитайте отново, като поставите URL линка на канала в https://commentpicker.com/youtube-channel-id.php и вземете стойността на "Channel ID".
 tiktok-notfound = Couldn't find that TikTok user.

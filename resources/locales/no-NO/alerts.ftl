@@ -10,7 +10,8 @@ streams-autorefresh = Varsler auto-oppdatering
 streams-endbehavior = Slutt oppførsel
 # $source will be the source of the stream alert.
 streams-count = { $source } strømmevarsler i denne serveren
-streams-none = Ingen strømmingsvarsler er satt på denne serveren.
+# $source will be the source of the stream alert.
+streams-none = There are no { $source } stream alerts in this server.
 streams-disable-autorefresh = Deaktiver varsler auto-oppdatering
 streams-enable-autorefresh = Aktiver varsler auto-oppdatering
 streams-edit-msg-btn = Rediger melding
@@ -47,11 +48,16 @@ videos-msg-modal = Meldingsredigering for videovarsler
 videos-msg-label = Angi meldingen som sendes på videovarsler.
 videos-msg-placeholder = { "{" }navn{ "}" } = navnet på videoskaperen - { "{" }everyone{ "}" } = @everyone ping - { "{" }here{ "}" } = @here ping
 videos-msg-changed = Vellykket Videovarslingsmeldingen er oppdatert!
+# $source will be the source of the video alert.
 videos-count = { $source } videovarsler på denne serveren
+# $source will be the source of the video alert.
+videos-none = There are no { $source } video alerts in this server.
+# $source will be the source of the video alert.
 videos-added = Vellykket lagt til { $source } strømmen til et varsel i den kanalen!
 videos-added-tip =
     Et varsel vil bli sendt hver gang neste video legges ut.
     Du kan oppdatere videovarslingsinnstillingene ved å bruke { $cmd_mention } kommandoen.
+# $source will be the source of the video alert.
 videos-removed = Vellykket Fjernet dette { $source } strømvarselet fra denne kanalen!
 yt-notfound =
     Kunne ikke finne den YouTube-brukeren.

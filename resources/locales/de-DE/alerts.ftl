@@ -10,7 +10,8 @@ streams-autorefresh = Automatische Aktualisierung der Benachrichtigungen
 streams-endbehavior = Endverhalten
 # $source will be the source of the stream alert.
 streams-count = { $source } Benachrichtigungen auf diesem Server
-streams-none = Es wurden keine Stream Benachrichtigungen auf diesem Server gesetzt.
+# $source will be the source of the stream alert.
+streams-none = There are no { $source } stream alerts in this server.
 streams-disable-autorefresh = Deaktiviere die automatische Aktualisierung der Benachrichtigungen
 streams-enable-autorefresh = Aktiviere die automatische Aktualisierung der Benachrichtigungen
 streams-edit-msg-btn = Nachricht bearbeiten
@@ -47,11 +48,16 @@ videos-msg-modal = Video Benachrichtigung Editor
 videos-msg-label = Lege eine Nachricht fest, die bei der Videobenachrichtigung gesendet wird.
 videos-msg-placeholder = { "{" }name{ "}" } = der Name des Videoersteller - { "{" }everyone{ "}" } = @everyone ping - { "{" }here{ "}" } = @here ping
 videos-msg-changed = Die Nachricht für die Videobenachrichtigung wurde erfolgreich aktualisiert!
+# $source will be the source of the video alert.
 videos-count = { $source } Videobenachrichtigungen auf diesem Server
+# $source will be the source of the video alert.
+videos-none = There are no { $source } video alerts in this server.
+# $source will be the source of the video alert.
 videos-added = { $source } wurde erfolgreich als eine Benachrichtigung in diesem Kanal hinzugefügt!
 videos-added-tip =
     Eine Benachrichtigung wird das nächste Mal gesendet, wenn ein neues Video hochgeladen wurde.
     Du kannst die Video-Benachrichtigungseinstellungen mit dem Befehl { $cmd_mention } aktualisieren.
+# $source will be the source of the video alert.
 videos-removed = { $source } wurde erfolgreich in diesem Kanal entfernt!
 yt-notfound =
     YouTube Benutzer konnte nicht gefunden werden.

@@ -10,7 +10,8 @@ streams-autorefresh = Awewts auto-wefwesh
 streams-endbehavior = End behaviow
 # $source will be the source of the stream alert.
 streams-count = { $source } stweams awewts in this sewvew
-streams-none = Nyo stweams awewts has been set in this sewvew.
+# $source will be the source of the stream alert.
+streams-none = There are no { $source } stream alerts in this server.
 streams-disable-autorefresh = Disabwe awewts auto-wefwesh
 streams-enable-autorefresh = Enyabwe awewts auto-wefwesh
 streams-edit-msg-btn = Edit mewssage
@@ -47,11 +48,16 @@ videos-msg-modal = Videos awewts message editow
 videos-msg-label = Set the message sent on videos awewts.
 videos-msg-placeholder = { "{" }name{ "}" } = the v-v-video cweatow nyame - { "{" }everyone{ "}" } = @evewyonye ping - { "{" }here{ "}" } = @h-h-hewe ping
 videos-msg-changed = Successfuwwy updated the videos awewts message!!
+# $source will be the source of the video alert.
 videos-count = { $source } videos awewts in this sewvew
+# $source will be the source of the video alert.
+videos-none = There are no { $source } video alerts in this server.
+# $source will be the source of the video alert.
 videos-added = Successfuwwy a-a-added this { $source } channyew as a awewt in that channyew?!!
 videos-added-tip =
     A awewt wiww be sent w-whenyevew the nyext v-v-video is p-posted.
     You c-can update the videos awewts settings u-using { $cmd_mention } command.
+# $source will be the source of the video alert.
 videos-removed = Successfuwwy wemuvd this { $source } channyew awewt fwom this channyew?!!
 yt-notfound =
     Couwdn't find that YouTube usew.
