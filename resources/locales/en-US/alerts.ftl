@@ -11,7 +11,8 @@ streams-autorefresh = Alerts auto-refresh
 streams-endbehavior = End behavior
 # $source will be the source of the stream alert.
 streams-count = { $source } streams alerts in this server
-streams-none = No streams alerts has been set in this server.
+# $source will be the source of the stream alert.
+streams-none = There are no { $source } stream alerts in this server.
 streams-disable-autorefresh = Disable alerts auto-refresh
 streams-enable-autorefresh = Enable alerts auto-refresh
 streams-edit-msg-btn = Edit message
@@ -48,14 +49,20 @@ videos-msg-modal = Videos alerts message editor
 videos-msg-label = Set the message sent on videos alerts.
 videos-msg-placeholder = {"{"}name{"}"} = the video creator name - {"{"}everyone{"}"} = @everyone ping - {"{"}here{"}"} = @here ping
 videos-msg-changed = Successfully updated the videos alerts message!
+# $source will be the source of the video alert.
 videos-count = { $source } videos alerts in this server
+# $source will be the source of the video alert.
+videos-none = There are no { $source } video alerts in this server.
+# $source will be the source of the video alert.
 videos-added = Successfully added this { $source } channel as a alert in that channel!
 videos-added-tip = A alert will be sent whenever the next video is posted.
     You can update the videos alerts settings using { $cmd_mention } command.
+# $source will be the source of the video alert.
 videos-removed = Successfully removed this { $source } channel alert from this channel!
 
 yt-notfound = Couldn't find that YouTube user.
     Try again by pasting the channel URL at https://commentpicker.com/youtube-channel-id.php and take the "Channel ID" value.
+tiktok-notfound = Couldn't find that TikTok user.
 
 # max.length: 100
 help-alerts = Manage alerts in this server.
@@ -67,6 +74,15 @@ help-alerts_videos = Manage videos alerts in this server.
 help-alerts_videos_youtube = Manage a video alert for a YouTube user.
 # max.length: 100
 alerts_videos_youtube-parameter-user_name_or_id-description = The YouTube channel name or ID.
+
+# max.length: 100
+help-alerts_videos_tiktok = Manage a video alert for a TikTok user.
+
+# max.length: 100
+alerts_videos_tiktok-parameter-user_name_or_url-description = The TikTok channel name or URL.
+
+# max.length: 100
+alerts_videos_tiktok-parameter-message_template-long-description = The message template to use for the alert. Use {name} for the channel name.
 
 # max.length: 100
 help-alerts_videos_settings = Manage videos alerts settings.
