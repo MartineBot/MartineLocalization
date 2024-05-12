@@ -11,7 +11,7 @@ streams-endbehavior = Поведінка завершення
 # $source will be the source of the stream alert.
 streams-count = Сповіщення про трансляції { $source } на сервері
 # $source will be the source of the stream alert.
-streams-none = There are no { $source } stream alerts in this server.
+streams-none = Немає сповіщень про етери { $source } на цьому сервері.
 streams-disable-autorefresh = Вимкнути автооновлення сповіщень
 streams-enable-autorefresh = Увімкнути автооновлення сповіщень
 streams-edit-msg-btn = Редагувати
@@ -51,7 +51,7 @@ videos-msg-changed = Повідомлення сповіщень про віде
 # $source will be the source of the video alert.
 videos-count = { $source } сповіщення про відео на цьому сервері
 # $source will be the source of the video alert.
-videos-none = There are no { $source } video alerts in this server.
+videos-none = Немає сповіщень про відео { $source } на цьому сервері.
 # $source will be the source of the video alert.
 videos-added = Цей канал { $source } успішно додано як сповіщення в цьому каналі!
 videos-added-tip = Щоразу, коли буде опубліковано наступне відео, буде надіслано сповіщення. Ви можете оновити налаштування сповіщень про відео командою { $cmd_mention }.
@@ -60,7 +60,7 @@ videos-removed = Сповіщення каналу { $source } успішно в
 yt-notfound =
     Не вдалося знайти цього користувача YouTube.
     Спробуйте ще раз, вставивши URL-адресу каналу на https://commentpicker.com/youtube-channel-id.php і взявши значення «Channel ID».
-tiktok-notfound = Couldn't find that TikTok user.
+tiktok-notfound = Не вдалося знайти цього користувача TikTok.
 # max.length: 100
 help-alerts = Керувати сповіщеннями на цьому сервері.
 # max.length: 100
@@ -70,11 +70,11 @@ help-alerts_videos_youtube = Керувати сповіщенням про ві
 # max.length: 100
 alerts_videos_youtube-parameter-user_name_or_id-description = Назва або ідентифікатор каналу YouTube.
 # max.length: 100
-help-alerts_videos_tiktok = Manage a video alert for a TikTok user.
+help-alerts_videos_tiktok = Керувати сповіщеннями про відео для користувача TikTok.
 # max.length: 100
-alerts_videos_tiktok-parameter-user_name_or_url-description = The TikTok channel name or URL.
+alerts_videos_tiktok-parameter-user_name_or_url-description = Назва або посилання каналу TikTok.
 # max.length: 100
-alerts_videos_tiktok-parameter-message_template-long-description = The message template to use for the alert. Use { name } for the channel name.
+alerts_videos_tiktok-parameter-message_template-long-description = Шаблон повідомлення для сповіщення. Використовуйте { name } для назви каналу.
 # max.length: 100
 help-alerts_videos_settings = Керувати налаштуваннями сповіщень про відео.
 # max.length: 100
