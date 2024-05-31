@@ -34,7 +34,9 @@ giveaway-ended = Giveaway Ended
 giveaway-ended-time = Giveaway ended { $locale_formatted_time }!
 giveaway-no-winners = No one won
 
+# max.length: 45
 giveaway-btn-label = Enter giveaway ({ $entries } entries)
+# max.length: 45
 giveaway-btn-label-ended = { $entries } entries
 giveaway-btn-spammy = This button is on cooldown, please try again later.
 giveaway-btn-removed = Successfully removed your entry from this giveaway! { $emoji }
