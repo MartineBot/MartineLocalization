@@ -37,7 +37,9 @@ giveaway-roll-nothing =
 giveaway-ended = Το giveaway τελείωσε
 giveaway-ended-time = Το giveaway τελείωσε { $locale_formatted_time }!
 giveaway-no-winners = Κανείς δεν κέρδισε
+# max.length: 45
 giveaway-btn-label = Μπείτε στο giveaway ({ $entries } είσοδοι)
+# max.length: 45
 giveaway-btn-label-ended = { $entries } είσοδοι
 giveaway-btn-spammy = Αυτό το κουμπί είναι σε επαναφόρτιση, παρακαλώ προσπαθήστε ξανά αργότερα.
 giveaway-btn-removed = Αφαιρέθηκε επιτυχώς η συμμετοχή σας από αυτό το giveaway! { $emoji }

@@ -8,6 +8,7 @@ profile-nobots = Вибачте, але в ботів немає профілі�
 profile-noexp-author = Ви ще не отримали жодного досвіду! Продовжуйте надсилати більше повідомлень.
 profile-noexp-other = Цей учасник ще не отримав досвіду!
 profile-image-failed = На жаль, під час спроби отримати це зображення профілю сталася помилка. Будь ласка, спробуйте пізніше. { $emoji }
+# max.length: 80
 profile-vote-btn = Проголосуйте за збільшення досвіду на 10%!
 profile-exp-boost-active = 10% прискорення досвіду! (Причина: `{ $reason }`)
 profile-card = Картка профілю { $member }
@@ -157,10 +158,13 @@ lvlconvert-embed-serversettings-exp = **Exp rate:** { $exp_rate }
 
 lvlconvert-embed-roles = Roles rewards
 lvlconvert-embed-roles-none = No roles rewards set.
+# max.length: 45
 lvlconvert-migrate_members_btn-label = Migrate members
+# max.length: 45
 lvlconvert-migrate_server_settings-btn-label = Migrate server settings
 # max.length: 45
 lvlconvert-migration_modal-title = Confirmation modal
+# max.length: 100
 lvlconvert-migration_modal-placeholder = Type YES to confirm
 # max.length: 45
 lvlconvert-migration_modal-members-label = It'll replace ALL of the current members data

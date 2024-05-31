@@ -24,22 +24,35 @@ msg-discord-server = **Сервер Discord:** { $link }
 msg-image = **Зображення:** { $link }
 msg-images = **Зображення:**
 embed-auto-footer = Скористайтеся { $cmd_mention }, щоб змінити затримку або вимкнути її
+# max.length: 100
 command-category-select-placeholder = Вибрати іншу категорію...
+# max.length: 80
 command-category-next-btn = Наступна сторінка
+# max.length: 100
 command-category-next-btn-desc = Є більше категорій, які можуть вас зацікавити!
+# max.length: 80
 command-category-prev-btn = Попередня сторінка
+# max.length: 100
 command-category-prev-btn-desc = Повернутися до попередніх категорій.
+# max.length: 80
 command-open-img-btn = Відкрити зображення
+# max.length: 80
 command-report-img-btn = Скарга на зображення
+# max.length: 80
 command-post-url-btn = URL-адреса
+# max.length: 80
 image-report-title = Martine — Звіт про зображення NSFW
+# max.length: 80
 image-report-label = Номер зображення або URL
+# max.length: 100
 image-report-placeholder = Номер зображення або його URL-адреса...
 image-report-success =
     Ось посилання на звіт:
     { $link }
 image-report-invalid-url = Вибачте, але це недійсне зображення!
+# max.length: 80
 booru-previous-img-btn = Попереднє зображення
+# max.length: 80
 booru-next-img-btn = Наступне зображення
 booru-too-many-tags-nopremium = Вибачте, але ви можете шукати максимум 10 тегів! Придбайте Преміум, щоб збільшити цей ліміт до 30 тегів! { $emoji }
 booru-too-many-tags = Вибачте, але ви не можете шукати більше ніж 30 тегів! { $emoji }
@@ -63,14 +76,18 @@ auto-setup-amount = **Кількість:** { $amount }
 auto-setup-categories = Включені категорії:
 auto-setup-selected-categories = Вибрані категорії:
 auto-setup-footer = Вибравши потрібні категорії, скористайтеся кнопкою «Оновити категорії»
+# max.length: 150
 auto-setup-select-placeholder-disabled = Увімкнути для вибору категорій
 auto-setup-categories-btn = Оновити категорії
 auto-setup-clear-categories-btn = Очистити вибрані категорії
 auto-setup-delay-btn = Змінити затримку
 auto-setup-amount-btn = Змінити кількість
 auto-setup-status-btn = Стан сервера
+# max.length: 150
 auto-setup-select-placeholder = Виберіть категорії
+# max.length: 80
 auto-setup-enable-btn = Увімкнути
+# max.length: 80
 auto-setup-disable-btn = Вимкнути
 auto-setup-same-categories = Будь ласка, виберіть інші категорії, ніж ті, які наразі включені для цього каналу.
 auto-setup-categories-updated = Категорії автопорно успішно оновлено для { $channel } на: { $categories }
@@ -97,16 +114,23 @@ auto-status-categories =
         [one] **Категорія:** { $categories }
        *[other] **Категорії:** { $categories }
     }
+# max.length: 80
 auto-status-getback-btn = Назад до налаштування
+# max.length: 45
 auto-delaymodal-title = Martine — Затримка автопорно
+# max.length: 45
 auto-delaymodal-label = Затримка
+# max.length: 100
 auto-delaymodal-placeholder = Затримка у хвилинах між кожним зображенням автопорно, надісланим у цьому каналі...
 auto-delaymodal-invalid = Схоже, це некоректне значення. Приклад: 5 хвилин
 auto-delaymodal-toolow = Значення має бути більше ніж 2 хвилини.
 auto-delaymodal-toohigh = Значення має бути менше ніж 60 хвилин.
 auto-delaymodal-success = Затримку автопорно успішно оновлено для { $channel } на `{ $delay }`.
+# max.length: 45
 auto-amountmodal-title = Martine — Підказка про кількість зображень автопорна
+# max.length: 45
 auto-amountmodal-label = Кількість
+# max.length: 100
 auto-amountmodal-placeholder = Кількість зображень, які міститиме автопорно повідомлення...
 auto-amountmodal-invalid = Схоже, це некоректне значення. Приклад: 5
 auto-amountmodal-toolow = Значення має бути більше 1.

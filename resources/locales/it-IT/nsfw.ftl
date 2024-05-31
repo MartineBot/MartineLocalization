@@ -24,22 +24,35 @@ msg-discord-server = **Server Discord:** { $link }
 msg-image = **Immagine:** { $link }
 msg-images = **Immagini:**
 embed-auto-footer = Utilizza { $cmd_mention } per modificare o disabilitare il ritardo
+# max.length: 100
 command-category-select-placeholder = Seleziona un'altra categoria dell'immagine...
+# max.length: 80
 command-category-next-btn = Pagina successiva
+# max.length: 100
 command-category-next-btn-desc = Esistono altre categorie che potrebbero interessarti!
+# max.length: 80
 command-category-prev-btn = Pagina precedente
+# max.length: 100
 command-category-prev-btn-desc = Torna alle categorie visualizzate in precedenza.
+# max.length: 80
 command-open-img-btn = Apri Immagine
+# max.length: 80
 command-report-img-btn = Segnala Immagine
+# max.length: 80
 command-post-url-btn = URL del Post
+# max.length: 80
 image-report-title = Martine - Segnalazione Immagine NSFW
+# max.length: 80
 image-report-label = Numero o URL dell'immagine
+# max.length: 100
 image-report-placeholder = Il numero o l'URL dell'immagine...
 image-report-success =
     Ecco il link di segnalazione:
     { $link }
 image-report-invalid-url = Spiacenti, quest'immagine non è valida!
+# max.length: 80
 booru-previous-img-btn = Immagine precedente
+# max.length: 80
 booru-next-img-btn = Immagine successiva
 booru-too-many-tags-nopremium = Spiacenti, puoi cercare un massimo di 10 tag! Altrimenti, puoi ottenere Premium per aumentare il limite fino a 30 tag! { $emoji }
 booru-too-many-tags = Spiacenti, non puoi cercare più di 30 tag! { $emoji }
@@ -63,14 +76,18 @@ auto-setup-amount = **Quantità:** { $amount }
 auto-setup-categories = Categorie abilitate:
 auto-setup-selected-categories = Categorie selezionate:
 auto-setup-footer = Utilizza il pulsante "Aggiorna categorie" dopo aver selezionato quelle di tua scelta
+# max.length: 150
 auto-setup-select-placeholder-disabled = Abilita per selezionare le categorie
 auto-setup-categories-btn = Aggiorna le categorie
 auto-setup-clear-categories-btn = Cancella le categorie selezionate
 auto-setup-delay-btn = Modifica ritardo
 auto-setup-amount-btn = Modifica quantità
 auto-setup-status-btn = Stato su questo server
+# max.length: 150
 auto-setup-select-placeholder = Seleziona le categorie
+# max.length: 80
 auto-setup-enable-btn = Abilita
+# max.length: 80
 auto-setup-disable-btn = Disabilita
 auto-setup-same-categories = Sei pregato di selezionare delle altre categorie, oltre a quelle correntemente abilitate per questo canale.
 auto-setup-categories-updated = Categorie dell'auto-porn aggiornate correttamente per { $channel } in: { $categories }
@@ -95,16 +112,23 @@ auto-status-categories =
         [one] **Categoria:** { $categories }
        *[other] **Categorie:** { $categories }
     }
+# max.length: 80
 auto-status-getback-btn = Torna alla configurazione
+# max.length: 45
 auto-delaymodal-title = Martine - Ritardo Immediato Auto-porn
+# max.length: 45
 auto-delaymodal-label = Ritardo
+# max.length: 100
 auto-delaymodal-placeholder = Il ritardo in minuti tra ogni immagine inviata dell'auto-porn in questo canale...
 auto-delaymodal-invalid = Sembra che questo non sia un valore corretto. Esempio: 5 minuti
 auto-delaymodal-toolow = Il valore dev'essere superiore a 2 minuti.
 auto-delaymodal-toohigh = Il valore dev'essere inferiore a 60 minuti.
 auto-delaymodal-success = Ritardo dell'auto-porn aggiornato correttamente per { $channel } in `{ $delay }`.
+# max.length: 45
 auto-amountmodal-title = Martine - Quantità richiesta di immagini dell'auto-porn
+# max.length: 45
 auto-amountmodal-label = Quantità
+# max.length: 100
 auto-amountmodal-placeholder = La quantità di immagini che un messaggio dell'auto-porn conterrà...
 auto-amountmodal-invalid = Sembra che questo non sia un valore corretto. Esempio: 5
 auto-amountmodal-toolow = Il valore dev'essere maggiore di 1.

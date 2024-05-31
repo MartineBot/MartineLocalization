@@ -8,6 +8,7 @@ profile-nobots = Συγγνώμη, αλλά τα bots δεν έχουν προφ
 profile-noexp-author = Δεν έχετε κερδίσει exp ακόμα! Συνεχίστε να στέλνετε περισσότερα μηνύματα.
 profile-noexp-other = Αυτό το μέλος δεν έχει αποκτήσει ακόμα exp!
 profile-image-failed = Συγγνώμη, κάτι πήγε στραβά κατά την προσπάθεια λήψης αυτής της εικόνας προφίλ. Παρακαλώ δοκιμάστε ξανά αργότερα. { $emoji }
+# max.length: 80
 profile-vote-btn = Upvote για 10% exp boost!
 profile-exp-boost-active = 10% upvote exp boost ενεργό! (Λόγος: `{ $reason }`)
 profile-card = { $member } κάρτα προφίλ
@@ -157,10 +158,13 @@ lvlconvert-embed-serversettings-exp = **Exp rate:** { $exp_rate }
 
 lvlconvert-embed-roles = Roles rewards
 lvlconvert-embed-roles-none = No roles rewards set.
+# max.length: 45
 lvlconvert-migrate_members_btn-label = Migrate members
+# max.length: 45
 lvlconvert-migrate_server_settings-btn-label = Migrate server settings
 # max.length: 45
 lvlconvert-migration_modal-title = Confirmation modal
+# max.length: 100
 lvlconvert-migration_modal-placeholder = Type YES to confirm
 # max.length: 45
 lvlconvert-migration_modal-members-label = It'll replace ALL of the current members data

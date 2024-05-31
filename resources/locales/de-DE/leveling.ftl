@@ -8,6 +8,7 @@ profile-nobots = Entschuldigung, aber Bots haben keine Profile! { $emoji }
 profile-noexp-author = Du hast noch kein XP erhalten! Sende Nachrichten, um XP zu erhalten.
 profile-noexp-other = Der Member hat noch kein XP erhalten!
 profile-image-failed = Etwas ist schief gelaufen, beim Versuch, die Level Rangliste zu erhalten. Bitte versuche es später nochmal. { $emoji }
+# max.length: 80
 profile-vote-btn = Vote für einen 10% XP Boost!
 profile-exp-boost-active = 10 % XP Boost ist aktiv! (Grund: `{ $reason }`)
 profile-card = { $member } profile card
@@ -157,10 +158,13 @@ lvlconvert-embed-serversettings-exp = **Exp rate:** { $exp_rate }
 
 lvlconvert-embed-roles = Roles rewards
 lvlconvert-embed-roles-none = No roles rewards set.
+# max.length: 45
 lvlconvert-migrate_members_btn-label = Migrate members
+# max.length: 45
 lvlconvert-migrate_server_settings-btn-label = Migrate server settings
 # max.length: 45
 lvlconvert-migration_modal-title = Confirmation modal
+# max.length: 100
 lvlconvert-migration_modal-placeholder = Type YES to confirm
 # max.length: 45
 lvlconvert-migration_modal-members-label = It'll replace ALL of the current members data

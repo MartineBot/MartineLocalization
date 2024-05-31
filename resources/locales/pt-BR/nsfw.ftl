@@ -24,22 +24,35 @@ msg-discord-server = **Servidor do Discord:** { $link }
 msg-image = **Imagem:** { $link }
 msg-images = **Imagens:**
 embed-auto-footer = Use { $cmd_mention } para mudar o atraso ou desativar
+# max.length: 100
 command-category-select-placeholder = Selecione outra categoria...
+# max.length: 80
 command-category-next-btn = Próxima página
+# max.length: 100
 command-category-next-btn-desc = Há mais categorias que possam te interessar!
+# max.length: 80
 command-category-prev-btn = Página anterior
+# max.length: 100
 command-category-prev-btn-desc = Volte para as categorias anteriores.
+# max.length: 80
 command-open-img-btn = Abrir a imagem
+# max.length: 80
 command-report-img-btn = Denunciar imagem
+# max.length: 80
 command-post-url-btn = URL da postagem
+# max.length: 80
 image-report-title = Martine - relatório de imagem NSFW
+# max.length: 80
 image-report-label = Código da imagem ou URL
+# max.length: 100
 image-report-placeholder = O código da imagem ou seu URL...
 image-report-success =
     Aqui está o link do relatório:
     { $link }
 image-report-invalid-url = Desculpe, mas está não é uma imagem válida!
+# max.length: 80
 booru-previous-img-btn = Imagem anterior
+# max.length: 80
 booru-next-img-btn = Próxima imagem
 booru-too-many-tags-nopremium = Desculpe, mas você pode procurar por no máximo 10 tags! Obtenha Premium para aumentar esse limite para até 30 tags! { $emoji }
 booru-too-many-tags = Desculpe, mas você não pode pesquisar por mais de 30 tags! { $emoji }
@@ -63,14 +76,18 @@ auto-setup-amount = **Valor:** { $amount }
 auto-setup-categories = Categorias habilitadas:
 auto-setup-selected-categories = Categorias selecionadas:
 auto-setup-footer = Use o botão "Update categories" após selecionar as categorias de sua escolha
+# max.length: 150
 auto-setup-select-placeholder-disabled = Habilitar para selecionar categorias
 auto-setup-categories-btn = Atualizar categorias
 auto-setup-clear-categories-btn = Apagar categorias selecionadas
 auto-setup-delay-btn = Alterar atraso
 auto-setup-amount-btn = Alterar valor
 auto-setup-status-btn = Status nesse servidor
+# max.length: 150
 auto-setup-select-placeholder = Selecione as categorias
+# max.length: 80
 auto-setup-enable-btn = Habilitar
+# max.length: 80
 auto-setup-disable-btn = Desabilitar
 auto-setup-same-categories = Por favor, selecione outras categorias além das atuais habilitadas para este canal.
 auto-setup-categories-updated = Categorias autoporn atualizadas com sucesso para { $channel } em: { $categories }
@@ -97,16 +114,23 @@ auto-status-categories =
         [one] **Categoria:** { $categories }
        *[other] **Categorias:** { $categories }
     }
+# max.length: 80
 auto-status-getback-btn = Volte para a configuração
+# max.length: 45
 auto-delaymodal-title = Martine - Prompt de delay Autoporn
+# max.length: 45
 auto-delaymodal-label = Delay
+# max.length: 100
 auto-delaymodal-placeholder = O delay em minutos entre cada imagem autoporn enviada neste canal...
 auto-delaymodal-invalid = Parece que este não é um valor correto. Exemplo: 5 minutos
 auto-delaymodal-toolow = O valor deve ser superior a 2 minutos.
 auto-delaymodal-toohigh = O valor deve ser inferior a 60 minutos.
 auto-delaymodal-success = Delay autoporn atualizado com sucesso para { $channel } em { $delay }`.
+# max.length: 45
 auto-amountmodal-title = Martine - Prompt de quantidade de imagens Autoporn
+# max.length: 45
 auto-amountmodal-label = Quantidade
+# max.length: 100
 auto-amountmodal-placeholder = A quantidade de imagens que uma mensagem de autoporn irá conter...
 auto-amountmodal-invalid = Parece que este não é um valor correto. Exemplo: 5
 auto-amountmodal-toolow = O valor deve ser superior a 1.

@@ -37,7 +37,9 @@ giveaway-roll-nothing =
 giveaway-ended = Роздачу завершено
 giveaway-ended-time = Роздачу завершено { $locale_formatted_time }!
 giveaway-no-winners = Ніхто не виграв
+# max.length: 45
 giveaway-btn-label = Участь у розіграші (заявок: { $entries })
+# max.length: 45
 giveaway-btn-label-ended = заявок: { $entries }
 giveaway-btn-spammy = Ця кнопка відновлюється, спробуйте пізніше.
 giveaway-btn-removed = Вашу заявку успішно видалено з цієї роздачі! { $emoji }

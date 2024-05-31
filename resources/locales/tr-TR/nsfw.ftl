@@ -24,22 +24,35 @@ msg-discord-server = **Discord Sunucusu:** { $link }
 msg-image = **Resim:** { $link }
 msg-images = **Resimler:**
 embed-auto-footer = Gecikmeyi değiştirmek veya devre dışı bırakmak için { $cmd_mention } kullanın
+# max.length: 100
 command-category-select-placeholder = Başka bir resim kategorisi seç...
+# max.length: 80
 command-category-next-btn = Sonraki sayfa
+# max.length: 100
 command-category-next-btn-desc = İlginizi çekebilecek daha fazla kategori var!
+# max.length: 80
 command-category-prev-btn = Önceki sayfa
+# max.length: 100
 command-category-prev-btn-desc = Daha önce görüntülenen kategorilere geri dön.
+# max.length: 80
 command-open-img-btn = Resmi Aç
+# max.length: 80
 command-report-img-btn = Resmi Şikayet Et
+# max.length: 80
 command-post-url-btn = URL gönder
+# max.length: 80
 image-report-title = Martine - NSFW Görüntü Şikayeti
+# max.length: 80
 image-report-label = Resim numarası veya URL
+# max.length: 100
 image-report-placeholder = Resim numarası veya URL...
 image-report-success =
     İşte şikayet etme bağlantısı:
     { $link }
 image-report-invalid-url = Üzgünüm, ama bu geçerli bir resim değil!
+# max.length: 80
 booru-previous-img-btn = Önceki görüntü
+# max.length: 80
 booru-next-img-btn = Sonraki görüntü
 booru-too-many-tags-nopremium = Üzgünüz, ancak en fazla 10 etiket için arama yapabilirsiniz! Veya bu sınırı 30 etikete kadar artırmak için Premium alın! { $emoji }
 booru-too-many-tags = Üzgünüz, ancak 30'dan fazla etiket için arama yapamazsınız! { $emoji }
@@ -63,14 +76,18 @@ auto-setup-amount = **Miktar:** { $amount }
 auto-setup-categories = Aktif kategoriler:
 auto-setup-selected-categories = Seçilen kategoriler:
 auto-setup-footer = İstediğiniz kategorileri seçtikten sonra "Kategorileri güncelle" tuşunu kullanın
+# max.length: 150
 auto-setup-select-placeholder-disabled = Kategori seçmeyi etkinleştirin
 auto-setup-categories-btn = Kategorileri Güncelle
 auto-setup-clear-categories-btn = Seçili kategorileri temizle
 auto-setup-delay-btn = Gecikmeyi değiştir
 auto-setup-amount-btn = Miktarı değiştir
 auto-setup-status-btn = Bu sunucudaki durum
+# max.length: 150
 auto-setup-select-placeholder = Kategorileri seçin
+# max.length: 80
 auto-setup-enable-btn = Etkinleştir
+# max.length: 80
 auto-setup-disable-btn = Devre Dışı Bırak
 auto-setup-same-categories = Lütfen bu kanal için şu anda etkin olanlardan başka kategoriler seçin.
 auto-setup-categories-updated = { $channel } için autoporn kategorileri başarıyla güncellendi: { $categories }
@@ -97,16 +114,23 @@ auto-status-categories =
         [one] **Kategori:** { $categories }
        *[other] **Kategoriler:** { $categories }
     }
+# max.length: 80
 auto-status-getback-btn = Kuruluma geri dönün
+# max.length: 45
 auto-delaymodal-title = Martine - Autoporn gecikme istemi
+# max.length: 45
 auto-delaymodal-label = Gecikme
+# max.length: 100
 auto-delaymodal-placeholder = Bu kanalda gönderilen her otomatik porno görüntüsü arasındaki gecikme (dakika cinsinden)...
 auto-delaymodal-invalid = Görünüşe göre bu doğru bir değer değil. Örnek: 5 dakika
 auto-delaymodal-toolow = Değer 2 dakikadan fazla olmalıdır.
 auto-delaymodal-toohigh = Değer 60 dakikadan az olmalıdır.
 auto-delaymodal-success = { $channel } için autoporn gecikmesi başarıyla `{ $delay }` olarak güncellendi.
+# max.length: 45
 auto-amountmodal-title = Martine - Autoporn görüntü miktarı istemi
+# max.length: 45
 auto-amountmodal-label = Miktar
+# max.length: 100
 auto-amountmodal-placeholder = Bir otomatik porno mesajının içereceği görüntü miktarı...
 auto-amountmodal-invalid = Görünüşe göre bu doğru bir değer değil. Örnek: 5
 auto-amountmodal-toolow = Değer 1'den fazla olmalıdır.

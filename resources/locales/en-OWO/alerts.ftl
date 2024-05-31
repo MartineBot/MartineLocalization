@@ -14,7 +14,9 @@ streams-count = { $source } stweams awewts in this sewvew
 streams-none = There are no { $source } stream alerts in this server.
 streams-disable-autorefresh = Disabwe awewts auto-wefwesh
 streams-enable-autorefresh = Enyabwe awewts auto-wefwesh
+# max.length: 80
 streams-edit-msg-btn = Edit mewssage
+# max.length: 80
 streams-autorefresh-btn = Auto-wefwesh
 streams-autorefresh-enabled = Awwight?!! Stweam awewts messages wiww nyow auto wefwesh a-a-aftew 15 minyutes.
 streams-autorefresh-disabled = Awwight?!! Stweam awewts message wiww nyo wongew auto wefwesh.
@@ -27,8 +29,11 @@ streams-newmsg = Send nyew message
 streams-newmsg-desc = This wiww send a nyew message with some infowmations about the stweam.
 streams-same-endbehavior = Pwease sewect anyothew behaviow than the onye cuwwentwy sewected.
 streams-endbehavior-changed = Successfuwwy updated the stweam end behaviow.
+# max.length: 45
 streams-msg-modal = Stweams awewts message editow
+# max.length: 45
 streams-msg-label = Set the message sent on a stweam stawt awewt.
+# max.length: 100
 streams-msg-placeholder = { "{" }streamer{ "}" } = the stweamew nyame - { "{" }everyone{ "}" } = @evewyonye ping - { "{" }here{ "}" } = @hewe ping
 streams-msg-changed = Successfuwwy updated the stweam stawt awewt message!!
 # $source will be the source of the stream alert.
@@ -43,6 +48,7 @@ streams-twitch-notfound = Couwdn't find that Twitch usew.
 streams-kick-notfound = Couldn't find that Kick user.
 videos-settings = videos awewts settings
 videos-message = Mewssage
+# max.length: 80
 videos-settings-msg-btn = Edit mewssage
 videos-msg-modal = Videos awewts message editow
 videos-msg-label = Set the message sent on videos awewts.

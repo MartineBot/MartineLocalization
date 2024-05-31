@@ -24,22 +24,35 @@ msg-discord-server = **Discord Διακομιστής:** { $link }
 msg-image = **Εικόνα:** { $link }
 msg-images = **Εικόνες:**
 embed-auto-footer = Χρησιμοποιήστε το { $cmd_mention } για να αλλάξετε την καθυστέρηση ή να την απενεργοποιήσετε
+# max.length: 100
 command-category-select-placeholder = Επιλέξτε άλλη κατηγορία εικόνων...
+# max.length: 80
 command-category-next-btn = Επόμενη σελίδα
+# max.length: 100
 command-category-next-btn-desc = Υπάρχουν κι άλλες κατηγορίες που μπορεί να σας ενδιαφέρουν!
+# max.length: 80
 command-category-prev-btn = Προηγούμενη σελίδα
+# max.length: 100
 command-category-prev-btn-desc = Επιστροφή σε προηγούμενες κατηγορίες.
+# max.length: 80
 command-open-img-btn = Άνοιγμα εικόνας
+# max.length: 80
 command-report-img-btn = Αναφορά εικόνας
+# max.length: 80
 command-post-url-btn = Δημοσίευση URL
+# max.length: 80
 image-report-title = Martine - Αναφορά εικόνας NSFW
+# max.length: 80
 image-report-label = Αριθμός εικόνας ή URL
+# max.length: 100
 image-report-placeholder = Ο αριθμός της εικόνας ή η διεύθυνση URL...
 image-report-success =
     Εδώ είναι ο σύνδεσμος αναφοράς:
     { $link }
 image-report-invalid-url = Συγγνώμη, αλλά αυτή η εικόνα δεν είναι έγκυρη!
+# max.length: 80
 booru-previous-img-btn = Προηγούμενη εικόνα
+# max.length: 80
 booru-next-img-btn = Επόμενη εικόνα
 booru-too-many-tags-nopremium = Συγγνώμη, αλλά μπορείτε να αναζητήσετε το πολύ 10 ετικέτες! Ή αποκτήστε Premium για να αυξήσετε το όριο αυτό σε 30 ετικέτες! { $emoji }
 booru-too-many-tags = Συγγνώμη, αλλά δεν μπορείτε να αναζητήσετε περισσότερες από 30 ετικέτες! { $emoji }
@@ -63,14 +76,18 @@ auto-setup-amount = **Ποσότητά:** { $amount }
 auto-setup-categories = Ενεργοποιημένες κατηγορίες:
 auto-setup-selected-categories = Επιλεγμένες κατηγορίες:
 auto-setup-footer = Χρησιμοποιήστε το κουμπί "Ενημέρωση κατηγοριών" αφού επιλέξετε τις κατηγορίες της επιλογής σας
+# max.length: 150
 auto-setup-select-placeholder-disabled = Ενεργοποιήστε για να επιλέξετε κατηγορίες
 auto-setup-categories-btn = Ενημέρωση κατηγοριών
 auto-setup-clear-categories-btn = Εκκαθάριση επιλεγμένων κατηγοριών
 auto-setup-delay-btn = Αλλαγή καθυστέρησης
 auto-setup-amount-btn = Αλλαγή ποσότητας
 auto-setup-status-btn = Κατάσταση σε αυτόν τον διακομιστή
+# max.length: 150
 auto-setup-select-placeholder = Επιλογή κατηγοριών
+# max.length: 80
 auto-setup-enable-btn = Ενεργοποίηση
+# max.length: 80
 auto-setup-disable-btn = Απενεργοποίηση
 auto-setup-same-categories = Παρακαλούμε επιλέξτε άλλες κατηγορίες από αυτές που είναι είδη ενεργοποιημένες για αυτό το κανάλι.
 auto-setup-categories-updated = Επιτυχής ενημέρωση κατηγοριών autoporn για { $channel } σε: { $categories }
@@ -97,16 +114,23 @@ auto-status-categories =
         [one] **Κατηγορία:** { $categories }
        *[other] **Κατηγορίες:** { $categories }
     }
+# max.length: 80
 auto-status-getback-btn = Επιστρέψτε στη ρύθμιση
+# max.length: 45
 auto-delaymodal-title = Martine - Προτροπή καθυστέρησης autoporn
+# max.length: 45
 auto-delaymodal-label = Καθυστέρηση
+# max.length: 100
 auto-delaymodal-placeholder = Η καθυστέρηση σε λεπτά μεταξύ κάθε autoporn εικόνα που αποστέλλεται σε αυτό το κανάλι...
 auto-delaymodal-invalid = Φαίνεται ότι αυτή η τιμή δεν είναι σωστή. Παράδειγμα: 5 λεπτά
 auto-delaymodal-toolow = Η τιμή πρέπει να είναι μεγαλύτερη από 2 λεπτά.
 auto-delaymodal-toohigh = Η τιμή πρέπει να είναι μικρότερη από 60 λεπτά.
 auto-delaymodal-success = Ενημερώθηκε επιτυχώς η καθυστέρηση του autoporn για το { $channel } σε `{ $delay }`.
+# max.length: 45
 auto-amountmodal-title = Martine - Αυτόματη προτροπή ποσότητας εικόνων
+# max.length: 45
 auto-amountmodal-label = Ποσότητα
+# max.length: 100
 auto-amountmodal-placeholder = Η ποσότητα των εικόνων που θα περιέχει ένα μήνυμα autoporn...
 auto-amountmodal-invalid = Φαίνεται ότι αυτή η τιμή δεν είναι σωστή. Παράδειγμα: 5
 auto-amountmodal-toolow = Η τιμή πρέπει να είναι μεγαλύτερη του 1.

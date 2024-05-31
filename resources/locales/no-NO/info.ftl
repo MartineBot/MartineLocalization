@@ -10,10 +10,15 @@ shelp-user-cmds = Bruker kommandoer:
 slash-help-msg-cmds = Melding kommandoer:
 slash-help-extra-links = Ekstra linker:
 # Suggestions form modal
+# max.length: 45
 mart-sugg-form = Martine forslagsskjema
+# max.length: 45
 mart-sugg-short = Kort beskrivelse
+# max.length: 100
 mart-sugg-short-placeholder = En kort beskrivelse av forslaget ditt...
+# max.length: 45
 mart-sugg-long = Lang beskrivelse
+# max.length: 100
 mart-sugg-long-placeholder = Forklar i detaljer hva forslaget ditt består av...
 mart-sugg-fail = Oops! Kunne ikke behandle forslaget. Prøv igjen senere.
 mart-sugg-thanks = Takk for ditt forslag!
@@ -52,12 +57,18 @@ si-bot-join-date = ble med denne serveren på
 si-server-id = Server ID
 si-shard-id = Bot shard ID
 si-users-badges = Brukere merker inn
+# max.length: 80
 si-si-btn = Server informasjon
+# max.length: 80
 si-badges-btn = Se medlemmerker
+# max.length: 80
 si-assets-btn = Se serverressurser
 si-icon = Ikon
+# max.length: 80
 si-banner-btn = Banner
+# max.length: 80
 si-invite-bg-btn = Invitasjons bakgrunn
+# max.length: 80
 si-back-si-btn = Gå tilbake til server informasjon
 # userinfo command
 # max.length: 100
@@ -105,7 +116,9 @@ ui-no-banner = Ingen banner satt.
 ui-user-avatar = { $user } bruker profilbilde
 ui-server-avatar = { $user } server profilbilde
 ui-no-server-avatar = Ingen server profilebilde satt.
+# max.length: 80
 ui-back-btn = Gå tilbake til brukerinformasjon
+# max.length: 80
 ui-perms-btn = Se medlemstillatelser
 # channelinfo command
 # max.length: 100

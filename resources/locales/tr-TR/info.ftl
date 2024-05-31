@@ -10,10 +10,15 @@ shelp-user-cmds = Kullanıcı komutları:
 slash-help-msg-cmds = Mesaj Komutları:
 slash-help-extra-links = Ekstra linkler:
 # Suggestions form modal
+# max.length: 45
 mart-sugg-form = Martine öneri formu
+# max.length: 45
 mart-sugg-short = Kısa açıklama
+# max.length: 100
 mart-sugg-short-placeholder = Önerinizin kısa bir açıklaması...
+# max.length: 45
 mart-sugg-long = Uzun açıklama
+# max.length: 100
 mart-sugg-long-placeholder = Önerinizin neleri içerdiğini ayrıntılı olarak açıklayın...
 mart-sugg-fail = Eyvah! Öneriniz işlenemedi. Lütfen daha sonra tekrar deneyiniz.
 mart-sugg-thanks = Öneriniz için teşekkürler!
@@ -52,12 +57,18 @@ si-bot-join-date = bu sunucuya şu tarihte katıldı
 si-server-id = Sunucu ID
 si-shard-id = Bot Shard ID
 si-users-badges = Kullanıcı rozetleri
+# max.length: 80
 si-si-btn = Sunucu Bilgileri
+# max.length: 80
 si-badges-btn = Üye rozetlerini görüntüle
+# max.length: 80
 si-assets-btn = Sunucu Özelliklerini Görüntüle
 si-icon = İkon
+# max.length: 80
 si-banner-btn = Afiş
+# max.length: 80
 si-invite-bg-btn = Davet Arka Planı
+# max.length: 80
 si-back-si-btn = Sunucu bilgilerine geri dön
 # userinfo command
 # max.length: 100
@@ -105,7 +116,9 @@ ui-no-banner = Sunucu afişi yok.
 ui-user-avatar = { $user } Kullanıcı Avatarı
 ui-server-avatar = { $user } Sunucu Avatarı
 ui-no-server-avatar = Sunucu avatarı yok.
+# max.length: 80
 ui-back-btn = Üye bilgilerine geri dön
+# max.length: 80
 ui-perms-btn = Üye yetkilerini görüntüle
 # channelinfo command
 # max.length: 100

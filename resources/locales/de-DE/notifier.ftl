@@ -1,4 +1,5 @@
 stream-default-msg = { $streamer_name } ist live!
+# max.length: 80
 stream-btn = Stream öffnen
 untitled-broadcast = Unbenannte Übertragung
 viewer-count = Zuschauerzahl

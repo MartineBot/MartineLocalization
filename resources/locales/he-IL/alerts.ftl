@@ -14,7 +14,9 @@ streams-count = { $source } כרגע משדר בשידור חי בשרת זה
 streams-none = There are no { $source } stream alerts in this server.
 streams-disable-autorefresh = בטל חידוש אוטומטי להתראות
 streams-enable-autorefresh = הפעל חידוש אוטומטי להתראות
+# max.length: 80
 streams-edit-msg-btn = ערוך הודעה
+# max.length: 80
 streams-autorefresh-btn = חידוש אוטומטי
 streams-autorefresh-enabled = בסדר! ההתראות לשידורים החיים יחודשו כל 15 דקות.
 streams-autorefresh-disabled = אוקי! ההתראות לשידורים החיים לא יחודשו יותר.
@@ -27,8 +29,11 @@ streams-newmsg = שלח הודעה חדשה
 streams-newmsg-desc = זה ישלח הודעה חדשה עם מידע לגבי השידור החי.
 streams-same-endbehavior = נא לבחור התנהגות שונה מזו שנבחרה.
 streams-endbehavior-changed = ההתנהגות לסיום השידור החי עודכנה בהצלחה.
+# max.length: 45
 streams-msg-modal = עורך הודעות לשידורים חיים
+# max.length: 45
 streams-msg-label = הגדר את ההודעה שתשלח כששידור חי יתחיל.
+# max.length: 100
 streams-msg-placeholder = { "{" }streamer{ "}" } = the streamer name - { "{" }everyone{ "}" } = @everyone ping - { "{" }here{ "}" } = @here ping
 streams-msg-changed = Successfully updated the stream start alert message!
 # $source will be the source of the stream alert.
@@ -43,6 +48,7 @@ streams-twitch-notfound = Couldn't find that Twitch user.
 streams-kick-notfound = Couldn't find that Kick user.
 videos-settings = videos alerts settings
 videos-message = הודעה
+# max.length: 80
 videos-settings-msg-btn = ערוך הודעה
 videos-msg-modal = Videos alerts message editor
 videos-msg-label = Set the message sent on videos alerts.

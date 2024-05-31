@@ -14,7 +14,9 @@ streams-count = { $source } strømmevarsler i denne serveren
 streams-none = There are no { $source } stream alerts in this server.
 streams-disable-autorefresh = Deaktiver varsler auto-oppdatering
 streams-enable-autorefresh = Aktiver varsler auto-oppdatering
+# max.length: 80
 streams-edit-msg-btn = Rediger melding
+# max.length: 80
 streams-autorefresh-btn = Auto-oppdatering
 streams-autorefresh-enabled = Ok! Strømvarslingsmeldinger vil nå automatisk oppdateres etter 15 minutter.
 streams-autorefresh-disabled = Ok! Strømvarslingsmelding vil ikke lenger oppdateres automatisk.
@@ -27,8 +29,11 @@ streams-newmsg = Send ny melding
 streams-newmsg-desc = Dette vil sende en ny melding med litt informasjon om strømmen.
 streams-same-endbehavior = Vennligst velg en annen oppførsel enn den som er valgt for øyeblikket.
 streams-endbehavior-changed = Oppdateringen av strømsluttatferden er vellykket.
+# max.length: 45
 streams-msg-modal = Strømmer varsler melding redigering
+# max.length: 45
 streams-msg-label = Angi meldingen som sendes på et strømstartvarsel.
+# max.length: 100
 streams-msg-placeholder = { "{" }streamer{ "}" } = Navnet på streameren - { "{" }everyone{ "}" } = @everyone ping - { "{" }here{ "}" } = @here ping
 streams-msg-changed = Vellykket Oppdaterte varselmeldingen for strømstart!
 # $source will be the source of the stream alert.
@@ -43,6 +48,7 @@ streams-twitch-notfound = Kunne ikke finne den Twitch-brukeren.
 streams-kick-notfound = Kunne ikke finne den kick brukeren.
 videos-settings = innstillinger for videoer varsler
 videos-message = Melding
+# max.length: 80
 videos-settings-msg-btn = Rediger melding
 videos-msg-modal = Meldingsredigering for videovarsler
 videos-msg-label = Angi meldingen som sendes på videovarsler.

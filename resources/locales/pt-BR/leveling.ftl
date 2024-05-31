@@ -8,6 +8,7 @@ profile-nobots = Desculpe, mas bots não possuem perfis! { $emoji }
 profile-noexp-author = Você ainda não ganhou nenhum ponto de experiência! Continue mandando mensagens.
 profile-noexp-other = Este membro ainda não ganhou nenhum ponto de experiência!
 profile-image-failed = Desculpe, algo deu errado enquanto tentava recuperar essa imagem de perfil. Por favor, tente mais tarde. { $emoji }
+# max.length: 80
 profile-vote-btn = De um upvote para um bônus de 10% em pontos de experiência!
 profile-exp-boost-active = Bônus de 10% de experiência ativado! (Razão: `{ $reason }`)
 profile-card = { $member } cartão de perfil
@@ -157,10 +158,13 @@ lvlconvert-embed-serversettings-exp = **Exp rate:** { $exp_rate }
 
 lvlconvert-embed-roles = Roles rewards
 lvlconvert-embed-roles-none = No roles rewards set.
+# max.length: 45
 lvlconvert-migrate_members_btn-label = Migrate members
+# max.length: 45
 lvlconvert-migrate_server_settings-btn-label = Migrate server settings
 # max.length: 45
 lvlconvert-migration_modal-title = Confirmation modal
+# max.length: 100
 lvlconvert-migration_modal-placeholder = Type YES to confirm
 # max.length: 45
 lvlconvert-migration_modal-members-label = It'll replace ALL of the current members data

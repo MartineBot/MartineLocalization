@@ -10,10 +10,15 @@ shelp-user-cmds = User commands:
 slash-help-msg-cmds = Message commands:
 slash-help-extra-links = Extra links:
 # Suggestions form modal
+# max.length: 45
 mart-sugg-form = Martine suggestions form
+# max.length: 45
 mart-sugg-short = Short description
+# max.length: 100
 mart-sugg-short-placeholder = A brief description of your suggestion...
+# max.length: 45
 mart-sugg-long = Long description
+# max.length: 100
 mart-sugg-long-placeholder = Explain in details what your suggestion consists of...
 mart-sugg-fail = Oops! Failed to process your suggestion. Please try again later.
 mart-sugg-thanks = Thank you for your suggestion!
@@ -52,12 +57,18 @@ si-bot-join-date = joined this server on
 si-server-id = Server ID
 si-shard-id = Bot shard ID
 si-users-badges = Users badges in
+# max.length: 80
 si-si-btn = Server info
+# max.length: 80
 si-badges-btn = View members badges
+# max.length: 80
 si-assets-btn = View server assets
 si-icon = Icon
+# max.length: 80
 si-banner-btn = Banner
+# max.length: 80
 si-invite-bg-btn = Invite Background
+# max.length: 80
 si-back-si-btn = Get back to server info
 # userinfo command
 # max.length: 100
@@ -105,7 +116,9 @@ ui-no-banner = No banner set.
 ui-user-avatar = { $user } user avatar
 ui-server-avatar = { $user } server avatar
 ui-no-server-avatar = No server avatar set.
+# max.length: 80
 ui-back-btn = Get back to user info
+# max.length: 80
 ui-perms-btn = View member permissions
 # channelinfo command
 # max.length: 100

@@ -14,7 +14,9 @@ streams-count = { $source } Benachrichtigungen auf diesem Server
 streams-none = There are no { $source } stream alerts in this server.
 streams-disable-autorefresh = Deaktiviere die automatische Aktualisierung der Benachrichtigungen
 streams-enable-autorefresh = Aktiviere die automatische Aktualisierung der Benachrichtigungen
+# max.length: 80
 streams-edit-msg-btn = Nachricht bearbeiten
+# max.length: 80
 streams-autorefresh-btn = Automatische Aktualisierung
 streams-autorefresh-enabled = So! Stream Benachrichtigungen werden jetzt nach 15 Minuten automatisch aktualisiert.
 streams-autorefresh-disabled = So! Stream Benachrichtigungen werden jetzt nicht mehr automatisch aktualisiert.
@@ -27,8 +29,11 @@ streams-newmsg = Neue Nachricht senden
 streams-newmsg-desc = Dies wird eine neue Streambenachrichtigung mit einigen Informationen zum Stream senden.
 streams-same-endbehavior = Bitte wähle ein anderes Verhalten als das aktuell gewählte aus.
 streams-endbehavior-changed = Das Verhalten des Streams wurde erfolgreich aktualisiert.
+# max.length: 45
 streams-msg-modal = Streambenachrichtigungs Editor
+# max.length: 45
 streams-msg-label = Lege eine Nachricht fest, die beim Start des Streams gesendet wird.
+# max.length: 100
 streams-msg-placeholder = { "{" }streamer{ "}" } = der Streamername - { "{" }everyone{ "}" } = @everyone ping - { "{" }here{ "}" } = @here ping
 streams-msg-changed = Die Startnachricht für den Stream wurde erfolgreich aktualisiert!
 # $source will be the source of the stream alert.
@@ -43,6 +48,7 @@ streams-twitch-notfound = Konnte den Twitch Benutzer nicht finden.
 streams-kick-notfound = Konnte den Kick-Benutzer nicht finden.
 videos-settings = Video Benachrichtigungen Einstellungen
 videos-message = Nachricht
+# max.length: 80
 videos-settings-msg-btn = Nachricht bearbeiten
 videos-msg-modal = Video Benachrichtigung Editor
 videos-msg-label = Lege eine Nachricht fest, die bei der Videobenachrichtigung gesendet wird.

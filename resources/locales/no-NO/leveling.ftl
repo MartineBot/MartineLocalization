@@ -8,6 +8,7 @@ profile-nobots = Beklager, men botten har ikke profiler! { $emoji }
 profile-noexp-author = Du har ikke tjent noen exp ennå! Fortsett å sende flere meldinger.
 profile-noexp-other = Dette medlemmet har ikke skaffet noen exp enda!
 profile-image-failed = Beklager, noe gikk galt under forsøket på å få profilbildet. Prøv igjen senere. { $emoji }
+# max.length: 80
 profile-vote-btn = Stem opp for 10% exp boost!
 profile-exp-boost-active = 10% opp stemme exp boost aktivert! (Årsak: `{ $reason }`)
 profile-card = { $member } profilkort
@@ -157,10 +158,13 @@ lvlconvert-embed-serversettings-exp = **Exp rate:** { $exp_rate }
 
 lvlconvert-embed-roles = Roles rewards
 lvlconvert-embed-roles-none = No roles rewards set.
+# max.length: 45
 lvlconvert-migrate_members_btn-label = Migrate members
+# max.length: 45
 lvlconvert-migrate_server_settings-btn-label = Migrate server settings
 # max.length: 45
 lvlconvert-migration_modal-title = Confirmation modal
+# max.length: 100
 lvlconvert-migration_modal-placeholder = Type YES to confirm
 # max.length: 45
 lvlconvert-migration_modal-members-label = It'll replace ALL of the current members data

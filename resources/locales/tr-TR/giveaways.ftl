@@ -37,7 +37,9 @@ giveaway-roll-nothing =
 giveaway-ended = Çekiliş Sona Erdi
 giveaway-ended-time = Çekiliş bitti! { $locale_formatted_time }!
 giveaway-no-winners = Kimse kazanamadı
+# max.length: 45
 giveaway-btn-label = Çekilişe katılın ({ $entries } girişler)
+# max.length: 45
 giveaway-btn-label-ended = { $entries } girişler
 giveaway-btn-spammy = Bu buton beklemede, lütfen daha sonra tekrar deneyin.
 giveaway-btn-removed = Girişiniz bu çekilişten başarıyla kaldırıldı! { $emoji }

@@ -10,10 +10,15 @@ shelp-user-cmds = Команди користувача:
 slash-help-msg-cmds = Команди повідомлення:
 slash-help-extra-links = Додаткові посилання:
 # Suggestions form modal
+# max.length: 45
 mart-sugg-form = Форма пропозицій Martine
+# max.length: 45
 mart-sugg-short = Короткий опис
+# max.length: 100
 mart-sugg-short-placeholder = Короткий опис вашої пропозиції...
+# max.length: 45
 mart-sugg-long = Довгий опис
+# max.length: 100
 mart-sugg-long-placeholder = Детально поясніть, у чому полягає ваша пропозиція...
 mart-sugg-fail = Упс! Не вдалося обробити вашу пропозицію. Будь ласка, спробуйте пізніше.
 mart-sugg-thanks = Дякуємо за вашу пропозицію!
@@ -52,12 +57,18 @@ si-bot-join-date = приєднується до цього сервера
 si-server-id = ID сервера
 si-shard-id = ID фрагмента бота
 si-users-badges = Значки користувачів у
+# max.length: 80
 si-si-btn = Інформація про сервер
+# max.length: 80
 si-badges-btn = Перегляд значків учасників
+# max.length: 80
 si-assets-btn = Перегляд ресурсів сервера
 si-icon = Іконка
+# max.length: 80
 si-banner-btn = Банер
+# max.length: 80
 si-invite-bg-btn = Фон запрошення
+# max.length: 80
 si-back-si-btn = Повернутися до інформації про сервер
 # userinfo command
 # max.length: 100
@@ -105,7 +116,9 @@ ui-no-banner = Банер не встановлено.
 ui-user-avatar = Аватар користувача { $user }
 ui-server-avatar = Аватар сервера { $user }
 ui-no-server-avatar = Аватар сервера не встановлено.
+# max.length: 80
 ui-back-btn = Назад до інформації про користувача
+# max.length: 80
 ui-perms-btn = Переглянути дозволи учасників
 # channelinfo command
 # max.length: 100

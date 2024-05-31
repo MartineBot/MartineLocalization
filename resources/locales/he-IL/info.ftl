@@ -10,10 +10,15 @@ shelp-user-cmds = פקודות חברים בשרת:
 slash-help-msg-cmds = פקודות הודעה:
 slash-help-extra-links = לינקים נוספים:
 # Suggestions form modal
+# max.length: 45
 mart-sugg-form = טופס ההצעות למרטין
+# max.length: 45
 mart-sugg-short = הסבר קצר
+# max.length: 100
 mart-sugg-short-placeholder = הסבר באופן מקוצר על ההצעה שלך...
+# max.length: 45
 mart-sugg-long = הסבר ארוך
+# max.length: 100
 mart-sugg-long-placeholder = הסבר באופן מלא את ההצעה שלך...
 mart-sugg-fail = אופס! לא הצלחתי להעביר את ההצעה שלך, אנא נסה שוב מאוחר יותר.
 mart-sugg-thanks = תודה רבה על ההצעה!
@@ -52,12 +57,18 @@ si-bot-join-date = הצטרפתי לשרת ב
 si-server-id = מזהה השרת
 si-shard-id = מזהה השארד של הבוט
 si-users-badges = תגיות חברי השרת ב
+# max.length: 80
 si-si-btn = מידע על השרת
+# max.length: 80
 si-badges-btn = צפה בתגיות חברי השרת
+# max.length: 80
 si-assets-btn = צפה בנכסי השרת
 si-icon = סמל
+# max.length: 80
 si-banner-btn = דגל
+# max.length: 80
 si-invite-bg-btn = רקע ההזמנה
+# max.length: 80
 si-back-si-btn = חזור למידע על השרת
 # userinfo command
 # max.length: 100
@@ -105,7 +116,9 @@ ui-no-banner = אין דגל עדיין.
 ui-user-avatar = תמונת פרופיל של { $user }
 ui-server-avatar = תמונת פרופיל בשרת של { $user }
 ui-no-server-avatar = אין תמונת פרופיל בשרת.
+# max.length: 80
 ui-back-btn = חזור למידע
+# max.length: 80
 ui-perms-btn = צפה בהרשאות
 # channelinfo command
 # max.length: 100

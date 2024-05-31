@@ -37,7 +37,9 @@ giveaway-roll-nothing =
 giveaway-ended = Giveaway beendet
 giveaway-ended-time = Giveaway endete um { $locale_formatted_time }!
 giveaway-no-winners = Niemand hat gewonnen
+# max.length: 45
 giveaway-btn-label = An Giveaway teilnehmen ({ $entries } Einträge)
+# max.length: 45
 giveaway-btn-label-ended = { $entries } Einträge
 giveaway-btn-spammy = Dieser Button ist derzeit auf Abklingzeit, bitte versuche es später erneut.
 giveaway-btn-removed = Deine Teilnahme wurde erfolgreich aus diesem Giveaway entfernt! { $emoji }

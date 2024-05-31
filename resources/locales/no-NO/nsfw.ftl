@@ -24,22 +24,35 @@ msg-discord-server = **Discord server:** { $link }
 msg-image = **Bilde:** { $link }
 msg-images = **Bilder:**
 embed-auto-footer = Bruk { $cmd_mention } til å endre forsinkelse eller deaktivere
+# max.length: 100
 command-category-select-placeholder = Velg en annen bildekategori...
+# max.length: 80
 command-category-next-btn = Neste side
+# max.length: 100
 command-category-next-btn-desc = Det er flere kategorier som kan interessere deg!
+# max.length: 80
 command-category-prev-btn = Forrige side
+# max.length: 100
 command-category-prev-btn-desc = Gå tilbake til tidligere sett kategorier.
+# max.length: 80
 command-open-img-btn = Åpne bilde
+# max.length: 80
 command-report-img-btn = Rapporter bilde
+# max.length: 80
 command-post-url-btn = Innlegg URL
+# max.length: 80
 image-report-title = Martine - NSFW bilde rapport
+# max.length: 80
 image-report-label = Bilde tall eller URL
+# max.length: 100
 image-report-placeholder = Bilde nummeret eller dets URL...
 image-report-success =
     Her er rapport lenken:
     { $link }
 image-report-invalid-url = Beklager, men dette er ikke et gyldig bilde!
+# max.length: 80
 booru-previous-img-btn = Forrige bilde
+# max.length: 80
 booru-next-img-btn = Neste bilde
 booru-too-many-tags-nopremium = Beklager, men du kan søke etter maksimalt 10 tagger! Eller få Premium for å øke denne begrensningen til 30 tagger! { $emoji }
 booru-too-many-tags = Beklager, men du kan ikke søke etter mer enn 30 tagger! { $emoji }
@@ -63,14 +76,18 @@ auto-setup-amount = **Beløp:** { $amount }
 auto-setup-categories = Aktiverte kategorier:
 auto-setup-selected-categories = Valgte kategorier:
 auto-setup-footer = Bruk knappen "Oppdater kategorier" etter å ha valgt kategoriene du velger
+# max.length: 150
 auto-setup-select-placeholder-disabled = Aktiver for å velge kategorier
 auto-setup-categories-btn = Oppdater kategorier
 auto-setup-clear-categories-btn = Fjern valgte kategorier
 auto-setup-delay-btn = Endre forsinkelse
 auto-setup-amount-btn = Endre beløp
 auto-setup-status-btn = Statusen på denne serveren
+# max.length: 150
 auto-setup-select-placeholder = Velg kategorier
+# max.length: 80
 auto-setup-enable-btn = Aktiver
+# max.length: 80
 auto-setup-disable-btn = Deaktiver
 auto-setup-same-categories = Vær så snill Velg andre kategorier enn de som er aktivert for denne kanalen.
 auto-setup-categories-updated = Vellykket oppdatert autoporno kategorier for { $channel } til: { $categories }
@@ -97,16 +114,23 @@ auto-status-categories =
         [one] **Kategori:** { $categories }
        *[other] **Kategorier:** { $categories }
     }
+# max.length: 80
 auto-status-getback-btn = Gå tilbake til oppsettet
+# max.length: 45
 auto-delaymodal-title = Martin – Autoporno forsinkelse ledetekst
+# max.length: 45
 auto-delaymodal-label = Forsinkelse
+# max.length: 100
 auto-delaymodal-placeholder = Forsinkelsen i minutter mellom hvert autopornobilde sendt i denne kanalen...
 auto-delaymodal-invalid = Ser ut til at dette ikke er en riktig verdi. Eksempel: 5 minutter
 auto-delaymodal-toolow = Verdien må være over 2 minutter.
 auto-delaymodal-toohigh = Verdien må være mindre enn 60 minutter.
 auto-delaymodal-success = Vellykket oppdatert autoporno forsinkelse for { $channel } til `{ $delay }`.
+# max.length: 45
 auto-amountmodal-title = Martine - Autoporno mengde av bilder
+# max.length: 45
 auto-amountmodal-label = Beløp
+# max.length: 100
 auto-amountmodal-placeholder = Antall bilder en autoporno omelding vil inneholde...
 auto-amountmodal-invalid = Ser ut til at dette ikke er en riktig verdi. Eksempel: 5
 auto-amountmodal-toolow = Verdien må være over 1.

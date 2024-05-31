@@ -37,7 +37,9 @@ giveaway-roll-nothing =
 giveaway-ended = Giveaway sluttet
 giveaway-ended-time = Giveaway sluttet! { $locale_formatted_time }!
 giveaway-no-winners = Ingen vant
+# max.length: 45
 giveaway-btn-label = Delta giveaway ({ $entries } deltat)
+# max.length: 45
 giveaway-btn-label-ended = { $entries } deltat
 giveaway-btn-spammy = Denne knappen er på nedkjøling, vennligst prøv igjen senere.
 giveaway-btn-removed = Vellykket fjernet deg fra denne giveawayen! { $emoji }

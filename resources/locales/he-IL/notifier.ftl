@@ -1,4 +1,5 @@
 stream-default-msg = { $streamer_name } בשידור חי!
+# max.length: 80
 stream-btn = פתח לצפייה ישירה
 untitled-broadcast = משדר ללא כותרת
 viewer-count = כמות צופים

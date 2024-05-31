@@ -1,4 +1,5 @@
 stream-default-msg = { $streamer_name } is live!
+# max.length: 80
 stream-btn = Közvetíts megnyitása
 untitled-broadcast = Cím nélküli közvetítés
 viewer-count = Nézők

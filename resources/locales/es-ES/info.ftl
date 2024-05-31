@@ -10,10 +10,15 @@ shelp-user-cmds = Comandos de usuario:
 slash-help-msg-cmds = Comandos de mensaje:
 slash-help-extra-links = Vínculos adicionales:
 # Suggestions form modal
+# max.length: 45
 mart-sugg-form = Formulario de sugerencias de Martine
+# max.length: 45
 mart-sugg-short = Descripción breve
+# max.length: 100
 mart-sugg-short-placeholder = Una breve descripción de su sugerencia...
+# max.length: 45
 mart-sugg-long = Descripción larga
+# max.length: 100
 mart-sugg-long-placeholder = Explique detalladamente en qué consiste su sugerencia...
 mart-sugg-fail = ¡Ups! No se ha podido procesar su sugerencia. Vuelva a intentarlo más tarde.
 mart-sugg-thanks = ¡Gracias por tu sugerencia!
@@ -52,12 +57,18 @@ si-bot-join-date = se unió a este servidor el
 si-server-id = ID de servidor
 si-shard-id = Bot shard ID
 si-users-badges = Insignias de usuarios en
+# max.length: 80
 si-si-btn = Información del servidor
+# max.length: 80
 si-badges-btn = Ver insignias de miembros
+# max.length: 80
 si-assets-btn = Visualiza los recursos del servidor
 si-icon = Icono
+# max.length: 80
 si-banner-btn = Portada
+# max.length: 80
 si-invite-bg-btn = Fondo de Invitación
+# max.length: 80
 si-back-si-btn = Volver a la información del servidor
 # userinfo command
 # max.length: 100
@@ -105,7 +116,9 @@ ui-no-banner = Banner no establecido.
 ui-user-avatar = { $user } avatar
 ui-server-avatar = { $user } foto del usuario
 ui-no-server-avatar = Foto de usuario no establecida.
+# max.length: 80
 ui-back-btn = Volver a información del usuario
+# max.length: 80
 ui-perms-btn = Ver permisos del usuario
 # channelinfo command
 # max.length: 100

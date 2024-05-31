@@ -8,6 +8,7 @@ profile-nobots = Sowwy, but bots *looks at you* don't have pwofiwes?!?1 { $emoji
 profile-noexp-author = You haven't g-g-gainyed any exp yet?!?1 Continyue t-to send mowe messages.
 profile-noexp-other = This membew d-doesn't have g-g-gainyed any exp yet?!?1
 profile-image-failed = Sowwy, something went wwong whiwe t-twying t-to get this pwofiwe image. Pwease twy again watew. { $emoji }
+# max.length: 80
 profile-vote-btn = Upvote fow 10% exp boost?!!
 profile-exp-boost-active = 10% upvote exp boost active?!?1 (Weason: `{ $reason }`)
 profile-card = { $member } pwofiwe cawd
@@ -157,10 +158,13 @@ lvlconvert-embed-serversettings-exp = **Exp rate:** { $exp_rate }
 
 lvlconvert-embed-roles = Roles rewards
 lvlconvert-embed-roles-none = No roles rewards set.
+# max.length: 45
 lvlconvert-migrate_members_btn-label = Migrate members
+# max.length: 45
 lvlconvert-migrate_server_settings-btn-label = Migrate server settings
 # max.length: 45
 lvlconvert-migration_modal-title = Confirmation modal
+# max.length: 100
 lvlconvert-migration_modal-placeholder = Type YES to confirm
 # max.length: 45
 lvlconvert-migration_modal-members-label = It'll replace ALL of the current members data

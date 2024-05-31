@@ -10,10 +10,15 @@ shelp-user-cmds = Εντολές χρήστη:
 slash-help-msg-cmds = Εντολές μηνύματος:
 slash-help-extra-links = Επιπλέον σύνδεσμοι:
 # Suggestions form modal
+# max.length: 45
 mart-sugg-form = Φόρμα προτάσεων της Martine
+# max.length: 45
 mart-sugg-short = Μικρή περιγραφή
+# max.length: 100
 mart-sugg-short-placeholder = Σύντομη περιγραφή της πρότασής σας...
+# max.length: 45
 mart-sugg-long = Μεγάλη περιγραφή
+# max.length: 100
 mart-sugg-long-placeholder = Εξηγήστε λεπτομερώς τι περιλαμβάνει η πρότασή σας...
 mart-sugg-fail = Ουπς! Απέτυχε η επεξεργασία της πρότασής σας. Προσπαθήστε ξανά αργότερα.
 mart-sugg-thanks = Ευχαριστούμε για την πρότασή σας!
@@ -52,12 +57,18 @@ si-bot-join-date = έγινε μέλος σε αυτόν τον διακομισ
 si-server-id = ID Διακομιστή
 si-shard-id = Bot shard ID
 si-users-badges = Εμβλήματα χρηστών σε
+# max.length: 80
 si-si-btn = Πληροφορίες διακομιστή
+# max.length: 80
 si-badges-btn = Προβολή εμβλημάτων μελών
+# max.length: 80
 si-assets-btn = Προβολή στοιχείων διακομιστή
 si-icon = Εικονίδιο
+# max.length: 80
 si-banner-btn = Πανό
+# max.length: 80
 si-invite-bg-btn = Φόντο Πρόσκλησης
+# max.length: 80
 si-back-si-btn = Επιστροφή στις πληροφορίες του διακομιστή
 # userinfo command
 # max.length: 100
@@ -105,7 +116,9 @@ ui-no-banner = Δεν έχει οριστεί πανό.
 ui-user-avatar = { $user } avatar του χρήστη
 ui-server-avatar = { $user } avatar διακομιστή
 ui-no-server-avatar = Δεν έχει οριστεί avatar διακομιστή.
+# max.length: 80
 ui-back-btn = Επιστροφή στις πληροφορίες χρήστη
+# max.length: 80
 ui-perms-btn = Προβολή άδειων μέλους
 # channelinfo command
 # max.length: 100

@@ -1,4 +1,5 @@
 stream-default-msg = { $streamer_name } yayında!
+# max.length: 80
 stream-btn = Yayını aç
 untitled-broadcast = Başlıksız yayın
 viewer-count = İzleyici sayısı

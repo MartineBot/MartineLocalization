@@ -14,7 +14,9 @@ streams-count = { $source } Alertas de transmisión en este servidor
 streams-none = There are no { $source } stream alerts in this server.
 streams-disable-autorefresh = Deshabilitar la actualización automática de alertas.
 streams-enable-autorefresh = Habilitar la actualización automática de alertas.
+# max.length: 80
 streams-edit-msg-btn = Editar mensaje.
+# max.length: 80
 streams-autorefresh-btn = Actualización automática.
 streams-autorefresh-enabled = ¡Perfecto! Los mensajes de alertas de transmisión se actualizarán automáticamente cada 15 minutos.
 streams-autorefresh-disabled = ¡Entendido! Los mensajes de alertas de transmisión ya no se actualizarán automáticamente.
@@ -27,8 +29,11 @@ streams-newmsg = Enviar nuevo mensaje.
 streams-newmsg-desc = Esto enviará un nuevo mensaje con información sobre la transmisión.
 streams-same-endbehavior = Por favor, selecciona un comportamiento diferente al actualmente elegido.
 streams-endbehavior-changed = Se actualizó correctamente el comportamiento al finalizar la transmisión.
+# max.length: 45
 streams-msg-modal = Editor de mensajes de alertas de transmisión.
+# max.length: 45
 streams-msg-label = Establecer el mensaje enviado en una alerta de inicio de transmisión.
+# max.length: 100
 streams-msg-placeholder = { "{" }streamer{ "}" } = El nombre del streamer. - { "{" }Mencionar a todos.{ "}" } = @everyone - { "{" }Conectados{ "}" } = @here ping
 streams-msg-changed = ¡Se actualizó correctamente el mensaje de alerta de inicio de transmisión!
 # $source will be the source of the stream alert.
@@ -41,6 +46,7 @@ streams-twitch-notfound = No se pudo encontrar ese usuario de Twitch.
 streams-kick-notfound = No se pudo encontrar ese usuario para expulsar.
 videos-settings = Configuración de alertas de videos.
 videos-message = Mensaje
+# max.length: 80
 videos-settings-msg-btn = Editar mensaje.
 videos-msg-modal = Editor de mensajes de alertas de videos.
 videos-msg-label = Establecer el mensaje enviado en las alertas de videos.

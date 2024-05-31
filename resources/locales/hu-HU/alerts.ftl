@@ -14,7 +14,9 @@ streams-count = { $source } értesítések ezen a szerveren
 streams-none = There are no { $source } stream alerts in this server.
 streams-disable-autorefresh = Az értesítések automatikus frissítésének kikapcsolása
 streams-enable-autorefresh = Az értesítések automatikus frissítésének bekapcsolása
+# max.length: 80
 streams-edit-msg-btn = Üzenet szerkesztése
+# max.length: 80
 streams-autorefresh-btn = Automatikus frissítés
 streams-autorefresh-enabled = Rendben! Az értesítések üzenetei mostantól 15 perc után automatikusan frissülnek.
 streams-autorefresh-disabled = Rendben! Az értesítések üzenetei többé nem frissülnek automatikusan.
@@ -27,8 +29,11 @@ streams-newmsg = Send new message
 streams-newmsg-desc = This will send a new message with some informations about the stream.
 streams-same-endbehavior = Please select another behavior than the one currently selected.
 streams-endbehavior-changed = Successfully updated the stream end behavior.
+# max.length: 45
 streams-msg-modal = Streams alerts message editor
+# max.length: 45
 streams-msg-label = Set the message sent on a stream start alert.
+# max.length: 100
 streams-msg-placeholder = { "{" }streamer{ "}" } = the streamer name - { "{" }everyone{ "}" } = @everyone ping - { "{" }here{ "}" } = @here ping
 streams-msg-changed = Successfully updated the stream start alert message!
 # $source will be the source of the stream alert.
@@ -43,6 +48,7 @@ streams-twitch-notfound = Couldn't find that Twitch user.
 streams-kick-notfound = Couldn't find that Kick user.
 videos-settings = videos alerts settings
 videos-message = Üzenet
+# max.length: 80
 videos-settings-msg-btn = Üzenet szerkesztése
 videos-msg-modal = Videos alerts message editor
 videos-msg-label = Set the message sent on videos alerts.

@@ -14,7 +14,9 @@ streams-count = { $source } avvisi di streaming su questo server
 streams-none = There are no { $source } stream alerts in this server.
 streams-disable-autorefresh = Disabilita l'aggiornamento automatico degli avvisi
 streams-enable-autorefresh = Abilita l'aggiornamento automatico degli avvisi
+# max.length: 80
 streams-edit-msg-btn = Modifica messaggio
+# max.length: 80
 streams-autorefresh-btn = Aggiornamento automatico
 streams-autorefresh-enabled = Bene! I messaggi di avviso di streaming saranno ora aggiornati automaticamente ogni 15 minuti.
 streams-autorefresh-disabled = Bene! I messaggi di avviso di streaming non si aggiorneranno più automaticamente.
@@ -27,8 +29,11 @@ streams-newmsg = Invia nuovo messaggio
 streams-newmsg-desc = Questo invierà un nuovo messaggio con delle infformazioni sulla live.
 streams-same-endbehavior = Sei pregato di selezionare un comportamento differente da quello correntemente selezionato.
 streams-endbehavior-changed = Comportamento di fine streaming aggiornato correttamente.
+# max.length: 45
 streams-msg-modal = Editor dei messaggi d'avviso di streaming
+# max.length: 45
 streams-msg-label = Imposta il messaggio inviato all'avviso di inizio streaming.
+# max.length: 100
 streams-msg-placeholder = { "{" }streamer{ "}" } = il nome dello streamer - { "{" }everyone{ "}" } = menzione @everyone - { "{" }here{ "}" } = menzione @here
 streams-msg-changed = Messaggio d'avviso di inizio streaming aggiornato correttamente!
 # $source will be the source of the stream alert.
@@ -43,6 +48,7 @@ streams-twitch-notfound = Impossibile trovare quell'utente di Twitch.
 streams-kick-notfound = Impossibile trovare quell'utente di Kick.
 videos-settings = impostazioni degli avvisi dei video
 videos-message = Messaggio
+# max.length: 80
 videos-settings-msg-btn = Modifica messaggio
 videos-msg-modal = Editor del messaggio degli avvisi dei video
 videos-msg-label = Imposta il messaggio inviato sugli avvisi dei video.

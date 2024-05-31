@@ -52,7 +52,9 @@ command-concurrent-other =
     Aynı anda { $type } başına yalnızca { $number } kez kullanılabilir.
 app-command-unavailable = Görünüşe göre bu komut henüz botta mevcut değil. Lütfen senkronize olması için biraz bekleyin.
 bot-not-ready = Martine henüz herhangi bir komutu işleme koymaya hazır değil. Lütfen tekrar denemeden önce bir veya iki dakika bekleyin.
+# max.length: 80
 commands-btn = Komutlar ve SSS
+# max.length: 80
 premium-btn = Premium
 join-msg-title = Merhabalar! Martine'i sunucunuza eklediğiniz için teşekkürler!
 join-msg-prefixes = Ön Karakter

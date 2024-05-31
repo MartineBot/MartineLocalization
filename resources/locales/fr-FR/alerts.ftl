@@ -14,7 +14,9 @@ streams-count = Alertes de flux { $source } dans ce serveur
 streams-none = There are no { $source } stream alerts in this server.
 streams-disable-autorefresh = Désactiver le rafraîchissement automatique des alertes
 streams-enable-autorefresh = Activer le rafraîchissement automatique des alertes
+# max.length: 80
 streams-edit-msg-btn = Modifier le message
+# max.length: 80
 streams-autorefresh-btn = Rafraîchissement automatique
 streams-autorefresh-enabled = Très bien ! Les messages d'alerte du flux seront désormais actualisés automatiquement au bout de 15 minutes.
 streams-autorefresh-disabled = Très bien ! Les messages d'alerte du flux ne seront plus actualisés automatiquement.
@@ -27,8 +29,11 @@ streams-newmsg = Envoyer un nouveau message
 streams-newmsg-desc = Cela enverra un nouveau message contenant des informations sur le flux.
 streams-same-endbehavior = Veuillez choisir un autre comportement que celui actuellement sélectionné.
 streams-endbehavior-changed = Mise à jour réussie du comportement de fin de flux.
+# max.length: 45
 streams-msg-modal = Éditeur de messages d'alerte pour les flux
+# max.length: 45
 streams-msg-label = Définir le message envoyé lors d'une alerte de début de flux.
+# max.length: 100
 streams-msg-placeholder = { "{" }streamer{ "}" } = le nom du streamer - { "{" }everyone{ "}" } = @everyone ping - { "{" }here{ "}" } = @here ping
 streams-msg-changed = Mise à jour réussie du message d'alerte de début de flux !
 # $source will be the source of the stream alert.
@@ -43,6 +48,7 @@ streams-twitch-notfound = Impossible de trouver cet utilisateur Twitch.
 streams-kick-notfound = Impossible de trouver cet utilisateur Kick.
 videos-settings = paramètres des alertes vidéos
 videos-message = Message
+# max.length: 80
 videos-settings-msg-btn = Modifier le message
 videos-msg-modal = Éditeur du message des alertes vidéo
 videos-msg-label = Définir le message envoyé pour les alertes vidéo.

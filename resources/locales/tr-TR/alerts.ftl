@@ -14,7 +14,9 @@ streams-count = { $source } bildirimleri bu sunucuda yayınlanıyor
 streams-none = There are no { $source } stream alerts in this server.
 streams-disable-autorefresh = Otomatik bildirim yenilemeyi devre dışı bırak
 streams-enable-autorefresh = Otomatik bildirim yenilemeyi aktifleştir
+# max.length: 80
 streams-edit-msg-btn = Mesajı düzenle
+# max.length: 80
 streams-autorefresh-btn = Otomatik yenileme
 streams-autorefresh-enabled = Tamamdır! Canlı yayın bildirim mesajları artık 15 dakika sonra otomatik olarak yenilenecektir.
 streams-autorefresh-disabled = Pekala! Canlı yayın bildirim mesajı artık otomatik olarak yenilenmeyecektir.
@@ -27,8 +29,11 @@ streams-newmsg = Yeni mesaj gönder
 streams-newmsg-desc = Bu, canlı yayınla ilgili bazı bilgileri içeren yeni bir mesaj gönderecektir.
 streams-same-endbehavior = Lütfen şu anda seçili olandan başka bir eylem seçin.
 streams-endbehavior-changed = Canlı yayın sonu eylemi başarıyla güncellendi.
+# max.length: 45
 streams-msg-modal = Canlı yayın bildirimi mesaj düzenleyicisi
+# max.length: 45
 streams-msg-label = Canlı yayın bildiriminde gönderilecek mesajı ayarlayın.
+# max.length: 100
 streams-msg-placeholder = { "{" }yayıncı{ "}" } = yayıncı adı - { "{" }herkes{ "}" } = @everyone ping - { "{" }bura{ "}" } = @here ping
 streams-msg-changed = Canlı yayın başlangıç bildirimi başarıyla güncellendi!
 # $source will be the source of the stream alert.
@@ -43,6 +48,7 @@ streams-twitch-notfound = Twitch kullanıcısı bulunamadı.
 streams-kick-notfound = Kick kullanıcısı bulunamadı.
 videos-settings = video bildirim ayarları
 videos-message = Mesaj
+# max.length: 80
 videos-settings-msg-btn = Mesajı düzenle
 videos-msg-modal = Video bildirimleri mesaj düzenleyici
 videos-msg-label = Video bildirimleri için gönderilecek mesajı ayarlayın.

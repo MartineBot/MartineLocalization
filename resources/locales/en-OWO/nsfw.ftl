@@ -24,22 +24,35 @@ msg-discord-server = **Discord Server:** { $link }
 msg-image = **Image:** { $link }
 msg-images = **Images:**
 embed-auto-footer = Use { $cmd_mention } t-to change deway ow disabwe
+# max.length: 100
 command-category-select-placeholder = Sewect anyothew image categowy... >w<
+# max.length: 80
 command-category-next-btn = Nyext page
+# max.length: 100
 command-category-next-btn-desc = Thewe's mowe categowies that m-might i-intewest you?!?1
+# max.length: 80
 command-category-prev-btn = Pwevious page
+# max.length: 100
 command-category-prev-btn-desc = Get back t-to pwevious seen categowies.
+# max.length: 80
 command-open-img-btn = Owen Image
+# max.length: 80
 command-report-img-btn = W-W-Wepowt Image
+# max.length: 80
 command-post-url-btn = Powst URL
+# max.length: 80
 image-report-title = Martine - NSFW Image report
+# max.length: 80
 image-report-label = Image number or URL
+# max.length: 100
 image-report-placeholder = The image number or its URL...
 image-report-success =
     Here is the report link:
     { $link }
 image-report-invalid-url = Sorry, but this is not a valid image!
+# max.length: 80
 booru-previous-img-btn = Previous image
+# max.length: 80
 booru-next-img-btn = Next image
 booru-too-many-tags-nopremium = Sowwy, but you c-can seawch fow maximum 10 tags?!! Ow get Pwemium t-to incwease that wimit up t-to 30 tags?!! { $emoji }
 booru-too-many-tags = Sowwy, but you cannyot seawch fow mowe than 30 tags?!! { $emoji }
@@ -63,14 +76,18 @@ auto-setup-amount = **Amount:** { $amount }
 auto-setup-categories = Enyabwed categories:
 auto-setup-selected-categories = Sewected categories:
 auto-setup-footer = Use the "Update categowies" button a-a-aftew sewecting the categowies of youw choice
+# max.length: 150
 auto-setup-select-placeholder-disabled = Enyabwe t-to sewect categowies
 auto-setup-categories-btn = Update categowies
 auto-setup-clear-categories-btn = C-C-Cweaw sewected categowies
 auto-setup-delay-btn = Change deway
 auto-setup-amount-btn = Change amount
 auto-setup-status-btn = Status in this sewvew
+# max.length: 150
 auto-setup-select-placeholder = Sewect categowies
+# max.length: 80
 auto-setup-enable-btn = Enyabwe
+# max.length: 80
 auto-setup-disable-btn = Disabwe
 auto-setup-same-categories = Pwease sewect othew categowies than those cuwwentwy enyabwed fow this channyew.
 auto-setup-categories-updated = Successfuwwy updated autopown categowies fow { $channel } to: { $categories }
@@ -97,16 +114,23 @@ auto-status-categories =
         [one] **Categowy:** { $categories }
        *[other] **Categowies:** { $categories }
     }
+# max.length: 80
 auto-status-getback-btn = Get back t-to setup
+# max.length: 45
 auto-delaymodal-title = Mawtinye - Autopown deway pwompt
+# max.length: 45
 auto-delaymodal-label = Deway
+# max.length: 100
 auto-delaymodal-placeholder = The delay in minutes between each autoporn image sent in this channel...
 auto-delaymodal-invalid = Wooks wike this is nyot a cowwect vawue. Example: 5 minyutes
 auto-delaymodal-toolow = The vawue must be uvw than 2 minyutes.
 auto-delaymodal-toohigh = The vawue must be wess than 60 minyutes.
 auto-delaymodal-success = Successfuwwy updated autopown deway fow { $channel } to `{ $delay }`.
+# max.length: 45
 auto-amountmodal-title = Martine - Autoporn amount of images prompt
+# max.length: 45
 auto-amountmodal-label = Amount
+# max.length: 100
 auto-amountmodal-placeholder = The amount of images a autoporn message will contain...
 auto-amountmodal-invalid = Looks like this is not a correct value. Example: 5
 auto-amountmodal-toolow = The value must be over than 1.

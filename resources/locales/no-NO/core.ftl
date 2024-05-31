@@ -52,7 +52,9 @@ command-concurrent-other =
     Det kan bare brukes { $number } gang(er) per { $type } samtidig.
 app-command-unavailable = Ser ut som denne kommandoen ennå ikke er tilgjengelig på botten. Vent et øyeblikk mens den blir synkronisert.
 bot-not-ready = Martine er ennå ikke klar til å behandle noen kommandoer. Vennligst vent et minutt eller to før du prøver igjen.
+# max.length: 80
 commands-btn = Kommandoer og FAQ
+# max.length: 80
 premium-btn = Premium
 join-msg-title = Hei der! Og takk for at du la Martine til serveren din!
 join-msg-prefixes = Prefikser

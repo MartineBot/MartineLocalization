@@ -10,10 +10,15 @@ shelp-user-cmds = Perintah pengguna:
 slash-help-msg-cmds = Perintah pesan:
 slash-help-extra-links = Tautan tambahan:
 # Suggestions form modal
+# max.length: 45
 mart-sugg-form = Form saran Martine
+# max.length: 45
 mart-sugg-short = Deskripsi singkat
+# max.length: 100
 mart-sugg-short-placeholder = Deskripsi singkat tentang saran anda...
+# max.length: 45
 mart-sugg-long = Deskripsi lengkap
+# max.length: 100
 mart-sugg-long-placeholder = Jelaskan secara rinci apa saja yang menjadi saran anda...
 mart-sugg-fail = Ups! Gagal memproses saran anda. Silahkan coba lagi nanti.
 mart-sugg-thanks = Terima kasih atas saran anda!
@@ -52,12 +57,18 @@ si-bot-join-date = bergabung di server ini pada
 si-server-id = ID Server
 si-shard-id = ID shard bot
 si-users-badges = Lencana-lencana pengguna di
+# max.length: 80
 si-si-btn = Info server
+# max.length: 80
 si-badges-btn = Lihat lencana-lencana pengguna
+# max.length: 80
 si-assets-btn = Lihat aset-aset server
 si-icon = Ikon
+# max.length: 80
 si-banner-btn = Spanduk
+# max.length: 80
 si-invite-bg-btn = Latar Belakang Undangan
+# max.length: 80
 si-back-si-btn = Kembali ke info server
 # userinfo command
 # max.length: 100
@@ -105,7 +116,9 @@ ui-no-banner = No banner set.
 ui-user-avatar = { $user } user avatar
 ui-server-avatar = { $user } server avatar
 ui-no-server-avatar = No server avatar set.
+# max.length: 80
 ui-back-btn = Get back to user info
+# max.length: 80
 ui-perms-btn = View member permissions
 # channelinfo command
 # max.length: 100

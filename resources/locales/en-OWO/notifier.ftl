@@ -1,4 +1,5 @@
 stream-default-msg = { $streamer_name } is live!
+# max.length: 80
 stream-btn = Open stweam
 untitled-broadcast = Untitwed bwoadcast
 viewer-count = Viewew count

@@ -1,4 +1,5 @@
 stream-default-msg = { $streamer_name } είναι ζωντανά!
+# max.length: 80
 stream-btn = Ανοιχτό stream
 untitled-broadcast = Εκπομπή χωρίς τίτλο
 viewer-count = Αριθμός θεατών

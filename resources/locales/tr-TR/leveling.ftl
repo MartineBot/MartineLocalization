@@ -8,6 +8,7 @@ profile-nobots = Üzgünüm ama botların profilleri yoktur! { $emoji }
 profile-noexp-author = Hiç xp kazanmadınız! Daha fazla mesaj göndermeye devam edin.
 profile-noexp-other = Bu üye hiç xp kazanmadı!
 profile-image-failed = Üzgünüz, bu profil resmini almaya çalışırken bir şeyler ters gitti. Lütfen daha sonra tekrar deneyin. { $emoji }
+# max.length: 80
 profile-vote-btn = %10 xp artışı için oylayın!
 profile-exp-boost-active = %10 oylama xp boost aktif! (Sebep: `{ $reason }`)
 profile-card = { $member } profil kartı
@@ -157,10 +158,13 @@ lvlconvert-embed-serversettings-exp = **Xp oranı:** { $exp_rate }
 
 lvlconvert-embed-roles = Rol Ödülleri
 lvlconvert-embed-roles-none = Rol ödülleri belirlenmedi.
+# max.length: 45
 lvlconvert-migrate_members_btn-label = Üyeleri taşıma
+# max.length: 45
 lvlconvert-migrate_server_settings-btn-label = Sunucu ayarlarını taşıma
 # max.length: 45
 lvlconvert-migration_modal-title = Onay modu
+# max.length: 100
 lvlconvert-migration_modal-placeholder = Onaylamak için YES yazınız
 # max.length: 45
 lvlconvert-migration_modal-members-label = Mevcut üye verilerinin TÜMÜNÜN yerini alacak
