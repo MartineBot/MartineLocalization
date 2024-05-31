@@ -53,7 +53,7 @@ videos-settings-msg-btn = Изменить сообщение
 # max.length: 45
 videos-msg-modal = Редактор сообщений оповещений о видео
 # max.length: 45
-videos-msg-label = Установить сообщение, отправляемое при уведомлении о видео.
+videos-msg-label = Set the message sent on videos alerts.
 # max.length: 100
 videos-msg-placeholder = { "{" }name{ "}" } = имя создателя видео - { "{" }everyone{ "}" } = @everyone ping - { "{" }here{ "}" } = @here ping
 videos-msg-changed = Успешно обновлено уведомление о выходе видео!
