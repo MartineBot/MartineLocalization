@@ -50,8 +50,11 @@ videos-settings = impostazioni degli avvisi dei video
 videos-message = Messaggio
 # max.length: 80
 videos-settings-msg-btn = Modifica messaggio
+# max.length: 45
 videos-msg-modal = Editor del messaggio degli avvisi dei video
+# max.length: 45
 videos-msg-label = Imposta il messaggio inviato sugli avvisi dei video.
+# max.length: 100
 videos-msg-placeholder = { "{" }name{ "}" } = il nome del creatore del video - { "{" }everyone{ "}" } = menzione @everyone - { "{" }here{ "}" } = menzione @here
 videos-msg-changed = Messaggio degli avvisi dei video aggiornato correttamente!
 # $source will be the source of the video alert.

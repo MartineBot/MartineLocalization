@@ -50,8 +50,11 @@ videos-settings = Video Benachrichtigungen Einstellungen
 videos-message = Nachricht
 # max.length: 80
 videos-settings-msg-btn = Nachricht bearbeiten
+# max.length: 45
 videos-msg-modal = Video Benachrichtigung Editor
+# max.length: 45
 videos-msg-label = Lege eine Nachricht fest, die bei der Videobenachrichtigung gesendet wird.
+# max.length: 100
 videos-msg-placeholder = { "{" }name{ "}" } = der Name des Videoersteller - { "{" }everyone{ "}" } = @everyone ping - { "{" }here{ "}" } = @here ping
 videos-msg-changed = Die Nachricht für die Videobenachrichtigung wurde erfolgreich aktualisiert!
 # $source will be the source of the video alert.

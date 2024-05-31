@@ -50,8 +50,11 @@ videos-settings = video bildirim ayarları
 videos-message = Mesaj
 # max.length: 80
 videos-settings-msg-btn = Mesajı düzenle
+# max.length: 45
 videos-msg-modal = Video bildirimleri mesaj düzenleyici
+# max.length: 45
 videos-msg-label = Video bildirimleri için gönderilecek mesajı ayarlayın.
+# max.length: 100
 videos-msg-placeholder = { "{" }name{ "}" } = içerik üreticisi adı - { "{" }everyone{ "}" } = @everyone ping - { "{" }here{ "}" } = @here ping
 videos-msg-changed = Video bildirimi başarıyla güncellendi!
 # $source will be the source of the video alert.

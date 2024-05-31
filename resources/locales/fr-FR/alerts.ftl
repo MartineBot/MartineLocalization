@@ -50,8 +50,11 @@ videos-settings = paramètres des alertes vidéos
 videos-message = Message
 # max.length: 80
 videos-settings-msg-btn = Modifier le message
+# max.length: 45
 videos-msg-modal = Éditeur du message des alertes vidéo
+# max.length: 45
 videos-msg-label = Définir le message envoyé pour les alertes vidéo.
+# max.length: 100
 videos-msg-placeholder = { "{" }nom{ "}" } = le nom du créateur de la vidéo - { "{" }everyone{ "}" } = @tous ping - { "{" }here{ "}" } = @here ping
 videos-msg-changed = La mise à jour du message des alertes vidéo a été effectuée avec succès !
 # $source will be the source of the video alert.

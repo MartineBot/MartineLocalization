@@ -50,8 +50,11 @@ videos-settings = videos awewts settings
 videos-message = Mewssage
 # max.length: 80
 videos-settings-msg-btn = Edit mewssage
+# max.length: 45
 videos-msg-modal = Videos awewts message editow
+# max.length: 45
 videos-msg-label = Set the message sent on videos awewts.
+# max.length: 100
 videos-msg-placeholder = { "{" }name{ "}" } = the v-v-video cweatow nyame - { "{" }everyone{ "}" } = @evewyonye ping - { "{" }here{ "}" } = @h-h-hewe ping
 videos-msg-changed = Successfuwwy updated the videos awewts message!!
 # $source will be the source of the video alert.

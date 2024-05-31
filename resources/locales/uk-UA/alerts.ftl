@@ -50,8 +50,11 @@ videos-settings = налаштування сповіщень про відео
 videos-message = Повідомлення
 # max.length: 80
 videos-settings-msg-btn = Редагувати
+# max.length: 45
 videos-msg-modal = Редактор повідомлення сповіщення про відео
+# max.length: 45
 videos-msg-label = Установити повідомлення, що надсилається на сповіщення про відео.
+# max.length: 100
 videos-msg-placeholder = { "{" }name{ "}" } = імʼя каналу відео - { "{" }everyone{ "}" } = згадка @everyone - { "{" }here{ "}" } = згадка @here
 videos-msg-changed = Повідомлення сповіщень про відео успішно оновлено!
 # $source will be the source of the video alert.

@@ -50,8 +50,11 @@ videos-settings = ρυθμίσεις ειδοποιήσεων βίντεο
 videos-message = Μήνυμα
 # max.length: 80
 videos-settings-msg-btn = Επεξεργασία μηνύματος
+# max.length: 45
 videos-msg-modal = Επεξεργαστής μηνυμάτων ειδοποιήσεων βίντεο
+# max.length: 45
 videos-msg-label = Ορισμός του μηνύματος που αποστέλλεται σε ειδοποιήσεις βίντεο.
+# max.length: 100
 videos-msg-placeholder = { "{" }name{ "}" } = το όνομα του δημιουργού του βίντεο - { "{" }everyone{ "}" } = @everyone ping - { "{" }here{ "}" } = @here ping
 videos-msg-changed = Επιτυχής ενημέρωση του μηνύματος ειδοποιήσεων βίντεο!
 # $source will be the source of the video alert.

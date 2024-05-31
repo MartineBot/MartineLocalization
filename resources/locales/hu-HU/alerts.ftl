@@ -50,8 +50,11 @@ videos-settings = videos alerts settings
 videos-message = Üzenet
 # max.length: 80
 videos-settings-msg-btn = Üzenet szerkesztése
+# max.length: 45
 videos-msg-modal = Videos alerts message editor
+# max.length: 45
 videos-msg-label = Set the message sent on videos alerts.
+# max.length: 100
 videos-msg-placeholder = { "{" }name{ "}" } = the video creator name - { "{" }everyone{ "}" } = @everyone ping - { "{" }here{ "}" } = @here ping
 videos-msg-changed = Successfully updated the videos alerts message!
 # $source will be the source of the video alert.

@@ -48,8 +48,11 @@ videos-settings = настройки на уведомления за видеа
 videos-message = Съобщение
 # max.length: 80
 videos-settings-msg-btn = Редактирай съобщение
+# max.length: 45
 videos-msg-modal = Редактор на съобщение относно уведомление за видеа
+# max.length: 45
 videos-msg-label = Задайте съобщението, изпращано при уведомления за видеа.
+# max.length: 100
 videos-msg-placeholder = { "{" }name{ "}" } = създателят на видеото - { "{" }everyone{ "}" } = @everyone таг - { "{" }here{ "}" } = @here таг
 videos-msg-changed = Успешна промяна на съобщението относно уведомявания за видеа!
 # $source will be the source of the video alert.

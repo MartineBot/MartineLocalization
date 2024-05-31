@@ -50,8 +50,11 @@ videos-settings = innstillinger for videoer varsler
 videos-message = Melding
 # max.length: 80
 videos-settings-msg-btn = Rediger melding
+# max.length: 45
 videos-msg-modal = Meldingsredigering for videovarsler
+# max.length: 45
 videos-msg-label = Angi meldingen som sendes på videovarsler.
+# max.length: 100
 videos-msg-placeholder = { "{" }navn{ "}" } = navnet på videoskaperen - { "{" }everyone{ "}" } = @everyone ping - { "{" }here{ "}" } = @here ping
 videos-msg-changed = Vellykket Videovarslingsmeldingen er oppdatert!
 # $source will be the source of the video alert.
