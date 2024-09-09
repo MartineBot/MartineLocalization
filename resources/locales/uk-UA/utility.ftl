@@ -37,8 +37,8 @@ premium-status-user = Ваш преміум статус
 premium-tier = **Рівень:** { $value }
 premium-since = **З:** { $value }
 premium-status-servers = Ваші сервери преміум
-premium-unknown-server = Unknown server name
-premium-status-current-server = Current server Premium status
+premium-unknown-server = Невідома назва сервера
+premium-status-current-server = Поточний преміум статус сервера
 premium-server-notsub =
     It seems that you don't have a Patreon subscription. 
     Please subscribe to our Patreon to get access to Premium features: { $premium_url }

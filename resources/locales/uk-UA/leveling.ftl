@@ -1,7 +1,7 @@
-maintenance-disabled = Система вирівнювання глобально вимкнена для обслуговування. Будь ласка, спробуйте пізніше.
+maintenance-disabled = Система рівнів глобально вимкнена для обслуговування. Будь ласка, спробуйте пізніше.
 disabled-msg =
-    Вирівнювання не ввімкнено на цьому сервері.
-    Адміністратор або хтось, хто може керувати цим сервером, може ввімкнути його за допомогою команди { $cmd_mention }!
+    Систему рівнів не ввімкнено на цьому сервері.
+    Адміністратор або хтось, хто може керувати цим сервером, може ввімкнути її через команду { $cmd_mention }!
 # max.length: 100
 help-profile = Показує вашу картку профілю або картку іншого учасника.
 profile-nobots = Вибачте, але в ботів немає профілів! { $emoji }
@@ -152,20 +152,20 @@ lvlconvert-fetch-forbidden = I found data for this server, but it is not public.
 lvlconvert-fetch-failed = Sorry, something went wrong while trying to fetch data from { $bot_name }. Please try again later.
 lvlconvert-embed-title = `{ $server_name }` leveler data migration - { $bot_name }
 lvlconvert-embed-description = Found { $members_count } members with levels data to migrate.
-lvlconvert-embed-serversettings = Server settings
+lvlconvert-embed-serversettings = Налаштування сервера
 lvlconvert-embed-serversettings-exp = **Exp rate:** { $exp_rate }
     **Exp per message:** { $exp_per_message }
 
 lvlconvert-embed-roles = Roles rewards
 lvlconvert-embed-roles-none = No roles rewards set.
 # max.length: 45
-lvlconvert-migrate_members_btn-label = Migrate members
+lvlconvert-migrate_members_btn-label = Перенести учасників
 # max.length: 45
-lvlconvert-migrate_server_settings-btn-label = Migrate server settings
+lvlconvert-migrate_server_settings-btn-label = Перенести налаштування сервера
 # max.length: 45
-lvlconvert-migration_modal-title = Confirmation modal
+lvlconvert-migration_modal-title = Модуль підтвердження
 # max.length: 100
-lvlconvert-migration_modal-placeholder = Type YES to confirm
+lvlconvert-migration_modal-placeholder = Введіть «YES» для підтвердження
 # max.length: 45
 lvlconvert-migration_modal-members-label = It'll replace ALL of the current members data
 # max.length: 45

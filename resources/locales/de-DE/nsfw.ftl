@@ -1,16 +1,16 @@
-non-nsfw-channel-title = { $emoji } You can't use this command in a non-NSFW channel!
-non-nsfw-channel-description = Use the { $cmd_mention } command if you're unsure how to setup this.
+non-nsfw-channel-title = { $emoji } Du kannst diesen Befehl nicht in einem SFW Kanal benutzen!
+non-nsfw-channel-description = Benutze { $cmd_mention } wenn du dir nicht sicher bist wie du alles bereitstellst.
 upvote-msg =
-    Please upvote me on Top.gg or DBL to use this command. { $emoji }
-    Here is the link: { $link }
-    Your vote will expire after 12 hours.
+    Bitte voten Sie mich auf Top.gg oder DBL um diesen Befehl zu benutzen. { $emoji }
+    Hier ist der link: { $link }
+    Ihr vote wird nach 12 Stunden ablaufen
     
-    You can bypass this by [boosting Martine's server]({ $server_invite })
-upvote-msg-premium = Or by getting one of our [Premium tiers]({ $premium_url })!
+    Du kannst dies überspringen wenn sie Martine's Server boosten({ $server_invite })
+upvote-msg-premium = Oder wenn sie unser premium rang kaufen ({ $premium_url })!
 yes = Ja
 no = Nein
-btn-fail = Oops! Something failed with buttons on this message, please use the command again.
-amount-too-low = Sorry, but the amount parameter must be at least 1 image! { $emoji }
+btn-fail = Oops! Irgendwas ist schief gelaufen bitte benutzen Sie diesen Befehl nochmal.
+amount-too-low = Tut mir leid, aber die Anzahl der Parameter müssen wenigstens 1 Bild haben! { $emoji }
 amount-too-high = Sorry, but the amount parameter must be less or equal of { $amount } images! { $emoji }
 command-no-images-found = Sorry, I wasn't able to pull a image for you! Please try again in a bit. { $emoji }
 command-invalid-category = Sorry but this is not a valid category! { $emoji }

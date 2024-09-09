@@ -85,7 +85,7 @@ help-alerts_videos_tiktok = Manage a video alert for a TikTok user.
 # max.length: 100
 alerts_videos_tiktok-parameter-user_name_or_url-description = The TikTok channel name or URL.
 # max.length: 100
-alerts_videos_tiktok-parameter-message_template-long-description = The message template to use for the alert. Use { name } for the channel name.
+alerts_videos_tiktok-parameter-message_template-long-description = O modelo de mensagem a ser usado para o alerta. Use { name } para o nome do canal.
 # max.length: 100
 help-alerts_videos_settings = Gerencie configurações de alertas de vídeos.
 # max.length: 100
