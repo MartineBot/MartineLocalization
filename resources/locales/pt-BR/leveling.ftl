@@ -144,7 +144,7 @@ profileset_description-parameter-description-description = O valor da descriçã
 # max.length: 100
 help-profileset_resetrep = Restaura seus pontos de reputação.
 # max.length: 100
-help-lvlconvert = Convert levels and server settings from other bots to Martine.
+help-lvlconvert = Converta níveis e configurações de servidor de outros ‘bots’ para o Martine.
 lvlconvert-lock = You cannot migrate data for this server for now because a migration is currently going. Please try again later.
 lvlconvert-fetching = Fetching leaderboard and settings data from { $bot_name }, it may take a while...
 lvlconvert-fetch-nodata = Sorry, but I didn't found any data to migrate.

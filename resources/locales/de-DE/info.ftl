@@ -25,7 +25,7 @@ mart-sugg-thanks = Vielen Dank für deinen Vorschlag!
 mart-sugg-note = Hinweis: Du kannst keinen neuen Vorschlag für 30 Minuten senden.
 # serverinfo command
 # max.length: 100
-help-serverinfo = Shows information about the server, members badges, and assets.
+help-serverinfo = Zeigt Informationen über den Server, die Abzeichen der Mitglieder und die Assets.
 si-members-field = Mitglieder:
 si-members-connected = Mitglieder verbunden:
 si-humans = Menschen:
@@ -72,7 +72,7 @@ si-invite-bg-btn = Servereinladung Hintergrund
 si-back-si-btn = Zurück zur Serverinfo
 # userinfo command
 # max.length: 100
-help-userinfo = Shows information about a user.
+help-userinfo = Zeigt Informationen über einen Benutzer an.
 ui-app-info = Anwendungsinformation
 ui-app-tags = Tags
 ui-app-tags-empty = Leer
@@ -81,7 +81,7 @@ ui-app-presence = Anwesenheit sehen
 ui-app-members = Mitglieder sehen
 ui-app-msg = Nachrichten lesen
 ui-app-misc = Sonstiges
-ui-app-guildcount = Approximate servers count
+ui-app-guildcount = Ungefähre Anzahl der Server
 ui-app-public = Öffentlich
 ui-app-slug = Slug
 ui-app-tos = Nutzungsbedingungen
@@ -97,24 +97,24 @@ ui-member = Mitglied Info
 ui-member-joined = Beigetreten:
 ui-in-channel = kanal:
 ui-booster-since = Booster seit:
-ui-member-nick = Nickname:
-ui-customstatus-emojiandname = Custom status: { $emoji } { $name }
-ui-customstatus-emoji = Custom status: { $emoji }
-ui-customstatus-name = Custom status: { $name }
-ui-playing = Playing { $name }
-ui-streaming = Streaming { $name }
-ui-listening = Listening to { $name }
-ui-watching = Watching { $name }
-ui-competing = Competing in { $name }
+ui-member-nick = Spitzname:
+ui-customstatus-emojiandname = Benutzerdefinierter Status: { $emoji } { $name }
+ui-customstatus-emoji = Benutzerdefinierter Status: { $emoji }
+ui-customstatus-name = Benutzerdefinierter Status: { $name }
+ui-playing = Spielt { $name }
+ui-streaming = Streamt { $name }
+ui-listening = Höre zu { $name }
+ui-watching = Schaut { $name }
+ui-competing = Nimmt teil an { $name }
 ui-roles = Rollen
 ui-member = Mitglied
 ui-select-assets = Avatar oder Banner des Benutzers anzeigen...
 ui-select-banner = Banner
 ui-select-avatar = Avatar
-ui-select-server-avatar = Server avatar
+ui-select-server-avatar = Server Avatar
 ui-no-banner = Kein Banner gesetzt.
-ui-user-avatar = { $user } user avatar
-ui-server-avatar = { $user } server avatar
+ui-user-avatar = { $user } Benutzer-Avatar
+ui-server-avatar = { $user } Server-Avatar
 ui-no-server-avatar = Kein Server Avatar gesetzt.
 # max.length: 80
 ui-back-btn = Zurück zur Benutzterinfo
@@ -122,7 +122,7 @@ ui-back-btn = Zurück zur Benutzterinfo
 ui-perms-btn = Mitgliederberechtigungen anzeigen
 # channelinfo command
 # max.length: 100
-help-channelinfo = Shows information about a channel. Default to current.
+help-channelinfo = Zeigt Informationen über einen Kanal an. Standardmäßig auf derzeitigen Kannal.
 ci-created = Erstellt am
 ci-no-topic = Kein Thema.
 ci-position = Position
@@ -146,7 +146,7 @@ ci-details-field = Details
 ci-id = Kanal ID:
 # roleinfo command
 # max.length: 100
-help-roleinfo = Shows information about a role.
+help-roleinfo = Zeigt Informationen über eine Rolle.
 ri-created = Erstellt am
 ri-members = Mitglieder
 ri-colour = Farbe
@@ -157,7 +157,7 @@ ri-mentionnable = Erwähnbar
 ri-id = Rollen ID:
 # emojiinfo command
 # max.length: 100
-help-emojiinfo = Shows information about an emoji.
+help-emojiinfo = Zeigt Informationen über ein Emoji an.
 em-react = Reagiere auf diese Nachricht mit dem Emoji deiner Wahl
 em-cancelled = Abgebrochen
 em-unicode-char = Unicode Zeichen
@@ -172,7 +172,7 @@ em-custom = Benutzerdefinierter Emoji
 em-id = Emoji ID
 # stickerinfo command
 # max.length: 100
-help-stickerinfo = Shows information about a sticker.
+help-stickerinfo = Zeigt Informationen über einen Aufkleber an.
 sti-nothing = Es gibt keinen Sticker auf dieser Nachricht.
 sti-failed = Fehler beim Abrufen von Informationen über diesen Sticker.
 sti-no-desc = Keine Beschreibung
@@ -186,37 +186,37 @@ sti-tags = tags
 sti-id = Sticker ID
 # donate command
 # max.length: 100
-help-donate = Shows the ways to support Martine development.
+help-donate = Zeigt die Möglichkeiten zur Unterstützung der Entwicklung von Martine.
 donate-title = Hier sind paar Möglichkeiten, um die Entwicklung von Martine zu Unterstützten
 donate-kofi = Einmalige Spende, entsperrt eine Rolle auf Martine's Server und 10k marts (pro Monat gespendet).
 donate-patreon = Pro Monat Spende, werde ein Patron, um einige tolle Vorteile für dich und deinen Server zu erhalten!
 # max.length: 100
-help-ping = Shows the latency estimation of the bot (for the current cluster).
+help-ping = Zeigt die Latenzabschätzung des Bots (für den aktuellen Cluster).
 # max.length: 100
-help-martine = Get all informations about Martine.
+help-martine = Hier finden Sie alle Informationen über Martine.
 # max.length: 100
-help-info = Get info of multiple things on Discord.
+help-info = Holen Sie sich Informationen über mehrere Dinge auf Discord.
 # max.length: 100
-help-info_user = Shows information about a user.
+help-info_user = Zeigt Informationen über einen Benutzer an.
 # max.length: 100
-info_user-parameter-user-description = The user you want information about.
+info_user-parameter-user-description = Der Benutzer, über den Sie Informationen wünschen.
 # max.length: 100
-help-info_server = Shows information about the server, members badges, and assets.
+help-info_server = Zeigt Informationen über den Server, die Abzeichen der Mitglieder und die Assets.
 # max.length: 100
-help-info_channel = Shows information about a channel. Default to current.
+help-info_channel = Zeigt Informationen über einen Kanal an. Standardmäßig auf derzeitigen Kannal.
 # max.length: 100
-info_channel-parameter-channel-description = The channel you want information about.
+info_channel-parameter-channel-description = Der Kanal, über den Sie Informationen wünschen.
 # max.length: 100
-help-info_role = Shows information about a role.
+help-info_role = Zeigt Informationen über eine Rolle.
 # max.length: 100
-info_role-parameter-role-description = The role you want information about.
+info_role-parameter-role-description = Die Rolle, über die Sie Informationen wünschen.
 # max.length: 100
-help-info_emoji = Shows information about a emoji.
+help-info_emoji = Zeigt Informationen über ein Emoji an.
 # max.length: 100
-info_emoji-parameter-emoji-description = The emoji you want information about.
+info_emoji-parameter-emoji-description = Das Emoji, über das Sie Informationen wünschen.
 # max.length: 100
-help-info_bot_clusters = Shows clusters stats.
+help-info_bot_clusters = Zeigt Cluster-Statistiken an.
 # max.length: 100
-help-info_bot_currentcluster = Shows infos about the current cluster.
+help-info_bot_currentcluster = Zeigt Informationen über den aktuellen Cluster an.
 # max.length: 100
-help-help = Get the list of commands and important links.
+help-help = Hier finden Sie die Liste der Befehle und wichtigen Links.

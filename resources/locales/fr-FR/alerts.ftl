@@ -11,7 +11,7 @@ streams-endbehavior = Fin du comportement
 # $source will be the source of the stream alert.
 streams-count = Alertes de flux { $source } dans ce serveur
 # $source will be the source of the stream alert.
-streams-none = There are no { $source } stream alerts in this server.
+streams-none = Il n'y a pas d'alertes de stream { $source } dans ce serveur.
 streams-disable-autorefresh = Désactiver le rafraîchissement automatique des alertes
 streams-enable-autorefresh = Activer le rafraîchissement automatique des alertes
 # max.length: 80
@@ -60,7 +60,7 @@ videos-msg-changed = La mise à jour du message des alertes vidéo a été effec
 # $source will be the source of the video alert.
 videos-count = { $source } alertes vidéo dans ce serveur
 # $source will be the source of the video alert.
-videos-none = There are no { $source } video alerts in this server.
+videos-none = Il n'y a pas d'alertes vidéo { $source } dans ce serveur.
 # $source will be the source of the video alert.
 videos-added = L'ajout de ce canal { $source } en tant que canal d'alerte a été effectué avec succès !
 videos-added-tip =
@@ -71,7 +71,7 @@ videos-removed = L'alerte { $source } a été supprimée avec succès de ce cana
 yt-notfound =
     Impossible de trouver cet utilisateur YouTube.
     Réessayez en collant l'URL de la chaîne sur https://commentpicker.com/youtube-channel-id.php et prenez la valeur "Channel ID".
-tiktok-notfound = Couldn't find that TikTok user.
+tiktok-notfound = Impossible de trouver cet utilisateur TikTok.
 # max.length: 100
 help-alerts = Gérer les alertes dans ce serveur.
 # max.length: 100
@@ -81,11 +81,11 @@ help-alerts_videos_youtube = Gérer une alerte vidéo pour un utilisateur de You
 # max.length: 100
 alerts_videos_youtube-parameter-user_name_or_id-description = Le nom ou l'identifiant de la chaîne YouTube.
 # max.length: 100
-help-alerts_videos_tiktok = Manage a video alert for a TikTok user.
+help-alerts_videos_tiktok = Gérer une alerte vidéo pour un utilisateur TikTok.
 # max.length: 100
-alerts_videos_tiktok-parameter-user_name_or_url-description = The TikTok channel name or URL.
+alerts_videos_tiktok-parameter-user_name_or_url-description = Le nom ou l'URL de la chaîne TikTok.
 # max.length: 100
-alerts_videos_tiktok-parameter-message_template-long-description = The message template to use for the alert. Use { name } for the channel name.
+alerts_videos_tiktok-parameter-message_template-long-description = Le modèle de message à utiliser pour l'alerte. Utilisez { name } pour le nom du salon.
 # max.length: 100
 help-alerts_videos_settings = Gérer les paramètres des alertes vidéo.
 # max.length: 100

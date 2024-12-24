@@ -12,7 +12,7 @@ giveaway-requirements = Requirements:
 giveaway-bypassrole = { $role } role bypasses those requirements!
 giveaway-ends = Ends:
 giveaway-ends-at = Ends at
-giveaway-winners = Winners:
+giveaway-winners = Pemenang:
 giveaway-rolling = Rolling giveaway { $prize }...
 giveaway-roll-notfound =
     The message of giveaway { $prize } seems to have been deleted.
@@ -32,8 +32,8 @@ giveaway-roll-total-entries =
     }!
 giveaway-roll-gg = Congratulation { $winners }!
 giveaway-roll-nothing =
-    But no one entered. { $emoji }
-    It was { $prize }
+    Tapi tidak ada yang ikut. { $emoji }
+    hadiahnya adalah { $prize }
 giveaway-ended = Giveaway Ended
 giveaway-ended-time = Giveaway ended { $locale_formatted_time }!
 giveaway-no-winners = No one won
@@ -66,7 +66,7 @@ giveaway_create-parameter-use_config-description = Whether you want to use alrea
 giveaway-setup = Giveaway setup { $emoji }
 giveaway-setup-optional = Optional
 giveaway-setup-current-value = Current value:
-giveaway-setup-example = Example:
+giveaway-setup-example = Contoh:
 giveaway-setup-footer-cancel-skip = Send "cancel" to cancel the setup or send "skip" to skip that question.
 giveaway-setup-footer-cancel = Send "cancel" to cancel the setup.
 giveaway-setup-keep = Send "keep" to keep the current value.
@@ -147,7 +147,7 @@ giveaway-list-failed = Failed to get that giveaway { $id }.
 giveaway-list-no-description = No description.
 giveaway-list-jump-url = Jump to message!
 giveaway-list-page = Page
-giveaway-list-ended = Ended
+giveaway-list-ended = Habis
 giveaway-list-ends-at = Ends
 # max.length: 100
 help-giveaway_settings = Set the default values for giveaways in this server.

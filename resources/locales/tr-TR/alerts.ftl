@@ -11,7 +11,7 @@ streams-endbehavior = Eylemi sonlandır
 # $source will be the source of the stream alert.
 streams-count = { $source } bildirimleri bu sunucuda yayınlanıyor
 # $source will be the source of the stream alert.
-streams-none = There are no { $source } stream alerts in this server.
+streams-none = Bu sunucuda { $source } yayın bildirimi yok.
 streams-disable-autorefresh = Otomatik bildirim yenilemeyi devre dışı bırak
 streams-enable-autorefresh = Otomatik bildirim yenilemeyi aktifleştir
 # max.length: 80
@@ -60,7 +60,7 @@ videos-msg-changed = Video bildirimi başarıyla güncellendi!
 # $source will be the source of the video alert.
 videos-count = { $source } videoların bildirimi bu sunucuda
 # $source will be the source of the video alert.
-videos-none = There are no { $source } video alerts in this server.
+videos-none = Bu sunucuda { $source } video bildirimi yok.
 # $source will be the source of the video alert.
 videos-added = { $source } kanalını başarıyla söz konusu kanala eklendi!
 videos-added-tip =
@@ -71,7 +71,7 @@ videos-removed = { $source } kanal bildirimi bu kanaldan başarıyla kaldırıld
 yt-notfound =
     Bu YouTube kullanıcısını bulamadı.
     Kanal URL'sini https://commentpicker.com/youtube-channel-id.php adresine yapıştırarak tekrar deneyin ve "Channel ID" değerini alın.
-tiktok-notfound = Couldn't find that TikTok user.
+tiktok-notfound = Bu TikTok kullanıcısını bulamadım.
 # max.length: 100
 help-alerts = Bildirimleri bu sunucuda düzenleyin.
 # max.length: 100
@@ -81,11 +81,11 @@ help-alerts_videos_youtube = Bir YouTube kullanıcısı için video bildirimini 
 # max.length: 100
 alerts_videos_youtube-parameter-user_name_or_id-description = YouTube kanal adı veya ID'si.
 # max.length: 100
-help-alerts_videos_tiktok = Manage a video alert for a TikTok user.
+help-alerts_videos_tiktok = Bir TikTok kullanıcısı için video bildirimini yönetin.
 # max.length: 100
-alerts_videos_tiktok-parameter-user_name_or_url-description = The TikTok channel name or URL.
+alerts_videos_tiktok-parameter-user_name_or_url-description = TikTok kanal adı veya URL'si.
 # max.length: 100
-alerts_videos_tiktok-parameter-message_template-long-description = The message template to use for the alert. Use { name } for the channel name.
+alerts_videos_tiktok-parameter-message_template-long-description = Bildirimler için kullanılacak mesaj şablonu. Kanal adı için { name } adresini kullanın.
 # max.length: 100
 help-alerts_videos_settings = Video bildirim ayarlarını yönet.
 # max.length: 100

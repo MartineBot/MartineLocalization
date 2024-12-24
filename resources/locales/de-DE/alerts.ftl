@@ -11,7 +11,7 @@ streams-endbehavior = Endverhalten
 # $source will be the source of the stream alert.
 streams-count = { $source } Benachrichtigungen auf diesem Server
 # $source will be the source of the stream alert.
-streams-none = There are no { $source } stream alerts in this server.
+streams-none = Auf diesem Server gibt es keine { $source } Stream-Benachrichtigung.
 streams-disable-autorefresh = Deaktiviere die automatische Aktualisierung der Benachrichtigungen
 streams-enable-autorefresh = Aktiviere die automatische Aktualisierung der Benachrichtigungen
 # max.length: 80
@@ -60,7 +60,7 @@ videos-msg-changed = Die Nachricht für die Videobenachrichtigung wurde erfolgre
 # $source will be the source of the video alert.
 videos-count = { $source } Videobenachrichtigungen auf diesem Server
 # $source will be the source of the video alert.
-videos-none = There are no { $source } video alerts in this server.
+videos-none = Auf diesem Server gibt es keine { $source } Video Benachrichtigungen.
 # $source will be the source of the video alert.
 videos-added = { $source } wurde erfolgreich als eine Benachrichtigung in diesem Kanal hinzugefügt!
 videos-added-tip =
@@ -71,7 +71,7 @@ videos-removed = { $source } wurde erfolgreich in diesem Kanal entfernt!
 yt-notfound =
     YouTube Benutzer konnte nicht gefunden werden.
     Versuchen es erneut, indem du die Kanal-URL unter https://commentpicker.com/YouTube-channel-id.php kopierst und den Wert "Channel ID" eingibst.
-tiktok-notfound = Couldn't find that TikTok user.
+tiktok-notfound = Ich konnte diesen TikTok-Benutzer nicht finden.
 # max.length: 100
 help-alerts = Benachrichtigungen auf diesem Server verwalten.
 # max.length: 100
@@ -81,11 +81,11 @@ help-alerts_videos_youtube = Eine Video-Benachrichtigung für einen YouTube-Benu
 # max.length: 100
 alerts_videos_youtube-parameter-user_name_or_id-description = Der Name oder die ID des YouTube-Kanals.
 # max.length: 100
-help-alerts_videos_tiktok = Manage a video alert for a TikTok user.
+help-alerts_videos_tiktok = Verwalten Sie eine Videobenachrichtigung für einen TikTok-Benutzer.
 # max.length: 100
-alerts_videos_tiktok-parameter-user_name_or_url-description = The TikTok channel name or URL.
+alerts_videos_tiktok-parameter-user_name_or_url-description = Der Name oder die URL des TikTok-Kanals.
 # max.length: 100
-alerts_videos_tiktok-parameter-message_template-long-description = The message template to use for the alert. Use { name } for the channel name.
+alerts_videos_tiktok-parameter-message_template-long-description = Die Nachrichtenvorlage, die für den Alarm verwendet werden soll. Verwenden Sie { name } für den Kanalnamen.
 # max.length: 100
 help-alerts_videos_settings = Die Einstellungen für Video-Benachrichtigungen verwalten.
 # max.length: 100

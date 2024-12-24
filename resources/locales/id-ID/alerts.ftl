@@ -1,5 +1,5 @@
-yes = Yes
-no = No
+yes = Iya
+no = Tidak
 max-alerts-0 = You cannot have more than 20 alerts per server.
 max-alerts-0-tip = You can get higher limits with our Premium tiers:
 max-alerts-1 = You cannot have more than 30 alerts per server with this premium tier.

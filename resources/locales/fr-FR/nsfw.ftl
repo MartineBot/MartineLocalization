@@ -17,10 +17,10 @@ command-invalid-category = Désolé, mais ce n'est pas une catégorie valide ! {
 command-list-categories = Voici une liste de toutes les catégories disponibles :
 msg-category = **Catégorie d'image :** { $category }
 msg-search-tags = **Tags :** { $tags }
-msg-requested-by = Requested by: { $author }
-msg-invite-me = Invite me
+msg-requested-by = Demandé par : { $author }
+msg-invite-me = Invite moi
 msg-premium = Premium
-msg-discord-server = Discord Server
+msg-discord-server = Serveur Discord
 msg-image = **Image :** { $link }
 msg-images = **Images :**
 embed-auto-footer = Utilisez { $cmd_mention } pour modifier le délai ou désactiver
@@ -95,7 +95,7 @@ auto-setup-enable-fail = Je n'ai pas pu configurer l'autoporn dans ce salon. Veu
 auto-setup-no-premium =
     Tu ne peux pas avoir plus de { $count } salons autoporn par serveur.
     Cependant, tu peux obtenir des limites plus élevées avec nos niveaux Premium : { $premium_url }
-auto-setup-no-premium-3 = 25 autoporn channels is the maximum that can be set.
+auto-setup-no-premium-3 = Le nombre maximum de salons autoporn est de 25.
 auto-setup-enable-no-webhooks-perm =
     J'ai besoin de la permission "Gérer les Webhooks" pour pouvoir envoyer des messages autoporn dans ce salon !
     La fonctionnalité d'autoporn utilise des webhooks pour envoyé les images dans les meilleures conditions possibles en termes de délai.
