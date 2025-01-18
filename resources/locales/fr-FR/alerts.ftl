@@ -1,106 +1,106 @@
 yes = Oui
 no = Non
-max-alerts-0 = Vous ne pouvez pas avoir plus de 20 alertes par serveur.
-max-alerts-0-tip = Vous pouvez obtenir des limites plus élevées avec nos niveaux Premium :
-max-alerts-1 = Vous ne pouvez pas avoir plus de 30 alertes par serveur avec ce niveau premium.
-max-alerts-1-tip = Vous pouvez recevoir un nombre illimité d'alertes avec notre niveau Server Premium Gold :
-streams-settings = paramètres des alertes de flux
+max-alerts-0 = La limite est fixée à 20 alertes par serveurs.
+max-alerts-0-tip = Cette limite peut être augmentée grâce à nos niveaux Premium :
+max-alerts-1 = Ce niveau premium limite à 30 le nombre d'alertes par serveur.
+max-alerts-1-tip = Il n'y a plus de limite d'alertes avec le niveau de Premium Gold :
+streams-settings = paramètres des alertes de streams
 streams-message = Message
 streams-autorefresh = Actualisation automatique des alertes
-streams-endbehavior = Fin du comportement
+streams-endbehavior = Alerte de fin de stream
 # $source will be the source of the stream alert.
-streams-count = Alertes de flux { $source } dans ce serveur
+streams-count = Alerte de streams { $source } sur ce serveur
 # $source will be the source of the stream alert.
-streams-none = Il n'y a pas d'alertes de stream { $source } dans ce serveur.
-streams-disable-autorefresh = Désactiver le rafraîchissement automatique des alertes
-streams-enable-autorefresh = Activer le rafraîchissement automatique des alertes
+streams-none = Il n'y a pas d'alerte de stream { $source } sur ce serveur.
+streams-disable-autorefresh = Désactiver l'actualisation automatique des alertes
+streams-enable-autorefresh = Activer l'actualisation automatique des alertes
 # max.length: 80
 streams-edit-msg-btn = Modifier le message
 # max.length: 80
-streams-autorefresh-btn = Rafraîchissement automatique
-streams-autorefresh-enabled = Très bien ! Les messages d'alerte du flux seront désormais actualisés automatiquement au bout de 15 minutes.
-streams-autorefresh-disabled = Très bien ! Les messages d'alerte du flux ne seront plus actualisés automatiquement.
-streams-endbehavior-select = Modifier les flux et le comportement
+streams-autorefresh-btn = Actualisation automatique
+streams-autorefresh-enabled = D'accord ! Les alertes de stream seront automatiquement actualisée toutes les 15 minutes.
+streams-autorefresh-disabled = D'accord ! Les alertes de stream ne seront plus actualisées automatiquement.
+streams-endbehavior-select = Modifier l'alerte de fin des streams
 streams-deletealertmsg = Supprimer le message d'alerte
-streams-deletealertmsg-desc = Cette opération supprime le message d'alerte du flux.
+streams-deletealertmsg-desc = Permet de supprimer le message d'alerte du stream.
 streams-editalertmsg = Modifier le message d'alerte
-streams-editalertmsg-desc = Cela permet de modifier le message d'alerte du flux en y ajoutant des informations sur le flux.
+streams-editalertmsg-desc = Permet de modifier le message d'alerte du stream en y ajoutant des informations.
 streams-newmsg = Envoyer un nouveau message
-streams-newmsg-desc = Cela enverra un nouveau message contenant des informations sur le flux.
-streams-same-endbehavior = Veuillez choisir un autre comportement que celui actuellement sélectionné.
-streams-endbehavior-changed = Mise à jour réussie du comportement de fin de flux.
+streams-newmsg-desc = Envoie un nouveau message avec des informations sur le stream.
+streams-same-endbehavior = Sélectionne un autre type d'alerte que celui actuellement utilisé.
+streams-endbehavior-changed = L'alerte de fin de stream a été mise à jour.
 # max.length: 45
-streams-msg-modal = Éditeur de messages d'alerte pour les flux
+streams-msg-modal = Éditeur de messages d'alerte pour les streams
 # max.length: 45
-streams-msg-label = Définir le message envoyé lors d'une alerte de début de flux.
+streams-msg-label = Message à afficher sur l'alerte de stream.
 # max.length: 100
 streams-msg-placeholder = { "{" }streamer{ "}" } = le nom du streamer - { "{" }everyone{ "}" } = @everyone ping - { "{" }here{ "}" } = @here ping
-streams-msg-changed = Mise à jour réussie du message d'alerte de début de flux !
+streams-msg-changed = Mise à jour du message d'alerte de lancement de stream réussie !
 # $source will be the source of the stream alert.
-streams-added = L'ajout de ce flux { $source } en tant qu'alerte dans ce canal a été effectué avec succès !
+streams-added = Une alerte a bien été ajoutée pour ce stream { $source } dans ce salon !
 # $cmd_mention is the slash command mention for /alerts streams settings
 streams-added-tip =
-    Une alerte sera envoyée lors du prochain flux.
-    Vous pouvez mettre à jour les paramètres d'alerte des flux à l'aide de la commande { $cmd_mention } .
+    Une alerte sera envoyée lors du prochain stream.
+    Utilise la commande { $cmd_mention } pour mettre à jour les paramètres d'alertes de streams.
 # $source will be the source of the stream alert.
-streams-removed = L'alerte { $source } a été supprimée avec succès de ce canal!
+streams-removed = L'alerte de ce stream { $source } a été supprimée de ce salon avec succès !
 streams-twitch-notfound = Impossible de trouver cet utilisateur Twitch.
 streams-kick-notfound = Impossible de trouver cet utilisateur Kick.
-videos-settings = paramètres des alertes vidéos
+videos-settings = paramètres des alertes de vidéos
 videos-message = Message
 # max.length: 80
 videos-settings-msg-btn = Modifier le message
 # max.length: 45
-videos-msg-modal = Éditeur du message des alertes vidéo
+videos-msg-modal = Éditeur de messages d'alerte pour les vidéos
 # max.length: 45
-videos-msg-label = Définir le message envoyé pour les alertes vidéo.
+videos-msg-label = Message à afficher sur l'alerte de vidéos.
 # max.length: 100
-videos-msg-placeholder = { "{" }nom{ "}" } = le nom du créateur de la vidéo - { "{" }everyone{ "}" } = @tous ping - { "{" }here{ "}" } = @here ping
-videos-msg-changed = La mise à jour du message des alertes vidéo a été effectuée avec succès !
+videos-msg-placeholder = { "{" }name{ "}" } = le nom du créateur de la vidéo - { "{" }everyone{ "}" } = @everyone ping - { "{" }here{ "}" } = @here ping
+videos-msg-changed = Mise à jour du message d'alerte de vidéos réussie !
 # $source will be the source of the video alert.
-videos-count = { $source } alertes vidéo dans ce serveur
+videos-count = Alerte de vidéos { $source } sur ce serveur
 # $source will be the source of the video alert.
-videos-none = Il n'y a pas d'alertes vidéo { $source } dans ce serveur.
+videos-none = Il n'y a pas d'alerte de vidéo { $source } sur ce serveur.
 # $source will be the source of the video alert.
-videos-added = L'ajout de ce canal { $source } en tant que canal d'alerte a été effectué avec succès !
+videos-added = Une alerte a bien été ajoutée pour cette chaîne { $source } dans ce salon !
 videos-added-tip =
-    Une alerte sera envoyée lorsque la prochaine vidéo sera publiée.
-    Vous pouvez mettre à jour les paramètres d'alerte des vidéos à l'aide de la commande { $cmd_mention } .
+    Une alerte sera envoyée lors de la sortie de la prochaine vidéo.
+    Utilise la commande { $cmd_mention } pour mettre à jour les paramètres d'alertes de vidéos.
 # $source will be the source of the video alert.
-videos-removed = L'alerte { $source } a été supprimée avec succès de ce canal !
+videos-removed = L'alerte de cette chaîne { $source } a été supprimée de ce salon avec succès !
 yt-notfound =
     Impossible de trouver cet utilisateur YouTube.
-    Réessayez en collant l'URL de la chaîne sur https://commentpicker.com/youtube-channel-id.php et prenez la valeur "Channel ID".
+    Tu peux obtenir le « Channel ID » d'une chaîne YouTube en copiant son URL sur https://commentpicker.com/youtube-channel-id.php.
 tiktok-notfound = Impossible de trouver cet utilisateur TikTok.
 # max.length: 100
-help-alerts = Gérer les alertes dans ce serveur.
+help-alerts = Gérer les alertes sur le serveur.
 # max.length: 100
-help-alerts_videos = Gérer les alertes vidéo dans ce serveur.
+help-alerts_videos = Gérer les alertes de vidéos sur le serveur.
 # max.length: 100
-help-alerts_videos_youtube = Gérer une alerte vidéo pour un utilisateur de YouTube.
+help-alerts_videos_youtube = Créer une alerte de vidéo YouTube.
 # max.length: 100
-alerts_videos_youtube-parameter-user_name_or_id-description = Le nom ou l'identifiant de la chaîne YouTube.
+alerts_videos_youtube-parameter-user_name_or_id-description = Le nom ou « ID » de la chaîne YouTube.
 # max.length: 100
-help-alerts_videos_tiktok = Gérer une alerte vidéo pour un utilisateur TikTok.
+help-alerts_videos_tiktok = Gérer l'alerte de vidéo d'un utilisateur TikTok.
 # max.length: 100
-alerts_videos_tiktok-parameter-user_name_or_url-description = Le nom ou l'URL de la chaîne TikTok.
+alerts_videos_tiktok-parameter-user_name_or_url-description = Le nom ou l'URL du compte TikTok.
 # max.length: 100
-alerts_videos_tiktok-parameter-message_template-long-description = Le modèle de message à utiliser pour l'alerte. Utilisez { name } pour le nom du salon.
+alerts_videos_tiktok-parameter-message_template-long-description = Le modèle de message à utiliser pour l'alerte. Utilise { name } pour obtenir le nom du compte.
 # max.length: 100
-help-alerts_videos_settings = Gérer les paramètres des alertes vidéo.
+help-alerts_videos_settings = Gérer les paramètres des alertes de vidéos.
 # max.length: 100
-help-alerts_streams = Gérer les alertes de flux dans ce serveur.
+help-alerts_streams = Gérer les alertes de streams sur le serveur.
 # max.length: 100
-help-alerts_streams_youtube = Gérer une alerte de flux pour un utilisateur de YouTube.
+help-alerts_streams_youtube = Gérer l'alerte de stream d'un utilisateur YouTube.
 # max.length: 100
-alerts_streams_youtube-parameter-user_name_or_id-description = Le nom ou l'identifiant de la chaîne YouTube.
+alerts_streams_youtube-parameter-user_name_or_id-description = Le nom ou « ID » de la chaîne YouTube.
 # max.length: 100
-help-alerts_streams_twitch = Gérer une alerte de flux pour un utilisateur Twitch.
+help-alerts_streams_twitch = Gérer l'alerte de stream d'un utilisateur Twitch.
 # max.length: 100
 alerts_streams_twitch-parameter-user_name_or_url-description = Le nom ou l'URL de la chaîne Twitch.
 # max.length: 100
-help-alerts_streams_kick = Gérer une alerte de stream pour un utilisateur Kick.
+help-alerts_streams_kick = Gérer l'alerte de stream d'un utilisateur Kick.
 # max.length: 100
 alerts_streams_kick-parameter-user_name_or_url-description = Le nom ou l'URL de la chaîne Kick.
 # max.length: 100
-help-alerts_streams_settings = Gérer les paramètres des alertes de flux.
+help-alerts_streams_settings = Gérer les paramètres des alertes de streams.

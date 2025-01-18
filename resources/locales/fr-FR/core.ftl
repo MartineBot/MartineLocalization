@@ -1,4 +1,4 @@
-support-server = Serveur de support
+support-server = Serveur d’assistance
 permission =
     { $count ->
         [one] permission
@@ -8,8 +8,8 @@ error-title = Oups ! Une erreur s'est produite !
 error-description =
     La commande { $command } a échoué.
     Cette erreur a été transmise au développeur du bot.
-error-tip-title = Vous n'êtes pas sûr de vous ?
-error-tip-description = Rejoignez le serveur de support en [cliquant ici]({ $invite_url }), quelqu'un répondra à vos questions.
+error-tip-title = Besoin d'aide ?
+error-tip-description = Rejoins le serveur d'assistance en [cliquant ici]({ $invite_url }), quelqu'un répondra à tes questions.
 missing-perms-msg = J'ai besoin de { $perms } { $permission } pour exécuter cette commande.
 command-nodm = Cette commande n'est pas disponible en Messages Privés.
 command-dmonly = Cette commande est disponible seulement en Messages Privés.

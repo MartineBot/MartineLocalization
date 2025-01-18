@@ -1,66 +1,66 @@
 yes = Yes
 no = No
 # /help command
-shelp-title = Martine - App commands list
-shelp-desc = Here is the list of the available app commands on Martine.
-shelp-nocategory = No category
-shelp-context-cmds = Context menu commands:
-shelp-context-cmds-desc = These commands are available when right clicking/holding a user or a message.
-shelp-user-cmds = User commands:
-slash-help-msg-cmds = Message commands:
-slash-help-extra-links = Extra links:
+shelp-title = Martine - รายการคำสั่งของแอป
+shelp-desc = นี่คือรายการคำสั่งแอปที่ใช้งานได้บน Martine
+shelp-nocategory = ไม่มีหมวดหมู่
+shelp-context-cmds = คำสั่งเมนูบริบท:
+shelp-context-cmds-desc = คำสั่งเหล่านี้สามารถใช้งานได้เมื่อคลิกขวา/กดค้างที่ผู้ใช้หรือที่ข้อความ
+shelp-user-cmds = คำสั่งของผู้ใช้:
+slash-help-msg-cmds = คำสั่งข้อความ:
+slash-help-extra-links = ลิงก์เพิ่มเติม:
 # Suggestions form modal
 # max.length: 45
-mart-sugg-form = Martine suggestions form
+mart-sugg-form = แบบฟอร์มข้อเสนอแนะของ Martine
 # max.length: 45
-mart-sugg-short = Short description
+mart-sugg-short = อธิบายแบบสั้นๆ
 # max.length: 100
-mart-sugg-short-placeholder = A brief description of your suggestion...
+mart-sugg-short-placeholder = อธิบายสั้นๆเกี่ยวกับข้อเสนอแนะของคุณ...
 # max.length: 45
-mart-sugg-long = Long description
+mart-sugg-long = อธิบายแบบยาว
 # max.length: 100
-mart-sugg-long-placeholder = Explain in details what your suggestion consists of...
-mart-sugg-fail = Oops! Failed to process your suggestion. Please try again later.
-mart-sugg-thanks = Thank you for your suggestion!
-mart-sugg-note = Note: You won't be able to send a new suggestion for 30 minutes.
+mart-sugg-long-placeholder = อธิบายรายละเอียดเกี่ยวกับข้อเสนอแนะของคุณ...
+mart-sugg-fail = โอ้! ไม่สามารถประมวลผลข้อเสนอแนะของคุณได้ กรุณาลองใหม่อีกครั้งภายหลัง
+mart-sugg-thanks = ขอบคุณสำหรับข้อเสนอ!
+mart-sugg-note = หมายเหตุ: คุณไม่สามารถส่งข้อเสนอแนะใหม่ได้ภายใน 30 นาที
 # serverinfo command
 # max.length: 100
-help-serverinfo = Shows information about the server, members badges, and assets.
-si-members-field = Members:
-si-members-connected = Members connected:
-si-humans = Humans:
-si-bots = Bots:
-si-members-vcs = Members in voice channels:
-si-general-field = General:
-si-rules-chan = Rules channel:
-si-owner = Owner:
-si-verif-lvl = Verif. level:
-si-channels = Channels:
-si-afk = AFK channel:
-si-emojis = Emojis:
-si-emojis-static = Static
-si-emojis-animated = Animated
-si-emojis-disabled = Disabled
-si-stickers = Stickers:
-si-roles = Roles:
-si-upload-limit = Upload limit:
-si-audio-bitrate-max = Audio bitrate max:
-si-is-martine-premium = Premium:
-si-server-banner = Server banner
-si-inv-bg = Server invite background
-si-features-field = Features:
-si-boosts-status = Boost status:
-si-last-boost = Last boost:
-si-maxboostreached = Max boost level reached!
-si-boosts-for-next-lvl = boosts for level
-si-bot-join-date = joined this server on
-si-server-id = Server ID
-si-shard-id = Bot shard ID
-si-users-badges = Users badges in
+help-serverinfo = แสดงข้อมูลเกี่ยวกับเซิร์ฟเวอร์, ป้ายสมาชิก, และทรัพยากร
+si-members-field = สมาชิก:
+si-members-connected = สมาชิกที่ออนไลน์อยู่:
+si-humans = มนุษย์:
+si-bots = บอท:
+si-members-vcs = สมาชิกที่อยู่ในช่องเสียง:
+si-general-field = ทั่วไป:
+si-rules-chan = ช่องกฎ:
+si-owner = เจ้าของ:
+si-verif-lvl = ระดับการยืนยันตัวตน:
+si-channels = ช่อง:
+si-afk = ช่อง AFK
+si-emojis = อีโมจิ
+si-emojis-static = คงที่
+si-emojis-animated = เคลื่อนไหว
+si-emojis-disabled = ปิดการใช้งาน
+si-stickers = สติกเกอร์:
+si-roles = บทบาท:
+si-upload-limit = ขีดจำกัดในการอัปโหลด:
+si-audio-bitrate-max = อัตราบิตเสียงสูงสุด:
+si-is-martine-premium = พรีเมี่ยม
+si-server-banner = แบนเนอร์เซิร์ฟเวอร์
+si-inv-bg = พื้นหลังเชิญเซิร์ฟเวอร์
+si-features-field = ฟีเจอร์:
+si-boosts-status = สถานะการบูสต์:
+si-last-boost = การบูสต์ล่าสุด:
+si-maxboostreached = ระดับบูสต์สูงสุดที่สามารถเข้าถึงได้!
+si-boosts-for-next-lvl = บูสต์สำหรับระดับ
+si-bot-join-date = เข้าร่วมเซิร์ฟเวอร์นี้เมื่อ
+si-server-id = รหัสเซิร์ฟเวอร์
+si-shard-id = รหัสบอทชาร์ด
+si-users-badges = รางวัลผู้ใช้ใน
 # max.length: 80
-si-si-btn = Server info
+si-si-btn = ข้อมูลเซิร์ฟเวอร์
 # max.length: 80
-si-badges-btn = View members badges
+si-badges-btn = ดูรางวัลของสมาชิก
 # max.length: 80
 si-assets-btn = View server assets
 si-icon = Icon
@@ -162,7 +162,7 @@ em-react = React to this message with the emoji of your choice
 em-cancelled = Cancelled
 em-unicode-char = Unicode character
 em-unicode-category = Unicode category
-em-animated = Animated
+em-animated = เคลื่อนไหว
 em-created = Created at
 em-required = required
 em-managed = Managed
@@ -201,7 +201,7 @@ help-info_user = Shows information about a user.
 # max.length: 100
 info_user-parameter-user-description = The user you want information about.
 # max.length: 100
-help-info_server = Shows information about the server, members badges, and assets.
+help-info_server = แสดงข้อมูลเกี่ยวกับเซิร์ฟเวอร์, ป้ายสมาชิก, และทรัพยากร
 # max.length: 100
 help-info_channel = Shows information about a channel. Default to current.
 # max.length: 100
