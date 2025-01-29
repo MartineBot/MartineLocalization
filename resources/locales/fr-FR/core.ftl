@@ -10,20 +10,20 @@ error-description =
     Cette erreur a été transmise au développeur du bot.
 error-tip-title = Besoin d'aide ?
 error-tip-description = Rejoins le serveur d'assistance en [cliquant ici]({ $invite_url }), quelqu'un répondra à tes questions.
-missing-perms-msg = J'ai besoin de { $perms } { $permission } pour exécuter cette commande.
-command-nodm = Cette commande n'est pas disponible en Messages Privés.
-command-dmonly = Cette commande est disponible seulement en Messages Privés.
-command-nsfwonly-title = Tu ne peux pas utiliser cette commande dans un salon qui n'est pas NSFW !
-command-nsfwonly-description = Utilise la commande { $cmd_mention } si tu n'es pas sûr de comment configurer ceci.
-command-boosters-only = **Désolé, mais cette commande n'est disponible que pour les boosters du serveur de Martine.**
-    Rejoignez-nous dès aujourd'hui en cliquant sur le lien suivant : { $invite_url }
-command-premium-user-only = **Désolé, mais cette commande n'est disponible que pour les utilisateurs premium (Niveau { $premium_lvl }).**
-    Rejoignez-nous aujourd'hui et bénéficiez de plus d'avantages, en cliquant sur le lien suivant :  { $premium_url }
-command-premium-server-only = **Désolé, mais cette commande n'est disponible que pour les utilisateurs premium (Niveau { $premium_lvl }).**
-    Rejoignez-nous aujourd'hui et bénéficiez de plus d'avantages, en cliquant sur le lien suivant :  { $premium_url }
-command-cd-tryagain = Essayez à nouveau { $time }. { $emoji }
+missing-perms-msg = { $permission } requise(s) pour exécuter cette commande : { $perms }.
+command-nodm = Cette commande n'est pas accessible en messages privés.
+command-dmonly = Cette commande est uniquement accessible en messages privés.
+command-nsfwonly-title = Cette commande est inutilisable dans un salon qui n'est pas NSFW !
+command-nsfwonly-description = Utilise la commande { $cmd_mention } si tu as besoin d'aide supplémentaire.
+command-boosters-only = **Désolé, cette commande n'est accessible qu'aux boosters du serveur de Martine**.
+    Rejoins-nous dès maintenant en cliquant sur ce lien : { $invite_url }
+command-premium-user-only = **Désolé, cette commande n'est accessible qu'aux membres Premium (Level { $premium_lvl }).**
+    Rejoins-nous dès maintenant et bénéficie de nombreux avantages en cliquant sur ce lien :  { $premium_url }
+command-premium-server-only = **Désolé, cette commande n'est accessible qu'aux serveurs Premium (Level { $premium_lvl }).**
+    Rejoins-nous dès maintenant et bénéficie de nombreux avantages en cliquant sur ce lien :  { $premium_url }
+command-cd-tryagain = Essaye à nouveau { $time }. { $emoji }
 command-cd-global =
-    Cette commande est en cooldown au niveau global.
+    Cette commande est en cooldown pour tout le monde.
     { $command-cd-tryagain }
 command-cd-userglobal =
     Cette commande est en cooldown pour vous globalement.

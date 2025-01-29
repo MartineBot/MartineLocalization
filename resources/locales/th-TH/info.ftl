@@ -62,22 +62,22 @@ si-si-btn = ข้อมูลเซิร์ฟเวอร์
 # max.length: 80
 si-badges-btn = ดูรางวัลของสมาชิก
 # max.length: 80
-si-assets-btn = View server assets
-si-icon = Icon
+si-assets-btn = ดูทรัพย์สินเซิร์ฟเวอร์
+si-icon = ไอคอน
 # max.length: 80
-si-banner-btn = Banner
+si-banner-btn = แบนเนอร์
 # max.length: 80
 si-invite-bg-btn = Invite Background
 # max.length: 80
 si-back-si-btn = Get back to server info
 # userinfo command
 # max.length: 100
-help-userinfo = Shows information about a user.
-ui-app-info = Application Information
-ui-app-tags = Tags
-ui-app-tags-empty = Empty
+help-userinfo = แสดงข้อมูลเกี่ยวกับผู้ใช้
+ui-app-info = ข้อมูลการสมัคร
+ui-app-tags = แท็ก
+ui-app-tags-empty = ว่างเปล่า
 ui-app-flags = Application flags
-ui-app-presence = Presence Intent
+ui-app-presence = การแสดงเจตนา
 ui-app-members = Server Members Intent
 ui-app-msg = Message Content Intent
 ui-app-misc = Misc
@@ -109,12 +109,12 @@ ui-competing = Competing in { $name }
 ui-roles = Roles
 ui-member = Member
 ui-select-assets = View user's avatar or banner...
-ui-select-banner = Banner
+ui-select-banner = แบนเนอร์
 ui-select-avatar = Avatar
 ui-select-server-avatar = Server avatar
 ui-no-banner = No banner set.
-ui-user-avatar = { $user } user avatar
-ui-server-avatar = { $user } server avatar
+ui-user-avatar = { $user }
+ui-server-avatar = { $user }
 ui-no-server-avatar = No server avatar set.
 # max.length: 80
 ui-back-btn = Get back to user info
@@ -197,7 +197,7 @@ help-martine = Get all informations about Martine.
 # max.length: 100
 help-info = Get info of multiple things on Discord.
 # max.length: 100
-help-info_user = Shows information about a user.
+help-info_user = แสดงข้อมูลเกี่ยวกับผู้ใช้
 # max.length: 100
 info_user-parameter-user-description = The user you want information about.
 # max.length: 100

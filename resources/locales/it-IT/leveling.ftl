@@ -100,7 +100,7 @@ help-lvlset_exp_cooldown = [Server Premium Silver] Imposta il raffreddamento del
 # max.length: 100
 lvlset_exp_cooldown-parameter-cooldown-description = Il valore di raffreddamento (in secondi) da impostare. Dev'essere compreso tra 10s e 21600s. Predefinito a 60.
 # max.length: 100
-help-lvlset_exp_msglength = [Server Premium Silver] Imposta la lunghezza minima del messaggio per il guadagno di esperienza. Predefinita a 20.
+help-lvlset_exp_msglength = [Server Premium Silver] Set minimum message length for exp gain. Default is 5.
 # max.length: 100
 help-lvlset_ignore = Gestisci cosa ignorare.
 # max.length: 100

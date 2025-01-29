@@ -100,7 +100,7 @@ help-lvlset_exp_cooldown = [Server Premium Silver] Still inn exp-nedkjølingen p
 # max.length: 100
 lvlset_exp_cooldown-parameter-cooldown-description = Nedkjølingsverdien (i sekunder) som skal angis. Må være mellom 10s og 21600s. Standard er 60.
 # max.length: 100
-help-lvlset_exp_msglength = [Server Premium Silver] Angi minimum meldingslengde for exp gain. Standard er 20.
+help-lvlset_exp_msglength = [Server Premium Silver] Set minimum message length for exp gain. Default is 5.
 # max.length: 100
 help-lvlset_ignore = Administrer ignorerings innstillinger.
 # max.length: 100

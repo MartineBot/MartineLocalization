@@ -100,7 +100,7 @@ help-lvlset_exp_cooldown = [Sunucu Premium Gümüş] Xp bekleme süresini saniye
 # max.length: 100
 lvlset_exp_cooldown-parameter-cooldown-description = Ayarlanacak bekleme süresi değeri (saniye cinsinden). 10s ile 21600s arasında olmalıdır. Varsayılan değer 60'tır.
 # max.length: 100
-help-lvlset_exp_msglength = [Sunucu Premium Gümüş] Xp kazancı için minimum mesaj uzunluğunu ayarlayın. Varsayılan değer 20'dir.
+help-lvlset_exp_msglength = [Server Premium Silver] Set minimum message length for exp gain. Default is 5.
 # max.length: 100
 help-lvlset_ignore = Yoksayma ayarlarını yönetin.
 # max.length: 100

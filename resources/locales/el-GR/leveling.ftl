@@ -100,7 +100,7 @@ help-lvlset_exp_cooldown = [Server Premium Silver] Ορίστε την αναμ�
 # max.length: 100
 lvlset_exp_cooldown-parameter-cooldown-description = Η τιμή επαναφόρτισης (σε δευτερόλεπτα) για να ορίσετε. Πρέπει να είναι μεταξύ 10s και 21600s. Η προεπιλογή είναι 60.
 # max.length: 100
-help-lvlset_exp_msglength = [Server Premium Silver] Ορισμός ελάχιστου μήκους μηνύματος για κέρδος exp. Η προεπιλογή είναι 20.
+help-lvlset_exp_msglength = [Server Premium Silver] Set minimum message length for exp gain. Default is 5.
 # max.length: 100
 help-lvlset_ignore = Διαχείριση ρυθμίσεων παράβλεψης.
 # max.length: 100

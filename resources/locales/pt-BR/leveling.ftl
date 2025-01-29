@@ -100,7 +100,7 @@ help-lvlset_exp_cooldown = [Server Premium Silver] Defina o cooldown de exp em s
 # max.length: 100
 lvlset_exp_cooldown-parameter-cooldown-description = O valor do cooldown (em segundos) a ser definido. Deve estar entre 10s e 21600s. O padrão é 60.
 # max.length: 100
-help-lvlset_exp_msglength = [Server Premium Silver] Defina o tamanho mínimo da mensagem para ganho de exp. O padrão é 20.
+help-lvlset_exp_msglength = [Server Premium Silver] Set minimum message length for exp gain. Default is 5.
 # max.length: 100
 help-lvlset_ignore = Gerenciar configurações de ignorar.
 # max.length: 100
