@@ -100,7 +100,7 @@ help-lvlset_exp_cooldown = [Server Premium Silber] Legen Sie die Abklingzeit in 
 # max.length: 100
 lvlset_exp_cooldown-parameter-cooldown-description = Der einzustellende Abkühlungswert (in Sekunden). Muss zwischen 10s und 21600s liegen. Standardwert ist 60.
 # max.length: 100
-help-lvlset_exp_msglength = [Server Premium Silver] Set minimum message length for exp gain. Default is 5.
+help-lvlset_exp_msglength = [Server Premium Silber] Legen Sie die Mindestlänge der Nachricht für den Erhalt von Erfahrung Punkten fest. Standard ist 5.
 # max.length: 100
 help-lvlset_ignore = Verwalten Sie die Ignorierungs-Einstellungen.
 # max.length: 100
