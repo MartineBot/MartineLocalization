@@ -1,23 +1,23 @@
 # max.length: 100
-help-valorantstats = Obtenir les stats Valorant d'un riotid#tag fourni.
+help-valorantstats = Consulter les statistiques Valorant à partir d'un riotid#tag.
 # max.length: 100
-valorantstats-parameter-riotid_and_tag-description = Le nom du joueur suivi de son #tag
+valorantstats-parameter-riotid_and_tag-description = Le pseudo du joueur suivi de son #tag
 # max.length: 100
-help-lolstats = Obtenir les statistiques League of Legends de l'invocateur, et plus encore dans les sous-commandes.
+help-lolstats = Consulter les statistiques League of Legends d'un invocateur (et plus grâce aux sous-commandes).
 # max.length: 100
-help-lolstats_masteries = Obtenir les maîtrises LoL d'un invocateur.
+help-lolstats_masteries = Consulter les maîtrises d'un invocateur.
 # max.length: 100
 lolstats_masteries-parameter-region-description = La région de l'invocateur.
 # max.length: 100
 lolstats_masteries-parameter-summoner-description = L'invocateur dont vous voulez voir les maîtrises.
 # max.length: 100
-help-lolstats_matches = Obtenez les derniers matchs LoL d'un invocateur.
+help-lolstats_matches = Consulter les dernières parties d'un invocateur.
 # max.length: 100
 lolstats_matches-parameter-region-description = La région de l'invocateur.
 # max.length: 100
-lolstats_matches-parameter-summoner-description = L'invocateur dont vous voulez voir les matchs.
+lolstats_matches-parameter-summoner-description = L'invocateur dont vous voulez voir les parties.
 # max.length: 100
-help-lolstats_currentgame = Obtenir le statut de jeu actuel d'un invocateur.
+help-lolstats_currentgame = Consulter les informations de la partie en cours d'un invocateur.
 # max.length: 100
 lolstats_currentgame-parameter-region-description = La région de l'invocateur.
 # max.length: 100

@@ -26,48 +26,48 @@ command-cd-global =
     Cette commande est en cooldown pour tout le monde.
     { $command-cd-tryagain }
 command-cd-userglobal =
-    Cette commande est en cooldown pour vous globalement.
+    Cette commande est en cooldown pour toi sur tous les serveurs.
     { $command-cd-tryagain }
 command-cd-server =
     Cette commande est en cooldown pour ce serveur.
     { $command-cd-tryagain }
 command-cd-channel =
-    Cette commande est en cooldown pour ce canal.
+    Cette commande est en cooldown pour ce salon.
     { $command-cd-tryagain }
 command-cd-channelcat =
     Cette commande est en cooldown pour cette catégorie.
     { $command-cd-tryagain }
 command-cd-userserver =
-    Cette commande est en attente pour vous sur ce serveur.
+    Cette commande est en cooldown pour toi sur ce serveur.
     { $command-cd-tryagain }
 command-cd-role =
-    Cette commande est en attente pour votre rôle.
+    Cette commande est en cooldown pour votre rôle.
     { $command-cd-tryagain }
 command-concurrent-default =
-    Trop de personnes utilisent cette commande en même temps.
-    Elle ne peut être utilisée que { $number } fois(s) en même temps.
+    Cette commande est utilisée par trop de personnes à la fois.
+    Elle est limitée à { $number } utilisation(s) simultanée(s).
 # the $type is either "user" or "member"
 command-concurrent-other =
-    Trop de personnes utilisent cette commande en même temps.
-    Elle ne peut être utilisée que { $number } fois par { $type } en même temps.
-app-command-unavailable = Il semble que cette commande ne soit pas encore disponible sur le bot. Veuillez patienter un moment pendant qu'elle est synchronisée.
-bot-not-ready = Martine n'est pas encore prête à traiter des commandes. Veuillez attendre une minute ou deux avant de réessayer.
+    Cette commande est utilisée par trop de personnes à la fois.
+    Elle est limitée à { $number } utilisation(s) par { $type } en simultané.
+app-command-unavailable = Cette commande n'est pas encore disponible sur le bot. Merci de patienter le temps qu'elle soit synchronisée.
+bot-not-ready = Attends quelques minutes que Martine soit prête à traiter des commandes.
 # max.length: 80
 commands-btn = Commandes et FAQ
 # max.length: 80
 premium-btn = Premium
-join-msg-title = Bonjour à tous ! Et merci d'avoir ajouté Martine à votre serveur !
+join-msg-title = Salut à tous ! Merci d'avoir ajouté Martine sur le serveur !
 join-msg-prefixes = Préfixes
-join-msg-prefixes-description = **Mes préfixes par défaut sont:**
-    Principal `,`
-    Les préfixes supplémentaires sont `mart ` et `m!`.
-    (Vous pouvez les changer avec la commande `,prefix`)
+join-msg-prefixes-description = **Mes préfixes par défaut sont :**
+    Principal : `,`
+    Préfixes supplémentaires : `mart ` et `m!`.
+    (Modifiable avec la commande `,prefix`)
 join-msg-commands = Commandes :
 join-msg-commands-description =
-    Commencez par la commande `,help`, elle vous enverra toutes les commandes du bot !
-    Utilisez ensuite le menu déroulant situé sous le message pour sélectionner la catégorie que vous souhaitez.
-    Ou utilisez la commande `,help <category>` (Catégorie que vous voulez au lieu de `<>`)
-    Vous pouvez également trouver une liste des commandes et des questions fréquemment posées sur le site web du bot : { $website }
-join-msg-support = Support :
+    Si tu débutes, utilise la commande `,help` pour recevoir toutes les commandes du bot !
+    Utilise ensuite le menu de sélection sous le message pour choisir une catégorie.
+    Sinon, utilise la commande `,help <category>` (en remplaçant `<>` par la catégorie souhaitée).
+    Enfin, tu peux trouver une liste des commandes et de questions fréquentes sur le site internet du bot : { $website }
+join-msg-support = Assistance :
 join-msg-support-description = Si vous avez besoin d'aide avec le bot, n'hésitez pas à [rejoindre le serveur de support]({ $invite_url }), un membre du support vous aidera quand il sera disponible.
-button-no-perms = Vous n'avez pas l'autorisation d'utiliser ce bouton.
+button-no-perms = Tu n'es pas autorisé à utiliser ce bouton.
