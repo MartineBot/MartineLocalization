@@ -64,10 +64,10 @@ join-msg-prefixes-description = **Mes préfixes par défaut sont :**
     (Modifiable avec la commande `,prefix`)
 join-msg-commands = Commandes :
 join-msg-commands-description =
-    Si tu débutes, utilise la commande `,help` pour recevoir toutes les commandes du bot !
+    Pour commencer, utilise la commande `,help` qui te renvoie toutes les commandes du bot !
     Utilise ensuite le menu de sélection sous le message pour choisir une catégorie.
     Sinon, utilise la commande `,help <category>` (en remplaçant `<>` par la catégorie souhaitée).
     Enfin, tu peux trouver une liste des commandes et de questions fréquentes sur le site internet du bot : { $website }
 join-msg-support = Assistance :
-join-msg-support-description = Si vous avez besoin d'aide avec le bot, n'hésitez pas à [rejoindre le serveur de support]({ $invite_url }), un membre du support vous aidera quand il sera disponible.
+join-msg-support-description = Si tu as besoin d'aide, n'hésite pas à [rejoindre le serveur d'assistance]({ $invite_url }), un administrateur t'aidera dès qu'il sera disponible.
 button-no-perms = Tu n'es pas autorisé à utiliser ce bouton.

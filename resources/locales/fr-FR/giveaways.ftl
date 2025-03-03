@@ -197,13 +197,13 @@ giveaway-settings-roles-reset = Les rôles par défaut pour les giveaways ont é
 # max.length: 100
 help-giveaway_settings_rolescondition = Définissez le type de prérequis de rôle par défaut. Ne pas spécifier pour réinitialiser le prérequis.
 giveaway_settings_rolescondition-parameter-description = La possibilité de choisir un ou tous les rôles comme un prérequis.
-giveaway-settings-rolescondition-success = Successfully set the default roles requirement type for giveaways in this server to { $roles_condition }.
+giveaway-settings-rolescondition-success = La liste de rôles requis par défaut pour les giveaways est définie sur { $roles_condition } pour ce serveur.
 # max.length: 100
-help-giveaway_settings_winners = Set the default number of winners for giveaways in this server. Don't specify to reset.
+help-giveaway_settings_winners = Fixe le nombre de gagnants par défaut des giveaways sur ce serveur. Ne rien préciser pour réinitialiser.
 # max.length: 100
-giveaway_settings_winners-parameter-winners-description = The number of winners that will be default for giveaways. Don't specify to reset.
-giveaway-settings-winners-success = Successfully set the default number of winners for giveaways in this server to { $winners }.
-giveaway-settings-winners-reset = Successfully reset the default number of winners for giveaways in this server.
+giveaway_settings_winners-parameter-winners-description = Le nombre de gagnants par défaut des giveaways. Ne rien préciser pour réinitialiser.
+giveaway-settings-winners-success = Le nombre de gagnants par défaut des giveaways est défini sur { $winners } pour ce serveur.
+giveaway-settings-winners-reset = Le nombre de gagnants par défaut des giveaways est réinitialisé sur ce serveur.
 # max.length: 100
 help-giveaway_settings_bypassrole = Set the default role that will bypass requirements for giveaways in this server. Don't specify to reset.
 # max.length: 100

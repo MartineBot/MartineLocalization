@@ -9,42 +9,42 @@ help-lolstats_masteries = Consulter les maîtrises d'un invocateur.
 # max.length: 100
 lolstats_masteries-parameter-region-description = La région de l'invocateur.
 # max.length: 100
-lolstats_masteries-parameter-summoner-description = L'invocateur dont vous voulez voir les maîtrises.
+lolstats_masteries-parameter-summoner-description = L'invocateur dont tu veux voir les maîtrises.
 # max.length: 100
 help-lolstats_matches = Consulter les dernières parties d'un invocateur.
 # max.length: 100
 lolstats_matches-parameter-region-description = La région de l'invocateur.
 # max.length: 100
-lolstats_matches-parameter-summoner-description = L'invocateur dont vous voulez voir les parties.
+lolstats_matches-parameter-summoner-description = L'invocateur dont tu veux voir les parties.
 # max.length: 100
 help-lolstats_currentgame = Consulter les informations de la partie en cours d'un invocateur.
 # max.length: 100
 lolstats_currentgame-parameter-region-description = La région de l'invocateur.
 # max.length: 100
-lolstats_currentgame-parameter-summoner-description = L'invocateur dont vous voulez voir les matchs.
+lolstats_currentgame-parameter-summoner-description = L'invocateur dont tu veux voir la partie en cours.
 # max.length: 100
-help-lolrotation = Obtenez la rotation des champions gratuits de cette semaine.
+help-lolrotation = Consulter la liste des champions gratuits pour cette semaine.
 # max.length: 100
-help-fortnite = Obtenez des informations et des statistiques sur Fortnite.
+help-fortnite = Obtenir des informations et des statistiques sur Fortnite.
 # max.length: 100
-help-fortnite_stats = Obtenir les statistiques d'un joueur de Fortnite.
+help-fortnite_stats = Consulter les statistiques d'un joueur Fortnite.
 # max.length: 100
-fortnite_stats-parameter-player-description = Le joueur dont vous voulez voir les statistiques.
+fortnite_stats-parameter-player-description = Le joueur dont tu veux voir les statistiques.
 # max.length: 100
 fortnite_stats-parameter-platform-description = La plateforme de ce joueur.
 # max.length: 100
-help-fortnite_news = Obtenez les dernières nouvelles de Fortnite.
+help-fortnite_news = Découvre les dernières actus Fortnite.
 # max.length: 100
-help-fortnite_map = Obtenez la carte actuelle de Fortnite avec les points d'intérêt.
+help-fortnite_map = Consulter la carte actuelle de Fortnite avec les points d'intérêt.
 # max.length: 100
-help-osu = Obtenir une carte de profil osu! contenant les statistiques d'un joueur donné.
+help-osu = Consulter la carte d'utilisateur osu! d'un joueur donné avec ses statistiques.
 # max.length: 100
-osu-parameter-player-description = Le joueur dont vous voulez voir les statistiques.
+osu-parameter-player-description = Le joueur dont tu veux voir les statistiques.
 # max.length: 100
-help-rlstats = Affiche les statistiques de Rocket League dans les playlists compétitives pour vous ou un joueur donné.
+help-rlstats = Affiche tes statistiques ou celles d'un autre joueur en mode de jeu compétitif de Rocket League.
 # max.length: 100
-rlstats-parameter-player_id-description = Le nom d'utilisateur ou l'identifiant Steam/PSN/XBL/Nintendo du joueur.
+rlstats-parameter-player_id-description = Le nom d'utilisateur ou ID Steam/PSN/XBL/Nintendo du joueur.
 # max.length: 100
-help-rlsports = Affiche les statistiques de Rocket League dans les playlists des modes supplémentaires pour vous ou un joueur donné.
+help-rlsports = Affiche tes statistiques ou celles d'un autre joueur en mode Extra de Rocket League.
 # max.length: 100
-rlsports-parameter-player_id-description = Le nom d'utilisateur ou l'identifiant Steam/PSN/XBL/Nintendo du joueur.
+rlsports-parameter-player_id-description = Le nom d'utilisateur ou ID Steam/PSN/XBL/Nintendo du joueur.
