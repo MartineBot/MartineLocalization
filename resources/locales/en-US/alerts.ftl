@@ -46,6 +46,9 @@ streams-removed = Successfully removed this { $source } stream alert from this c
 streams-twitch-notfound = Couldn't find that Twitch user.
 streams-kick-notfound = Couldn't find that Kick user.
 
+streams-list-title = Stream alerts list
+videos-list-title = Videos alerts list
+
 videos-settings = Videos alerts settings
 videos-message = Message
 # max.length: 80
@@ -92,7 +95,7 @@ alerts_videos_tiktok-parameter-user_name_or_url-description = The TikTok channel
 alerts_videos_tiktok-parameter-message_template-long-description = The message template to use for the alert. Use {name} for the channel name.
 
 # max.length: 100
-help-alerts_videos_settings = Manage videos alerts settings.
+help-alerts_videos_list = List all video alerts in this server.
 
 # max.length: 100
 help-alerts_streams = Manage streams alerts in this server.
@@ -113,4 +116,4 @@ help-alerts_streams_kick = Manage a stream alert for a Kick user.
 alerts_streams_kick-parameter-user_name_or_url-description = The Kick channel name or URL.
 
 # max.length: 100
-help-alerts_streams_settings = Manage streams alerts settings.
+help-alerts_streams_list = List all stream alerts in this server.
