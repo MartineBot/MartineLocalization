@@ -120,7 +120,7 @@ help-lvlset_exp_cooldown = [Server Premium Silver] Set the exp cooldown in secon
 lvlset_exp_cooldown-parameter-cooldown-description = The cooldown value (in seconds) to set. Must be between 10s and 21600s. Default is 60.
 
 # max.length: 100
-help-lvlset_exp_msglength = [Server Premium Silver] Set minimum message length for exp gain. Default is 20.
+help-lvlset_exp_msglength = [Server Premium Silver] Set minimum message length for exp gain. Default is 5.
 
 # max.length: 100
 help-lvlset_ignore = Manage ignore settings.
