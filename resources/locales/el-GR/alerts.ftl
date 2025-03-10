@@ -44,6 +44,8 @@ streams-added-tip = A message will be sent during the next stream.
 streams-removed = Αφαιρέθηκε επιτυχώς η ειδοποίηση { $source } stream από αυτό το κανάλι!
 streams-twitch-notfound = Δε βρέθηκε αυτός ο χρήστης Twitch.
 streams-kick-notfound = Δεν μπόρεσε να βρεθεί αυτός ο χρήστης Kick.
+streams-list-title = Stream alerts list
+videos-list-title = Videos alerts list
 videos-settings = Videos alerts settings
 videos-message = Μήνυμα
 # max.length: 80
@@ -83,7 +85,7 @@ alerts_videos_tiktok-parameter-user_name_or_url-description = The TikTok channel
 # max.length: 100
 alerts_videos_tiktok-parameter-message_template-long-description = The message template to use for the alert. Use { name } for the channel name.
 # max.length: 100
-help-alerts_videos_settings = Διαχείριση ρυθμίσεων ειδοποιήσεων βίντεο.
+help-alerts_videos_list = List all video alerts in this server.
 # max.length: 100
 help-alerts_streams = Διαχείριση ειδοποιήσεων stream σε αυτόν τον διακομιστή.
 # max.length: 100
@@ -99,4 +101,4 @@ help-alerts_streams_kick = Διαχειριστείτε μια ειδοποίη�
 # max.length: 100
 alerts_streams_kick-parameter-user_name_or_url-description = Το όνομα ή η διεύθυνση URL του καναλιού Kick.
 # max.length: 100
-help-alerts_streams_settings = Διαχείριση ρυθμίσεων ειδοποιήσεων stream.
+help-alerts_streams_list = List all stream alerts in this server.

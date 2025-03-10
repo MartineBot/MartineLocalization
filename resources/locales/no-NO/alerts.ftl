@@ -44,6 +44,8 @@ streams-added-tip = A message will be sent during the next stream.
 streams-removed = Vellykket Fjernet dette { $source } strømvarselet fra denne kanalen!
 streams-twitch-notfound = Kunne ikke finne den Twitch-brukeren.
 streams-kick-notfound = Kunne ikke finne den kick brukeren.
+streams-list-title = Stream alerts list
+videos-list-title = Videos alerts list
 videos-settings = Videos alerts settings
 videos-message = Melding
 # max.length: 80
@@ -83,7 +85,7 @@ alerts_videos_tiktok-parameter-user_name_or_url-description = The TikTok channel
 # max.length: 100
 alerts_videos_tiktok-parameter-message_template-long-description = The message template to use for the alert. Use { name } for the channel name.
 # max.length: 100
-help-alerts_videos_settings = Administrere innstillinger varlser for videoer.
+help-alerts_videos_list = List all video alerts in this server.
 # max.length: 100
 help-alerts_streams = Behandle strømvarsling på denne serveren.
 # max.length: 100
@@ -99,4 +101,4 @@ help-alerts_streams_kick = Administrer en direktemelding for en kick bruker.
 # max.length: 100
 alerts_streams_kick-parameter-user_name_or_url-description = Kick kanalnavn eller URL.
 # max.length: 100
-help-alerts_streams_settings = Behandle innstillinger for strømminger.
+help-alerts_streams_list = List all stream alerts in this server.

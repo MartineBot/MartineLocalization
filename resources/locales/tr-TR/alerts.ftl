@@ -44,6 +44,8 @@ streams-added-tip = A message will be sent during the next stream.
 streams-removed = { $source } canlı yayın bildirimi bu kanaldan başarıyla kaldırıldı!
 streams-twitch-notfound = Twitch kullanıcısı bulunamadı.
 streams-kick-notfound = Kick kullanıcısı bulunamadı.
+streams-list-title = Stream alerts list
+videos-list-title = Videos alerts list
 videos-settings = Videos alerts settings
 videos-message = Mesaj
 # max.length: 80
@@ -83,7 +85,7 @@ alerts_videos_tiktok-parameter-user_name_or_url-description = TikTok kanal adı 
 # max.length: 100
 alerts_videos_tiktok-parameter-message_template-long-description = Bildirimler için kullanılacak mesaj şablonu. Kanal adı için { name } adresini kullanın.
 # max.length: 100
-help-alerts_videos_settings = Video bildirim ayarlarını yönet.
+help-alerts_videos_list = List all video alerts in this server.
 # max.length: 100
 help-alerts_streams = Canlı yayın bildirimlerini bu sunucuda düzenleyin.
 # max.length: 100
@@ -99,4 +101,4 @@ help-alerts_streams_kick = Bir Kick kullanıcısı için canlı yayın bildirimi
 # max.length: 100
 alerts_streams_kick-parameter-user_name_or_url-description = Kick kanal adı veya URL'si.
 # max.length: 100
-help-alerts_streams_settings = Canlı yayın bildirim ayarlarını yönet.
+help-alerts_streams_list = List all stream alerts in this server.

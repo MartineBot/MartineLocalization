@@ -44,6 +44,8 @@ streams-added-tip = A message will be sent during the next stream.
 streams-removed = ¡Se eliminó correctamente esta alerta de transmisión de { $source } de este canal!
 streams-twitch-notfound = No se pudo encontrar ese usuario de Twitch.
 streams-kick-notfound = No se pudo encontrar ese usuario para expulsar.
+streams-list-title = Stream alerts list
+videos-list-title = Videos alerts list
 videos-settings = Videos alerts settings
 videos-message = Mensaje
 # max.length: 80
@@ -81,7 +83,7 @@ alerts_videos_tiktok-parameter-user_name_or_url-description = The TikTok channel
 # max.length: 100
 alerts_videos_tiktok-parameter-message_template-long-description = The message template to use for the alert. Use { name } for the channel name.
 # max.length: 100
-help-alerts_videos_settings = Administrar la configuración de alertas de videos.
+help-alerts_videos_list = List all video alerts in this server.
 # max.length: 100
 help-alerts_streams = Administrar alertas de transmisión en este servidor.
 # max.length: 100
@@ -97,4 +99,4 @@ help-alerts_streams_kick = Administrar una alerta de transmisión para un usuari
 # max.length: 100
 alerts_streams_kick-parameter-user_name_or_url-description = El nombre o URL del canal de Kick.
 # max.length: 100
-help-alerts_streams_settings = Administrar la configuración de alertas de transmisión.
+help-alerts_streams_list = List all stream alerts in this server.
