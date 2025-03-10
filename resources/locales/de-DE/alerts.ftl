@@ -1,12 +1,13 @@
 yes = Ja
 no = Nein
-max-alerts-0 = Du kannst nicht mehr als 20 Benachrichtigungen pro Server haben.
-max-alerts-0-tip = Das Limit kann erhöht werden mit unseren premium Stufen:
-max-alerts-1 = Du kannst nicht mehr als 30 Benachrichtigungen pro Server haben mit der jetzigen premium Stufe.
-max-alerts-1-tip = Du kannst unbegrenzte Benachrichtigungen mit unserem "Server Premium Gold" Level erhalten:
-streams-settings = stream Benachrichtigungen Einstellungen
+enable = Aktivieren
+disable = Deaktivieren
+# $count will be the number of alerts.
+max-alerts = You cannot have more than { $count } alerts per server.
+max-alerts-tip = You can get higher limits with our Premium tiers:
+streams-settings = Streams alerts settings
 streams-message = Nachricht
-streams-autorefresh = Automatische Aktualisierung der Benachrichtigungen
+streams-autorefresh = Automatische Aktualisierung
 streams-endbehavior = Endverhalten
 # $source will be the source of the stream alert.
 streams-count = { $source } Benachrichtigungen auf diesem Server
@@ -18,8 +19,8 @@ streams-enable-autorefresh = Aktiviere die automatische Aktualisierung der Benac
 streams-edit-msg-btn = Nachricht bearbeiten
 # max.length: 80
 streams-autorefresh-btn = Automatische Aktualisierung
-streams-autorefresh-enabled = So! Stream Benachrichtigungen werden jetzt nach 15 Minuten automatisch aktualisiert.
-streams-autorefresh-disabled = So! Stream Benachrichtigungen werden jetzt nicht mehr automatisch aktualisiert.
+streams-autorefresh-enabled = Alright! The alerts messages for this stream will now auto refresh after 15 minutes.
+streams-autorefresh-disabled = Alright! The alerts messages for this stream will no longer auto refresh.
 streams-endbehavior-select = Ändere das Endverhalten des Streams
 streams-deletealertmsg = Benachrichtigung löschen
 streams-deletealertmsg-desc = Dies löscht die Stream-Benachrichtigung.
@@ -38,15 +39,12 @@ streams-msg-placeholder = { "{" }streamer{ "}" } = der Streamername - { "{" }eve
 streams-msg-changed = Die Startnachricht für den Stream wurde erfolgreich aktualisiert!
 # $source will be the source of the stream alert.
 streams-added = { $source } Stream wurde erfolgreich als eine Benachrichtigung in diesem Kanal hinzugefügt!
-# $cmd_mention is the slash command mention for /alerts streams settings
-streams-added-tip =
-    Eine Benachrichtigung wird während des nächsten Streams gesendet.
-    Du kannst die Stream-Benachrichtigungseinstellungen mit dem Befehl { $cmd_mention } aktualisieren.
+streams-added-tip = A message will be sent during the next stream.
 # $source will be the source of the stream alert.
 streams-removed = Die Benachrichtigung des { $source } Streams wurde erfolgreich von diesem Kanal entfernt!
 streams-twitch-notfound = Konnte den Twitch Benutzer nicht finden.
 streams-kick-notfound = Konnte den Kick-Benutzer nicht finden.
-videos-settings = Video Benachrichtigungen Einstellungen
+videos-settings = Videos alerts settings
 videos-message = Nachricht
 # max.length: 80
 videos-settings-msg-btn = Nachricht bearbeiten
@@ -63,9 +61,7 @@ videos-count = { $source } Videobenachrichtigungen auf diesem Server
 videos-none = Auf diesem Server gibt es keine { $source } Video Benachrichtigungen.
 # $source will be the source of the video alert.
 videos-added = { $source } wurde erfolgreich als eine Benachrichtigung in diesem Kanal hinzugefügt!
-videos-added-tip =
-    Eine Benachrichtigung wird das nächste Mal gesendet, wenn ein neues Video hochgeladen wurde.
-    Du kannst die Video-Benachrichtigungseinstellungen mit dem Befehl { $cmd_mention } aktualisieren.
+videos-added-tip = A message will be sent whenever the next video is posted.
 # $source will be the source of the video alert.
 videos-removed = { $source } wurde erfolgreich in diesem Kanal entfernt!
 yt-notfound =

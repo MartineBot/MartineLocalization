@@ -1,12 +1,13 @@
 yes = כן
 no = לא
-max-alerts-0 = אתה לא יכול להפעיל יותר מ20 התראות בכל שרת.
-max-alerts-0-tip = אתה יכול לקבל מגבלות גבוהות יותר עם תוכניות הפרימיום שלנו:
-max-alerts-1 = אתה לא יכול להפעיל יותר מ30 התראות בכל שרת עם תוכנית הפרימיום הזו.
-max-alerts-1-tip = אתה יכול לקבל אין סוף התראות בכל שרת עם פרימיום בתוכנית הזהב:
-streams-settings = הגדרות התראות לשידורים חיים
+enable = Enable
+disable = Disable
+# $count will be the number of alerts.
+max-alerts = You cannot have more than { $count } alerts per server.
+max-alerts-tip = You can get higher limits with our Premium tiers:
+streams-settings = Streams alerts settings
 streams-message = הודעה
-streams-autorefresh = חידוש אוטומטי להתראות
+streams-autorefresh = חידוש אוטומטי
 streams-endbehavior = התנהגות לסיום
 # $source will be the source of the stream alert.
 streams-count = { $source } כרגע משדר בשידור חי בשרת זה
@@ -18,8 +19,8 @@ streams-enable-autorefresh = הפעל חידוש אוטומטי להתראות
 streams-edit-msg-btn = ערוך הודעה
 # max.length: 80
 streams-autorefresh-btn = חידוש אוטומטי
-streams-autorefresh-enabled = בסדר! ההתראות לשידורים החיים יחודשו כל 15 דקות.
-streams-autorefresh-disabled = אוקי! ההתראות לשידורים החיים לא יחודשו יותר.
+streams-autorefresh-enabled = Alright! The alerts messages for this stream will now auto refresh after 15 minutes.
+streams-autorefresh-disabled = Alright! The alerts messages for this stream will no longer auto refresh.
 streams-endbehavior-select = שנה התנהגות לסיום השידור החי
 streams-deletealertmsg = מחק הודעת התראה
 streams-deletealertmsg-desc = זה ימחק את הודעת השידור החי.
@@ -38,15 +39,12 @@ streams-msg-placeholder = { "{" }streamer{ "}" } = the streamer name - { "{" }ev
 streams-msg-changed = Successfully updated the stream start alert message!
 # $source will be the source of the stream alert.
 streams-added = Successfully added this { $source } stream as a alert in that channel!
-# $cmd_mention is the slash command mention for /alerts streams settings
-streams-added-tip =
-    A alert will be sent during the next stream.
-    You can update the streams alerts settings using { $cmd_mention } command.
+streams-added-tip = A message will be sent during the next stream.
 # $source will be the source of the stream alert.
 streams-removed = Successfully removed this { $source } stream alert from this channel!
 streams-twitch-notfound = Couldn't find that Twitch user.
 streams-kick-notfound = Couldn't find that Kick user.
-videos-settings = videos alerts settings
+videos-settings = Videos alerts settings
 videos-message = הודעה
 # max.length: 80
 videos-settings-msg-btn = ערוך הודעה
@@ -63,9 +61,7 @@ videos-count = { $source } videos alerts in this server
 videos-none = There are no { $source } video alerts in this server.
 # $source will be the source of the video alert.
 videos-added = Successfully added this { $source } channel as a alert in that channel!
-videos-added-tip =
-    A alert will be sent whenever the next video is posted.
-    You can update the videos alerts settings using { $cmd_mention } command.
+videos-added-tip = A message will be sent whenever the next video is posted.
 # $source will be the source of the video alert.
 videos-removed = Successfully removed this { $source } channel alert from this channel!
 yt-notfound =

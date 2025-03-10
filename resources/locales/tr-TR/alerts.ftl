@@ -1,12 +1,13 @@
 yes = Evet
 no = Hayır
-max-alerts-0 = Sunucu başına 20'den fazla bildirim alamazsın.
-max-alerts-0-tip = Premium alarak daha yüksek limitler elde edebilirsiniz:
-max-alerts-1 = Bu premium planı ile 30'dan daha fazla uyarı bildirim alamazsınız.
-max-alerts-1-tip = Server Premium Gold planı ile sınırsız bildirim alabilirsiniz:
-streams-settings = yayın bildirim ayarları
+enable = Etkinleştir
+disable = Devre Dışı Bırak
+# $count will be the number of alerts.
+max-alerts = You cannot have more than { $count } alerts per server.
+max-alerts-tip = You can get higher limits with our Premium tiers:
+streams-settings = Streams alerts settings
 streams-message = Mesaj
-streams-autorefresh = Bildirimi otomatik yenile
+streams-autorefresh = Otomatik yenileme
 streams-endbehavior = Eylemi sonlandır
 # $source will be the source of the stream alert.
 streams-count = { $source } bildirimleri bu sunucuda yayınlanıyor
@@ -18,8 +19,8 @@ streams-enable-autorefresh = Otomatik bildirim yenilemeyi aktifleştir
 streams-edit-msg-btn = Mesajı düzenle
 # max.length: 80
 streams-autorefresh-btn = Otomatik yenileme
-streams-autorefresh-enabled = Tamamdır! Canlı yayın bildirim mesajları artık 15 dakika sonra otomatik olarak yenilenecektir.
-streams-autorefresh-disabled = Pekala! Canlı yayın bildirim mesajı artık otomatik olarak yenilenmeyecektir.
+streams-autorefresh-enabled = Alright! The alerts messages for this stream will now auto refresh after 15 minutes.
+streams-autorefresh-disabled = Alright! The alerts messages for this stream will no longer auto refresh.
 streams-endbehavior-select = Canlı yayının bitiş eylemini değiştir
 streams-deletealertmsg = Bildirim mesajını sil
 streams-deletealertmsg-desc = Bu işlem canlı yayın bildirim mesajını silecektir.
@@ -38,15 +39,12 @@ streams-msg-placeholder = { "{" }yayıncı{ "}" } = yayıncı adı - { "{" }herk
 streams-msg-changed = Canlı yayın başlangıç bildirimi başarıyla güncellendi!
 # $source will be the source of the stream alert.
 streams-added = Bu { $source } yayınını başarıyla söz konusu kanala ekledik!
-# $cmd_mention is the slash command mention for /alerts streams settings
-streams-added-tip =
-    Bir sonraki yayın sırasında bir bildirim gönderilecektir.
-    { $cmd_mention } komutunu kullanarak canlı yayın bildirim ayarlarını güncelleyebilirsiniz.
+streams-added-tip = A message will be sent during the next stream.
 # $source will be the source of the stream alert.
 streams-removed = { $source } canlı yayın bildirimi bu kanaldan başarıyla kaldırıldı!
 streams-twitch-notfound = Twitch kullanıcısı bulunamadı.
 streams-kick-notfound = Kick kullanıcısı bulunamadı.
-videos-settings = video bildirim ayarları
+videos-settings = Videos alerts settings
 videos-message = Mesaj
 # max.length: 80
 videos-settings-msg-btn = Mesajı düzenle
@@ -63,9 +61,7 @@ videos-count = { $source } videoların bildirimi bu sunucuda
 videos-none = Bu sunucuda { $source } video bildirimi yok.
 # $source will be the source of the video alert.
 videos-added = { $source } kanalını başarıyla söz konusu kanala eklendi!
-videos-added-tip =
-    Bir sonraki video yayınlandığında bir bildirim gönderilecektir.
-    { $cmd_mention } komutunu kullanarak video bildirim ayarlarını güncelleyebilirsiniz.
+videos-added-tip = A message will be sent whenever the next video is posted.
 # $source will be the source of the video alert.
 videos-removed = { $source } kanal bildirimi bu kanaldan başarıyla kaldırıldı!
 yt-notfound =

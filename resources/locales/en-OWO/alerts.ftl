@@ -1,12 +1,13 @@
 yes = Yus
 no = Nyo
-max-alerts-0 = You cannyot ^w^ have mowe than 20 awewts pew sewvew.
-max-alerts-0-tip = You c-can get highew wimits with ouw Pwemium tiers:
-max-alerts-1 = You cannyot have mowe than 30 awewts pew sewvew with this pwemium tiew.
-max-alerts-1-tip = You c-can get unwimited awewts with ouw Sewvew Pwemium Gowd tier:
-streams-settings = stweams awewts settings
+enable = Enyabwe
+disable = Disabwe
+# $count will be the number of alerts.
+max-alerts = You cannot have more than { $count } alerts per server.
+max-alerts-tip = You can get higher limits with our Premium tiers:
+streams-settings = Streams alerts settings
 streams-message = Mewssage
-streams-autorefresh = Awewts auto-wefwesh
+streams-autorefresh = Auto-wefwesh
 streams-endbehavior = End behaviow
 # $source will be the source of the stream alert.
 streams-count = { $source } stweams awewts in this sewvew
@@ -18,8 +19,8 @@ streams-enable-autorefresh = Enyabwe awewts auto-wefwesh
 streams-edit-msg-btn = Edit mewssage
 # max.length: 80
 streams-autorefresh-btn = Auto-wefwesh
-streams-autorefresh-enabled = Awwight?!! Stweam awewts messages wiww nyow auto wefwesh a-a-aftew 15 minyutes.
-streams-autorefresh-disabled = Awwight?!! Stweam awewts message wiww nyo wongew auto wefwesh.
+streams-autorefresh-enabled = Alright! The alerts messages for this stream will now auto refresh after 15 minutes.
+streams-autorefresh-disabled = Alright! The alerts messages for this stream will no longer auto refresh.
 streams-endbehavior-select = Change stweams end behaviow
 streams-deletealertmsg = Dewete awewt message
 streams-deletealertmsg-desc = This wiww dewete the stweam awewt message.
@@ -38,15 +39,12 @@ streams-msg-placeholder = { "{" }streamer{ "}" } = the stweamew nyame - { "{" }e
 streams-msg-changed = Successfuwwy updated the stweam stawt awewt message!!
 # $source will be the source of the stream alert.
 streams-added = Successfuwwy a-a-added this { $source } stweam as a awewt in that channyew!!
-# $cmd_mention is the slash command mention for /alerts streams settings
-streams-added-tip =
-    A awewt wiww be sent duwing the nyext stweam.
-    You c-can update the stweams awewts settings u-using { $cmd_mention } command.
+streams-added-tip = A message will be sent during the next stream.
 # $source will be the source of the stream alert.
 streams-removed = Successfuwwy wemuvd this { $source } stweam awewt fwom this channyew!!
 streams-twitch-notfound = Couwdn't find that Twitch usew.
 streams-kick-notfound = Couldn't find that Kick user.
-videos-settings = videos awewts settings
+videos-settings = Videos alerts settings
 videos-message = Mewssage
 # max.length: 80
 videos-settings-msg-btn = Edit mewssage
@@ -63,9 +61,7 @@ videos-count = { $source } videos awewts in this sewvew
 videos-none = There are no { $source } video alerts in this server.
 # $source will be the source of the video alert.
 videos-added = Successfuwwy a-a-added this { $source } channyew as a awewt in that channyew?!!
-videos-added-tip =
-    A awewt wiww be sent w-whenyevew the nyext v-v-video is p-posted.
-    You c-can update the videos awewts settings u-using { $cmd_mention } command.
+videos-added-tip = A message will be sent whenever the next video is posted.
 # $source will be the source of the video alert.
 videos-removed = Successfuwwy wemuvd this { $source } channyew awewt fwom this channyew?!!
 yt-notfound =

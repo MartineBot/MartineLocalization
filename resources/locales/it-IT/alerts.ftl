@@ -1,12 +1,13 @@
 yes = Sì
 no = No
-max-alerts-0 = Non puoi avere oltre 20 avvisi per server.
-max-alerts-0-tip = Puoi ottenere limiti superiori con i ranghi Premium:
-max-alerts-1 = Non puoi avere oltre 30 avvisi per server con questo rango Premium.
-max-alerts-1-tip = Puoi ottenere avvisi illimitati con il nostro rango Server Premium Gold:
-streams-settings = impostazioni degli avvisi degli streaming
+enable = Abilita
+disable = Disabilita
+# $count will be the number of alerts.
+max-alerts = You cannot have more than { $count } alerts per server.
+max-alerts-tip = You can get higher limits with our Premium tiers:
+streams-settings = Streams alerts settings
 streams-message = Messaggio
-streams-autorefresh = Aggiornamento automatico avvisi
+streams-autorefresh = Aggiornamento automatico
 streams-endbehavior = Termina comportamento
 # $source will be the source of the stream alert.
 streams-count = { $source } avvisi di streaming su questo server
@@ -18,8 +19,8 @@ streams-enable-autorefresh = Abilita l'aggiornamento automatico degli avvisi
 streams-edit-msg-btn = Modifica messaggio
 # max.length: 80
 streams-autorefresh-btn = Aggiornamento automatico
-streams-autorefresh-enabled = Bene! I messaggi di avviso di streaming saranno ora aggiornati automaticamente ogni 15 minuti.
-streams-autorefresh-disabled = Bene! I messaggi di avviso di streaming non si aggiorneranno più automaticamente.
+streams-autorefresh-enabled = Alright! The alerts messages for this stream will now auto refresh after 15 minutes.
+streams-autorefresh-disabled = Alright! The alerts messages for this stream will no longer auto refresh.
 streams-endbehavior-select = Modifica il comportamento di fine streaming
 streams-deletealertmsg = Elimina il messaggio di avviso
 streams-deletealertmsg-desc = Questo eliminerà il messaggio di avviso di streaming.
@@ -38,15 +39,12 @@ streams-msg-placeholder = { "{" }streamer{ "}" } = il nome dello streamer - { "{
 streams-msg-changed = Messaggio d'avviso di inizio streaming aggiornato correttamente!
 # $source will be the source of the stream alert.
 streams-added = Questa live { $source } è stata aggiunta correttamente come un avviso, in quel canale!
-# $cmd_mention is the slash command mention for /alerts streams settings
-streams-added-tip =
-    Sarà inviato un avviso durante la prossima live.
-    Puoi aggiornare le impostazioni degli avvisi di streaming utilizzando il comando { $cmd_mention }.
+streams-added-tip = A message will be sent during the next stream.
 # $source will be the source of the stream alert.
 streams-removed = Questo avviso di streaming { $source } è stato rimosso correttamente da questo canale!
 streams-twitch-notfound = Impossibile trovare quell'utente di Twitch.
 streams-kick-notfound = Impossibile trovare quell'utente di Kick.
-videos-settings = impostazioni degli avvisi dei video
+videos-settings = Videos alerts settings
 videos-message = Messaggio
 # max.length: 80
 videos-settings-msg-btn = Modifica messaggio
@@ -63,9 +61,7 @@ videos-count = { $source } avvisi di video su questo server
 videos-none = There are no { $source } video alerts in this server.
 # $source will be the source of the video alert.
 videos-added = Questo canale { $source } è stato aggiunto correttamente come un avviso in quel canale!
-videos-added-tip =
-    Sarà inviato un avviso alla pubblicazione del prossimo video.
-    Puoi aggiornare le impostazioni degli avvisi dei video utilizzando il comando { $cmd_mention }.
+videos-added-tip = A message will be sent whenever the next video is posted.
 # $source will be the source of the video alert.
 videos-removed = Questo canale { $source } è stato rimosso correttamente da questo canale!
 yt-notfound =

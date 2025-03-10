@@ -1,12 +1,13 @@
 yes = Да
 no = Не
-max-alerts-0 = Не можете да имате повече от 20 уведомления на сървър.
-max-alerts-0-tip = Можете да увеличите лимита с нашите премиум нива на членство:
-max-alerts-1 = Не можете да имате повече от 30 уведомления на сървър с това премиум ниво на членство.
-max-alerts-1-tip = Можете да получавате неограничени уведомления с нашето Златно сървър премиум ниво на членство:
-streams-settings = настройки на уведомленията за излъчвания
+enable = Enable
+disable = Disable
+# $count will be the number of alerts.
+max-alerts = You cannot have more than { $count } alerts per server.
+max-alerts-tip = You can get higher limits with our Premium tiers:
+streams-settings = Streams alerts settings
 streams-message = Съобщение
-streams-autorefresh = Автоматично опресняване на уведомленията
+streams-autorefresh = Автоматично опресняване
 streams-endbehavior = Поведение в края
 # $source will be the source of the stream alert.
 streams-count = { $source } уведомления за излъчвания в този сървър
@@ -18,8 +19,8 @@ streams-enable-autorefresh = Включи автоматичното опрес�
 streams-edit-msg-btn = Редактирай съобщение
 # max.length: 80
 streams-autorefresh-btn = Автоматично опресняване
-streams-autorefresh-enabled = Разбрано! Съобщенията относно уведомяване за излъчване ще се опресняват на всеки 15 минути.
-streams-autorefresh-disabled = Разбрано! Съобщенията относно уведомяване за излъчвания вече няма да се опресняват автоматично.
+streams-autorefresh-enabled = Alright! The alerts messages for this stream will now auto refresh after 15 minutes.
+streams-autorefresh-disabled = Alright! The alerts messages for this stream will no longer auto refresh.
 streams-endbehavior-select = Промяна на крайно поведение на излъчвания
 streams-deletealertmsg = Изтрий съобщение относно уведомяване
 streams-deletealertmsg-desc = Това ще изтрие съобщението относно уведомяването за излъчване.
@@ -38,13 +39,12 @@ streams-msg-placeholder = {"{" }streamer{"}" } = името на излъчва�
 streams-msg-changed = Успешна промяна на съобщението относно уведомяване за старт на излъчване!
 # $source will be the source of the stream alert.
 streams-added = Успешно добавяне на това { $source } излъчване като уведомление в този канал!
-# $cmd_mention is the slash command mention for /alerts streams settings
-streams-added-tip = Уведомление ще бъде изпратено по време на следващото излъчване. Можете да променяте настройките на уведомления за излъчвания с командата { $cmd_mention }.
+streams-added-tip = A message will be sent during the next stream.
 # $source will be the source of the stream alert.
 streams-removed = Успешно премахване на това { $source } уведомление за излъчване от този канал!
 streams-twitch-notfound = Този Twitch потребител не бе намерен.
 streams-kick-notfound = Couldn't find that Kick user.
-videos-settings = настройки на уведомления за видеа
+videos-settings = Videos alerts settings
 videos-message = Съобщение
 # max.length: 80
 videos-settings-msg-btn = Редактирай съобщение
@@ -61,7 +61,7 @@ videos-count = { $source } уведомления за видеа в този с
 videos-none = There are no { $source } video alerts in this server.
 # $source will be the source of the video alert.
 videos-added = Успешно добавяне на този { $source } канал като уведомление в този канал!
-videos-added-tip = Уведомление ще бъде изпратено когато следващото видео е публикувано. Можете да променяте настройките на уведомления за видеа с командата { $cmd_mention }.
+videos-added-tip = A message will be sent whenever the next video is posted.
 # $source will be the source of the video alert.
 videos-removed = Успешно премахване на това { $source } уведомление за канал от този сървър!
 yt-notfound = Не бе намерен този YouTube потребител. Опитайте отново, като поставите URL линка на канала в https://commentpicker.com/youtube-channel-id.php и вземете стойността на "Channel ID".

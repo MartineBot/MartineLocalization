@@ -1,12 +1,13 @@
 yes = Ja
 no = Nei
-max-alerts-0 = Du kan ikke ha mer enn 20 varsler per server.
-max-alerts-0-tip = Du kan få høyere grenser med våre Premium-nivåer:
-max-alerts-1 = Du kan ikke ha mer enn 30 varsler per server med denne premium-tieren.
-max-alerts-1-tip = Du kan få ubegrenset beskjed med vår Server Premium Gull-nivå:
-streams-settings = innstillinger for strømvarsler
+enable = Aktiver
+disable = Deaktiver
+# $count will be the number of alerts.
+max-alerts = You cannot have more than { $count } alerts per server.
+max-alerts-tip = You can get higher limits with our Premium tiers:
+streams-settings = Streams alerts settings
 streams-message = Melding
-streams-autorefresh = Varsler auto-oppdatering
+streams-autorefresh = Auto-oppdatering
 streams-endbehavior = Slutt oppførsel
 # $source will be the source of the stream alert.
 streams-count = { $source } strømmevarsler i denne serveren
@@ -18,8 +19,8 @@ streams-enable-autorefresh = Aktiver varsler auto-oppdatering
 streams-edit-msg-btn = Rediger melding
 # max.length: 80
 streams-autorefresh-btn = Auto-oppdatering
-streams-autorefresh-enabled = Ok! Strømvarslingsmeldinger vil nå automatisk oppdateres etter 15 minutter.
-streams-autorefresh-disabled = Ok! Strømvarslingsmelding vil ikke lenger oppdateres automatisk.
+streams-autorefresh-enabled = Alright! The alerts messages for this stream will now auto refresh after 15 minutes.
+streams-autorefresh-disabled = Alright! The alerts messages for this stream will no longer auto refresh.
 streams-endbehavior-select = Endre oppførselen til strømmingen
 streams-deletealertmsg = Slett varselmelding
 streams-deletealertmsg-desc = Dette vil slette strømvarslingsmeldingen.
@@ -38,15 +39,12 @@ streams-msg-placeholder = { "{" }streamer{ "}" } = Navnet på streameren - { "{"
 streams-msg-changed = Vellykket Oppdaterte varselmeldingen for strømstart!
 # $source will be the source of the stream alert.
 streams-added = Vellykket lagt til { $source } strømmen til et varsel i den kanalen!
-# $cmd_mention is the slash command mention for /alerts streams settings
-streams-added-tip =
-    Et varsel vil bli sendt i løpet av neste strømning.
-    Du kan oppdatere strømmens varsler ved å bruke { $cmd_mention } kommando.
+streams-added-tip = A message will be sent during the next stream.
 # $source will be the source of the stream alert.
 streams-removed = Vellykket Fjernet dette { $source } strømvarselet fra denne kanalen!
 streams-twitch-notfound = Kunne ikke finne den Twitch-brukeren.
 streams-kick-notfound = Kunne ikke finne den kick brukeren.
-videos-settings = innstillinger for videoer varsler
+videos-settings = Videos alerts settings
 videos-message = Melding
 # max.length: 80
 videos-settings-msg-btn = Rediger melding
@@ -63,9 +61,7 @@ videos-count = { $source } videovarsler på denne serveren
 videos-none = There are no { $source } video alerts in this server.
 # $source will be the source of the video alert.
 videos-added = Vellykket lagt til { $source } strømmen til et varsel i den kanalen!
-videos-added-tip =
-    Et varsel vil bli sendt hver gang neste video legges ut.
-    Du kan oppdatere videovarslingsinnstillingene ved å bruke { $cmd_mention } kommandoen.
+videos-added-tip = A message will be sent whenever the next video is posted.
 # $source will be the source of the video alert.
 videos-removed = Vellykket Fjernet dette { $source } strømvarselet fra denne kanalen!
 yt-notfound =

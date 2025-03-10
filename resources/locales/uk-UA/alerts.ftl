@@ -1,12 +1,13 @@
 yes = Так
 no = Ні
-max-alerts-0 = Ви не можете мати понад 20 сповіщень на сервері.
-max-alerts-0-tip = Ви можете отримати вищі ліміти з нашими рівнями Преміум:
-max-alerts-1 = Ви не можете мати понад 30 сповіщень на сервер із цим рівнем Преміум.
-max-alerts-1-tip = Ви можете отримувати необмежену кількість сповіщень за допомогою рівня серверу Premium Gold:
-streams-settings = налаштування сповіщень трансляцій
+enable = Увімкнути
+disable = Вимкнути
+# $count will be the number of alerts.
+max-alerts = You cannot have more than { $count } alerts per server.
+max-alerts-tip = You can get higher limits with our Premium tiers:
+streams-settings = Streams alerts settings
 streams-message = Повідомлення
-streams-autorefresh = Автоматичне оновлення сповіщень
+streams-autorefresh = Автооновлення
 streams-endbehavior = Поведінка завершення
 # $source will be the source of the stream alert.
 streams-count = Сповіщення про трансляції { $source } на сервері
@@ -18,8 +19,8 @@ streams-enable-autorefresh = Увімкнути автооновлення сп�
 streams-edit-msg-btn = Редагувати
 # max.length: 80
 streams-autorefresh-btn = Автооновлення
-streams-autorefresh-enabled = Гаразд! Сповіщення про трансляції тепер автоматично оновлюватимуться через 15 хвилин.
-streams-autorefresh-disabled = Гаразд! Сповіщення про трансляції більше не оновлюватимуться автоматично.
+streams-autorefresh-enabled = Alright! The alerts messages for this stream will now auto refresh after 15 minutes.
+streams-autorefresh-disabled = Alright! The alerts messages for this stream will no longer auto refresh.
 streams-endbehavior-select = Змінити поведінку завершення трансляції
 streams-deletealertmsg = Видалити повідомлення
 streams-deletealertmsg-desc = Видалити повідомлення сповіщення про трансляцію.
@@ -38,15 +39,12 @@ streams-msg-placeholder = { "{" }streamer{ "}" } = імʼя стримера - {
 streams-msg-changed = Сповіщення початку трансляції успішно оновлено!
 # $source will be the source of the stream alert.
 streams-added = Трансляцію { $source } успішно додано як сповіщення у цьому каналі!
-# $cmd_mention is the slash command mention for /alerts streams settings
-streams-added-tip =
-    Сповіщення буде надіслано при наступній трансляції.
-    Ви можете оновити налаштування про сповіщення трансляцій з командою { $cmd_mention }.
+streams-added-tip = A message will be sent during the next stream.
 # $source will be the source of the stream alert.
 streams-removed = Це сповіщення успішно видалено про трансляцію { $source } з цього каналу!
 streams-twitch-notfound = Не вдалося знайти цього користувача Twitch.
 streams-kick-notfound = Не вдалося знайти цього користувача Kick.
-videos-settings = налаштування сповіщень про відео
+videos-settings = Videos alerts settings
 videos-message = Повідомлення
 # max.length: 80
 videos-settings-msg-btn = Редагувати
@@ -63,7 +61,7 @@ videos-count = { $source } сповіщення про відео на цьом�
 videos-none = Немає сповіщень про відео { $source } на цьому сервері.
 # $source will be the source of the video alert.
 videos-added = Цей канал { $source } успішно додано як сповіщення в цьому каналі!
-videos-added-tip = Щоразу, коли буде опубліковано наступне відео, буде надіслано сповіщення. Ви можете оновити налаштування сповіщень про відео командою { $cmd_mention }.
+videos-added-tip = A message will be sent whenever the next video is posted.
 # $source will be the source of the video alert.
 videos-removed = Сповіщення каналу { $source } успішно вилучено з цього каналу!
 yt-notfound =

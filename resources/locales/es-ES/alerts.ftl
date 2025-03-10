@@ -1,12 +1,13 @@
 yes = Si
 no = No
-max-alerts-0 = No puedes tener más de 20 alertas por servidor.
-max-alerts-0-tip = Puedes obtener límites más altos con nuestros niveles Premium:
-max-alerts-1 = No puedes tener más de 30 alertas por servidor con este nivel premium.
-max-alerts-1-tip = Puedes obtener alertas ilimitadas con nuestro nivel premium Server Gold:
-streams-settings = Configuración de alertas de transmisiones
+enable = Enable
+disable = Disable
+# $count will be the number of alerts.
+max-alerts = You cannot have more than { $count } alerts per server.
+max-alerts-tip = You can get higher limits with our Premium tiers:
+streams-settings = Streams alerts settings
 streams-message = Mensaje
-streams-autorefresh = Actualización automática de alertas
+streams-autorefresh = Actualización automática.
 streams-endbehavior = Comportamiento en el extremo
 # $source will be the source of the stream alert.
 streams-count = { $source } Alertas de transmisión en este servidor
@@ -18,8 +19,8 @@ streams-enable-autorefresh = Habilitar la actualización automática de alertas.
 streams-edit-msg-btn = Editar mensaje.
 # max.length: 80
 streams-autorefresh-btn = Actualización automática.
-streams-autorefresh-enabled = ¡Perfecto! Los mensajes de alertas de transmisión se actualizarán automáticamente cada 15 minutos.
-streams-autorefresh-disabled = ¡Entendido! Los mensajes de alertas de transmisión ya no se actualizarán automáticamente.
+streams-autorefresh-enabled = Alright! The alerts messages for this stream will now auto refresh after 15 minutes.
+streams-autorefresh-disabled = Alright! The alerts messages for this stream will no longer auto refresh.
 streams-endbehavior-select = Cambiar el comportamiento en el extremo de las transmisiones.
 streams-deletealertmsg = Eliminar mensaje de alerta.
 streams-deletealertmsg-desc = Esto eliminará el mensaje de alerta de transmisión.
@@ -38,13 +39,12 @@ streams-msg-placeholder = { "{" }streamer{ "}" } = El nombre del streamer. - { "
 streams-msg-changed = ¡Se actualizó correctamente el mensaje de alerta de inicio de transmisión!
 # $source will be the source of the stream alert.
 streams-added = ¡Se agregó correctamente esta transmisión de { $source } como una alerta en ese canal!
-# $cmd_mention is the slash command mention for /alerts streams settings
-streams-added-tip = Se enviará una alerta durante la próxima transmisión. Puedes actualizar la configuración de alertas de transmisión utilizando el comando { $cmd_mention }.
+streams-added-tip = A message will be sent during the next stream.
 # $source will be the source of the stream alert.
 streams-removed = ¡Se eliminó correctamente esta alerta de transmisión de { $source } de este canal!
 streams-twitch-notfound = No se pudo encontrar ese usuario de Twitch.
 streams-kick-notfound = No se pudo encontrar ese usuario para expulsar.
-videos-settings = Configuración de alertas de videos.
+videos-settings = Videos alerts settings
 videos-message = Mensaje
 # max.length: 80
 videos-settings-msg-btn = Editar mensaje.
@@ -61,9 +61,7 @@ videos-count = Alertas de videos de { $source } en este servidor.
 videos-none = There are no { $source } video alerts in this server.
 # $source will be the source of the video alert.
 videos-added = Se añadió correctamente este canal de { $source } como una alerta en ese canal.
-videos-added-tip =
-    Se enviará una alerta cada vez que se publique el próximo video. 
-    Puedes actualizar la configuración de alertas de videos utilizando el comando { $cmd_mention }.
+videos-added-tip = A message will be sent whenever the next video is posted.
 # $source will be the source of the video alert.
 videos-removed = Se eliminó correctamente esta alerta de canal de { $source } de este canal.
 yt-notfound = No se pudo encontrar ese usuario de YouTube. Intenta nuevamente pegando la URL del canal en https://commentpicker.com/youtube-channel-id.php y copia el valor de la ID del canal "Channel ID"

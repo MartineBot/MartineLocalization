@@ -1,12 +1,13 @@
 yes = Ναι
 no = Όχι
-max-alerts-0 = Δεν μπορείτε να έχετε περισσότερες από 20 ειδοποιήσεις ανά διακομιστή.
-max-alerts-0-tip = Μπορείτε να αποκτήσετε υψηλότερα όρια με τα επίπεδα Premium:
-max-alerts-1 = Δεν μπορείτε να έχετε περισσότερες από 30 ειδοποιήσεις ανά διακομιστή με αυτή την κατηγορία premium.
-max-alerts-1-tip = Μπορείτε να λάβετε απεριόριστες ειδοποιήσεις με την κατηγορία Server Premium Gold:
-streams-settings = ρυθμίσεις ειδοποιήσεων stream
+enable = Ενεργοποίηση
+disable = Απενεργοποίηση
+# $count will be the number of alerts.
+max-alerts = You cannot have more than { $count } alerts per server.
+max-alerts-tip = You can get higher limits with our Premium tiers:
+streams-settings = Streams alerts settings
 streams-message = Μήνυμα
-streams-autorefresh = Αυτόματη ανανέωση ειδοποιήσεων
+streams-autorefresh = Αυτόματη ανανέωση
 streams-endbehavior = Τελική συμπεριφορά
 # $source will be the source of the stream alert.
 streams-count = { $source } streams ειδοποιήσεις σε αυτόν τον διακομιστή
@@ -18,8 +19,8 @@ streams-enable-autorefresh = Ενεργοποίηση αυτόματης ανα�
 streams-edit-msg-btn = Επεξεργασία μηνύματος
 # max.length: 80
 streams-autorefresh-btn = Αυτόματη ανανέωση
-streams-autorefresh-enabled = Εντάξει! Τα μηνύματα ειδοποιήσεων stream θα ανανεώνονται πλέον αυτόματα μετά από 15 λεπτά.
-streams-autorefresh-disabled = Εντάξει! Το μήνυμα ειδοποιήσεων stream δε θα ανανεώνεται πλέον αυτόματα.
+streams-autorefresh-enabled = Alright! The alerts messages for this stream will now auto refresh after 15 minutes.
+streams-autorefresh-disabled = Alright! The alerts messages for this stream will no longer auto refresh.
 streams-endbehavior-select = Αλλαγή τελικής συμπεριφοράς stream
 streams-deletealertmsg = Διαγραφή μηνύματος ειδοποίησης
 streams-deletealertmsg-desc = Αυτό θα διαγράψει το μήνυμα ειδοποίησης stream.
@@ -38,15 +39,12 @@ streams-msg-placeholder = { "{" }streamer{ "}" } = το όνομα του stream
 streams-msg-changed = Ενημερώθηκε επιτυχώς το μήνυμα ειδοποίησης έναρξης stream!
 # $source will be the source of the stream alert.
 streams-added = Επιτυχής προσθήκη αυτού του { $source } stream ως ειδοποίηση σε αυτό το κανάλι!
-# $cmd_mention is the slash command mention for /alerts streams settings
-streams-added-tip =
-    Μια ειδοποίηση θα σταλεί κατά τη διάρκεια του επόμενου stream.
-    Μπορείτε να ενημερώσετε τις ρυθμίσεις των ειδοποιήσεων stream χρησιμοποιώντας την εντολή { $cmd_mention } .
+streams-added-tip = A message will be sent during the next stream.
 # $source will be the source of the stream alert.
 streams-removed = Αφαιρέθηκε επιτυχώς η ειδοποίηση { $source } stream από αυτό το κανάλι!
 streams-twitch-notfound = Δε βρέθηκε αυτός ο χρήστης Twitch.
 streams-kick-notfound = Δεν μπόρεσε να βρεθεί αυτός ο χρήστης Kick.
-videos-settings = ρυθμίσεις ειδοποιήσεων βίντεο
+videos-settings = Videos alerts settings
 videos-message = Μήνυμα
 # max.length: 80
 videos-settings-msg-btn = Επεξεργασία μηνύματος
@@ -63,9 +61,7 @@ videos-count = { $source } ειδοποιήσεις βίντεο σε αυτόν
 videos-none = There are no { $source } video alerts in this server.
 # $source will be the source of the video alert.
 videos-added = Προστέθηκε επιτυχώς αυτό το κανάλι { $source } ως ειδοποίηση σε αυτό το κανάλι!
-videos-added-tip =
-    Μια ειδοποίηση θα αποστέλλεται κάθε φορά που δημοσιεύεται το επόμενο βίντεο.
-    Μπορείτε να ενημερώσετε τις ρυθμίσεις ειδοποιήσεων βίντεο χρησιμοποιώντας την εντολή { $cmd_mention } .
+videos-added-tip = A message will be sent whenever the next video is posted.
 # $source will be the source of the video alert.
 videos-removed = Αφαιρέθηκε επιτυχώς αυτή η ειδοποίηση { $source } από αυτό το κανάλι!
 yt-notfound =
