@@ -6,6 +6,12 @@ disable = Disable
 max-alerts = You cannot have more than { $count } alerts per server.
 max-alerts-tip = You can get higher limits with our Premium tiers:
 streams-settings = Streams alerts settings
+streams-desc =
+    Notes:
+    - For the message you can use the following placeholders: { "{" }streamer{ "}" } = the streamer name - { "{" }everyone{ "}" } = @everyone ping - { "{" }here{ "}" } = @here ping
+    - If you want to delete the alert you can use the same command, and click on the "Disable" button.
+    - By default the alerts will auto-refresh every 15 minutes, you can disable this by clicking on the "Disable message auto-refresh" button.
+    - You can change what happens when the stream ends by clicking on the "Change streams end behavior" button. You can either edit the message with some informations about the stream, or send a new message, or delete the message.
 streams-message = Съобщение
 streams-autorefresh = Автоматично опресняване
 streams-endbehavior = Поведение в края
@@ -13,8 +19,8 @@ streams-endbehavior = Поведение в края
 streams-count = { $source } уведомления за излъчвания в този сървър
 # $source will be the source of the stream alert.
 streams-none = There are no { $source } stream alerts in this server.
-streams-disable-autorefresh = Изключи автоматичното опресняване на уведомления
-streams-enable-autorefresh = Включи автоматичното опресняване на уведомления
+streams-disable-autorefresh = Disable message auto-refresh
+streams-enable-autorefresh = Enable message auto-refresh
 # max.length: 80
 streams-edit-msg-btn = Редактирай съобщение
 # max.length: 80
@@ -47,6 +53,10 @@ streams-kick-notfound = Couldn't find that Kick user.
 streams-list-title = Stream alerts list
 videos-list-title = Videos alerts list
 videos-settings = Videos alerts settings
+videos-desc =
+    Notes:
+    - For the message you can use the following placeholders: { "{" }name{ "}" } = the video creator name - { "{" }everyone{ "}" } = @everyone ping - { "{" }here{ "}" } = @here ping
+    - If you want to delete the alert you can use the same command, and click on the "Disable" button.
 videos-message = Съобщение
 # max.length: 80
 videos-settings-msg-btn = Редактирай съобщение

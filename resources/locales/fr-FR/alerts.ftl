@@ -6,6 +6,12 @@ disable = Désactiver
 max-alerts = You cannot have more than { $count } alerts per server.
 max-alerts-tip = You can get higher limits with our Premium tiers:
 streams-settings = Streams alerts settings
+streams-desc =
+    Notes:
+    - For the message you can use the following placeholders: { "{" }streamer{ "}" } = the streamer name - { "{" }everyone{ "}" } = @everyone ping - { "{" }here{ "}" } = @here ping
+    - If you want to delete the alert you can use the same command, and click on the "Disable" button.
+    - By default the alerts will auto-refresh every 15 minutes, you can disable this by clicking on the "Disable message auto-refresh" button.
+    - You can change what happens when the stream ends by clicking on the "Change streams end behavior" button. You can either edit the message with some informations about the stream, or send a new message, or delete the message.
 streams-message = Message
 streams-autorefresh = Actualisation automatique
 streams-endbehavior = Alerte de fin de stream
@@ -13,8 +19,8 @@ streams-endbehavior = Alerte de fin de stream
 streams-count = Alerte de streams { $source } sur ce serveur
 # $source will be the source of the stream alert.
 streams-none = Il n'y a pas d'alerte de stream { $source } sur ce serveur.
-streams-disable-autorefresh = Désactiver l'actualisation automatique des alertes
-streams-enable-autorefresh = Activer l'actualisation automatique des alertes
+streams-disable-autorefresh = Disable message auto-refresh
+streams-enable-autorefresh = Enable message auto-refresh
 # max.length: 80
 streams-edit-msg-btn = Modifier le message
 # max.length: 80
@@ -47,6 +53,10 @@ streams-kick-notfound = Impossible de trouver cet utilisateur Kick.
 streams-list-title = Stream alerts list
 videos-list-title = Videos alerts list
 videos-settings = Videos alerts settings
+videos-desc =
+    Notes:
+    - For the message you can use the following placeholders: { "{" }name{ "}" } = the video creator name - { "{" }everyone{ "}" } = @everyone ping - { "{" }here{ "}" } = @here ping
+    - If you want to delete the alert you can use the same command, and click on the "Disable" button.
 videos-message = Message
 # max.length: 80
 videos-settings-msg-btn = Modifier le message

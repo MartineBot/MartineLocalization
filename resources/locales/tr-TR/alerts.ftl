@@ -3,9 +3,15 @@ no = Hayır
 enable = Etkinleştir
 disable = Devre Dışı Bırak
 # $count will be the number of alerts.
-max-alerts = You cannot have more than { $count } alerts per server.
-max-alerts-tip = You can get higher limits with our Premium tiers:
-streams-settings = Streams alerts settings
+max-alerts = Sunucu başına { $count } adresinden daha fazla uyarı alamazsınız.
+max-alerts-tip = Premium alarak daha yüksek limitler elde edebilirsiniz:
+streams-settings = Yayın bildirim ayarları
+streams-desc =
+    Notes:
+    - For the message you can use the following placeholders: { "{" }streamer{ "}" } = the streamer name - { "{" }everyone{ "}" } = @everyone ping - { "{" }here{ "}" } = @here ping
+    - If you want to delete the alert you can use the same command, and click on the "Disable" button.
+    - By default the alerts will auto-refresh every 15 minutes, you can disable this by clicking on the "Disable message auto-refresh" button.
+    - You can change what happens when the stream ends by clicking on the "Change streams end behavior" button. You can either edit the message with some informations about the stream, or send a new message, or delete the message.
 streams-message = Mesaj
 streams-autorefresh = Otomatik yenileme
 streams-endbehavior = Eylemi sonlandır
@@ -13,14 +19,14 @@ streams-endbehavior = Eylemi sonlandır
 streams-count = { $source } bildirimleri bu sunucuda yayınlanıyor
 # $source will be the source of the stream alert.
 streams-none = Bu sunucuda { $source } yayın bildirimi yok.
-streams-disable-autorefresh = Otomatik bildirim yenilemeyi devre dışı bırak
-streams-enable-autorefresh = Otomatik bildirim yenilemeyi aktifleştir
+streams-disable-autorefresh = Disable message auto-refresh
+streams-enable-autorefresh = Enable message auto-refresh
 # max.length: 80
 streams-edit-msg-btn = Mesajı düzenle
 # max.length: 80
 streams-autorefresh-btn = Otomatik yenileme
-streams-autorefresh-enabled = Alright! The alerts messages for this stream will now auto refresh after 15 minutes.
-streams-autorefresh-disabled = Alright! The alerts messages for this stream will no longer auto refresh.
+streams-autorefresh-enabled = Tamamdır! Canlı yayın bildirim mesajları artık 15 dakika sonra otomatik olarak yenilenecektir.
+streams-autorefresh-disabled = Pekala! Bu canlı yayın için uyarı mesajları artık otomatik olarak yenilenmeyecektir.
 streams-endbehavior-select = Canlı yayının bitiş eylemini değiştir
 streams-deletealertmsg = Bildirim mesajını sil
 streams-deletealertmsg-desc = Bu işlem canlı yayın bildirim mesajını silecektir.
@@ -39,14 +45,18 @@ streams-msg-placeholder = { "{" }yayıncı{ "}" } = yayıncı adı - { "{" }herk
 streams-msg-changed = Canlı yayın başlangıç bildirimi başarıyla güncellendi!
 # $source will be the source of the stream alert.
 streams-added = Bu { $source } yayınını başarıyla söz konusu kanala ekledik!
-streams-added-tip = A message will be sent during the next stream.
+streams-added-tip = Bir sonraki canlı yayın sırasında bir mesaj gönderilecektir.
 # $source will be the source of the stream alert.
 streams-removed = { $source } canlı yayın bildirimi bu kanaldan başarıyla kaldırıldı!
 streams-twitch-notfound = Twitch kullanıcısı bulunamadı.
 streams-kick-notfound = Kick kullanıcısı bulunamadı.
-streams-list-title = Stream alerts list
-videos-list-title = Videos alerts list
-videos-settings = Videos alerts settings
+streams-list-title = Yayın uyarıları listesi
+videos-list-title = Video uyarıları listesi
+videos-settings = Video bildirim ayarları
+videos-desc =
+    Notes:
+    - For the message you can use the following placeholders: { "{" }name{ "}" } = the video creator name - { "{" }everyone{ "}" } = @everyone ping - { "{" }here{ "}" } = @here ping
+    - If you want to delete the alert you can use the same command, and click on the "Disable" button.
 videos-message = Mesaj
 # max.length: 80
 videos-settings-msg-btn = Mesajı düzenle
@@ -85,7 +95,7 @@ alerts_videos_tiktok-parameter-user_name_or_url-description = TikTok kanal adı 
 # max.length: 100
 alerts_videos_tiktok-parameter-message_template-long-description = Bildirimler için kullanılacak mesaj şablonu. Kanal adı için { name } adresini kullanın.
 # max.length: 100
-help-alerts_videos_list = List all video alerts in this server.
+help-alerts_videos_list = Bu sunucudaki tüm video uyarılarını listeleyin.
 # max.length: 100
 help-alerts_streams = Canlı yayın bildirimlerini bu sunucuda düzenleyin.
 # max.length: 100
@@ -101,4 +111,4 @@ help-alerts_streams_kick = Bir Kick kullanıcısı için canlı yayın bildirimi
 # max.length: 100
 alerts_streams_kick-parameter-user_name_or_url-description = Kick kanal adı veya URL'si.
 # max.length: 100
-help-alerts_streams_list = List all stream alerts in this server.
+help-alerts_streams_list = Bu sunucudaki tüm yayın uyarılarını listeleyin.
