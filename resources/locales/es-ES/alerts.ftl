@@ -41,7 +41,7 @@ streams-msg-modal = Editor de mensajes de alertas de transmisión.
 # max.length: 45
 streams-msg-label = Establecer el mensaje enviado en una alerta de inicio de transmisión.
 # max.length: 100
-streams-msg-placeholder = { "{" }streamer{ "}" } = El nombre del streamer. - { "{" }Mencionar a todos.{ "}" } = @everyone - { "{" }Conectados{ "}" } = @here ping
+streams-msg-placeholder = { "{" }streamer{ "}" } = El nombre del streamer. - { "{" }everyone{ "}" } = @everyone - { "{" }here{ "}" } = @here ping
 streams-msg-changed = ¡Se actualizó correctamente el mensaje de alerta de inicio de transmisión!
 # $source will be the source of the stream alert.
 streams-added = ¡Se agregó correctamente esta transmisión de { $source } como una alerta en ese canal!
@@ -61,7 +61,7 @@ videos-message = Mensaje
 # max.length: 80
 videos-settings-msg-btn = Editar mensaje.
 # max.length: 45
-videos-msg-modal = Editor de mensajes de alertas de videos.
+videos-msg-modal = Editor de alertas de vídeo
 # max.length: 45
 videos-msg-label = Establecer el mensaje enviado en las alertas de videos.
 # max.length: 100
