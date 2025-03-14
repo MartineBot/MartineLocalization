@@ -19,8 +19,8 @@ streams-endbehavior = Eylemi sonlandır
 streams-count = { $source } bildirimleri bu sunucuda yayınlanıyor
 # $source will be the source of the stream alert.
 streams-none = Bu sunucuda { $source } yayın bildirimi yok.
-streams-disable-autorefresh = Disable message auto-refresh
-streams-enable-autorefresh = Enable message auto-refresh
+streams-disable-autorefresh = Mesajı otomatik yenilemeyi devre dışı bırak
+streams-enable-autorefresh = Mesajı otomatik yenilemeyi etkinleştir
 # max.length: 80
 streams-edit-msg-btn = Mesajı düzenle
 # max.length: 80
@@ -73,7 +73,7 @@ videos-count = { $source } videoların bildirimi bu sunucuda
 videos-none = Bu sunucuda { $source } video bildirimi yok.
 # $source will be the source of the video alert.
 videos-added = { $source } kanalını başarıyla söz konusu kanala eklendi!
-videos-added-tip = A message will be sent whenever the next video is posted.
+videos-added-tip = Bir sonraki video yayınlandığında bir mesaj gönderilecektir.
 # $source will be the source of the video alert.
 videos-removed = { $source } kanal bildirimi bu kanaldan başarıyla kaldırıldı!
 yt-notfound =

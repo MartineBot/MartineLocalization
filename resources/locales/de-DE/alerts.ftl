@@ -7,11 +7,11 @@ max-alerts = Sie können nicht mehr als { $count } Benachrichtigungen pro Server
 max-alerts-tip = Das Limit kann durch unsere Premium Stufen erhöht werden:
 streams-settings = Stream Benachrichtigungs Einstellungen
 streams-desc =
-    Notes:
-    - For the message you can use the following placeholders: { "{" }streamer{ "}" } = the streamer name - { "{" }everyone{ "}" } = @everyone ping - { "{" }here{ "}" } = @here ping
-    - If you want to delete the alert you can use the same command, and click on the "Disable" button.
-    - By default the alerts will auto-refresh every 15 minutes, you can disable this by clicking on the "Disable message auto-refresh" button.
-    - You can change what happens when the stream ends by clicking on the "Change streams end behavior" button. You can either edit the message with some informations about the stream, or send a new message, or delete the message.
+    Anmerkungen:
+    - Für die Nachricht können Sie die folgenden Platzhalter verwenden: { "{" }Streamer{ "}" } = der Streamer-Name - { "{" }everyone{ "}" } = @everyone ping - { "{" }here{ "}" } = @here ping
+    - Wenn Sie den Alarm löschen möchten, können Sie denselben Befehl verwenden und auf die Schaltfläche "Deaktivieren" klicken.
+    - Standardmäßig werden die Meldungen alle 15 Minuten automatisch aktualisiert. Sie können dies deaktivieren, indem Sie auf die Schaltfläche "Automatische Nachrichtenaktualisierung deaktivieren" klicken.
+    - Sie können das Verhalten beim Beenden des Streams ändern, indem Sie auf die Schaltfläche "Verhalten beim Beenden des Streams ändern" klicken. Sie können entweder die Nachricht mit einigen Informationen über den Stream bearbeiten, eine neue Nachricht senden oder die Nachricht löschen.
 streams-message = Nachricht
 streams-autorefresh = Automatische Aktualisierung
 streams-endbehavior = Endverhalten
@@ -19,8 +19,8 @@ streams-endbehavior = Endverhalten
 streams-count = { $source } Benachrichtigungen auf diesem Server
 # $source will be the source of the stream alert.
 streams-none = Auf diesem Server gibt es keine { $source } Stream-Benachrichtigung.
-streams-disable-autorefresh = Disable message auto-refresh
-streams-enable-autorefresh = Enable message auto-refresh
+streams-disable-autorefresh = Automatisches Auffrischen von Nachrichten deaktivieren
+streams-enable-autorefresh = Automatisches Auffrischen von Nachrichten einschalten
 # max.length: 80
 streams-edit-msg-btn = Nachricht bearbeiten
 # max.length: 80
@@ -54,9 +54,9 @@ streams-list-title = Streambenachrichtigungsliste
 videos-list-title = Videobenachrichtigungsliste
 videos-settings = Video Benachrichtigungseinstellungen
 videos-desc =
-    Notes:
-    - For the message you can use the following placeholders: { "{" }name{ "}" } = the video creator name - { "{" }everyone{ "}" } = @everyone ping - { "{" }here{ "}" } = @here ping
-    - If you want to delete the alert you can use the same command, and click on the "Disable" button.
+    Anmerkungen:
+    - Für die Nachricht können Sie die folgenden Platzhalter verwenden: { "{" }Name{ "}" } = der Name des Videoerstellers - { "{" }everyone{ "}" } = @everyone ping - { "{" }here{ "}" } = @here ping
+    - Wenn Sie die Meldung löschen möchten, können Sie denselben Befehl verwenden und auf die Schaltfläche "Deaktivieren" klicken.
 videos-message = Nachricht
 # max.length: 80
 videos-settings-msg-btn = Nachricht bearbeiten
