@@ -39,7 +39,7 @@ streams-endbehavior-changed = Se actualizó correctamente el comportamiento al f
 # max.length: 45
 streams-msg-modal = Editor de mensajes de alertas de transmisión.
 # max.length: 45
-streams-msg-label = Establecer el mensaje enviado en una alerta de inicio de transmisión.
+streams-msg-label = Set the message sent on a stream start alert.
 # max.length: 100
 streams-msg-placeholder = { "{" }streamer{ "}" } = El nombre del streamer. - { "{" }everyone{ "}" } = @everyone - { "{" }here{ "}" } = @here ping
 streams-msg-changed = ¡Se actualizó correctamente el mensaje de alerta de inicio de transmisión!
@@ -65,7 +65,7 @@ videos-msg-modal = Editor de alertas de vídeo
 # max.length: 45
 videos-msg-label = Establecer el mensaje enviado en las alertas de videos.
 # max.length: 100
-videos-msg-placeholder = { "{" }name{ "}" } representa el nombre del creador del video, { "{" }everyone{ "}" } representa una mención a @everyone y { "{" }here{ "}" } representa una mención a @here
+videos-msg-placeholder = { "{" }name{ "}" } = the video creator name - { "{" }everyone{ "}" } = @everyone ping - { "{" }here{ "}" } = @here ping
 videos-msg-changed = ¡Se actualizó correctamente el mensaje de alertas de videos!
 # $source will be the source of the video alert.
 videos-count = Alertas de videos de { $source } en este servidor.

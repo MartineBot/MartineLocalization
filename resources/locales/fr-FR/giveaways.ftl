@@ -1,4 +1,4 @@
-giveaway-run-notfound = Il n'a pas été possible de trouver un giveaway en cours pour ce message.
+giveaway-run-notfound = Je n'ai pas trouvé de giveaway en cours pour ce message.
 giveaway-notfound = Je n'ai pas trouvé de giveaway pour ce message.
 giveaway-notstored = Il n'a pas été possible de trouver un giveaway enregistré pour ce message.
 giveaway-roles = Rôles :
@@ -43,8 +43,8 @@ giveaway-btn-label = Participer au giveaway ({ $entries } participants)
 giveaway-btn-label-ended = { $entries } participants
 giveaway-btn-spammy = Ce bouton est en cooldown, veuillez réessayer plus tard.
 giveaway-btn-removed = Ta participation pour ce giveaway a été retirée ! { $emoji }
-giveaway-btn-fail-role-any = Tu dois avoir au moins l'un des rôles suivants pour participer à ce giveaway : { $roles }
-giveaway-btn-fail-role-all = Tu dois avoir tous les rôles suivants pour participer à ce giveaway : { $roles }
+giveaway-btn-fail-role-any = Tu dois avoir au moins l'un de ces rôles pour participer à ce giveaway : { $roles }
+giveaway-btn-fail-role-all = Tu dois avoir tous ces rôles pour participer à ce giveaway : { $roles }
 giveaway-btn-fail-joindays = { $joindays } jours dans le serveur, mais tu y es depuis { $days } jours.
 giveaway-btn-denied-title =
     Ta participation au giveaway est refusée ! Il manque { $count ->

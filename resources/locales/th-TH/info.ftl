@@ -67,156 +67,160 @@ si-icon = ไอคอน
 # max.length: 80
 si-banner-btn = แบนเนอร์
 # max.length: 80
-si-invite-bg-btn = Invite Background
+si-invite-bg-btn = พื้นหลังของคำเชิญ
 # max.length: 80
-si-back-si-btn = Get back to server info
+si-back-si-btn = กลับไปยังข้อมูลเซิร์ฟเวอร์
 # userinfo command
 # max.length: 100
 help-userinfo = แสดงข้อมูลเกี่ยวกับผู้ใช้
 ui-app-info = ข้อมูลการสมัคร
 ui-app-tags = แท็ก
 ui-app-tags-empty = ว่างเปล่า
-ui-app-flags = Application flags
+ui-app-flags = ธงของแอปพลิเคชัน
 ui-app-presence = การแสดงเจตนา
-ui-app-members = Server Members Intent
-ui-app-msg = Message Content Intent
-ui-app-misc = Misc
-ui-app-guildcount = Approximate servers count
-ui-app-public = Public
-ui-app-slug = Slug
-ui-app-tos = Terms of Service
-ui-app-privacy = Privacy Policy
-ui-app-add = Add to Server
-ui-created-on = Created:
-ui-badges = Badges
-ui-id = User ID:
-ui-userinfo-field = User info
-ui-mention = Mention
-ui-activities = Activities
-ui-member = Member info
-ui-member-joined = Joined:
-ui-in-channel = channel:
-ui-booster-since = Booster since:
-ui-member-nick = Nickname:
-ui-customstatus-emojiandname = Custom status: { $emoji } { $name }
-ui-customstatus-emoji = Custom status: { $emoji }
-ui-customstatus-name = Custom status: { $name }
-ui-playing = Playing { $name }
-ui-streaming = Streaming { $name }
-ui-listening = Listening to { $name }
-ui-watching = Watching { $name }
-ui-competing = Competing in { $name }
-ui-roles = Roles
-ui-member = Member
-ui-select-assets = View user's avatar or banner...
+ui-app-members = เจตนาสำหรับสมาชิกเซิร์ฟเวอร์
+ui-app-msg = เจตนาสำหรับเนื้อหาข้อความ
+ui-app-misc = อื่น ๆ
+ui-app-guildcount = จำนวนเซิร์ฟเวอร์โดยประมาณ
+ui-app-public = สาธารณะ
+ui-app-slug = ชื่อย่อ
+ui-app-tos = ข้อกำหนดการให้บริการ
+ui-app-privacy = นโยบายความเป็นส่วนตัว
+ui-app-add = เพิ่มลงในเซิร์ฟเวอร์
+ui-created-on = สร้างเมื่อ:
+ui-badges =  เหรียญตรา
+ui-id = ไอดีผู้ใช้:
+ui-userinfo-field = ข้อมูลผู้ใช้
+ui-mention =  การกล่าวถึง
+ui-activities = กิจกรรม
+ui-member = ข้อมูลสมาชิก
+ui-member-joined = เข้าร่วมเมื่อ:
+ui-in-channel = ช่อง:
+ui-booster-since =  เป็นบูสเตอร์ตั้งแต่:
+ui-member-nick = ชื่อเล่น:
+ui-customstatus-emojiandname = สถานะที่กำหนดเอง: { $emoji }{ $name }
+ui-customstatus-emoji = สถานะที่กำหนดเอง: { $emoji }
+ui-customstatus-name = สถานะที่กำหนดเอง: { $name }
+ui-playing = กำลังเล่น { $name }
+ui-streaming = กำลังสตรีม { $name }
+ui-listening = กำลังฟัง { $name }
+ui-watching = กำลังดู { $name }
+ui-competing = กำลังแข่งขันใน { $name }
+ui-roles = บทบาท
+ui-member = สมาชิก
+ui-select-assets = ดูอวาตาร์หรือแบนเนอร์ของผู้ใช้...
 ui-select-banner = แบนเนอร์
-ui-select-avatar = Avatar
-ui-select-server-avatar = Server avatar
-ui-no-banner = No banner set.
-ui-user-avatar = { $user }
-ui-server-avatar = { $user }
-ui-no-server-avatar = No server avatar set.
+ui-select-avatar = อวาตาร์
+ui-select-server-avatar = อวาตาร์เซิร์ฟเวอร์
+ui-no-banner = ไม่มีแบนเนอร์ตั้งค่า
+ui-user-avatar = { $user } อวาตาร์ของผู้ใช้
+ui-server-avatar = { $user } อวาตาร์ของเซิร์ฟเวอร์
+ui-no-server-avatar = ไม่มีอวาตาร์เซิร์ฟเวอร์ตั้งค่า
 # max.length: 80
-ui-back-btn = Get back to user info
+ui-back-btn = กลับไปยังข้อมูลผู้ใช้
 # max.length: 80
-ui-perms-btn = View member permissions
+ui-perms-btn = ดูสิทธิ์ของสมาชิก
 # channelinfo command
 # max.length: 100
-help-channelinfo = Shows information about a channel. Default to current.
-ci-created = Created on
-ci-no-topic = No topic.
-ci-position = Position
-ci-members = Members
-ci-slowmode = Slowmode
-ci-webhooks = Webhooks
-ci-threads = Threads
-ci-archived = Archived
-ci-archived-time = Archived Time
-ci-archiver = Archiver
-ci-private = Private
-ci-messages = Messages
-ci-owner = Owner
-ci-parent = Parent
-ci-region = Region
-ci-region-automatic = Automatic
-ci-bitrate = Bitrate
+help-channelinfo = แสดงข้อมูลเกี่ยวกับช่อง ค่าเริ่มต้นคือช่องปัจจุบัน
+ci-created = สร้างเมื่อ
+ci-no-topic = ไม่มีหัวข้อ
+ci-position = ตำแหน่ง
+ci-members = สมาชิก
+ci-slowmode = โหมดช้า
+ci-webhooks = เว็บฮุค
+ci-threads =  เธรด
+ci-archived = เก็บถาวร
+ci-archived-time = เวลาที่ถูกเก็บถาวร
+ci-archiver =  ตัวเก็บถาวร
+ci-private = ส่วนตัว
+ci-messages = ข้อความ
+ci-owner =  เจ้าของ
+ci-parent = หมวดหมู่หลัก
+ci-region = ภูมิภาค
+ci-region-automatic = อัตโนมัติ
+ci-bitrate = บิตเรต
 ci-unknown = Unknown
-ci-user-limit = User limit
-ci-details-field = Details
-ci-id = Channel ID:
+ci-user-limit = ขีดจำกัดผู้ใช้
+ci-details-field =
+    รายละเอียด
+    
+ci-id =
+    ไอดีช่อง:
+    
 # roleinfo command
 # max.length: 100
-help-roleinfo = Shows information about a role.
-ri-created = Created on
-ri-members = Members
-ri-colour = Colour
-ri-position = Position
-ri-hoisted = Hoisted
-ri-managed = Managed
-ri-mentionnable = Mentionnable
-ri-id = Role ID:
+help-roleinfo = แสดงข้อมูลเกี่ยวกับบทบาท
+ri-created = สร้างเมื่อ
+ri-members = สมาชิก
+ri-colour = สี
+ri-position = ตำแหน่ง
+ri-hoisted = แสดงแยก
+ri-managed = ถูกจัดการ
+ri-mentionnable = สามารถกล่าวถึงได้
+ri-id = ไอดีบทบาท:
 # emojiinfo command
 # max.length: 100
-help-emojiinfo = Shows information about an emoji.
-em-react = React to this message with the emoji of your choice
-em-cancelled = Cancelled
-em-unicode-char = Unicode character
-em-unicode-category = Unicode category
+help-emojiinfo = แสดงข้อมูลเกี่ยวกับอีโมจิ
+em-react = ตอบกลับข้อความนี้ด้วยอีโมจิที่คุณเลือก
+em-cancelled = ยกเลิกแล้ว
+em-unicode-char = อักขระ Unicode
+em-unicode-category = หมวดหมู่ Unicode
 em-animated = เคลื่อนไหว
-em-created = Created at
-em-required = required
-em-managed = Managed
-em-server = Server
-em-roles = Roles
-em-custom = Custom emoji
-em-id = Emoji ID
+em-created = สร้างเมื่อ
+em-required = จำเป็น
+em-managed = ถูกจัดการ
+em-server = เซิร์ฟเวอร์
+em-roles = บทบาท
+em-custom = อีโมจิกำหนดเอง
+em-id = ไอดีอีโมจิ
 # stickerinfo command
 # max.length: 100
-help-stickerinfo = Shows information about a sticker.
-sti-nothing = There's no sticker on this message.
-sti-failed = Failed to get informations about this sticker.
-sti-no-desc = No description
-sti-type = Type
-sti-server = Server sticker
-sti-emoji = Emoji
-sti-created = Created at
-sti-standard = Standard sticker
-sti-pack = Pack
-sti-tags = tags
-sti-id = Sticker ID
+help-stickerinfo = แสดงข้อมูลเกี่ยวกับสติกเกอร์
+sti-nothing = ไม่มีสติกเกอร์ในข้อความนี้
+sti-failed = ไม่สามารถดึงข้อมูลของสติกเกอร์นี้ได้
+sti-no-desc = ไม่มีคำอธิบาย
+sti-type = ประเภท
+sti-server = สติกเกอร์ของเซิร์ฟเวอร์
+sti-emoji = อีโมจิ
+sti-created = สร้างเมื่อ
+sti-standard = สติกเกอร์มาตรฐาน
+sti-pack = แพ็ก
+sti-tags = แท็ก
+sti-id = ไอดีสติกเกอร์
 # donate command
 # max.length: 100
-help-donate = Shows the ways to support Martine development.
-donate-title = Here are the ways to support Martine development
-donate-kofi = One-time donation, unlocks you a role on Martine's server, and 10k marts (per month donated).
-donate-patreon = Per-month donation, become a Patron to get some awesome perks for you and your server!
+help-donate = แสดงวิธีสนับสนุนการพัฒนา Martine
+donate-title = นี่คือวิธีสนับสนุนการพัฒนา Martine
+donate-kofi = บริจาคครั้งเดียว ปลดล็อกบทบาทในเซิร์ฟเวอร์ของ Martine และรับ 10,000 marts (ต่อเดือนที่บริจาค)
+donate-patreon = บริจาครายเดือน กลายเป็น Patron เพื่อรับสิทธิพิเศษสำหรับคุณและเซิร์ฟเวอร์ของคุณ!
 # max.length: 100
-help-ping = Shows the latency estimation of the bot (for the current cluster).
+help-ping = แสดงค่าความหน่วงของบอท (สำหรับคลัสเตอร์ปัจจุบัน)
 # max.length: 100
-help-martine = Get all informations about Martine.
+help-martine = รับข้อมูลทั้งหมดเกี่ยวกับ Martine
 # max.length: 100
-help-info = Get info of multiple things on Discord.
+help-info = รับข้อมูลของหลาย ๆ อย่างใน Discord
 # max.length: 100
 help-info_user = แสดงข้อมูลเกี่ยวกับผู้ใช้
 # max.length: 100
-info_user-parameter-user-description = The user you want information about.
+info_user-parameter-user-description = ผู้ใช้ที่คุณต้องการข้อมูล
 # max.length: 100
 help-info_server = แสดงข้อมูลเกี่ยวกับเซิร์ฟเวอร์, ป้ายสมาชิก, และทรัพยากร
 # max.length: 100
-help-info_channel = Shows information about a channel. Default to current.
+help-info_channel = แสดงข้อมูลเกี่ยวกับช่อง ค่าเริ่มต้นคือช่องปัจจุบัน
 # max.length: 100
-info_channel-parameter-channel-description = The channel you want information about.
+info_channel-parameter-channel-description = ช่องที่คุณต้องการข้อมูล
 # max.length: 100
-help-info_role = Shows information about a role.
+help-info_role = แสดงข้อมูลเกี่ยวกับบทบาท
 # max.length: 100
-info_role-parameter-role-description = The role you want information about.
+info_role-parameter-role-description = บทบาทที่คุณต้องการข้อมูล
 # max.length: 100
-help-info_emoji = Shows information about a emoji.
+help-info_emoji = แสดงข้อมูลเกี่ยวกับอีโมจิ
 # max.length: 100
-info_emoji-parameter-emoji-description = The emoji you want information about.
+info_emoji-parameter-emoji-description = อีโมจิที่คุณต้องการข้อมูล
 # max.length: 100
-help-info_bot_clusters = Shows clusters stats.
+help-info_bot_clusters = แสดงสถิติของคลัสเตอร์
 # max.length: 100
-help-info_bot_currentcluster = Shows infos about the current cluster.
+help-info_bot_currentcluster = แสดงข้อมูลเกี่ยวกับคลัสเตอร์ปัจจุบัน
 # max.length: 100
-help-help = Get the list of commands and important links.
+help-help =  รับรายการคำสั่งและลิงก์สำคัญ
