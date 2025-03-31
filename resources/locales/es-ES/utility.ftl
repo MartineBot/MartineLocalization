@@ -39,7 +39,6 @@ premium-since = **Desde:** { $value }
 premium-status-servers = Tus servidores Premium
 premium-unknown-server = Nombre de servidor desconocido
 premium-status-current-server = Estado Premium del servidor actual
-
 premium-server-notsub =
     Parece que no tienes una suscripción de Patreon.
     Por favor, suscríbete a nuestro Patreon para tener acceso a las funciones Premium: { $premium_url }

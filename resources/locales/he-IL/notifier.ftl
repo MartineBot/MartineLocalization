@@ -6,6 +6,7 @@ viewer-count = כמות צופים
 streamend-title = { $streamer_name } • השידור הסתיים!
 streamend-highest-viewers = כמות הצופים הגבוהה ביותר
 streamend-total-duration = משך השידור החי
+streamend-schedule = Next scheduled stream
 twitch-live = משדר בTwitch
 twitch-game-name = משחק
 twitch-unknown-game = לא ידוע

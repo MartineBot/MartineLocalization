@@ -6,6 +6,7 @@ viewer-count = İzleyici sayısı
 streamend-title = { $streamer_name } • yayın sona erdi!
 streamend-highest-viewers = En yüksek izleyici sayısı
 streamend-total-duration = Yayın süresi
+streamend-schedule = Next scheduled stream
 twitch-live = Twitch'te canlı yayın yapıyor
 twitch-game-name = Oyun
 twitch-unknown-game = Bilinmiyor

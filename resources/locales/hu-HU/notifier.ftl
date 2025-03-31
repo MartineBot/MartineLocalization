@@ -6,6 +6,7 @@ viewer-count = Nézők
 streamend-title = { $streamer_name } • stream ended!
 streamend-highest-viewers = Legnagyobb nézőszám
 streamend-total-duration = Közvetítés időtartama
+streamend-schedule = Next scheduled stream
 twitch-live = Közvetít Twich-en
 twitch-game-name = Játék
 twitch-unknown-game = Ismeretlen

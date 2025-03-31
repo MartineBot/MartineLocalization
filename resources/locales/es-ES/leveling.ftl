@@ -29,7 +29,8 @@ help-rep = Otorga un punto de reputación a un miembro de este servidor.
 rep-parameter-member-description = El miembro al que se le otorgará un punto de reputación.
 rep-no-self = No puedes darte puntos de reputación a ti mismo. { $emoji }
 rep-nobots = ¡Lo siento, pero los bots no pueden recibir puntos de reputación! { $emoji }
-rep-cooldown = ¡Vaya, estás en tiempo de espera para otorgar puntos de reputación! { $emoji }
+rep-cooldown =
+    ¡Vaya, estás en tiempo de espera para otorgar puntos de reputación! { $emoji }
     Inténtalo de nuevo { $formatted_cooldown }
 rep-success =
     { $member } ¡acabas de recibir un punto de reputación de { $author }!
@@ -153,7 +154,7 @@ lvlconvert-embed-title = `{ $server_name }` Migración de datos del sistema de n
 lvlconvert-embed-description = Se encontraron { $members_count } miembros con datos de niveles para migrar.
 lvlconvert-embed-serversettings = Ajustes del servidor
 lvlconvert-embed-serversettings-exp = **Tasa de exp:** { $exp_rate }
-    **Exp por mensaje:** { $exp_per_message }
+    **Exp per message:** { $exp_per_message }
 
 lvlconvert-embed-roles = Recompensas de roles
 lvlconvert-embed-roles-none = No se han establecido recompensas de roles.

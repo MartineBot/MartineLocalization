@@ -6,6 +6,7 @@ viewer-count = Conteggio spettatori
 streamend-title = { $streamer_name } • Live terminata!
 streamend-highest-viewers = Conteggio spettatori massimi
 streamend-total-duration = Durata della live
+streamend-schedule = Next scheduled stream
 twitch-live = Live su Twitch
 twitch-game-name = Gioco
 twitch-unknown-game = Sconosciuto

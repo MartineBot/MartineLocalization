@@ -65,7 +65,7 @@ si-badges-btn = Ver insignias de miembros
 si-assets-btn = Ver recursos del servidor
 si-icon = Icono
 # max.length: 80
-si-banner-btn = Banner
+si-banner-btn = Portada
 # max.length: 80
 si-invite-bg-btn = Fondo de invitación
 # max.length: 80
@@ -93,7 +93,7 @@ ui-id = ID de usuario:
 ui-userinfo-field = Información del usuario
 ui-mention = Mención
 ui-activities = Actividades
-ui-member = Información del miembro
+ui-member = Miembro
 ui-member-joined = Se unió:
 ui-in-channel = canal:
 ui-booster-since = Booster desde:
@@ -109,7 +109,7 @@ ui-competing = Compitiendo en { $name }
 ui-roles = Roles
 ui-member = Miembro
 ui-select-assets = Ver avatar o banner del usuario...
-ui-select-banner = Banner
+ui-select-banner = Portada
 ui-select-avatar = Avatar
 ui-select-server-avatar = Avatar del servidor
 ui-no-banner = No se ha establecido un banner.
@@ -162,7 +162,7 @@ em-react = Reacciona a este mensaje con el emoji de tu elección
 em-cancelled = Cancelado
 em-unicode-char = Carácter Unicode
 em-unicode-category = Categoría Unicode
-em-animated = Animado
+em-animated = Animados
 em-created = Creado el
 em-required = requerido
 em-managed = Gestionado

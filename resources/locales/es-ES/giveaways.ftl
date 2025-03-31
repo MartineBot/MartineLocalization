@@ -14,14 +14,15 @@ giveaway-ends = Finaliza:
 giveaway-ends-at = Finaliza a las
 giveaway-winners = Ganadores:
 giveaway-rolling = Realizando sorteo de { $prize }...
-giveaway-roll-notfound = El mensaje del sorteo { $prize } parece haber sido eliminado.
+giveaway-roll-notfound =
+    El mensaje del sorteo { $prize } parece haber sido eliminado.
     No puedo seleccionar ganadores.
 giveaway-roll-reroll = ¡Re-sorteo! { $emoji }
 giveaway-roll-ended = ¡Sorteo finalizado! { $emoji }
 giveaway-roll-description =
     ¡Felicidades a **{ $num_winners } { $num_winners ->
-    [one] ganador 
-   *[other] ganadores 
+        [one] ganador
+       *[other] ganadores
     } 
     Has ganado { $prize }!**
 giveaway-roll-total-entries =
@@ -74,15 +75,15 @@ giveaway-setup-error = Error:
 giveaway-setup-cancelled = La configuración del sorteo ha sido cancelada.
 giveaway-setup-timeout =
     { $giveaway-setup-cancelled }
-
+    
     El usuario tardó demasiado en responder.
 giveaway-setup-too-many-fails =
     { $giveaway-setup-cancelled }
-
+    
     El usuario no logró dar una respuesta válida después de 5 intentos.
 giveaway-setup-title =
     __Has iniciado la configuración del sorteo. Tendrás 5 minutos para responder cada pregunta.__
-
+    
     ¿Qué premio estás sorteando? (Máximo 256 caracteres)
 giveaway-setup-prize-example = Un Discord Nitro.
 giveaway-setup-prize-too-long = El título del premio debe tener menos de 256 caracteres. Por favor, intenta de nuevo con un título más corto.
@@ -120,7 +121,6 @@ giveaway-setup-channel-missing-perms =
 giveaway-setup-endtime = ¿Cuándo finalizará el sorteo? La fecha puede ser cualquier fecha directa en este formato `YYYY-MM-DD` (hora UTC) o un desplazamiento legible.
 giveaway-setup-endtime-invalid = Esta no es una hora de finalización válida. Por favor, intenta de nuevo.
 giveaway-setup-success = ¡Sorteo creado exitosamente en { $channel }!
-
 giveaway-started = ¡Nuevo sorteo iniciado!
 giveaway-tip = ¡Haz clic en el botón de abajo para participar!
 # max.length: 100
@@ -179,7 +179,6 @@ help-giveaway_settings_host = Establece el organizador predeterminado para sorte
 giveaway_settings_host-parameter-user-description = El usuario que será el organizador predeterminado del sorteo. No especificar para restablecer.
 giveaway-settings-host-success = ¡Organizador predeterminado para sorteos en este servidor establecido exitosamente a { $host }!
 giveaway-settings-host-reset = ¡Organizador predeterminado para sorteos en este servidor restablecido exitosamente!
-
 # max.length: 100
 help-giveaway_settings_emoji = Establece el emoji predeterminado para sorteos en este servidor. No especificar para restablecer.
 # max.length: 100
@@ -187,7 +186,8 @@ giveaway_settings_emoji-parameter-emoji-description = El emoji que será el pred
 giveaway-settings-emoji-success = ¡Emoji predeterminado para sorteos en este servidor establecido exitosamente a { $emoji }!
 giveaway-settings-emoji-reset = ¡Emoji predeterminado para sorteos en este servidor restablecido exitosamente!
 # max.length: 100
-help-giveaway_settings_joindays = Establece el requisito de días que se debe estar en el servidor para participar en el sorteo.
+help-giveaway_settings_joindays =
+    Establece el requisito de días que se debe estar en el servidor para participar en el sorteo.
     No especificar para restablecer.
 # max.length: 100
 giveaway_settings_joindays-parameter-days-description = El valor de días que será el predeterminado para los sorteos. No especificar para restablecer.

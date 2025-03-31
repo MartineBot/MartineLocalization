@@ -8,7 +8,7 @@ max-alerts-tip = Puedes obtener límites más altos con nuestros planes Premium:
 streams-settings = Configuración de alertas de streams
 streams-desc =
     Notas:
-    - Para el mensaje puedes usar los siguientes marcadores de posición: {"{"}streamer{"}"} = el nombre del streamer - {"{"}everyone{"}"} = ping a @everyone - {"{"}here{"}"} = ping a @here
+    - Para el mensaje puedes usar los siguientes marcadores de posición: { "{" }streamer{ "}" } = el nombre del streamer - { "{" }everyone{ "}" } = ping a @everyone - { "{" }here{ "}" } = ping a @here
     - Si deseas eliminar la alerta, puedes usar el mismo comando y hacer clic en el botón "Desactivar".
     - Por defecto, las alertas se actualizarán automáticamente cada 15 minutos; puedes desactivar esto haciendo clic en el botón "Desactivar actualización automática del mensaje".
     - Puedes cambiar lo que sucede cuando finaliza el stream haciendo clic en el botón "Cambiar comportamiento al finalizar el stream". Puedes editar el mensaje con información sobre el stream, enviar un mensaje nuevo o eliminar el mensaje.
@@ -41,7 +41,7 @@ streams-msg-modal = Editor de mensajes de alerta de streams
 # max.length: 45
 streams-msg-label = Configura el mensaje del inicio del stream.
 # max.length: 100
-streams-msg-placeholder = {"{"}streamer{"}"} = el nombre del streamer - {"{"}everyone{"}"} = ping a @everyone - {"{"}here{"}"} = ping a @here
+streams-msg-placeholder = { "{" }streamer{ "}" } = el nombre del streamer - { "{" }everyone{ "}" } = ping a @everyone - { "{" }here{ "}" } = ping a @here
 streams-msg-changed = ¡Mensaje de alerta de inicio de stream actualizado exitosamente!
 # $source will be the source of the stream alert.
 streams-added = ¡Se ha añadido exitosamente este stream de { $source } como alerta en ese canal!
@@ -55,7 +55,7 @@ videos-list-title = Lista de alertas de videos
 videos-settings = Configuración de alertas de videos
 videos-desc =
     Notas:
-    - Para el mensaje puedes usar los siguientes marcadores de posición: {"{"}name{"}"} = el nombre del creador del video - {"{"}everyone{"}"} = ping a @everyone - {"{"}here{"}"} = ping a @here
+    - Para el mensaje puedes usar los siguientes marcadores de posición: { "{" }name{ "}" } = el nombre del creador del video - { "{" }everyone{ "}" } = ping a @everyone - { "{" }here{ "}" } = ping a @here
     - Si deseas eliminar la alerta, puedes usar el mismo comando y hacer clic en el botón "Desactivar".
 videos-message = Mensaje
 # max.length: 80
@@ -65,7 +65,7 @@ videos-msg-modal = Editor de mensajes de alerta de videos
 # max.length: 45
 videos-msg-label = Configura el mensaje de alertas de videos.
 # max.length: 100
-videos-msg-placeholder = {"{"}name{"}"} = el nombre del creador del video - {"{"}everyone{"}"} = ping a @everyone - {"{"}here{"}"} = ping a @here
+videos-msg-placeholder = { "{" }name{ "}" } = el nombre del creador del video - { "{" }everyone{ "}" } = ping a @everyone - { "{" }here{ "}" } = ping a @here
 videos-msg-changed = ¡Mensaje de alerta de videos actualizado exitosamente!
 # $source will be the source of the video alert.
 videos-count = Alertas de videos de { $source } en este servidor
@@ -76,10 +76,10 @@ videos-added = ¡Se ha añadido exitosamente este canal de { $source } como aler
 videos-added-tip = Se enviará un mensaje cada vez que se publique el próximo video.
 # $source will be the source of the video alert.
 videos-removed = ¡Se ha eliminado exitosamente esta alerta de canal de { $source } de este canal!
-yt-notfound = No se pudo encontrar ese usuario de YouTube.
+yt-notfound =
+    No se pudo encontrar ese usuario de YouTube.
     Intenta de nuevo pegando la URL del canal en https://commentpicker.com/youtube-channel-id.php y toma el valor de "Channel ID".
 tiktok-notfound = No se pudo encontrar ese usuario de TikTok.
-
 # max.length: 100
 help-alerts = Gestiona las alertas en este servidor.
 # max.length: 100
@@ -93,7 +93,7 @@ help-alerts_videos_tiktok = Gestiona una alerta de video para un usuario de TikT
 # max.length: 100
 alerts_videos_tiktok-parameter-user_name_or_url-description = El nombre o URL del canal de TikTok.
 # max.length: 100
-alerts_videos_tiktok-parameter-message_template-long-description = La plantilla de mensaje a usar para la alerta. Utiliza {name} para el nombre del canal.
+alerts_videos_tiktok-parameter-message_template-long-description = La plantilla de mensaje a usar para la alerta. Utiliza { name } para el nombre del canal.
 # max.length: 100
 help-alerts_videos_list = Lista todas las alertas de video en este servidor.
 # max.length: 100

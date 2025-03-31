@@ -6,6 +6,7 @@ viewer-count = Αριθμός θεατών
 streamend-title = { $streamer_name } - το stream τελείωσε!
 streamend-highest-viewers = Υψηλότερος αριθμός θεατών
 streamend-total-duration = Διάρκεια ροής
+streamend-schedule = Next scheduled stream
 twitch-live = Ζωντανά στο Twitch
 twitch-game-name = Παιχνίδι
 twitch-unknown-game = Άγνωστο

@@ -9,7 +9,7 @@ error-description =
     El comando { $command } ha fallado.
     Este error ha sido enviado al desarrollador del bot.
 error-tip-title = ¿Confundido acerca de esto?
-error-tip-description = Únete al servidor de soporte haciendo [clic aquí]({ $invite_url}), alguien responderá a tus preguntas.
+error-tip-description = Únete al servidor de soporte haciendo [clic aquí]({ $invite_url }), alguien responderá a tus preguntas.
 missing-perms-msg = Necesito { $perms } { $permission } para ejecutar este comando.
 command-nodm = Este comando no está disponible en mensajes directos.
 command-dmonly = Este comando solo está disponible en mensajes directos.
@@ -69,5 +69,5 @@ join-msg-commands-description =
     O usa `,help <categoría>` (la categoría que desees en lugar de `<>`)
     También puedes encontrar una lista de los comandos y preguntas frecuentes en el sitio web del bot: { $website }
 join-msg-support = Soporte:
-join-msg-support-description = Si necesitas ayuda con el bot, no dudes en [unirte al servidor de soporte]({ $invite_url}), un miembro del equipo de soporte te ayudará cuando esté disponible.
+join-msg-support-description = Si necesitas ayuda con el bot, no dudes en [unirte al servidor de soporte]({ $invite_url }), un miembro del equipo de soporte te ayudará cuando esté disponible.
 button-no-perms = No tienes permiso para usar este botón.
