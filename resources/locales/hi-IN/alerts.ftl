@@ -1,18 +1,18 @@
-yes = Yes
-no = No
+yes = हां
+no = नहीं
 enable = Enable
 disable = Disable
 # $count will be the number of alerts.
-max-alerts = You cannot have more than { $count } alerts per server.
-max-alerts-tip = You can get higher limits with our Premium tiers:
-streams-settings = Streams alerts settings
+max-alerts = एक सर्वर में { $count } से अधिक अलर्ट्स नहीं हो सकते।
+max-alerts-tip = आप हमारे प्रीमियम प्लान के साथ ज्यादा लिमिट पासकते:
+streams-settings = स्ट्रीम्स अलर्ट्स सेटिंग्स
 streams-desc =
     Notes:
     - For the message you can use the following placeholders: { "{" }streamer{ "}" } = the streamer name - { "{" }everyone{ "}" } = @everyone ping - { "{" }here{ "}" } = @here ping
     - If you want to delete the alert you can use the same command, and click on the "Disable" button.
     - By default the alerts will auto-refresh every 15 minutes, you can disable this by clicking on the "Disable message auto-refresh" button.
     - You can change what happens when the stream ends by clicking on the "Change streams end behavior" button. You can either edit the message with some informations about the stream, or send a new message, or delete the message.
-streams-message = Message
+streams-message = मैसेज
 streams-autorefresh = Auto-refresh
 streams-endbehavior = End behavior
 # $source will be the source of the stream alert.
@@ -57,7 +57,7 @@ videos-desc =
     Notes:
     - For the message you can use the following placeholders: { "{" }name{ "}" } = the video creator name - { "{" }everyone{ "}" } = @everyone ping - { "{" }here{ "}" } = @here ping
     - If you want to delete the alert you can use the same command, and click on the "Disable" button.
-videos-message = Message
+videos-message = मैसेज
 # max.length: 80
 videos-settings-msg-btn = Edit message
 # max.length: 45

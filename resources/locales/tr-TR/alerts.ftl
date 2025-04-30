@@ -7,11 +7,11 @@ max-alerts = Sunucu başına { $count } adresinden daha fazla uyarı alamazsın�
 max-alerts-tip = Premium alarak daha yüksek limitler elde edebilirsiniz:
 streams-settings = Yayın bildirim ayarları
 streams-desc =
-    Notes:
-    - For the message you can use the following placeholders: { "{" }streamer{ "}" } = the streamer name - { "{" }everyone{ "}" } = @everyone ping - { "{" }here{ "}" } = @here ping
-    - If you want to delete the alert you can use the same command, and click on the "Disable" button.
-    - By default the alerts will auto-refresh every 15 minutes, you can disable this by clicking on the "Disable message auto-refresh" button.
-    - You can change what happens when the stream ends by clicking on the "Change streams end behavior" button. You can either edit the message with some informations about the stream, or send a new message, or delete the message.
+    Notlar:
+    - Mesaj için aşağıdaki yer tutucuları kullanabilirsiniz: { "{" }streamer{ "}" } = yayıncı adı - {"{" }everyone{"}" } = @everyone ping - {"{" }here{"}" } = @here ping
+    - Uyarıyı silmek istiyorsanız aynı komutu kullanabilir ve "Devre Dışı Bırak" düğmesine tıklayabilirsiniz.
+    - Varsayılan olarak uyarılar her 15 dakikada bir otomatik olarak yenilenir, "Mesaj otomatik yenilemeyi devre dışı bırak" düğmesine tıklayarak bunu devre dışı bırakabilirsiniz.
+    - "Akış sonu davranışını değiştir" düğmesine tıklayarak akış sona erdiğinde ne olacağını değiştirebilirsiniz. Akışla ilgili bazı bilgiler içeren mesajı düzenleyebilir, yeni bir mesaj gönderebilir veya mesajı silebilirsiniz.
 streams-message = Mesaj
 streams-autorefresh = Otomatik yenileme
 streams-endbehavior = Eylemi sonlandır
@@ -54,9 +54,9 @@ streams-list-title = Yayın uyarıları listesi
 videos-list-title = Video uyarıları listesi
 videos-settings = Video bildirim ayarları
 videos-desc =
-    Notes:
-    - For the message you can use the following placeholders: { "{" }name{ "}" } = the video creator name - { "{" }everyone{ "}" } = @everyone ping - { "{" }here{ "}" } = @here ping
-    - If you want to delete the alert you can use the same command, and click on the "Disable" button.
+    Notlar:
+    - Mesaj için aşağıdaki yer tutucuları kullanabilirsiniz: { "{" }name{ "}" } = video oluşturucusunun adı - { "{" }everyone{ "}" } = @everyone ping - {"{" }here{"}" } = @here ping
+    - Uyarıyı silmek istiyorsanız aynı komutu kullanabilir ve "Devre Dışı Bırak" düğmesine tıklayabilirsiniz.
 videos-message = Mesaj
 # max.length: 80
 videos-settings-msg-btn = Mesajı düzenle

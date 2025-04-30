@@ -1,7 +1,7 @@
 giveaway-run-notfound = Couldn't find a currently running giveaway for that message.
 giveaway-notfound = Couldn't find a giveaway for that message.
 giveaway-notstored = Couldn't find a stored giveaway for that message.
-giveaway-roles = Roles:
+giveaway-roles = रोल्स:
 giveaway-roles-condition = Roles condition:
 giveaway-days-in-server = Days in server:
 giveaway-details = Details:
