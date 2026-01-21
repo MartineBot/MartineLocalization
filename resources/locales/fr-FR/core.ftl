@@ -41,7 +41,7 @@ command-cd-userserver =
     Cette commande est en cooldown pour toi sur ce serveur.
     { $command-cd-tryagain }
 command-cd-role =
-    Cette commande est en cooldown pour votre rôle.
+    Cette commande est en cooldown pour ton rôle.
     { $command-cd-tryagain }
 command-concurrent-default =
     Cette commande est utilisée par trop de personnes à la fois.

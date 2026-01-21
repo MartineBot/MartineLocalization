@@ -100,7 +100,7 @@ help-lvlset_exp_cooldown = [Server Premium Silver] Defina o cooldown de exp em s
 # max.length: 100
 lvlset_exp_cooldown-parameter-cooldown-description = O valor do cooldown (em segundos) a ser definido. Deve estar entre 10s e 21600s. O padrão é 60.
 # max.length: 100
-help-lvlset_exp_msglength = [Server Premium Silver] Set minimum message length for exp gain. Default is 5.
+help-lvlset_exp_msglength = [Server Premium Silver] Defina o comprimento mínimo da mensagem para ganho de exp. O padrão é 5.
 # max.length: 100
 help-lvlset_ignore = Gerenciar configurações de ignorar.
 # max.length: 100
@@ -145,35 +145,35 @@ profileset_description-parameter-description-description = O valor da descriçã
 help-profileset_resetrep = Restaura seus pontos de reputação.
 # max.length: 100
 help-lvlconvert = Converta níveis e configurações de servidor de outros ‘bots’ para o Martine.
-lvlconvert-lock = You cannot migrate data for this server for now because a migration is currently going. Please try again later.
-lvlconvert-fetching = Fetching leaderboard and settings data from { $bot_name }, it may take a while...
-lvlconvert-fetch-nodata = Sorry, but I didn't found any data to migrate.
-lvlconvert-fetch-forbidden = I found data for this server, but it is not public. Please make it public and try again.
-lvlconvert-fetch-failed = Sorry, something went wrong while trying to fetch data from { $bot_name }. Please try again later.
-lvlconvert-embed-title = `{ $server_name }` leveler data migration - { $bot_name }
-lvlconvert-embed-description = Found { $members_count } members with levels data to migrate.
-lvlconvert-embed-serversettings = Server settings
-lvlconvert-embed-serversettings-exp = **Exp rate:** { $exp_rate }
+lvlconvert-lock = Não é possível migrar dados para este servidor no momento porque uma migração está em andamento. Tente novamente mais tarde.
+lvlconvert-fetching = Obtendo dados do placar de líderes e das configurações em { $bot_name }, isso pode demorar um pouco...
+lvlconvert-fetch-nodata = Desculpe, mas não encontrei nenhum dado para migrar.
+lvlconvert-fetch-forbidden = Encontrei dados para este servidor, mas eles não são públicos. Por favor torne-os públicos e tente novamente.
+lvlconvert-fetch-failed = Desculpe, algo deu errado ao tentar obter dados de { $bot_name }. Por favor, tente novamente mais tarde.
+lvlconvert-embed-title = `{ $server_name }` migração de dados de níveis - { $bot_name }
+lvlconvert-embed-description = Encontramos { $members_count } membros com dados de níveis para migrar.
+lvlconvert-embed-serversettings = Configurações do servidor
+lvlconvert-embed-serversettings-exp = **Taxa de exp:** { $exp_rate }
     **Exp per message:** { $exp_per_message }
 
-lvlconvert-embed-roles = Roles rewards
-lvlconvert-embed-roles-none = No roles rewards set.
+lvlconvert-embed-roles = Recompensas por cargos
+lvlconvert-embed-roles-none = Não há recompensas por cargos definidas.
 # max.length: 45
-lvlconvert-migrate_members_btn-label = Migrate members
+lvlconvert-migrate_members_btn-label = Migrar membros
 # max.length: 45
-lvlconvert-migrate_server_settings-btn-label = Migrate server settings
+lvlconvert-migrate_server_settings-btn-label = Migrar configurações do servidor
 # max.length: 45
-lvlconvert-migration_modal-title = Confirmation modal
+lvlconvert-migration_modal-title = Modelo de confirmação
 # max.length: 100
-lvlconvert-migration_modal-placeholder = Type YES to confirm
+lvlconvert-migration_modal-placeholder = Digite YES para confirmar
 # max.length: 45
-lvlconvert-migration_modal-members-label = It'll replace ALL of the current members data
+lvlconvert-migration_modal-members-label = Isto irá substituir TODOS os dados dos membros atuais
 # max.length: 45
-lvlconvert-migration_modal-server_settings-label = It'll replace ALL of the server settings
-lvlconvert-migration_modal-wrongvalue = Please input "Yes" on the modal to migrate the data.
-lvlconvert-migration_modal-members-success = Successfully migrated `{ $members_count }` members data from { $bot_name } to Martine! { $emoji }
-lvlconvert-migration_modal-server_settings-success = Successfully migrated server settings from { $bot_name } to Martine! { $emoji }
+lvlconvert-migration_modal-server_settings-label = Isto irá substituir TODAS as configurações do servidor
+lvlconvert-migration_modal-wrongvalue = Digite "Yes" no modelo para migrar os dados.
+lvlconvert-migration_modal-members-success = Os dados de `{ $members_count }` membros de { $bot_name } foram migrados com sucesso para Martine! { $emoji }
+lvlconvert-migration_modal-server_settings-success = Migração bem-sucedida das configurações do servidor de { $bot_name } para Martine! { $emoji }
 # max.length: 100
-help-lvlconvert_mee6 = Convert levels and server settings from MEE6 to Martine.
+help-lvlconvert_mee6 = Converte níveis e configurações de servidor de MEE6 para Martine.
 # max.length: 100
-help-lvlconvert_amaribot = Convert levels and server settings from AmariBot to Martine.
+help-lvlconvert_amaribot = Converte níveis e configurações de servidor de AmariBot para Martine.

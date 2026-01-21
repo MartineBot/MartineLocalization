@@ -211,7 +211,7 @@ help-info_role = रोल के बारे में जानकारी �
 # max.length: 100
 info_role-parameter-role-description = The role you want information about.
 # max.length: 100
-help-info_emoji = Shows information about a emoji.
+help-info_emoji = Emoji के बारेमे जानकारी दे।
 # max.length: 100
 info_emoji-parameter-emoji-description = The emoji you want information about.
 # max.length: 100
