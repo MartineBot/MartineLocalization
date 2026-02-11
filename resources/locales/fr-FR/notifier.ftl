@@ -2,9 +2,9 @@ stream-default-msg = { $streamer_name } est en direct !
 # max.length: 80
 stream-btn = Ouvrir le stream
 untitled-broadcast = Diffusion sans titre
-viewer-count = Nombre de spectateurs
+viewer-count = Spectateurs
 streamend-title = { $streamer_name } • stream terminé !
-streamend-highest-viewers = Nombre de spectateurs le plus élevé
+streamend-highest-viewers = Pic de spectateurs
 streamend-total-duration = Durée du stream
 streamend-schedule = Prochain stream annoncé
 twitch-live = En direct sur Twitch
