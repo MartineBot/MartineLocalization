@@ -3,59 +3,59 @@
 # ==========================================
 
 # max.length: 100
-help-starboard = Starboard Befehle.
+help-starboard = Starboard commands.
 # max.length: 100
-help-starboard_info = Detaillierte Informationen über das Starboard anzeigen.
+help-starboard_info = Show detailed information about the starboard.
 # max.length: 100
-help-starboard_leaderboard = Zeige die Rangliste des Starboards.
+help-starboard_leaderboard = Show starboard leaderboards.
 # max.length: 100
-help-starboard_random = Erhalte eine zufällige markierte Nachricht vom Starboard.
+help-starboard_random = Get a random starred message from the starboard.
 # max.length: 100
-help-starboard_stats = Zeige Starboard-Statistiken für diesen Server.
+help-starboard_stats = Show starboard statistics for this server.
 # max.length: 100
-help-starboard_mystats = Sehen Sie sich Ihre persönlichen Starboard-Statistiken an.
+help-starboard_mystats = View your personal starboard statistics.
 # max.length: 100
-help-starboard_userstats = Starboard-Statistiken für einen bestimmten Benutzer anzeigen.
+help-starboard_userstats = View starboard statistics for a specific user.
 # max.length: 100
-help-starboardset = Starboard-Einstellungen konfigurieren.
+help-starboardset = Configure starboard settings.
 # max.length: 100
-help-starboardset_setup = Das Starboard für diesen Server einrichten oder neu konfigurieren.
+help-starboardset_setup = Set up or reconfigure the starboard for this server.
 # max.length: 100
-help-starboardset_reset = Löschen Sie das Starboard und alle seine Daten.
+help-starboardset_reset = Delete the starboard and all its data.
 # max.length: 100
-help-starboardset_toggle = Aktivieren oder deaktivieren Sie das Starboard.
+help-starboardset_toggle = Enable or disable the starboard.
 # max.length: 100
-help-starboardset_channel = Ändere den Starboard-Kanal.
+help-starboardset_channel = Change the starboard channel.
 # max.length: 100
-help-starboardset_emoji = Ändere das Starboard Emoji.
+help-starboardset_emoji = Change the starboard emoji.
 # max.length: 100
-help-starboardset_threshold = Ändern Sie den Sternschwellenwert.
+help-starboardset_threshold = Change the star threshold.
 # max.length: 100
-help-starboardset_selfstar = Legt fest, ob Benutzer ihre eigenen Nachrichten markieren können.
+help-starboardset_selfstar = Toggle whether users can star their own messages.
 # max.length: 100
-help-starboardset_ignore = Ignorierte Kanäle für das Starboard verwalten.
+help-starboardset_ignore = Manage ignored channels for the starboard.
 # max.length: 100
-help-starboardset_maxage = Legt das maximale Alter für Nachrichten fest, die markiert werden sollen.
+help-starboardset_maxage = Set the maximum age for messages to be starred.
 # max.length: 100
-help-starboardset_color = Setze die Einbettfarbe für Starboard-Nachrichten.
+help-starboardset_color = Set the embed color for starboard messages.
 # max.length: 100
-help-starboardset_nsfw = Legt fest, ob NSFW-Kanal-Nachrichten markiert werden können.
+help-starboardset_nsfw = Toggle whether NSFW channel messages can be starred.
 # max.length: 100
-help-starboardset_bots = Legt fest, ob Bot-Meldungen markiert werden können.
+help-starboardset_bots = Toggle whether bot messages can be starred.
 # max.length: 100
-help-starboardset_webhooks = Legt fest, ob Webhook Nachrichten markiert werden können.
+help-starboardset_webhooks = Toggle whether webhook messages can be starred.
 # max.length: 100
-help-starboardset_removethreshold = Legen Sie den Schwellenwert für das Entfernen von Nachrichten vom Startboard fest.
+help-starboardset_removethreshold = Set the threshold for removing messages from the starboard.
 # max.length: 100
-help-starboardset_autoreact = [Silber+] Automatisch reagieren, wenn eine Nachricht das Starboard erreicht.
+help-starboardset_autoreact = [Silver+] Toggle autoreact when a message reaches the starboard.
 # max.length: 100
-help-starboardset_lock = [Silver+] Legt fest, ob Nachrichten nach dem Erreichen des Starboard gesperrt sind.
+help-starboardset_lock = [Silver+] Toggle whether messages are locked after reaching the starboard.
 # max.length: 100
-help-starboardset_display = Konfigurieren Sie die Anzeigeoptionen für die Einbettung von Starboards.
+help-starboardset_display = Configure display options for starboard embeds.
 # max.length: 100
-help-starboardset_allowchannel = Kanal-Whitelist verwalten. Wenn gesetzt, werden nur diese Kanäle überwacht.
+help-starboardset_allowchannel = Manage channel whitelist. If set, only these channels are monitored.
 # max.length: 100
-help-starboardset_role = [Silver+] Verwalte Rollenbeschränkungen für Autoren und Wähler.
+help-starboardset_role = [Silver+] Manage role restrictions for authors and voters.
 # max.length: 100
 help-starboardset_message = Manage individual starboard messages (pin, freeze, recount).
 # max.length: 100
@@ -121,7 +121,7 @@ starboardset_cooldown-parameter-per_message-description = If True, cooldown is p
 
 sb-no-setup = No starboard is set up. Use `/starboardset setup` first.
 sb-enabled = Enabled
-sb-disabled = Deaktiviert
+sb-disabled = Disabled
 sb-no-content = *No content*
 
 # ==========================================
@@ -212,7 +212,7 @@ sb-stats-overview = **Status:** { $status }
     **Total Star Reactions:** { $total_reactions }
 sb-stats-not-configured = **Status:** Not configured
     Use `/starboardset setup` to create a starboard.
-sb-stats-channel-unknown = Unbekannt
+sb-stats-channel-unknown = Unknown
 
 # ==========================================
 # User Stats Command

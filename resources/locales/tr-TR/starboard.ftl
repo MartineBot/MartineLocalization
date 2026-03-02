@@ -39,9 +39,9 @@ help-starboardset_maxage = Set the maximum age for messages to be starred.
 # max.length: 100
 help-starboardset_color = Set the embed color for starboard messages.
 # max.length: 100
-help-starboardset_nsfw = Toggle whether NSFW channel messages can be starred.
+help-starboardset_nsfw = NSFW kanal mesajlarının yıldızlanıp yıldızlanamayacağını değiştirin.
 # max.length: 100
-help-starboardset_bots = Toggle whether bot messages can be starred.
+help-starboardset_bots = Bot mesajlarının yıldızlanıp yıldızlanamayacağını değiştirin.
 # max.length: 100
 help-starboardset_webhooks = Toggle whether webhook messages can be starred.
 # max.length: 100
@@ -72,13 +72,13 @@ help-starboardset_cooldown = [Silver+] Set a cooldown between stars to prevent s
 # ==========================================
 
 starboard_leaderboard-parameter-category-description = What to show: top messages, stargazers, or starred authors
-starboard_userstats-parameter-user-description = The user to view stats for
+starboard_userstats-parameter-user-description = İstatistikleri görüntülenecek kullanıcı
 starboardset_setup-parameter-channel-description = The channel where starred messages will be posted
 starboardset_setup-parameter-emoji-description = The emoji to use for starring (default: ⭐)
 starboardset_setup-parameter-threshold-description = Number of stars required (default: 1)
 starboardset_toggle-parameter-enabled-description = Enable or disable the starboard
 starboardset_channel-parameter-channel-description = The new starboard channel
-starboardset_emoji-parameter-emoji-description = The emoji to use for starring messages
+starboardset_emoji-parameter-emoji-description = Yıldızlı mesajlar için kullanılacak emoji
 starboardset_threshold-parameter-threshold-description = Number of stars required to appear on the starboard (1-100)
 starboardset_selfstar-parameter-allow-description = Allow users to star their own messages
 starboardset_ignore-parameter-action-description = Add, remove, or list ignored channels
@@ -86,8 +86,8 @@ starboardset_ignore-parameter-channel-description = The channel to add/remove (r
 starboardset_maxage-parameter-days-description = Maximum message age in days (0 to disable)
 starboardset_color-parameter-color-description = Hex color code (e.g., #FFAC33 or FFAC33)
 starboardset_nsfw-parameter-allow-description = Allow messages from NSFW channels
-starboardset_bots-parameter-allow-description = Allow bot messages to be starred
-starboardset_webhooks-parameter-allow-description = Allow webhook messages (PluralKit, Tupperbox, etc.) to be starred
+starboardset_bots-parameter-allow-description = Bot mesajlarının yıldızlanmasına izin ver
+starboardset_webhooks-parameter-allow-description = Webhook mesajlarının (PluralKit, Tupperbox, vb.) yıldızlanmasına izin verin
 starboardset_removethreshold-parameter-threshold-description = Star count below which messages are removed (0 to disable)
 starboardset_autoreact-parameter-enable-description = Bot adds star emoji when message reaches starboard
 starboardset_lock-parameter-enable-description = Lock messages once they reach the starboard (prevent more stars)
@@ -96,11 +96,11 @@ starboardset_display-parameter-attachments-description = Show attachments in emb
 starboardset_display-parameter-replies-description = Show replied message context
 starboardset_display-parameter-jumpbutton-description = Show jump to message button
 starboardset_allowchannel-parameter-action-description = Add, remove, or clear the channel whitelist
-starboardset_allowchannel-parameter-channel-description = The channel to add/remove (not needed for clear)
-starboardset_role-parameter-role_type-description = Which role list to modify
-starboardset_role-parameter-action-description = Add, remove, or clear the role list
-starboardset_role-parameter-role-description = The role to add/remove (not needed for clear)
-starboardset_message-parameter-action-description = Action to perform on the message
+starboardset_allowchannel-parameter-channel-description = Eklenecek/kaldırılacak kanal (temizlemek için gerekli değildir)
+starboardset_role-parameter-role_type-description = Hangi rol listesinin değiştirileceği
+starboardset_role-parameter-action-description = Rol listesini ekleme, kaldırma veya temizleme
+starboardset_role-parameter-role-description = Eklenecek/kaldırılacak rol (temizlemek için gerekli değildir)
+starboardset_message-parameter-action-description = Mesaj üzerinde gerçekleştirilecek eylem
 starboardset_message-parameter-message-description = Link or ID of the message
 starboardset_milestone-parameter-enabled-description = Enable or disable milestone celebrations
 starboardset_milestone-parameter-notify_author-description = DM the author when their message hits a milestone
