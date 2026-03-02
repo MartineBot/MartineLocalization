@@ -52,6 +52,7 @@ streams-twitch-notfound = Twitch kullanıcısı bulunamadı.
 streams-kick-notfound = Kick kullanıcısı bulunamadı.
 streams-list-title = Yayın uyarıları listesi
 videos-list-title = Video uyarıları listesi
+posts-list-title = Post alerts list
 videos-settings = Video bildirim ayarları
 videos-desc =
     Notlar:
@@ -76,10 +77,46 @@ videos-added = { $source } kanalını başarıyla söz konusu kanala eklendi!
 videos-added-tip = Bir sonraki video yayınlandığında bir mesaj gönderilecektir.
 # $source will be the source of the video alert.
 videos-removed = { $source } kanal bildirimi bu kanaldan başarıyla kaldırıldı!
+posts-settings = Post alerts settings
+posts-desc =
+    Notes:
+    - For the message you can use the following placeholders: { "{" }name{ "}" } = the account name - { "{" }everyone{ "}" } = @everyone ping - { "{" }here{ "}" } = @here ping
+    - If you want to delete the alert you can use the same command, and click on the "Disable" button.
+posts-message = Mesaj
+# max.length: 80
+posts-settings-msg-btn = Mesajı düzenle
+# max.length: 45
+posts-msg-modal = Post alerts message editor
+# max.length: 45
+posts-msg-label = Set the message sent on post alerts.
+# max.length: 100
+posts-msg-placeholder = { "{" }name{ "}" } = the account name - { "{" }everyone{ "}" } = @everyone ping - { "{" }here{ "}" } = @here ping
+posts-msg-changed = Successfully updated the post alerts message!
+# $source will be the source of the post alert.
+posts-count = { $source } post alerts in this server
+# $source will be the source of the post alert.
+posts-none = There are no { $source } post alerts in this server.
+# $source will be the source of the post alert.
+posts-added = Successfully added this { $source } account as a post alert in that channel!
+posts-added-tip = A message will be sent whenever a new post is made.
+# $source will be the source of the post alert.
+posts-removed = Successfully removed this { $source } post alert from this channel!
+# $label will be the repost label (Retweets, Reposts, Boosts).
+posts-repost-on = { $label }: ON
+posts-repost-off = { $label }: OFF
+posts-repost-enabled = { $label } alerts enabled.
+posts-repost-disabled = { $label } alerts disabled.
+posts-replies-on = Replies: ON
+posts-replies-off = Replies: OFF
+posts-replies-enabled = Reply alerts enabled.
+posts-replies-disabled = Reply alerts disabled.
 yt-notfound =
     Bu YouTube kullanıcısını bulamadı.
     Kanal URL'sini https://commentpicker.com/youtube-channel-id.php adresine yapıştırarak tekrar deneyin ve "Channel ID" değerini alın.
 tiktok-notfound = Bu TikTok kullanıcısını bulamadım.
+twitter-notfound = Couldn't find that Twitter/X user.
+bluesky-notfound = Couldn't find that Bluesky user.
+mastodon-notfound = Couldn't find that Mastodon user.
 # max.length: 100
 help-alerts = Bildirimleri bu sunucuda düzenleyin.
 # max.length: 100
@@ -112,3 +149,19 @@ help-alerts_streams_kick = Bir Kick kullanıcısı için canlı yayın bildirimi
 alerts_streams_kick-parameter-user_name_or_url-description = Kick kanal adı veya URL'si.
 # max.length: 100
 help-alerts_streams_list = Bu sunucudaki tüm yayın uyarılarını listeleyin.
+# max.length: 100
+help-alerts_posts = Manage post alerts in this server.
+# max.length: 100
+help-alerts_posts_twitter = Manage a post alert for a Twitter/X account.
+# max.length: 100
+alerts_posts_twitter-parameter-twitter-account-or-url-description = The Twitter account name or URL.
+# max.length: 100
+help-alerts_posts_bluesky = Manage a post alert for a Bluesky account.
+# max.length: 100
+alerts_posts_bluesky-parameter-bluesky-handle-or-url-description = The Bluesky handle or profile URL.
+# max.length: 100
+help-alerts_posts_mastodon = Manage a post alert for a Mastodon account.
+# max.length: 100
+alerts_posts_mastodon-parameter-mastodon-handle-or-url-description = The Mastodon handle or profile URL.
+# max.length: 100
+help-alerts_posts_list = List all post alerts in this server.
