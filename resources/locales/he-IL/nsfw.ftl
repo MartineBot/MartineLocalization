@@ -155,6 +155,60 @@ auto-cleanup-msg =
     This happens because the server had Premium enabled in the past but no longer is.
     Get Premium to get access to more autoporn channels again! { $emoji }
     { $premium_url }
+# Favorites
+# max.length: 80
+command-favorite-btn = Favorite
+favorite-added = Image added to your favorites! { $emoji }
+favorite-already-exists = This image is already in your favorites!
+favorite-removed = Image removed from your favorites.
+favorite-limit-reached =
+    You've reached the maximum number of favorites ({ $limit })! Remove some to add more.
+    Get Premium for unlimited favorites: { $premium_url }
+# max.length: 45
+favorite-modal-title = Favorite an image
+# max.length: 45
+favorite-modal-label = Image number
+# max.length: 100
+favorite-modal-placeholder = The image number to favorite (e.g. 1, 2, 3)...
+favorite-modal-invalid = Sorry, but this is not a valid image number!
+# Likes / Dislikes
+like-added = You liked this image! { $emoji }
+like-removed = You removed your like.
+like-changed-to-like = You changed your vote to a like! { $emoji }
+like-changed-to-dislike = You changed your vote to a dislike.
+dislike-added = You disliked this image.
+dislike-removed = You removed your dislike.
+# max.length: 45
+like-modal-title = Like an image
+# max.length: 45
+dislike-modal-title = Dislike an image
+# max.length: 45
+vote-modal-label = Image number
+# max.length: 100
+vote-modal-placeholder = The image number to vote on (e.g. 1, 2, 3)...
+vote-modal-invalid = Sorry, but this is not a valid image number!
+# Favorites command
+# max.length: 100
+help-favorites = View and manage your saved favorite NSFW images.
+favorites-title = Your Favorites ({ $index }/{ $count })
+favorites-empty = You don't have any favorites yet! Use the { $emoji } button on images to save them.
+favorites-entry = [{ $category }]({ $url }) - { $date }
+# max.length: 80
+favorites-remove-btn = Remove Favorite
+favorites-remove-confirm = Are you sure you want to remove favorite #{ $index }?
+# max.length: 80
+favorites-remove-confirm-btn = Confirm Delete
+favorites-remove-success = Favorite #{ $index } removed successfully!
+favorites-remove-invalid = Sorry, but this is not a valid favorite number!
+# Leaderboard command
+# max.length: 100
+help-nsfwleaderboard = View the NSFW leaderboard for most liked images and active users.
+# max.length: 100
+nsfwleaderboard-parameter-type-description = The leaderboard type: images or users.
+leaderboard-images-title = Most Liked Images ({ $total_likes } likes and { $total_dislikes } dislikes)
+leaderboard-users-title = Most Active Users
+leaderboard-no-data = No data to display yet!
+leaderboard-image-entry = { $rank }. { $likes } { $dislikes } (score: { $score })
 # max.length: 100
 help-autoporn = Setup autoporn in this channel, and see the status of it on this server.
 # max.length: 100
