@@ -157,58 +157,77 @@ auto-cleanup-msg =
     { $premium_url }
 # Favorites
 # max.length: 80
-command-favorite-btn = Favorite
-favorite-added = Image added to your favorites! { $emoji }
-favorite-already-exists = This image is already in your favorites!
-favorite-removed = Image removed from your favorites.
+command-favorite-btn = Favorit
+favorite-added =
+    Image added to your favorites! { $emoji }
+    Use { $cmd_mention } to browse all your favorites.
+favorite-already-exists = Dieses Bild befindet sich bereits in Ihren Favoriten!
+favorite-removed = Bild aus Ihren Favoriten entfernt.
 favorite-limit-reached =
-    You've reached the maximum number of favorites ({ $limit })! Remove some to add more.
-    Get Premium for unlimited favorites: { $premium_url }
+    Sie haben die maximale Anzahl von Favoriten erreicht ({ $limit })! Entfernen Sie einige, um mehr hinzuzufügen.
+    Holen Sie sich Premium für unbegrenzte Favoriten: { $premium_url }
 # max.length: 45
-favorite-modal-title = Favorite an image
+favorite-modal-title = Ein Bild favorisieren
 # max.length: 45
-favorite-modal-label = Image number
+favorite-modal-label = Bildnummer
 # max.length: 100
-favorite-modal-placeholder = The image number to favorite (e.g. 1, 2, 3)...
-favorite-modal-invalid = Sorry, but this is not a valid image number!
+favorite-modal-placeholder = Die zu favorisierende Bildnummer (z.B. 1, 2, 3)...
+favorite-modal-invalid = Es tut mir leid, aber dies ist keine gültige Bildnummer!
 # Likes / Dislikes
-like-added = You liked this image! { $emoji }
-like-removed = You removed your like.
-like-changed-to-like = You changed your vote to a like! { $emoji }
-like-changed-to-dislike = You changed your vote to a dislike.
-dislike-added = You disliked this image.
-dislike-removed = You removed your dislike.
+like-added =
+    You liked this image! { $emoji }
+    Use { $cmd_mention } to browse your liked images or { $leaderboard_cmd_mention } to see the top voted images.
+like-removed = Sie haben Ihr Like entfernt.
+like-changed-to-like =
+    You changed your vote to a like! { $emoji }
+    Use { $cmd_mention } to browse your liked images or { $leaderboard_cmd_mention } to see the top voted images.
+like-changed-to-dislike =
+    You changed your vote to a dislike.
+    Use { $cmd_mention } to browse your disliked images or { $leaderboard_cmd_mention } to see the top voted images.
+dislike-added =
+    You disliked this image.
+    Use { $cmd_mention } to browse your disliked images or { $leaderboard_cmd_mention } to see the top voted images.
+dislike-removed = Sie haben Ihre Abneigung beseitigt.
 # max.length: 45
-like-modal-title = Like an image
+like-modal-title = Like ein Bild
 # max.length: 45
-dislike-modal-title = Dislike an image
+dislike-modal-title = Ein Bild nicht mögen
 # max.length: 45
-vote-modal-label = Image number
+vote-modal-label = Bildnummer
 # max.length: 100
-vote-modal-placeholder = The image number to vote on (e.g. 1, 2, 3)...
-vote-modal-invalid = Sorry, but this is not a valid image number!
+vote-modal-placeholder = Die Bildnummer, über die abgestimmt werden soll (z.B. 1, 2, 3)...
+vote-modal-invalid = Es tut mir leid, aber dies ist keine gültige Bildnummer!
 # Favorites command
 # max.length: 100
-help-favorites = View and manage your saved favorite NSFW images.
-favorites-title = Your Favorites ({ $index }/{ $count })
-favorites-empty = You don't have any favorites yet! Use the { $emoji } button on images to save them.
+help-favorites = Betrachten und verwalten Sie Ihre gespeicherten NSFW-Favoriten.
+favorites-title = Ihre Favoriten ({ $index }/{ $count })
+favorites-empty = Sie haben noch keine Favoriten! Verwenden Sie die Schaltfläche { $emoji } auf den Bildern, um sie zu speichern.
 favorites-entry = [{ $category }]({ $url }) - { $date }
 # max.length: 80
-favorites-remove-btn = Remove Favorite
-favorites-remove-confirm = Are you sure you want to remove favorite #{ $index }?
+favorites-remove-btn = Favorit entfernen
+favorites-remove-confirm = Sind Sie sicher, dass Sie den Favoriten #{ $index } entfernen möchten?
 # max.length: 80
-favorites-remove-confirm-btn = Confirm Delete
-favorites-remove-success = Favorite #{ $index } removed successfully!
-favorites-remove-invalid = Sorry, but this is not a valid favorite number!
+favorites-remove-confirm-btn = Löschen bestätigen
+favorites-remove-success = Favorit #{ $index } erfolgreich entfernt!
+favorites-remove-invalid = Tut mir leid, aber das ist keine gültige Lieblingsnummer!
+favorites-title-collage = Your Favorites (page { $page }/{ $total_pages }, { $count } total)
+# max.length: 45
+favorites-remove-modal-title = Remove a favorite
+# max.length: 45
+favorites-remove-modal-label = Bildnummer
+# max.length: 100
+favorites-remove-modal-placeholder = Which image to remove? (1-{ $max })
+favorites-remove-modal-invalid = Please enter a valid number between 1 and { $max }.
 # Leaderboard command
 # max.length: 100
-help-nsfwleaderboard = View the NSFW leaderboard for most liked images and active users.
+help-nsfwleaderboard = Sehen Sie sich die NSFW-Bestenliste für die beliebtesten Bilder und die aktivsten Nutzer an.
 # max.length: 100
-nsfwleaderboard-parameter-type-description = The leaderboard type: images or users.
-leaderboard-images-title = Most Liked Images ({ $total_likes } likes and { $total_dislikes } dislikes)
-leaderboard-users-title = Most Active Users
-leaderboard-no-data = No data to display yet!
-leaderboard-image-entry = { $rank }. { $likes } { $dislikes } (score: { $score })
+nsfwleaderboard-parameter-type-description = Der Typ der Bestenliste: Bilder oder Benutzer.
+leaderboard-images-title = Beliebteste Bilder ({ $total_likes } likes und { $total_dislikes } dislikes)
+leaderboard-users-title = Aktivste Benutzer
+leaderboard-no-data = Noch keine Daten zu sehen!
+leaderboard-image-entry = { $rank }. { $likes } { $dislikes } (Punkte: { $score })
+leaderboard-page-info = Page { $page }/{ $total_pages }
 # max.length: 100
 help-autoporn = Richten Sie Autoporno in diesem Kanal ein, und sehen Sie den Status auf diesem Server.
 # max.length: 100
@@ -241,6 +260,16 @@ e621-parameter-search_tags-description = Schlüsselwörter für die Suche nach B
 e621-parameter-amount-description = Die Anzahl der zu sendenden Bilder.
 # max.length: 100
 e621-parameter-private-description = Setzen Sie den Wert auf True, dann ist der Befehl nur für Sie sichtbar.
+# Likes command
+# max.length: 100
+help-nsfwlikes = View your liked and disliked NSFW images.
+# max.length: 100
+nsfwlikes-parameter-private-description = Setzen Sie den Wert auf True, dann ist der Befehl nur für Sie sichtbar.
+likes-title = Your { $type } Images (page { $page }/{ $total_pages }, { $count } total)
+likes-empty-liked = You haven't liked any images yet! Use the 👍 button on images to like them.
+likes-empty-disliked = You haven't disliked any images yet.
+# max.length: 150
+likes-select-placeholder = Filter by vote type...
 # max.length: 100
 help-realbooru = Suchen Sie nach echten Dingen.
 # max.length: 100

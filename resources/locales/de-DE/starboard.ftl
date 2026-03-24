@@ -57,70 +57,70 @@ help-starboardset_allowchannel = Kanal-Whitelist verwalten. Wenn gesetzt, werden
 # max.length: 100
 help-starboardset_role = [Silver+] Verwalte Rollenbeschränkungen für Autoren und Wähler.
 # max.length: 100
-help-starboardset_message = Manage individual starboard messages (pin, freeze, recount).
+help-starboardset_message = Verwalten Sie einzelne Steuerbordmeldungen (Anheften, Einfrieren, Nachzählen).
 # max.length: 100
-help-starboardset_milestone = [Silver+] Configure milestone celebrations and thresholds.
+help-starboardset_milestone = [Silver+] Konfigurieren Sie Meilensteinfeiern und Schwellenwerte.
 # max.length: 100
-help-starboardset_embed = [Silver+] Configure embed appearance settings.
+help-starboardset_embed = [Silver+] Konfigurieren Sie die Einstellungen für die Einbettung.
 # max.length: 100
-help-starboardset_blocklist = [Silver+] Manage the blocklist for the starboard.
+help-starboardset_blocklist = [Silver+] Verwalten Sie die Blockliste für das Steuerbord.
 # max.length: 100
-help-starboardset_cooldown = [Silver+] Set a cooldown between stars to prevent spam voting.
+help-starboardset_cooldown = [Silber+] Legen Sie eine Abklingzeit zwischen den Sternen fest, um Spam-Abstimmungen zu verhindern.
 
 # ==========================================
 # Parameter Descriptions
 # ==========================================
 
-starboard_leaderboard-parameter-category-description = What to show: top messages, stargazers, or starred authors
-starboard_userstats-parameter-user-description = The user to view stats for
-starboardset_setup-parameter-channel-description = The channel where starred messages will be posted
-starboardset_setup-parameter-emoji-description = The emoji to use for starring (default: ⭐)
-starboardset_setup-parameter-threshold-description = Number of stars required (default: 1)
-starboardset_toggle-parameter-enabled-description = Enable or disable the starboard
-starboardset_channel-parameter-channel-description = The new starboard channel
-starboardset_emoji-parameter-emoji-description = The emoji to use for starring messages
-starboardset_threshold-parameter-threshold-description = Number of stars required to appear on the starboard (1-100)
-starboardset_selfstar-parameter-allow-description = Allow users to star their own messages
-starboardset_ignore-parameter-action-description = Add, remove, or list ignored channels
-starboardset_ignore-parameter-channel-description = The channel to add/remove (required for add/remove)
-starboardset_maxage-parameter-days-description = Maximum message age in days (0 to disable)
-starboardset_color-parameter-color-description = Hex color code (e.g., #FFAC33 or FFAC33)
-starboardset_nsfw-parameter-allow-description = Allow messages from NSFW channels
-starboardset_bots-parameter-allow-description = Allow bot messages to be starred
-starboardset_webhooks-parameter-allow-description = Allow webhook messages (PluralKit, Tupperbox, etc.) to be starred
-starboardset_removethreshold-parameter-threshold-description = Star count below which messages are removed (0 to disable)
-starboardset_autoreact-parameter-enable-description = Bot adds star emoji when message reaches starboard
-starboardset_lock-parameter-enable-description = Lock messages once they reach the starboard (prevent more stars)
-starboardset_display-parameter-style-description = How to display the author
-starboardset_display-parameter-attachments-description = Show attachments in embeds
-starboardset_display-parameter-replies-description = Show replied message context
-starboardset_display-parameter-jumpbutton-description = Show jump to message button
-starboardset_allowchannel-parameter-action-description = Add, remove, or clear the channel whitelist
-starboardset_allowchannel-parameter-channel-description = The channel to add/remove (not needed for clear)
-starboardset_role-parameter-role_type-description = Which role list to modify
-starboardset_role-parameter-action-description = Add, remove, or clear the role list
-starboardset_role-parameter-role-description = The role to add/remove (not needed for clear)
-starboardset_message-parameter-action-description = Action to perform on the message
-starboardset_message-parameter-message-description = Link or ID of the message
-starboardset_milestone-parameter-enabled-description = Enable or disable milestone celebrations
-starboardset_milestone-parameter-notify_author-description = DM the author when their message hits a milestone
-starboardset_milestone-parameter-announce_channel-description = Channel for milestone announcements (empty = starboard channel)
-starboardset_milestone-parameter-thresholds-description = Comma-separated star counts for milestones (e.g., '10,25,50,100')
-starboardset_embed-parameter-show_timestamp-description = Show original message timestamp
-starboardset_embed-parameter-compact_mode-description = Use compact embed style (fewer fields)
-starboardset_embed-parameter-footer-description = Custom footer template (use { "{" }stars{ "}" }, { "{" }channel{ "}" }, { "{" }emoji{ "}" }, { "{" }author{ "}" }, { "{" }date{ "}" }, etc.)
-starboardset_blocklist-parameter-action-description = Action to perform: add, remove, or list blocked users
-starboardset_blocklist-parameter-user-description = The user to block or unblock (required for add/remove)
-starboardset_blocklist-parameter-block_type-description = Block from starring, or block their messages from being starred
-starboardset_cooldown-parameter-seconds-description = Cooldown in seconds (0 to disable)
-starboardset_cooldown-parameter-per_message-description = If True, cooldown is per message; if False, global cooldown
+starboard_leaderboard-parameter-category-description = Was soll angezeigt werden: Top-Meldungen, Sterngucker oder Sternautoren
+starboard_userstats-parameter-user-description = Der Benutzer, der die Statistiken für
+starboardset_setup-parameter-channel-description = Der Kanal, in dem die mit Sternchen versehenen Nachrichten veröffentlicht werden
+starboardset_setup-parameter-emoji-description = Das Emoji, das für den Stern verwendet werden soll (Standard: ⭐)
+starboardset_setup-parameter-threshold-description = Anzahl der erforderlichen Sterne (Standard: 1)
+starboardset_toggle-parameter-enabled-description = Aktivieren oder deaktivieren Sie die Steuerbord
+starboardset_channel-parameter-channel-description = Der neue Steuerbordkanal
+starboardset_emoji-parameter-emoji-description = Das Emoji, das für Nachrichten mit Sternchen verwendet wird
+starboardset_threshold-parameter-threshold-description = Anzahl der Sterne, die auf dem Steuerbord erscheinen sollen (1-100)
+starboardset_selfstar-parameter-allow-description = Erlauben Sie den Nutzern, ihre eigenen Nachrichten mit einem Stern zu versehen
+starboardset_ignore-parameter-action-description = Hinzufügen, Entfernen oder Auflisten ignorierter Kanäle
+starboardset_ignore-parameter-channel-description = Der Kanal, der hinzugefügt/entfernt werden soll (erforderlich für Hinzufügen/Entfernen)
+starboardset_maxage-parameter-days-description = Maximales Nachrichtenalter in Tagen (0 bis Deaktivierung)
+starboardset_color-parameter-color-description = Hex-Farbcode (z. B. #FFAC33 oder FFAC33)
+starboardset_nsfw-parameter-allow-description = Nachrichten von NSFW-Kanälen zulassen
+starboardset_bots-parameter-allow-description = Erlauben, dass Bot-Nachrichten mit Sternen versehen werden
+starboardset_webhooks-parameter-allow-description = Webhook-Nachrichten (PluralKit, Tupperbox usw.) können mit Sternen versehen werden
+starboardset_removethreshold-parameter-threshold-description = Anzahl der Sterne, bei deren Unterschreitung Meldungen entfernt werden (0 zur Deaktivierung)
+starboardset_autoreact-parameter-enable-description = Bot fügt Stern-Emoji hinzu, wenn Nachricht Steuerbord erreicht
+starboardset_lock-parameter-enable-description = Nachrichten sperren, sobald sie das Steuerbord erreichen (weitere Sterne verhindern)
+starboardset_display-parameter-style-description = Wie wird der Autor angezeigt
+starboardset_display-parameter-attachments-description = Anhänge in Einbettungen anzeigen
+starboardset_display-parameter-replies-description = Beantworteten Nachrichtenkontext anzeigen
+starboardset_display-parameter-jumpbutton-description = Schaltfläche "Zu Nachricht springen" anzeigen
+starboardset_allowchannel-parameter-action-description = Hinzufügen, Entfernen oder Löschen der Kanal-Whitelist
+starboardset_allowchannel-parameter-channel-description = Der hinzuzufügende/zu entfernende Kanal (nicht erforderlich für clear)
+starboardset_role-parameter-role_type-description = Welche Rollenliste soll geändert werden
+starboardset_role-parameter-action-description = Hinzufügen, Entfernen oder Löschen der Rollenliste
+starboardset_role-parameter-role-description = Die Rolle, die hinzugefügt/entfernt werden soll (nicht erforderlich für clear)
+starboardset_message-parameter-action-description = Auszuführende Aktion für die Nachricht
+starboardset_message-parameter-message-description = Link oder ID der Nachricht
+starboardset_milestone-parameter-enabled-description = Aktivieren oder Deaktivieren von Meilensteinfeiern
+starboardset_milestone-parameter-notify_author-description = DM an den Autor, wenn seine Nachricht einen Meilenstein erreicht
+starboardset_milestone-parameter-announce_channel-description = Kanal für Meilensteinankündigungen (leer = Steuerbordkanal)
+starboardset_milestone-parameter-thresholds-description = Kommagetrennte Sternchen für Meilensteine (z. B. '10,25,50,100')
+starboardset_embed-parameter-show_timestamp-description = Zeitstempel der Originalnachricht anzeigen
+starboardset_embed-parameter-compact_mode-description = Kompakte Einbettungsart verwenden (weniger Felder)
+starboardset_embed-parameter-footer-description = Benutzerdefinierte Fußzeilenvorlage (verwenden Sie { "{" }stars{ "}" }, { "{" }channel{ "}" }, { "{" }emoji{ "}" }, { "{" }author{ "}" }, { "{" }Datum{ "}" }, usw.)
+starboardset_blocklist-parameter-action-description = Auszuführende Aktion: Hinzufügen, Entfernen oder Auflisten blockierter Benutzer
+starboardset_blocklist-parameter-user-description = Der zu sperrende oder zu entsperrende Benutzer (erforderlich für Hinzufügen/Entfernen)
+starboardset_blocklist-parameter-block_type-description = Blockieren Sie das Setzen von Sternen, oder blockieren Sie, dass ihre Nachrichten mit Sternen versehen werden
+starboardset_cooldown-parameter-seconds-description = Abklingzeit in Sekunden (0 bis Deaktivierung)
+starboardset_cooldown-parameter-per_message-description = Bei "True" gilt die Abklingzeit pro Nachricht; bei "False" gilt die Abklingzeit global
 
 # ==========================================
 # Common / Shared Strings
 # ==========================================
 
-sb-no-setup = No starboard is set up. Use `/starboardset setup` first.
-sb-enabled = Enabled
+sb-no-setup = Es ist kein Steuerbord eingerichtet. Verwenden Sie zuerst `/starboardset setup`.
+sb-enabled = Aktiviert
 sb-disabled = Deaktiviert
 sb-no-content = *No content*
 

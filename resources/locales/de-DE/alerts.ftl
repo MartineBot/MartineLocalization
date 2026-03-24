@@ -52,7 +52,7 @@ streams-twitch-notfound = Konnte den Twitch Benutzer nicht finden.
 streams-kick-notfound = Konnte den Kick-Benutzer nicht finden.
 streams-list-title = Streambenachrichtigungsliste
 videos-list-title = Videobenachrichtigungsliste
-posts-list-title = Post alerts list
+posts-list-title = Liste der Postneuigkeiten
 videos-settings = Video Benachrichtigungseinstellungen
 videos-desc =
     Anmerkungen:
@@ -77,46 +77,46 @@ videos-added = { $source } wurde erfolgreich als eine Benachrichtigung in diesem
 videos-added-tip = Wenn das nächste Video veröffentlicht wird, erhalten Sie eine Nachricht.
 # $source will be the source of the video alert.
 videos-removed = { $source } wurde erfolgreich in diesem Kanal entfernt!
-posts-settings = Post alerts settings
+posts-settings = Einstellungen für Postneuigkeiten
 posts-desc =
-    Notes:
-    - For the message you can use the following placeholders: { "{" }name{ "}" } = the account name - { "{" }everyone{ "}" } = @everyone ping - { "{" }here{ "}" } = @here ping
-    - If you want to delete the alert you can use the same command, and click on the "Disable" button.
+    Anmerkungen:
+    - Für die Nachricht können Sie die folgenden Platzhalter verwenden: { "{" }Name{ "}" } = der Name des Videoerstellers - { "{" }everyone{ "}" } = @everyone ping - { "{" }here{ "}" } = @here ping
+    - Wenn Sie die Meldung löschen möchten, können Sie denselben Befehl verwenden und auf die Schaltfläche "Deaktivieren" klicken.
 posts-message = Nachricht
 # max.length: 80
 posts-settings-msg-btn = Nachricht bearbeiten
 # max.length: 45
-posts-msg-modal = Post alerts message editor
+posts-msg-modal = Editor für Postneuigkeiten Nachrichten
 # max.length: 45
-posts-msg-label = Set the message sent on post alerts.
+posts-msg-label = Legen Sie die Nachricht fest, die bei Post-Alerts gesendet wird.
 # max.length: 100
-posts-msg-placeholder = { "{" }name{ "}" } = the account name - { "{" }everyone{ "}" } = @everyone ping - { "{" }here{ "}" } = @here ping
-posts-msg-changed = Successfully updated the post alerts message!
+posts-msg-placeholder = { "{" }name{ "}" } = der Name des Videoersteller - { "{" }everyone{ "}" } = @everyone ping - { "{" }here{ "}" } = @here ping
+posts-msg-changed = Die Postneugkeiten Nachricht wurde erfolgreich aktualisiert!
 # $source will be the source of the post alert.
-posts-count = { $source } post alerts in this server
+posts-count = { $source } Benachrichtigungen auf diesem Server
 # $source will be the source of the post alert.
-posts-none = There are no { $source } post alerts in this server.
+posts-none = Auf diesem Server gibt es keine { $source } Post Alerts.
 # $source will be the source of the post alert.
-posts-added = Successfully added this { $source } account as a post alert in that channel!
-posts-added-tip = A message will be sent whenever a new post is made.
+posts-added = Erfolgreich dieses { $source } Konto als Post Alert in diesem Kanal hinzugefügt!
+posts-added-tip = Wenn ein neuer Beitrag gemacht wird, wird eine Nachricht gesendet.
 # $source will be the source of the post alert.
-posts-removed = Successfully removed this { $source } post alert from this channel!
+posts-removed = Diesen { $source } Post Alert erfolgreich von diesem Kanal entfernt!
 # $label will be the repost label (Retweets, Reposts, Boosts).
 posts-repost-on = { $label }: ON
-posts-repost-off = { $label }: OFF
-posts-repost-enabled = { $label } alerts enabled.
-posts-repost-disabled = { $label } alerts disabled.
-posts-replies-on = Replies: ON
-posts-replies-off = Replies: OFF
-posts-replies-enabled = Reply alerts enabled.
-posts-replies-disabled = Reply alerts disabled.
+posts-repost-off = { $label }: AUS
+posts-repost-enabled = { $label } Alarme aktiviert.
+posts-repost-disabled = { $label } Alarme deaktiviert.
+posts-replies-on = Antworten: AN
+posts-replies-off = Antworten: AUS
+posts-replies-enabled = Antwortwarnungen aktiviert.
+posts-replies-disabled = Antwortwarnungen deaktiviert.
 yt-notfound =
     YouTube Benutzer konnte nicht gefunden werden.
     Versuchen es erneut, indem du die Kanal-URL unter https://commentpicker.com/YouTube-channel-id.php kopierst und den Wert "Channel ID" eingibst.
 tiktok-notfound = Ich konnte diesen TikTok-Benutzer nicht finden.
-twitter-notfound = Couldn't find that Twitter/X user.
-bluesky-notfound = Couldn't find that Bluesky user.
-mastodon-notfound = Couldn't find that Mastodon user.
+twitter-notfound = Konnte den Twitter/X Benutzer nicht finden.
+bluesky-notfound = Ich konnte den Bluesky-Benutzer nicht finden.
+mastodon-notfound = Ich konnte diesen Mastodon-Benutzer nicht finden.
 # max.length: 100
 help-alerts = Benachrichtigungen auf diesem Server verwalten.
 # max.length: 100
@@ -150,18 +150,18 @@ alerts_streams_kick-parameter-user_name_or_url-description = Der Kick-Kanalname 
 # max.length: 100
 help-alerts_streams_list = Listet alle Stream-Benachrichtigungen in diesem Server.
 # max.length: 100
-help-alerts_posts = Manage post alerts in this server.
+help-alerts_posts = Verwalten Sie Postwarnungen auf diesem Server.
 # max.length: 100
-help-alerts_posts_twitter = Manage a post alert for a Twitter/X account.
+help-alerts_posts_twitter = Verwalten Sie einen Post-Alert für ein Twitter/X-Konto.
 # max.length: 100
-alerts_posts_twitter-parameter-twitter-account-or-url-description = The Twitter account name or URL.
+alerts_posts_twitter-parameter-twitter-account-or-url-description = Der Name oder die URL des Twitter-Kontos.
 # max.length: 100
-help-alerts_posts_bluesky = Manage a post alert for a Bluesky account.
+help-alerts_posts_bluesky = Verwalten Sie einen Post Alert für ein Bluesky-Konto.
 # max.length: 100
-alerts_posts_bluesky-parameter-bluesky-handle-or-url-description = The Bluesky handle or profile URL.
+alerts_posts_bluesky-parameter-bluesky-handle-or-url-description = Das Bluesky-Handle oder die Profil-URL.
 # max.length: 100
-help-alerts_posts_mastodon = Manage a post alert for a Mastodon account.
+help-alerts_posts_mastodon = Verwalten Sie einen Post-Alert für ein Mastodon-Konto.
 # max.length: 100
-alerts_posts_mastodon-parameter-mastodon-handle-or-url-description = The Mastodon handle or profile URL.
+alerts_posts_mastodon-parameter-mastodon-handle-or-url-description = Das Mastodon-Handle oder die Profil-URL.
 # max.length: 100
-help-alerts_posts_list = List all post alerts in this server.
+help-alerts_posts_list = Alle Post-Alerts auf diesem Server auflisten.

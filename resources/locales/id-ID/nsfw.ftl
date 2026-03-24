@@ -158,7 +158,9 @@ auto-cleanup-msg =
 # Favorites
 # max.length: 80
 command-favorite-btn = Favorite
-favorite-added = Image added to your favorites! { $emoji }
+favorite-added =
+    Image added to your favorites! { $emoji }
+    Use { $cmd_mention } to browse all your favorites.
 favorite-already-exists = This image is already in your favorites!
 favorite-removed = Image removed from your favorites.
 favorite-limit-reached =
@@ -172,11 +174,19 @@ favorite-modal-label = Image number
 favorite-modal-placeholder = The image number to favorite (e.g. 1, 2, 3)...
 favorite-modal-invalid = Sorry, but this is not a valid image number!
 # Likes / Dislikes
-like-added = You liked this image! { $emoji }
+like-added =
+    You liked this image! { $emoji }
+    Use { $cmd_mention } to browse your liked images or { $leaderboard_cmd_mention } to see the top voted images.
 like-removed = You removed your like.
-like-changed-to-like = You changed your vote to a like! { $emoji }
-like-changed-to-dislike = You changed your vote to a dislike.
-dislike-added = You disliked this image.
+like-changed-to-like =
+    You changed your vote to a like! { $emoji }
+    Use { $cmd_mention } to browse your liked images or { $leaderboard_cmd_mention } to see the top voted images.
+like-changed-to-dislike =
+    You changed your vote to a dislike.
+    Use { $cmd_mention } to browse your disliked images or { $leaderboard_cmd_mention } to see the top voted images.
+dislike-added =
+    You disliked this image.
+    Use { $cmd_mention } to browse your disliked images or { $leaderboard_cmd_mention } to see the top voted images.
 dislike-removed = You removed your dislike.
 # max.length: 45
 like-modal-title = Like an image
@@ -200,6 +210,14 @@ favorites-remove-confirm = Are you sure you want to remove favorite #{ $index }?
 favorites-remove-confirm-btn = Confirm Delete
 favorites-remove-success = Favorite #{ $index } removed successfully!
 favorites-remove-invalid = Sorry, but this is not a valid favorite number!
+favorites-title-collage = Your Favorites (page { $page }/{ $total_pages }, { $count } total)
+# max.length: 45
+favorites-remove-modal-title = Remove a favorite
+# max.length: 45
+favorites-remove-modal-label = Image number
+# max.length: 100
+favorites-remove-modal-placeholder = Which image to remove? (1-{ $max })
+favorites-remove-modal-invalid = Please enter a valid number between 1 and { $max }.
 # Leaderboard command
 # max.length: 100
 help-nsfwleaderboard = View the NSFW leaderboard for most liked images and active users.
@@ -209,6 +227,7 @@ leaderboard-images-title = Most Liked Images ({ $total_likes } likes and { $tota
 leaderboard-users-title = Most Active Users
 leaderboard-no-data = No data to display yet!
 leaderboard-image-entry = { $rank }. { $likes } { $dislikes } (score: { $score })
+leaderboard-page-info = Page { $page }/{ $total_pages }
 # max.length: 100
 help-autoporn = Setup autoporn in this channel, and see the status of it on this server.
 # max.length: 100
@@ -241,6 +260,16 @@ e621-parameter-search_tags-description = Keywords to search images for.
 e621-parameter-amount-description = The amount of images to send.
 # max.length: 100
 e621-parameter-private-description = Set to True and the command will only be visible to you.
+# Likes command
+# max.length: 100
+help-nsfwlikes = View your liked and disliked NSFW images.
+# max.length: 100
+nsfwlikes-parameter-private-description = Set to True and the command will only be visible to you.
+likes-title = Your { $type } Images (page { $page }/{ $total_pages }, { $count } total)
+likes-empty-liked = You haven't liked any images yet! Use the 👍 button on images to like them.
+likes-empty-disliked = You haven't disliked any images yet.
+# max.length: 150
+likes-select-placeholder = Filter by vote type...
 # max.length: 100
 help-realbooru = Search for real stuff.
 # max.length: 100
