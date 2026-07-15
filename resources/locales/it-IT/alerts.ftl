@@ -77,6 +77,17 @@ videos-added = Questo canale { $source } è stato aggiunto correttamente come un
 videos-added-tip = A message will be sent whenever the next video is posted.
 # $source will be the source of the video alert.
 videos-removed = Questo canale { $source } è stato rimosso correttamente da questo canale!
+videos-tiktok-lives-desc = - Live alerts: an alert is also sent when this TikTok user goes live. You can turn this off or customize its message ({ "{" }streamer{ "}" } = the streamer name) with the buttons below.
+videos-tiktok-lives = Live alerts
+videos-tiktok-live-message = Live message
+# max.length: 80
+videos-tiktok-enable-lives = Enable live alerts
+# max.length: 80
+videos-tiktok-disable-lives = Disable live alerts
+# max.length: 80
+videos-tiktok-edit-live-msg-btn = Edit live message
+videos-tiktok-lives-enabled = Alright! Live alerts for this TikTok user are now enabled in this channel.
+videos-tiktok-lives-disabled = Alright! Live alerts for this TikTok user are now disabled in this channel.
 posts-settings = Post alerts settings
 posts-desc =
     Notes:
@@ -147,6 +158,10 @@ alerts_streams_twitch-parameter-user_name_or_url-description = Il nome o ID del 
 help-alerts_streams_kick = Gestisci l'avviso di una live per un utente di Kick.
 # max.length: 100
 alerts_streams_kick-parameter-user_name_or_url-description = Il nome o URL del canale di Kick.
+# max.length: 100
+help-alerts_streams_tiktok = Manage a live alert for a TikTok user.
+# max.length: 100
+alerts_streams_tiktok-parameter-user_name_or_url-description = The TikTok channel name or URL.
 # max.length: 100
 help-alerts_streams_list = List all stream alerts in this server.
 # max.length: 100
