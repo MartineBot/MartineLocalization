@@ -29,6 +29,7 @@ giveaway-roll-total-entries = { $num_entries_fmt } total { $num_entries ->
     }!
 giveaway-roll-gg = Congratulation { $winners }!
 giveaway-roll-nothing = But no one entered. { $emoji }
+giveaway-roll-none-left = No one left to draw for { $prize }: every entrant has already won.
     It was { $prize }
 giveaway-ended = Giveaway Ended
 giveaway-ended-time = Giveaway ended { $locale_formatted_time }!
