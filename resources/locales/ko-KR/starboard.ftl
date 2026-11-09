@@ -121,7 +121,7 @@ starboardset_cooldown-parameter-per_message-description = If True, cooldown is p
 
 sb-no-setup = No starboard is set up. Use `/starboardset setup` first.
 sb-enabled = Enabled
-sb-disabled = Disabled
+sb-disabled = 비활성화됨
 sb-no-content = *No content*
 
 # ==========================================

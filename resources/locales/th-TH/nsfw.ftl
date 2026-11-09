@@ -7,8 +7,8 @@ upvote-msg =
     
     You can bypass this by [boosting Martine's server]({ $server_invite })
 upvote-msg-premium = Or by getting one of our [Premium tiers]({ $premium_url })!
-yes = Yes
-no = No
+yes = ใช่
+no = ไม่
 btn-fail = Oops! Something failed with buttons on this message, please use the command again.
 amount-too-low = Sorry, but the amount parameter must be at least 1 image! { $emoji }
 amount-too-high = Sorry, but the amount parameter must be less or equal of { $amount } images! { $emoji }
@@ -19,7 +19,7 @@ msg-category = **Image category:** { $category }
 msg-search-tags = **Search tags:** { $tags }
 msg-requested-by = Requested by: { $author }
 msg-invite-me = Invite me
-msg-premium = Premium
+msg-premium = พรีเมียม (Premium)
 msg-discord-server = Discord Server
 msg-image = **Image:** { $link }
 msg-images = **Images:**

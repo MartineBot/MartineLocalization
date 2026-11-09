@@ -157,26 +157,26 @@ auto-cleanup-msg =
     { $premium_url }
 # Favorites
 # max.length: 80
-command-favorite-btn = Favorite
+command-favorite-btn = Favori
 favorite-added =
-    Image added to your favorites! { $emoji }
-    Use { $cmd_mention } to browse all your favorites.
-favorite-already-exists = This image is already in your favorites!
-favorite-removed = Image removed from your favorites.
+    Image ajoutée à vos favoris ! { $emoji }
+    Utilisez { $cmd_mention } pour parcourir tous vos favoris.
+favorite-already-exists = Cette image figure déjà dans vos favoris !
+favorite-removed = Image retirée de vos favoris.
 favorite-limit-reached =
-    You've reached the maximum number of favorites ({ $limit })! Remove some to add more.
-    Get Premium for unlimited favorites: { $premium_url }
+    Vous avez atteint le nombre maximal de favoris ({ $limit }) ! Supprimez-en pour en ajouter d'autres.
+    Passez à la version Premium pour profiter d'un nombre illimité de favoris : { $premium_url }
 # max.length: 45
-favorite-modal-title = Favorite an image
+favorite-modal-title = Ajouter une image à vos favoris
 # max.length: 45
-favorite-modal-label = Image number
+favorite-modal-label = Numéro de l'image
 # max.length: 100
-favorite-modal-placeholder = The image number to favorite (e.g. 1, 2, 3)...
-favorite-modal-invalid = Sorry, but this is not a valid image number!
+favorite-modal-placeholder = Le numéro de l'image à ajouter aux favoris (par ex. 1, 2, 3)...
+favorite-modal-invalid = Désolé, mais ce n'est pas un nombre d'image valide !
 # Likes / Dislikes
 like-added =
-    You liked this image! { $emoji }
-    Use { $cmd_mention } to browse your liked images or { $leaderboard_cmd_mention } to see the top voted images.
+    Vous avez aimé cette image ! { $emoji }
+    Utilisez { $cmd_mention } pour parcourir vos images aimées ou { $leaderboard_cmd_mention } pour voir les images les plus votées.
 like-removed = You removed your like.
 like-changed-to-like =
     You changed your vote to a like! { $emoji }
@@ -193,10 +193,10 @@ like-modal-title = Like an image
 # max.length: 45
 dislike-modal-title = Dislike an image
 # max.length: 45
-vote-modal-label = Image number
+vote-modal-label = Numéro de l'image
 # max.length: 100
 vote-modal-placeholder = The image number to vote on (e.g. 1, 2, 3)...
-vote-modal-invalid = Sorry, but this is not a valid image number!
+vote-modal-invalid = Désolé, mais ce n'est pas un nombre d'image valide !
 # Favorites command
 # max.length: 100
 help-favorites = View and manage your saved favorite NSFW images.
@@ -214,7 +214,7 @@ favorites-title-collage = Your Favorites (page { $page }/{ $total_pages }, { $co
 # max.length: 45
 favorites-remove-modal-title = Remove a favorite
 # max.length: 45
-favorites-remove-modal-label = Image number
+favorites-remove-modal-label = Numéro de l'image
 # max.length: 100
 favorites-remove-modal-placeholder = Which image to remove? (1-{ $max })
 favorites-remove-modal-invalid = Please enter a valid number between 1 and { $max }.

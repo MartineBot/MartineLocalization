@@ -1,5 +1,5 @@
-yes = Yes
-no = No
+yes = ใช่
+no = ไม่
 # /help command
 shelp-title = Martine - รายการคำสั่งของแอป
 shelp-desc = นี่คือรายการคำสั่งแอปที่ใช้งานได้บน Martine
@@ -140,7 +140,7 @@ ci-parent = หมวดหมู่หลัก
 ci-region = ภูมิภาค
 ci-region-automatic = อัตโนมัติ
 ci-bitrate = บิตเรต
-ci-unknown = Unknown
+ci-unknown = ไม่ทราบ / ไม่ระบุ
 ci-user-limit = ขีดจำกัดผู้ใช้
 ci-details-field =
     รายละเอียด

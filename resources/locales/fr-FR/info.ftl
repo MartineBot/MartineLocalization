@@ -1,73 +1,73 @@
 yes = Oui
 no = Non
 # /help command
-shelp-title = Martine - App commands list
-shelp-desc = Here is the list of the available app commands on Martine.
-shelp-nocategory = No category
-shelp-context-cmds = Context menu commands:
-shelp-context-cmds-desc = These commands are available when right clicking/holding a user or a message.
-shelp-user-cmds = User commands:
-slash-help-msg-cmds = Message commands:
-slash-help-extra-links = Extra links:
+shelp-title = Martine - Liste des commandes de l'application
+shelp-desc = Voici la liste des commandes disponible de Martine.
+shelp-nocategory = Aucune catégorie
+shelp-context-cmds = Menu des commandes :
+shelp-context-cmds-desc = Ces commandes sont uniquement disponibles lorsque vous rester appuyer/clique droit sur un utilisateur ou un message.
+shelp-user-cmds = Commandes utilisateurs :
+slash-help-msg-cmds = Commande pour les messages :
+slash-help-extra-links = Liens supplémentaire :
 # Suggestions form modal
 # max.length: 45
-mart-sugg-form = Martine suggestions form
+mart-sugg-form = Formulaire de suggestions de Martine
 # max.length: 45
-mart-sugg-short = Short description
+mart-sugg-short = Courte description
 # max.length: 100
-mart-sugg-short-placeholder = A brief description of your suggestion...
+mart-sugg-short-placeholder = Brève description de votre suggestion...
 # max.length: 45
-mart-sugg-long = Long description
+mart-sugg-long = Longue description
 # max.length: 100
-mart-sugg-long-placeholder = Explain in details what your suggestion consists of...
-mart-sugg-fail = Oops! Failed to process your suggestion. Please try again later.
-mart-sugg-thanks = Thank you for your suggestion!
-mart-sugg-note = Note: You won't be able to send a new suggestion for 30 minutes.
+mart-sugg-long-placeholder = Expliquez en détail en quoi consiste votre suggestion...
+mart-sugg-fail = Oups ! Impossible de traiter votre suggestion. Veuillez réessayer plus tard.
+mart-sugg-thanks = Merci pour votre suggestion!
+mart-sugg-note = Note : vous ne pourrez plus envoyez aucune suggestion pendant 30 minutes.
 # serverinfo command
 # max.length: 100
-help-serverinfo = Shows information about the server, members badges, and assets.
-si-members-field = Members:
-si-members-connected = Members connected:
-si-humans = Humans:
-si-bots = Bots:
-si-members-vcs = Members in voice channels:
-si-general-field = General:
-si-rules-chan = Rules channel:
-si-owner = Owner:
-si-verif-lvl = Verif. level:
-si-channels = Channels:
-si-afk = AFK channel:
-si-emojis = Emojis:
-si-emojis-static = Static
-si-emojis-animated = Animated
-si-emojis-disabled = Disabled
-si-stickers = Stickers:
-si-roles = Roles:
-si-upload-limit = Upload limit:
-si-audio-bitrate-max = Audio bitrate max:
-si-is-martine-premium = Premium:
-si-server-banner = Server banner
-si-inv-bg = Server invite background
-si-features-field = Features:
-si-boosts-status = Boost status:
-si-last-boost = Last boost:
-si-maxboostreached = Max boost level reached!
-si-boosts-for-next-lvl = boosts for level
-si-bot-join-date = joined this server on
-si-server-id = Server ID
-si-shard-id = Bot shard ID
-si-users-badges = Users badges in
+help-serverinfo = Montre des informations à propos du serveur, des badges de membre et des ressources.
+si-members-field = Membres :
+si-members-connected = Membres connectés :
+si-humans = Humains :
+si-bots = Bots :
+si-members-vcs = Membres en vocales :
+si-general-field = Général :
+si-rules-chan = Salon des règles :
+si-owner = Propriétaire :
+si-verif-lvl = Vérification du niveau :
+si-channels = Salons :
+si-afk = Salon AFK :
+si-emojis = Émojis :
+si-emojis-static = Statique
+si-emojis-animated = Animée
+si-emojis-disabled = Désactiver
+si-stickers = Stickers :
+si-roles = Roles :
+si-upload-limit = Limite d'upload :
+si-audio-bitrate-max = Débit audio maximal :
+si-is-martine-premium = Premium :
+si-server-banner = Bannière du serveur
+si-inv-bg = Arrière-plan de l'invitation du serveur
+si-features-field = Fonctionnalités :
+si-boosts-status = Statue des boosts :
+si-last-boost = Dernier boost :
+si-maxboostreached = Niveaux de boost le plus élevés atteint !
+si-boosts-for-next-lvl = boost pour le prochain niveau
+si-bot-join-date = a rejoint le serveur le
+si-server-id = ID du serveur
+si-shard-id = Identifiant shard du bot
+si-users-badges = Badges des utilisateur dans
 # max.length: 80
-si-si-btn = Server info
+si-si-btn = Info du serveur
 # max.length: 80
-si-badges-btn = View members badges
+si-badges-btn = Voir badges des membres
 # max.length: 80
-si-assets-btn = View server assets
-si-icon = Icon
+si-assets-btn = Afficher les ressources du serveur
+si-icon = Icone
 # max.length: 80
-si-banner-btn = Banner
+si-banner-btn = Bannière
 # max.length: 80
-si-invite-bg-btn = Invite Background
+si-invite-bg-btn = Arrière-plan d'invitation
 # max.length: 80
 si-back-si-btn = Get back to server info
 # userinfo command
@@ -109,7 +109,7 @@ ui-competing = Competing in { $name }
 ui-roles = Roles
 ui-member = Member
 ui-select-assets = View user's avatar or banner...
-ui-select-banner = Banner
+ui-select-banner = Bannière
 ui-select-avatar = Avatar
 ui-select-server-avatar = Server avatar
 ui-no-banner = No banner set.
@@ -162,7 +162,7 @@ em-react = React to this message with the emoji of your choice
 em-cancelled = Cancelled
 em-unicode-char = Unicode character
 em-unicode-category = Unicode category
-em-animated = Animated
+em-animated = Animée
 em-created = Created at
 em-required = required
 em-managed = Managed
@@ -201,7 +201,7 @@ help-info_user = Shows information about a user.
 # max.length: 100
 info_user-parameter-user-description = The user you want information about.
 # max.length: 100
-help-info_server = Shows information about the server, members badges, and assets.
+help-info_server = Montre des informations à propos du serveur, des badges de membre et des ressources.
 # max.length: 100
 help-info_channel = Shows information about a channel. Default to current.
 # max.length: 100

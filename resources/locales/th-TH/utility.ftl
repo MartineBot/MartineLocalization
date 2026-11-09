@@ -1,57 +1,60 @@
 # max.length: 100
-help-stickeradd = Add a sticker to this server.
+help-stickeradd = เพิ่มสติ๊กเกอร์เข้าเซิร์ฟเวอร์นี้
 # max.length: 100
-stickeradd-parameter-message-description = The message containing the sticker.
+stickeradd-parameter-message-description = ข้อความที่มีสติ๊กเกอร์ที่ต้องการเพิ่ม
 # max.length: 100
-help-stickerdelete = Remove a sticker from server.
+help-stickerdelete = ลบสติ๊กเกอร์ออกจากเซิร์ฟเวอร์
 # max.length: 100
-help-invite = Sends the invitation link of the bot, and some other important links.
+help-invite = ส่งลิงก์คำเชิญบอทเข้าเซิร์ฟเวอร์ และลิงก์สำคัญอื่นๆ
 # max.length: 100
-help-language = Select which language to use on this server for Martine.
+help-language = เลือกภาษาที่ต้องการใช้สำหรับ Martine ในเซิร์ฟเวอร์นี้
 # max.length: 100
-language-parameter-lang-description = The language of your choice.
+language-parameter-lang-description = ภาษาที่คุณต้องการเลือกใช้งาน
 # max.length: 100
-help-nsfwchannel = Sends instructions on how to setup an NSFW channel.
+help-nsfwchannel = ส่งวิธีและคำแนะนำในการตั้งค่าช่อง NSFW
 # max.length: 100
-help-vote = Sends the links to upvote Martine on bot lists.
+help-vote = ส่งลิงก์สำหรับช่วยโหวตบอท Martine บนเว็บจัดอันดับบอท
 # max.length: 100
-help-selfblock = Add yourself to the bot's blocklist, to opt out from data collection.
+help-selfblock = เพิ่มตัวคุณเข้าในรายการบล็อกของบอท เพื่อปฏิเสธการเก็บรวบรวมข้อมูลส่วนบุคคล
 # max.length: 100
-help-premium = Premium management commands.
+help-premium = คำสั่งจัดการระบบพรีเมียม (Premium)
 # max.length: 100
-help-premium-status = Gets information about your current Premium status.
+help-premium-status = ตรวจสอบข้อมูลสถานะพรีเมียมปัจจุบันของคุณ
 # max.length: 100
-help-premium-server = Premium server management.
+help-premium-server = จัดการระบบพรีเมียมประจำเซิร์ฟเวอร์
 # max.length: 100
-help-premium-server-activate = Activates Premium in this server, based off your current Patreon subscription.
+help-premium-server-activate = เปิดใช้งานพรีเมียมในเซิร์ฟเวอร์นี้ โดยอิงจากยอดการสนับสนุนทาง Patreon ของคุณ
 # max.length: 100
-help-premium-server-remove = Removes Premium from this server.
-language-invalid = Please try again with a language that is in the list.
-language-current = Please select another language than the one currently selected.
-language-changed = Successfully updated the language on this server to { $language }! { $emoji }
+help-premium-server-remove = ยกเลิกการใช้งานพรีเมียมในเซิร์ฟเวอร์นี้
+language-invalid = โปรดลองใหม่อีกครั้งโดยเลือกภาษาที่มีอยู่ในรายการ
+language-current = โปรดเลือกภาษาอื่นที่ต่างจากภาษาที่ใช้อยู่ในปัจจุบัน
+language-changed = อัปเดตภาษาของเซิร์ฟเวอร์นี้เป็น { $language } เรียบร้อยแล้ว! { $emoji }
 language-contribute =
-    Do you want to help us having more translations to this language? 
-    Here is the link to our Crowdin project to contribute: { $link } { $emoji }
-premium-not-active = Not active
-premium-status-user = Your Premium status
-premium-tier = **Tier:** { $value }
-premium-since = **Since:** { $value }
-premium-status-servers = Your Premium servers
-premium-unknown-server = Unknown server name
-premium-status-current-server = Current server Premium status
+    คุณต้องการช่วยเราแปลภาษาเพิ่มเติมสำหรับภาษานี้ไหม?
+    นี่คือลิงก์ไปยังโปรเจกต์ Crowdin ของเราเพื่อร่วมเป็นส่วนหนึ่งในการแปลภาษา: { $link } {$emoji }
+premium-not-active = ยังไม่ได้เปิดใช้งาน / ไม่ทำงาน
+premium-status-user = สถานะพรีเมียมของคุณ
+premium-tier = **ระดับพรีเมียม:** { $value }
+premium-since = **เป็นสมาชิกตั้งแต่:** { $value }
+premium-status-servers = เซิร์ฟเวอร์พรีเมียมของคุณ
+premium-unknown-server = ไม่ทราบชื่อเซิร์ฟเวอร์
+premium-status-current-server = สถานะพรีเมียมของเซิร์ฟเวอร์ปัจจุบัน
 premium-server-notsub =
-    It seems that you don't have a Patreon subscription. 
-    Please subscribe to our Patreon to get access to Premium features: { $premium_url }
-    Or maybe you already have one? If so, please click on following url to link your account to Martine: { $premium_link_url }
+    ดูเหมือนว่าคุณยังไม่ได้กดสนับสนุนผ่าน Patreon
+    โปรดสมัครสมาชิกผ่าน Patreon ของเราเพื่อเข้าถึงฟีเจอร์พรีเมียม: { $premium_url }
+    หรือหากคุณเป็นสมาชิก Patreon อยู่แล้ว สามารถคลิกที่ลิงก์นี้เพื่อเชื่อมต่อบัญชีเข้ากับ Martine ได้เลย:{ $premium_link_url }
+    
+    
 premium-server-invalid-sub =
-    You have a Premium subscription, but it's not a server subscription therefore I cannot activate Premium in this server.
-    You can find our Premium server subscriptions here: { $premium_url }
-premium-server-already-active = Premium is already activated in this server. { $emoji }
+    คุณมีสิทธิ์พรีเมียมแบบส่วนบุคคล แต่มันไม่ใช่อัปเกรดระดับเซิร์ฟเวอร์ บอทจึงไม่สามารถเปิดใช้งานพรีเมียมให้เซิร์ฟเวอร์นี้ได้
+    คุณสามารถดูรายละเอียดและสมัครสิทธิ์พรีเมียมสำหรับเซิร์ฟเวอร์ได้ที่นี่: { $premium_url }
+premium-server-already-active = เซิร์ฟเวอร์นี้ได้เปิดใช้งานพรีเมียมเรียบร้อยแล้ว { $emoji }
 premium-server-max =
-    You have reached the maximum amount of Premium servers you can have with this subscription. 
-    Please remove a server from your Premium servers list before adding a new one.
+    คุณใช้สิทธิ์พรีเมียมสำหรับเซิร์ฟเวอร์ครบตามจำนวนสูงสุดที่แพ็กเกจของคุณครอบคลุมแล้ว
+    กรุณายกเลิกพรีเมียมออกจากเซิร์ฟเวอร์เดิมก่อนที่จะเพิ่มเซิร์ฟเวอร์ใหม่
+    
 premium-server-activated =
-    Successfully activated { $tier } in this server!
-    You can now enjoy all the Premium features in this server. Thank you for supporting Martine! { $emoji }
-premium-server-remove-not-active = Premium is not activated in this server.
-premium-server-removed = Successfully removed Premium from this server!
+    เปิดใช้งานสิทธิ์พรีเมียมระดับ { $tier } ในเซิร์ฟเวอร์นี้เรียบร้อยแล้ว!
+    ตอนนี้คุณสามารถเพลิดเพลินกับฟีเจอร์พรีเมียมทั้งหมดในเซิร์ฟเวอร์นี้ได้แล้ว ขอบคุณสำหรับการสนับสนุน Martine นะครับ! { $emoji }
+premium-server-remove-not-active = เซิร์ฟเวอร์นี้ยังไม่ได้เปิดใช้งานพรีเมียม
+premium-server-removed = ยกเลิกพรีเมียมออกจากเซิร์ฟเวอร์นี้เรียบร้อยแล้ว!
