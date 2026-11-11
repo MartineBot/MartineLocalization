@@ -14,4 +14,4 @@ premium-end-notice-over-limit = { $count ->
 # $server is the server's name.
 premium-end-owner-title = Premium ended on { $server }
 # $link is the Premium page.
-premium-end-owner-body = Alerts over the free limit are paused (the oldest keep posting), Martine is back to her own avatar, banner and bio, and Leveling's spam guard uses its defaults. Nothing was deleted. Whoever pledged can renew, or you can see the plans: { $link }
+premium-end-owner-body = Alerts over the free limit are paused (the oldest keep posting), Martine is back to her own avatar, banner and bio, and Leveling's spam guard uses its defaults. No alert was deleted. Whoever pledged can renew, or you can see the plans: { $link }
