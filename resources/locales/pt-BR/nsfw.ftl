@@ -71,6 +71,7 @@ auto-setup-description =
      - As imagens são enviadas a cada 5 minutos, por padrão. Use o botão `Change delay` para atualizá-lo.
 auto-setup-current = Configurações atuais:
 auto-setup-enabled = **Habilitado:** { $enabled }
+auto-setup-paused = Paused on the dashboard
 auto-setup-delay = **Atraso:** { $delay }
 auto-setup-amount = **Valor:** { $amount }
 auto-setup-categories = Categorias habilitadas:
@@ -83,6 +84,8 @@ auto-setup-clear-categories-btn = Apagar categorias selecionadas
 auto-setup-delay-btn = Alterar atraso
 auto-setup-amount-btn = Alterar valor
 auto-setup-status-btn = Status nesse servidor
+# max.length: 80
+auto-setup-dashboard-btn = Edit on Dashboard
 # max.length: 150
 auto-setup-select-placeholder = Selecione as categorias
 # max.length: 80
@@ -104,6 +107,7 @@ auto-setup-max-webhooks = Quantidade máxima de webhooks atingida neste canal. P
 auto-setup-enabled-success = Autoporn habilitado em { $channel }.
 auto-setup-enabled-tip = As imagens são enviadas a cada 5 minutos por padrão. Use o botão `Change delay` para atualizá-lo.
 auto-setup-disabled = Autoporn desabilitado em { $channel }.
+auto-setup-disabled-webhook-kept = I couldn't delete my autoporn webhook here. You can delete it in this channel's settings, under Integrations.
 auto-setup-delay-no-premium = O delay Autoporn só pode ser alterado para servidores de nível 'Premium Server Silver' (ou superior)! Confira nossos níveis Premium aqui: { $premium_url }
 auto-setup-amount-no-premium = A quantidade de Autoporn só pode ser alterada para servidores de nível `Premium Server Silver` (ou superior)! Confira nossos níveis Premium aqui: { $premium_url }
 auto-status-title = Status Autoporn em { $guild }

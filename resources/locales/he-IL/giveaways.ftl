@@ -31,8 +31,9 @@ giveaway-roll-total-entries =
        *[other] entries
     }!
 giveaway-roll-gg = Congratulation { $winners }!
-giveaway-roll-nothing =
-    But no one entered. { $emoji }
+giveaway-roll-nothing = But no one entered. { $emoji }
+giveaway-roll-none-left =
+    No one left to draw for { $prize }: every entrant has already won.
     It was { $prize }
 giveaway-ended = Giveaway Ended
 giveaway-ended-time = Giveaway ended { $locale_formatted_time }!
@@ -101,6 +102,8 @@ giveaway-setup-roles-condition =
     Do you want to require members to have any or all of the roles you specified?
     By default it will be set to `all`.
 giveaway-setup-roles-condition-invalid = This is not a valid type, it must be either `any` or `all`. Please try again.
+giveaway-setup-rolescondition-invalid = This is not a valid condition, it must be either `any` or `all`.
+giveaway-setup-config-roles-missing = These default roles no longer exist on this server, so this giveaway was created without them: { $roles }
 giveaway-setup-joindays = How many days members should have been in the server?
 giveaway-setup-joindays-too-low = The minimum number of days is 1. Please try again with a higher number.
 giveaway-setup-bypassrole = Do you want to set a role that will bypass requirements set before?

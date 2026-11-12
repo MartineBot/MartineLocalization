@@ -31,9 +31,10 @@ giveaway-roll-total-entries =
        *[other] είσοδοι
     }!
 giveaway-roll-gg = Συγχαρητήρια { $winners }!
-giveaway-roll-nothing =
-    Αλλά κανείς δε συμμετείχε. { $emoji }
-    Ήταν { $prize }
+giveaway-roll-nothing = But no one entered. { $emoji }
+giveaway-roll-none-left =
+    No one left to draw for { $prize }: every entrant has already won.
+    It was { $prize }
 giveaway-ended = Το giveaway τελείωσε
 giveaway-ended-time = Το giveaway τελείωσε { $locale_formatted_time }!
 giveaway-no-winners = Κανείς δεν κέρδισε
@@ -101,6 +102,8 @@ giveaway-setup-roles-condition =
     Θέλετε να απαιτήσετε από τα μέλη να έχουν οποιονδήποτε ή όλους τους ρόλους που καθορίσατε;
     Από προεπιλογή θα οριστεί σε "όλοι".
 giveaway-setup-roles-condition-invalid = Αυτός δεν είναι έγκυρος τύπος, πρέπει να είναι είτε `any` είτε `all`. Παρακαλώ δοκιμάστε ξανά.
+giveaway-setup-rolescondition-invalid = This is not a valid condition, it must be either `any` or `all`.
+giveaway-setup-config-roles-missing = These default roles no longer exist on this server, so this giveaway was created without them: { $roles }
 giveaway-setup-joindays = Πόσες ημέρες θα έπρεπε να είναι τα μέλη στον διακομιστή;
 giveaway-setup-joindays-too-low = Ο ελάχιστος αριθμός ημερών είναι 1. Προσπαθήστε ξανά με μεγαλύτερο αριθμό.
 giveaway-setup-bypassrole = Θέλετε να ορίσετε έναν ρόλο που θα παρακάμπτει τις απαιτήσεις που έχουν τεθεί προηγουμένως;

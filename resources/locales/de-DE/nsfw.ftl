@@ -71,6 +71,7 @@ auto-setup-description =
     - Die Bilder werden standardmäßig alle 5 Minuten gesendet. Verwenden Sie die Schaltfläche "Verzögerung ändern", um sie zu aktualisieren.
 auto-setup-current = Aktuelle Einstellungen:
 auto-setup-enabled = **Aktiviert:** { $enabled }
+auto-setup-paused = Paused on the dashboard
 auto-setup-delay = **Verzögerung:** { $delay }
 auto-setup-amount = **Menge:** { $amount }
 auto-setup-categories = Aktivierte Kategorien:
@@ -83,6 +84,8 @@ auto-setup-clear-categories-btn = Ausgewählte Kategorien löschen
 auto-setup-delay-btn = Verzögerung ändern
 auto-setup-amount-btn = Menge ändern
 auto-setup-status-btn = Status auf diesem Server
+# max.length: 80
+auto-setup-dashboard-btn = Edit on Dashboard
 # max.length: 150
 auto-setup-select-placeholder = Kategorien auswählen
 # max.length: 80
@@ -104,6 +107,7 @@ auto-setup-max-webhooks = Maximale Anzahl von Webhooks in diesem Kanal erreicht.
 auto-setup-enabled-success = Autoporno aktiviert in { $channel }.
 auto-setup-enabled-tip = Die Bilder werden standardmäßig alle 5 Minuten gesendet. Verwenden Sie die Schaltfläche "Verzögerung ändern", um sie zu aktualisieren.
 auto-setup-disabled = Autoporno deaktiviert in { $channel }.
+auto-setup-disabled-webhook-kept = I couldn't delete my autoporn webhook here. You can delete it in this channel's settings, under Integrations.
 auto-setup-delay-no-premium = Die Autoporno-Verzögerung kann nur für Premium-Server der Stufe Silber (oder höher) geändert werden! Sehen Sie sich unsere Premium-Stufen hier an: { $premium_url }
 auto-setup-amount-no-premium = Die Anzahl der Autopornos kann nur für Premium Server der Stufe Silber (oder höher) geändert werden! Sehen Sie sich unsere Premium-Stufen hier an: { $premium_url }
 auto-status-title = Autoporno-Status in { $guild }

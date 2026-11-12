@@ -31,9 +31,10 @@ giveaway-roll-total-entries =
        *[other] заявок
     }!
 giveaway-roll-gg = Вітаємо { $winners }!
-giveaway-roll-nothing =
-    Але ніхто не взяв участь. { $emoji }
-    Приз був { $prize }
+giveaway-roll-nothing = But no one entered. { $emoji }
+giveaway-roll-none-left =
+    No one left to draw for { $prize }: every entrant has already won.
+    It was { $prize }
 giveaway-ended = Роздачу завершено
 giveaway-ended-time = Роздачу завершено { $locale_formatted_time }!
 giveaway-no-winners = Ніхто не виграв
@@ -101,6 +102,8 @@ giveaway-setup-roles-condition =
     Do you want to require members to have any or all of the roles you specified?
     By default it will be set to `all`.
 giveaway-setup-roles-condition-invalid = This is not a valid type, it must be either `any` or `all`. Please try again.
+giveaway-setup-rolescondition-invalid = This is not a valid condition, it must be either `any` or `all`.
+giveaway-setup-config-roles-missing = These default roles no longer exist on this server, so this giveaway was created without them: { $roles }
 giveaway-setup-joindays = Скільки днів учасники повинні були бути на сервері?
 giveaway-setup-joindays-too-low = Мінімальна кількість днів – 1. Спробуйте ще раз із більшим числом.
 giveaway-setup-bypassrole = Ви хочете встановити роль, яка обійде вимоги, встановлені раніше?

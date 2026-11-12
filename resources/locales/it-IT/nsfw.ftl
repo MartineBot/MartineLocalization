@@ -71,6 +71,7 @@ auto-setup-description =
     - Le immagini sono inviate ogni 5 minuti, di default. Utilizza il pulsante `Modifica ritardo` per aggiornarlo.
 auto-setup-current = Impostazioni correnti:
 auto-setup-enabled = **Abilitato:** { $enabled }
+auto-setup-paused = Paused on the dashboard
 auto-setup-delay = **Ritardo:** { $delay }
 auto-setup-amount = **Quantità:** { $amount }
 auto-setup-categories = Categorie abilitate:
@@ -83,6 +84,8 @@ auto-setup-clear-categories-btn = Cancella le categorie selezionate
 auto-setup-delay-btn = Modifica ritardo
 auto-setup-amount-btn = Modifica quantità
 auto-setup-status-btn = Stato su questo server
+# max.length: 80
+auto-setup-dashboard-btn = Edit on Dashboard
 # max.length: 150
 auto-setup-select-placeholder = Seleziona le categorie
 # max.length: 80
@@ -102,6 +105,7 @@ auto-setup-max-webhooks = Quantità massima di webhook raggiunta su questo canal
 auto-setup-enabled-success = Auto-porn abilitato in { $channel }.
 auto-setup-enabled-tip = Le immagini sono inviate ogni 5 minuti di default. Utilizza il pulsante `Modifica ritardo` per aggiornarlo.
 auto-setup-disabled = Auto-porn disabilitato in { $channel }.
+auto-setup-disabled-webhook-kept = I couldn't delete my autoporn webhook here. You can delete it in this channel's settings, under Integrations.
 auto-setup-delay-no-premium = Il ritardo dell'auto-porn può essere modificato per i server di rango 'Premium Server Silver' (o superiori)! Dai un'occhiata ai ranghi Premium, qui: { $premium_url }
 auto-setup-amount-no-premium = La quantità di auto-porn è modificabile soltanto per i server di rango `Premium Server Silver` (o superiori)! Consulta i nostri ranghi Premium, qui: { $premium_url }
 auto-status-title = Stato dell'auto-porn su { $guild }

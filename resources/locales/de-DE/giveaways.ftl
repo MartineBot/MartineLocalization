@@ -31,9 +31,10 @@ giveaway-roll-total-entries =
        *[other] Einträge
     }!
 giveaway-roll-gg = Herzlichen Glückwunsch { $winners }!
-giveaway-roll-nothing =
-    Aber niemand hat teilgenommen. { $emoji }
-    Es war { $prize }
+giveaway-roll-nothing = But no one entered. { $emoji }
+giveaway-roll-none-left =
+    No one left to draw for { $prize }: every entrant has already won.
+    It was { $prize }
 giveaway-ended = Giveaway beendet
 giveaway-ended-time = Giveaway endete um { $locale_formatted_time }!
 giveaway-no-winners = Niemand hat gewonnen
@@ -99,6 +100,8 @@ giveaway-setup-roles-invalid = { $value } ist keine gültige Rolle. Versuch es b
 giveaway-setup-roles-too-many = Du kannst nur bis zu 5 Rollen wählen. Bitte probiere es erneut & verwende weniger Rollen.
 giveaway-setup-roles-condition = Sollen Mitglieder alle oder nur eine der genannten Rollen haben? Standard gemäß sind 'alle' notwendig.
 giveaway-setup-roles-condition-invalid = Dies ist kein gültiger Typ. Wähle bitte zwischen `any` oder `all` und versuch es erneut.
+giveaway-setup-rolescondition-invalid = This is not a valid condition, it must be either `any` or `all`.
+giveaway-setup-config-roles-missing = These default roles no longer exist on this server, so this giveaway was created without them: { $roles }
 giveaway-setup-joindays = Wie lang sollten Mitglieder bereits im Server sein?
 giveaway-setup-joindays-too-low = Das minimum beträgt 1 Tag. Bitte verwende eine höhere Zahl.
 giveaway-setup-bypassrole = Möchtest du eine Rolle setzen die Anforderungen / Bedingungen umgehen kann?

@@ -71,6 +71,7 @@ auto-setup-description =
     - Bilder sendes hvert 5. minutt, som standard. Bruk knappen "Endre forsinkelse" for å oppdatere den.
 auto-setup-current = Gjeldende innstillinger:
 auto-setup-enabled = **Aktivert: ** { $enabled }
+auto-setup-paused = Paused on the dashboard
 auto-setup-delay = **forsinkelse:** { $delay }
 auto-setup-amount = **Beløp:** { $amount }
 auto-setup-categories = Aktiverte kategorier:
@@ -83,6 +84,8 @@ auto-setup-clear-categories-btn = Fjern valgte kategorier
 auto-setup-delay-btn = Endre forsinkelse
 auto-setup-amount-btn = Endre beløp
 auto-setup-status-btn = Statusen på denne serveren
+# max.length: 80
+auto-setup-dashboard-btn = Edit on Dashboard
 # max.length: 150
 auto-setup-select-placeholder = Velg kategorier
 # max.length: 80
@@ -104,6 +107,7 @@ auto-setup-max-webhooks = Maksimalt antall webhooks nådd i denne kanalen. Vennl
 auto-setup-enabled-success = Autoporno er aktivert i { $channel }.
 auto-setup-enabled-tip = Bilder sendes som standard hvert 5. minutt. Bruk knappen `Endre forsinkelse` for å oppdatere den.
 auto-setup-disabled = Autoporno er deaktivert i { $channel }.
+auto-setup-disabled-webhook-kept = I couldn't delete my autoporn webhook here. You can delete it in this channel's settings, under Integrations.
 auto-setup-delay-no-premium = Forsinkelse for autoporno kan kun endres for `Premium Server Silver`-nivå (eller høyere) servere! Sjekk ut Premium-nivåer her: { $premium_url }
 auto-setup-amount-no-premium = Autoporno antall automatisk benytting kan kun endres for `Premium Server Silver` tier (eller høyere) servere! Sjekk ut premium tiere våre her: { $premium_url }
 auto-status-title = Autoporno status i { $guild }

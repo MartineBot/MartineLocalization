@@ -32,9 +32,10 @@ giveaway-roll-total-entries =
        *[other] participants
     } au total !
 giveaway-roll-gg = Félicitations { $winners } !
-giveaway-roll-nothing =
-    Mais personne n'a participé. { $emoji }
-    Le prix était { $prize }
+giveaway-roll-nothing = But no one entered. { $emoji }
+giveaway-roll-none-left =
+    No one left to draw for { $prize }: every entrant has already won.
+    It was { $prize }
 giveaway-ended = Giveaway terminé
 giveaway-ended-time = Le giveaway s'est terminé à { $locale_formatted_time } !
 giveaway-no-winners = Personne n'a gagné
@@ -102,6 +103,8 @@ giveaway-setup-roles-condition =
     Les participants doivent-ils avoir tous les rôles ou seulement l'un d'entre eux ?
     La valeur par défaut est `all`.
 giveaway-setup-roles-condition-invalid = Cette valeur est invalide. Réessaie avec `any` ou `all`.
+giveaway-setup-rolescondition-invalid = This is not a valid condition, it must be either `any` or `all`.
+giveaway-setup-config-roles-missing = These default roles no longer exist on this server, so this giveaway was created without them: { $roles }
 giveaway-setup-joindays = Depuis combien de jours les membres devraient-ils être dans le serveur ?
 giveaway-setup-joindays-too-low = Le minimum est de 1 jour. Réessaie avec un nombre plus élevé.
 giveaway-setup-bypassrole = Souhaites-tu déterminer un rôle qui contourne les conditions définies préalablement ?

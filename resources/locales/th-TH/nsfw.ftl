@@ -71,6 +71,7 @@ auto-setup-description =
     - Images are sent every 5 minutes, by default. Use the `Change delay` button to update it.
 auto-setup-current = Current settings:
 auto-setup-enabled = **Enabled:** { $enabled }
+auto-setup-paused = Paused on the dashboard
 auto-setup-delay = **Delay:** { $delay }
 auto-setup-amount = **Amount:** { $amount }
 auto-setup-categories = Enabled categories:
@@ -83,6 +84,8 @@ auto-setup-clear-categories-btn = Clear selected categories
 auto-setup-delay-btn = Change delay
 auto-setup-amount-btn = Change amount
 auto-setup-status-btn = Status in this server
+# max.length: 80
+auto-setup-dashboard-btn = แก้ไขบนแดชบอร์ด
 # max.length: 150
 auto-setup-select-placeholder = Select categories
 # max.length: 80
@@ -104,6 +107,7 @@ auto-setup-max-webhooks = Maximum amount of webhooks reached in this channel. Pl
 auto-setup-enabled-success = Autoporn enabled in { $channel }.
 auto-setup-enabled-tip = Images are sent every 5 minutes by default. Use the `Change delay` button to update it.
 auto-setup-disabled = Autoporn disabled in { $channel }.
+auto-setup-disabled-webhook-kept = I couldn't delete my autoporn webhook here. You can delete it in this channel's settings, under Integrations.
 auto-setup-delay-no-premium = Autoporn delay can only be changed for `Premium Server Silver` tier (or higher) servers! Check out our Premium tiers here: { $premium_url }
 auto-setup-amount-no-premium = Autoporn amount can only be changed for `Premium Server Silver` tier (or higher) servers! Check out our Premium tiers here: { $premium_url }
 auto-status-title = Autoporn status in { $guild }

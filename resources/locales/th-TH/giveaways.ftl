@@ -31,9 +31,10 @@ giveaway-roll-total-entries =
        *[other] รายการอื่นๆ
     }!
 giveaway-roll-gg = ขอแสดงความยินดีกับ { $winners } ด้วยครับ!
-giveaway-roll-nothing =
-    แต่ไม่มีใครลงชื่อเข้าร่วมเลย { $emoji }
-    ของรางวัลครั้งนี้คือ { $prize }
+giveaway-roll-nothing = But no one entered. { $emoji }
+giveaway-roll-none-left =
+    No one left to draw for { $prize }: every entrant has already won.
+    It was { $prize }
 giveaway-ended = กิจกรรมแจกรางวัลจบลงแล้ว
 giveaway-ended-time = กิจกรรมแจกรางวัลจบลงเมื่อ { $locale_formatted_time }!
 giveaway-no-winners = ไม่มีผู้ได้รับรางวัล
@@ -101,6 +102,8 @@ giveaway-setup-roles-condition =
     คุณต้องการให้สมาชิกมียศ "เพียงบางยศ (any)" หรือ "ต้องมีครบทุกยศ (all)" ที่ระบุไว้?
     ค่าเริ่มต้นจะตั้งไว้เป็น all (ต้องมีครบทุกยศ)
 giveaway-setup-roles-condition-invalid = ประเภทไม่ถูกต้อง ต้องระบุเป็น any หรือ all เท่านั้น โปรดลองอีกครั้ง
+giveaway-setup-rolescondition-invalid = This is not a valid condition, it must be either `any` or `all`.
+giveaway-setup-config-roles-missing = These default roles no longer exist on this server, so this giveaway was created without them: { $roles }
 giveaway-setup-joindays = สมาชิกต้องอยู่ในเซิร์ฟเวอร์มาแล้วอย่างน้อยกี่วัน?
 giveaway-setup-joindays-too-low = จำนวนวันขั้นต่ำคือ 1 วัน โปรดลองอีกครั้งโดยระบุตัวเลขที่มากขึ้น
 giveaway-setup-bypassrole = คุณต้องการตั้งค่ายศพิเศษที่จะได้รับสิทธิ์ข้ามเงื่อนไขก่อนหน้านี้หรือไม่?

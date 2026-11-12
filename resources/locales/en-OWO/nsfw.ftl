@@ -71,6 +71,7 @@ auto-setup-description =
     - Images awe sent evewy 5 minyutes, by d-d-defauwt. Use the `Change d-deway` button t-to update it.
 auto-setup-current = Cuwwent settings:
 auto-setup-enabled = **Enyabwed:** { $enabled }
+auto-setup-paused = Paused on the dashboard
 auto-setup-delay = **Deway:** { $delay }
 auto-setup-amount = **Amount:** { $amount }
 auto-setup-categories = Enyabwed categories:
@@ -83,6 +84,8 @@ auto-setup-clear-categories-btn = C-C-Cweaw sewected categowies
 auto-setup-delay-btn = Change deway
 auto-setup-amount-btn = Change amount
 auto-setup-status-btn = Status in this sewvew
+# max.length: 80
+auto-setup-dashboard-btn = Edit on Dashboard
 # max.length: 150
 auto-setup-select-placeholder = Sewect categowies
 # max.length: 80
@@ -104,6 +107,7 @@ auto-setup-max-webhooks = Maximum amount of webhooks weached in this channyew. P
 auto-setup-enabled-success = Autopown enyabwed in { $channel }.
 auto-setup-enabled-tip = Images awe sent evewy 5 minyutes by d-d-defauwt. Use the `Change d-deway` button t-to update it.
 auto-setup-disabled = Autopown disabwed in { $channel }.
+auto-setup-disabled-webhook-kept = I couldn't delete my autoporn webhook here. You can delete it in this channel's settings, under Integrations.
 auto-setup-delay-no-premium = Autopown deway c-can onwy be changed fow `Pwemium Sewvew Siwvew` t-tiew (ow highew) sewvews?!! Check out ouw Pwemium tiews here: { $premium_url }
 auto-setup-amount-no-premium = Autoporn amount can only be changed for `Premium Server Silver` tier (or higher) servers! Check out our Premium tiers here: { $premium_url }
 auto-status-title = Autopown status in { $guild }

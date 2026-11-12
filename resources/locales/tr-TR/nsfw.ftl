@@ -71,6 +71,7 @@ auto-setup-description =
     - Görüntüler varsayılan olarak her 5 dakikada bir gönderilir. Güncellemek için `Gecikmeyi değiştir` tuşunu kullanın.
 auto-setup-current = Şu anki ayarlar:
 auto-setup-enabled = **Etkinleştirilmiş:** { $enabled }
+auto-setup-paused = Paused on the dashboard
 auto-setup-delay = **Gecikme:** { $delay }
 auto-setup-amount = **Miktar:** { $amount }
 auto-setup-categories = Aktif kategoriler:
@@ -83,6 +84,8 @@ auto-setup-clear-categories-btn = Seçili kategorileri temizle
 auto-setup-delay-btn = Gecikmeyi değiştir
 auto-setup-amount-btn = Miktarı değiştir
 auto-setup-status-btn = Bu sunucudaki durum
+# max.length: 80
+auto-setup-dashboard-btn = Edit on Dashboard
 # max.length: 150
 auto-setup-select-placeholder = Kategorileri seçin
 # max.length: 80
@@ -104,6 +107,7 @@ auto-setup-max-webhooks = Bu kanalda maksimum webhook sayısına ulaşıldı. Ma
 auto-setup-enabled-success = Autoporn { $channel } kanalında etkinleştirildi.
 auto-setup-enabled-tip = Görüntüler varsayılan olarak her 5 dakikada bir gönderilir. Güncellemek için `Gecikmeyi değiştir` butonunu kullanın.
 auto-setup-disabled = Autoporn { $channel } kanalında devre dışı bırakıldı.
+auto-setup-disabled-webhook-kept = I couldn't delete my autoporn webhook here. You can delete it in this channel's settings, under Integrations.
 auto-setup-delay-no-premium = Autoporn gecikmesi yalnızca `Premium Server Silver` (veya daha yüksek) sunucular için değiştirilebilir! Premium planlarına buradan göz atın: { $premium_url }
 auto-setup-amount-no-premium = Autoporn miktarı yalnızca `Premium Server Silver` (veya daha yüksek) sunucular için değiştirilebilir! Premium planlarına buradan göz atın: { $premium_url }
 auto-status-title = { $guild } adresinde otomatik porno durumu

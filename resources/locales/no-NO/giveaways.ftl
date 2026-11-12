@@ -31,9 +31,10 @@ giveaway-roll-total-entries =
        *[other] deltate
     }!
 giveaway-roll-gg = Gratulerer! { $winners }!
-giveaway-roll-nothing =
-    Men ingen deltat. { $emoji }
-    Den var { $prize }
+giveaway-roll-nothing = But no one entered. { $emoji }
+giveaway-roll-none-left =
+    No one left to draw for { $prize }: every entrant has already won.
+    It was { $prize }
 giveaway-ended = Giveaway sluttet
 giveaway-ended-time = Giveaway sluttet! { $locale_formatted_time }!
 giveaway-no-winners = Ingen vant
@@ -101,6 +102,8 @@ giveaway-setup-roles-condition =
     Do you want to require members to have any or all of the roles you specified?
     By default it will be set to `all`.
 giveaway-setup-roles-condition-invalid = This is not a valid type, it must be either `any` or `all`. Please try again.
+giveaway-setup-rolescondition-invalid = This is not a valid condition, it must be either `any` or `all`.
+giveaway-setup-config-roles-missing = These default roles no longer exist on this server, so this giveaway was created without them: { $roles }
 giveaway-setup-joindays = Hvor mange dager medlemmer skal ha vært på serveren?
 giveaway-setup-joindays-too-low = Minimum antall dager er 1. Vennligst prøv igjen med et høyere tall.
 giveaway-setup-bypassrole = Vil du sette en rolle som vil omgå krav som er satt før?

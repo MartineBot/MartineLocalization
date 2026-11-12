@@ -71,6 +71,7 @@ auto-setup-description =
     - Οι εικόνες αποστέλλονται κάθε 5 λεπτά, από προεπιλογή. Χρησιμοποιήστε το κουμπί `Αλλαγή καθυστέρησης` για να το ενημερώσετε.
 auto-setup-current = Τρέχουσες ρυθμίσεις:
 auto-setup-enabled = **Ενεργοποιημένο:** { $enabled }
+auto-setup-paused = Paused on the dashboard
 auto-setup-delay = **Καθυστέρηση:** { $delay }
 auto-setup-amount = **Ποσότητά:** { $amount }
 auto-setup-categories = Ενεργοποιημένες κατηγορίες:
@@ -83,6 +84,8 @@ auto-setup-clear-categories-btn = Εκκαθάριση επιλεγμένων κ
 auto-setup-delay-btn = Αλλαγή καθυστέρησης
 auto-setup-amount-btn = Αλλαγή ποσότητας
 auto-setup-status-btn = Κατάσταση σε αυτόν τον διακομιστή
+# max.length: 80
+auto-setup-dashboard-btn = Edit on Dashboard
 # max.length: 150
 auto-setup-select-placeholder = Επιλογή κατηγοριών
 # max.length: 80
@@ -104,6 +107,7 @@ auto-setup-max-webhooks = Το μέγιστο ποσό των webhooks σε αυ
 auto-setup-enabled-success = Το autoporn ενεργοποιήθηκε στο { $channel }.
 auto-setup-enabled-tip = Οι εικόνες αποστέλλονται από προεπιλογή κάθε 5 λεπτά. Χρησιμοποιήστε το κουμπί "Αλλαγή καθυστέρησης" για να την ενημερώσετε.
 auto-setup-disabled = Το autoporn είναι απενεργοποιημένο στο { $channel }.
+auto-setup-disabled-webhook-kept = I couldn't delete my autoporn webhook here. You can delete it in this channel's settings, under Integrations.
 auto-setup-delay-no-premium = Η καθυστέρηση του autoporn μπορεί να αλλάξει μόνο για τους διακομιστές της βαθμίδας "Premium Server Silver" (ή υψηλότερη)! Ελέγξτε τις Premium βαθμίδες μας εδώ: { $premium_url }
 auto-setup-amount-no-premium = Η ποσότητα του autoporn μπορεί να αλλάξει μόνο για τους διακομιστές της βαθμίδας "Premium Server Silver" (ή υψηλότερη)! Ελέγξτε τις Premium βαθμίδες μας εδώ: { $premium_url }
 auto-status-title = Κατάσταση autoporn στο { $guild }

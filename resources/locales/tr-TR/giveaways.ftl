@@ -31,9 +31,10 @@ giveaway-roll-total-entries =
        *[other] giriş
     }!
 giveaway-roll-gg = Tebrikler { $winners }!
-giveaway-roll-nothing =
-    Ama kimse girmedi. { $emoji }
-     { $prize }
+giveaway-roll-nothing = But no one entered. { $emoji }
+giveaway-roll-none-left =
+    No one left to draw for { $prize }: every entrant has already won.
+    It was { $prize }
 giveaway-ended = Çekiliş Sona Erdi
 giveaway-ended-time = Çekiliş bitti! { $locale_formatted_time }!
 giveaway-no-winners = Kimse kazanamadı
@@ -101,6 +102,8 @@ giveaway-setup-roles-condition =
     Üyelerin belirttiğiniz rollerden herhangi birine mi yoksa hepsine mi sahip olmasını istiyorsunuz?
     Varsayılan olarak `hepsi` olarak ayarlanacaktır.
 giveaway-setup-roles-condition-invalid = Bu geçerli bir tür değil, `any` (herhangi) veya `all` (hepsi) olmalıdır. Lütfen tekrar deneyin.
+giveaway-setup-rolescondition-invalid = This is not a valid condition, it must be either `any` or `all`.
+giveaway-setup-config-roles-missing = These default roles no longer exist on this server, so this giveaway was created without them: { $roles }
 giveaway-setup-joindays = Üyeler kaç gündür sunucuda olmalı?
 giveaway-setup-joindays-too-low = Minimum gün sayısı 1'dir. Lütfen daha yüksek bir sayı ile tekrar deneyin.
 giveaway-setup-bypassrole = Daha önce belirlenen gereksinimleri atlayacak bir rol belirlemek istiyor musunuz?

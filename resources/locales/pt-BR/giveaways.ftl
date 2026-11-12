@@ -31,9 +31,10 @@ giveaway-roll-total-entries =
        *[other] entradas
     }!
 giveaway-roll-gg = Parabéns { $winners }!
-giveaway-roll-nothing =
-    Mas ninguém entrou. { $emoji }
-    Era { $prize }
+giveaway-roll-nothing = But no one entered. { $emoji }
+giveaway-roll-none-left =
+    No one left to draw for { $prize }: every entrant has already won.
+    It was { $prize }
 giveaway-ended = Sorteio finalizado
 giveaway-ended-time = Sorteio finalizado { $locale_formatted_time }!
 giveaway-no-winners = Ninguém ganhou
@@ -99,6 +100,8 @@ giveaway-setup-roles-invalid = { $value } não é um cargo válido. Por favor, t
 giveaway-setup-roles-too-many = Você só pode especificar um máximo de 5 cargos. Tente novamente com menos cargos.
 giveaway-setup-roles-condition = Você quer que os membros  precisem ter alguns ou todos os cargos que você que especificou? Por padrão vai ser definido como todos
 giveaway-setup-roles-condition-invalid = Isso não é uma opção, deve ser ou, 'algum' ou 'todos'.
+giveaway-setup-rolescondition-invalid = This is not a valid condition, it must be either `any` or `all`.
+giveaway-setup-config-roles-missing = These default roles no longer exist on this server, so this giveaway was created without them: { $roles }
 giveaway-setup-joindays = Há quantos dias os membros devem estar neste servidor?
 giveaway-setup-joindays-too-low = O número mínimo de dias é 1. Tente novamente com um número maior.
 giveaway-setup-bypassrole = Deseja definir um cargo que ignorará os requisitos definidos anteriormente?
