@@ -193,7 +193,7 @@ donate-patreon = प्रति माह दान, patron बने और �
 # max.length: 100
 help-ping = वॉट का अनुमानित लेटेंसी दिखाए (अभी के क्लस्टर के लिए)।
 # max.length: 100
-help-martine = Get all informations about Martine.
+help-martine = Get all the information about Martine.
 # max.length: 100
 help-info = Discord से संबंधित बहु-विषय मे जानकारी पाए।
 # max.length: 100

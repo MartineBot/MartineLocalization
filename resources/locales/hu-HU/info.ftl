@@ -174,7 +174,7 @@ em-id = Emoji ID
 # max.length: 100
 help-stickerinfo = Shows information about a sticker.
 sti-nothing = There's no sticker on this message.
-sti-failed = Failed to get informations about this sticker.
+sti-failed = Failed to get information about this sticker.
 sti-no-desc = No description
 sti-type = Type
 sti-server = Server sticker
@@ -193,7 +193,7 @@ donate-patreon = Per-month donation, become a Patron to get some awesome perks f
 # max.length: 100
 help-ping = Shows the latency estimation of the bot (for the current cluster).
 # max.length: 100
-help-martine = Get all informations about Martine.
+help-martine = Get all the information about Martine.
 # max.length: 100
 help-info = Get info of multiple things on Discord.
 # max.length: 100
@@ -211,7 +211,7 @@ help-info_role = Shows information about a role.
 # max.length: 100
 info_role-parameter-role-description = The role you want information about.
 # max.length: 100
-help-info_emoji = Shows information about a emoji.
+help-info_emoji = Shows information about an emoji.
 # max.length: 100
 info_emoji-parameter-emoji-description = The emoji you want information about.
 # max.length: 100

@@ -193,7 +193,7 @@ donate-patreon = Помесячное пожертвование, станьте
 # max.length: 100
 help-ping = Shows the latency estimation of the bot (for the current cluster).
 # max.length: 100
-help-martine = Get all informations about Martine.
+help-martine = Get all the information about Martine.
 # max.length: 100
 help-info = Get info of multiple things on Discord.
 # max.length: 100
@@ -211,7 +211,7 @@ help-info_role = Shows information about a role.
 # max.length: 100
 info_role-parameter-role-description = The role you want information about.
 # max.length: 100
-help-info_emoji = Shows information about a emoji.
+help-info_emoji = Shows information about an emoji.
 # max.length: 100
 info_emoji-parameter-emoji-description = The emoji you want information about.
 # max.length: 100

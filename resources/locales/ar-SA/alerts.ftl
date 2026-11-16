@@ -11,7 +11,7 @@ streams-desc =
     - For the message you can use the following placeholders: { "{" }streamer{ "}" } = the streamer name - { "{" }everyone{ "}" } = @everyone ping - { "{" }here{ "}" } = @here ping
     - If you want to delete the alert you can use the same command, and click on the "Disable" button.
     - By default the alerts will auto-refresh every 15 minutes, you can disable this by clicking on the "Disable message auto-refresh" button.
-    - You can change what happens when the stream ends by clicking on the "Change streams end behavior" button. You can either edit the message with some informations about the stream, or send a new message, or delete the message.
+    - You can change what happens when the stream ends by clicking on the "Change streams end behavior" button. You can either edit the message with some information about the stream, or send a new message, or delete the message.
 streams-message = Message
 streams-autorefresh = Auto-refresh
 streams-endbehavior = End behavior
@@ -31,9 +31,9 @@ streams-endbehavior-select = Change streams end behavior
 streams-deletealertmsg = Delete alert message
 streams-deletealertmsg-desc = This will delete the stream alert message.
 streams-editalertmsg = Edit alert message
-streams-editalertmsg-desc = This will edit the stream alert message with some informations about the stream.
+streams-editalertmsg-desc = This will edit the stream alert message with some information about the stream.
 streams-newmsg = Send new message
-streams-newmsg-desc = This will send a new message with some informations about the stream.
+streams-newmsg-desc = This will send a new message with some information about the stream.
 streams-same-endbehavior = Please select another behavior than the one currently selected.
 streams-endbehavior-changed = Successfully updated the stream end behavior.
 # max.length: 45
