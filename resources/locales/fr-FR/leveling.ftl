@@ -134,15 +134,15 @@ help-profileset_show = Shows your current profile settings.
 # max.length: 100
 help-profileset_background = View available profile backgrounds, and change it.
 # max.length: 100
-help-profileset_color = Set the secondary color.
+help-profileset_color = Définir la couleur secondaire.
 # max.length: 100
-profileset_color-parameter-color-description = The color value.
+profileset_color-parameter-color-description = La valeur de la couleur.
 # max.length: 100
-help-profileset_description = Change your description. Reset by don't providing a description.
+help-profileset_description = Modifiez votre description. Pour réinitialiser, ne renseignez pas de description.
 # max.length: 100
-profileset_description-parameter-description-description = The description value.
+profileset_description-parameter-description-description = La valeur de la description.
 # max.length: 100
-help-profileset_resetrep = Reset your reputation points.
+help-profileset_resetrep = Réinitialisez vos points de réputation.
 # max.length: 100
 help-lvlconvert = Convert levels and server settings from other bots to Martine.
 lvlconvert-lock = You cannot migrate data for this server for now because a migration is currently going. Please try again later.

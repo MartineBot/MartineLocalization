@@ -127,75 +127,75 @@ ci-created = Créé le
 ci-no-topic = Aucun sujet.
 ci-position = Poste
 ci-members = Participants
-ci-slowmode = Slowmode
+ci-slowmode = Mode lent
 ci-webhooks = Webhooks
-ci-threads = Threads
-ci-archived = Archived
-ci-archived-time = Archived Time
-ci-archiver = Archiver
-ci-private = Private
+ci-threads = Fils de discussion
+ci-archived = Archivées
+ci-archived-time = Temps archivé
+ci-archiver = Archiveur
+ci-private = Privé
 ci-messages = Messages
-ci-owner = Owner
+ci-owner = Propriétaire
 ci-parent = Parent
-ci-region = Region
-ci-region-automatic = Automatic
-ci-bitrate = Bitrate
+ci-region = Région
+ci-region-automatic = Automatique
+ci-bitrate = Débits Audio
 ci-unknown = Inconnu
-ci-user-limit = User limit
-ci-details-field = Details
-ci-id = Channel ID:
+ci-user-limit = Limite d'utilisateur
+ci-details-field = Détails
+ci-id = L'identifiant de la chaîne :
 # roleinfo command
 # max.length: 100
-help-roleinfo = Shows information about a role.
+help-roleinfo = Affiche les informations sur un rôle.
 ri-created = Créé le
 ri-members = Participants
-ri-colour = Colour
+ri-colour = Couleur
 ri-position = Poste
-ri-hoisted = Hoisted
-ri-managed = Managed
+ri-hoisted = Hissé
+ri-managed = Géré
 ri-mentionnable = Mentionnable
-ri-id = Role ID:
+ri-id = Identifiant du rôle:
 # emojiinfo command
 # max.length: 100
-help-emojiinfo = Shows information about an emoji.
-em-react = React to this message with the emoji of your choice
-em-cancelled = Cancelled
-em-unicode-char = Unicode character
-em-unicode-category = Unicode category
+help-emojiinfo = Affiche les informations sur un émoji.
+em-react = Réagis à ce message avec l'émoji de ton choix
+em-cancelled = Annulé
+em-unicode-char = Caractère Unicode
+em-unicode-category = Catégorie Unicode
 em-animated = Animée
-em-created = Created at
-em-required = required
-em-managed = Managed
-em-server = Server
+em-created = Créé à
+em-required = requis
+em-managed = Géré
+em-server = Serveur
 em-roles = Rôles
-em-custom = Custom emoji
-em-id = Emoji ID
+em-custom = Émoji personnalisé
+em-id = Identifiant de l'émoji
 # stickerinfo command
 # max.length: 100
-help-stickerinfo = Shows information about a sticker.
-sti-nothing = There's no sticker on this message.
-sti-failed = Failed to get information about this sticker.
-sti-no-desc = No description
+help-stickerinfo = Affiche les informations sur un sticker.
+sti-nothing = Il n'y a pas de sticker sur ce message.
+sti-failed = Impossible d'obtenir les informations sur ce sticker.
+sti-no-desc = Aucune description
 sti-type = Type
-sti-server = Server sticker
-sti-emoji = Emoji
-sti-created = Created at
-sti-standard = Standard sticker
+sti-server = Sticker du serveur
+sti-emoji = Émoji 
+sti-created = Créé à
+sti-standard = Sticker classique
 sti-pack = Pack
 sti-tags = tags
-sti-id = Sticker ID
+sti-id = Identifiant du sticker
 # donate command
 # max.length: 100
-help-donate = Shows the ways to support Martine development.
-donate-title = Here are the ways to support Martine development
-donate-kofi = One-time donation, unlocks you a role on Martine's server, and 10k marts (per month donated).
-donate-patreon = Per-month donation, become a Patron to get some awesome perks for you and your server!
+help-donate = Présente les différentes façons de soutenir le développement de Martine.
+donate-title = Voici les moyens de soutenir le développement de Martine
+donate-kofi = Un don unique, vous déverrouille un rôle sur le serveur de Martine, et 10k marts (par mois donné).
+donate-patreon = Dons par mois, devenez Patron pour obtenir des avantages géniaux pour vous et votre serveur!
 # max.length: 100
-help-ping = Shows the latency estimation of the bot (for the current cluster).
+help-ping = Affiche l'estimation de la latence du bot (pour le cluster actuel).
 # max.length: 100
-help-martine = Get all the information about Martine.
+help-martine = Découvrez toutes les informations concernant Martine.
 # max.length: 100
-help-info = Get info of multiple things on Discord.
+help-info = Obtenez des informations sur divers sujets sur Discord.
 # max.length: 100
 help-info_user = Afficher des informations sur un utilisateur.
 # max.length: 100
@@ -207,11 +207,11 @@ help-info_channel = Affiche des informations sur une chaîne. Par défaut : la c
 # max.length: 100
 info_channel-parameter-channel-description = La chaîne sur laquelle vous souhaitez obtenir des informations.
 # max.length: 100
-help-info_role = Shows information about a role.
+help-info_role = Affiche les informations sur un rôle.
 # max.length: 100
 info_role-parameter-role-description = Le rôle sur lequel vous voulez des informations.
 # max.length: 100
-help-info_emoji = Shows information about an emoji.
+help-info_emoji = Affiche les informations sur un émoji.
 # max.length: 100
 info_emoji-parameter-emoji-description = L'émoji sur lequel vous voulez des informations.
 # max.length: 100

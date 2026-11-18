@@ -135,3 +135,12 @@ join-language-contribute = { $language } is { $progress }% translated. You can h
 join-language-not-allowed = Only the server's admins and members with Manage Server can change Martine's language.
 # $command will be the language command, for example ,language.
 join-language-failed = Martine couldn't change the language. Try again, or use { $command }.
+# The four lines below are for the same card sent in a direct message to the person who added Martine. A direct message has no "this server", so they name it.
+# Above the language picker. $language will be the name of the server's language for Martine, for example English. $server will be the server's name.
+join-language-lead-private = Martine answers in { $language } on { $server }. Pick another language for everyone there:
+# The language picker before anything is picked. $server will be the server's name, which can be long: keep the rest short.
+# max.length: 60
+join-language-placeholder-private = Martine's language on { $server }
+# The private answers to a pick. $language will be the language's name, $server the server's name.
+join-language-changed-private = Martine now speaks { $language } on { $server }.
+join-language-same-private = Martine already speaks { $language } on { $server }.

@@ -261,7 +261,7 @@ sb-setup-no-perms = Je n'ai pas l'autorisation d'envoyer des messages ni d'inté
 sb-setup-title = { "✅" } Starboard Créé
 # $channel is the channel mention
 sb-setup-description = Starboard est disponible sur { $channel }
-sb-setup-field-emoji = Emoji
+sb-setup-field-emoji = Émoji 
 sb-setup-field-threshold = Seuil
 sb-setup-field-status = Statut
 sb-setup-field-tips = { "💡" } Astuces
