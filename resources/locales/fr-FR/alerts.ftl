@@ -22,8 +22,8 @@ streams-none = Il n'y a pas d'alerte de stream { $source } sur ce serveur.
 # $count will be the number of alerts left out of a cut list.
 alerts-list-more =
     { $count ->
-        [one] …and { $count } more
-       *[other] …and { $count } more
+        [un] …et { $count } autres
+       *[autre] …et { $count } autres
     }
 streams-disable-autorefresh = Désactiver l'actualisation automatique des messages
 streams-enable-autorefresh = Activer l'actualisation automatique des messages
@@ -58,7 +58,7 @@ streams-twitch-notfound = Impossible de trouver cet utilisateur Twitch.
 streams-kick-notfound = Impossible de trouver cet utilisateur Kick.
 streams-list-title = Liste des alertes de streams
 videos-list-title = Liste des alertes de vidéos
-posts-list-title = Post alerts list
+posts-list-title = Liste des alertes de publication
 videos-settings = Paramètres des alertes de vidéos
 videos-desc =
     Remarques :
@@ -83,57 +83,57 @@ videos-added = Une alerte a bien été ajoutée pour cette chaîne { $source } d
 videos-added-tip = Un message sera envoyé à chaque nouvelle vidéo.
 # $source will be the source of the video alert.
 videos-removed = L'alerte de cette chaîne { $source } a été supprimée de ce salon avec succès !
-videos-tiktok-lives-desc = - Live alerts: an alert is also sent when this TikTok user goes live. You can turn this off or customize its message ({ "{" }streamer{ "}" } = the streamer name) with the buttons below.
-videos-tiktok-lives = Live alerts
-videos-tiktok-live-message = Live message
+videos-tiktok-lives-desc = - Alertes en direct : une alerte est également envoyée lorsque cet utilisateur TikTok passe en direct. Vous pouvez désactiver cette fonctionnalité ou personnaliser son message ({ "{" }streamer{ "}" } = le nom du streamer) à l'aide des boutons ci-dessous.
+videos-tiktok-lives = Alertes en direct
+videos-tiktok-live-message = Message en direct
 # max.length: 80
-videos-tiktok-enable-lives = Enable live alerts
+videos-tiktok-enable-lives = Activer les alertes en direct
 # max.length: 80
-videos-tiktok-disable-lives = Disable live alerts
+videos-tiktok-disable-lives = Désactiver les alertes en direct
 # max.length: 80
-videos-tiktok-edit-live-msg-btn = Edit live message
-videos-tiktok-lives-enabled = Alright! Live alerts for this TikTok user are now enabled in this channel.
-videos-tiktok-lives-disabled = Alright! Live alerts for this TikTok user are now disabled in this channel.
-posts-settings = Post alerts settings
+videos-tiktok-edit-live-msg-btn = Modifier le message en direct
+videos-tiktok-lives-enabled = D'accord ! Les alertes en direct pour cet utilisateur de TikTok sont maintenant activées dans ce canal.
+videos-tiktok-lives-disabled = D'accord ! Les alertes en direct pour cet utilisateur de TikTok sont maintenant désactivées dans ce canal.
+posts-settings = Paramètres des alertes de publication
 posts-desc =
-    Notes:
-    - For the message you can use the following placeholders: { "{" }name{ "}" } = the account name - { "{" }everyone{ "}" } = @everyone ping - { "{" }here{ "}" } = @here ping
-    - If you want to delete the alert you can use the same command, and click on the "Disable" button.
+    Remarques :
+    - Pour le message, vous pouvez utiliser les espaces réservés suivants : { "{" }name{ "}" } = le nom du compte - { "{" }everyone{ "}" } = mention @everyone - { "{" }here{ "}" } = mention @here
+    - Si vous souhaitez supprimer l'alerte, vous pouvez utiliser la même commande, puis cliquer sur le bouton « Désactiver ».
 posts-message = Message
 # max.length: 80
 posts-settings-msg-btn = Modifier le message
 # max.length: 45
-posts-msg-modal = Post alerts message editor
+posts-msg-modal = Éditeur de messages d'alertes de publication
 # max.length: 45
-posts-msg-label = Set the message sent on post alerts.
+posts-msg-label = Définissez le message envoyé lors des alertes de publication.
 # max.length: 100
-posts-msg-placeholder = { "{" }name{ "}" } = the account name - { "{" }everyone{ "}" } = @everyone ping - { "{" }here{ "}" } = @here ping
-posts-msg-changed = Successfully updated the post alerts message!
+posts-msg-placeholder = { "{" }name{ "}" } = le nom du compte - { "{" }everyone{ "}" } = mention @everyone - { "{" }here{ "}" } = mention @here
+posts-msg-changed = Le message d'alerte concernant les publications a été mis à jour avec succès !
 # $source will be the source of the post alert.
-posts-count = { $source } post alerts in this server
+posts-count = { $source } publier des alertes sur ce serveur
 # $source will be the source of the post alert.
-posts-none = There are no { $source } post alerts in this server.
+posts-none = Il n'y a aucune alerte de publication { $source } sur ce serveur.
 # $source will be the source of the post alert.
-posts-added = Successfully added this { $source } account as a post alert in that channel!
-posts-added-tip = A message will be sent whenever a new post is made.
+posts-added = Le compte { $source } a bien été ajouté comme alerte de publication dans ce canal !
+posts-added-tip = Un message vous sera envoyé dès qu'un nouveau message sera publié.
 # $source will be the source of the post alert.
-posts-removed = Successfully removed this { $source } post alert from this channel!
+posts-removed = L'alerte { $source } a été supprimée avec succès de ce canal !
 # $label will be the repost label (Retweets, Reposts, Boosts).
-posts-repost-on = { $label }: ON
-posts-repost-off = { $label }: OFF
-posts-repost-enabled = { $label } alerts enabled.
-posts-repost-disabled = { $label } alerts disabled.
-posts-replies-on = Replies: ON
-posts-replies-off = Replies: OFF
-posts-replies-enabled = Reply alerts enabled.
-posts-replies-disabled = Reply alerts disabled.
+posts-repost-on = { $label } : activé
+posts-repost-off = { $label } : désactivé
+posts-repost-enabled = { $label } alertes activées.
+posts-repost-disabled = { $label } alertes désactivées.
+posts-replies-on = Réponses : Activées
+posts-replies-off = Réponses : Déactivées
+posts-replies-enabled = Les alertes de réponse sont activées.
+posts-replies-disabled = Les alertes de réponse sont désactivées.
 yt-notfound =
     Impossible de trouver cet utilisateur YouTube.
     Tu peux obtenir le « Channel ID » d'une chaîne YouTube en copiant son URL sur https://commentpicker.com/youtube-channel-id.php.
 tiktok-notfound = Impossible de trouver cet utilisateur TikTok.
-twitter-notfound = Couldn't find that Twitter/X user.
-bluesky-notfound = Couldn't find that Bluesky user.
-mastodon-notfound = Couldn't find that Mastodon user.
+twitter-notfound = Impossible de trouver cet utilisateur Twitter/X.
+bluesky-notfound = Impossible de trouver cet utilisateur Bluesky.
+mastodon-notfound = Impossible de trouver cet utilisateur Mastodon.
 # max.length: 100
 help-alerts = Gérer les alertes sur le serveur.
 # max.length: 100
@@ -165,24 +165,24 @@ help-alerts_streams_kick = Gérer l'alerte de stream d'un utilisateur Kick.
 # max.length: 100
 alerts_streams_kick-parameter-user_name_or_url-description = Le nom ou l'URL de la chaîne Kick.
 # max.length: 100
-help-alerts_streams_tiktok = Manage a live alert for a TikTok user.
+help-alerts_streams_tiktok = Gérer une alerte en temps réel pour un utilisateur de TikTok.
 # max.length: 100
 alerts_streams_tiktok-parameter-user_name_or_url-description = Le nom ou l'URL du compte TikTok.
 # max.length: 100
 help-alerts_streams_list = Liste de toutes les alertes de stream du serveur.
 # max.length: 100
-help-alerts_posts = Manage post alerts in this server.
+help-alerts_posts = Gérer les alertes de publication sur ce serveur.
 # max.length: 100
-help-alerts_posts_twitter = Manage a post alert for a Twitter/X account.
+help-alerts_posts_twitter = Gérer une alerte de publication pour un compte Twitter/X.
 # max.length: 100
-alerts_posts_twitter-parameter-twitter-account-or-url-description = The Twitter account name or URL.
+alerts_posts_twitter-parameter-twitter-account-or-url-description = Le nom du compte Twitter ou son URL.
 # max.length: 100
-help-alerts_posts_bluesky = Manage a post alert for a Bluesky account.
+help-alerts_posts_bluesky = Gérer une alerte de publication pour un compte Bluesky.
 # max.length: 100
-alerts_posts_bluesky-parameter-bluesky-handle-or-url-description = The Bluesky handle or profile URL.
+alerts_posts_bluesky-parameter-bluesky-handle-or-url-description = L'identifiant Bluesky ou l'URL du profil.
 # max.length: 100
-help-alerts_posts_mastodon = Manage a post alert for a Mastodon account.
+help-alerts_posts_mastodon = Gérer une alerte de publication pour un compte Mastodon.
 # max.length: 100
-alerts_posts_mastodon-parameter-mastodon-handle-or-url-description = The Mastodon handle or profile URL.
+alerts_posts_mastodon-parameter-mastodon-handle-or-url-description = L'identifiant Bluesky ou l'URL du profil.
 # max.length: 100
-help-alerts_posts_list = List all post alerts in this server.
+help-alerts_posts_list = Afficher toutes les alertes de publication sur ce serveur.

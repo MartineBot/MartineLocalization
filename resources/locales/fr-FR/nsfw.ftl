@@ -85,7 +85,7 @@ auto-setup-delay-btn = Modifier le délai
 auto-setup-amount-btn = Modifier la quantité d'images
 auto-setup-status-btn = Statut dans ce serveur
 # max.length: 80
-auto-setup-dashboard-btn = Edit on Dashboard
+auto-setup-dashboard-btn = Modifier dans le tableau de bord
 # max.length: 150
 auto-setup-select-placeholder = Sélectionner les catégories
 # max.length: 80

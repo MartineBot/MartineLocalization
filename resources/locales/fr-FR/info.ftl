@@ -69,64 +69,64 @@ si-banner-btn = Bannière
 # max.length: 80
 si-invite-bg-btn = Arrière-plan d'invitation
 # max.length: 80
-si-back-si-btn = Get back to server info
+si-back-si-btn = Revenir aux informations du serveur
 # userinfo command
 # max.length: 100
-help-userinfo = Shows information about a user.
-ui-app-info = Application Information
+help-userinfo = Afficher des informations sur un utilisateur.
+ui-app-info = Information de l'application
 ui-app-tags = Tags
-ui-app-tags-empty = Empty
-ui-app-flags = Application flags
-ui-app-presence = Presence Intent
-ui-app-members = Server Members Intent
-ui-app-msg = Message Content Intent
-ui-app-misc = Misc
-ui-app-guildcount = Approximate servers count
-ui-app-public = Public
-ui-app-slug = Slug
-ui-app-tos = Terms of Service
-ui-app-privacy = Privacy Policy
-ui-app-add = Add to Server
-ui-created-on = Created:
+ui-app-tags-empty = Vide
+ui-app-flags = Indicateurs d'application
+ui-app-presence = Intention de présence
+ui-app-members = Intention des membres du serveur
+ui-app-msg = Intention du contenu du message
+ui-app-misc = Divers
+ui-app-guildcount = Nombre approximatif de serveurs
+ui-app-public = Publique
+ui-app-slug = Identifiant d'Url
+ui-app-tos = Conditions d'utilisation
+ui-app-privacy = Politique de Confidentialité
+ui-app-add = Ajouter au serveur
+ui-created-on = Créé le :
 ui-badges = Badges
-ui-id = User ID:
-ui-userinfo-field = User info
+ui-id = Identifiant de l'Utilisateur :
+ui-userinfo-field = Info utilisateur
 ui-mention = Mention
-ui-activities = Activities
-ui-member = Member info
-ui-member-joined = Joined:
-ui-in-channel = channel:
-ui-booster-since = Booster since:
-ui-member-nick = Nickname:
-ui-customstatus-emojiandname = Custom status: { $emoji } { $name }
-ui-customstatus-emoji = Custom status: { $emoji }
-ui-customstatus-name = Custom status: { $name }
-ui-playing = Playing { $name }
-ui-streaming = Streaming { $name }
-ui-listening = Listening to { $name }
-ui-watching = Watching { $name }
-ui-competing = Competing in { $name }
-ui-roles = Roles
-ui-member = Member
-ui-select-assets = View user's avatar or banner...
+ui-activities = Activités
+ui-member = Info Membres
+ui-member-joined = Inscrit:
+ui-in-channel = chaîne:
+ui-booster-since = Booster depuis :
+ui-member-nick = Surnom :
+ui-customstatus-emojiandname = Statut personnalisé : { $emoji } { $name }
+ui-customstatus-emoji = Statut personnalisé : { $emoji }
+ui-customstatus-name = Statut personnalisé : { $name }
+ui-playing = Joue à { $name}
+ui-streaming = En streaming { $name }
+ui-listening = Je suis en train d'écouter { $name }
+ui-watching = En train de regarder { $name }
+ui-competing = Compétition sur { $name}
+ui-roles = Rôles
+ui-member = Membre
+ui-select-assets = Afficher l'avatar ou la bannière de l'utilisateur...
 ui-select-banner = Bannière
 ui-select-avatar = Avatar
-ui-select-server-avatar = Server avatar
-ui-no-banner = No banner set.
-ui-user-avatar = { $user } user avatar
-ui-server-avatar = { $user } server avatar
-ui-no-server-avatar = No server avatar set.
+ui-select-server-avatar = L'avatar du serveur
+ui-no-banner = Aucune bannière définie.
+ui-user-avatar = { $user } avatar de l'utilisateur
+ui-server-avatar = { $user } avatar du serveur
+ui-no-server-avatar = Aucun avatar du serveur défini.
 # max.length: 80
-ui-back-btn = Get back to user info
+ui-back-btn = Revenir aux informations de l'utilisateur
 # max.length: 80
-ui-perms-btn = View member permissions
+ui-perms-btn = Voir les permissions du membre
 # channelinfo command
 # max.length: 100
-help-channelinfo = Shows information about a channel. Default to current.
-ci-created = Created on
-ci-no-topic = No topic.
-ci-position = Position
-ci-members = Members
+help-channelinfo = Affiche des informations sur une chaîne. Par défaut : la chaîne actuelle.
+ci-created = Créé le
+ci-no-topic = Aucun sujet.
+ci-position = Poste
+ci-members = Participants
 ci-slowmode = Slowmode
 ci-webhooks = Webhooks
 ci-threads = Threads
@@ -147,10 +147,10 @@ ci-id = Channel ID:
 # roleinfo command
 # max.length: 100
 help-roleinfo = Shows information about a role.
-ri-created = Created on
-ri-members = Members
+ri-created = Créé le
+ri-members = Participants
 ri-colour = Colour
-ri-position = Position
+ri-position = Poste
 ri-hoisted = Hoisted
 ri-managed = Managed
 ri-mentionnable = Mentionnable
@@ -167,7 +167,7 @@ em-created = Created at
 em-required = required
 em-managed = Managed
 em-server = Server
-em-roles = Roles
+em-roles = Rôles
 em-custom = Custom emoji
 em-id = Emoji ID
 # stickerinfo command
@@ -197,26 +197,26 @@ help-martine = Get all the information about Martine.
 # max.length: 100
 help-info = Get info of multiple things on Discord.
 # max.length: 100
-help-info_user = Shows information about a user.
+help-info_user = Afficher des informations sur un utilisateur.
 # max.length: 100
-info_user-parameter-user-description = The user you want information about.
+info_user-parameter-user-description = L'utilisateur sur lequel vous voulez des informations.
 # max.length: 100
 help-info_server = Montre des informations à propos du serveur, des badges de membre et des ressources.
 # max.length: 100
-help-info_channel = Shows information about a channel. Default to current.
+help-info_channel = Affiche des informations sur une chaîne. Par défaut : la chaîne actuelle.
 # max.length: 100
-info_channel-parameter-channel-description = The channel you want information about.
+info_channel-parameter-channel-description = La chaîne sur laquelle vous souhaitez obtenir des informations.
 # max.length: 100
 help-info_role = Shows information about a role.
 # max.length: 100
-info_role-parameter-role-description = The role you want information about.
+info_role-parameter-role-description = Le rôle sur lequel vous voulez des informations.
 # max.length: 100
 help-info_emoji = Shows information about an emoji.
 # max.length: 100
-info_emoji-parameter-emoji-description = The emoji you want information about.
+info_emoji-parameter-emoji-description = L'émoji sur lequel vous voulez des informations.
 # max.length: 100
-help-info_bot_clusters = Shows clusters stats.
+help-info_bot_clusters = Affiche les statistiques des clusters.
 # max.length: 100
-help-info_bot_currentcluster = Shows infos about the current cluster.
+help-info_bot_currentcluster = Affiche des informations sur le cluster actuel.
 # max.length: 100
 help-help = Get the list of commands and important links.
