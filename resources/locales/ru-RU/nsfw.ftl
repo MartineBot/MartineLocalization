@@ -118,6 +118,12 @@ auto-status-categories =
         [one] **Категория:** { $categories }
        *[other] **Категории:** { $categories }
     }
+# $count will be the number of channels left out of the status.
+auto-status-more =
+    { $count ->
+        [one] { $count } more channel is not shown.
+       *[other] { $count } more channels are not shown.
+    }
 # max.length: 80
 auto-status-getback-btn = Вернуться к настройке
 # max.length: 45

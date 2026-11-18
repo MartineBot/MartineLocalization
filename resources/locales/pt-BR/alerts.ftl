@@ -19,6 +19,12 @@ streams-endbehavior = Comportamento de finalização
 streams-count = alertas de transmissão do(a) { $source} neste servidor
 # $source will be the source of the stream alert.
 streams-none = Não há { $source } alertas de transmissão neste servidor.
+# $count will be the number of alerts left out of a cut list.
+alerts-list-more =
+    { $count ->
+        [one] …and { $count } more
+       *[other] …and { $count } more
+    }
 streams-disable-autorefresh = Desativar a atualização automática de mensagens
 streams-enable-autorefresh = Ativar a atualização automática de mensagens
 # max.length: 80

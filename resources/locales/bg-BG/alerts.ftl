@@ -19,6 +19,12 @@ streams-endbehavior = Поведение в края
 streams-count = { $source } уведомления за излъчвания в този сървър
 # $source will be the source of the stream alert.
 streams-none = There are no { $source } stream alerts in this server.
+# $count will be the number of alerts left out of a cut list.
+alerts-list-more =
+    { $count ->
+        [one] …and { $count } more
+       *[other] …and { $count } more
+    }
 streams-disable-autorefresh = Disable message auto-refresh
 streams-enable-autorefresh = Enable message auto-refresh
 # max.length: 80

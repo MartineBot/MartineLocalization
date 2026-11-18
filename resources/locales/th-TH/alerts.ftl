@@ -19,6 +19,12 @@ streams-endbehavior = การทำงานเมื่อจบสตรี�
 streams-count = { $source } แจ้งเตือนสตรีมในเซิร์ฟเวอร์นี้
 # $source will be the source of the stream alert.
 streams-none = ไม่มีรายการแจ้งเตือนสตรีม { $source } ในเซิร์ฟเวอร์นี้
+# $count will be the number of alerts left out of a cut list.
+alerts-list-more =
+    { $count ->
+        [one] …and { $count } more
+       *[other] …and { $count } more
+    }
 streams-disable-autorefresh = ปิดใช้งานการรีเฟรชข้อความอัตโนมัติ
 streams-enable-autorefresh = เปิดใช้งานการรีเฟรชข้อความอัตโนมัติ
 # max.length: 80

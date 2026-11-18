@@ -19,6 +19,12 @@ streams-endbehavior = Eylemi sonlandır
 streams-count = { $source } bildirimleri bu sunucuda yayınlanıyor
 # $source will be the source of the stream alert.
 streams-none = Bu sunucuda { $source } yayın bildirimi yok.
+# $count will be the number of alerts left out of a cut list.
+alerts-list-more =
+    { $count ->
+        [one] …and { $count } more
+       *[other] …and { $count } more
+    }
 streams-disable-autorefresh = Mesajı otomatik yenilemeyi devre dışı bırak
 streams-enable-autorefresh = Mesajı otomatik yenilemeyi etkinleştir
 # max.length: 80
